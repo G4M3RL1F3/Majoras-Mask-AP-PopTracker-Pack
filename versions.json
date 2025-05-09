@@ -1,6 +1,20 @@
 {
   "versions": [
     {
+      "package_version": "0.9.1",
+      "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/archive/refs/tags/v0.9.1.zip",
+      "sha256": "7f70f7e0b519649379b062a09d95979f3422be4272a06f1682fd0525c7e1163d",
+      "changelog": [
+        "Removed visibility rules for Tingle locations",
+        "Fixed Damage Multiplier option not updating on server connection",
+        "Disabled Goron Village Deku Trade Freestanding HP (Spring)",
+        "Fixed late STT rooms showing green despite not having light arrows or mirror shield",
+        "Fixed some chest in GBT that were synchronized",
+        "Curiosity Shop rupee trades are now only visible when shopsanity is set to advanced",
+        "Logic fixes"
+      ]
+    },
+    {
       "package_version": "0.9.0",
       "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/releases/download/v0.9.0/Majoras-Mask-AP-PopTracker-Pack.zip",
       "sha256": "fd63baee31227ed7366b3bf5b91ca406aef8716bff8e89e373a0b76df14d45c3",

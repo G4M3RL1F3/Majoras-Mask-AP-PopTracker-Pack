@@ -139,7 +139,8 @@
             "name": "Goron Racetrack Prize",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead, powderkeg",
-              "normal_logic, $clear_snowhead, powderkeg"
+              "normal_logic, $clear_snowhead, powderkeg",
+              "normal_logic, $clear_snowhead, @Snowhead/Goron Village/Powder Keg Goron Reward"
             ]
           }
         ]

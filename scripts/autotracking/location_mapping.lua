@@ -143,9 +143,9 @@ LOCATION_MAPPING = {
     [0x3469420064600] = {"@Southern Swamp/Woodfall/Woodfall Near Swamp Entrance Chest","@Southern Swamp Hints/Woodfall Hints/Woodfall Near Swamp Entrance Chest (Hint)"},
     [0x3469420030001] = {"@Southern Swamp/Woodfall/Woodfall Great Fairy Reward","@Southern Swamp Hints/Woodfall Hints/Woodfall Great Fairy Reward (Hint)"},
     [0x3469420070168] = {"@Southern Swamp/Swamp Tourist Center/Tour Witch Target Shooting","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Witch Target Shooting (Hint)"},
-    [0x34694200701C5] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Winning Picture","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Winning Picture (Hint)"},
-    [0x3469420071C54] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Good Picture","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Good Picture (Hint)"},
-    [0x3469420071C52] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Okay Picture","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Okay Picture (Hint)"},
+    [0x34694200701C5] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Winning Picture (Tingle or Deku King)","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Winning Picture (Tingle or Deku King) (Hint)"},
+    [0x3469420071C54] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Good Picture (Big Octo)","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Good Picture (Big Octo) (Hint)"},
+    [0x3469420071C52] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Okay Picture (Anything else)","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Okay Picture (Anything else) (Hint)"},
 
     -- Swamp Spider House
     [0x346942006271E] = {"@Dungeons/Swamp Spider House/Swamphouse First Room Pot Near Entrance Token","@Dungeons Hints/Swamp Spider House Hints/Swamphouse First Room Pot Near Entrance Token (Hint)"},

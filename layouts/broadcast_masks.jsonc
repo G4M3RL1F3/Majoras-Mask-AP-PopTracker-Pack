@@ -8,7 +8,7 @@
         "type": "itemgrid",
         "h_alignment": "center",
         "v_alignment": "center",
-        "item_margin": "0,0",
+        "item_margin": "2,2",
         "rows": [
           [
             "postmanhat",

@@ -2,7 +2,7 @@
   "broadcast_item_grid": {
     "type": "array",
     "orientation": "vertical",
-    "margin": "1,1",
+    "margin": "17,1",
     "content": [
 //      {
 //        "type": "itemgrid",
@@ -108,39 +108,31 @@
         "type": "itemgrid",
         "h_alignment": "center",
         "v_alignment": "center",
-        "item_margin": "0,0",
+        "item_margin": "2,2",
         "rows": [
           [
             "ocarina",
             "bow",
             "firearrow",
             "icearrow",
-            "lightarrow",
-            "roomkey"
+            "lightarrow"
+            //"roomkey"
           ],
           [
             "bombs",
             "bombchu_bag",
             "sticks",
             "nuts",
-            "beans",
-            "pendant"
+            "beans"
+            //"pendant"
           ],
           [
             "powderkeg",
             "pictobox",
             "lensoftruth",
             "hookshot",
-            "gfs",
-            "kafeiletter"
-          ],
-          [
-            "moontear",
-            "landdeed",
-            "swampdeed",
-            "mountaindeed",
-            "oceandeed",
-            "express"
+            "gfs"
+            //"kafeiletter"
           ],
           [
             "redpotion",
@@ -149,6 +141,20 @@
             //"gold_dust",
             "empty_bottle",
             "bottles"
+          ],
+          [
+            "moontear",
+            "landdeed",
+            "swampdeed",
+            "mountaindeed",
+            "oceandeed"
+            //"express"
+          ],
+          [
+            "roomkey",
+            "pendant",
+            "kafeiletter",
+            "express"
           ]
         ]
       }

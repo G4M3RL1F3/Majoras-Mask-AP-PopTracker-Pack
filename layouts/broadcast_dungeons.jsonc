@@ -8,7 +8,7 @@
         "type": "itemgrid",
         "h_alignment": "center",
         "v_alignment": "center",
-        "item_margin": "8,0",
+        "item_margin": "10,1",
         "rows": [
           [
             "wft_header",

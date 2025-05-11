@@ -2,13 +2,13 @@
   "broadcast_equipment_grid": {
     "type": "array",
     "orientation": "vertical",
-    "margin": "16,1",
+    "margin": "17,1",
     "content": [
       {
         "type": "itemgrid",
         "h_alignment": "center",
         "v_alignment": "center",
-        "item_margin": "0,0",
+        "item_margin": "2,2",
         "rows": [
           [
             "spin_attack",

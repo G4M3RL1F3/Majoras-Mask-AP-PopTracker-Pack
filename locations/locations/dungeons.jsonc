@@ -92,7 +92,10 @@
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, fairymask",
-              "normal_logic, $has_projectiles"
+              "normal_logic, bow",
+              "normal_logic, deku, magic",
+              "normal_logic, fairymask, hookshot",
+              "normal_logic, fairymask, zora"
             ]
             //"visibility_rules": ["fairysanity"]
           },

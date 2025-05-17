@@ -209,7 +209,8 @@
             "name": "Initial Runway Ice Blowers Chest",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, hookshot",
-              "normal_logic, $can_use_fire_arrows, hookshot"
+              "normal_logic, $can_use_fire_arrows",
+              "normal_logic, hookshot"
             ]
           },
           {

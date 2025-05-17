@@ -5,6 +5,24 @@
     "chest_opened_img": "images/icons/check_32.png",
     "children": [
       {
+        "name": "Tingle",
+        "sections": [
+          {
+            "name": "Stone Tower Map Purchase",
+            "chest_unopened_img": "images/equipment/rmap_stonetower.png",
+            //"visibility_rules": [
+            //  "shuffle_regional_maps_vanilla",
+            //  "shuffle_regional_maps_anywhere"
+            //],
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, $great_bay, $baby_ikana_canyon",
+              "normal_logic, $ikana_canyon, $can_use_ice_arrows",
+              "normal_logic, $great_bay, $has_projectiles"
+            ]
+          }
+        ]
+      },
+      {
         "name": "Road to Ikana Pillar Chest",
         "sections": [
           {
@@ -157,16 +175,7 @@
             "ref": "Clock Town/Tingle Clock Town/Clock Town Map Purchase"
           },
           {
-            "name": "Stone Tower Map Purchase",
-            "chest_unopened_img": "images/equipment/rmap_stonetower.png",
-            //"visibility_rules": [
-            //  "shuffle_regional_maps_vanilla",
-            //  "shuffle_regional_maps_anywhere"
-            //],
-            "access_rules": [
-              "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, $great_bay",
-              "normal_logic, $has_projectiles, $great_bay"
-            ]
+            "ref": "Ikana/Tingle/Stone Tower Map Purchase"
           },
           {
             "name": "Music Box Mummy",

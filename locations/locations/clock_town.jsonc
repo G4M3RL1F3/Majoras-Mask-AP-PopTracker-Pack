@@ -578,7 +578,7 @@
       },
       {
         "name": "Laundry Pool Stray Fairy (Clock Town)",
-        "visibility_rules": ["fairysanity"],
+        //"visibility_rules": ["fairysanity"],
         "sections": [
           {
             "name": "Laundry Pool Stray Fairy (Clock Town)",

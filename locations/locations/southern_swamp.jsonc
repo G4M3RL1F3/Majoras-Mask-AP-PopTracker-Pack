@@ -44,7 +44,6 @@
         "name": "Swamp Shooting Gallery",
         "access_rules": ["bow"],
         "chest_unopened_img": "images/icons/archery.png",
-        "chest_opened_img": "images/icons/archery_grey.png",
         "sections": [
           {
             "name": "Swamp Shooting Gallery 2120 Points"

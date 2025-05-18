@@ -139,7 +139,7 @@
         ]
       },
       {
-        "name": "Ikana Canyon",
+        "name": "Near Secret Shrine Entrance",
         "access_rules": [
           "easy_logic, $baby_ikana_canyon",
           "normal_logic, $ikana_canyon"
@@ -148,7 +148,23 @@
           {
             "name": "Grotto Chest",
             "access_rules": [""]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 790,
+            "y": 246
+          }
+        ]
+      },
+      {
+        "name": "Near Thief's Hideout Entrance",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $ikana_canyon"
+        ],
+        "sections": [
           {
             "name": "Zora Scrub Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
@@ -170,7 +186,49 @@
             "name": "Zora Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["deku, zora, oceandeed"]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 791,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Ikana Canyon",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $ikana_canyon"
+        ],
+        "sections": [
+          //{
+          //  "name": "Grotto Chest",
+          //  "access_rules": [""]
+          //},
+          //{
+          //  "name": "Zora Scrub Trade",
+          //  "chest_unopened_img": "images/characters/scrub_merchant.png",
+          //  "access_rules": [
+          //    "easy_logic, $can_use_ice_arrows, hookshot, gibdo, garo, zora, oceandeed",
+          //    "normal_logic, zora, oceandeed"
+          //  ]
+          //},
+          //{
+          //  "name": "Deku Scrub Purchase Blue Potion",
+          //  "chest_unopened_img": "images/characters/scrub_merchant.png",
+          //  "visibility_rules": ["scrubsanity"],
+          //  "access_rules": [
+          //    "easy_logic, zora, $baby_has_bottle, adultswallet",
+          //    "normal_logic, zora, $has|bottles|1, adultswallet"
+          //  ]
+          //},
+          //{
+          //  "name": "Zora Trade Freestanding HP",
+          //  "chest_unopened_img": "images/equipment/heart_piece.png",
+          //  "access_rules": ["deku, zora, oceandeed"]
+          //},
           {
             "ref": "Clock Town/Tingle Clock Town/Clock Town Map Purchase"
           },

@@ -127,10 +127,12 @@
           },
           {
             "name": "Beaver Bros. Race Bottle Reward",
+            "chest_unopened_img": "images/icons/beaver_ring.png",
             "access_rules": ["hookshot, zora"]
           },
           {
             "name": "Beaver Bros. Race HP",
+            "chest_unopened_img": "images/icons/beaver_ring.png",
             "access_rules": ["hookshot, zora"]
           }
         ]

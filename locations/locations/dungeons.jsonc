@@ -6,8 +6,6 @@
     "children": [
       {
         "name": "Woodfall Temple",
-        "chest_unopened_img": "images/icons/chest.png",
-        "chest_opened_img": "images/icons/check_32.png",
         "access_rules": [
           "easy_logic, $baby_woodfall_temple",
           "normal_logic, $woodfall_temple"
@@ -198,8 +196,6 @@
       },
       {
         "name": "Snowhead Temple",
-        "chest_unopened_img": "images/icons/chest.png",
-        "chest_opened_img": "images/icons/check_32.png",
         "access_rules": [
           "easy_logic, $baby_snowhead_temple",
           "normal_logic, $snowhead_temple"
@@ -688,7 +684,6 @@
       {
         "name": "Swamp Spider House",
         "chest_unopened_img": "images/equipment/skull_ss.png",
-        "chest_opened_img": "images/icons/check_32.png",
         "access_rules": [
           "easy_logic, $baby_swamp_skull_house",
           "normal_logic, $swamp_skull_house"

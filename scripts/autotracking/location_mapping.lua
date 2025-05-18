@@ -396,10 +396,10 @@ LOCATION_MAPPING = {
     [0x346942006600A] = {"@Dungeons/Secret Shrine/Center Chest","@Dungeons Hints/Secret Shrine Hints/Center Chest (Hint)"},
 
     -- Ikana Canyon
-    [0x3469420060714] = {"@Ikana/Ikana Canyon/Grotto Chest","@Ikana Hints/Ikana Canyon Hints/Grotto Chest (Hint)"},
-    [0x3469420001307] = {"@Ikana/Ikana Canyon/Zora Scrub Trade","@Ikana Hints/Ikana Canyon Hints/Zora Scrub Trade (Hint)"},
-    [0x346942009015D] = {"@Ikana/Ikana Canyon/Deku Scrub Purchase Blue Potion","@Ikana Hints/Ikana Canyon Hints/Deku Scrub Purchase Blue Potion (Hint)"},
-    [0x346942005131E] = {"@Ikana/Ikana Canyon/Zora Trade Freestanding HP","@Ikana Hints/Ikana Canyon Hints/Zora Trade Freestanding HP (Hint)"},
+    [0x3469420060714] = {"@Ikana/Near Secret Shrine Entrance/Grotto Chest","@Ikana Hints/Near Secret Shrine Entrance Hints/Grotto Chest (Hint)"},
+    [0x3469420001307] = {"@Ikana/Near Thief's Hideout Entrance/Zora Scrub Trade","@Ikana Hints/Near Thief's Hideout Entrance Hints/Zora Scrub Trade (Hint)"},
+    [0x346942009015D] = {"@Ikana/Near Thief's Hideout Entrance/Deku Scrub Purchase Blue Potion","@Ikana Hints/Near Thief's Hideout Entrance Hints/Deku Scrub Purchase Blue Potion (Hint)"},
+    [0x346942005131E] = {"@Ikana/Near Thief's Hideout Entrance/Zora Trade Freestanding HP","@Ikana Hints/Near Thief's Hideout Entrance Hints/Zora Trade Freestanding HP (Hint)"},
     [0x34694200000B9] = {"@Ikana/Tingle/Stone Tower Map Purchase","@Ikana Hints/Ikana Canyon Hints/Stone Tower Map Purchase (Hint)"},
     [0x3469420000087] = {"@Ikana/Ikana Canyon/Music Box Mummy","@Ikana Hints/Ikana Canyon Hints/Music Box Mummy (Hint)"},
     [0x34694200701DE] = {"@Ikana/Ikana Canyon/Spirit House","@Ikana Hints/Ikana Canyon Hints/Spirit House (Hint)"},

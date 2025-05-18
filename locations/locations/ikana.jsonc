@@ -111,7 +111,7 @@
             "name": "Day 2 Iron Knuckle Chest",
             "access_rules": [
               "easy_logic, captainhat, $baby_can_smack_hard, $baby_has_explosives, $can_use_lens",
-              "normal_logic, captainhat, $can_smack_hard, $has_explosives"
+              "normal_logic, captainhat, $can_smack_hard, $has_explosives, $can_use_lens"
             ]
           },
           {

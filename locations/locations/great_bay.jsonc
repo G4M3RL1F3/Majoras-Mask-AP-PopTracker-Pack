@@ -137,6 +137,7 @@
       },
       {
         "name": "Zora Hall",
+        "access_rules": ["zora"],
         "map_locations": [
           {
             "map": "overworld",
@@ -185,7 +186,10 @@
           {
             "name": "Piano Zora Song",
             "chest_unopened_img": "images/characters/zora_piano.png",
-            "access_rules": ["zora, ocarina"]
+            "access_rules": [
+              "easy_logic, zora, hookshot",
+              "normal_logic, zora"
+            ]
           },
           {
             "name": "Torches Reward",

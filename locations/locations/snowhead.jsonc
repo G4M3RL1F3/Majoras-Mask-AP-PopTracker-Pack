@@ -26,6 +26,7 @@
           },
           {
             "name": "Feeding Freezing Goron",
+            "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
               "easy_logic, $can_play_lullaby, $can_use_fire_arrows",
               "normal_logic, goron, magic, $can_play_lullaby",
@@ -34,6 +35,7 @@
           },
           {
             "name": "Smithy Upgrade",
+            "chest_unopened_img": "images/equipment/sword2.png",
             "access_rules": [
               "easy_logic, adultswallet, $baby_clear_snowhead, $baby_has_bottle, @Mountain Village/Invisible Ladder Cave Healing Invisible Goron, $can_use_fire_arrows",
               "normal_logic, adultswallet, $can_use_fire_arrows",
@@ -43,6 +45,7 @@
           },
           {
             "name": "Smithy Gold Dust Upgrade",
+            "chest_unopened_img": "images/equipment/sword3.png",
             "access_rules": [
               "easy_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize",
               "normal_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize, $has|bottles|1"
@@ -104,6 +107,7 @@
           },
           {
             "name": "Goron Elder Request",
+            "chest_unopened_img": "images/characters/elder_goron.png",
             "access_rules": [
               "easy_logic, goron, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_has_bottle",
               "normal_logic, goron, $can_use_fire_arrows",
@@ -137,9 +141,11 @@
           },
           {
             "name": "Goron Racetrack Prize",
+            "chest_unopened_img": "images/items/gold_dust.png",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead, powderkeg",
-              "normal_logic, $clear_snowhead, powderkeg"
+              "normal_logic, $clear_snowhead, powderkeg",
+              "normal_logic, $clear_snowhead, @Snowhead/Goron Village/Powder Keg Goron Reward"
             ]
           }
         ]
@@ -191,6 +197,7 @@
         "sections": [
           {
             "name": "Baby Goron Lullaby",
+            "chest_unopened_img": "images/equipment/song_lullaby_no_text.png",
             "access_rules": [
               "easy_logic, goron, $can_play_lullaby, $can_use_lens, $can_play_healing, $can_use_fire_arrows, $baby_has_bottle",
               "normal_logic, goron, $can_play_lullaby"
@@ -237,6 +244,7 @@
           },
           {
             "name": "Deku Scrub Purchase Bomb Bag",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, goron, adultswallet",
@@ -246,14 +254,17 @@
           },
           {
             "name": "Deku Trade",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["deku, swampdeed"]
           },
           {
             "name": "Deku Trade Freestanding HP",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["@Goron Village/Deku Trade"]
           },
           {
             "name": "Powder Keg Goron Reward",
+            "chest_unopened_img": "images/items/keg.png",
             "access_rules": [
               "easy_logic, powderkeg, $baby_clear_snowhead, $can_use_fire_arrows",
               "normal_logic, $clear_snowhead",
@@ -314,6 +325,7 @@
         "sections": [
           {
             "name": "Snowhead Great Fairy Reward",
+            "chest_unopened_img": "images/equipment/fairy_sh.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": [
               "easy_logic, $baby_snowhead_temple, $has|fairy_sh|15",

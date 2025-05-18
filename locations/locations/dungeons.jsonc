@@ -6,8 +6,6 @@
     "children": [
       {
         "name": "Woodfall Temple",
-        "chest_unopened_img": "images/icons/chest.png",
-        "chest_opened_img": "images/icons/check_32.png",
         "access_rules": [
           "easy_logic, $baby_woodfall_temple",
           "normal_logic, $woodfall_temple"
@@ -92,7 +90,10 @@
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, fairymask",
-              "normal_logic, $has_projectiles"
+              "normal_logic, bow",
+              "normal_logic, deku, magic",
+              "normal_logic, fairymask, hookshot",
+              "normal_logic, fairymask, zora"
             ]
             //"visibility_rules": ["fairysanity"]
           },
@@ -195,8 +196,6 @@
       },
       {
         "name": "Snowhead Temple",
-        "chest_unopened_img": "images/icons/chest.png",
-        "chest_opened_img": "images/icons/check_32.png",
         "access_rules": [
           "easy_logic, $baby_snowhead_temple",
           "normal_logic, $snowhead_temple"
@@ -206,7 +205,8 @@
             "name": "Initial Runway Ice Blowers Chest",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, hookshot",
-              "normal_logic, $can_use_fire_arrows, hookshot"
+              "normal_logic, $can_use_fire_arrows",
+              "normal_logic, hookshot"
             ]
           },
           {
@@ -684,7 +684,6 @@
       {
         "name": "Swamp Spider House",
         "chest_unopened_img": "images/equipment/skull_ss.png",
-        "chest_opened_img": "images/icons/check_32.png",
         "access_rules": [
           "easy_logic, $baby_swamp_skull_house",
           "normal_logic, $swamp_skull_house"

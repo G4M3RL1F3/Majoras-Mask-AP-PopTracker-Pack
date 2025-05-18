@@ -853,8 +853,8 @@
             ]
           },
           {
-            "name": "Blue Rupee Trade (Half Milk)",
-            "chest_unopened_img": "images/items/half_milk_bottle.png",
+            "name": "Blue Rupee Trade (Half Milk, Magic Mushroom)",
+            "chest_unopened_img": "images/items/half_mushroom_bottle.png",
             "visibility_rules": ["shopsanity_advanced"],
             "access_rules": [
               "easy_logic, @Southern Swamp/Southern Swamp Witch Shop/Item 1, $baby_can_get_cow_milk",

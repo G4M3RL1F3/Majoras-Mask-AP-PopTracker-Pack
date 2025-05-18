@@ -94,6 +94,48 @@
         ]
       },
       {
+        "name": "Near Secret Shrine Entrance Hints",
+        "sections": [
+          {
+            "name": "Grotto Chest (Hint)",
+            "visibility_rules": ["ikana_canyon_grotto_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 782,
+            "y": 246
+          }
+        ]
+      },
+      {
+        "name": "Near Thief's Hideout Entrance Hints",
+        "sections": [
+          {
+            "name": "Zora Scrub Trade (Hint)",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "visibility_rules": ["ikana_canyon_zora_scrub_trade"]
+          },
+          {
+            "name": "Deku Scrub Purchase Blue Potion (Hint)",
+            "visibility_rules": ["ikana_canyon_scrub_purchase_blue_potion"]
+          },
+          {
+            "name": "Zora Trade Freestanding HP (Hint)",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "visibility_rules": ["ikana_canyon_deed_trade"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 783,
+            "y": 312
+          }
+        ]
+      },
+      {
         "name": "Ikana Canyon Hints",
         "access_rules": [
           "easy_logic, $baby_ikana_canyon",

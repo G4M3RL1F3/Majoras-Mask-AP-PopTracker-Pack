@@ -691,8 +691,8 @@
               "visibility_rules": ["curiosity_shop_stolen_item"]
             },
             {
-              "name": "Blue Rupee Trade (Half Milk) (Hint)",
-              "chest_unopened_img": "images/items/half_milk_bottle.png",
+              "name": "Blue Rupee Trade (Half Milk, Magic Mushroom) (Hint)",
+              "chest_unopened_img": "images/items/half_mushroom_bottle.png",
               "visibility_rules": ["curiosity_blue_rupee_trade"]
             },
             {

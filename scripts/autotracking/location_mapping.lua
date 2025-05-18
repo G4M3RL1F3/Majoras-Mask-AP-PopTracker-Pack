@@ -72,14 +72,14 @@ LOCATION_MAPPING = {
     [0x346942009000C] = {"@Clock Town/Trading Post/Shop (Night) Item 6","@Clock Town Hints/Trading Post Hints/Shop (Night) Item 6 (Hint)"},
     [0x346942009000F] = {"@Clock Town/Trading Post/Shop (Night) Item 7","@Clock Town Hints/Trading Post Hints/Shop (Night) Item 7 (Hint)"},
     [0x346942009000D] = {"@Clock Town/Trading Post/Shop (Night) Item 8","@Clock Town Hints/Trading Post Hints/Shop (Night) Item 8 (Hint)"},
-    [0x346942009001A] = {"@Clock Town/Bomb Shop/Item 1","Clock Town Hints/Bomb Shop Hints/Item 1 (Hint)"},
-    [0x3469420090019] = {"@Clock Town/Bomb Shop/Item 2","Clock Town Hints/Bomb Shop Hints/Item 2 (Hint)"},
-    [0x3469420090017] = {"@Clock Town/Bomb Shop/Item 3","Clock Town Hints/Bomb Shop Hints/Item 3 (Hint)"},
+    [0x346942009001A] = {"@Clock Town/Bomb Shop/Item 1","@Clock Town Hints/Bomb Shop Hints/Item 1 (Hint)"},
+    [0x3469420090019] = {"@Clock Town/Bomb Shop/Item 2","@Clock Town Hints/Bomb Shop Hints/Item 2 (Hint)"},
+    [0x3469420090017] = {"@Clock Town/Bomb Shop/Item 3","@Clock Town Hints/Bomb Shop Hints/Item 3 (Hint)"},
     [0x3469420090018] = {"@Clock Town/Bomb Shop/Item 3 (Stop Thief)","Clock Town Hints/Bomb Shop Hints/Item 3 (Stop Thief) (Hint)"},
     [0x3469420024234] = {"@Clock Town/Bomb Shop/Powder Keg Goron","@Clock Town Hints/Bomb Shop Hints/Powder Keg Goron (Hint)"},
     [0x3469420090013] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Curiosity Shop Night 3 (Stop Thief) (Hint)"},
     [0x3469420090015] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 Thief Stolen Item","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Curiosity Shop Night 3 Thief Stolen Item (Hint)"},
-    [0x346942007C402] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Blue Rupee Trade (Half Milk)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Blue Rupee Trade (Half Milk) (Hint)"},
+    [0x346942007C402] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Blue Rupee Trade (Half Milk, Magic Mushroom)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Blue Rupee Trade (Half Milk, Magic Mushroom) (Hint)"},
     [0x346942007C404] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg) (Hint)"},
     [0x346942007C405] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Purple Rupee Trade (Poe)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Purple Rupee Trade (Poe) (Hint)"},
     [0x346942007C407] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Gold Rupee Trade (Big Poe, Chateau, Gold Dust)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Gold Rupee Trade (Big Poe, Chateau, Gold Dust) (Hint)"},
@@ -126,9 +126,9 @@ LOCATION_MAPPING = {
     [0x3469420090135] = {"@Southern Swamp/Swamp Business Scrub/Southern Swamp Deku Scrub Purchase Beans","@Southern Swamp Hints/Swamp Business Scrub Hints/Southern Swamp Deku Scrub Purchase Beans (Hint)"},
     [0x346942005451E] = {"@Southern Swamp/Swamp Business Scrub/Southern Swamp Deku Trade Freestanding HP","@Southern Swamp Hints/Swamp Business Scrub Hints/Southern Swamp Deku Trade Freestanding HP (Hint)"},
     [0x3469420000059] = {"@Southern Swamp/Southern Swamp Healthy Witch Request/Southern Swamp Healthy Witch Request","@Southern Swamp Hints/Southern Swamp Healthy Witch Request Hints/Southern Swamp Healthy Witch Request (Hint)"},
-    [0x3469420090002] = {"@Southern Swamp/Southern Swamp Witch Shop/Item 1","Southern Swamp Hints/Souther Swamp Witch Shop Hints/Item 1 (Hint)"},
-    [0x3469420090001] = {"@Southern Swamp/Southern Swamp Witch Shop/Item 2","Southern Swamp Hints/Souther Swamp Witch Shop Hints/Item 2 (Hint)"},
-    [0x3469420090000] = {"@Southern Swamp/Southern Swamp Witch Shop/Item 3","Southern Swamp Hints/Souther Swamp Witch Shop Hints/Item 3 (Hint)"},
+    [0x3469420090002] = {"@Southern Swamp/Southern Swamp Witch Shop/Item 1","@Southern Swamp Hints/Souther Swamp Witch Shop Hints/Item 1 (Hint)"},
+    [0x3469420090001] = {"@Southern Swamp/Southern Swamp Witch Shop/Item 2","@Southern Swamp Hints/Souther Swamp Witch Shop Hints/Item 2 (Hint)"},
+    [0x3469420090000] = {"@Southern Swamp/Southern Swamp Witch Shop/Item 3","@Southern Swamp Hints/Souther Swamp Witch Shop Hints/Item 3 (Hint)"},
     [0x346942006071C] = {"@Southern Swamp/Southern Swamp Mystery Woods Grotto Chest/Southern Swamp Mystery Woods Grotto Chest (Day 2)","@Southern Swamp Hints/Southern Swamp Mystery Woods Grotto Chest Hints/Southern Swamp Mystery Woods Grotto Chest (Day 2) (Hint)"},
     [0x3469420000043] = {"@Southern Swamp/Swamp Tourist Center/Southern Swamp Tour Witch Gift","@Southern Swamp Hints/Swamp Tourist Center Hints/Southern Swamp Tour Witch Gift (Hint)"},
     [0x346942006071D] = {"@Southern Swamp/Southern Swamp Near Swamphouse Grotto Chest/Southern Swamp Near Swamphouse Grotto Chest","@Southern Swamp Hints/Southern Swamp Near Swamphouse Grotto Chest Hints/Southern Swamp Near Swamphouse Grotto Chest (Hint)"},
@@ -143,9 +143,9 @@ LOCATION_MAPPING = {
     [0x3469420064600] = {"@Southern Swamp/Woodfall/Woodfall Near Swamp Entrance Chest","@Southern Swamp Hints/Woodfall Hints/Woodfall Near Swamp Entrance Chest (Hint)"},
     [0x3469420030001] = {"@Southern Swamp/Woodfall/Woodfall Great Fairy Reward","@Southern Swamp Hints/Woodfall Hints/Woodfall Great Fairy Reward (Hint)"},
     [0x3469420070168] = {"@Southern Swamp/Swamp Tourist Center/Tour Witch Target Shooting","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Witch Target Shooting (Hint)"},
-    [0x34694200701C5] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Winning Picture","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Winning Picture (Hint)"},
-    [0x3469420071C54] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Good Picture","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Good Picture (Hint)"},
-    [0x3469420071C52] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Okay Picture","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Okay Picture (Hint)"},
+    [0x34694200701C5] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Winning Picture (Tingle or Deku King)","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Winning Picture (Tingle or Deku King) (Hint)"},
+    [0x3469420071C54] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Good Picture (Big Octo)","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Good Picture (Big Octo) (Hint)"},
+    [0x3469420071C52] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Okay Picture (Anything else)","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Okay Picture (Anything else) (Hint)"},
 
     -- Swamp Spider House
     [0x346942006271E] = {"@Dungeons/Swamp Spider House/Swamphouse First Room Pot Near Entrance Token","@Dungeons Hints/Swamp Spider House Hints/Swamphouse First Room Pot Near Entrance Token (Hint)"},
@@ -234,8 +234,8 @@ LOCATION_MAPPING = {
     [0x3469420054D1E] = {"@Snowhead/Goron Village/Deku Trade Freestanding HP","@Snowhead Hints/Goron Village Hints/Deku Trade Freestanding HP (Hint)"},
     [0x3469420000034] = {"@Snowhead/Goron Village/Powder Keg Goron Reward","@Snowhead Hints/Goron Village Hints/Powder Keg Goron Reward (Hint)"},
     [0x346942005481E] = {"@Snowhead/Goron Village/Deku Trade Freestanding HP (Spring)","@Snowhead Hints/Goron Village Hints/Deku Trade Freestanding HP (Spring) (Hint)"},
-    [0x3469420060713] = {"@Snowhead/Path to Snowhead/Grotto Chest","Snowhead Hints/Path to Snowhead Hints/Grotto Chest (Hint)"},
-    [0x3469420055B08] = {"@Snowhead/Path to Snowhead/Scarecrow Pillar HP","Snowhead Hints/Path to Snowhead Hints/Scarecrow Pillar HP (Hint)"},
+    [0x3469420060713] = {"@Snowhead/Path to Snowhead/Grotto Chest","@Snowhead Hints/Path to Snowhead Hints/Grotto Chest (Hint)"},
+    [0x3469420055B08] = {"@Snowhead/Path to Snowhead/Scarecrow Pillar HP","@Snowhead Hints/Path to Snowhead Hints/Scarecrow Pillar HP (Hint)"},
     [0x3469420030002] = {"@Snowhead/Snowhead/Snowhead Great Fairy Reward","@Snowhead Hints/Snowhead Hints/Snowhead Great Fairy Reward (Hint)"},
 
     -- Snowhead Temple
@@ -389,18 +389,18 @@ LOCATION_MAPPING = {
     [0x3469420064300] = {"@Ikana/Graveyard/Sonata To Wake Sleeping Skeleton Chest","@Ikana Hints/Graveyard Hints/Sonata To Wake Sleeping Skeleton Chest (Hint)"},
 
     -- Secret Shrine
-    [0x3469420066000] = {"@Dungeons/Secret Shrine/Left Chest","Dungeons Hints/Secret Shrine Hints/Left Chest (Hint)"},
-    [0x3469420066001] = {"@Dungeons/Secret Shrine/Middle-Left Chest","Dungeons Hints/Secret Shrine Hints/Middle-Left Chest (Hint)"},
-    [0x3469420066002] = {"@Dungeons/Secret Shrine/Middle-Right Chest","Dungeons Hints/Secret Shrine Hints/Middle-Right Chest (Hint)"},
-    [0x3469420066003] = {"@Dungeons/Secret Shrine/Right Chest","Dungeons Hints/Secret Shrine Hints/Right Chest (Hint)"},
-    [0x346942006600A] = {"@Dungeons/Secret Shrine/Center Chest","Dungeons Hints/Secret Shrine Hints/Center Chest (Hint)"},
+    [0x3469420066000] = {"@Dungeons/Secret Shrine/Left Chest","@Dungeons Hints/Secret Shrine Hints/Left Chest (Hint)"},
+    [0x3469420066001] = {"@Dungeons/Secret Shrine/Middle-Left Chest","@Dungeons Hints/Secret Shrine Hints/Middle-Left Chest (Hint)"},
+    [0x3469420066002] = {"@Dungeons/Secret Shrine/Middle-Right Chest","@Dungeons Hints/Secret Shrine Hints/Middle-Right Chest (Hint)"},
+    [0x3469420066003] = {"@Dungeons/Secret Shrine/Right Chest","@Dungeons Hints/Secret Shrine Hints/Right Chest (Hint)"},
+    [0x346942006600A] = {"@Dungeons/Secret Shrine/Center Chest","@Dungeons Hints/Secret Shrine Hints/Center Chest (Hint)"},
 
     -- Ikana Canyon
-    [0x3469420060714] = {"@Ikana/Ikana Canyon/Grotto Chest","@Ikana Hints/Ikana Canyon Hints/Grotto Chest (Hint)"},
-    [0x3469420001307] = {"@Ikana/Ikana Canyon/Zora Scrub Trade","@Ikana Hints/Ikana Canyon Hints/Zora Scrub Trade (Hint)"},
-    [0x346942009015D] = {"@Ikana/Ikana Canyon/Deku Scrub Purchase Blue Potion","@Ikana Hints/Ikana Canyon Hints/Deku Scrub Purchase Blue Potion (Hint)"},
-    [0x346942005131E] = {"@Ikana/Ikana Canyon/Zora Trade Freestanding HP","@Ikana Hints/Ikana Canyon Hints/Zora Trade Freestanding HP (Hint)"},
-    [0x34694200000B9] = {"@Ikana/Ikana Canyon/Stone Tower Map Purchase","@Ikana Hints/Ikana Canyon Hints/Stone Tower Map Purchase (Hint)"},
+    [0x3469420060714] = {"@Ikana/Near Secret Shrine Entrance/Grotto Chest","@Ikana Hints/Near Secret Shrine Entrance Hints/Grotto Chest (Hint)"},
+    [0x3469420001307] = {"@Ikana/Near Thief's Hideout Entrance/Zora Scrub Trade","@Ikana Hints/Near Thief's Hideout Entrance Hints/Zora Scrub Trade (Hint)"},
+    [0x346942009015D] = {"@Ikana/Near Thief's Hideout Entrance/Deku Scrub Purchase Blue Potion","@Ikana Hints/Near Thief's Hideout Entrance Hints/Deku Scrub Purchase Blue Potion (Hint)"},
+    [0x346942005131E] = {"@Ikana/Near Thief's Hideout Entrance/Zora Trade Freestanding HP","@Ikana Hints/Near Thief's Hideout Entrance Hints/Zora Trade Freestanding HP (Hint)"},
+    [0x34694200000B9] = {"@Ikana/Tingle/Stone Tower Map Purchase","@Ikana Hints/Ikana Canyon Hints/Stone Tower Map Purchase (Hint)"},
     [0x3469420000087] = {"@Ikana/Ikana Canyon/Music Box Mummy","@Ikana Hints/Ikana Canyon Hints/Music Box Mummy (Hint)"},
     [0x34694200701DE] = {"@Ikana/Ikana Canyon/Spirit House","@Ikana Hints/Ikana Canyon Hints/Spirit House (Hint)"},
     [0x3469420030004] = {"@Ikana/Ikana Canyon/Stone Tower Great Fairy Reward","@Ikana Hints/Ikana Canyon Hints/Stone Tower Great Fairy Reward (Hint)"},
@@ -439,16 +439,16 @@ LOCATION_MAPPING = {
     [0x346942006160C] = {"@Dungeons/Stone Tower Temple/Eyegore Chest","@Dungeons Hints/Stone Tower Temple Hints/Eyegore Chest (Hint)"},
 
     -- Inverted Stone Tower Temple
-    [0x3469420061810] = {"@Dungeons/Inverted Stone Tower Temple/Entrance Room Sun Face Chest","Dungeons Hints/Inverted Stone Tower Hints/Entrance Room Sun Face Chest (Hint)"},
-    [0x346942006180E] = {"@Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Fire Chest","Dungeons Hints/Inverted Stone Tower Hints/Eastern Air Gust Room Fire Chest (Hint)"},
-    [0x3469420061813] = {"@Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Ice Eye Switch Chest","Dungeons Hints/Inverted Stone Tower Hints/Eastern Air Gust Room Ice Eye Switch Chest (Hint)"},
-    [0x3469420061804] = {"@Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Hall Floor Switch Chest","Dungeons Hints/Inverted Stone Tower Hints/Eastern Air Gust Room Hall Floor Switch Chest (Hint)"},
-    [0x3469420061811] = {"@Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest","Dungeons Hints/Inverted Stone Tower Hints/Wizzrobe Chest (Hint)"},
-    [0x3469420061805] = {"@Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest","Dungeons Hints/Inverted Stone Tower Hints/Death Armos Maze Chest (Hint)"},
-    [0x346942006181E] = {"@Dungeons/Inverted Stone Tower Temple/Gomess Chest","Dungeons Hints/Inverted Stone Tower Hints/Gomess Chest (Hint)"},
-    [0x346942006181A] = {"@Dungeons/Inverted Stone Tower Temple/Eyegore Chest","Dungeons Hints/Inverted Stone Tower Hints/Eyegore Chest (Hint)"},
-    [0x3469420053600] = {"@Dungeons/Inverted Stone Tower Temple/Heart Container","Dungeons Hints/Inverted Stone Tower Hints/Heart Container (Hint)"},
-    [0x3469420000058] = {"@Dungeons/Inverted Stone Tower Temple/Twinmold's Remains","Dungeons Hints/Inverted Stone Tower Hints/Twinmold's Remains (Hint)"},
+    [0x3469420061810] = {"@Dungeons/Inverted Stone Tower Temple/Entrance Room Sun Face Chest","@Dungeons Hints/Inverted Stone Tower Hints/Entrance Room Sun Face Chest (Hint)"},
+    [0x346942006180E] = {"@Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Fire Chest","@Dungeons Hints/Inverted Stone Tower Hints/Eastern Air Gust Room Fire Chest (Hint)"},
+    [0x3469420061813] = {"@Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Ice Eye Switch Chest","@Dungeons Hints/Inverted Stone Tower Hints/Eastern Air Gust Room Ice Eye Switch Chest (Hint)"},
+    [0x3469420061804] = {"@Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Hall Floor Switch Chest","@Dungeons Hints/Inverted Stone Tower Hints/Eastern Air Gust Room Hall Floor Switch Chest (Hint)"},
+    [0x3469420061811] = {"@Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest","@Dungeons Hints/Inverted Stone Tower Hints/Wizzrobe Chest (Hint)"},
+    [0x3469420061805] = {"@Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest","@Dungeons Hints/Inverted Stone Tower Hints/Death Armos Maze Chest (Hint)"},
+    [0x346942006181E] = {"@Dungeons/Inverted Stone Tower Temple/Gomess Chest","@Dungeons Hints/Inverted Stone Tower Hints/Gomess Chest (Hint)"},
+    [0x346942006181A] = {"@Dungeons/Inverted Stone Tower Temple/Eyegore Chest","@Dungeons Hints/Inverted Stone Tower Hints/Eyegore Chest (Hint)"},
+    [0x3469420053600] = {"@Dungeons/Inverted Stone Tower Temple/Heart Container","@Dungeons Hints/Inverted Stone Tower Hints/Heart Container (Hint)"},
+    [0x3469420000058] = {"@Dungeons/Inverted Stone Tower Temple/Twinmold's Remains","@Dungeons Hints/Inverted Stone Tower Hints/Twinmold's Remains (Hint)"},
 
     -- Moon
     [0x3469420052A01] = {"@Inside the Moon/Deku Trial/Heart Piece","@Inside the Moon Hints/Deku Trial Hints/Heart Piece (Hint)"},
@@ -460,5 +460,5 @@ LOCATION_MAPPING = {
     [0x346942000007B] = {"@Inside the Moon/The Moon/Trade All Masks","@Inside the Moon Hints/Link Trial Hints/Trade All Masks (Hint)"},
 
     -- Any Boss
-    [0x3469420040065] = {"@Dungeons/Any Boss/Oath to Order","Dungeons Hints/Any Boss Hints/Oath to Order (Hint)"}
+    [0x3469420040065] = {"@Dungeons/Any Boss/Oath to Order","@Dungeons Hints/Any Boss Hints/Oath to Order (Hint)"}
 }

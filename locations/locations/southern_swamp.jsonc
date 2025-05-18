@@ -44,7 +44,6 @@
         "name": "Swamp Shooting Gallery",
         "access_rules": ["bow"],
         "chest_unopened_img": "images/icons/archery.png",
-        "chest_opened_img": "images/icons/archery_grey.png",
         "sections": [
           {
             "name": "Swamp Shooting Gallery 2120 Points"
@@ -136,14 +135,13 @@
           {
             "name": "Tour Witch Target Shooting",
             "chest_unopened_img": "images/icons/archery.png",
-            "chest_opened_img": "images/icons/archery_grey.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, redpotion, chateau, bow",
               "normal_logic, $clear_woodfall, $has|bottles|1, bow"
             ]
           },
           {
-            "name": "Tour Guide Winning Picture",
+            "name": "Tour Guide Winning Picture (Tingle or Deku King)",
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
               "easy_logic, $baby_deku_palace, pictobox",
@@ -151,7 +149,7 @@
             ]
           },
           {
-            "name": "Tour Guide Good Picture",
+            "name": "Tour Guide Good Picture (Big Octo)",
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
               "easy_logic, $baby_deku_palace, pictobox",
@@ -159,7 +157,7 @@
             ]
           },
           {
-            "name": "Tour Guide Okay Picture",
+            "name": "Tour Guide Okay Picture (Anything else)",
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
               "easy_logic, $baby_deku_palace, pictobox",

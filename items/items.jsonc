@@ -115,16 +115,16 @@
       },
       {
         "img": "images/items/bombchu.png",
-        "img_mods": "overlay|images/icons/overlay_10.png",
+        "img_mods": "overlay|images/icons/overlay_20.png",
         "codes": "bombchu_bag"
       },
       {
         "img": "images/items/bombchu.png",
-        "img_mods": "overlay|images/icons/overlay_20.png"
+        "img_mods": "overlay|images/icons/overlay_30.png"
       },
       {
         "img": "images/items/bombchu.png",
-        "img_mods": "overlay|images/icons/overlay_30_green.png"
+        "img_mods": "overlay|images/icons/overlay_40_green.png"
       }
     ]
   },

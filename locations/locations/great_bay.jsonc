@@ -28,7 +28,7 @@
             "ref": "Romani Ranch/Tingle Milk Road/Great Bay Map Purchase"
           },
           {
-            "ref": "Ikana/Ikana Canyon/Stone Tower Map Purchase"
+            "ref": "Ikana/Tingle/Stone Tower Map Purchase"
           },
           {
             "name": "Marine Research Lab Zora Egg Delivery Song",
@@ -127,16 +127,19 @@
           },
           {
             "name": "Beaver Bros. Race Bottle Reward",
+            "chest_unopened_img": "images/icons/beaver_ring.png",
             "access_rules": ["hookshot, zora"]
           },
           {
             "name": "Beaver Bros. Race HP",
+            "chest_unopened_img": "images/icons/beaver_ring.png",
             "access_rules": ["hookshot, zora"]
           }
         ]
       },
       {
         "name": "Zora Hall",
+        "access_rules": ["zora"],
         "map_locations": [
           {
             "map": "overworld",
@@ -185,7 +188,10 @@
           {
             "name": "Piano Zora Song",
             "chest_unopened_img": "images/characters/zora_piano.png",
-            "access_rules": ["zora, ocarina"]
+            "access_rules": [
+              "easy_logic, zora, hookshot",
+              "normal_logic, zora"
+            ]
           },
           {
             "name": "Torches Reward",

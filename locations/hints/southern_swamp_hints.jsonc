@@ -115,17 +115,17 @@
             "visibility_rules": ["tour_koume_target_shooting"]
           },
           {
-            "name": "Tour Guide Winning Picture (Hint)",
+            "name": "Tour Guide Winning Picture (Tingle or Deku King) (Hint)",
             "chest_unopened_img": "images/items/pictobox.png",
             "visibility_rules": ["tour_winning_picture"]
           },
           {
-            "name": "Tour Guide Good Picture (Hint)",
+            "name": "Tour Guide Good Picture (Big Octo) (Hint)",
             "chest_unopened_img": "images/items/pictobox.png",
             "visibility_rules": ["tour_good_picture"]
           },
           {
-            "name": "Tour Guide Okay Picture (Hint)",
+            "name": "Tour Guide Okay Picture (Anything else) (Hint)",
             "chest_unopened_img": "images/items/pictobox.png",
             "visibility_rules": ["tour_okay_picture"]
           }

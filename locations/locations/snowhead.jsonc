@@ -128,15 +128,15 @@
           {
             "name": "Spring Underwater Cave Chest",
             "access_rules": [
-              "easy_logic, $baby_clear_snowhead",
-              "normal_logic, $clear_snowhead"
+              "easy_logic, $baby_clear_snowhead, zora",
+              "normal_logic, $clear_snowhead, zora"
             ]
           },
           {
             "name": "Spring Underwater Near Ramp Chest",
             "access_rules": [
-              "easy_logic, $baby_clear_snowhead",
-              "normal_logic, $clear_snowhead"
+              "easy_logic, $baby_clear_snowhead, zora",
+              "normal_logic, $clear_snowhead, zora"
             ]
           },
           {

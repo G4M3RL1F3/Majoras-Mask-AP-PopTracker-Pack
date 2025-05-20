@@ -102,6 +102,7 @@
           },
           {
             "name": "Day 2 Dampe Bats",
+            "chest_unopened_img": "images/characters/dampe.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, $baby_can_smack, $baby_has_explosives",
               "normal_logic, $has_projectiles"
@@ -124,6 +125,7 @@
           },
           {
             "name": "Sonata To Wake Sleeping Skeleton Chest",
+            "chest_unopened_img": "images/masks/captains.png",
             "access_rules": [
               "easy_logic, $can_play_sonata, $baby_can_smack_hard, bow",
               "normal_logic, $can_play_sonata, $can_smack_hard"
@@ -245,6 +247,7 @@
           },
           {
             "name": "Spirit House",
+            "chest_unopened_img": "images/characters/soulkeeper.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, shield, $baby_can_smack",
               "normal_logic, $can_use_ice_arrows, bow",

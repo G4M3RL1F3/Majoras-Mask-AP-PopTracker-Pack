@@ -182,7 +182,7 @@
           },
           {
             "name": "Goron Scrub Trade Freestanding HP",
-            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["deku, zora, mountaindeed, goron"]
           },
           {

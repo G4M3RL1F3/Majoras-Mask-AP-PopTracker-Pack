@@ -205,21 +205,25 @@
           },
           {
             "name": "Shop Item 1",
+            "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
             "access_rules": ["easy_logic, goron", "normal_logic"]
           },
           {
             "name": "Shop Item 2",
+            "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
             "access_rules": ["easy_logic, goron", "normal_logic"]
           },
           {
             "name": "Shop Item 3",
+            "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
             "access_rules": ["easy_logic, goron", "normal_logic"]
           },
           {
             "name": "Shop (Spring) Item 1",
+            "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
             "access_rules": [
               "easy_logic, goron, $baby_clear_snowhead",
@@ -228,6 +232,7 @@
           },
           {
             "name": "Shop (Spring) Item 2",
+            "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
             "access_rules": [
               "easy_logic, goron, $baby_clear_snowhead",
@@ -236,6 +241,7 @@
           },
           {
             "name": "Shop (Spring) Item 3",
+            "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
             "access_rules": [
               "easy_logic, goron, $baby_clear_snowhead",

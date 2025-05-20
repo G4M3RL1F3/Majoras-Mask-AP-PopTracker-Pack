@@ -1,752 +1,757 @@
 [
-    {
-      "name": "Clock Town Hints",
-      "access_rules": ["{}"],
-      "children": [
-        {
-          "name": "South Clock Town Clock Tower Hints",
-          "sections": [
-            {
-              "name": "Freestanding HP (Hint)",
-              "visibility_rules": ["south_clock_town_freestanding_hp"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 109,
-              "y": 129
-            }
-          ]
-        },
-        {
-          "name": "South Clock Town Business Scrub Hints",
-          "sections": [
-            {
-              "name": "Moon's Tear Trade (Hint)",
-              "visibility_rules": ["moons_tear_trade"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 82,
-              "y": 156
-            }
-          ]
-        },
-        {
-          "name": "South Clock Town Final Day Tower Chest (Final Day) Hints",
-          "sections": [
-            {
-              "name": "South Clock Town Final Day Tower Chest (Hint)",
-              "visibility_rules": ["south_clock_town_final_day_tower_chest"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 109,
-              "y": 184
-            }
-          ]
-        },
-        {
-          "name": "South Clock Town Corner Chest Hints",
-          "sections": [
-            {
-              "name": "South Clock Town Corner Chest (Hint)",
-              "visibility_rules": ["south_clock_town_corner_chest"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 130,
-              "y": 209
-            }
-          ]
-        },
-        {
-          "name": "Clock Town Postbox Hints",
-          "sections": [
-            {
-              "name": "Clock Town Postbox (Hint)",
-              "visibility_rules": ["clock_town_postbox"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 202,
-              "y": 77
-            },
-            {
-              "map": "overworld",
-              "x": 217,
-              "y": 170
-            },
-            {
-              "map": "overworld",
-              "x": 89,
-              "y": 206
-            },
-            {
-              "map": "overworld",
-              "x": 140,
-              "y": 116
-            },
-            {
-              "map": "overworld",
-              "x": 149,
-              "y": 58
-            }
-          ]
-        },
-        {
-          "name": "Clock Town Hide-and-Seek Hints",
-          "sections": [
-            {
-              "name": "Clock Town Hide-and-Seek (Hint)",
-              "visibility_rules": ["clock_town_hide_and_seek"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 90,
-              "y": 55
-            }
-          ]
-        },
-        {
-          "name": "North Clock Town Tree HP Hints",
-          "sections": [
-            {
-              "name": "North Clock Town Tree HP (Hint)",
-              "visibility_rules": ["north_clock_town_tree_hp"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 142,
-              "y": 26
-            }
-          ]
-        },
-        {
-          "name": "Deku Playground Hints",
-          "sections": [
-            {
-              "name": "North Clock Town Deku Playground Any Day (Hint)",
-              "visibility_rules": ["north_clock_town_deku_playground_any_day"]
-            },
-            {
-              "name": "North Clock Town Deku Playground All Days (Hint)",
-              "visibility_rules": ["north_clock_town_deku_playground_all_days"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 54,
-              "y": 72
-            }
-          ]
-        },
-        {
-          "name": "Clock Town Great Fairy Hints",
-          "sections": [
-            {
-              "name": "North Clock Town Great Fairy Reward (Hint)",
-              "visibility_rules": ["north_clock_town_great_fairy_reward"]
-            },
-            {
-              "name": "North Clock Town Great Fairy Reward (Transformation Mask) (Hint)",
-              "visibility_rules": ["north_clock_town_great_fairy_reward_transformation_mask"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 38,
-              "y": 55
-            }
-          ]
-        },
-        {
-          "name": "Keaton Quiz Hints",
-          "sections": [
-            {
-              "name": "Keaton Quiz (Hint)",
-              "visibility_rules": ["keaton_quiz"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 135,
-              "y": 16
-            },
-            {
-              "map": "overworld",
-              "x": 453,
-              "y": 364
-            }
-          ]
-        },
-        {
-          "name": "North Clock Town Save Old Lady Hints",
-          "sections": [
-            {
-              "name": "North Clock Town Save Old Lady (Night 1, 12 AM) (Hint)",
-              "visibility_rules": ["north_clock_town_old_lady_night_1_12_am"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 137,
-              "y": 70
-            }
-          ]
-        },
-        {
-          "name": "East Clock Town Archery Roof Chest (Hint)",
-          "sections": [
-            {
-              "name": "Jumping section starts near Bomber's Hideout entrance",
-              "visibility_rules": ["east_clock_town_chest"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 162,
-              "y": 210
-            }
-          ]
-        },
-        {
-          "name": "Mayor's Residence (10 AM - 10 PM) Hints",
-          "sections": [
-            {
-              "name": "East Clock Town Mayor's Wife (Hint)",
-              "visibility_rules": ["east_clock_town_madame_aroma"]
-            },
-            {
-              "name": "East Clock Town Couple's Mask on Mayor (Hint)",
-              "visibility_rules": ["east_clock_town_mayor_dotour"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 206,
-              "y": 41
-            }
-          ]
-        },
-        {
-          "name": "Honey and Darling (6 AM - 10 PM) Hints",
-          "sections": [
-            {
-              "name": "East Clock Town Honey and Darling Any Day (Hint)",
-              "visibility_rules": ["east_clock_town_honey_and_darling_any_day"]
-            },
-            {
-              "name": "East Clock Town Honey and Darling All Days (Hint)",
-              "visibility_rules": ["east_clock_town_honey_and_darling_all_days"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 227,
-              "y": 157
-            }
-          ]
-        },
-        {
-          "name": "Town Shooting Gallery (6 AM - 10 PM) Hints",
-          "sections": [
-            {
-              "name": "East Clock Town Shooting Gallery 40-49 Points (Hint)",
-              "visibility_rules": ["east_clock_town_shooting_gallery_40_49_points"]
-            },
-            {
-              "name": "East Clock Town Shooting Gallery Perfect 50 Points (Hint)",
-              "visibility_rules": ["east_clock_town_shooting_gallery_perfect_50_points"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 203,
-              "y": 191
-            }
-          ]
-        },
-        {
-          "name": "Treasure Game (6 AM - 10 PM) Hints",
-          "sections": [
-            {
-              "name": "East Clock Town Treasure Game Chest (Human) (Hint)",
-              "visibility_rules": ["east_clock_town_treasure_game_chest_human"]
-            },
-            {
-              "name": "East Clock Town Treasure Game Chest (Deku) (Hint)",
-              "visibility_rules": ["east_clock_town_treasure_game_chest_deku"]
-            },
-            {
-              "name": "East Clock Town Treasure Game Chest (Goron) (Hint)",
-              "visibility_rules": ["east_clock_town_treasure_game_chest_goron"]
-            },
-            {
-              "name": "East Clock Town Treasure Game Chest (Zora) (Hint)",
-              "visibility_rules": ["east_clock_town_treasure_game_chest_zora"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 167,
-              "y": 166
-            }
-          ]
-        },
-        {
-          "name": "Bomber's Secret Hideout Hints",
-          "sections": [
-            {
-              "name": "Bomber's Hideout Chest (Hint)",
-              "visibility_rules": ["bombers_hideout_chest"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 227,
-              "y": 62
-            }
-          ]
-        },
-        {
-          "name": "Stock Pot Inn Hints",
-          "sections": [
-            {
-              "name": "Stock Pot Inn Reservation (Day 1: from 1 PM to 4 PM) (Hint)",
-              "visibility_rules": ["stock_pot_inn_reservation_day_1_from_1_pm_to_4_pm"]
-            },
-            {
-              "name": "Stock Pot Inn Employees Only Room Chest (Final Night) (Hint)",
-              "visibility_rules": ["stock_pot_inn_employees_only_room_chest_final_night"]
-            },
-            {
-              "name": "Stock Pot Inn Upstairs Middle Room Chest (Hint)",
-              "visibility_rules": ["stock_pot_inn_knife_chamber_chest"]
-            },
-            {
-              "name": "Stock Pot Inn Midnight Meeting (Night 1: 11:30 PM) (Hint)",
-              "visibility_rules": ["stock_pot_inn_midnight_meeting_night_1_1130_pm"]
-            },
-            {
-              "name": "Stock Pot Inn Midnight Toilet Hand (Hint)",
-              "visibility_rules": ["stock_pot_inn_hand_midnight_6_am"]
-            },
-            {
-              "name": "Stock Pot Inn Granny Story #1 (Hint)",
-              "visibility_rules": ["stock_pot_inn_granny_story_1"]
-            },
-            {
-              "name": "Stock Pot Inn Granny Story #2 (Hint)",
-              "visibility_rules": ["stock_pot_inn_granny_story_2"]
-            },
-            {
-              "name": "Stock Pot Inn Anju and Kafei (Final Night 4:30 AM) (Hint)",
-              "visibility_rules": ["stock_pot_inn_anju_and_kafei_final_night_430_am"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 177,
-              "y": 115
-            }
-          ]
-        },
-        {
-          "name": "Milk Bar (10 PM - 6 AM) Hints",
-          "sections": [
-            {
-              "name": "Milk Bar Show (Night 1 - 2) (Hint)",
-              "visibility_rules": ["milk_bar_show_night_1_2"]
-            },
-            {
-              "name": "Priority Mail to Aroma (Final Night) (Hint)",
-              "visibility_rules": ["milk_bar_priority_mail_to_aroma_final_night"]
-            },
-            {
-              "name": "Milk Purchase (Hint)",
-              "visibility_rules": ["milk_bar_milk_purchase"]
-            },
-            {
-              "name": "Chateau Romani Purchase (Hint)",
-              "visibility_rules": ["milk_bar_chateau_romani_purchase"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 208,
-              "y": 111
-            }
-          ]
-        },
-        {
-          "name": "West Clock Town Dancing Sisters Hints",
-          "sections": [
-            {
-              "name": "West Clock Town Dancing Sisters (Night 1 - 2) (Hint)",
-              "visibility_rules": ["west_clock_town_rosa_sisters_night_1_2"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 30,
-              "y": 111
-            }
-          ]
-        },
-        {
-          "name": "Clock Town Bank Hints",
-          "sections": [
-            {
-              "name": "West Clock Town Bank 200 Rupees (Hint)",
-              "visibility_rules": ["west_clock_town_bank_200_rupees"]
-            },
-            {
-              "name": "West Clock Town Bank 500 Rupees (Hint)",
-              "visibility_rules": ["west_clock_town_bank_500_rupees"]
-            },
-            {
-              "name": "West Clock Town Bank 1000 Rupees (Hint)",
-              "visibility_rules": ["west_clock_town_bank_1000_rupees"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 40,
-              "y": 155
-            }
-          ]
-        },
-        {
-          "name": "West Clock Town Swordsman Expert Course Hints",
-          "sections": [
-            {
-              "name": "West Clock Town Swordsman Expert Course (Hint)",
-              "visibility_rules": ["west_clock_town_swordsman_expert_course"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 22,
-              "y": 91
-            }
-          ]
-        },
-        {
-          "name": "Post Office Hints",
-          "sections": [
-            {
-              "name": "West Clock Town Postman Counting (Day 1: 3 PM - Midnight, Day 2: 5 PM - Midnight) (Hint)",
-              "visibility_rules": ["west_clock_town_postman_counting_day_1_3_pm_midnight_day_2_5_pm_midnight"]
-            },
-            {
-              "name": "West Clock Town Priority Mail to Postman (Final Night) (Hint)",
-              "visibility_rules": ["west_clock_town_priority_mail_to_postman_final_night"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 52,
-              "y": 91
-            }
-          ]
-        },
-        {
-          "name": "Laundry Pool Musician Hints",
-          "sections": [
-            {
-              "name": "Laundry Pool Musician (Night 1 - 2) (Hint)",
-              "visibility_rules": ["laundry_pool_musician_night_1_2"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 42,
-              "y": 214
-            }
-          ]
-        },
-        {
-          "name": "Laundry Pool Stray Fairy (Clock Town) Hints",
-          "sections": [
-            {
-              "name": "Laundry Pool Stray Fairy (Clock Town) (Hint)",
-              "visibility_rules": ["laundry_pool_stray_fairy_clock_town"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 16,
-              "y": 207
-            }
-          ]
-        },
-        {
-          "name": "Curiosity Shop Backroom Hints",
-          "sections": [
-            {
-              "name": "Laundry Pool Kafei's Request (Day 2, 4:30 PM) (Hint)",
-              "visibility_rules": ["laundry_pool_kafeis_request"]
-            },
-            {
-              "name": "Laundry Pool Curiosity Shop Salesman #1 (Final Day, 1 PM - 9 PM) (Hint)",
-              "visibility_rules": ["laundry_pool_curiosity_shop_salesman_1_final_day_1_pm_9_pm"]
-            },
-            {
-              "name": "Laundry Pool Curiosity Shop Salesman #2 (Final Day, 1 PM - 9 PM) (Hint)",
-              "visibility_rules": ["laundry_pool_curiosity_shop_salesman_2_final_day_1_pm_9_pm"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 13,
-              "y": 173
-            }
-          ]
-        },
-        {
-          "name": "Clock Tower Hints",
-          "sections": [
-            {
-              "name": "Top of Clock Tower (Ocarina of Time) (Hint)",
-              "visibility_rules": ["top_of_clock_tower_ocarina_of_time"]
-            },
-            {
-              "name": "Top of Clock Tower (Song of Time) (Hint)",
-              "visibility_rules": ["top_of_clock_tower_song_of_time"]
-            },
-            {
-              "name": "Clock Tower Happy Mask Salesman #1 (Hint)",
-              "visibility_rules": ["clock_tower_happy_mask_salesman_1"]
-            },
-            {
-              "name": "Clock Tower Happy Mask Salesman #2 (Hint)",
-              "visibility_rules": ["clock_tower_happy_mask_salesman_2"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 109,
-              "y": 95
-            }
-          ]
-        },
-        {
-          "name": "Trading Post Hints",
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 25,
-              "y": 169
-            }
-          ],
-          "sections": [
-            {
-              "name": "Shop Item 1 (Hint)",
-              "visibility_rules": ["trading_post_shop_item_1"]
-            },
-            {
-              "name": "Shop Item 2 (Hint)",
-              "visibility_rules": ["trading_post_shop_item_2"]
-            },
-            {
-              "name": "Shop Item 3 (Hint)",
-              "visibility_rules": ["trading_post_shop_item_3"]
-            },
-            {
-              "name": "Shop Item 4 (Hint)",
-              "visibility_rules": ["trading_post_shop_item_4"]
-            },
-            {
-              "name": "Shop Item 5 (Hint)",
-              "visibility_rules": ["trading_post_shop_item_5"]
-            },
-            {
-              "name": "Shop Item 6 (Hint)",
-              "visibility_rules": ["trading_post_shop_item_6"]
-            },
-            {
-              "name": "Shop Item 7 (Hint)",
-              "visibility_rules": ["trading_post_shop_item_7"]
-            },
-            {
-              "name": "Shop Item 8 (Hint)",
-              "visibility_rules": ["trading_post_shop_item_8"]
-            },
-            {
-              "name": "Shop (Night) Item 1 (Hint)",
-              "visibility_rules": ["trading_post_shop_night_item_1"]
-            },
-            {
-              "name": "Shop (Night) Item 2 (Hint)",
-              "visibility_rules": ["trading_post_shop_night_item_2"]
-            },
-            {
-              "name": "Shop (Night) Item 3 (Hint)",
-              "visibility_rules": ["trading_post_shop_night_item_3"]
-            },
-            {
-              "name": "Shop (Night) Item 4 (Hint)",
-              "visibility_rules": ["trading_post_shop_night_item_4"]
-            },
-            {
-              "name": "Shop (Night) Item 5 (Hint)",
-              "visibility_rules": ["trading_post_shop_night_item_5"]
-            },
-            {
-              "name": "Shop (Night) Item 6 (Hint)",
-              "visibility_rules": ["trading_post_shop_night_item_6"]
-            },
-            {
-              "name": "Shop (Night) Item 7 (Hint)",
-              "visibility_rules": ["trading_post_shop_night_item_7"]
-            },
-            {
-              "name": "Shop (Night) Item 8 (Hint)",
-              "visibility_rules": ["trading_post_shop_night_item_8"]
-            }
-          ]
-        },
-        {
-          "name": "Bomb Shop Hints",
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 13,
-              "y": 148
-            }
-          ],
-          "sections": [
-            {
-              "name": "Item 1 (Hint)",
-              "visibility_rules": ["bomb_shop_item_1"]
-            },
-            {
-              "name": "Item 2 (Hint)",
-              "visibility_rules": ["bomb_shop_item_2"]
-            },
-            {
-              "name": "Item 3 (Hint)",
-              "visibility_rules": ["bomb_shop_item_3"]
-            },
-            {
-              "name": "Item 3 (Stop Thief) (Hint)",
-              "visibility_rules": ["bomb_shop_item_3_stop_thief"]
-            },
-            {
-              "name": "Powder Keg Goron (Hint)",
-              "visibility_rules": ["bomb_shop_powder_keg_goron"]
-            }
-          ]
-        },
-        {
-          "name": "Curiosity Shop (10 PM - 6 AM) Hints",
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 42,
-              "y": 182
-            }
-          ],
-          "sections": [
-            {
-              "name": "Curiosity Shop Night 3 (Stop Thief) (Hint)",
-              "visibility_rules": ["curiosity_shop_stop_thief"]
-            },
-            {
-              "name": "Curiosity Shop Night 3 Thief Stolen Item (Hint)",
-              "visibility_rules": ["curiosity_shop_stolen_item"]
-            },
-            {
-              "name": "Blue Rupee Trade (Half Milk, Magic Mushroom) (Hint)",
-              "chest_unopened_img": "images/items/half_mushroom_bottle.png",
-              "visibility_rules": ["curiosity_blue_rupee_trade"]
-            },
-            {
-              "name": "Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg) (Hint)",
-              "chest_unopened_img": "images/items/red_milk_potion.png",
-              "visibility_rules": ["curiosity_red_rupee_trade"]
-            },
-            {
-              "name": "Purple Rupee Trade (Poe) (Hint)",
-              "chest_unopened_img": "images/items/poe.png",
-              "visibility_rules": ["curiosity_purple_rupee_trade"]
-            },
-            {
-              "name": "Gold Rupee Trade (Big Poe, Chateau, Gold Dust) (Hint)",
-              "chest_unopened_img": "images/items/chateau_romani.png",
-              "visibility_rules": ["curiosity_gold_rupee_trade"]
-            }
-          ]
-        },
-        {
-          "name": "Tingle Clock Town Hints",
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 113,
-              "y": 33
-            }
-          ],
-          "sections": [
-            {
-              "name": "Clock Town Map Purchase (Hint)",
-              "visibility_rules": ["clock_town_map_purchase"]
-            },
-            {
-              "ref": "Southern Swamp Hints/Tingle Southern Swamp Hints/Woodfall Map Purchase (Hint)"
-            }
-          ]
-        },
-        {
-          "name": "West Clock Town Lottery Hints",
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 47,
-              "y": 129
-            }
-          ],
-          "sections": [
-            {
-              "name": "Win Any Day (Hint)",
-              "visibility_rules": ["lottery_win_any_day"]
-            }
-          ]
-        }
-      ]
-    }
+  {
+    "name": "Clock Town Hints",
+    "access_rules": ["{}"],
+    "children": [
+      {
+        "name": "South Clock Town Clock Tower Hints",
+        "sections": [
+          {
+            "name": "Freestanding HP (Hint)",
+            "visibility_rules": ["south_clock_town_freestanding_hp"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 109,
+            "y": 129
+          }
+        ]
+      },
+      {
+        "name": "South Clock Town Business Scrub Hints",
+        "sections": [
+          {
+            "name": "Moon's Tear Trade (Hint)",
+            "visibility_rules": ["moons_tear_trade"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 82,
+            "y": 156
+          }
+        ]
+      },
+      {
+        "name": "South Clock Town Final Day Tower Chest (Final Day) Hints",
+        "sections": [
+          {
+            "name": "South Clock Town Final Day Tower Chest (Hint)",
+            "visibility_rules": ["south_clock_town_final_day_tower_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 109,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "South Clock Town Corner Chest Hints",
+        "sections": [
+          {
+            "name": "South Clock Town Corner Chest (Hint)",
+            "visibility_rules": ["south_clock_town_corner_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 130,
+            "y": 209
+          }
+        ]
+      },
+      {
+        "name": "Clock Town Postbox Hints",
+        "sections": [
+          {
+            "name": "Clock Town Postbox (Hint)",
+            "visibility_rules": ["clock_town_postbox"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 202,
+            "y": 77
+          },
+          {
+            "map": "overworld",
+            "x": 217,
+            "y": 170
+          },
+          {
+            "map": "overworld",
+            "x": 89,
+            "y": 206
+          },
+          {
+            "map": "overworld",
+            "x": 140,
+            "y": 116
+          },
+          {
+            "map": "overworld",
+            "x": 149,
+            "y": 58
+          }
+        ]
+      },
+      {
+        "name": "Clock Town Hide-and-Seek Hints",
+        "sections": [
+          {
+            "name": "Clock Town Hide-and-Seek (Hint)",
+            "visibility_rules": ["clock_town_hide_and_seek"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 90,
+            "y": 55
+          }
+        ]
+      },
+      {
+        "name": "North Clock Town Tree HP Hints",
+        "sections": [
+          {
+            "name": "North Clock Town Tree HP (Hint)",
+            "visibility_rules": ["north_clock_town_tree_hp"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 142,
+            "y": 26
+          }
+        ]
+      },
+      {
+        "name": "Deku Playground Hints",
+        "sections": [
+          {
+            "name": "North Clock Town Deku Playground Any Day (Hint)",
+            "visibility_rules": ["north_clock_town_deku_playground_any_day"]
+          },
+          {
+            "name": "North Clock Town Deku Playground All Days (Hint)",
+            "visibility_rules": ["north_clock_town_deku_playground_all_days"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 54,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Clock Town Great Fairy Hints",
+        "sections": [
+          {
+            "name": "North Clock Town Great Fairy Reward (Hint)",
+            "visibility_rules": ["north_clock_town_great_fairy_reward"]
+          },
+          {
+            "name": "North Clock Town Great Fairy Reward (Transformation Mask) (Hint)",
+            "visibility_rules": ["north_clock_town_great_fairy_reward_transformation_mask"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 38,
+            "y": 55
+          }
+        ]
+      },
+      {
+        "name": "Keaton Quiz Hints",
+        "sections": [
+          {
+            "name": "Keaton Quiz (Hint)",
+            "visibility_rules": ["keaton_quiz"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 135,
+            "y": 16
+          },
+          {
+            "map": "overworld",
+            "x": 453,
+            "y": 364
+          }
+        ]
+      },
+      {
+        "name": "North Clock Town Save Old Lady Hints",
+        "sections": [
+          {
+            "name": "North Clock Town Save Old Lady (Night 1, 12 AM) (Hint)",
+            "visibility_rules": ["north_clock_town_old_lady_night_1_12_am"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 137,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "name": "East Clock Town Archery Roof Chest (Hint)",
+        "sections": [
+          {
+            "name": "Jumping section starts near Bomber's Hideout entrance",
+            "visibility_rules": ["east_clock_town_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 162,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Mayor's Residence (10 AM - 10 PM) Hints",
+        "sections": [
+          {
+            "name": "East Clock Town Mayor's Wife (Hint)",
+            "visibility_rules": ["east_clock_town_madame_aroma"]
+          },
+          {
+            "name": "East Clock Town Couple's Mask on Mayor (Hint)",
+            "visibility_rules": ["east_clock_town_mayor_dotour"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 206,
+            "y": 41
+          }
+        ]
+      },
+      {
+        "name": "Honey and Darling (6 AM - 10 PM) Hints",
+        "sections": [
+          {
+            "name": "East Clock Town Honey and Darling Any Day (Hint)",
+            "visibility_rules": ["east_clock_town_honey_and_darling_any_day"]
+          },
+          {
+            "name": "East Clock Town Honey and Darling All Days (Hint)",
+            "visibility_rules": ["east_clock_town_honey_and_darling_all_days"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 227,
+            "y": 157
+          }
+        ]
+      },
+      {
+        "name": "Town Shooting Gallery (6 AM - 10 PM) Hints",
+        "sections": [
+          {
+            "name": "East Clock Town Shooting Gallery 40-49 Points (Hint)",
+            "visibility_rules": ["east_clock_town_shooting_gallery_40_49_points"]
+          },
+          {
+            "name": "East Clock Town Shooting Gallery Perfect 50 Points (Hint)",
+            "visibility_rules": ["east_clock_town_shooting_gallery_perfect_50_points"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 203,
+            "y": 191
+          }
+        ]
+      },
+      {
+        "name": "Treasure Game (6 AM - 10 PM) Hints",
+        "sections": [
+          {
+            "name": "East Clock Town Treasure Game Chest (Human) (Hint)",
+            "visibility_rules": ["east_clock_town_treasure_game_chest_human"]
+          },
+          {
+            "name": "East Clock Town Treasure Game Chest (Deku) (Hint)",
+            "visibility_rules": ["east_clock_town_treasure_game_chest_deku"]
+          },
+          {
+            "name": "East Clock Town Treasure Game Chest (Goron) (Hint)",
+            "visibility_rules": ["east_clock_town_treasure_game_chest_goron"]
+          },
+          {
+            "name": "East Clock Town Treasure Game Chest (Zora) (Hint)",
+            "visibility_rules": ["east_clock_town_treasure_game_chest_zora"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 167,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Bomber's Secret Hideout Hints",
+        "sections": [
+          {
+            "name": "Bomber's Hideout Chest (Hint)",
+            "visibility_rules": ["bombers_hideout_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 227,
+            "y": 62
+          }
+        ]
+      },
+      {
+        "name": "Stock Pot Inn Hints",
+        "sections": [
+          {
+            "name": "Stock Pot Inn Reservation (Day 1: from 1 PM to 4 PM) (Hint)",
+            "visibility_rules": ["stock_pot_inn_reservation_day_1_from_1_pm_to_4_pm"]
+          },
+          {
+            "name": "Stock Pot Inn Employees Only Room Chest (Final Night) (Hint)",
+            "visibility_rules": ["stock_pot_inn_employees_only_room_chest_final_night"]
+          },
+          {
+            "name": "Stock Pot Inn Upstairs Middle Room Chest (Hint)",
+            "visibility_rules": ["stock_pot_inn_knife_chamber_chest"]
+          },
+          {
+            "name": "Stock Pot Inn Midnight Meeting (Night 1: 11:30 PM) (Hint)",
+            "visibility_rules": ["stock_pot_inn_midnight_meeting_night_1_1130_pm"]
+          },
+          {
+            "name": "Stock Pot Inn Midnight Toilet Hand (Hint)",
+            "visibility_rules": ["stock_pot_inn_hand_midnight_6_am"]
+          },
+          {
+            "name": "Stock Pot Inn Granny Story #1 (Hint)",
+            "visibility_rules": ["stock_pot_inn_granny_story_1"]
+          },
+          {
+            "name": "Stock Pot Inn Granny Story #2 (Hint)",
+            "visibility_rules": ["stock_pot_inn_granny_story_2"]
+          },
+          {
+            "name": "Stock Pot Inn Anju and Kafei (Final Night 4:30 AM) (Hint)",
+            "visibility_rules": ["stock_pot_inn_anju_and_kafei_final_night_430_am"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 177,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "Milk Bar (10 PM - 6 AM) Hints",
+        "sections": [
+          {
+            "name": "Milk Bar Show (Night 1 - 2) (Hint)",
+            "visibility_rules": ["milk_bar_show_night_1_2"]
+          },
+          {
+            "name": "Priority Mail to Aroma (Final Night) (Hint)",
+            "visibility_rules": ["milk_bar_priority_mail_to_aroma_final_night"]
+          },
+          {
+            "name": "Milk Purchase (Hint)",
+            "visibility_rules": ["milk_bar_milk_purchase"]
+          },
+          {
+            "name": "Chateau Romani Purchase (Hint)",
+            "visibility_rules": ["milk_bar_chateau_romani_purchase"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 208,
+            "y": 111
+          }
+        ]
+      },
+      {
+        "name": "West Clock Town Dancing Sisters Hints",
+        "sections": [
+          {
+            "name": "West Clock Town Dancing Sisters (Night 1 - 2) (Hint)",
+            "visibility_rules": ["west_clock_town_rosa_sisters_night_1_2"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 30,
+            "y": 111
+          }
+        ]
+      },
+      {
+        "name": "Clock Town Bank Hints",
+        "sections": [
+          {
+            "name": "West Clock Town Bank 200 Rupees (Hint)",
+            "visibility_rules": ["west_clock_town_bank_200_rupees"]
+          },
+          {
+            "name": "West Clock Town Bank 500 Rupees (Hint)",
+            "visibility_rules": ["west_clock_town_bank_500_rupees"]
+          },
+          {
+            "name": "West Clock Town Bank 1000 Rupees (Hint)",
+            "visibility_rules": ["west_clock_town_bank_1000_rupees"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 40,
+            "y": 155
+          }
+        ]
+      },
+      {
+        "name": "West Clock Town Swordsman Expert Course Hints",
+        "sections": [
+          {
+            "name": "West Clock Town Swordsman Expert Course (Hint)",
+            "visibility_rules": ["west_clock_town_swordsman_expert_course"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 22,
+            "y": 91
+          }
+        ]
+      },
+      {
+        "name": "Post Office Hints",
+        "sections": [
+          {
+            "name": "West Clock Town Postman Counting (Day 1: 3 PM - Midnight, Day 2: 5 PM - Midnight) (Hint)",
+            "visibility_rules": ["west_clock_town_postman_counting_day_1_3_pm_midnight_day_2_5_pm_midnight"]
+          },
+          {
+            "name": "West Clock Town Priority Mail to Postman (Final Night) (Hint)",
+            "visibility_rules": ["west_clock_town_priority_mail_to_postman_final_night"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 52,
+            "y": 91
+          }
+        ]
+      },
+      {
+        "name": "Laundry Pool Musician Hints",
+        "sections": [
+          {
+            "name": "Laundry Pool Musician (Night 1 - 2) (Hint)",
+            "visibility_rules": ["laundry_pool_musician_night_1_2"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 42,
+            "y": 214
+          }
+        ]
+      },
+      {
+        "name": "Stray Fairy (Clock Town) Hints",
+        "sections": [
+          {
+            "name": "Stray Fairy (Clock Town) (Hint)",
+            "visibility_rules": ["laundry_pool_stray_fairy_clock_town"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 16,
+            "y": 207
+          },
+          {
+            "map": "overworld",
+            "x": 164,
+            "y": 154
+          }
+        ]
+      },
+      {
+        "name": "Curiosity Shop Backroom Hints",
+        "sections": [
+          {
+            "name": "Laundry Pool Kafei's Request (Day 2, 4:30 PM) (Hint)",
+            "visibility_rules": ["laundry_pool_kafeis_request"]
+          },
+          {
+            "name": "Laundry Pool Curiosity Shop Salesman #1 (Final Day, 1 PM - 9 PM) (Hint)",
+            "visibility_rules": ["laundry_pool_curiosity_shop_salesman_1_final_day_1_pm_9_pm"]
+          },
+          {
+            "name": "Laundry Pool Curiosity Shop Salesman #2 (Final Day, 1 PM - 9 PM) (Hint)",
+            "visibility_rules": ["laundry_pool_curiosity_shop_salesman_2_final_day_1_pm_9_pm"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 13,
+            "y": 173
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower Hints",
+        "sections": [
+          {
+            "name": "Top of Clock Tower (Ocarina of Time) (Hint)",
+            "visibility_rules": ["top_of_clock_tower_ocarina_of_time"]
+          },
+          {
+            "name": "Top of Clock Tower (Song of Time) (Hint)",
+            "visibility_rules": ["top_of_clock_tower_song_of_time"]
+          },
+          {
+            "name": "Clock Tower Happy Mask Salesman #1 (Hint)",
+            "visibility_rules": ["clock_tower_happy_mask_salesman_1"]
+          },
+          {
+            "name": "Clock Tower Happy Mask Salesman #2 (Hint)",
+            "visibility_rules": ["clock_tower_happy_mask_salesman_2"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 109,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "Trading Post Hints",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 25,
+            "y": 169
+          }
+        ],
+        "sections": [
+          {
+            "name": "Shop Item 1 (Hint)",
+            "visibility_rules": ["trading_post_shop_item_1"]
+          },
+          {
+            "name": "Shop Item 2 (Hint)",
+            "visibility_rules": ["trading_post_shop_item_2"]
+          },
+          {
+            "name": "Shop Item 3 (Hint)",
+            "visibility_rules": ["trading_post_shop_item_3"]
+          },
+          {
+            "name": "Shop Item 4 (Hint)",
+            "visibility_rules": ["trading_post_shop_item_4"]
+          },
+          {
+            "name": "Shop Item 5 (Hint)",
+            "visibility_rules": ["trading_post_shop_item_5"]
+          },
+          {
+            "name": "Shop Item 6 (Hint)",
+            "visibility_rules": ["trading_post_shop_item_6"]
+          },
+          {
+            "name": "Shop Item 7 (Hint)",
+            "visibility_rules": ["trading_post_shop_item_7"]
+          },
+          {
+            "name": "Shop Item 8 (Hint)",
+            "visibility_rules": ["trading_post_shop_item_8"]
+          },
+          {
+            "name": "Shop (Night) Item 1 (Hint)",
+            "visibility_rules": ["trading_post_shop_night_item_1"]
+          },
+          {
+            "name": "Shop (Night) Item 2 (Hint)",
+            "visibility_rules": ["trading_post_shop_night_item_2"]
+          },
+          {
+            "name": "Shop (Night) Item 3 (Hint)",
+            "visibility_rules": ["trading_post_shop_night_item_3"]
+          },
+          {
+            "name": "Shop (Night) Item 4 (Hint)",
+            "visibility_rules": ["trading_post_shop_night_item_4"]
+          },
+          {
+            "name": "Shop (Night) Item 5 (Hint)",
+            "visibility_rules": ["trading_post_shop_night_item_5"]
+          },
+          {
+            "name": "Shop (Night) Item 6 (Hint)",
+            "visibility_rules": ["trading_post_shop_night_item_6"]
+          },
+          {
+            "name": "Shop (Night) Item 7 (Hint)",
+            "visibility_rules": ["trading_post_shop_night_item_7"]
+          },
+          {
+            "name": "Shop (Night) Item 8 (Hint)",
+            "visibility_rules": ["trading_post_shop_night_item_8"]
+          }
+        ]
+      },
+      {
+        "name": "Bomb Shop Hints",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 13,
+            "y": 148
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item 1 (Hint)",
+            "visibility_rules": ["bomb_shop_item_1"]
+          },
+          {
+            "name": "Item 2 (Hint)",
+            "visibility_rules": ["bomb_shop_item_2"]
+          },
+          {
+            "name": "Item 3 (Hint)",
+            "visibility_rules": ["bomb_shop_item_3"]
+          },
+          {
+            "name": "Item 3 (Stop Thief) (Hint)",
+            "visibility_rules": ["bomb_shop_item_3_stop_thief"]
+          },
+          {
+            "name": "Powder Keg Goron (Hint)",
+            "visibility_rules": ["bomb_shop_powder_keg_goron"]
+          }
+        ]
+      },
+      {
+        "name": "Curiosity Shop (10 PM - 6 AM) Hints",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 42,
+            "y": 182
+          }
+        ],
+        "sections": [
+          {
+            "name": "Curiosity Shop Night 3 (Stop Thief) (Hint)",
+            "visibility_rules": ["curiosity_shop_stop_thief"]
+          },
+          {
+            "name": "Curiosity Shop Night 3 Thief Stolen Item (Hint)",
+            "visibility_rules": ["curiosity_shop_stolen_item"]
+          },
+          {
+            "name": "Blue Rupee Trade (Half Milk, Magic Mushroom) (Hint)",
+            "chest_unopened_img": "images/items/half_mushroom_bottle.png",
+            "visibility_rules": ["curiosity_blue_rupee_trade"]
+          },
+          {
+            "name": "Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg) (Hint)",
+            "chest_unopened_img": "images/items/red_milk_potion.png",
+            "visibility_rules": ["curiosity_red_rupee_trade"]
+          },
+          {
+            "name": "Purple Rupee Trade (Poe) (Hint)",
+            "chest_unopened_img": "images/items/poe.png",
+            "visibility_rules": ["curiosity_purple_rupee_trade"]
+          },
+          {
+            "name": "Gold Rupee Trade (Big Poe, Chateau, Gold Dust) (Hint)",
+            "chest_unopened_img": "images/items/chateau_romani.png",
+            "visibility_rules": ["curiosity_gold_rupee_trade"]
+          }
+        ]
+      },
+      {
+        "name": "Tingle Clock Town Hints",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 113,
+            "y": 33
+          }
+        ],
+        "sections": [
+          {
+            "name": "Clock Town Map Purchase (Hint)",
+            "visibility_rules": ["clock_town_map_purchase"]
+          },
+          {
+            "ref": "Southern Swamp Hints/Tingle Southern Swamp Hints/Woodfall Map Purchase (Hint)"
+          }
+        ]
+      },
+      {
+        "name": "West Clock Town Lottery Hints",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 47,
+            "y": 129
+          }
+        ],
+        "sections": [
+          {
+            "name": "Win Any Day (Hint)",
+            "visibility_rules": ["lottery_win_any_day"]
+          }
+        ]
+      }
+    ]
+  }
 ]

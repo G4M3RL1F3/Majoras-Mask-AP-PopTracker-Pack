@@ -56,6 +56,13 @@
                 "type": "map",
                 "maps": ["swamp_spider_house"]
               }
+            },
+            {
+              "title": "Ocean Spider House",
+              "content": {
+                "type": "map",
+                "maps": ["ocean_spider_house"]
+              }
             }
           ]
         }

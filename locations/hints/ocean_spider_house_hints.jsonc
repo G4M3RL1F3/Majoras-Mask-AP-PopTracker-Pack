@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Ocean Spider House Hints",
+    "children": [
+      {
+        "name": "Ramp Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Ramp Upper Token (Hint)"
+          },
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Ramp Lower Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 468,
+            "y": 606
+          }
+        ]
+      },
+      {
+        "name": "Lobby Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Lobby Ceiling Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 417,
+            "y": 338
+          }
+        ]
+      },
+      {
+        "name": "First Room Rafter Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/First Room Rafter Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 427,
+            "y": 223
+          }
+        ]
+      },
+      {
+        "name": "First Room Open Pot #1 Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/First Room Open Pot #1 Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 491,
+            "y": 91
+          }
+        ]
+      },
+      {
+        "name": "First Room Open Pot #2 Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/First Room Open Pot #2 Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 491,
+            "y": 23
+          }
+        ]
+      },
+      {
+        "name": "First Room Wall Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/First Room Wall Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 363,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Library Top Bookcase Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Library Top Bookcase Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 324,
+            "y": 419
+          }
+        ]
+      },
+      {
+        "name": "Library Passage Behind Bookcase Front Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Library Passage Behind Bookcase Front Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 58,
+            "y": 342
+          }
+        ]
+      },
+      {
+        "name": "Library Passage Behind Bookcase Rear Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Library Passage Behind Bookcase Rear Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 13,
+            "y": 381
+          }
+        ]
+      },
+      {
+        "name": "Library Painting #1 Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Library Painting #1 Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 97,
+            "y": 169
+          }
+        ]
+      },
+      {
+        "name": "Library Painting #2 Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Library Painting #2 Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 156,
+            "y": 538
+          }
+        ]
+      },
+      {
+        "name": "Library Rafter Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Library Rafter Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 224,
+            "y": 145
+          }
+        ]
+      },
+      {
+        "name": "Library Bookshelf Hole Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Library Bookshelf Hole Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 170,
+            "y": 109
+          }
+        ]
+      },
+      {
+        "name": "First Room Downstairs Rafter Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/First Room Downstairs Rafter Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 984,
+            "y": 614
+          }
+        ]
+      },
+      {
+        "name": "First Room Downstairs Open Pot Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/First Room Downstairs Open Pot Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 1046,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "First Room Downstairs Behind Staircase Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/First Room Downstairs Behind Staircase Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 950,
+            "y": 395
+          }
+        ]
+      },
+      {
+        "name": "First Room Downstairs Breakable Pot Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/First Room Downstairs Breakable Pot Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 1047,
+            "y": 339
+          }
+        ]
+      },
+      {
+        "name": "First Room Downstairs Wall Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/First Room Downstairs Wall Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 991,
+            "y": 242
+          }
+        ]
+      },
+      {
+        "name": "Dining Room Open Pot Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Dining Room Open Pot Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 1276,
+            "y": 423
+          }
+        ]
+      },
+      {
+        "name": "Dining Room Painting Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Dining Room Painting Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 1222,
+            "y": 417
+          }
+        ]
+      },
+      {
+        "name": "Dining Room Ceiling Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Dining Room Ceiling Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 1075,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "Dining Room Chandelier Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Dining Room Chandelier #1 Token (Hint)"
+          },
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Dining Room Chandelier #2 Token (Hint)"
+          },
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Dining Room Chandelier #3 Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 1183,
+            "y": 516
+          }
+        ]
+      },
+      {
+        "name": "Storage Room Web Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Storage Room Web Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 711,
+            "y": 404
+          }
+        ]
+      },
+      {
+        "name": "Storage Room North Wall Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Storage Room North Wall Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 682,
+            "y": 391
+          }
+        ]
+      },
+      {
+        "name": "Storage Room Crate Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Storage Room Crate Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 824,
+            "y": 279
+          }
+        ]
+      },
+      {
+        "name": "Storage Room Hidden Hole Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Storage Room Hidden Hole Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 783,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Storage Room Ceiling Pot Token (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Storage Room Ceiling Pot Token (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 749,
+            "y": 388,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Coloured Mask Sequence HP (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Coloured Mask Sequence HP (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 1644,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "Ocean Spider House Reward (Hint)",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Ocean Spider House Hints/Ocean Spider House Reward (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 469,
+            "y": 854
+          }
+        ]
+      }
+    ]
+  }
+]

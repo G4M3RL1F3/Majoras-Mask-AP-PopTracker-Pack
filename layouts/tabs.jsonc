@@ -51,6 +51,13 @@
               }
             },
             {
+              "title": "Beneath the Well",
+              "content": {
+                "type": "map",
+                "maps": ["beneath_the_well"]
+              }
+            },
+            {
               "title": "Swamp Spider House",
               "content": {
                 "type": "map",

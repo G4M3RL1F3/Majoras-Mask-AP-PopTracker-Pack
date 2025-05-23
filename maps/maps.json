@@ -30,6 +30,12 @@
         "img": "images/maps/stone_tower_temple.png"
     },
     {
+        "name": "beneath_the_well",
+        "location_size": 36,
+        "location_border_thickness": 2,
+        "img": "images/maps/beneath_the_well.png"
+    },
+    {
         "name": "swamp_spider_house",
         "location_size": 30,
         "location_border_thickness": 2,

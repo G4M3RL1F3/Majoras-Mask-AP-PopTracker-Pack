@@ -1,4 +1,5 @@
 -- Logic
+Tracker:AddLocations("locations/locations/beneath_the_well.jsonc")
 Tracker:AddLocations("locations/locations/clock_town.jsonc")
 Tracker:AddLocations("locations/locations/dungeons.jsonc")
 Tracker:AddLocations("locations/locations/great_bay_temple.jsonc")
@@ -16,6 +17,7 @@ Tracker:AddLocations("locations/locations/termina.jsonc")
 Tracker:AddLocations("locations/locations/woodfall_temple.jsonc")
 
 -- Hints
+Tracker:AddLocations("locations/hints/beneath_the_well_hints.jsonc")
 Tracker:AddLocations("locations/hints/clock_town_hints.jsonc")
 Tracker:AddLocations("locations/hints/dungeon_hints.jsonc")
 Tracker:AddLocations("locations/hints/great_bay_hints.jsonc")

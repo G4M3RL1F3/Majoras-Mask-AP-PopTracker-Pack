@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "package_version": "0.9.3",
+      "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/archive/refs/tags/v0.9.3.zip",
+      "sha256": "3f6375d7cb5acec815f5326937662f3c6ec1153eac15312ca534b41326d30c50",
+      "changelog": [
+        "Added Ocean Spider House and Beneath the Well maps",
+        "Removed Clock Town Stray Fairy visibility rule",
+        "Added the last few remaining icons for locations",
+        "Attempted fix for erronous Moon access",
+        "Added items only and maps only variants",
+        "Twin Islands spring chests now requires Zora Mask"
+      ]
+    },
+    {
       "package_version": "0.9.2",
       "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/archive/refs/tags/v0.9.2.zip",
       "sha256": "8e49c9f3971a0d65cd2956d401e5f6c1f89ea88ebf0a25ea89a411db43ee4d51",

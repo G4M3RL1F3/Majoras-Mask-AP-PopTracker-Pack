@@ -577,11 +577,11 @@
         ]
       },
       {
-        "name": "Laundry Pool Stray Fairy (Clock Town)",
-        "visibility_rules": ["fairysanity"],
+        "name": "Stray Fairy (Clock Town)",
+        //"visibility_rules": ["fairysanity"],
         "sections": [
           {
-            "name": "Laundry Pool Stray Fairy (Clock Town)",
+            "name": "Stray Fairy (Clock Town)",
             "chest_unopened_img": "images/equipment/fairy_ct.png"
           }
         ],
@@ -590,6 +590,11 @@
             "map": "overworld",
             "x": 24,
             "y": 207
+          },
+          {
+            "map": "overworld",
+            "x": 172,
+            "y": 154
           }
         ]
       },

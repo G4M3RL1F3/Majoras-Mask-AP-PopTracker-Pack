@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Beneath the Well Hints",
+    "children": [
+      {
+        "name": "Cow",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Beneath the Well Hints/Cow (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 1036,
+            "y": 995
+          }
+        ]
+      },
+      {
+        "name": "Invisible Chest",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Beneath the Well Hints/Invisible Chest (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 537,
+            "y": 496
+          }
+        ]
+      },
+      {
+        "name": "Rightside Torch Chest",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Beneath the Well Hints/Rightside Torch Chest (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 425,
+            "y": 784
+          }
+        ]
+      },
+      {
+        "name": "Final Chest",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Beneath the Well Hints/Final Chest (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 822,
+            "y": 480
+          }
+        ]
+      }
+    ]
+  }
+]

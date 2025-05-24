@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Beneath the Well",
+    "children": [
+      {
+        "name": "Cow",
+        "sections": [
+          {
+            "ref": "Dungeons/Beneath the Well/Cow"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 1044,
+            "y": 995
+          }
+        ]
+      },
+      {
+        "name": "Invisible Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Beneath the Well/Invisible Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 545,
+            "y": 496
+          }
+        ]
+      },
+      {
+        "name": "Rightside Torch Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Beneath the Well/Rightside Torch Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 433,
+            "y": 784
+          }
+        ]
+      },
+      {
+        "name": "Final Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Beneath the Well/Final Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 830,
+            "y": 480
+          }
+        ]
+      }
+    ]
+  }
+]

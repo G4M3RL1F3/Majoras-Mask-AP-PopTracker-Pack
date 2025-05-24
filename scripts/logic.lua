@@ -437,6 +437,8 @@ function remainCount()
     end
     if remains_count.AcquiredCount >= Tracker:FindObjectForCode("moon_remains_required").AcquiredCount then
         Tracker:FindObjectForCode("remains_moon").Active = true
+    else
+        Tracker:FindObjectForCode("remains_moon").Active = false
     end
 end
 

@@ -1296,6 +1296,7 @@
           },
           {
             "name": "King Song",
+            "chest_unopened_img": "images/equipment/song_elegy_no_text.png",
             "access_rules": [
               "easy_logic, deku, $can_use_lens, $can_use_fire_arrows, goron, powderkeg, mirrorshield, $baby_can_smack_hard, $can_use_light_arrows",
               "normal_logic, deku, $can_use_lens, $can_use_fire_arrows, goron, powderkeg, mirrorshield",

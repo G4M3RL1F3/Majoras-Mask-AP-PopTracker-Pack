@@ -1,0 +1,5 @@
+Tracker:AddLayouts("layouts/broadcast_dungeons.jsonc")
+Tracker:AddLayouts("layouts/broadcast_equipment.jsonc")
+Tracker:AddLayouts("layouts/broadcast_items.jsonc")
+Tracker:AddLayouts("layouts/broadcast_masks.jsonc")
+Tracker:AddLayouts("layouts/broadcast.jsonc")

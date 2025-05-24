@@ -7,7 +7,15 @@
     "author": "Seto10987, G4M3R L1F3",
     "variants": {
         "standard": {
-            "display_name": "Map Tracker",
+            "display_name": "Maps and items",
+            "flags": ["ap"]
+        },
+        "itemsonly": {
+            "display_name": "Items only",
+            "flags": ["ap"]
+        },
+        "mapsonly": {
+            "display_name": "Maps only",
             "flags": ["ap"]
         }
     },

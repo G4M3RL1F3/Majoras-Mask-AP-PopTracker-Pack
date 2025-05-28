@@ -11,6 +11,7 @@ end
 
 ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
+ScriptHost:LoadScript("scripts/regions.lua")
 ScriptHost:LoadScript("scripts/broadcast.lua")
 ScriptHost:LoadScript("scripts/items.lua")
 

@@ -1,4 +1,3 @@
----@diagnostic disable: lowercase-global
 ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
@@ -53,10 +52,8 @@ function onClear(slot_data)
             end
         end
     end
-
-    --Tracker:FindObjectForCode("bottle_1").Active = false
-    --Tracker:FindObjectForCode("bottle_2").Active = false
-    --Tracker:FindObjectForCode("bottle_3").Active = false
+    Tracker:FindObjectForCode("remains_moon").Active = false
+    Tracker:FindObjectForCode("bottles").CurrentStage = 0
 
 	PLAYER_NUMBER = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0

@@ -1,4 +1,3 @@
----@diagnostic disable: redundant-parameter, lowercase-global, undefined-field, need-check-nil
 -- Can reach specific locations (there's probably a better way to do this)
 function canReachHealingInvisibleGoron()
     return can_use_lens() and can_play_healing()
@@ -251,9 +250,14 @@ function remainCount()
     end
 end
 
---function remainsMajora()
---    if Tracker:FindObjectForCode("remains_count").AcquiredCount >= Tracker:FindObjectForCode("majora_remains_required").AcquiredCount then
---        Tracker:FindObjectForCode("remains_majora").Active = true
+--function can_afford(location)
+--    price = ADJUSTED_PRICES[location]
+--    if price > 200 then
+--        return has("giantswallet")
+--    elseif price > 99 then
+--        return has("adultswallet")
+--    elseif price <= 99 then
+--        return true
 --    end
 --end
 

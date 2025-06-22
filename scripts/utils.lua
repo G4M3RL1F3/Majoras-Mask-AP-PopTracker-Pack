@@ -1,5 +1,3 @@
----@diagnostic disable: lowercase-global
-
 function has(item)
   return Tracker:ProviderCountForCode(item) == 1
 end

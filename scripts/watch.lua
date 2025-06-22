@@ -1,4 +1,3 @@
----@diagnostic disable: lowercase-global
 HOSTED_ITEMS =
 {
   "boss_wft",

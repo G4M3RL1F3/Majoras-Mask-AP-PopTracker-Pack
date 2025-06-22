@@ -2,11 +2,15 @@ ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tables.lua")
+ScriptHost:LoadScript("scripts/autotracking/shop.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+RANDOMIZED_PRICES = {}
+SHOP_PRICES = {}
+ADJUSTED_PRICES = {}
 
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -67,6 +71,22 @@ function onClear(slot_data)
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
     end
+
+    --if slot_data["shop_prices"] then
+    --    for w in string.gmatch(slot_data["shop_prices"], "%d+") do
+    --        table.insert(RANDOMIZED_PRICES, w)
+    --    end
+    --    for key, value in ipairs(SHOP_DATA) do
+    --        SHOP_PRICES[key] = {value[2], RANDOMIZED_PRICES[value[1]]}
+    --    end
+    --    for _, value in ipairs(SHOP_PRICES) do
+    --        ADJUSTED_PRICES[value[1]] = value[2]
+    --    end
+    --end
+    for key, value in ipairs(SHOP_DATA) do
+        SHOP_PRICES[key] = {value[2], DEFAULT_SHOP_PRICES[value[1]]}
+    end
+    set_default_prices() --change to adjust_display_cost() when slot data format for prices gets changed
 
     -- read YAML options
     local function setFromSlotData(slot_data_key, item_code)

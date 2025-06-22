@@ -151,18 +151,21 @@
           {
             "name": "Shop 1",
             "chest_unopened_img": "images/characters/zora_shop.png",
+            "item_count": 500,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
             "access_rules": ["zora"]
           },
           {
             "name": "Shop 2",
             "chest_unopened_img": "images/characters/zora_shop.png",
+            "item_count": 500,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
             "access_rules": ["zora"]
           },
           {
             "name": "Shop 3",
             "chest_unopened_img": "images/characters/zora_shop.png",
+            "item_count": 500,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
             "access_rules": ["zora"]
           },

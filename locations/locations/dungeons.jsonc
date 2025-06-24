@@ -1473,20 +1473,20 @@
           },
           {
             "name": "Death Armos Maze Chest",
-            "access_rules": ["deku, $can_use_light_arrows, $can_play_elegy"]
+            "access_rules": ["@Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest"]
           },
           {
             "name": "Gomess Chest",
             "access_rules": [
               "easy_logic, deku, $can_use_light_arrows, fairysword, fiercedeity",
-              "normal_logic, deku, $can_use_light_arrows, $can_smack_hard"
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $can_use_light_arrows, $can_smack_hard"
             ]
           },
           {
             "name": "Eyegore Chest",
             "access_rules": [
               "easy_logic, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $baby_has_explosives, $baby_has_projectiles",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, hookshot, $has|smallkey_st|4"
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $has|smallkey_st|4"
             ]
           },
           {

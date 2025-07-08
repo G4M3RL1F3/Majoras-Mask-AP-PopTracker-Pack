@@ -194,7 +194,7 @@
         "sections": [
           {
             "name": "Item 1",
-            "chest_unopened_img": "images/items/red_potion.png",
+            "chest_unopened_img": "images/items/blue_potion.png",
             "item_count": 500,
             "access_rules": ["maskofscents, $has|bottles|1"],
             "visibility_rules": [
@@ -214,7 +214,7 @@
           },
           {
             "name": "Item 3",
-            "chest_unopened_img": "images/items/blue_potion.png",
+            "chest_unopened_img": "images/items/red_potion.png",
             "item_count": 500,
             //"access_rules": ["$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 3"],
             "visibility_rules": [

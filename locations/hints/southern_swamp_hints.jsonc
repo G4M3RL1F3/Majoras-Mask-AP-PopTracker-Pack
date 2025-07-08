@@ -1,6 +1,8 @@
 [
   {
     "name": "Southern Swamp Hints",
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
     "access_rules": ["{}"],
     "children": [
       {
@@ -8,6 +10,7 @@
         "sections": [
           {
             "name": "Road to Swamp Tree HP (Hint)",
+              "chest_unopened_img": "images/equipment/heart_piece.png",
             "visibility_rules": ["road_to_swamp_tree_hp"]
           }
         ],
@@ -39,6 +42,7 @@
 
       {
         "name": "Swamp Shooting Gallery Hints",
+        "chest_unopened_img": "images/icons/archery.png",
         "sections": [
           {
             "name": "Swamp Shooting Gallery 2120 Points (Hint)",
@@ -160,14 +164,17 @@
         "sections": [
           {
             "name": "Item 1 (Hint)",
+            "chest_unopened_img": "images/items/blue_potion.png",
             "visibility_rules": ["witch_shop_item_1"]
           },
           {
             "name": "Item 2 (Hint)",
+            "chest_unopened_img": "images/items/green_potion.png",
             "visibility_rules": ["witch_shop_item_2"]
           },
           {
             "name": "Item 3 (Hint)",
+            "chest_unopened_img": "images/items/red_potion.png",
             "visibility_rules": ["witch_shop_item_3"]
           }
         ],

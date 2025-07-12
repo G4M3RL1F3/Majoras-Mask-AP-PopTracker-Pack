@@ -1,6 +1,18 @@
 {
   "versions": [
     {
+      "package_version": "0.9.4",
+      "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/archive/refs/tags/v0.9.4.zip",
+      "sha256": "351a9442c50fe00e07f7467d91f33771e31801fe85ae7fb9fb4f1dda7cfaecda",
+      "changelog": [
+        "Shop prices are now displayed, currently vanilla prices only",
+        "Hints will now be highlighted instead of blue squares",
+        "Another attempted fix for incorrect Moon access",
+        "Witch Shop items 1 and 3 icons are swapped to match vanilla order",
+        "Fixed late Inverted Stone Tower Temple logic, specifically beyond Wizzrobe room"
+      ]
+    },
+    {
       "package_version": "0.9.3",
       "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/archive/refs/tags/v0.9.3.zip",
       "sha256": "3f6375d7cb5acec815f5326937662f3c6ec1153eac15312ca534b41326d30c50",

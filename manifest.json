@@ -5,6 +5,8 @@
     "package_uid": "MM_AP",
     "platform": "Nintendo 64",
     "author": "Seto10987, G4M3R L1F3",
+    "min_poptracker_version": "0.32.0",
+    "target_poptracker_version": "0.32.1",
     "variants": {
         "standard": {
             "display_name": "Maps and items",

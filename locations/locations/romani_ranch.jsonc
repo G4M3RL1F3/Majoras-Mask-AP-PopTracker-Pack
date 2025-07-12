@@ -91,7 +91,7 @@
             ]
           },
           {
-            "name": "Dog Race",
+            "name": "Doggy Race",
             "chest_unopened_img": "images/icons/dog.png",
             "access_rules": [
               "easy_logic, giantswallet, truth",

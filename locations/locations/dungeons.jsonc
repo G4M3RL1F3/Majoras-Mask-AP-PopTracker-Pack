@@ -183,7 +183,12 @@
             "hosted_item": "boss_odolwa_hosted"
           },
           {
-            "ref": "Dungeons/Any Boss/Oath to Order"
+            "name": "Oath to Order",
+            "chest_unopened_img": "images/equipment/song_oath_no_text.png",
+            "access_rules": [
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
+              "normal_logic, $clear_woodfall"
+            ]
           }
         ],
         "map_locations": [
@@ -386,7 +391,12 @@
             ]
           },
           {
-            "ref": "Dungeons/Any Boss/Oath to Order"
+            "name": "Oath to Order",
+            "chest_unopened_img": "images/equipment/song_oath_no_text.png",
+            "access_rules": [
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
+              "normal_logic, $clear_snowhead"
+            ]
           }
         ],
         "map_locations": [
@@ -587,7 +597,12 @@
             ]
           },
           {
-            "ref": "Dungeons/Any Boss/Oath to Order"
+            "name": "Oath to Order",
+            "chest_unopened_img": "images/equipment/song_oath_no_text.png",
+            "access_rules": [
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
+              "normal_logic, $clear_greatbay"
+            ]
           }
         ],
         "map_locations": [
@@ -1516,7 +1531,12 @@
             ]
           },
           {
-            "ref": "Dungeons/Any Boss/Oath to Order"
+            "name": "Oath to Order",
+            "chest_unopened_img": "images/equipment/song_oath_no_text.png",
+            "access_rules": [
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains"
+            ]
           }
         ],
         "map_locations": [

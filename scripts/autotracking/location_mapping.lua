@@ -178,7 +178,7 @@ LOCATION_MAPPING = {
     [0x3469420062718] = {"@Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #2 Token","@Dungeons Hints/Swamp Spider House Hints/Swamphouse Tree Room Tree #2 Token (Hint)"},
     [0x346942006271D] = {"@Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #3 Token","@Dungeons Hints/Swamp Spider House Hints/Swamphouse Tree Room Tree #3 Token (Hint)"},
     [0x346942006271A] = {"@Dungeons/Swamp Spider House/Swamphouse Tree Room Beehive Token","@Dungeons Hints/Swamp Spider House Hints/Swamphouse Tree Room Beehive Token (Hint)"},
-    [0x346942000008A] = {"@Dungeons/Swamp Spider House/Collect 30 Tokens","@Dungeons Hints/Swamp Spider House Hints/Collect 30 Tokens (Hint)"},
+    [0x346942000008A] = {"@Dungeons/Swamp Spider House/Swamp Spider House Reward"},
 
     -- Woodfall Temple
     [0x3469420061B18] = {"@Dungeons/Woodfall Temple/Woodfall Temple Entrance Chest","@Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Entrance Chest (Hint)"},

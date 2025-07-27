@@ -3,10 +3,10 @@
     "name": "Swamp Spider House",
     "children": [
       {
-        "name": "Collect 30 Tokens",
+        "name": "Swamp Spider House Reward",
         "sections": [
           {
-          "ref": "Dungeons/Swamp Spider House/Collect 30 Tokens"
+          "ref": "Dungeons/Swamp Spider House/Swamp Spider House Reward"
           }
         ],
         "map_locations": [

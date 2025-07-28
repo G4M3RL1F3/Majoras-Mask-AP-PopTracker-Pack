@@ -345,6 +345,51 @@ function stone_tower_map_purchased_2()
     end
 end
 
+function oath_to_order_wft()
+    if Tracker:FindObjectForCode("oath_wft").Active == true then
+        Tracker:FindObjectForCode("oath_sht").Active = true
+        Tracker:FindObjectForCode("oath_gbt").Active = true
+        Tracker:FindObjectForCode("oath_stt").Active = true
+    elseif Tracker:FindObjectForCode("oath_wft").Active == false then
+        Tracker:FindObjectForCode("oath_sht").Active = false
+        Tracker:FindObjectForCode("oath_gbt").Active = false
+        Tracker:FindObjectForCode("oath_stt").Active = false
+    end
+end
+function oath_to_order_sht()
+    if Tracker:FindObjectForCode("oath_sht").Active == true then
+        Tracker:FindObjectForCode("oath_wft").Active = true
+        Tracker:FindObjectForCode("oath_gbt").Active = true
+        Tracker:FindObjectForCode("oath_sst").Active = true
+    elseif Tracker:FindObjectForCode("oath_sht").Active == false then
+        Tracker:FindObjectForCode("oath_wft").Active = false
+        Tracker:FindObjectForCode("oath_gbt").Active = false
+        Tracker:FindObjectForCode("oath_stt").Active = false
+    end
+end
+function oath_to_order_gbt()
+    if Tracker:FindObjectForCode("oath_gbt").Active == true then
+        Tracker:FindObjectForCode("oath_wft").Active = true
+        Tracker:FindObjectForCode("oath_sht").Active = true
+        Tracker:FindObjectForCode("oath_stt").Active = true
+    elseif Tracker:FindObjectForCode("oath_gbt").Active == false then
+        Tracker:FindObjectForCode("oath_wft").Active = false
+        Tracker:FindObjectForCode("oath_sht").Active = false
+        Tracker:FindObjectForCode("oath_stt").Active = false
+    end
+end
+function oath_to_order_stt()
+    if Tracker:FindObjectForCode("oath_stt").Active == true then
+        Tracker:FindObjectForCode("oath_wft").Active = true
+        Tracker:FindObjectForCode("oath_sht").Active = true
+        Tracker:FindObjectForCode("oath_gbt").Active = true
+    elseif Tracker:FindObjectForCode("oath_stt").Active == false then
+        Tracker:FindObjectForCode("oath_wft").Active = false
+        Tracker:FindObjectForCode("oath_sht").Active = false
+        Tracker:FindObjectForCode("oath_gbt").Active = false
+    end
+end
+
 ScriptHost:AddWatchForCode("OdolwaDefeated", "boss_odolwa_hosted", clear_wft)
 ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottleCount)
 ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", bottleCount)
@@ -365,3 +410,7 @@ ScriptHost:AddWatchForCode("GreatBayMapPurchased1", "great_bay_map_purchase_1", 
 ScriptHost:AddWatchForCode("GreatBayMapPurchased2", "great_bay_map_purchase_2", great_bay_map_purchased_2)
 ScriptHost:AddWatchForCode("StoneTowerMapPurchased1", "stone_tower_map_purchase_1", stone_tower_map_purchased_1)
 ScriptHost:AddWatchForCode("StoneTowerMapPurchased2", "stone_tower_map_purchase_2", stone_tower_map_purchased_2)
+ScriptHost:AddWatchForCode("OathToOrderFoundInWFT", "oath_wft", oath_to_order_wft)
+ScriptHost:AddWatchForCode("OathToOrderFoundInSHT", "oath_sht", oath_to_order_sht)
+ScriptHost:AddWatchForCode("OathToOrderFoundInGBT", "oath_gbt", oath_to_order_gbt)
+ScriptHost:AddWatchForCode("OathToOrderFoundInSTT", "oath_stt", oath_to_order_stt)

@@ -86,5 +86,37 @@
     "disabled_img": "images/equipment/rmap_stonetower.png",
     "disabled_img_mods": "@enabled",
     "codes": "stone_tower_map_purchase_2"
+  },
+  {
+    "name": "Oath to Order WFT",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/song_oath_no_text.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "oath_wft"
+  },
+  {
+    "name": "Oath to Order SHT",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/song_oath_no_text.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "oath_sht"
+  },
+  {
+    "name": "Oath to Order GBT",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/song_oath_no_text.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "oath_gbt"
+  },
+  {
+    "name": "Oath to Order STT",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/song_oath_no_text.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "oath_stt"
   }
 ]

@@ -460,5 +460,5 @@ LOCATION_MAPPING = {
     [0x346942000007B] = {"@Inside the Moon/The Moon/Trade All Masks","@Inside the Moon Hints/Link Trial Hints/Trade All Masks (Hint)"},
 
     -- Any Boss
-    [0x3469420040065] = {"@Dungeons/Woodfall Temple/Oath to Order","@Dungeons/Snowhead Temple/Oath to Order","@Dungeons/Great Bay Temple/Oath to Order","@Dungeons/Inverted Stone Tower Temple/Oath to Order"}
+    [0x3469420040065] = {"oath_wft"}
 }

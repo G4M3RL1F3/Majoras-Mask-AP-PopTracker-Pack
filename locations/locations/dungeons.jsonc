@@ -188,7 +188,8 @@
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
               "normal_logic, $clear_woodfall"
-            ]
+            ],
+            "hosted_item": "oath_wft"
           }
         ],
         "map_locations": [
@@ -396,7 +397,8 @@
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
               "normal_logic, $clear_snowhead"
-            ]
+            ],
+            "hosted_item": "oath_sht"
           }
         ],
         "map_locations": [
@@ -602,7 +604,8 @@
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
               "normal_logic, $clear_greatbay"
-            ]
+            ],
+            "hosted_item": "oath_gbt"
           }
         ],
         "map_locations": [
@@ -1542,7 +1545,8 @@
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains"
-            ]
+            ],
+            "hosted_item": "oath_sht"
           }
         ],
         "map_locations": [
@@ -1550,22 +1554,6 @@
             "map": "overworld",
             "x": 965,
             "y": 230
-          }
-        ]
-      },
-      {
-        "name": "Any Boss",
-        "sections": [
-          {
-            "name": "Oath to Order",
-            "chest_unopened_img": "images/equipment/song_oath_no_text.png",
-            "access_rules": [
-              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
-              "normal_logic, $clear_woodfall",
-              "normal_logic, $clear_snowhead",
-              "normal_logic, $clear_greatbay",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains"
-            ]
           }
         ]
       }

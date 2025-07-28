@@ -935,13 +935,16 @@
           }
         ],
         "sections": [
+          //{
+          //  "name": "Clock Town Map Purchase",
+          //  "chest_unopened_img": "images/equipment/rmap_clocktown.png",
+          //  "access_rules": [
+          //    "easy_logic, $baby_has_projectiles, $baby_ikana_canyon, $can_use_ice_arrows",
+          //    "normal_logic, $has_projectiles"
+          //  ]
+          //},
           {
-            "name": "Clock Town Map Purchase",
-            "chest_unopened_img": "images/equipment/rmap_clocktown.png",
-            "access_rules": [
-              "easy_logic, $baby_has_projectiles, $baby_ikana_canyon, $can_use_ice_arrows",
-              "normal_logic, $has_projectiles"
-            ]
+            "ref": "Groups/Clock Town Map Purchase/Clock Town Map Purchase"
           },
           {
             "ref": "Southern Swamp/Tingle Southern Swamp/Woodfall Map Purchase"

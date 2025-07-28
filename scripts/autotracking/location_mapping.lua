@@ -83,7 +83,7 @@ LOCATION_MAPPING = {
     [0x346942007C404] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg) (Hint)"},
     [0x346942007C405] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Purple Rupee Trade (Poe)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Purple Rupee Trade (Poe) (Hint)"},
     [0x346942007C407] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Gold Rupee Trade (Big Poe, Chateau, Gold Dust)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Gold Rupee Trade (Big Poe, Chateau, Gold Dust) (Hint)"},
-    [0x34694200000B4] = {"@Clock Town/Tingle Clock Town/Clock Town Map Purchase","@Clock Town Hints/Tingle Clock Town Hints/Clock Town Map Purchase (Hint)"},
+    [0x34694200000B4] = {"clock_town_map_purchase_1"},
     [0x3469420080239] = {"@Clock Town/West Clock Town Lottery/Win Any Day","@Clock Town Hints/West Clock Town Lottery Hints/Win Any Day (Hint)"},
 
     -- Termina Field
@@ -102,8 +102,8 @@ LOCATION_MAPPING = {
     [0x3469420BEEF13] = {"@Termina Field/Termina Log Bombable Grotto/Right Cow","@Termina Field Hints/Termina Log Bombable Grotto Hints/Right Cow (Hint)"},
 
     -- Milk Road/Romani Ranch
-    [0x34694200000B7] = {"@Romani Ranch/Tingle Milk Road/Romani Ranch Map Purchase","@Romani Ranch Hints/Tingle Milk Road Hints/Romani Ranch Map Purchase (Hint)"},
-    [0x34694200000B8] = {"@Romani Ranch/Tingle Milk Road/Great Bay Map Purchase","@Romani Ranch Hints/Tingle Milk Road Hints/Great Bay Map Purchase (Hint)"},
+    [0x34694200000B7] = {"romani_ranch_map_purchase_1"},
+    [0x34694200000B8] = {"great_bay_map_purchase_1"},
     [0x3469420000081] = {"@Romani Ranch/Gorman Track/Race","@Romani Ranch Hints/Gorman Track Hints/Race (Hint)"},
     [0x3469420006792] = {"@Romani Ranch/Gorman Track/Purchase","@Romani Ranch Hints/Gorman Track Hints/Purchase (Hint)"},
     [0x346942000007F] = {"@Romani Ranch/Cucco Shack/Bremen Mask March Baby Cuccos","@Romani Ranch Hints/Cucco Shack Hints/Bremen Mask March Baby Cuccos (Hint)"},
@@ -121,7 +121,7 @@ LOCATION_MAPPING = {
     [0x346942006071E] = {"@Southern Swamp/Road to Swamp Grotto Chest/Road to Swamp Grotto Chest","@Southern Swamp Hints/Road to Swamp Grotto Chest Hints/Road to Swamp Grotto Chest (Hint)"},
     [0x3469420000024] = {"@Southern Swamp/Swamp Shooting Gallery/Swamp Shooting Gallery 2120 Points","@Southern Swamp Hints/Swamp Shooting Gallery Hints/Swamp Shooting Gallery 2120 Points (Hint)"},
     [0x346942008011D] = {"@Southern Swamp/Swamp Shooting Gallery/Swamp Shooting Gallery 2180 Points","@Southern Swamp Hints/Swamp Shooting Gallery Hints/Swamp Shooting Gallery 2180 Points (Hint)"},
-    [0x34694200000B5] = {"@Southern Swamp/Tingle Southern Swamp/Woodfall Map Purchase","@Southern Swamp Hints/Tingle Southern Swamp Hints/Woodfall Map Purchase (Hint)"},
+    [0x34694200000B5] = {"@Southern Swamp/Tingle Southern Swamp/Woodfall Map Purchase"},
     [0x3469420000098] = {"@Southern Swamp/Swamp Business Scrub/Southern Swamp Deku Trade","@Southern Swamp Hints/Swamp Business Scrub Hints/Southern Swamp Deku Trade (Hint)"},
     [0x3469420090135] = {"@Southern Swamp/Swamp Business Scrub/Southern Swamp Deku Scrub Purchase Beans","@Southern Swamp Hints/Swamp Business Scrub Hints/Southern Swamp Deku Scrub Purchase Beans (Hint)"},
     [0x346942005451E] = {"@Southern Swamp/Swamp Business Scrub/Southern Swamp Deku Trade Freestanding HP","@Southern Swamp Hints/Swamp Business Scrub Hints/Southern Swamp Deku Trade Freestanding HP (Hint)"},
@@ -212,7 +212,7 @@ LOCATION_MAPPING = {
     [0x3469420070022] = {"@Snowhead/Mountain Village/Don Gero Mask Frog Song HP","@Snowhead Hints/Mountain Village Hints/Don Gero Mask Frog Song HP (Hint)"},
     [0x3469420000038] = {"@Snowhead/Mountain Village/Smithy Upgrade","@Snowhead Hints/Mountain Village Hints/Smithy Upgrade (Hint)"},
     [0x3469420000039] = {"@Snowhead/Mountain Village/Smithy Gold Dust Upgrade","@Snowhead Hints/Mountain Village Hints/Smithy Gold Dust Upgrade (Hint)"},
-    [0x34694200000B6] = {"@Southern Swamp/Tingle Southern Swamp/Snowhead Map Purchase","@Southern Swamp Hints/Tingle Southern Swamp Hints/Snowhead Map Purchase (Hint)"},
+    [0x34694200000B6] = {"snowhead_map_purchase_1"},
     [0x3469420065E00] = {"@Snowhead/Twin Islands/Spring Underwater Cave Chest","@Snowhead Hints/Twin Islands Hints/Spring Underwater Cave Chest (Hint)"},
     [0x3469420065E06] = {"@Snowhead/Twin Islands/Spring Underwater Near Ramp Chest","@Snowhead Hints/Twin Islands Hints/Spring Underwater Near Ramp Chest (Hint)"},
     [0x3469420060719] = {"@Snowhead/Twin Islands/Ramp Grotto Chest","@Snowhead Hints/Twin Islands Hints/Ramp Grotto Chest (Hint)"},
@@ -400,7 +400,7 @@ LOCATION_MAPPING = {
     [0x3469420001307] = {"@Ikana/Near Thief's Hideout Entrance/Zora Scrub Trade","@Ikana Hints/Near Thief's Hideout Entrance Hints/Zora Scrub Trade (Hint)"},
     [0x346942009015D] = {"@Ikana/Near Thief's Hideout Entrance/Deku Scrub Purchase Blue Potion","@Ikana Hints/Near Thief's Hideout Entrance Hints/Deku Scrub Purchase Blue Potion (Hint)"},
     [0x346942005131E] = {"@Ikana/Near Thief's Hideout Entrance/Zora Trade Freestanding HP","@Ikana Hints/Near Thief's Hideout Entrance Hints/Zora Trade Freestanding HP (Hint)"},
-    [0x34694200000B9] = {"@Ikana/Tingle/Stone Tower Map Purchase","@Ikana Hints/Ikana Canyon Hints/Stone Tower Map Purchase (Hint)"},
+    [0x34694200000B9] = {"stone_tower_map_purchase_1"},
     [0x3469420000087] = {"@Ikana/Ikana Canyon/Music Box Mummy","@Ikana Hints/Ikana Canyon Hints/Music Box Mummy (Hint)"},
     [0x34694200701DE] = {"@Ikana/Ikana Canyon/Spirit House","@Ikana Hints/Ikana Canyon Hints/Spirit House (Hint)"},
     [0x3469420030004] = {"@Ikana/Ikana Canyon/Stone Tower Great Fairy Reward","@Ikana Hints/Ikana Canyon Hints/Stone Tower Great Fairy Reward (Hint)"},

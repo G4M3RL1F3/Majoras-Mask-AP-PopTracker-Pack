@@ -270,8 +270,82 @@ function clear_wft()
     end
 end
 
+function clock_town_map_purchased_1()
+    if Tracker:FindObjectForCode("clock_town_map_purchase_1").Active == true then
+        Tracker:FindObjectForCode("clock_town_map_purchase_2").Active = true
+    elseif Tracker:FindObjectForCode("clock_town_map_purchase_1").Active == false then
+        Tracker:FindObjectForCode("clock_town_map_purchase_2").Active = false
+    end
+end
+function clock_town_map_purchased_2()
+    if Tracker:FindObjectForCode("clock_town_map_purchase_2").Active == true then
+        Tracker:FindObjectForCode("clock_town_map_purchase_1").Active = true
+    elseif Tracker:FindObjectForCode("clock_town_map_purchase_2").Active == false then
+        Tracker:FindObjectForCode("clock_town_map_purchase_1").Active = false
+    end
+end
 
-ScriptHost:AddWatchForCode("bottlecounter_wft", "boss_odolwa_hosted", clear_wft)
+function snowhead_map_purchased_1()
+    if Tracker:FindObjectForCode("snowhead_map_purchase_1").Active == true then
+        Tracker:FindObjectForCode("snowhead_map_purchase_2").Active = true
+    elseif Tracker:FindObjectForCode("snowhead_map_purchase_1").Active == false then
+        Tracker:FindObjectForCode("snowhead_map_purchase_2").Active = false
+    end
+end
+function snowhead_map_purchased_2()
+    if Tracker:FindObjectForCode("snowhead_map_purchase_2").Active == true then
+        Tracker:FindObjectForCode("snowhead_map_purchase_1").Active = true
+    elseif Tracker:FindObjectForCode("snowhead_map_purchase_2").Active == false then
+        Tracker:FindObjectForCode("snowhead_map_purchase_1").Active = false
+    end
+end
+
+function romani_ranch_map_purchased_1()
+    if Tracker:FindObjectForCode("romani_ranch_map_purchase_1").Active == true then
+        Tracker:FindObjectForCode("romani_ranch_map_purchase_2").Active = true
+    elseif Tracker:FindObjectForCode("romani_ranch_map_purchase_1").Active == false then
+        Tracker:FindObjectForCode("romani_ranch_map_purchase_2").Active = false
+    end
+end
+function romani_ranch_map_purchased_2()
+    if Tracker:FindObjectForCode("romani_ranch_map_purchase_2").Active == true then
+        Tracker:FindObjectForCode("romani_ranch_map_purchase_1").Active = true
+    elseif Tracker:FindObjectForCode("romani_ranch_map_purchase_2").Active == false then
+        Tracker:FindObjectForCode("romani_ranch_map_purchase_1").Active = false
+    end
+end
+
+function great_bay_map_purchased_1()
+    if Tracker:FindObjectForCode("great_bay_map_purchase_1").Active == true then
+        Tracker:FindObjectForCode("great_bay_map_purchase_2").Active = true
+    elseif Tracker:FindObjectForCode("great_bay_map_purchase_1").Active == false then
+        Tracker:FindObjectForCode("great_bay_map_purchase_2").Active = false
+    end
+end
+function great_bay_map_purchased_2()
+    if Tracker:FindObjectForCode("great_bay_map_purchase_2").Active == true then
+        Tracker:FindObjectForCode("great_bay_map_purchase_1").Active = true
+    elseif Tracker:FindObjectForCode("great_bay_map_purchase_2").Active == false then
+        Tracker:FindObjectForCode("great_bay_map_purchase_1").Active = false
+    end
+end
+
+function stone_tower_map_purchased_1()
+    if Tracker:FindObjectForCode("stone_tower_map_purchase_1").Active == true then
+        Tracker:FindObjectForCode("stone_tower_map_purchase_2").Active = true
+    elseif Tracker:FindObjectForCode("stone_tower_map_purchase_1").Active == false then
+        Tracker:FindObjectForCode("stone_tower_map_purchase_2").Active = false
+    end
+end
+function stone_tower_map_purchased_2()
+    if Tracker:FindObjectForCode("stone_tower_map_purchase_2").Active == true then
+        Tracker:FindObjectForCode("stone_tower_map_purchase_1").Active = true
+    elseif Tracker:FindObjectForCode("stone_tower_map_purchase_2").Active == false then
+        Tracker:FindObjectForCode("stone_tower_map_purchase_1").Active = false
+    end
+end
+
+ScriptHost:AddWatchForCode("OdolwaDefeated", "boss_odolwa_hosted", clear_wft)
 ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottleCount)
 ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", bottleCount)
 ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", bottleCount)
@@ -281,3 +355,13 @@ ScriptHost:AddWatchForCode("OdolwaObtained", "odolwa", remainCount)
 ScriptHost:AddWatchForCode("GohtObtained", "goht", remainCount)
 ScriptHost:AddWatchForCode("GyorgObtained", "gyorg", remainCount)
 ScriptHost:AddWatchForCode("TwinmoldObtained", "twinmold", remainCount)
+ScriptHost:AddWatchForCode("ClockTownMapPurchased1", "clock_town_map_purchase_1", clock_town_map_purchased_1)
+ScriptHost:AddWatchForCode("ClockTownMapPurchased2", "clock_town_map_purchase_2", clock_town_map_purchased_2)
+ScriptHost:AddWatchForCode("SnowheadMapPurchased1", "snowhead_map_purchase_1", snowhead_map_purchased_1)
+ScriptHost:AddWatchForCode("SnowheadMapPurchased2", "snowhead_map_purchase_2", snowhead_map_purchased_2)
+ScriptHost:AddWatchForCode("RomaniRanchMapPurchased1", "romani_ranch_map_purchase_1", romani_ranch_map_purchased_1)
+ScriptHost:AddWatchForCode("RomaniRanchMapPurchased2", "romani_ranch_map_purchase_2", romani_ranch_map_purchased_2)
+ScriptHost:AddWatchForCode("GreatBayMapPurchased1", "great_bay_map_purchase_1", great_bay_map_purchased_1)
+ScriptHost:AddWatchForCode("GreatBayMapPurchased2", "great_bay_map_purchase_2", great_bay_map_purchased_2)
+ScriptHost:AddWatchForCode("StoneTowerMapPurchased1", "stone_tower_map_purchase_1", stone_tower_map_purchased_1)
+ScriptHost:AddWatchForCode("StoneTowerMapPurchased2", "stone_tower_map_purchase_2", stone_tower_map_purchased_2)

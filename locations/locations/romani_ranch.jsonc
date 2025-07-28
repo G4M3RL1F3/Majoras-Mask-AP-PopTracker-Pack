@@ -12,20 +12,10 @@
         //],
         "sections": [
           {
-            "name": "Romani Ranch Map Purchase",
-            "chest_unopened_img": "images/equipment/rmap_romani.png",
-            "access_rules": [
-              "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles"
-            ]
+            "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase"
           },
           {
-            "name": "Great Bay Map Purchase",
-            "chest_unopened_img": "images/equipment/rmap_greatbay.png",
-            "access_rules": [
-              "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles"
-            ]
+            "ref": "Groups/Great Bay Map Purchase/Great Bay Map Purchase "
           }
         ],
         "map_locations": [

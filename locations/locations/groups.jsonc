@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Groups",
+    "access_rules": ["$has_projectiles"],
+    "children": [
+      {
+        "name": "Clock Town Map Purchase",
+        "sections": [
+          {
+            "name": "Clock Town Map Purchase", //Clock Town
+            "hosted_item": "clock_town_map_purchase_1"
+          },
+          {
+            "name": "Clock Town Map Purchase ", //Ikana Canyon
+            "access_rules": ["$ikana_canyon, $can_use_ice_arrows"],
+            "hosted_item": "clock_town_map_purchase_2"
+          }
+        ]
+      },
+      {
+        "name": "Snowhead Map Purchase",
+        "sections": [
+          {
+            "name": "Snowhead Map Purchase", //Twin Islands
+            "access_rules": ["$mountain_village"],
+            "hosted_item": "snowhead_map_purchase_1"
+          },
+          {
+            "name": "Snowhead Map Purchase ", //Road to Swamp
+            "hosted_item": "snowhead_map_purchase_2"
+          }
+        ]
+      },
+      {
+        "name": "Romani Ranch Map Purchase",
+        "sections": [
+          {
+            "name": "Romani Ranch Map Purchase", //Milk Road
+            "hosted_item": "romani_ranch_map_purchase_1"
+          },
+          {
+            "name": "Romani Ranch Map Purchase ", //Twin Islands
+            "access_rules": ["$mountain_village"],
+            "hosted_item": "romani_ranch_map_purchase_2"
+          }
+        ]
+      },
+      {
+        "name": "Great Bay Map Purchase",
+        "sections": [
+          {
+            "name": "Great Bay Map Purchase", //Great Bay Coast
+            "access_rules": ["$great_bay"],
+            "hosted_item": "great_bay_map_purchase_1"
+          },
+          {
+            "name": "Great Bay Map Purchase ", //Milk Road
+            "hosted_item": "great_bay_map_purchase_2"
+          }
+        ]
+      },
+      {
+        "name": "Stone Tower Map Purchase",
+        "sections": [
+          {
+            "name": "Stone Tower Map Purchase", //Ikana Canyon
+            "access_rules": ["$ikana_canyon, $can_use_ice_arrows"],
+            "hosted_item": "stone_tower_map_purchase_1"
+          },
+          {
+            "name": "Stone Tower Map Purchase ", //Great Bay Coast
+            "access_rules": ["$great_bay"],
+            "hosted_item": "stone_tower_map_purchase_2"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -6,5 +6,85 @@
     "img_mods": "@disabled",
     "disabled_img_mods": "none",
     "codes": "boss_odolwa_hosted"
+  },
+  {
+    "name": "Clock Town Map Purchase 1",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/rmap_clocktown.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "clock_town_map_purchase_1"
+  },
+  {
+    "name": "Clock Town Map Purchase 2",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/rmap_clocktown.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "clock_town_map_purchase_2"
+  },
+  {
+    "name": "Snowhead Map Purchase 1",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/rmap_snowhead.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "snowhead_map_purchase_1"
+  },
+  {
+    "name": "Snowhead Map Purchase 2",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/rmap_snowhead.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "snowhead_map_purchase_2"
+  },
+  {
+    "name": "Romani Ranch Map Purchase 1",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/rmap_romani.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "romani_ranch_map_purchase_1"
+  },
+  {
+    "name": "Romani Ranch Map Purchase 2",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/rmap_romani.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "romani_ranch_map_purchase_2"
+  },
+  {
+    "name": "Great Bay Map Purchase 1",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/rmap_greatbay.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "great_bay_map_purchase_1"
+  },
+  {
+    "name": "Great Bay Map Purchase 2",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/rmap_greatbay.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "great_bay_map_purchase_2"
+  },
+  {
+    "name": "Stone Tower Map Purchase 1",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/rmap_stonetower.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "stone_tower_map_purchase_1"
+  },
+  {
+    "name": "Stone Tower Map Purchase 2",
+    "type": "toggle",
+    "img": "images/icons/check_32.png",
+    "disabled_img": "images/equipment/rmap_stonetower.png",
+    "disabled_img_mods": "@enabled",
+    "codes": "stone_tower_map_purchase_2"
   }
 ]

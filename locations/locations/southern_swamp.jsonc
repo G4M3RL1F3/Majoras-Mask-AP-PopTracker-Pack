@@ -76,12 +76,7 @@
             ]
           },
           {
-            "name": "Snowhead Map Purchase",
-            "chest_unopened_img": "images/equipment/rmap_snowhead.png",
-            "access_rules": [
-              "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles"
-            ]
+            "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase "
           }
         ],
         "map_locations": [

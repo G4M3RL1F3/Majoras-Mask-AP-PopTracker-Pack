@@ -159,7 +159,7 @@ end
 function baby_well()
     return baby_ikana_canyon() and can_use_ice_arrows() and has("gibdo") and baby_has_bottle()
 end
-function well()
+function well_front()
     return ikana_canyon() and can_use_ice_arrows() and has("hookshot") and has("gibdo") and has("bottles", 1)
 end
 
@@ -169,6 +169,11 @@ function baby_ikana_castle()
 end
 function ikana_castle()
     return ikana_canyon() and can_use_ice_arrows() and has("hookshot") and (can_use_light_arrows() or has("mirrorshield"))
+end
+
+-- Ikana Castle -> Beneath the Well
+function well_back()
+    return ikana_castle() and can_use_light_arrows()
 end
 
 -- Stone Tower -> Stone Tower Temple

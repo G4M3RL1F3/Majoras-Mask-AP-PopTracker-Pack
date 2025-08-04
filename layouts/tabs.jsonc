@@ -65,6 +65,13 @@
               }
             },
             {
+              "title": "Pirates' Fortress",
+              "content": {
+                "type": "map",
+                "maps": ["pirates_fortress"]
+              }
+            },
+            {
               "title": "Beneath the Well",
               "content": {
                 "type": "map",

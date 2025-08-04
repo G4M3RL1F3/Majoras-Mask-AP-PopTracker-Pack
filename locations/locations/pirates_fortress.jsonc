@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Pirates' Fortress",
+    "children": [
+      {
+        "name": "Pirates' Fortress Exterior Underwater Log Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Log Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 423,
+            "y": 336
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Exterior Underwater Near Entrance Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Near Entrance Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 175,
+            "y": 582
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Exterior Underwater Corner Near Fortress Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Corner Near Fortress Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 652,
+            "y": 805
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Sewers Cage HP",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Cage HP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1753,
+            "y": 243
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Sewers Push Block Maze Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Push Block Maze Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1584,
+            "y": 716
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Sewers Underwater Lower Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Underwater Lower Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1820,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Sewers Underwater Upper Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Underwater Upper Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1717,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Near Egg Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Near Egg Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 875,
+            "y": 1465
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Pirates Surrounding Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Pirates Surrounding Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1243,
+            "y": 1129
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Hub Lower Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Hub Lower Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1103,
+            "y": 585
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Hub Upper Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Hub Upper Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 962,
+            "y": 771
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Leader's Room Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 271,
+            "y": 1172
+          }
+        ]
+      }
+    ]
+  }
+]

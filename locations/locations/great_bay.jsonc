@@ -35,7 +35,8 @@
             "chest_unopened_img": "images/equipment/song_bossa_nova_no_text.png",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest",
-              "normal_logic, $can_reach_seahorse, $has|bottles|3, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
+              "normal_logic, $has|bottles|1, $can_reach_seahorse",
+              "normal_logic, $has|bottles|1, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
             ]
           },
           {

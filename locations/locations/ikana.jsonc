@@ -162,8 +162,8 @@
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
-              "easy_logic, zora, $baby_has_bottle, adultswallet",
-              "normal_logic, zora, $has|bottles|1, adultswallet"
+              "easy_logic, $baby_has_bottle, adultswallet",
+              "normal_logic, $has|bottles|1, adultswallet"
             ]
           },
           {

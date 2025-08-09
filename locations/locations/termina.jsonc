@@ -139,7 +139,8 @@
             "chest_unopened_img": "images/items/moon_tear.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles"
+              "normal_logic, $has_projectiles",
+              "normal_logic, deku"
             ]
           }
         ],

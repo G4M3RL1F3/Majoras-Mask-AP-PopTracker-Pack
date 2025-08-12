@@ -160,10 +160,9 @@
   },
   {
     "name": "Magic Beans",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/items/bean.png",
-    "codes": "magicbeans,beans",
-    "max_quantity": 10
+    "codes": "magicbeans,beans"
   },
   {
     "name": "Room Key",

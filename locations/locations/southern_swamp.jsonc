@@ -125,7 +125,7 @@
           {
             "name": "Southern Swamp Tour Witch Gift",
             "chest_unopened_img": "images/items/pictobox.png",
-            "access_rules": ["redpotion"]
+            "access_rules": ["normal_logic, $has|bottles|1"]
           },
           {
             "name": "Tour Witch Target Shooting",

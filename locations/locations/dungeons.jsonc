@@ -1008,7 +1008,7 @@
           },
           {
             "name": "First Room Open Pot #2 Token",
-            "access_rules": ["hookshot, $can_use_fire_arrows"],
+            "access_rules": ["hookshot"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {

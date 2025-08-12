@@ -9,7 +9,7 @@ function baby_south_swamp()
     return has("redpotion") and baby_has_hard_projectiles() and has("deku") and has("pictobox")
 end
 function south_swamp()
-    return has("redpotion") or (has_hard_projectiles() and has("deku")) or (has("pictobox") and has("deku"))
+    return has("bottles", 1) or (has_hard_projectiles() and has("deku")) or (has("pictobox") and has("deku"))
 end
 
 -- Southern Swamp (Deku Palace) -> Swamp Spider House

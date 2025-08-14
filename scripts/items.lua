@@ -1,5 +1,5 @@
 Tracker:AddItems("items/equipment.jsonc")
-Tracker:AddItems("items/hints.jsonc")
+--Tracker:AddItems("items/hints.jsonc")
 Tracker:AddItems("items/items.jsonc")
 Tracker:AddItems("items/items_hosted.jsonc")
 Tracker:AddItems("items/masks.jsonc")

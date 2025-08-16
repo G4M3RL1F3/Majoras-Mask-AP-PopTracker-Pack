@@ -52,5 +52,11 @@
         "location_size": 36,
         "location_border_thickness": 2,
         "img": "images/maps/beneath_the_well.png"
+    },
+    {
+        "name": "secret_shrine",
+        "location_size": 20,
+        "location_border_thickness": 1,
+        "img": "images/maps/secret_shrine.png"
     }
 ]

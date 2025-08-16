@@ -77,6 +77,13 @@
                 "type": "map",
                 "maps": ["beneath_the_well"]
               }
+            },
+            {
+              "title": "Secret Shrine",
+              "content": {
+                "type": "map",
+                "maps": ["secret_shrine"]
+              }
             }
           ]
         }

@@ -137,17 +137,17 @@
                   "key": "horizontal_dungeon_grid"
                 }
               },
-              {
-                "type": "group",
-                "header": "Remnants",
-                "dock": "left",
-                "content": {
-                  "type": "layout",
-                  "h_alignment": "center",
-                  "v_alignment": "center",
-                  "key": "horizontal_remnants_grid"
-                }
-              },
+              //{
+              //  "type": "group",
+              //  "header": "Remnants",
+              //  "dock": "left",
+              //  "content": {
+              //    "type": "layout",
+              //    "h_alignment": "center",
+              //    "v_alignment": "center",
+              //    "key": "horizontal_remnants_grid"
+              //  }
+              //},
               {
                 "type": "group",
                 "header": "Collectibles",

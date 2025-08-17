@@ -50,23 +50,23 @@
                     "item": "compass_woodfall"
                   }
                 ]
-              },
-              {
-                "type": "array",
-                "orientation": "horizontal",
-                "content": [
-                  //{
-                  //  "type": "item",
-                  //  //"item_size": "35",
-                  //  "item": "fairy_wf"
-                  //},
-                  {
-                    "type": "item",
-                    //"item_size": "35",
-                    "item": "wftreward",
-                    "margin": "16,0"
-                  }
-                ]
+              //},
+              //{
+              //  "type": "array",
+              //  "orientation": "horizontal",
+              //  "content": [
+              //    //{
+              //    //  "type": "item",
+              //    //  //"item_size": "35",
+              //    //  "item": "fairy_wf"
+              //    //},
+              //    {
+              //      "type": "item",
+              //      //"item_size": "35",
+              //      "item": "wftreward",
+              //      "margin": "16,0"
+              //    }
+              //  ]
               }
             ]
           },
@@ -113,23 +113,23 @@
                     "item": "compass_snowhead"
                   }
                 ]
-              },
-              {
-                "type": "array",
-                "orientation": "horizontal",
-                "content": [
-                  //{
-                  //  "type": "item",
-                  //  //"item_size": "35",
-                  //  "item": "fairy_sh"
-                  //},
-                  {
-                    "type": "item",
-                    //"item_size": "35",
-                    "item": "shtreward",
-                    "margin": "16,0"
-                  }
-                ]
+              //},
+              //{
+              //  "type": "array",
+              //  "orientation": "horizontal",
+              //  "content": [
+              //    //{
+              //    //  "type": "item",
+              //    //  //"item_size": "35",
+              //    //  "item": "fairy_sh"
+              //    //},
+              //    {
+              //      "type": "item",
+              //      //"item_size": "35",
+              //      "item": "shtreward",
+              //      "margin": "16,0"
+              //    }
+              //  ]
               }
             ]
           },
@@ -176,23 +176,23 @@
                     "item": "compass_greatbay"
                   }
                 ]
-              },
-              {
-                "type": "array",
-                "orientation": "horizontal",
-                "content": [
-                  //{
-                  //  "type": "item",
-                  //  //"item_size": "35",
-                  //  "item": "fairy_gb"
-                  //},
-                  {
-                    "type": "item",
-                    //"item_size": "35",
-                    "item": "gbtreward",
-                    "margin": "16,0"
-                  }
-                ]
+              //},
+              //{
+              //  "type": "array",
+              //  "orientation": "horizontal",
+              //  "content": [
+              //    //{
+              //    //  "type": "item",
+              //    //  //"item_size": "35",
+              //    //  "item": "fairy_gb"
+              //    //},
+              //    {
+              //      "type": "item",
+              //      //"item_size": "35",
+              //      "item": "gbtreward",
+              //      "margin": "16,0"
+              //    }
+              //  ]
               }
             ]
           },
@@ -239,27 +239,34 @@
                     "item": "compass_stonetower"
                   }
                 ]
-              },
-              {
-                "type": "array",
-                "orientation": "horizontal",
-                "content": [
-                  //{
-                  //  "type": "item",
-                  //  //"item_size": "35",
-                  //  "item": "fairy_st"
-                  //},
-                  {
-                    "type": "item",
-                    //"item_size": "35",
-                    "item": "sttreward",
-                    "margin": "16,0"
-                  }
-                ]
+              //},
+              //{
+              //  "type": "array",
+              //  "orientation": "horizontal",
+              //  "content": [
+              //    //{
+              //    //  "type": "item",
+              //    //  //"item_size": "35",
+              //    //  "item": "fairy_st"
+              //    //},
+              //    {
+              //      "type": "item",
+              //      //"item_size": "35",
+              //      "item": "sttreward",
+              //      "margin": "16,0"
+              //    }
+              //  ]
               }
             ]
           }
         ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "15, 1",
+        "rows": [["odolwa","goht","gyorg","twinmold"]]
       }
     ]
   }

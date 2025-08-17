@@ -202,7 +202,7 @@ LOCATION_MAPPING = {
     [0x3469420011B2C] = {"@Dungeons/Woodfall Temple/Woodfall Temple Final Room Left Upper Platform SF","@Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Final Room Left Upper Platform SF (Hint)"},
     [0x3469420011B2D] = {"@Dungeons/Woodfall Temple/Woodfall Temple Final Room Bubble SF","@Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Final Room Bubble SF (Hint)"},
     [0x3469420051F00] = {"@Dungeons/Woodfall Temple/Woodfall Temple Heart Container","@Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Heart Container (Hint)"},
-    [0x3469420000055] = {"boss_odolwa_hosted","@Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Odolwa's Remains (Hint)"},
+    [0x3469420000055] = {"@Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Remains"},
 
     -- Snowhead
     [0x3469420065A00] = {"@Snowhead/Mountain Village/Spring Waterfall Chest","@Snowhead Hints/Mountain Village Hints/Spring Waterfall Chest (Hint)"},

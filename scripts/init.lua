@@ -38,5 +38,3 @@ end
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
-
-initialize_watch_items()

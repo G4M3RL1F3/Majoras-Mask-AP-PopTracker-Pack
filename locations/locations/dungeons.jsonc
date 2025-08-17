@@ -179,8 +179,7 @@
               "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
               "normal_logic, $can_smack, bow, bosskey_wf",
               "normal_logic, $can_smack, bow, odolwa, boss_warps_with_remains"
-            ],
-            "hosted_item": "boss_odolwa_hosted"
+            ]
           },
           {
             "name": "Oath to Order",

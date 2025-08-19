@@ -96,7 +96,7 @@
             "access_rules": ["landdeed"]
           },
           {
-            "name": "Southern Swamp Deku Scrub Purchase Beans",
+            "name": "Southern Swamp Deku Scrub Purchase",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
@@ -106,7 +106,7 @@
             ]
           },
           {
-            "name": "Southern Swamp Deku Trade Freestanding HP",
+            "name": "Southern Swamp Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["deku, landdeed"]
           }
@@ -123,12 +123,12 @@
         "name": "Swamp Tourist Center",
         "sections": [
           {
-            "name": "Southern Swamp Tour Witch Gift",
+            "name": "Southern Swamp Healing Koume",
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": ["normal_logic, $has|bottles|1"]
           },
           {
-            "name": "Tour Witch Target Shooting",
+            "name": "Southern Swamp Boat Archery",
             "chest_unopened_img": "images/icons/archery.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, redpotion, chateau, bow",
@@ -136,7 +136,7 @@
             ]
           },
           {
-            "name": "Tour Guide Winning Picture (Tingle or Deku King)",
+            "name": "Winning Picture (Tingle or Deku King)",
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
               "easy_logic, $baby_deku_palace, pictobox",
@@ -144,7 +144,7 @@
             ]
           },
           {
-            "name": "Tour Guide Good Picture (Big Octo)",
+            "name": "Good Picture (Big Octo)",
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
               "easy_logic, $baby_deku_palace, pictobox",
@@ -152,7 +152,7 @@
             ]
           },
           {
-            "name": "Tour Guide Okay Picture (Anything else)",
+            "name": "Okay Picture (Anything else)",
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
               "easy_logic, $baby_deku_palace, pictobox",
@@ -169,10 +169,10 @@
         ]
       },
       {
-        "name": "Southern Swamp Healthy Witch Request",
+        "name": "Southern Swamp Kotake Item",
         "sections": [
           {
-            "name": "Southern Swamp Healthy Witch Request",
+            "name": "Southern Swamp Kotake Item",
             "chest_unopened_img": "images/items/red_potion.png"
           }
         ],
@@ -227,10 +227,10 @@
         ]
       },
       {
-        "name": "Southern Swamp Mystery Woods Grotto Chest",
+        "name": "Southern Swamp Grotto Chest",
         "sections": [
           {
-            "name": "Southern Swamp Mystery Woods Grotto Chest (Day 2)"
+            "name": "Southern Swamp Grotto Chest (Day 2)"
           }
         ],
         "map_locations": [
@@ -324,11 +324,11 @@
         ]
       },
       {
-        "name": "Southern Swamp Near Swamphouse Grotto Chest",
+        "name": "Southern Swamp Grotto Chest",
         "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
         "sections": [
           {
-            "name": "Southern Swamp Near Swamphouse Grotto Chest",
+            "name": "Southern Swamp Grotto Chest",
             "access_rules": ["deku"]
           }
         ],
@@ -345,13 +345,13 @@
         "access_rules": ["easy_logic, $baby_woodfall", "normal_logic, $woodfall"],
         "sections": [
           {
-            "name": "Woodfall Near Owl Statue Chest"
+            "name": "Woodfall Owl Statue Chest"
           },
           {
-            "name": "Woodfall After Great Fairy Cave Chest"
+            "name": "Woodfall Bridge Chest"
           },
           {
-            "name": "Woodfall Near Swamp Entrance Chest"
+            "name": "Woodfall Entrance Chest"
           },
           {
             "name": "Woodfall Great Fairy Reward",

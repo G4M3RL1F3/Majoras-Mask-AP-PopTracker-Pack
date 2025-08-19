@@ -20,12 +20,12 @@
         ],
         "sections": [
           {
-            "name": "Invisible Ladder Cave Healing Invisible Goron",
+            "name": "Healing Darmani",
             "chest_unopened_img": "images/masks/goron.png",
             "access_rules": ["$can_use_lens, $can_play_healing"]
           },
           {
-            "name": "Feeding Freezing Goron",
+            "name": "Hungry Goron",
             "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
               "easy_logic, $can_play_lullaby, $can_use_fire_arrows",
@@ -66,7 +66,7 @@
             ]
           },
           {
-            "name": "Don Gero Mask Frog Song HP",
+            "name": "Spring Frog Choir HP",
             "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
               "easy_logic, dongeromask, $baby_clear_snowhead, $baby_woodfall_temple, $baby_can_smack_hard, $baby_has_explosives, deku, goron, $baby_great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows",
@@ -133,7 +133,7 @@
             ]
           },
           {
-            "name": "Spring Underwater Near Ramp Chest",
+            "name": "Spring Underwater Ramp Chest",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead, zora",
               "normal_logic, $clear_snowhead, zora"
@@ -255,7 +255,7 @@
             ]
           },
           {
-            "name": "Deku Scrub Purchase Bomb Bag",
+            "name": "Scrub Purchase",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
@@ -270,7 +270,7 @@
             "access_rules": ["deku, swampdeed"]
           },
           {
-            "name": "Deku Trade Freestanding HP",
+            "name": "Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["@Goron Village/Deku Trade"]
           },
@@ -284,7 +284,7 @@
             ]
           //},
           //{
-          //  "name": "Deku Trade Freestanding HP (Spring)",
+          //  "name": "Freestanding HP (Spring)",
           //  "visibility_rules": ["shopsanity_advanced"],
           //  "access_rules": [
           //    "easy_logic, $baby_clear_snowhead, deku, swampdeed",

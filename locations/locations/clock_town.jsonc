@@ -383,10 +383,10 @@
             "chest_unopened_img": "images/characters/anju.png"
           },
           {
-            "name": "Stock Pot Inn Employees Only Room Chest (Final Night)"
+            "name": "Stock Pot Inn Employee Room Chest (Final Night)"
           },
           {
-            "name": "Stock Pot Inn Upstairs Middle Room Chest",
+            "name": "Stock Pot Inn Locked Room Chest",
             "access_rules": ["roomkey"]
           },
           {

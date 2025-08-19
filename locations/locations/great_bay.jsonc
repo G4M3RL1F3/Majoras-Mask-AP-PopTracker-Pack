@@ -21,7 +21,7 @@
             "access_rules": ["$can_play_healing"]
           },
           {
-            "name": "Behind Fisherman's Hut Grotto Chest",
+            "name": "Fisherman's Grotto Chest",
             "access_rules": [""]
           },
           {
@@ -31,7 +31,7 @@
             "ref": "Groups/Stone Tower Map Purchase/Stone Tower Map Purchase "
           },
           {
-            "name": "Marine Research Lab Zora Egg Delivery Song",
+            "name": "Baby Zora Song",
             "chest_unopened_img": "images/equipment/song_bossa_nova_no_text.png",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest",
@@ -40,7 +40,7 @@
             ]
           },
           {
-            "name": "Marine Research Lab Feeding Fish",
+            "name": "Feeding Lab Fish",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_bottle, zora",
@@ -68,7 +68,7 @@
             ]
           },
           {
-            "name": "Great Bay (Cleared) Fisherman Island Game HP",
+            "name": "Great Bay Fisherman Game",
             "chest_unopened_img": "images/icons/torch.png",
             "access_rules": [
               "easy_logic, $baby_clear_greatbay",
@@ -100,20 +100,20 @@
             "access_rules": ["zora"]
           },
           {
-            "name": "Pot Game Silver Rupee",
+            "name": "Pot Game",
             "chest_unopened_img": "images/characters/zora.png",
             "access_rules": ["zora"]
           },
           {
-            "name": "Upper Chest",
+            "name": "Deku Flower Chest",
             "access_rules": ["hookshot"]
           },
           {
-            "name": "Tree Chest",
+            "name": "Scarecrow Chest",
             "access_rules": ["hookshot, deku"]
           },
           {
-            "name": "Near Great Fairy Grotto Chest",
+            "name": "Grotto Chest",
             "access_rules": [
               "easy_logic, goron, $baby_has_explosives",
               "normal_logic, goron",
@@ -127,12 +127,12 @@
             "access_rules": ["$has|fairy_gb|15, hookshot"]
           },
           {
-            "name": "Beaver Bros. Race Bottle Reward",
+            "name": "Beaver Bros. Race 1",
             "chest_unopened_img": "images/icons/beaver_ring.png",
             "access_rules": ["hookshot, zora"]
           },
           {
-            "name": "Beaver Bros. Race HP",
+            "name": "Beaver Bros. Race 2",
             "chest_unopened_img": "images/icons/beaver_ring.png",
             "access_rules": ["hookshot, zora"]
           }
@@ -171,7 +171,7 @@
             "access_rules": ["zora"]
           },
           {
-            "name": "Deku Scrub Purchase Green Potion",
+            "name": "Deku Scrub Purchase",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
@@ -190,7 +190,7 @@
             "access_rules": ["deku, zora, mountaindeed, goron"]
           },
           {
-            "name": "Piano Zora Song",
+            "name": "Evan's Song",
             "chest_unopened_img": "images/characters/zora_piano.png",
             "access_rules": [
               "easy_logic, zora, hookshot",
@@ -225,7 +225,7 @@
         ],
         "sections": [
           {
-            "name": "Heart Piece",
+            "name": "Seahorse Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle",

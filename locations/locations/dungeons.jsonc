@@ -16,11 +16,11 @@
             "access_rules": [""]
           },
           {
-            "name": "Woodfall Temple Wooden Flower Switch Chest",
+            "name": "Woodfall Temple Switch Chest",
             "access_rules": ["bow"]
           },
           {
-            "name": "Woodfall Temple Moving Flower Platform Room Chest",
+            "name": "Woodfall Temple Ledge Chest",
             "access_rules": [""]
           },
           {
@@ -36,7 +36,7 @@
             ]
           },
           {
-            "name": "Woodfall Temple Boss Key Chest",
+            "name": "Woodfall Temple Frog Chest",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, $baby_has_explosives, deku, goron",
               "normal_logic, bow, $can_smack"
@@ -51,7 +51,7 @@
             ]
           },
           {
-            "name": "Woodfall Temple Black Boe Room Chest",
+            "name": "Woodfall Temple Dark Room Chest",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_can_smack",
               "normal_logic, smallkey_wf",
@@ -65,13 +65,13 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Wooden Flower Deku Baba SF",
+            "name": "Woodfall Temple Deku Baba SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [""]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Wooden Flower Bubble SF",
+            "name": "Woodfall Temple Main Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, fairymask",
@@ -80,13 +80,13 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Wooden Flower Pot SF",
+            "name": "Woodfall Temple Pot SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [""]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Moving Flower Platform Room Beehive SF",
+            "name": "Woodfall Temple Platform Hive SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, fairymask",
@@ -98,7 +98,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Push Block Skulltula SF",
+            "name": "Woodfall Temple Skulltula SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_can_smack_hard, $baby_has_projectiles",
@@ -108,7 +108,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Push Block Bubble SF",
+            "name": "Woodfall Temple Bridge Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
@@ -119,7 +119,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Push Block Beehive SF",
+            "name": "Woodfall Temple Bridge Room Hive SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
@@ -129,13 +129,13 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Final Room Right Upper Platform SF",
+            "name": "Woodfall Temple Pre-Boss Upper Right Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": ["bow"]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Final Room Right Lower Platform SF",
+            "name": "Woodfall Temple Pre-Boss Lower Right Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, $can_use_fire_arrows",
@@ -145,7 +145,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Final Room Left Upper Platform SF",
+            "name": "Woodfall Temple Pre-Boss Upper Left Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, $can_use_fire_arrows",
@@ -155,7 +155,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Final Room Bubble SF",
+            "name": "Woodfall Temple Pre-Boss Pillar Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, fairymask, $can_use_fire_arrows",
@@ -207,7 +207,7 @@
         ],
         "sections": [
           {
-            "name": "Initial Runway Ice Blowers Chest",
+            "name": "Bridge Room Chest",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, hookshot",
               "normal_logic, $can_use_fire_arrows",
@@ -215,13 +215,13 @@
             ]
           },
           {
-            "name": "Initial Runway Under Platform Bubble SF",
+            "name": "Bridge Room Under Platform Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": ["fairymask, bow"]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Initial Runway Tower Bubble SF",
+            "name": "Bridge Room Pillar Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [
               "easy_logic, fairymask, bow, $can_use_lens",
@@ -230,7 +230,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Light Blue Door Center Chest",
+            "name": "Frozen Block Chest",
             "access_rules": [
               "easy_logic",
               "normal_logic, $has|smallkey_sh|1",
@@ -246,17 +246,17 @@
             ]
           },
           {
-            "name": "Light Blue Door Near Bombable Stairs Box SF",
+            "name": "Bombable Stairs Crate SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [
               "easy_logic, fairymask, $baby_has_explosives",
               "normal_logic, $has|smallkey_sh|1, fairymask, $has_explosives",
-              "normal_logic, hookshot, @Dungeons/Snowhead Temple/Initial Runway Tower Bubble SF"
+              "normal_logic, hookshot, @Dungeons/Snowhead Temple/Bridge Room Pillar Bubble SF"
             ]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Orange Door Upper Chest",
+            "name": "Stacked Block Upper Chest",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows",
@@ -264,19 +264,19 @@
             ]
           },
           {
-            "name": "Orange Door Behind Block Chest",
+            "name": "Stacked Block Chest",
             "access_rules": [""]
           },
           {
-            "name": "Green Door Ice Blowers Chest",
+            "name": "Freezard Torch Room Chest",
             "access_rules": ["$can_use_fire_arrows"]
           },
           {
-            "name": "Bottom Floor Switch Chest",
+            "name": "Basement Switch Chest",
             "access_rules": [""]
           },
           {
-            "name": "Column Room 2F Hidden Chest",
+            "name": "Main Room Wall Chest",
             "access_rules": [
               "easy_logic, $can_use_lens, $baby_has_explosives, hookshot, deku, $can_use_fire_arrows",
               "normal_logic, $can_use_lens, $can_use_fire_arrows, $has|smallkey_sh|3, $has_explosives, deku",
@@ -303,7 +303,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Upstairs 2F Icicle Room Snowball Chest",
+            "name": "Icicle Room Snowball Chest",
             "access_rules": [
               "easy_logic, bow, $baby_has_explosives",
               "normal_logic, $has_explosives, bow, $has|smallkey_sh|1",
@@ -311,7 +311,7 @@
             ]
           },
           {
-            "name": "Upstairs 2F Icicle Room Hidden Chest",
+            "name": "Icicle Room Hidden Chest",
             "access_rules": [
               "easy_logic, $can_use_lens, $baby_has_explosives, bow",
               "normal_logic, $can_use_lens, $has_explosives, bow, $has|smallkey_sh|1",
@@ -330,7 +330,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "1st Wizzrobe Chest",
+            "name": "Bottom Wizzrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $baby_has_projectiles, $baby_can_smack_hard",
               "normal_logic, $has|smallkey_sh|2, $has_explosives",
@@ -365,7 +365,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "2nd Wizzrobe Chest",
+            "name": "Top Wizzrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $baby_can_smack_hard",
               "normal_logic, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
@@ -416,7 +416,7 @@
         ],
         "sections": [
           {
-            "name": "Four Torches Chest",
+            "name": "Entrance Torches Chest",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows",
               "normal_logic"
@@ -432,7 +432,7 @@
             ]
           },
           {
-            "name": "Waterwheel Room Bubble Under Platform SF",
+            "name": "Waterwheel Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
@@ -451,7 +451,7 @@
             ]
           },
           {
-            "name": "Pot At Bottom Of Blender SF",
+            "name": "Blender Pot SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
@@ -460,7 +460,7 @@
             ]
           },
           {
-            "name": "Red-Green Pipe First Room Chest",
+            "name": "Before Red Valve Room Chest",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, zora, bow, hookshot, deku",
               "normal_logic, $can_use_ice_arrows",
@@ -468,7 +468,7 @@
             ]
           },
           {
-            "name": "Red-Green Pipe First Room Pot SF",
+            "name": "Before Red Valve Room Pot SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
@@ -486,28 +486,28 @@
             ]
           },
           {
-            "name": "Froggy Entrance Room Upper Chest",
+            "name": "Caged Chest Room Upper Chest",
             "access_rules": [
               "easy_logic, zora, hookshot",
               "normal_logic"
             ]
           },
           {
-            "name": "Froggy Entrance Room Underwater Chest",
+            "name": "Caged Chest Room Underwater Chest",
             "access_rules": [
               "easy_logic, zora",
               "normal_logic"
             ]
           },
           {
-            "name": "Froggy Entrance Room Caged Chest",
+            "name": "Caged Chest Room Caged Chest",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, zora",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
             ]
           },
           {
-            "name": "Froggy Entrance Room Pot SF",
+            "name": "Caged Chest Room Pot SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
@@ -532,14 +532,14 @@
             ]
           },
           {
-            "name": "Green Pipe Freezable Waterwheel Upper Chest",
+            "name": "Freezable Waterwheel Upper Chest",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
             ]
           },
           {
-            "name": "Green Pipe Freezable Waterwheel Lower Chest",
+            "name": "Freezable Waterwheel Lower Chest",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
@@ -562,7 +562,7 @@
             ]
           },
           {
-            "name": "Before Boss Room Underneath Platform Bubble SF",
+            "name": "Before Boss Room Platform Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
@@ -571,7 +571,7 @@
             ]
           },
           {
-            "name": "Before Boss Room Exit Tunnel Bubble SF",
+            "name": "Before Boss Room Tunnel Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
@@ -628,7 +628,7 @@
             "access_rules": ["zora"]
           },
           {
-            "name": "Pirates' Fortress Exterior Underwater Corner Near Fortress Chest",
+            "name": "Pirates' Fortress Exterior Underwater Corner Chest",
             "access_rules": ["zora"]
           },
           {
@@ -640,7 +640,7 @@
             ]
           },
           {
-            "name": "Pirates' Fortress Sewers Push Block Maze Chest",
+            "name": "Pirates' Fortress Sewers Maze Chest",
             "access_rules": ["goron"]
           },
           {
@@ -652,14 +652,14 @@
             "access_rules": ["goron"]
           },
           {
-            "name": "Pirates' Fortress Near Egg Chest",
+            "name": "Pirates' Fortress Interior Tank Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, hookshot, $baby_can_smack_hard, magic, stonemask",
               "normal_logic, $pirates_fortress_interior, hookshot, $can_smack_hard"
             ]
           },
           {
-            "name": "Pirates' Fortress Pirates Surrounding Chest",
+            "name": "Pirates' Fortress Interior Guarded Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
               "normal_logic, $pirates_fortress_interior, hookshot"
@@ -1205,35 +1205,35 @@
         ],
         "sections": [
           {
-            "name": "Left Chest",
+            "name": "Dinolfos Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $can_use_light_arrows",
               "normal_logic, $can_smack_hard, $can_use_light_arrows"
             ]
           },
           {
-            "name": "Middle-Left Chest",
+            "name": "Wizzrobe Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $baby_has_projectiles, $can_use_light_arrows",
               "normal_logic, $can_smack_hard, $can_use_light_arrows"
             ]
           },
           {
-            "name": "Middle-Right Chest",
+            "name": "Wart Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $baby_has_projectiles, $baby_has_explosives, $can_use_light_arrows",
               "normal_logic, $can_smack_hard, $can_use_light_arrows"
             ]
           },
           {
-            "name": "Right Chest",
+            "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $can_use_light_arrows",
               "normal_logic, $can_smack_hard, $can_use_light_arrows"
             ]
           },
           {
-            "name": "Center Chest",
+            "name": "Completion Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $baby_has_projectiles, $baby_has_explosives, $can_use_light_arrows",
               "normal_logic, $can_smack_hard, $can_use_light_arrows"
@@ -1481,11 +1481,11 @@
             ]
           },
           {
-            "name": "Eastern Air Gust Room Ice Eye Switch Chest",
+            "name": "Eastern Air Gust Room Frozen Switch Chest",
             "access_rules": ["deku, $can_use_fire_arrows, $can_use_light_arrows"]
           },
           {
-            "name": "Eastern Air Gust Room Hall Floor Switch Chest",
+            "name": "Eastern Air Gust Room Switch Chest",
             "access_rules": ["deku, $can_use_light_arrows"]
           },
           {

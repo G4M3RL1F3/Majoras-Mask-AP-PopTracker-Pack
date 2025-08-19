@@ -55,7 +55,7 @@
         "name": "Cucco Shack",
         "sections": [
           {
-            "name": "Bremen Mask March Baby Cuccos",
+            "name": "Baby Cuccos March",
             "chest_unopened_img": "images/characters/grog.png",
             "access_rules": ["bremenmask"]
           }
@@ -136,7 +136,7 @@
             "chest_unopened_img": "images/characters/romani.png"
           },
           {
-            "name": "Defended Against Aliens",
+            "name": "Aliens",
             "access_rules": ["$can_use_powder_keg, bow"],
             "chest_unopened_img": "images/characters/romani.png"
           },

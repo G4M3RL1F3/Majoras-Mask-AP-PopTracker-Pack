@@ -8,7 +8,7 @@
         "name": "South East Termina Field",
         "sections": [
           {
-            "name": "Termina Tall Grass Chest"
+            "name": "Termina Grass Chest"
           },
           {
             "name": "Termina Stump Chest",
@@ -19,7 +19,7 @@
             ]
           },
           {
-            "name": "Termina Tall Grass Grotto Chest"
+            "name": "Termina Grass Grotto Chest"
           }
         ],
         "map_locations": [
@@ -94,10 +94,10 @@
         ]
       },
       {
-        "name": "Termina Northern Midnight Dancer",
+        "name": "Termina Healing Kamaro",
         "sections": [
           {
-            "name": "Termina Northern Midnight Dancer (Midnight - 6 AM)",
+            "name": "Termina Healing Kamaro (Midnight - 6 AM)",
             "chest_unopened_img": "images/characters/kamaro.png",
             "access_rules": ["$can_play_healing"]
           }

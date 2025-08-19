@@ -106,7 +106,7 @@
             ]
           },
           {
-            "name": "Sonata To Wake Sleeping Skeleton Chest",
+            "name": "Captain Keeta Chest",
             "chest_unopened_img": "images/masks/captains.png",
             "access_rules": [
               "easy_logic, $can_play_sonata, $baby_can_smack_hard, bow",
@@ -158,7 +158,7 @@
             ]
           },
           {
-            "name": "Deku Scrub Purchase Blue Potion",
+            "name": "Scrub Purchase",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
@@ -200,7 +200,7 @@
           //  ]
           //},
           //{
-          //  "name": "Deku Scrub Purchase Blue Potion",
+          //  "name": "Scrub Purchase",
           //  "chest_unopened_img": "images/characters/scrub_merchant.png",
           //  "visibility_rules": ["scrubsanity"],
           //  "access_rules": [
@@ -228,7 +228,7 @@
             "ref": "Groups/Stone Tower Map Purchase/Stone Tower Map Purchase"
           },
           {
-            "name": "Music Box Mummy",
+            "name": "Healing Pamela's Father",
             "chest_unopened_img": "images/masks/gibdo.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_play_healing, $can_play_storms, $baby_has_explosives, stonemask",
@@ -267,21 +267,21 @@
         ],
         "sections": [
           {
-            "name": "Outside Left Chest",
+            "name": "Left Chest",
             "access_rules": [
               "easy_logic, $baby_can_plant_beans",
               "normal_logic, $can_plant_beans"
             ]
           },
           {
-            "name": "Outside Middle Chest",
+            "name": "Middle Chest",
             "access_rules": [
               "easy_logic, $baby_can_plant_beans",
               "normal_logic, $can_plant_beans"
             ]
           },
           {
-            "name": "Outside Right Chest",
+            "name": "Right Chest",
             "access_rules": [
               "easy_logic, $baby_can_plant_beans",
               "normal_logic, $can_plant_beans"

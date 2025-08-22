@@ -33,10 +33,10 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Exterior Underwater Corner Near Fortress Chest",
+        "name": "Pirates' Fortress Exterior Underwater Corner Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Corner Near Fortress Chest"
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Corner Chest"
           }
         ],
         "map_locations": [
@@ -63,10 +63,10 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Sewers Push Block Maze Chest",
+        "name": "Pirates' Fortress Sewers Maze Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Push Block Maze Chest"
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Maze Chest"
           }
         ],
         "map_locations": [
@@ -108,10 +108,10 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Near Egg Chest",
+        "name": "Pirates' Fortress Interior Tank Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Near Egg Chest"
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Tank Chest"
           }
         ],
         "map_locations": [
@@ -123,10 +123,10 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Pirates Surrounding Chest",
+        "name": "Pirates' Fortress Interior Guarded Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Pirates Surrounding Chest"
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Guarded Chest"
           }
         ],
         "map_locations": [

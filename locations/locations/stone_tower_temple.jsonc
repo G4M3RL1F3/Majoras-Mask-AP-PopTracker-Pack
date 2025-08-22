@@ -278,10 +278,10 @@
         ]
       },
       {
-        "name": "Eastern Air Gust Room Ice Eye Switch Chest",
+        "name": "Eastern Air Gust Room Frozen Switch Chest",
         "sections": [
           {
-            "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Ice Eye Switch Chest"
+            "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Frozen Switch Chest"
           }
         ],
         "map_locations": [
@@ -293,10 +293,10 @@
         ]
       },
       {
-        "name": "Eastern Air Gust Room Hall Floor Switch Chest",
+        "name": "Eastern Air Gust Room Switch Chest",
         "sections": [
           {
-            "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Hall Floor Switch Chest"
+            "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Switch Chest"
           }
         ],
         "map_locations": [

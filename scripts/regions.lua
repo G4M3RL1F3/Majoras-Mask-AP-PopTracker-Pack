@@ -68,15 +68,23 @@ function mountain_village()
     return path_mountain() and (has("goron") or has_explosives() or can_use_fire_arrows())
 end
 
--- Path to Snowhead -> Snowhead Temple
-function baby_snowhead_temple()
+-- Path to Snowhead -> Snowhead
+function baby_snowhead()
     return baby_mountain_village() and has("goron") and can_play_lullaby() and has("magic") and has("bosskey_sh") and has("smallkey_sh", 3)
 end
-function snowhead_temple()
+function snowhead()
     return mountain_village() and has("goron") and can_play_lullaby() and has("magic")
 end
 
--- What's needed to defeat Goht ***will likely need to revisit in the future
+-- Snowhead -> Snowhead Temple
+function baby_snowhead_temple()
+    return baby_snowhead() and has("goron") and can_play_lullaby() and has("magic") and has("bosskey_sh") and has("smallkey_sh", 3)
+end
+function snowhead_temple()
+    return snowhead() and has("goron") and can_play_lullaby() and has("magic")
+end
+
+-- What's needed to defeat Goht
 function baby_clear_snowhead()
     return baby_snowhead_temple() and can_use_fire_arrows() and baby_has_explosives()
 end
@@ -97,7 +105,7 @@ function baby_ocean_spider_house()
     return great_bay() and baby_has_explosives() and has("hookshot")
 end
 function ocean_spider_house()
-    return great_bay() and has_explosives()
+    return great_bay()
 end
 
 -- Great Bay -> Pirates' Fortress

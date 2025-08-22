@@ -5,6 +5,24 @@
     "chest_opened_img": "images/icons/check_32.png",
     "children": [
       {
+        "name": "Before Clock Town",
+        "access_rules": ["deku"],
+        "visibility_rules": ["intro_checks"],
+        "sections": [
+          {
+            "name": "Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 117,
+            "y": 117,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
         "name": "South Clock Town Clock Tower",
         "sections": [
           {

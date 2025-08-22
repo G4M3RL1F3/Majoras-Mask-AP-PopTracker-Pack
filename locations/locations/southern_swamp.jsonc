@@ -227,10 +227,10 @@
         ]
       },
       {
-        "name": "Southern Swamp Grotto Chest",
+        "name": "Southern Swamp Day 2 Grotto Chest",
         "sections": [
           {
-            "name": "Southern Swamp Grotto Chest (Day 2)"
+            "name": "Southern Swamp Day 2 Grotto Chest"
           }
         ],
         "map_locations": [
@@ -268,7 +268,8 @@
         "sections": [
           {
             "name": "Deku Palace HP",
-              "chest_unopened_img": "images/equipment/heart_piece.png"
+            "access_rules": ["deku"],
+            "chest_unopened_img": "images/equipment/heart_piece.png"
           }
         ],
         "map_locations": [

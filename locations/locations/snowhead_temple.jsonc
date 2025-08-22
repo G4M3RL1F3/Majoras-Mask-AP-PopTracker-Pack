@@ -3,7 +3,7 @@
     "name": "Snowhead Temple",
     "children": [
       {
-        "name": "Initial Runway Ice Blowers Chest",
+        "name": "Bridge Room Freezard Chest",
         "sections": [
           {
             "ref": "Dungeons/Snowhead Temple/Initial Runway Ice Blowers Chest"
@@ -18,10 +18,10 @@
         ]
       },
       {
-        "name": "Initial Runway Under Platform Bubble SF",
+        "name": "Bridge Room Under Platform Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Initial Runway Under Platform Bubble SF"
+            "ref": "Dungeons/Snowhead Temple/Bridge Room Under Platform Bubble SF"
           }
         ],
         "map_locations": [
@@ -33,10 +33,10 @@
         ]
       },
       {
-        "name": "Initial Runway Tower Bubble SF",
+        "name": "Bridge Room Pillar Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Initial Runway Tower Bubble SF"
+            "ref": "Dungeons/Snowhead Temple/Bridge Room Pillar Bubble SF"
           }
         ],
         "map_locations": [
@@ -48,10 +48,10 @@
         ]
       },
       {
-        "name": "Light Blue Door Center Chest",
+        "name": "Frozen Block Chest",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Light Blue Door Center Chest"
+            "ref": "Dungeons/Snowhead Temple/Frozen Block Chest"
           }
         ],
         "map_locations": [
@@ -63,10 +63,10 @@
         ]
       },
       {
-        "name": "Light Blue Door Upper Chest",
+        "name": "Frozen Block Upper Chest",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Light Blue Door Upper Chest"
+            "ref": "Dungeons/Snowhead Temple/Frozen Block Upper Chest"
           }
         ],
         "map_locations": [
@@ -78,10 +78,10 @@
         ]
       },
       {
-        "name": "Light Blue Door Near Bombable Stairs Box SF",
+        "name": "Bombable Stairs Crate SF",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Light Blue Door Near Bombable Stairs Box SF"
+            "ref": "Dungeons/Snowhead Temple/Bombable Stairs Crate SF"
           }
         ],
         "map_locations": [
@@ -93,10 +93,10 @@
         ]
       },
       {
-        "name": "Orange Door Upper Chest",
+        "name": "Stacked Block Upper Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Orange Door Upper Chest"
+            "ref": "Dungeons/Snowhead Temple/Stacked Block Upper Chest SF"
           }
         ],
         "map_locations": [
@@ -108,10 +108,10 @@
         ]
       },
       {
-        "name": "Orange Door Behind Block Chest",
+        "name": "Behind Stacked Block Chest",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Orange Door Behind Block Chest"
+            "ref": "Dungeons/Snowhead Temple/Behind Stacked Block Chest"
           }
         ],
         "map_locations": [
@@ -123,10 +123,10 @@
         ]
       },
       {
-        "name": "Green Door Ice Blowers Chest",
+        "name": "Freezard Torch Room Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Green Door Ice Blowers Chest"
+            "ref": "Dungeons/Snowhead Temple/Freezard Torch Room Chest SF"
           }
         ],
         "map_locations": [
@@ -138,10 +138,10 @@
         ]
       },
       {
-        "name": "Bottom Floor Switch Chest",
+        "name": "Basement Switch Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Bottom Floor Switch Chest"
+            "ref": "Dungeons/Snowhead Temple/Basement Switch Chest SF"
           }
         ],
         "map_locations": [
@@ -153,10 +153,10 @@
         ]
       },
       {
-        "name": "Column Room 2F Hidden Chest",
+        "name": "Main Room Wall Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Column Room 2F Hidden Chest"
+            "ref": "Dungeons/Snowhead Temple/Main Room Wall Chest SF"
           }
         ],
         "map_locations": [
@@ -213,10 +213,10 @@
         ]
       },
       {
-        "name": "Upstairs 2F Icicle Room Snowball Chest",
+        "name": "Icicle Room Snowball Chest",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Upstairs 2F Icicle Room Snowball Chest"
+            "ref": "Dungeons/Snowhead Temple/Icicle Room Snowball Chest"
           }
         ],
         "map_locations": [
@@ -228,10 +228,10 @@
         ]
       },
       {
-        "name": "Upstairs 2F Icicle Room Hidden Chest",
+        "name": "Icicle Room Hidden Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Upstairs 2F Icicle Room Hidden Chest"
+            "ref": "Dungeons/Snowhead Temple/Icicle Room Hidden Chest SF"
           }
         ],
         "map_locations": [
@@ -258,10 +258,10 @@
         ]
       },
       {
-        "name": "1st Wizzrobe Chest",
+        "name": "Lower Wizzrobe Chest",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/1st Wizzrobe Chest"
+            "ref": "Dungeons/Snowhead Temple/Lower Wizzrobe Chest"
           }
         ],
         "map_locations": [
@@ -318,10 +318,10 @@
         ]
       },
       {
-        "name": "2nd Wizzrobe Chest",
+        "name": "Upper Wizzrobe Chest",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/2nd Wizzrobe Chest"
+            "ref": "Dungeons/Snowhead Temple/Upper Wizzrobe Chest"
           }
         ],
         "map_locations": [

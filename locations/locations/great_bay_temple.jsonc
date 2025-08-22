@@ -3,10 +3,10 @@
     "name": "Great Bay Temple",
     "children": [
       {
-        "name": "Four Torches Chest",
+        "name": "Entrance Torches Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Four Torches Chest"
+            "ref": "Dungeons/Great Bay Temple/Entrance Torches Chest SF"
           }
         ],
         "map_locations": [
@@ -33,10 +33,10 @@
         ]
       },
       {
-        "name": "Waterwheel Room Bubble Under Platform SF",
+        "name": "Waterwheel Room Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Waterwheel Room Bubble Under Platform SF"
+            "ref": "Dungeons/Great Bay Temple/Waterwheel Room Bubble SF"
           }
         ],
         "map_locations": [
@@ -63,10 +63,10 @@
         ]
       },
       {
-        "name": "Pot At Bottom Of Blender SF",
+        "name": "Blender Pot SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Pot At Bottom Of Blender SF"
+            "ref": "Dungeons/Great Bay Temple/Blender Pot SF"
           }
         ],
         "map_locations": [
@@ -78,10 +78,10 @@
         ]
       },
       {
-        "name": "Red-Green Pipe First Room Chest",
+        "name": "Before Red Valve Room Chest",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Red-Green Pipe First Room Chest"
+            "ref": "Dungeons/Great Bay Temple/Before Red Valve Room Chest"
           }
         ],
         "map_locations": [
@@ -93,10 +93,10 @@
         ]
       },
       {
-        "name": "Red-Green Pipe First Room Pot SF",
+        "name": "Before Red Valve Room Pot SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Red-Green Pipe First Room Pot SF"
+            "ref": "Dungeons/Great Bay Temple/Before Red Valve Room Pot SF"
           }
         ],
         "map_locations": [
@@ -108,10 +108,10 @@
         ]
       },
       {
-        "name": "Bio-Baba Hall Chest",
+        "name": "Bio-Baba Hall Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Bio-Baba Hall Chest"
+            "ref": "Dungeons/Great Bay Temple/Bio-Baba Hall Chest SF"
           }
         ],
         "map_locations": [
@@ -123,10 +123,10 @@
         ]
       },
       {
-        "name": "Froggy Entrance Room Upper Chest",
+        "name": "Caged Chest Room Upper Chest",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Froggy Entrance Room Upper Chest"
+            "ref": "Dungeons/Great Bay Temple/Caged Chest Room Upper Chest"
           }
         ],
         "map_locations": [
@@ -138,10 +138,10 @@
         ]
       },
       {
-        "name": "Froggy Entrance Room Underwater Chest",
+        "name": "Caged Chest Room Underwater Chest",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Froggy Entrance Room Underwater Chest"
+            "ref": "Dungeons/Great Bay Temple/Caged Chest Room Underwater Chest"
           }
         ],
         "map_locations": [
@@ -153,10 +153,10 @@
         ]
       },
       {
-        "name": "Froggy Entrance Room Caged Chest",
+        "name": "Mad Jellied Gekko Chest",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Froggy Entrance Room Caged Chest"
+            "ref": "Dungeons/Great Bay Temple/Mad Jellied Gekko Chest"
           }
         ],
         "map_locations": [
@@ -168,10 +168,10 @@
         ]
       },
       {
-        "name": "Froggy Entrance Room Pot SF",
+        "name": "Caged Chest Room Pot SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Froggy Entrance Room Pot SF"
+            "ref": "Dungeons/Great Bay Temple/Caged Chest Room Pot SF"
           }
         ],
         "map_locations": [
@@ -198,10 +198,10 @@
         ]
       },
       {
-        "name": "Room Behind Waterfall Ceiling Chest",
+        "name": "Room Behind Waterfall Ceiling Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Room Behind Waterfall Ceiling Chest"
+            "ref": "Dungeons/Great Bay Temple/Room Behind Waterfall Ceiling Chest SF"
           }
         ],
         "map_locations": [
@@ -213,10 +213,10 @@
         ]
       },
       {
-        "name": "Green Pipe Freezable Waterwheel Upper Chest",
+        "name": "Freezable Waterwheel Upper Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Green Pipe Freezable Waterwheel Upper Chest"
+            "ref": "Dungeons/Great Bay Temple/Freezable Waterwheel Upper Chest SF"
           }
         ],
         "map_locations": [
@@ -228,10 +228,10 @@
         ]
       },
       {
-        "name": "Green Pipe Freezable Waterwheel Lower Chest",
+        "name": "Freezable Waterwheel Lower Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Green Pipe Freezable Waterwheel Lower Chest"
+            "ref": "Dungeons/Great Bay Temple/Freezable Waterwheel Lower Chest SF"
           }
         ],
         "map_locations": [
@@ -258,10 +258,10 @@
         ]
       },
       {
-        "name": "Seesaw Room Chest",
+        "name": "Seesaw Room Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Seesaw Room Chest"
+            "ref": "Dungeons/Great Bay Temple/Seesaw Room Chest SF"
           }
         ],
         "map_locations": [
@@ -273,10 +273,10 @@
         ]
       },
       {
-        "name": "Before Boss Room Underneath Platform Bubble SF",
+        "name": "Pre-Boss Room Platform Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Before Boss Room Underneath Platform Bubble SF"
+            "ref": "Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF"
           }
         ],
         "map_locations": [
@@ -288,10 +288,10 @@
         ]
       },
       {
-        "name": "Before Boss Room Exit Tunnel Bubble SF",
+        "name": "Pre-Boss Room Tunnel Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Before Boss Room Exit Tunnel Bubble SF"
+            "ref": "Dungeons/Great Bay Temple/Pre-Boss Room Tunnel Bubble SF"
           }
         ],
         "map_locations": [

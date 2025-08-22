@@ -12,11 +12,11 @@
         ],
         "sections": [
           {
-            "name": "Woodfall Temple Entrance Chest",
+            "name": "Woodfall Temple Entrance Chest SF",
             "access_rules": [""]
           },
           {
-            "name": "Woodfall Temple Switch Chest",
+            "name": "Woodfall Temple Switch Chest SF",
             "access_rules": ["bow"]
           },
           {
@@ -36,7 +36,7 @@
             ]
           },
           {
-            "name": "Woodfall Temple Frog Chest",
+            "name": "Woodfall Temple Gekko Chest",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, $baby_has_explosives, deku, goron",
               "normal_logic, bow, $can_smack"
@@ -51,7 +51,7 @@
             ]
           },
           {
-            "name": "Woodfall Temple Dark Room Chest",
+            "name": "Woodfall Temple Dark Room Chest SF",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_can_smack",
               "normal_logic, smallkey_wf",
@@ -207,7 +207,7 @@
         ],
         "sections": [
           {
-            "name": "Bridge Room Chest",
+            "name": "Bridge Room Freezard Chest",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, hookshot",
               "normal_logic, $can_use_fire_arrows",
@@ -251,12 +251,12 @@
             "access_rules": [
               "easy_logic, fairymask, $baby_has_explosives",
               "normal_logic, $has|smallkey_sh|1, fairymask, $has_explosives",
-              "normal_logic, hookshot, @Dungeons/Snowhead Temple/Bridge Room Pillar Bubble SF"
+              "normal_logic, hookshot, @Dungeons/Snowhead Temple/Bridge Room Under Platform Bubble SF"
             ]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Stacked Block Upper Chest",
+            "name": "Stacked Block Upper Chest SF",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows",
@@ -264,19 +264,19 @@
             ]
           },
           {
-            "name": "Stacked Block Chest",
+            "name": "Behind Stacked Block Chest",
             "access_rules": [""]
           },
           {
-            "name": "Freezard Torch Room Chest",
+            "name": "Freezard Torch Room Chest SF",
             "access_rules": ["$can_use_fire_arrows"]
           },
           {
-            "name": "Basement Switch Chest",
+            "name": "Basement Switch Chest SF",
             "access_rules": [""]
           },
           {
-            "name": "Main Room Wall Chest",
+            "name": "Main Room Wall Chest SF",
             "access_rules": [
               "easy_logic, $can_use_lens, $baby_has_explosives, hookshot, deku, $can_use_fire_arrows",
               "normal_logic, $can_use_lens, $can_use_fire_arrows, $has|smallkey_sh|3, $has_explosives, deku",
@@ -311,7 +311,7 @@
             ]
           },
           {
-            "name": "Icicle Room Hidden Chest",
+            "name": "Icicle Room Hidden Chest SF",
             "access_rules": [
               "easy_logic, $can_use_lens, $baby_has_explosives, bow",
               "normal_logic, $can_use_lens, $has_explosives, bow, $has|smallkey_sh|1",
@@ -330,7 +330,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Bottom Wizzrobe Chest",
+            "name": "Lower Wizzrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $baby_has_projectiles, $baby_can_smack_hard",
               "normal_logic, $has|smallkey_sh|2, $has_explosives",
@@ -365,7 +365,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Top Wizzrobe Chest",
+            "name": "Upper Wizzrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $baby_can_smack_hard",
               "normal_logic, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
@@ -416,7 +416,7 @@
         ],
         "sections": [
           {
-            "name": "Entrance Torches Chest",
+            "name": "Entrance Torches Chest SF",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows",
               "normal_logic"
@@ -479,7 +479,7 @@
             ]
           },
           {
-            "name": "Bio-Baba Hall Chest",
+            "name": "Bio-Baba Hall Chest SF",
             "access_rules": [
               "easy_logic, zora, bow, hookshot",
               "normal_logic"
@@ -500,7 +500,7 @@
             ]
           },
           {
-            "name": "Caged Chest Room Caged Chest",
+            "name": "Mad Jellied Gekko Chest",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, zora",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
@@ -525,21 +525,21 @@
             ]
           },
           {
-            "name": "Room Behind Waterfall Ceiling Chest",
+            "name": "Room Behind Waterfall Ceiling Chest SF",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, hookshot, zora",
               "normal_logic, $can_use_ice_arrows, hookshot"
             ]
           },
           {
-            "name": "Freezable Waterwheel Upper Chest",
+            "name": "Freezable Waterwheel Upper Chest SF",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
             ]
           },
           {
-            "name": "Freezable Waterwheel Lower Chest",
+            "name": "Freezable Waterwheel Lower Chest SF",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
@@ -555,14 +555,14 @@
             ]
           },
           {
-            "name": "Seesaw Room Chest",
+            "name": "Seesaw Room Chest SF",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, zora, hookshot",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
             ]
           },
           {
-            "name": "Before Boss Room Platform Bubble SF",
+            "name": "Pre-Boss Room Platform Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
@@ -571,20 +571,17 @@
             ]
           },
           {
-            "name": "Before Boss Room Tunnel Bubble SF",
+            "name": "Pre-Boss Room Tunnel Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
-            "access_rules": [
-              "easy_logic, zora, fairymask, $can_use_ice_arrows, $can_use_fire_arrows",
-              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
-            ]
+            "access_rules": ["@Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF"]
           },
           {
             "name": "Heart Container",
             "chest_unopened_img": "images/equipment/heart_container.png",
             "access_rules": [
               "easy_logic, zora, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
-              "normal_logic, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
+              "normal_logic, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, bosskey_gb",
               "normal_logic, hookshot, gyorg, boss_warps_with_remains"
             ]
           },
@@ -593,7 +590,7 @@
             "chest_unopened_img": "images/equipment/gyorg.png",
             "access_rules": [
               "easy_logic, zora, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
-              "normal_logic, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
+              "normal_logic, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, bosskey_gb",
               "normal_logic, hookshot, gyorg, boss_warps_with_remains"
             ]
           },
@@ -982,203 +979,203 @@
         "sections": [
           {
             "name": "Ramp Upper Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Ramp Lower Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Lobby Ceiling Token",
-            "access_rules": ["hookshot, $can_use_fire_arrows"],
+            "access_rules": ["hookshot, $can_use_fire_arrows, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Rafter Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Open Pot #1 Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Open Pot #2 Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Wall Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Library Top Bookcase Token",
             "access_rules": [
-              "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Library Passage Behind Bookcase Front Token",
             "access_rules": [
-              "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Library Passage Behind Bookcase Rear Token",
             "access_rules": [
-              "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Library Painting #1 Token",
             "access_rules": [
-              "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Library Painting #2 Token",
             "access_rules": [
-              "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Library Rafter Token",
             "access_rules": [
-              "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Library Bookshelf Hole Token",
             "access_rules": [
-              "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Downstairs Rafter Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Downstairs Open Pot Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Downstairs Behind Staircase Token",
             "access_rules": [
-              "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Downstairs Breakable Pot Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Downstairs Wall Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Dining Room Open Pot Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Dining Room Painting Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Dining Room Ceiling Token",
-            "access_rules": ["hookshot"],
+            "access_rules": ["hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Dining Room Chandelier #1 Token",
             "access_rules": [
-              "easy_logic, hookshot, goron",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, goron, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Dining Room Chandelier #2 Token",
             "access_rules": [
-              "easy_logic, hookshot, goron",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, goron, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Dining Room Chandelier #3 Token",
             "access_rules": [
-              "easy_logic, hookshot, goron",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, goron, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Storage Room Web Token",
-            "access_rules": ["hookshot, $can_use_fire_arrows"],
+            "access_rules": ["hookshot, $can_use_fire_arrows, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Storage Room North Wall Token",
             "access_rules": [
-              "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Storage Room Crate Token",
             "access_rules": [
-              "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Storage Room Hidden Hole Token",
             "access_rules": [
-              "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Storage Room Ceiling Pot Token",
             "access_rules": [
-              "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Coloured Mask Sequence HP",
             "chest_unopened_img": "images/icons/chest.png",
-            "access_rules": ["hookshot, captainhat, bow"]
+            "access_rules": ["hookshot, captainhat, bow, $has_explosives"]
           },
           {
             "name": "Ocean Spider House Reward",
@@ -1264,12 +1261,14 @@
               "easy_logic, gibdo, $baby_has_bottle, $can_play_eponas, $baby_can_plant_beans, $can_use_light_arrows, maskofscents, adultswallet, zora",
               "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, maskofscents, zora",
               "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, adultswallet, zora",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $mountain_village, $can_use_lens, $can_play_healing, goron, $can_play_soaring",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $mountain_village, $can_use_fire_arrows, $can_play_soaring",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $can_play_soaring, @Snowhead/Mountain Village/Healing Darmani, goron",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
               "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, maskofscents, zora",
               "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, adultswallet, zora",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $mountain_village, $can_play_soaring, $can_use_lens, $can_play_healing, goron",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $mountain_village, $can_play_soaring, $can_use_fire_arrows"
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, @Snowhead/Mountain Village/Healing Darmani, goron",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
             ]
           },
           {

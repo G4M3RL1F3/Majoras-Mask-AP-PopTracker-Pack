@@ -6,7 +6,7 @@
         "name": "Entrance Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Chest"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Chest SF"
           }
     
         ],
@@ -19,10 +19,10 @@
         ]
       },
       {
-        "name": "Wooden Flower Switch Chest",
+        "name": "Switch Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Wooden Flower Switch Chest"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Switch Chest SF"
           }
     
         ],
@@ -35,10 +35,10 @@
         ]
       },
       {
-        "name": "Moving Flower Platform Room Chest",
+        "name": "Ledge Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Moving Flower Platform Room Chest"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Ledge Chest"
           }
     
         ],
@@ -86,7 +86,7 @@
         "name": "Boss Key Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Boss Key Chest"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Gekko Chest"
           }
     
         ],
@@ -118,7 +118,7 @@
         "name": "Black Boe Room Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Black Boe Room Chest"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dark Room Chest SF"
           }
     
         ],

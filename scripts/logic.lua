@@ -164,6 +164,22 @@ function baby_can_get_cow_milk()
 end
 
 -----
+
+function smallKeySanity()
+    if Tracker:FindObjectForCode("small_key_sanity").Active == false then
+        Tracker:FindObjectForCode("small_key_sanity_off").Active = true
+    else
+        Tracker:FindObjectForCode("small_key_sanity_off").Active = false
+    end
+end
+function bossKeySanity()
+    if Tracker:FindObjectForCode("boss_key_sanity").Active == false then
+        Tracker:FindObjectForCode("boss_key_sanity_off").Active = true
+    else
+        Tracker:FindObjectForCode("boss_key_sanity_off").Active = false
+    end
+end
+
 -- This function's purpose is for counting how many bottles have been acquired.
 -- Currently used to check if the player has any bottle so that it can be accounted for logic.
 function bottleCount()
@@ -390,6 +406,8 @@ function oath_to_order_stt()
     end
 end
 
+ScriptHost:AddWatchForCode("Small Key Sanity Off", "small_key_sanity", smallKeySanity)
+ScriptHost:AddWatchForCode("Boss Key Sanity Off", "boss_key_sanity", bossKeySanity)
 ScriptHost:AddWatchForCode("OdolwaDefeated", "boss_odolwa_hosted", clear_wft)
 ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottleCount)
 ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", bottleCount)

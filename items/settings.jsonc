@@ -96,6 +96,20 @@
     ]
   },
   {
+    "name": "Curiosity Shop Trades",
+    "type": "toggle",
+    "img": "images/pack_settings/shuffles/curiosity_shop_trades_on.png",
+    "disabled_img": "images/pack_settings/shuffles/curiosity_shop_trades_off.png",
+    "codes": "curiosity_shop_trades"
+  },
+  {
+    "name": "Intro Checks",
+    "type": "toggle",
+    "img": "images/pack_settings/shuffles/intro_checks_on.png",
+    "disabled_img": "images/pack_settings/shuffles/intro_checks_off.png",
+    "codes": "intro_checks"
+  },
+  {
     "name": "Shuffle Boss Remains",
     "type": "progressive",
     "loop": true,
@@ -139,6 +153,32 @@
   },
 
   //Sanities
+  {
+    "name": "Small Key Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/small_key_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/small_key_sanity_off.png",
+    "codes": "small_key_sanity"
+  },
+  {
+    "name": "Small Key Sanity Off",
+    "type": "toggle",
+    "codes": "small_key_sanity_off",
+    "initial_active_state": true
+  },
+  {
+    "name": "Boss Key Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/boss_key_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/boss_key_sanity_off.png",
+    "codes": "boss_key_sanity"
+  },
+  {
+    "name": "Boss Key Sanity Off",
+    "type": "toggle",
+    "codes": "boss_key_sanity_off",
+    "initial_active_state": true
+  },
   {
     "name": "Skullsanity",
     "type": "progressive",

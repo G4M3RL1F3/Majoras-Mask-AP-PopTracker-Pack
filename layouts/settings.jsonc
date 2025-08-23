@@ -83,6 +83,16 @@
                     "max_width": 260,
                     "item": "shuffle_regional_maps"
                   },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "curiosity_shop_trades"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "intro_checks"
+                  },
                   //{
                   //  "type": "item",
                   //  "max_width": 260,
@@ -104,6 +114,16 @@
                 "type": "group",
                 "header": "Sanities",
                 "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "small_key_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "boss_key_sanity"
+                  },
                   {
                     "type": "item",
                     "max_width": 260,

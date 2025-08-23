@@ -155,6 +155,10 @@ function onClear(slot_data)
     setFromSlotData("shopsanity","shopsanity")
     setFromSlotData("scrubsanity","scrubsanity")
     setFromSlotData("cowsanity","cowsanity")
+    setFromSlotData("keysanity","small_key_sanity")
+    setFromSlotData("bosskeysanity","boss_key_sanity")
+    setFromSlotData("intro_checks","intro_checks")
+    setFromSlotData("curiostity_shop_trades","curiosity_shop_trades") --spelling mistake in apworld
     setFromSlotData("shuffle_great_fairy_rewards","shuffle_great_fairy_rewards")
     setFromSlotData("fairysanity","fairysanity")
     setFromSlotData("start_with_consumables","start_with_consumables")
@@ -165,7 +169,7 @@ function onClear(slot_data)
     setFromSlotData("death_behavior","death_behavior")
     setFromSlotData("death_link","death_link")
 
-		Tracker.BulkUpdate = false
+	Tracker.BulkUpdate = false
 end
 
 -- called when an item gets collected

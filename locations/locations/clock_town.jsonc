@@ -900,7 +900,7 @@
           {
             "name": "Blue Rupee Trade (Half Milk, Magic Mushroom)",
             "chest_unopened_img": "images/items/half_mushroom_bottle.png",
-            "visibility_rules": ["shopsanity_advanced"],
+            "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
               "easy_logic, @Southern Swamp/Southern Swamp Witch Shop/Item 1, $baby_can_get_cow_milk",
               "normal_logic, $has|bottles|1, maskofscents",
@@ -910,7 +910,7 @@
           {
             "name": "Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg)",
             "chest_unopened_img": "images/items/fish.png",
-            "visibility_rules": ["shopsanity_advanced"],
+            "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
               "easy_logic, $baby_has_bottle",
               "normal_logic, $has|bottles|1"
@@ -919,7 +919,7 @@
           {
             "name": "Purple Rupee Trade (Poe)",
             "chest_unopened_img": "images/items/poe.png",
-            "visibility_rules": ["shopsanity_advanced"],
+            "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
               "easy_logic, $baby_has_bottle, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest",
               "normal_logic, $has|bottles|1, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest"
@@ -928,7 +928,7 @@
           {
             "name": "Gold Rupee Trade (Big Poe, Chateau, Gold Dust)",
             "chest_unopened_img": "images/items/chateau_romani.png",
-            "visibility_rules": ["shopsanity_advanced"],
+            "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
               "easy_logic, $baby_has_bottle, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
               "normal_logic, $has|bottles|1, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest",

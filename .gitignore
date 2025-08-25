@@ -1,3 +1,8 @@
 /.luarc.json
 /.vscode
 /locations/hints/
+layouts/logic_tricks_tab.jsonc
+items/logic_tricks.jsonc
+images/logic_tricks/early_game_hard_combat.png
+scripts/autotracking/mappings.lua
+images/logic_tricks/stock_pot_inn_at_night_with_nothing.png

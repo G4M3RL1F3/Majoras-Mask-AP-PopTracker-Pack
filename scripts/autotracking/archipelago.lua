@@ -1,8 +1,9 @@
 --ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
-ScriptHost:LoadScript("scripts/autotracking/tables.lua")
+--ScriptHost:LoadScript("scripts/autotracking/mappings.lua")
 ScriptHost:LoadScript("scripts/autotracking/shop.lua")
+ScriptHost:LoadScript("scripts/autotracking/tables.lua")
 -- used for hint tracking to quickly map hint status to a value from the Highlight enum
 HINT_STATUS_MAPPING = {}
 if Highlight then
@@ -76,6 +77,11 @@ function onClear(slot_data)
     end
     Tracker:FindObjectForCode("remains_moon").Active = false
     Tracker:FindObjectForCode("bottles").CurrentStage = 0
+
+    -- reset logic tricks
+    --for _, logictrick in pairs(LOGIC_TRICK_MAPPING) do
+    --    Tracker:FindObjectForCode(string.lower(logictrick)).Active = false
+    --end
 
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
@@ -168,6 +174,9 @@ function onClear(slot_data)
     setFromSlotData("damage_multiplier","damage_multiplier")
     setFromSlotData("death_behavior","death_behavior")
     setFromSlotData("death_link","death_link")
+    --for _, trick in ipairs(slot_data["logic_tricks"]) do
+    --    Tracker:FindObjectForCode(LOGIC_TRICK_MAPPING[string.format("%s", trick)]).Active = true
+    --end
 
 	Tracker.BulkUpdate = false
 end

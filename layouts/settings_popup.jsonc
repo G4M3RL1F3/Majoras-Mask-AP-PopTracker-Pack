@@ -9,6 +9,13 @@
           "type": "layout",
           "key": "settings_tab"
         }
+      //},
+      //{
+      //  "title": "Logic Tricks",
+      //  "content": {
+      //    "type": "layout",
+      //    "key": "logic_tricks_tab"
+      //  }
       }
     ]
   }

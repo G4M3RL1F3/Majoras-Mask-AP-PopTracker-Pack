@@ -5,7 +5,7 @@ PopTracker 0.32.0 is the earliest fully functional version. Any previous one wil
 ![Screenshot of the pack](images/preview.png)
 
 ## Installation
-- Download [PopTracker](https://github.com/black-sliver/PopTracker/releases/tag/v0.32.1) and extract (unzip) it. It may be installed anywhere, but avoid installing it in either `Program Files` or `Program Files (x86)` (these directories have some special permissions, which might cause issues).
+- Download [PopTracker](https://github.com/black-sliver/PopTracker/releases/latest) and extract (unzip) it. It may be installed anywhere, but avoid installing it in either `Program Files` or `Program Files (x86)` (these directories have some special permissions, which might cause issues).
 - [Download the latest release from source](https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/releases/latest) and move the `.zip` file into the `packs` folder, located inside the PopTracker directory.
   - Alternatively, it can be dragged on top of a PopTracker window, which will give a prompt to install the pack.
 
@@ -21,4 +21,4 @@ If entered correctly, the `AP` button will turn green, meaning it is connected t
 ## More Info
 This pack is a work in progress and is developed as the logic and features are being worked on. It follows Majora's Mask Recompiled Randomizer logic, not necessarily matching standalone. If logic seems incorrect in the tracker, it might be an apworld issue, as it is supposed to mirror the apworld's logic. The tracker's logic will only be updated once the apworld's will be.
 
-If you encounter any bugs or have any questions, feel free to ask by pinging the maintainer on Discord (@g4m3rl1f3), preferably in the Archipelago server in the `majoras-mask` channel.
+If you encounter any bugs or have any questions, feel free to ask by pinging the maintainer on Discord (@g4m3rl1f3), preferably in the [Archipelago](https://discord.gg/archipelago) server in the `majoras-mask` channel or in the [N64 Recomp](https://discord.gg/DptggHetGZ) server in the `mm-randomizer-general` channel.

@@ -150,7 +150,7 @@
         "name": "Wooden Flower Deku Baba SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Wooden Flower Deku Baba SF"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Deku Baba SF"
           }
     
         ],
@@ -166,7 +166,7 @@
         "name": "Wooden Flower Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Wooden Flower Bubble SF"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Main Room Bubble SF"
           }
     
         ],
@@ -182,7 +182,7 @@
         "name": "Wooden Flower Pot SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Wooden Flower Pot SF"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pot SF"
           }
     
         ],
@@ -195,10 +195,10 @@
         ]
       },
       {
-        "name": "Moving Flower Platform Room Beehive SF",
+        "name": "Woodfall Temple Platform Hive SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Moving Flower Platform Room Beehive SF"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Platform Hive SF"
           }
     
         ],
@@ -211,10 +211,10 @@
         ]
       },
       {
-        "name": "Push Block Skulltula SF",
+        "name": "Woodfall Temple Skulltula SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Push Block Skulltula SF"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Skulltula SF"
           }
     
         ],
@@ -227,10 +227,10 @@
         ]
       },
       {
-        "name": "Push Block Bubble SF",
+        "name": "Bridge Room Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Push Block Bubble SF"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Bridge Room Bubble SF"
           }
     
         ],
@@ -243,10 +243,10 @@
         ]
       },
       {
-        "name": "Push Block Beehive SF",
+        "name": "Bridge Room Hive SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Push Block Beehive SF"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Bridge Room Hive SF"
           }
     
         ],
@@ -259,10 +259,10 @@
         ]
       },
       {
-        "name": "Final Room Right Upper Platform SF",
+        "name": "Pre-Boss Upper Right Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Final Room Right Upper Platform SF"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Upper Right Bubble SF"
           }
     
         ],
@@ -275,10 +275,10 @@
         ]
       },
       {
-        "name": "Final Room Right Lower Platform SF",
+        "name": "Pre-Boss Lower Right Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Final Room Right Lower Platform SF"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Lower Right Bubble SF"
           }
     
         ],
@@ -291,10 +291,10 @@
         ]
       },
       {
-        "name": "Final Room Left Upper Platform SF",
+        "name": "Pre-Boss Upper Left Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Final Room Left Upper Platform SF"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Upper Left Bubble SF"
           }
     
         ],
@@ -307,10 +307,10 @@
         ]
       },
       {
-        "name": "Final Room Bubble SF",
+        "name": "Pre-Boss Pillar Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Final Room Bubble SF"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Pillar Bubble SF"
           }
     
         ],
@@ -332,7 +332,7 @@
             "ref": "Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Remains"
           },
           {
-            "ref": "Dungeons/Any Boss/Oath to Order"
+            "ref": "Dungeons/Woodfall Temple/Oath to Order"
           }
     
         ],

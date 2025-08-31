@@ -247,7 +247,7 @@
             ]
           },
           {
-            "name": "Light Blue Door Upper Chest",
+            "name": "Frozen Block Upper Chest",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, hookshot",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows",

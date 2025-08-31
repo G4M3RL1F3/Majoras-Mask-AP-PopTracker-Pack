@@ -13,10 +13,12 @@
         "sections": [
           {
             "name": "Woodfall Temple Entrance Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": [""]
           },
           {
             "name": "Woodfall Temple Switch Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": ["bow"]
           },
           {
@@ -54,6 +56,7 @@
           },
           {
             "name": "Woodfall Temple Dark Room Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_can_smack",
               "normal_logic, smallkey_wf",
@@ -247,7 +250,8 @@
             ]
           },
           {
-            "name": "Frozen Block Upper Chest",
+            "name": "Frozen Block Upper Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_sh.png",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, hookshot",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows",
@@ -268,6 +272,7 @@
           },
           {
             "name": "Stacked Block Upper Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_sh.png",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows",
@@ -281,14 +286,17 @@
           },
           {
             "name": "Freezard Torch Room Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_sh.png",
             "access_rules": ["$can_use_fire_arrows"]
           },
           {
             "name": "Basement Switch Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_sh.png",
             "access_rules": [""]
           },
           {
             "name": "Main Room Wall Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_sh.png",
             "access_rules": [
               "easy_logic, $can_use_lens, $baby_has_explosives, hookshot, deku, $can_use_fire_arrows",
               "normal_logic, $can_use_lens, $can_use_fire_arrows, $has|smallkey_sh|3, $has_explosives, deku",
@@ -301,7 +309,8 @@
             "access_rules": [""]
           },
           {
-            "name": "Elevator Room Invisible Platform Chest",
+            "name": "Elevator Room Invisible Platform Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_sh.png",
             "access_rules": [
               "easy_logic, $can_use_lens, $can_use_fire_arrows, $baby_has_explosives, hookshot",
               "normal_logic, $can_use_lens, $has|smallkey_sh|2, $has_explosives",
@@ -327,6 +336,7 @@
           },
           {
             "name": "Icicle Room Hidden Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_sh.png",
             "access_rules": [
               "easy_logic, $can_use_lens, $baby_has_explosives, bow",
               "normal_logic, $can_use_lens, $has_explosives, bow, $has|smallkey_sh|1",
@@ -444,6 +454,7 @@
         "sections": [
           {
             "name": "Entrance Torches Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows",
               "normal_logic"
@@ -507,6 +518,7 @@
           },
           {
             "name": "Bio-Baba Hall Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, zora, bow, hookshot",
               "normal_logic"
@@ -556,6 +568,7 @@
           },
           {
             "name": "Room Behind Waterfall Ceiling Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, hookshot, zora",
               "normal_logic, $can_use_ice_arrows, hookshot"
@@ -563,6 +576,7 @@
           },
           {
             "name": "Freezable Waterwheel Upper Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
@@ -570,6 +584,7 @@
           },
           {
             "name": "Freezable Waterwheel Lower Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
@@ -586,6 +601,7 @@
           },
           {
             "name": "Seesaw Room Chest SF",
+            "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, zora, hookshot",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
@@ -1376,10 +1392,12 @@
         "sections": [
           {
             "name": "Entrance Room Eye Switch Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": ["bow"]
           },
           {
             "name": "Entrance Room Lower Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "deku, $can_use_light_arrows, hookshot, $has|smallkey_st|4",
               "deku, $can_use_light_arrows, $has_explosives, hookshot, small_key_sanity_off"
@@ -1395,6 +1413,7 @@
           },
           {
             "name": "Armos Room Upper Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, hookshot, $baby_has_explosives",
               "normal_logic, hookshot"
@@ -1410,6 +1429,7 @@
           },
           {
             "name": "Eyegore Room Switch Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, mirrorshield, $can_use_light_arrows",
               "normal_logic, $can_use_light_arrows"
@@ -1426,6 +1446,7 @@
           },
           {
             "name": "Eastern Water Room Underwater Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, $can_use_light_arrows, $can_use_ice_arrows, zora, deku",
               "normal_logic, $can_use_light_arrows, zora"
@@ -1442,6 +1463,7 @@
           },
           {
             "name": "Mirror Room Sun Block Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, stonemask, $can_use_light_arrows, mirrorshield",
               "normal_logic, $has|smallkey_st|2, mirrorshield",
@@ -1450,6 +1472,7 @@
           },
           {
             "name": "Mirror Room Sun Face Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, stonemask, $can_use_light_arrows, mirrorshield",
               "normal_logic, $has|smallkey_st|2, mirrorshield",
@@ -1460,6 +1483,7 @@
           },
           {
             "name": "Air Gust Room Side Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Mirror Room Sun Face Chest, deku",
               "normal_logic, $has|smallkey_st|2, mirrorshield",
@@ -1470,6 +1494,7 @@
           },
           {
             "name": "Air Gust Room Goron Switch Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest, goron",
               "normal_logic, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest, goron"
@@ -1484,10 +1509,12 @@
           },
           {
             "name": "After Garo Upside Down Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": ["@Dungeons/Inverted Stone Tower Temple/Eyegore Chest"]
           },
           {
             "name": "Eyegore Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Garo Master Chest, $baby_has_explosives, $baby_has_projectiles",
               "normal_logic, @Dungeons/Stone Tower Temple/Garo Master Chest, hookshot"
@@ -1511,10 +1538,12 @@
         "sections": [
           {
             "name": "Entrance Room Sun Face Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": ["$can_use_light_arrows"]
           },
           {
             "name": "Eastern Air Gust Room Fire Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, deku, $can_use_light_arrows",
               "normal_logic, $can_use_light_arrows, deku"
@@ -1522,6 +1551,7 @@
           },
           {
             "name": "Eastern Air Gust Room Frozen Switch Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": ["deku, $can_use_fire_arrows, $can_use_light_arrows"]
           },
           {
@@ -1530,6 +1560,7 @@
           },
           {
             "name": "Wizzrobe Chest",
+            "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, deku, $can_use_light_arrows",
               "normal_logic, deku, $can_use_light_arrows, $has|smallkey_st|3",

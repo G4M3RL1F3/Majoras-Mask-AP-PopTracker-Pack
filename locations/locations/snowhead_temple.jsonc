@@ -63,10 +63,10 @@
         ]
       },
       {
-        "name": "Frozen Block Upper Chest",
+        "name": "Frozen Block Upper Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Frozen Block Upper Chest"
+            "ref": "Dungeons/Snowhead Temple/Frozen Block Upper Chest SF"
           }
         ],
         "map_locations": [
@@ -183,10 +183,10 @@
         ]
       },
       {
-        "name": "Elevator Room Invisible Platform Chest",
+        "name": "Elevator Room Invisible Platform Chest SF",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Elevator Room Invisible Platform Chest"
+            "ref": "Dungeons/Snowhead Temple/Elevator Room Invisible Platform Chest SF"
           }
         ],
         "map_locations": [

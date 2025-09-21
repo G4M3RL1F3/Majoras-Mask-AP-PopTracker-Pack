@@ -1,6 +1,5 @@
 /.luarc.json
 /.vscode
-/locations/hints/
 layouts/logic_tricks_tab.jsonc
 items/logic_tricks.jsonc
 images/logic_tricks/early_game_hard_combat.png

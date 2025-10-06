@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Ikana Castle",
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
+    "children": [
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Ikana Castle/Pillar Freestanding HP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 792,
+            "y": 141
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Ikana Castle/King Song"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1962,
+            "y": 365
+          }
+        ]
+      }
+    ]
+  }
+]

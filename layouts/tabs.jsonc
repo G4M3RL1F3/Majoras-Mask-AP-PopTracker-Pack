@@ -79,6 +79,13 @@
               }
             },
             {
+              "title": "Ikana Castle",
+              "content": {
+                "type": "map",
+                "maps": ["ikana_castle"]
+              }
+            },
+            {
               "title": "Secret Shrine",
               "content": {
                 "type": "map",

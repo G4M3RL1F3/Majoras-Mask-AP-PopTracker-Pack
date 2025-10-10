@@ -8,7 +8,7 @@ function canReachIkanaWellInvisibleChest()
 end
 
 function canReachHotWaterGrottoChest()
-    return (has_explosives() and can_use_fire_arrows()) or (canReachHealingInvisibleGoron() and has("bottles", 1) and has("goron") and has_explosives) or clear_snowhead() or (canReachIkanaWellInvisibleChest() and can_play_soaring())
+    return (has_explosives() and can_use_fire_arrows()) or (can_use_lens() and has("bottles", 1) and has("goron") and has_explosives) or clear_snowhead() or (canReachIkanaWellInvisibleChest() and can_play_soaring())
 end
 
 -- Songs
@@ -78,7 +78,7 @@ function has_paper()
 end
 
 function can_get_cow_milk()
-    return has("bottles", 1) and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("gibdo") and has("bottles",1) and can_plant_beans() and canReachHealingInvisibleGoron() or can_use_light_arrows() and (canReachHotWaterGrottoChest() or (has("goron") and canReachHealingInvisibleGoron()) or canReachIkanaWellInvisibleChest())))
+    return has("bottles", 1) and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("gibdo") and has("bottles",1) and can_plant_beans() and canReachHotWaterGrottoChest() or can_use_light_arrows() and (canReachHotWaterGrottoChest() or (has("goron") and can_use_lens()) or canReachIkanaWellInvisibleChest())))
 end
 
 function can_plant_beans() -- was "plant_beans"

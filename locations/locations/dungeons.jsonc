@@ -1312,12 +1312,12 @@
               "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, maskofscents",
               "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, adultswallet",
               "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $can_play_soaring, @Snowhead/Mountain Village/Healing Darmani, goron",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $can_play_soaring, $can_use_lens, goron",
               "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
               "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, maskofscents",
               "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, adultswallet",
               "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, @Snowhead/Mountain Village/Healing Darmani, goron",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, $can_use_lens, goron",
               "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
             ]
           },

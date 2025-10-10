@@ -109,7 +109,7 @@
             "access_rules": [
               "easy_logic, goron, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_has_bottle",
               "normal_logic, goron, $can_use_fire_arrows",
-              "normal_logic, goron, $has|bottles|1, @Snowhead/Mountain Village/Healing Darmani",
+              "normal_logic, goron, $has|bottles|1, $can_use_lens",
               "normal_logic, goron, $has|bottles|1, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring"
             ]
           },
@@ -118,7 +118,7 @@
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_clear_snowhead",
               "normal_logic, $has_explosives, $can_use_fire_arrows",
-              "normal_logic, @Snowhead/Mountain Village/Healing Darmani, goron, $has|bottles|1, $has_explosives",
+              "normal_logic, $can_use_lens, goron, $has|bottles|1, $has_explosives",
               "normal_logic, $clear_snowhead",
               "normal_logic, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, $can_play_soaring"
             ]

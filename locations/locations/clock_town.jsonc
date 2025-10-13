@@ -696,6 +696,7 @@
             "name": "Shop Item 1",
             "chest_unopened_img": "images/icons/trading_post.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop Item 1"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -705,6 +706,7 @@
             "name": "Shop Item 2",
             "chest_unopened_img": "images/icons/trading_post.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop Item 2"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -714,6 +716,7 @@
             "name": "Shop Item 3",
             "chest_unopened_img": "images/icons/trading_post.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop Item 3"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -723,6 +726,7 @@
             "name": "Shop Item 4",
             "chest_unopened_img": "images/icons/trading_post.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop Item 4"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -732,6 +736,7 @@
             "name": "Shop Item 5",
             "chest_unopened_img": "images/icons/trading_post.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop Item 5"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -741,6 +746,7 @@
             "name": "Shop Item 6",
             "chest_unopened_img": "images/icons/trading_post.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop Item 6"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -750,6 +756,7 @@
             "name": "Shop Item 7",
             "chest_unopened_img": "images/icons/trading_post.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop Item 7"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -759,6 +766,7 @@
             "name": "Shop Item 8",
             "chest_unopened_img": "images/icons/trading_post.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop Item 8"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -768,48 +776,56 @@
             "name": "Shop (Night) Item 1",
             "chest_unopened_img": "images/icons/trading_post_night.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop (Night) Item 1"],
             "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 2",
             "chest_unopened_img": "images/icons/trading_post_night.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop (Night) Item 2"],
             "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 3",
             "chest_unopened_img": "images/icons/trading_post_night.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop (Night) Item 3"],
             "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 4",
             "chest_unopened_img": "images/icons/trading_post_night.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop (Night) Item 4"],
             "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 5",
             "chest_unopened_img": "images/icons/trading_post_night.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop (Night) Item 5"],
             "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 6",
             "chest_unopened_img": "images/icons/trading_post_night.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop (Night) Item 6"],
             "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 7",
             "chest_unopened_img": "images/icons/trading_post_night.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop (Night) Item 7"],
             "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 8",
             "chest_unopened_img": "images/icons/trading_post_night.png",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Trading Post/Shop (Night) Item 8"],
             "visibility_rules": ["shopsanity_advanced"]
           }
         ]
@@ -828,6 +844,7 @@
           {
             "name": "Item 1",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Bomb Shop/Item 1"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -836,6 +853,7 @@
           {
             "name": "Item 2",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Bomb Shop/Item 2"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -844,6 +862,7 @@
           {
             "name": "Item 3",
             "item_count": 500,
+            "access_rules": ["$can_afford|Clock Town/Bomb Shop/Item 3"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -852,7 +871,7 @@
           {
             "name": "Item 3 (Stop Thief)",
             "item_count": 500,
-            "access_rules": ["@Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM)"],
+            "access_rules": ["@Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM), $can_afford|Clock Town/Bomb Shop/Item 3 (Stop Thief)"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -882,7 +901,7 @@
           {
             "name": "Curiosity Shop Night 3 (Stop Thief)",
             "item_count": 500,
-            "access_rules": ["giantswallet, @Clock Town/Bomb Shop/Item 3 (Stop Thief)"],
+            "access_rules": ["@Clock Town/Bomb Shop/Item 3 (Stop Thief), $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -891,7 +910,7 @@
           {
             "name": "Curiosity Shop Night 3 Thief Stolen Item",
             "item_count": 500,
-            "access_rules": ["adultswallet"],
+            "access_rules": ["$can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 Thief Stolen Item"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"

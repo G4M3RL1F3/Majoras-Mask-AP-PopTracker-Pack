@@ -4,6 +4,9 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 --ScriptHost:LoadScript("scripts/autotracking/mappings.lua")
 ScriptHost:LoadScript("scripts/autotracking/shop.lua")
 ScriptHost:LoadScript("scripts/autotracking/tables.lua")
+
+set_default_prices()
+
 -- used for hint tracking to quickly map hint status to a value from the Highlight enum
 HINT_STATUS_MAPPING = {}
 if Highlight then
@@ -21,8 +24,6 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 RANDOMIZED_PRICES = {}
-SHOP_PRICES = {}
-ADJUSTED_PRICES = {}
 
 function onClear(slot_data)
     Tracker.BulkUpdate = true
@@ -98,21 +99,24 @@ function onClear(slot_data)
 	-- triggers callback in the Retrieved handler when result is received
 	Archipelago:Get(data_strorage_keys)
 
-    --if slot_data["shop_prices"] then
-    --    for w in string.gmatch(slot_data["shop_prices"], "%d+") do
-    --        table.insert(RANDOMIZED_PRICES, w)
-    --    end
-    --    for key, value in ipairs(SHOP_DATA) do
-    --        SHOP_PRICES[key] = {value[2], RANDOMIZED_PRICES[value[1]]}
-    --    end
-    --    for _, value in ipairs(SHOP_PRICES) do
-    --        ADJUSTED_PRICES[value[1]] = value[2]
-    --    end
-    --end
-    for key, value in ipairs(SHOP_DATA) do
-        SHOP_PRICES[key] = {value[2], DEFAULT_SHOP_PRICES[value[1]]}
+    if slot_data["shopsanity"] then
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print("Printing shop values given from slot data:")
+        end
+        for index, value in ipairs(slot_data["shop_prices_ints"]) do
+            print(index, value)
+        end
+        for k, v in pairs(SHOP_NAMES) do
+            RANDOMIZED_PRICES[k] = {v[1], slot_data["shop_prices_ints"][k]}
+        end
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print("Printing RANDOMIZED_PRICES table:")
+        end
+        for key, value in pairs(RANDOMIZED_PRICES) do
+            print(key, value[1], value[2])
+        end
     end
-    set_default_prices() -- change to adjust_display_cost() when slot data format for prices gets changed
+    adjust_display_cost()
 
     -- read YAML options
     local function setFromSlotData(slot_data_key, item_code)
@@ -149,11 +153,11 @@ function onClear(slot_data)
     setFromSlotData("moon_remains_required","moon_remains_required")
     setFromSlotData("remains_allow_boss_warps","remains_allow_boss_warps")
     setFromSlotData("camc","camc")
-    setFromSlotData("swordless","swordless")
-    setFromSlotData("shieldless","shieldless")
+    --setFromSlotData("swordless","swordless")
+    --setFromSlotData("shieldless","shieldless")
     setFromSlotData("start_with_soaring","start_with_soaring")
-    setFromSlotData("starting_hearts","starting_hearts")
-    setFromSlotData("starting_hearts_are_containers_or_pieces","starting_hearts_are_containers_or_pieces")
+    --setFromSlotData("starting_hearts","starting_hearts")
+    --setFromSlotData("starting_hearts_are_containers_or_pieces","starting_hearts_are_containers_or_pieces")
     setFromSlotData("shuffle_regional_maps","shuffle_regional_maps")
     setFromSlotData("shuffle_boss_remains","shuffle_boss_remains")
     setFromSlotData("shuffle_spiderhouse_reward","shuffle_spiderhouse_reward")
@@ -173,7 +177,7 @@ function onClear(slot_data)
     setFromSlotData("receive_filled_wallets","receive_filled_wallets")
     setFromSlotData("damage_multiplier","damage_multiplier")
     setFromSlotData("death_behavior","death_behavior")
-    setFromSlotData("death_link","death_link")
+    --setFromSlotData("death_link","death_link")
     --for _, trick in ipairs(slot_data["logic_tricks"]) do
     --    Tracker:FindObjectForCode(LOGIC_TRICK_MAPPING[string.format("%s", trick)]).Active = true
     --end

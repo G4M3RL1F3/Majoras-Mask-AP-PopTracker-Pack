@@ -154,21 +154,21 @@
             "chest_unopened_img": "images/characters/zora_shop.png",
             "item_count": 500,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["zora"]
+            "access_rules": ["zora, $can_afford|Great Bay/Zora Hall/Shop 1"]
           },
           {
             "name": "Shop 2",
             "chest_unopened_img": "images/characters/zora_shop.png",
             "item_count": 500,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["zora"]
+            "access_rules": ["zora, $can_afford|Great Bay/Zora Hall/Shop 2"]
           },
           {
             "name": "Shop 3",
             "chest_unopened_img": "images/characters/zora_shop.png",
             "item_count": 500,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["zora"]
+            "access_rules": ["zora, $can_afford|Great Bay/Zora Hall/Shop 3"]
           },
           {
             "name": "Deku Scrub Purchase",

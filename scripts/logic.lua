@@ -269,17 +269,11 @@ end
 function can_afford(location)
     local price = 0
     for key, value in ipairs(RANDOMIZED_PRICES) do
-        print("can_afford: key number: ", key)
-        print("can_afford: location number", location)
         if location == value[1] then
             price = value[2]
-            print("can_afford: allocated shop item value to 'price': ", value[2])
             break
-        else
-            print("can_afford: could not afford a value to 'price'")
         end
     end
-    print("can_afford: price value: ", price)
     if price > 200 then
         return has("giantswallet")
     elseif price > 99 then

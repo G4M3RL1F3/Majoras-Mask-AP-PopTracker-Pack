@@ -99,12 +99,13 @@ function onClear(slot_data)
 	-- triggers callback in the Retrieved handler when result is received
 	Archipelago:Get(data_strorage_keys)
 
+    -- applies shop prices from slot data on each shop item for display
     if slot_data["shopsanity"] then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print("Printing shop values given from slot data:")
-        end
-        for index, value in ipairs(slot_data["shop_prices_ints"]) do
-            print(index, value)
+            for index, value in ipairs(slot_data["shop_prices_ints"]) do
+                print(index, value)
+            end
         end
         for k, v in pairs(SHOP_NAMES) do
             RANDOMIZED_PRICES[k] = {v[1], slot_data["shop_prices_ints"][k]}

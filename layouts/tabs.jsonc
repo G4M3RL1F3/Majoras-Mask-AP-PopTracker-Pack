@@ -104,6 +104,13 @@
                       "type": "map",
                       "maps": ["secret_shrine"]
                     }
+                  },
+                  {
+                    "title": "Moon",
+                    "content": {
+                      "type": "map",
+                      "maps": ["moon"]
+                    }
                   }
                 ]
               }

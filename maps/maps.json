@@ -64,5 +64,11 @@
         "location_size": 20,
         "location_border_thickness": 1,
         "img": "images/maps/secret_shrine.png"
+    },
+    {
+        "name": "moon",
+        "location_size": 26,
+        "location_border_thickness": 1,
+        "img": "images/maps/moon.png"
     }
 ]

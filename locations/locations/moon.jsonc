@@ -19,6 +19,11 @@
             "map": "overworld",
             "x": 111,
             "y": 572
+          },
+          {
+            "map": "moon",
+            "x": 415,
+            "y": 139
           }
         ]
       },
@@ -36,6 +41,11 @@
             "map": "overworld",
             "x": 111,
             "y": 532
+          },
+          {
+            "map": "moon",
+            "x": 646,
+            "y": 145
           }
         ]
       },
@@ -53,6 +63,11 @@
             "map": "overworld",
             "x": 91,
             "y": 552
+          },
+          {
+            "map": "moon",
+            "x": 1221,
+            "y": 207
           }
         ]
       },
@@ -88,6 +103,51 @@
         ]
       },
       {
+        "name": "Garo Master Room",
+        "sections": [
+          {
+            "ref": "Inside the Moon/Link Trial/Garo Master Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 1560,
+            "y": 487
+          }
+        ]
+      },
+      {
+        "name": "Iron Knuckle Room",
+        "sections": [
+          {
+            "ref": "Inside the Moon/Link Trial/Iron Knuckle Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 1560,
+            "y": 338
+          }
+        ]
+      },
+      {
+        "name": "Heart Piece Room",
+        "sections": [
+          {
+            "ref": "Inside the Moon/Link Trial/Heart Piece"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 1560,
+            "y": 201
+          }
+        ]
+      },
+      {
         "name": "The Moon",
         "sections": [
           {
@@ -101,6 +161,11 @@
             "map": "overworld",
             "x": 111,
             "y": 552
+          },
+          {
+            "map": "moon",
+            "x": 1032,
+            "y": 727
           }
         ]
       }

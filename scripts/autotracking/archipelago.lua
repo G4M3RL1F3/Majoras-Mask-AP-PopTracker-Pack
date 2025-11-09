@@ -100,7 +100,7 @@ function onClear(slot_data)
 	Archipelago:Get(data_strorage_keys)
 
     -- applies shop prices from slot data on each shop item for display
-    if slot_data["shopsanity"] then
+    if slot_data["shopsanity"] ~= 0 then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print("Printing shop values given from slot data:")
             for index, value in ipairs(slot_data["shop_prices_ints"]) do

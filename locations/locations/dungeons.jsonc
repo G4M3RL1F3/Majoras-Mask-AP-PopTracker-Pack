@@ -755,7 +755,7 @@
             "name": "Swamp Spider House Reward",
             "chest_unopened_img": "images/masks/truth.png",
             "access_rules": [
-              "$has|skull_ss|30",
+              "$checkRequirements|required_skull_tokens|skull_ss",
               "skullsanity_0, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token",
               "skullsanity_2, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token"
             ]
@@ -1230,7 +1230,7 @@
             "name": "Ocean Spider House Reward",
             "chest_unopened_img": "images/equipment/wallet2.png",
             "access_rules": [
-              "$has|skull_gb|30",
+              "$checkRequirements|required_skull_tokens|skull_gb",
               "skullsanity_0, hookshot, $can_use_fire_arrows",
               "skullsanity_2, hookshot, $can_use_fire_arrows"
             ]

@@ -12,6 +12,7 @@
           {
             "type": "array",
             "orientation": "horizontal",
+            "margin": "130, 0, 0, 0",
             "content": [
               {
                 "type": "group",
@@ -132,8 +133,23 @@
                   {
                     "type": "item",
                     "max_width": 260,
+                    "item": "required_skull_tokens"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
                     "item": "fairysanity"
                   },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "required_stray_fairies"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "content": [
                   {
                     "type": "item",
                     "max_width": 260,

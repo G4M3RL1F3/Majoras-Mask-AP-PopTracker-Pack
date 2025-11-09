@@ -209,6 +209,17 @@
     ]
   },
   {
+    "name": "Required Skull Tokens",
+    "type": "consumable",
+    "img": "images/pack_settings/sanities/required_skull_tokens.png",
+    "allow_disabled": false,
+    "codes": "required_skull_tokens",
+    "min_quantity": 0,
+    "max_quantity": 30,
+    "initial_quantity": 30,
+    "overlay_font_size": 40
+  },
+  {
     "name": "Shopsanity",
     "type": "progressive",
     "loop": true,
@@ -256,6 +267,17 @@
     "img": "images/pack_settings/sanities/fairysanity_on.png",
     "disabled_img": "images/pack_settings/sanities/fairysanity_off.png",
     "codes": "fairysanity"
+  },
+  {
+    "name": "Required Stray Fairies",
+    "type": "consumable",
+    "img": "images/pack_settings/sanities/required_stray_fairies.png",
+    "allow_disabled": false,
+    "codes": "required_stray_fairies",
+    "min_quantity": 0,
+    "max_quantity": 15,
+    "initial_quantity": 15,
+    "overlay_font_size": 40
   },
 
   //Inventory

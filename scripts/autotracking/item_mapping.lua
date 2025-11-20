@@ -117,5 +117,17 @@ ITEM_MAPPING = {
 [0x3469420090274] = {"bosskey_gb","toggle"},
 [0x3469420090374] = {"bosskey_st","toggle"},
 [0x3469420000075] = {"skull_ss","consumable"},
-[0x3469420000072] = {"skull_gb","consumable"}
+[0x3469420000072] = {"skull_gb","consumable"},
+
+-- Owl statues
+[0x3469420FF1504] = {"owl_ct","toggle"},
+[0x3469420FF1505] = {"owl_milk_road","toggle"},
+[0x3469420FF1507] = {"owl_swamp","toggle"},
+[0x3469420FF1506] = {"owl_woodfall","toggle"},
+[0x3469420FF1503] = {"owl_mountain","toggle"},
+[0x3469420FF1502] = {"owl_snowhead","toggle"},
+[0x3469420FF1500] = {"owl_coast","toggle"},
+[0x3469420FF1501] = {"owl_zora_cape","toggle"},
+[0x3469420FF1508] = {"owl_ikana_canyon","toggle"},
+[0x3469420FF1509] = {"owl_stone_tower","toggle"}
 }

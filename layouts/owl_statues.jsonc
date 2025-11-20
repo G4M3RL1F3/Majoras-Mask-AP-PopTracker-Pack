@@ -1,0 +1,24 @@
+{
+  "owl_statues_layout": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "1,16",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "1,1",
+        "rows": [
+          ["owl_ct", "owl_milk_road"],
+          [
+            "owl_swamp", "owl_woodfall", "owl_mountain", "owl_snowhead"
+          ],
+          [
+            "owl_coast", "owl_zora_cape", "owl_ikana_canyon", "owl_stone_tower"
+          ]
+        ]
+      }
+    ]
+  }
+}

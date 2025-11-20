@@ -83,81 +83,119 @@
             "dock": "bottom",
             "content": [
               {
-                "type": "group",
-                "header": "Items",
-                "dock": "left",
-                "content": {
-                  "type": "layout",
-                  "h_alignment": "center",
-                  "v_alignment": "center",
-                  "key": "horizontal_item_grid"
-                }
-              },
-              {
-                "type": "group",
-                "header": "Trade Items",
-                "dock": "left",
-                "content": {
-                  "type": "layout",
-                  "h_alignment": "center",
-                  "v_alignment": "center",
-                  "key": "horizontal_trades_grid"
-                }
-              },
-              {
-                "type": "group",
-                "header": "Masks",
-                "dock": "left",
-                "content": {
-                  "type": "layout",
-                  "h_alignment": "center",
-                  "v_alignment": "center",
-                  "key": "horizontal_masks_grid"
-                }
-              },
-              {
-                "type": "group",
-                "header": "Equipment",
-                "dock": "left",
-                "content": {
-                  "type": "layout",
-                  "h_alignment": "center",
-                  "v_alignment": "center",
-                  "key": "horizontal_equipment_grid"
-                }
-              },
-              {
-                "type": "group",
-                "header": "Dungeon Items",
-                "dock": "left",
-                "content": {
-                  "type": "layout",
-                  "h_alignment": "center",
-                  "v_alignment": "center",
-                  "key": "horizontal_dungeon_grid"
-                }
-              },
-              //{
-              //  "type": "group",
-              //  "header": "Remnants",
-              //  "dock": "left",
-              //  "content": {
-              //    "type": "layout",
-              //    "h_alignment": "center",
-              //    "v_alignment": "center",
-              //    "key": "horizontal_remnants_grid"
-              //  }
-              //},
-              {
-                "type": "group",
-                "header": "Collectibles",
-                "dock": "left",
-                "content": {
-                  "type": "layout",
-                  "h_alignment": "center",
-                  "v_alignment": "center",
-                  "key": "horizontal_collectibles_grid"
-                }
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Main Items",
+                    "content": [
+                      {
+                        "type": "dock",
+                        "dock": "left",
+                        "content": [
+                          {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "horizontal_item_grid"
+                            }
+                          },
+                          {
+                            "type": "group",
+                            "header": "Trade Items",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "horizontal_trades_grid"
+                            }
+                          },
+                          {
+                            "type": "group",
+                            "header": "Masks",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "horizontal_masks_grid"
+                            }
+                          },
+                          {
+                            "type": "group",
+                            "header": "Equipment",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "horizontal_equipment_grid"
+                            }
+                          },
+                          {
+                            "type": "group",
+                            "header": "Dungeon Items",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "horizontal_dungeon_grid"
+                            }
+                          },
+                          //{
+                          //  "type": "group",
+                          //  "header": "Remnants",
+                          //  "dock": "left",
+                          //  "content": {
+                          //    "type": "layout",
+                          //    "h_alignment": "center",
+                          //    "v_alignment": "center",
+                          //    "key": "horizontal_remnants_grid"
+                          //  }
+                          //},
+                          {
+                            "type": "group",
+                            "header": "Collectibles",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "horizontal_collectibles_grid"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Sanity Items",
+                    "content": [
+                      {
+                        "type": "dock",
+                        "dock": "left",
+                        "content": [
+                          {
+                            "type": "group",
+                            "header": "Owl Statues",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "owl_statues_layout"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },

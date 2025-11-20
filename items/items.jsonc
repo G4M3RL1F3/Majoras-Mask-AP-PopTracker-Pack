@@ -1,7 +1,7 @@
 [
   {
     "name": "Ocarina of Time",
-    "type": "static",
+    "type": "toggle",
     "img": "images/items/ocarina.png",
     "codes": "ocarina"
   },
@@ -218,42 +218,6 @@
     "img": "images/items/pendant.png",
     "codes": "memoriespendant,pendant"
   },
-//  {
-//    "name": "Bottle 1",
-//    "type": "toggle",
-//    "img": "images/items/bottle.png",
-//    "codes": "bottle_1,bottle"
-//  },
-//  {
-//    "name": "Bottle 2",
-//    "type": "toggle",
-//    "img": "images/items/bottle.png",
-//    "codes": "bottle_2,bottle"
-//  },
-//  {
-//    "name": "Bottle 3",
-//    "type": "toggle",
-//    "img": "images/items/bottle.png",
-//    "codes": "bottle_3,bottle"
-//  },
-//  {
-//    "name": "Bottle 4",
-//    "type": "toggle",
-//    "img": "images/items/bottle.png",
-//    "codes": "bottle_4,bottle"
-//  },
-//  {
-//    "name": "Bottle 5",
-//    "type": "toggle",
-//    "img": "images/items/bottle.png",
-//    "codes": "bottle_5,bottle"
-//  },
-//  {
-//    "name": "Bottle 6",
-//    "type": "toggle",
-//    "img": "images/items/bottle.png",
-//    "codes": "bottle_6,bottle"
-//  },
   {
     "name": "Bottle Count",
     "type": "consumable",
@@ -267,7 +231,7 @@
     "type": "consumable",
     "img": "images/items/bottle.png",
     "codes": "empty_bottle",
-    "max_quantity": 2
+    "max_quantity": 3
   },
   {
     "name": "Red Potion",

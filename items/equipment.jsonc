@@ -102,49 +102,25 @@
   },
   {
     "name": "Song of Time",
-    "type": "static",
+    "type": "toggle",
     "img": "images/equipment/song_time.png",
     "codes": "time,sot"
   },
   {
-    "name": "Song of Time Check",
-    "type": "toggle_badged",
-    "base_item": "time",
-    "img": "images/icons/check.png",
-    "codes": "timecheck,sotcheck"
-  },
-  {
     "name": "Song of Healing",
     "type": "toggle",
-    "loop": true,
     "img": "images/equipment/song_healing.png",
     "codes": "healing,soh"
   },
   {
-    "name": "Song of Healing Check",
-    "type": "toggle_badged",
-    "base_item": "healing",
-    "img": "images/icons/check.png",
-    "codes": "healingcheck,sohcheck"
-  },
-  {
     "name": "Epona's Song",
     "type": "toggle",
-    "loop": true,
     "img": "images/equipment/song_epona.png",
     "codes": "epona"
   },
   {
-    "name": "Epona's Song Check",
-    "type": "toggle_badged",
-    "base_item": "epona",
-    "img": "images/icons/check.png",
-    "codes": "eponacheck"
-  },
-  {
     "name": "Song of Soaring",
     "type": "toggle",
-    "loop": true,
     "img": "images/equipment/song_soaring.png",
     "codes": "soaring"
   },
@@ -158,86 +134,38 @@
   {
     "name": "Song of Storms",
     "type": "toggle",
-    "loop": true,
     "img": "images/equipment/song_storms.png",
     "codes": "storms"
   },
   {
-    "name": "Song of Storms Check",
-    "type": "toggle_badged",
-    "base_item": "storms",
-    "img": "images/icons/check.png",
-    "codes": "stormscheck"
-  },
-  {
     "name": "Sonata of Awakening",
     "type": "toggle",
-    "loop": true,
     "img": "images/equipment/song_sonata.png",
     "codes": "sonata,soa"
   },
   {
-    "name": "Sonata of Awakening Check",
-    "type": "toggle_badged",
-    "base_item": "sonata",
-    "img": "images/icons/check.png",
-    "codes": "sonatacheck,soacheck"
-  },
-  {
     "name": "Goron's Lullaby",
     "type": "toggle",
-    "loop": true,
     "img": "images/equipment/song_lullaby.png",
     "codes": "goronlullaby,lullaby"
   },
   {
-    "name": "Goron's Lullaby Check",
-    "type": "toggle_badged",
-    "base_item": "goronlullaby",
-    "img": "images/icons/check.png",
-    "codes": "lullabycheck"
-  },
-  {
     "name": "New Wave Bossa Nova",
     "type": "toggle",
-    "loop": true,
     "img": "images/equipment/song_bossa_nova.png",
     "codes": "newwave,bossanova,nwbn"
   },
   {
-    "name": "New Bossa Nova Check",
-    "type": "toggle_badged",
-    "base_item": "newwave",
-    "img": "images/icons/check.png",
-    "codes": "newwavecheck,bossanovacheck,nwbn"
-  },
-  {
     "name": "Elegy of Emptiness",
     "type": "toggle",
-    "loop": true,
     "img": "images/equipment/song_elegy.png",
     "codes": "elegy,emptiness,eoe"
   },
   {
-    "name": "Elegy of Emptiness Check",
-    "type": "toggle_badged",
-    "base_item": "elegy",
-    "img": "images/icons/check.png",
-    "codes": "elegycheck,eoecheck"
-  },
-  {
     "name": "Oath to Order",
     "type": "toggle",
-    "loop": true,
     "img": "images/equipment/song_oath.png",
     "codes": "oathtoorder,oath,oto"
-  },
-  {
-    "name": "Oath to Order Check",
-    "type": "toggle_badged",
-    "base_item": "oathtoorder",
-    "img": "images/icons/check.png",
-    "codes": "oathcheck"
   },
   {
     "name": "Odolwa's Remains",

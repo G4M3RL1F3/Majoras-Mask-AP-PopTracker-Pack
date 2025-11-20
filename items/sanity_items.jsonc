@@ -1,0 +1,73 @@
+[
+  // Owl Statues
+  {
+    "name": "Clock Town Owl Statue",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/owl_statues/owl_ct_on.png",
+    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_ct.png",
+    "codes": "owl_ct"
+  },
+  {
+    "name": "Milk Road Owl Statue",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/owl_statues/owl_milk_road_on.png",
+    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_milk_road.png",
+    "codes": "owl_milk_road"
+  },
+  {
+    "name": "Southern Swamp Owl Statue",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/owl_statues/owl_swamp_on.png",
+    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_swamp.png",
+    "codes": "owl_swamp"
+  },
+  {
+    "name": "Woodfall Owl Statue",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/owl_statues/owl_woodfall_on.png",
+    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_woodfall.png",
+    "codes": "owl_woodfall"
+  },
+  {
+    "name": "Mountain Village Owl Statue",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/owl_statues/owl_mountain_on.png",
+    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_mountain.png",
+    "codes": "owl_mountain"
+  },
+  {
+    "name": "Snowhead Owl Statue",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/owl_statues/owl_snowhead_on.png",
+    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_snowhead.png",
+    "codes": "owl_snowhead"
+  },
+  {
+    "name": "Great Bay Coast Owl Statue",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/owl_statues/owl_coast_on.png",
+    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_coast.png",
+    "codes": "owl_coast"
+  },
+  {
+    "name": "Zora Cape Owl Statue",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/owl_statues/owl_zora_cape_on.png",
+    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_zora_cape.png",
+    "codes": "owl_zora_cape"
+  },
+  {
+    "name": "Ikana Canyon Owl Statue",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/owl_statues/owl_ikana_canyon_on.png",
+    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_ikana_canyon.png",
+    "codes": "owl_ikana_canyon"
+  },
+  {
+    "name": "Stone Tower Owl Statue",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/owl_statues/owl_stone_tower_on.png",
+    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_stone_tower.png",
+    "codes": "owl_stone_tower"
+  }
+]

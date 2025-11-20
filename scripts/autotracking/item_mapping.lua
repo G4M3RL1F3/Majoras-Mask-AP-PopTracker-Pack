@@ -129,5 +129,12 @@ ITEM_MAPPING = {
 [0x3469420FF1500] = {"owl_coast","toggle"},
 [0x3469420FF1501] = {"owl_zora_cape","toggle"},
 [0x3469420FF1508] = {"owl_ikana_canyon","toggle"},
-[0x3469420FF1509] = {"owl_stone_tower","toggle"}
+[0x3469420FF1509] = {"owl_stone_tower","toggle"},
+
+-- Frogs
+[0x3469420FF0000] = {"frog_yellow","toggle"},
+[0x3469420FF0004] = {"frog_white","toggle"},
+[0x3469420FF0003] = {"frog_cyan","toggle"},
+[0x3469420FF0001] = {"frog_blue","toggle"},
+[0x3469420FF0002] = {"frog_pink","toggle"}
 }

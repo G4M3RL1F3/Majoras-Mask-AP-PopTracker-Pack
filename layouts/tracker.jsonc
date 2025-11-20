@@ -190,6 +190,17 @@
                               "v_alignment": "center",
                               "key": "owl_statues_layout"
                             }
+                          },
+                          {
+                            "type": "group",
+                            "header": "Frogs",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "frogs_layout"
+                            }
                           }
                         ]
                       }

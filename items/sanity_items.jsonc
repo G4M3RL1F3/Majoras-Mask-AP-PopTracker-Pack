@@ -69,5 +69,37 @@
     "img": "images/pack_settings/sanities/owl_statues/owl_stone_tower_on.png",
     "disabled_img": "images/pack_settings/sanities/owl_statues/owl_stone_tower.png",
     "codes": "owl_stone_tower"
+  },
+
+  // Frogs
+  {
+    "name": "Yellow Frog",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/frogs/frog_yellow.png",
+    "codes": "frog_yellow"
+  },
+  {
+    "name": "White Frog",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/frogs/frog_white.png",
+    "codes": "frog_white"
+  },
+  {
+    "name": "Cyan Frog",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/frogs/frog_cyan.png",
+    "codes": "frog_cyan"
+  },
+  {
+    "name": "Blue Frog",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/frogs/frog_blue.png",
+    "codes": "frog_blue"
+  },
+  {
+    "name": "Pink Frog",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/frogs/frog_pink.png",
+    "codes": "frog_pink"
   }
 ]

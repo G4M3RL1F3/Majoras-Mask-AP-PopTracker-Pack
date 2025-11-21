@@ -165,5 +165,23 @@ ITEM_MAPPING = {
 [0x34694200A00F3] = {"soul_cow","toggle"},
 [0x34694200A028C] = {"soul_keaton","toggle"},
 [0x34694200A0050] = {"soul_gs","toggle"},
-[0x34694200A0015] = {"soul_butterfly","toggle"}
+[0x34694200A0015] = {"soul_butterfly","toggle"},
+
+-- NPC Souls
+[0x34694200C0202] = {"soul_anju","toggle"},
+[0x34694200C0243] = {"soul_anjus_grandmother","toggle"},
+[0x34694200C0159] = {"soul_kafei","toggle"},
+[0x34694200C027D] = {"soul_toilet_hand","toggle"},
+[0x34694200C0248] = {"soul_guru_guru","toggle"},
+[0x34694200C00B5] = {"soul_honey_darling","toggle"},
+[0x34694200C01C1] = {"soul_treasure_game_lady","toggle"},
+[0x34694200C0234] = {"soul_toto_gorman","toggle"},
+[0x34694200C0263] = {"soul_barten","toggle"},
+[0x34694200C0262] = {"soul_madame_aroma","toggle"},
+[0x34694200C026F] = {"soul_council","toggle"},
+[0x34694200C027E] = {"soul_bombers","toggle"},
+[0x34694200C0176] = {"soul_tingle","toggle"},
+[0x34694200C0236] = {"soul_bomb_shop_lady","toggle"},
+[0x34694200C0237] = {"soul_sakon","toggle"},
+[0x34694200C01C9] = {"soul_deku_employee","toggle"}
 }

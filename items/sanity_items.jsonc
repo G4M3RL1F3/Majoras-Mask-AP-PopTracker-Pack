@@ -343,5 +343,103 @@
     "type": "toggle",
     "img": "images/icons/butterfly.png",
     "codes": "soul_butterfly"
+  },
+
+  // NPC Souls
+  {
+    "name": "Soul of Anju",
+    "type": "toggle",
+    "img": "images/characters/anju.png",
+    "codes": "soul_anju"
+  },
+  {
+    "name": "Soul of Anju's Grandmother",
+    "type": "toggle",
+    "img": "images/characters/anjus_grandmother.png",
+    "codes": "soul_anjus_grandmother"
+  },
+  {
+    "name": "Soul of Kafei",
+    "type": "toggle",
+    "img": "images/characters/kafei.png",
+    "codes": "soul_kafei"
+  },
+  {
+    "name": "Soul of Toilet Hand",
+    "type": "toggle",
+    "img": "images/characters/toilet_hand.png",
+    "codes": "soul_toilet_hand"
+  },
+  {
+    "name": "Soul of Guru-Guru",
+    "type": "toggle",
+    "img": "images/characters/guru_guru.png",
+    "codes": "soul_guru_guru"
+  },
+  {
+    "name": "Soul of Honey and Darling",
+    "type": "toggle",
+    "img": "images/characters/honey_darling.png",
+    "codes": "soul_honey_darling"
+  },
+  {
+    "name": "Soul of Treasure Game Lady",
+    "type": "toggle",
+    "img": "images/characters/treasure_game_lady.png",
+    "codes": "soul_treasure_game_lady"
+  },
+  {
+    "name": "Soul of Toto & Gorman",
+    "type": "toggle",
+    "img": "images/characters/gorman_toto.png",
+    "codes": "soul_toto_gorman"
+  },
+  {
+    "name": "Soul of Barten",
+    "type": "toggle",
+    "img": "images/characters/barten.png",
+    "codes": "soul_barten"
+  },
+  {
+    "name": "Soul of Madame Aroma",
+    "type": "toggle",
+    "img": "images/characters/madame_aroma.png",
+    "codes": "soul_madame_aroma"
+  },
+  {
+    "name": "Soul of Council",
+    "type": "toggle",
+    "img": "images/characters/mayor_dotour.png",
+    "codes": "soul_council"
+  },
+  {
+    "name": "Soul of Bomber Kids",
+    "type": "toggle",
+    "img": "images/characters/bombers.png",
+    "codes": "soul_bombers"
+  },
+  {
+    "name": "Soul of Tingle",
+    "type": "toggle",
+    "img": "images/characters/tingle.png",
+    "codes": "soul_tingle"
+  },
+  {
+    "name": "Soul of Bomb Granny",
+    "type": "toggle",
+    "img": "images/characters/bomb_shop_lady.png",
+    "codes": "soul_bomb_shop_lady"
+  },
+  {
+    "name": "Soul of Sakon",
+    "type": "toggle",
+    "img": "images/characters/sakon.png",
+    "codes": "soul_sakon"
+  },
+  {
+    "name": "Soul of Deku Playground Employee",
+    "type": "toggle",
+    "img": "images/characters/scrub_merchant.png",
+    "codes": "soul_deku_employee"
   }
 ]

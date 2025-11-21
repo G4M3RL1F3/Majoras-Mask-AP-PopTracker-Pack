@@ -1,0 +1,41 @@
+{
+  "npc_souls_layout": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "1,1",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "1,1",
+        "rows": [
+          [
+            "soul_anju",
+            "soul_guru_guru",
+            "soul_barten",
+            "soul_tingle"
+          ],
+          [
+            "soul_anjus_grandmother",
+            "soul_honey_darling",
+            "soul_madame_aroma",
+            "soul_bomb_shop_lady"
+          ],
+          [
+            "soul_kafei",
+            "soul_treasure_game_lady",
+            "soul_council",
+            "soul_sakon"
+          ],
+          [
+            "soul_toilet_hand",
+            "soul_toto_gorman",
+            "soul_bombers",
+            "soul_deku_employee"
+          ]
+        ]
+      }
+    ]
+  }
+}

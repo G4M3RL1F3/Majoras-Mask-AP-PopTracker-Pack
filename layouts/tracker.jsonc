@@ -234,6 +234,17 @@
                               "v_alignment": "center",
                               "key": "misc_souls_layout"
                             }
+                          },
+                          {
+                            "type": "group",
+                            "header": "NPC Souls",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "npc_souls_layout"
+                            }
                           }
                         ]
                       }

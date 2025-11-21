@@ -1,0 +1,19 @@
+{
+  "misc_souls_layout": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "1,32",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "1,1",
+        "rows": [
+          ["soul_cow", "soul_keaton"],
+          ["soul_gs", "soul_butterfly"]
+        ]
+      }
+    ]
+  }
+}

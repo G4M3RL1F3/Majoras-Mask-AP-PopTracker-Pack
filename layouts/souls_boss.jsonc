@@ -1,5 +1,5 @@
 {
-  "boss_souls_layouts": {
+  "boss_souls_layout": {
     "type": "array",
     "orientation": "vertical",
     "margin": "1,16",

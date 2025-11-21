@@ -159,5 +159,11 @@ ITEM_MAPPING = {
 [0x34694200B01DD] = {"soul_goht","toggle"},
 [0x34694200B012B] = {"soul_gyorg","toggle"},
 [0x34694200B012A] = {"soul_twinmold","toggle"},
-[0x34694200B012F] = {"soul_majora","toggle"}
+[0x34694200B012F] = {"soul_majora","toggle"},
+
+-- Misc. Souls
+[0x34694200A00F3] = {"soul_cow","toggle"},
+[0x34694200A028C] = {"soul_keaton","toggle"},
+[0x34694200A0050] = {"soul_gs","toggle"},
+[0x34694200A0015] = {"soul_butterfly","toggle"}
 }

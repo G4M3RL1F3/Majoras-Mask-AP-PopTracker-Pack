@@ -317,5 +317,31 @@
     "type": "toggle",
     "img": "images/icons/majoras_mask.png",
     "codes": "soul_majora"
+  },
+
+  // Misc. Souls
+  {
+    "name": "Soul of Cows",
+    "type": "toggle",
+    "img": "images/icons/cow.png",
+    "codes": "soul_cow"
+  },
+  {
+    "name": "Soul of Keaton",
+    "type": "toggle",
+    "img": "images/masks/keaton.png",
+    "codes": "soul_keaton"
+  },
+  {
+    "name": "Soul of Gold Skulltulas",
+    "type": "toggle",
+    "img": "images/equipment/skull_normal.png",
+    "codes": "soul_gs"
+  },
+  {
+    "name": "Soul of Butterflies",
+    "type": "toggle",
+    "img": "images/icons/butterfly.png",
+    "codes": "soul_butterfly"
   }
 ]

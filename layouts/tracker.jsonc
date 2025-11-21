@@ -221,7 +221,18 @@
                               "type": "layout",
                               "h_alignment": "center",
                               "v_alignment": "center",
-                              "key": "boss_souls_layouts"
+                              "key": "boss_souls_layout"
+                            }
+                          },
+                          {
+                            "type": "group",
+                            "header": "Misc. Souls",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "misc_souls_layout"
                             }
                           }
                         ]

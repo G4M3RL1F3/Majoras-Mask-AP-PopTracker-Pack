@@ -285,5 +285,37 @@
     "base_item": "stone_tower_upper",
     "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
     "codes": "scarecrow_stone_tower_upper"
+  },
+
+  // Boss Souls
+  {
+    "name": "Soul of Odolwa",
+    "type": "toggle",
+    "img": "images/equipment/odolwa.png",
+    "codes": "soul_odolwa"
+  },
+  {
+    "name": "Soul of Goht",
+    "type": "toggle",
+    "img": "images/equipment/goht.png",
+    "codes": "soul_goht"
+  },
+  {
+    "name": "Soul of Gyorg",
+    "type": "toggle",
+    "img": "images/equipment/gyorg.png",
+    "codes": "soul_gyorg"
+  },
+  {
+    "name": "Soul of Twinmold",
+    "type": "toggle",
+    "img": "images/equipment/twinmold.png",
+    "codes": "soul_twinmold"
+  },
+  {
+    "name": "Soul of Majora",
+    "type": "toggle",
+    "img": "images/icons/majoras_mask.png",
+    "codes": "soul_majora"
   }
 ]

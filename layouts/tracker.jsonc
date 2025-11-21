@@ -212,6 +212,17 @@
                               "v_alignment": "center",
                               "key": "scarecrows_layouts"
                             }
+                          },
+                          {
+                            "type": "group",
+                            "header": "Boss Souls",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "boss_souls_layouts"
+                            }
                           }
                         ]
                       }

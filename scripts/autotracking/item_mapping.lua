@@ -152,5 +152,12 @@ ITEM_MAPPING = {
 [0x3469420303801] = {"scarecrow_zora_cape_island","toggle"},
 [0x3469420305300] = {"scarecrow_road_to_ikana","toggle"},
 [0x3469420305800] = {"scarecrow_stone_tower_lower","toggle"},
-[0x3469420305801] = {"scarecrow_stone_tower_upper","toggle"}
+[0x3469420305801] = {"scarecrow_stone_tower_upper","toggle"},
+
+-- Boss Souls
+[0x34694200B0129] = {"soul_odolwa","toggle"},
+[0x34694200B01DD] = {"soul_goht","toggle"},
+[0x34694200B012B] = {"soul_gyorg","toggle"},
+[0x34694200B012A] = {"soul_twinmold","toggle"},
+[0x34694200B012F] = {"soul_majora","toggle"}
 }

@@ -201,6 +201,17 @@
                               "v_alignment": "center",
                               "key": "frogs_layout"
                             }
+                          },
+                          {
+                            "type": "group",
+                            "header": "Scarecrows",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "scarecrows_layouts"
+                            }
                           }
                         ]
                       }

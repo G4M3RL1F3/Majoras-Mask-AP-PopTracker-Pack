@@ -136,5 +136,21 @@ ITEM_MAPPING = {
 [0x3469420FF0004] = {"frog_white","toggle"},
 [0x3469420FF0003] = {"frog_cyan","toggle"},
 [0x3469420FF0001] = {"frog_blue","toggle"},
-[0x3469420FF0002] = {"frog_pink","toggle"}
+[0x3469420FF0002] = {"frog_pink","toggle"},
+
+-- Scarecrows
+[0x3469420305000] = {"scarecrow_mtn_village_winter","toggle"},
+[0x3469420305A00] = {"scarecrow_mtn_village_spring","toggle"},
+[0x3469420305B00] = {"scarecrow_path_snowhead_winter","toggle"},
+[0x3469420305C00] = {"scarecrow_path_snowhead_spring","toggle"},
+[0x3469420305D00] = {"scarecrow_twin_islands_winter","toggle"},
+[0x3469420305E00] = {"scarecrow_twin_islands_spring","toggle"},
+[0x3469420302140] = {"scarecrow_sht_lower","toggle"},
+[0x3469420302141] = {"scarecrow_sht_hidden_alcove","toggle"},
+[0x3469420303700] = {"scarecrow_gb_coast_rock_wall","toggle"},
+[0x3469420303800] = {"scarecrow_zora_cape_beavers","toggle"},
+[0x3469420303801] = {"scarecrow_zora_cape_island","toggle"},
+[0x3469420305300] = {"scarecrow_road_to_ikana","toggle"},
+[0x3469420305800] = {"scarecrow_stone_tower_lower","toggle"},
+[0x3469420305801] = {"scarecrow_stone_tower_upper","toggle"}
 }

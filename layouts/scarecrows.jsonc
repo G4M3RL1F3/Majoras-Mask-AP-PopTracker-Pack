@@ -1,0 +1,41 @@
+{
+  "scarecrows_layouts": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "1,1",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "1,1",
+        "rows": [
+          [
+            "scarecrow_mtn_village_winter",
+            "scarecrow_twin_islands_winter",
+            "scarecrow_gb_coast_rock_wall",
+            "scarecrow_road_to_ikana"
+          ],
+          [
+            "scarecrow_mtn_village_spring",
+            "scarecrow_twin_islands_spring",
+            "scarecrow_zora_cape_beavers",
+            "scarecrow_stone_tower_lower"
+          ],
+          [
+            "scarecrow_path_snowhead_winter",
+            "scarecrow_sht_lower",
+            "scarecrow_zora_cape_island",
+            "scarecrow_stone_tower_upper"
+          ],
+          [
+            "scarecrow_path_snowhead_spring",
+            "scarecrow_sht_hidden_alcove",
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  }
+}

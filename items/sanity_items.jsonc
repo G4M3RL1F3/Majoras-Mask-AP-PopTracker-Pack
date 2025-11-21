@@ -441,5 +441,29 @@
     "type": "toggle",
     "img": "images/characters/scrub_merchant.png",
     "codes": "soul_deku_employee"
+  },
+  {
+    "name": "Soul of Great Fairies",
+    "type": "toggle",
+    "img": "images/characters/great_fairy.png",
+    "codes": "soul_great_fairy"
+  },
+  {
+    "name": "Soul of Archery Man",
+    "type": "toggle",
+    "img": "images/characters/archery_man.png",
+    "codes": "soul_archery_man"
+  },
+  {
+    "name": "Soul of Postman",
+    "type": "toggle",
+    "img": "images/characters/postman.png",
+    "codes": "soul_postman"
+  },
+  {
+    "name": "Soul of Shop Owners",
+    "type": "toggle",
+    "img": "images/characters/shop_owners.png",
+    "codes": "soul_shop_owners"
   }
 ]

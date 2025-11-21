@@ -183,5 +183,9 @@ ITEM_MAPPING = {
 [0x34694200C0176] = {"soul_tingle","toggle"},
 [0x34694200C0236] = {"soul_bomb_shop_lady","toggle"},
 [0x34694200C0237] = {"soul_sakon","toggle"},
-[0x34694200C01C9] = {"soul_deku_employee","toggle"}
+[0x34694200C01C9] = {"soul_deku_employee","toggle"},
+[0x34694200C0130] = {"soul_great_fairy","toggle"},
+[0x34694200C011D] = {"soul_archery_man","toggle"},
+[0x34694200C01D5] = {"soul_postman","toggle"},
+[0x34694200C002A] = {"soul_shop_owners","toggle"}
 }

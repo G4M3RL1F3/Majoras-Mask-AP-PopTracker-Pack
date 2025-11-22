@@ -16,7 +16,9 @@
             "soul_barten",
             "soul_tingle",
             "soul_great_fairy",
-            "soul_scarecrow"
+            "soul_scarecrow",
+            "soul_skull_kid",
+            "soul_astral_man"
           ],
           [
             "soul_anjus_grandmother",
@@ -24,7 +26,9 @@
             "soul_madame_aroma",
             "soul_bomb_shop_lady",
             "soul_archery_man",
-            "soul_banker"
+            "soul_banker",
+            "soul_kamaro",
+            "soul_keg_goron"
           ],
           [
             "soul_kafei",
@@ -32,7 +36,9 @@
             "soul_council",
             "soul_sakon",
             "soul_postman",
-            "soul_curiosity_shop_man"
+            "soul_curiosity_shop_man",
+            "soul_spider_man",
+            "soul_swordsman"
           ],
           [
             "soul_toilet_hand",
@@ -40,7 +46,9 @@
             "soul_bombers",
             "soul_deku_employee",
             "soul_shop_owners",
-            "soul_happy_mask_salesman"
+            "soul_happy_mask_salesman",
+            "soul_business_scrub",
+            ""
           ]
         ]
       }

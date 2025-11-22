@@ -489,5 +489,47 @@
     "type": "toggle",
     "img": "images/characters/happy_mask_salesman.png",
     "codes": "soul_happy_mask_salesman"
+  },
+  {
+    "name": "Soul of Skull Kid",
+    "type": "toggle",
+    "img": "images/characters/skull_kid.png",
+    "codes": "soul_skull_kid"
+  },
+  {
+    "name": "Soul of Kamaro",
+    "type": "toggle",
+    "img": "images/characters/kamaro.png",
+    "codes": "soul_kamaro"
+  },
+  {
+    "name": "Soul of Spider Man",
+    "type": "toggle",
+    "img": "images/characters/cursed_man.png",
+    "codes": "soul_spider_man"
+  },
+  {
+    "name": "Soul of Business Scrubs",
+    "type": "toggle",
+    "img": "images/characters/scrub_merchant.png",
+    "codes": "soul_business_scrub"
+  },
+  {
+    "name": "Soul of Astral Observatory Man",
+    "type": "toggle",
+    "img": "images/characters/astral_man.png",
+    "codes": "soul_astral_man"
+  },
+  {
+    "name": "Soul of Keg Selling Goron",
+    "type": "toggle",
+    "img": "images/characters/goron_keg.png",
+    "codes": "soul_keg_goron"
+  },
+  {
+    "name": "Soul of Swordsman",
+    "type": "toggle",
+    "img": "images/characters/swordsman.png",
+    "codes": "soul_swordsman"
   }
 ]

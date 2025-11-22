@@ -465,5 +465,29 @@
     "type": "toggle",
     "img": "images/characters/shop_owners.png",
     "codes": "soul_shop_owners"
+  },
+  {
+    "name": "Soul of Scarecrows",
+    "type": "toggle",
+    "img": "images/characters/scarecrow.png",
+    "codes": "soul_scarecrow"
+  },
+  {
+    "name": "Soul of Banker",
+    "type": "toggle",
+    "img": "images/characters/banker.png",
+    "codes": "soul_banker"
+  },
+  {
+    "name": "Soul of Curiosity Shop Man",
+    "type": "toggle",
+    "img": "images/characters/curiosity_shop_man.png",
+    "codes": "soul_curiosity_shop_man"
+  },
+  {
+    "name": "Soul of Happy Mask Salesman",
+    "type": "toggle",
+    "img": "images/characters/happy_mask_salesman.png",
+    "codes": "soul_happy_mask_salesman"
   }
 ]

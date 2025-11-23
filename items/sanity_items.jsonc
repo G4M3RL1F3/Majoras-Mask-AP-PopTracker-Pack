@@ -344,6 +344,12 @@
     "img": "images/icons/butterfly.png",
     "codes": "soul_butterfly"
   },
+  {
+    "name": "Soul of Postboxes",
+    "type": "toggle",
+    "img": "images/icons/postbox.png",
+    "codes": "soul_postboxes"
+  },
 
   // NPC Souls
   {

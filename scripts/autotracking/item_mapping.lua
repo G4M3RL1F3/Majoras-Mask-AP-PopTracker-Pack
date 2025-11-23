@@ -166,6 +166,7 @@ ITEM_MAPPING = {
 [0x34694200A028C] = {"soul_keaton","toggle"},
 [0x34694200A0050] = {"soul_gs","toggle"},
 [0x34694200A0015] = {"soul_butterfly","toggle"},
+[0x34694200D01F2] = {"soul_postboxes","toggle"},
 
 -- NPC Souls
 [0x34694200C0202] = {"soul_anju","toggle"},

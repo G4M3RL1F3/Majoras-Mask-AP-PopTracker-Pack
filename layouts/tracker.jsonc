@@ -245,6 +245,17 @@
                               "v_alignment": "center",
                               "key": "npc_souls_layout"
                             }
+                          },
+                          {
+                            "type": "group",
+                            "header": "Absurd Souls",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "absurd_souls_layout"
+                            }
                           }
                         ]
                       }

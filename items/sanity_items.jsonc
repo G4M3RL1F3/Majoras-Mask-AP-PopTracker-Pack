@@ -705,5 +705,13 @@
     "type": "toggle",
     "img": "images/characters/moon_kid.png",
     "codes": "soul_moon_kid"
+  },
+
+  // Absurd Souls
+  {
+    "name": "Soul of Songwall",
+    "type": "toggle",
+    "img": "images/absurd/song_wall.png",
+    "codes": "soul_songwall"
   }
 ]

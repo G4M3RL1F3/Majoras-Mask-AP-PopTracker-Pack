@@ -227,5 +227,8 @@ ITEM_MAPPING = {
 [0x34694200C0250] = {"soul_pamela_father","toggle"},
 [0x34694200C01DA] = {"soul_gibdos","toggle"},
 [0x34694200C01DE] = {"soul_spirit_house_owner","toggle"},
-[0x34694200C00BF] = {"soul_moon_kid","toggle"}
+[0x34694200C00BF] = {"soul_moon_kid","toggle"},
+
+-- Absurd Souls
+[0x34694200E01D6] = {"soul_songwall","toggle"}
 }

@@ -249,10 +249,10 @@ LOCATION_MAPPING = {
 
     -- Snowhead Temple
     [0x3469420062101] = {"@Dungeons/Snowhead Temple/Bridge Room Freezard Chest"},
-    [0x346942001212F] = {"@Dungeons/Snowhead Temple/Bridge Room Bubble SF"},
+    [0x346942001212F] = {"@Dungeons/Snowhead Temple/Bridge Room Under Platform Bubble SF"},
     [0x3469420012130] = {"@Dungeons/Snowhead Temple/Bridge Room Pillar Bubble SF"},
     [0x346942006211C] = {"@Dungeons/Snowhead Temple/Frozen Block Chest"},
-    [0x3469420062119] = {"@Dungeons/Snowhead Temple/Frozen Block Upper Chest"},
+    [0x3469420062119] = {"@Dungeons/Snowhead Temple/Frozen Block Upper Chest SF"},
     [0x346942001211E] = {"@Dungeons/Snowhead Temple/Bombable Stairs Crate SF"},
     [0x3469420062115] = {"@Dungeons/Snowhead Temple/Stacked Block Upper Chest SF"},
     [0x3469420062103] = {"@Dungeons/Snowhead Temple/Behind Stacked Block Chest"},
@@ -260,7 +260,7 @@ LOCATION_MAPPING = {
     [0x3469420062114] = {"@Dungeons/Snowhead Temple/Basement Switch Chest SF"},
     [0x3469420062117] = {"@Dungeons/Snowhead Temple/Main Room Wall Chest SF"},
     [0x346942006211D] = {"@Dungeons/Snowhead Temple/Elevator Room Lower Chest"},
-    [0x3469420062113] = {"@Dungeons/Snowhead Temple/Elevator Room Invisible Platform Chest"},
+    [0x3469420062113] = {"@Dungeons/Snowhead Temple/Elevator Room Invisible Platform Chest SF"},
     [0x3469420012132] = {"@Dungeons/Snowhead Temple/Elevator Freestanding SF"},
     [0x3469420062104] = {"@Dungeons/Snowhead Temple/Icicle Room Snowball Chest"},
     [0x3469420062116] = {"@Dungeons/Snowhead Temple/Icicle Room Hidden Chest SF"},

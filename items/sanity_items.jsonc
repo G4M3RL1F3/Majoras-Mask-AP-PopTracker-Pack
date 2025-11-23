@@ -531,5 +531,173 @@
     "type": "toggle",
     "img": "images/characters/swordsman.png",
     "codes": "soul_swordsman"
+  },
+  {
+    "name": "Soul of Rosa Sisters",
+    "type": "toggle",
+    "img": "images/characters/rosa_sisters.png",
+    "codes": "soul_rosa_sisters"
+  },
+  {
+    "name": "Soul of Lottery",
+    "type": "toggle",
+    "img": "images/icons/lottery.png",
+    "codes": "soul_lottery"
+  },
+  {
+    "name": "Soul of Romani & Cremia",
+    "type": "toggle",
+    "img": "images/characters/romani_cremia.png",
+    "codes": "soul_romani_cremia"
+  },
+  {
+    "name": "Soul of Grog",
+    "type": "toggle",
+    "img": "images/characters/grog.png",
+    "codes": "soul_grog"
+  },
+  {
+    "name": "Soul of Doggy Race Lady & Dogs",
+    "type": "toggle",
+    "img": "images/icons/dog.png",
+    "codes": "soul_dog_race"
+  },
+  {
+    "name": "Soul of Gorman Brothers",
+    "type": "toggle",
+    "img": "images/characters/gorman_brothers.png",
+    "codes": "soul_gorman_brothers"
+  },
+  {
+    "name": "Soul of Swamp Tourist Guide",
+    "type": "toggle",
+    "img": "images/characters/swamp_tourist_guide.png",
+    "codes": "soul_swamp_guide"
+  },
+  {
+    "name": "Soul of Kotake",
+    "type": "toggle",
+    "img": "images/characters/kotake.png",
+    "codes": "soul_kotake"
+  },
+  {
+    "name": "Soul of Koume",
+    "type": "toggle",
+    "img": "images/characters/koume.png",
+    "codes": "soul_koume"
+  },
+  {
+    "name": "Soul of Monkey",
+    "type": "toggle",
+    "img": "images/characters/monkey.png",
+    "codes": "soul_monkey"
+  },
+  {
+    "name": "Soul of Bean Seller",
+    "type": "toggle",
+    "img": "images/characters/bean_seller.png",
+    "codes": "soul_bean_seller"
+  },
+  {
+    "name": "Soul of Goron Elder",
+    "type": "toggle",
+    "img": "images/characters/elder_goron.png",
+    "codes": "soul_goron_elder"
+  },
+  {
+    "name": "Soul of Gatekeeper & Medigoron",
+    "type": "toggle",
+    "img": "images/characters/medigoron.png",
+    "codes": "soul_medigoron"
+  },
+  {
+    "name": "Soul of Hungry Goron",
+    "type": "toggle",
+    "img": "images/characters/hungry_goron.png",
+    "codes": "soul_hungry_goron"
+  },
+  {
+    "name": "Soul of Mountain Smithy",
+    "type": "toggle",
+    "img": "images/characters/zubora.png",
+    "codes": "soul_smithy"
+  },
+  {
+    "name": "Soul of Fisherman",
+    "type": "toggle",
+    "img": "images/characters/fisherman.png",
+    "codes": "soul_fisherman"
+  },
+  {
+    "name": "Soul of Marine Lab Researcher",
+    "type": "toggle",
+    "img": "images/characters/researcher.png",
+    "codes": "soul_researcher"
+  },
+  {
+    "name": "Soul of Hall Zora",
+    "type": "toggle",
+    "img": "images/characters/zora.png",
+    "codes": "soul_hall_zora"
+  },
+  {
+    "name": "Soul of Pot Game Zora",
+    "type": "toggle",
+    "img": "images/characters/pot_game_zora.png",
+    "codes": "soul_pot_game"
+  },
+  {
+    "name": "Soul of Lulu",
+    "type": "toggle",
+    "img": "images/characters/lulu.png",
+    "codes": "soul_lulu"
+  },
+  {
+    "name": "Soul of Shiro",
+    "type": "toggle",
+    "img": "images/characters/shiro.png",
+    "codes": "soul_shiro"
+  },
+  {
+    "name": "Soul of Stalchildren",
+    "type": "toggle",
+    "img": "images/characters/stalchild.png",
+    "codes": "soul_stalchildren"
+  },
+  {
+    "name": "Soul of Dampe",
+    "type": "toggle",
+    "img": "images/characters/dampe.png",
+    "codes": "soul_dampe"
+  },
+  {
+    "name": "Soul of Composer Poe",
+    "type": "toggle",
+    "img": "images/characters/composer.png",
+    "codes": "soul_composer_poe"
+  },
+  {
+    "name": "Soul of Pamela's Father",
+    "type": "toggle",
+    "img": "images/characters/pamela_father.png",
+    "codes": "soul_pamela_father"
+  },
+  {
+    "name": "Soul of Gibdos",
+    "type": "toggle",
+    "img": "images/characters/gibdo.png",
+    "codes": "soul_gibdos"
+  },
+  {
+    "name": "Soul of Spirit House Owner",
+    "type": "toggle",
+    "img": "images/characters/soulkeeper.png",
+    "codes": "soul_spirit_house_owner"
+  },
+  {
+    "name": "Soul of Moon Kids",
+    "type": "toggle",
+    "img": "images/characters/moon_kid.png",
+    "codes": "soul_moon_kid"
   }
 ]

@@ -18,7 +18,14 @@
             "soul_great_fairy",
             "soul_scarecrow",
             "soul_skull_kid",
-            "soul_astral_man"
+            "soul_astral_man",
+            "soul_lottery",
+            "soul_gorman_brothers",
+            "soul_monkey",
+            "soul_hungry_goron",
+            "soul_hall_zora",
+            "soul_stalchildren",
+            "soul_gibdos"
           ],
           [
             "soul_anjus_grandmother",
@@ -28,7 +35,14 @@
             "soul_archery_man",
             "soul_banker",
             "soul_kamaro",
-            "soul_keg_goron"
+            "soul_keg_goron",
+            "soul_romani_cremia",
+            "soul_swamp_guide",
+            "soul_bean_seller",
+            "soul_smithy",
+            "soul_pot_game",
+            "soul_dampe",
+            "soul_spirit_house_owner"
           ],
           [
             "soul_kafei",
@@ -38,7 +52,14 @@
             "soul_postman",
             "soul_curiosity_shop_man",
             "soul_spider_man",
-            "soul_swordsman"
+            "soul_swordsman",
+            "soul_grog",
+            "soul_kotake",
+            "soul_goron_elder",
+            "soul_fisherman",
+            "soul_lulu",
+            "soul_composer_poe",
+            "soul_moon_kid"
           ],
           [
             "soul_toilet_hand",
@@ -48,6 +69,13 @@
             "soul_shop_owners",
             "soul_happy_mask_salesman",
             "soul_business_scrub",
+            "soul_rosa_sisters",
+            "soul_dog_race",
+            "soul_koume",
+            "soul_medigoron",
+            "soul_researcher",
+            "soul_shiro",
+            "soul_pamela_father",
             ""
           ]
         ]

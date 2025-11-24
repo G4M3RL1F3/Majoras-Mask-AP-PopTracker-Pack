@@ -201,8 +201,8 @@ LOCATION_MAPPING = {
     [0x3469420011B2B] = {"@Dungeons/Woodfall Temple/Woodfall Temple Entrance Freestanding SF"},
     [0x3469420011B2E] = {"@Dungeons/Woodfall Temple/Woodfall Temple Deku Baba SF"},
     [0x3469420011B1C] = {"@Dungeons/Woodfall Temple/Woodfall Temple Pot SF"},
-    [0x3469420011B1E] = {"@Dungeons/Woodfall Temple/Woodfall Temple Moving Flower Platform Room Beehive SF"},
-    [0x3469420011B30] = {"@Dungeons/Woodfall Temple/Woodfall Temple Wooden Flower Bubble SF"},
+    [0x3469420011B1E] = {"@Dungeons/Woodfall Temple/Woodfall Temple Platform Hive SF"},
+    [0x3469420011B30] = {"@Dungeons/Woodfall Temple/Woodfall Temple Main Room Bubble SF"},
     [0x3469420011B31] = {"@Dungeons/Woodfall Temple/Woodfall Temple Skulltula SF"},
     [0x3469420011B2F] = {"@Dungeons/Woodfall Temple/Woodfall Temple Bridge Room Bubble SF"},
     [0x3469420011B1D] = {"@Dungeons/Woodfall Temple/Woodfall Temple Bridge Room Hive SF"},
@@ -362,7 +362,7 @@ LOCATION_MAPPING = {
     -- Great Bay Temple
     [0x3469420064918] = {"@Dungeons/Great Bay Temple/Entrance Torches Chest SF"},
     [0x3469420014932] = {"@Dungeons/Great Bay Temple/Waterwheel Room Skulltula SF"},
-    [0x3469420014930] = {"@Dungeons/Great Bay Temple/Waterwheel Room Bubble Blender PotSF"},
+    [0x3469420014930] = {"@Dungeons/Great Bay Temple/Waterwheel Room Bubble SF"},
     [0x346942001491C] = {"@Dungeons/Great Bay Temple/Blender Room Barrel SF"},
     [0x346942001491B] = {"@Dungeons/Great Bay Temple/Blender Pot SF"},
     [0x346942006491D] = {"@Dungeons/Great Bay Temple/Before Red Valve Room Chest"},
@@ -370,7 +370,7 @@ LOCATION_MAPPING = {
     [0x3469420064919] = {"@Dungeons/Great Bay Temple/Bio-Baba Hall Chest SF"},
     [0x346942006491C] = {"@Dungeons/Great Bay Temple/Caged Chest Room Upper Chest"},
     [0x3469420064901] = {"@Dungeons/Great Bay Temple/Caged Chest Room Underwater Chest"},
-    [0x346942006491E] = {"@Dungeons/Great Bay Temple/Caged Chest Room Caged Chest"},
+    [0x346942006491E] = {"@Dungeons/Great Bay Temple/Mad Jellied Gekko Chest"},
     [0x346942001491D] = {"@Dungeons/Great Bay Temple/Caged Chest Room Pot SF"},
     [0x346942006491B] = {"@Dungeons/Great Bay Temple/Behind Locked Door Chest"},
     [0x3469420064915] = {"@Dungeons/Great Bay Temple/Room Behind Waterfall Ceiling Chest SF"},
@@ -379,7 +379,7 @@ LOCATION_MAPPING = {
     [0x346942001491A] = {"@Dungeons/Great Bay Temple/Seesaw Room Underwater Barrel SF"},
     [0x3469420064916] = {"@Dungeons/Great Bay Temple/Seesaw Room Chest SF"},
     [0x3469420014931] = {"@Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF"},
-    [0x346942001492F] = {"@Dungeons/Great Bay Temple/Pre-Boss Room Exit Tunnel Bubble SF"},
+    [0x346942001492F] = {"@Dungeons/Great Bay Temple/Pre-Boss Room Tunnel Bubble SF"},
     [0x3469420055F00] = {"@Dungeons/Great Bay Temple/Heart Container"},
     [0x3469420000057] = {"@Dungeons/Great Bay Temple/Gyorg's Remains"},
 
@@ -395,7 +395,7 @@ LOCATION_MAPPING = {
     [0x3469420060C00] = {"@Ikana/Graveyard/Day 2 Iron Knuckle Chest"},
     [0x34694200043CA] = {"@Ikana/Graveyard/Day 2 Dampe Bats"},
     [0x3469420063000] = {"@Ikana/Graveyard/Day 3 Dampe Big Poe Chest"},
-    [0x3469420064300] = {"@Ikana/Graveyard/Sonata To Wake Sleeping Skeleton Chest"},
+    [0x3469420064300] = {"@Ikana/Graveyard/Captain Keeta Chest"},
 
     -- Secret Shrine
     [0x3469420066000] = {"@Dungeons/Secret Shrine/Dinolfos Chest"},

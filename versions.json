@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "package_version": "0.9.5.1",
+      "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/archive/refs/tags/v0.9.5.1.zip",
+      "sha256": "13b3987d8e55326de25ca94c5dd0ad94fbc75783be626e024e2876c16fea7b51",
+      "changelog": [
+        "New Secret Shrine, Ikana Castle, and Moon maps",
+        "New Curiosity Shop Trades, Intro Checks, Small and Boss Key Sanities, and Required Stray Fairies and Skull Tokens",
+        "Randomized shop prices are now displayed",
+        "New icons for chest with stray fairies",
+        "skullsanity on vanilla or ignore will turn green if all respective tokens can be collected",
+        "Many logic fixes"
+      ]
+    },
+    {
       "package_version": "0.9.5",
       "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/archive/refs/tags/v0.9.5.zip",
       "sha256": "76ce3e8396441e2ecd5b2ca17d795c7a358c93ccb50c1d7c4f99557e5c6c71d9",

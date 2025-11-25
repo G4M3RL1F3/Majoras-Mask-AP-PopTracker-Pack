@@ -2,52 +2,52 @@
   "tracker_broadcast": {
     "type": "array",
     "orientation": "vertical",
-    "margin": "0,0,2,12",
+    //"margin": "0,0,2,0",
     "content": [
       {
-        "type": "group",
-        "header": "Items",
-        "dock": "top",
-        "content": {
-          "type": "layout",
-          "key": "broadcast_item_grid"
-        }
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "3,3",
+        "rows": [
+          ["sticks", "nuts", "bow", "firearrow", "icearrow", "lightarrow", "ocarina", "shield"],
+          ["bombs", "bombchu_bag", "keg", "hookshot", "lens", "magic", "fairysword", "spin_attack"],
+          ["timecheck", "healingcheck", "eponacheck", "soaringcheck", "stormscheck", "wallet", "double_defense", "pictobox"],
+          ["sonatacheck", "lullabycheck", "bossanovacheck", "elegycheck", "oathcheck", "beans", "bombers_notebook", "moontear"],
+          ["postman", "allnight", "blast", "stone", "fairymask", "deku", "roomkey", "landdeed"],
+          ["keaton", "bremen", "bunny", "dongero", "scents", "goron", "express", "swampdeed"],
+          ["romanimask", "circusleadermask", "kafeimask", "couple", "maskoftruth", "zora", "kafeiletter", "mountaindeed"],
+          ["kamaro", "gibdo", "garo", "captain", "giant", "fiercedeity", "pendant", "oceandeed"],
+          ["redpotion", "milk", "chateau", "empty_bottle", "nut", "fairy_ct", "skull_ss", "skull_gb"],
+          ["odolwa", "fairy_wf", "goht", "fairy_sh", "gyorg", "fairy_gb", "twinmold", "fairy_st"],
+          ["smallkey_wf", "bosskey_wf", "smallkey_sh", "bosskey_sh", "smallkey_gb", "bosskey_gb", "smallkey_st", "bosskey_st"]
+        ]
       },
       {
-        "type": "group",
-        "header": "Masks",
-        "dock": "top",
-        "content": {
-          "type": "layout",
-          "key": "broadcast_masks_grid"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Equipment",
-        "dock": "top",
-        "content": {
-          "type": "layout",
-          "key": "broadcast_equipment_grid"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Dungeon Items",
-        "dock": "bottom",
-        "content": {
-          "type": "layout",
-          "key": "broadcast_dungeons_grid"
-        }
-//      },
-//      {
-//        "type": "group",
-//        "header": "Miscellaneous Items",
-//        "dock": "bottom",
-//        "content": {
-//          "type": "layout",
-//          "key": "miscellaneous_grid"
-//        }
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "item",
+            "margin": "27,0",
+            "item": "wft_header"
+          },
+          {
+            "type": "item",
+            "margin": "16,0",
+            "item": "sht_header"
+          },
+          {
+            "type": "item",
+            "margin": "27,0",
+            "item": "gbt_header"
+          },
+          {
+            "type": "item",
+            "margin": "16,0",
+            "item": "stt_header"
+          }
+        ]
       }
     ]
   }

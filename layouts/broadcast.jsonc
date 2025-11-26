@@ -2,52 +2,217 @@
   "tracker_broadcast": {
     "type": "array",
     "orientation": "vertical",
-    "margin": "0,0,2,12",
+    //"margin": "0,0,2,0",
     "content": [
       {
-        "type": "group",
-        "header": "Items",
-        "dock": "top",
-        "content": {
-          "type": "layout",
-          "key": "broadcast_item_grid"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Masks",
-        "dock": "top",
-        "content": {
-          "type": "layout",
-          "key": "broadcast_masks_grid"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Equipment",
-        "dock": "top",
-        "content": {
-          "type": "layout",
-          "key": "broadcast_equipment_grid"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Dungeon Items",
-        "dock": "bottom",
-        "content": {
-          "type": "layout",
-          "key": "broadcast_dungeons_grid"
-        }
-//      },
-//      {
-//        "type": "group",
-//        "header": "Miscellaneous Items",
-//        "dock": "bottom",
-//        "content": {
-//          "type": "layout",
-//          "key": "miscellaneous_grid"
-//        }
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Main Items",
+            "content": [
+              {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "item_margin": "3,3",
+                "rows": [
+                  ["sticks", "nuts", "bow", "firearrow", "icearrow", "lightarrow", "ocarina", "shield"],
+                  ["bombs", "bombchu_bag", "keg", "hookshot", "lens", "magic", "fairysword", "spin_attack"],
+                  ["time", "healing", "epona", "soaring", "storms", "wallet", "double_defense", "pictobox"],
+                  ["sonata", "lullaby", "bossanova", "elegy", "oath", "beans", "bombers_notebook", "moontear"],
+                  ["postman", "allnight", "blast", "stone", "fairymask", "deku", "roomkey", "landdeed"],
+                  ["keaton", "bremen", "bunny", "dongero", "scents", "goron", "express", "swampdeed"],
+                  ["romanimask", "circusleadermask", "kafeimask", "couple", "maskoftruth", "zora", "kafeiletter", "mountaindeed"],
+                  ["kamaro", "gibdo", "garo", "captain", "giant", "fiercedeity", "pendant", "oceandeed"],
+                  ["redpotion", "milk", "chateau", "empty_bottle", "nut", "fairy_ct", "skull_ss", "skull_gb"],
+                  ["odolwa", "fairy_wf", "goht", "fairy_sh", "gyorg", "fairy_gb", "twinmold", "fairy_st"],
+                  ["smallkey_wf", "bosskey_wf", "smallkey_sh", "bosskey_sh", "smallkey_gb", "bosskey_gb", "smallkey_st", "bosskey_st"]
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "content": [
+                  {
+                    "type": "item",
+                    "margin": "20,415,27,0",
+                    "item": "wft_header"
+                  },
+                  {
+                    "type": "item",
+                    "margin": "17,415,17,0",
+                    "item": "sht_header"
+                  },
+                  {
+                    "type": "item",
+                    "margin": "27,415,27,0",
+                    "item": "gbt_header"
+                  },
+                  {
+                    "type": "item",
+                    "margin": "17,415,0,0",
+                    "item": "stt_header"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Sanity Items",
+            "content": [
+              {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "item_margin": "3,3",
+                "rows": [
+                  ["owl_ct", "owl_milk_road", "owl_swamp", "owl_woodfall", "owl_mountain", "frog_yellow", "frog_white", "frog_blue"],
+                  ["owl_snowhead", "owl_coast", "owl_zora_cape", "owl_ikana_canyon", "owl_stone_tower", "frog_cyan", "frog_pink", ""],
+                  [
+                    "scarecrow_mtn_village_winter",
+                    "scarecrow_mtn_village_spring",
+                    "scarecrow_path_snowhead_winter",
+                    "scarecrow_path_snowhead_spring",
+                    "scarecrow_twin_islands_winter",
+                    "scarecrow_twin_islands_spring",
+                    "scarecrow_sht_lower",
+                    "scarecrow_sht_hidden_alcove"
+                  ],
+                  [
+                    "scarecrow_gb_coast_rock_wall",
+                    "scarecrow_zora_cape_beavers",
+                    "scarecrow_zora_cape_island",
+                    "scarecrow_road_to_ikana",
+                    "scarecrow_stone_tower_lower",
+                    "scarecrow_stone_tower_upper",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Souls",
+            "content": [
+              {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "item_margin": "3,3",
+                "rows": [
+                  [
+                    "soul_anju",
+                    "soul_anjus_grandmother",
+                    "soul_kafei",
+                    "soul_toilet_hand",
+                    "soul_guru_guru",
+                    "soul_honey_darling",
+                    "soul_treasure_game_lady",
+                    "soul_toto_gorman"
+                  ],
+                  [
+                    "soul_barten",
+                    "soul_madame_aroma",
+                    "soul_council",
+                    "soul_bombers",
+                    "soul_tingle",
+                    "soul_bomb_shop_lady",
+                    "soul_sakon",
+                    "soul_deku_employee"
+                  ],
+                  [
+                    "soul_great_fairy",
+                    "soul_archery_man",
+                    "soul_postman",
+                    "soul_shop_owners",
+                    "soul_scarecrow",
+                    "soul_banker",
+                    "soul_curiosity_shop_man",
+                    "soul_happy_mask_salesman"
+                  ],
+                  [
+                    "soul_skull_kid",
+                    "soul_kamaro",
+                    "soul_spider_man",
+                    "soul_business_scrub",
+                    "soul_astral_man",
+                    "soul_keg_goron",
+                    "soul_swordsman",
+                    "soul_rosa_sisters"
+                  ],
+                  [
+                    "soul_lottery",
+                    "soul_romani_cremia",
+                    "soul_grog",
+                    "soul_dog_race",
+                    "soul_gorman_brothers",
+                    "soul_swamp_guide",
+                    "soul_kotake",
+                    "soul_koume"
+                  ],
+                  [
+                    "soul_monkey",
+                    "soul_bean_seller",
+                    "soul_goron_elder",
+                    "soul_medigoron",
+                    "soul_hungry_goron",
+                    "soul_smithy",
+                    "soul_fisherman",
+                    "soul_researcher"
+                  ],
+                  [
+                    "soul_hall_zora",
+                    "soul_pot_game",
+                    "soul_lulu",
+                    "soul_shiro",
+                    "soul_stalchildren",
+                    "soul_dampe",
+                    "soul_composer_poe",
+                    "soul_pamela_father"
+                  ],
+                  [
+                    "soul_gibdos",
+                    "soul_spirit_house_owner",
+                    "soul_moon_kid",
+                    "soul_cow",
+                    "soul_keaton",
+                    "soul_gs",
+                    "soul_butterfly",
+                    "soul_postboxes"
+                  ],
+                  [
+                    "soul_odolwa",
+                    "soul_goht",
+                    "soul_gyorg",
+                    "soul_twinmold",
+                    "soul_majora"
+                  ],
+                  [
+                    "soul_songwall",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }

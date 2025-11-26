@@ -17,7 +17,7 @@
                 "type": "item",
                 "item": "wft_header",
                 //"item_size": "35",
-                "margin": "16,0"
+                "margin": "16,9,0,8"
               },
               {
                 "type": "array",
@@ -83,7 +83,7 @@
                 "type": "item",
                 //"item_size": "35",
                 "item": "sht_header",
-                "margin": "16,0"
+                "margin": "16,9,0,8"
               },
               {
                 "type": "array",
@@ -149,7 +149,7 @@
                 "type": "item",
                 //"item_size": "35",
                 "item": "gbt_header",
-                "margin": "16,0"
+                "margin": "16,9,0,8"
               },
               {
                 "type": "array",
@@ -215,7 +215,7 @@
                 "type": "item",
                 //"item_size": "35",
                 "item": "stt_header",
-                "margin": "16,0"
+                "margin": "16,9,0,8"
               },
               {
                 "type": "array",

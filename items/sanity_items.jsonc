@@ -713,5 +713,11 @@
     "type": "toggle",
     "img": "images/absurd/song_wall.png",
     "codes": "soul_songwall"
+  },
+  {
+    "name": "Soul of Trees & Bushes",
+    "type": "toggle",
+    "img": "images/absurd/tree.png",
+    "codes": "soul_trees_bushes"
   }
 ]

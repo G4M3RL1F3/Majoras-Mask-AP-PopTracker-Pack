@@ -10,7 +10,7 @@
         "v_alignment": "center",
         "item_margin": "1,1",
         "rows": [
-          ["soul_songwall"]
+          ["soul_songwall", "soul_trees_bushes"]
         ]
       }
     ]

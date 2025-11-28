@@ -66,8 +66,9 @@
                 "v_alignment": "center",
                 "item_margin": "3,3",
                 "rows": [
-                  ["owl_ct", "owl_milk_road", "owl_swamp", "owl_woodfall", "owl_mountain", "frog_yellow", "frog_white", "frog_blue"],
-                  ["owl_snowhead", "owl_coast", "owl_zora_cape", "owl_ikana_canyon", "owl_stone_tower", "frog_cyan", "frog_pink", ""],
+                  ["owl_ct", "owl_milk_road", "owl_swamp", "owl_woodfall", "owl_mountain"],
+                  ["owl_snowhead", "owl_coast", "owl_zora_cape", "owl_ikana_canyon", "owl_stone_tower"],
+                  ["frog_yellow", "frog_white", "frog_blue", "frog_cyan", "frog_pink"],
                   [
                     "scarecrow_mtn_village_winter",
                     "scarecrow_mtn_village_spring",
@@ -81,12 +82,12 @@
                   [
                     "scarecrow_gb_coast_rock_wall",
                     "scarecrow_zora_cape_beavers",
-                    "scarecrow_zora_cape_island",
+                    "scarecrow_zora_cape_island"
+                  ],
+                  [
                     "scarecrow_road_to_ikana",
                     "scarecrow_stone_tower_lower",
-                    "scarecrow_stone_tower_upper",
-                    "",
-                    ""
+                    "scarecrow_stone_tower_upper"
                   ]
                 ]
               }
@@ -172,14 +173,32 @@
                     "soul_pamela_father"
                   ],
                   [
+                    "soul_postboxes",
+                    "",
                     "soul_gibdos",
                     "soul_spirit_house_owner",
                     "soul_moon_kid",
+                    ""
+                  ],
+                  [
                     "soul_cow",
                     "soul_keaton",
-                    "soul_gs",
+                    "",
+                    "soul_songwall",
+                    "soul_trees_bushes",
+                    "soul_grass",
+                    "soul_grottos",
+                    "soul_deku_flowers"
+                  ],
+                  [
                     "soul_butterfly",
-                    "soul_postboxes"
+                    "soul_gs",
+                    "",
+                    "soul_barrels",
+                    "soul_bulldozer",
+                    "soul_pots",
+                    "soul_rocks",
+                    "soul_signs"
                   ],
                   [
                     "soul_odolwa",
@@ -187,26 +206,6 @@
                     "soul_gyorg",
                     "soul_twinmold",
                     "soul_majora"
-                  ],
-                  [
-                    "soul_songwall",
-                    "soul_trees_bushes",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    ""
-                  ],
-                  [
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    ""
                   ]
                 ]
               }

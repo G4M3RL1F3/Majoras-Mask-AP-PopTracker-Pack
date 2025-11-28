@@ -230,5 +230,14 @@ ITEM_MAPPING = {
 [0x34694200C00BF] = {"soul_moon_kid","toggle"},
 
 -- Absurd Souls
-[0x34694200E01D6] = {"soul_songwall","toggle"}
+[0x34694200E01D6] = {"soul_songwall","toggle"},
+[0x34694200E0041] = {"soul_trees_bushes","toggle"},
+[0x34694200E010B] = {"soul_grass","toggle"},
+[0x34694200E0055] = {"soul_grottos","toggle"},
+[0x34694200E0183] = {"soul_deku_flowers","toggle"},
+[0x34694200E022D] = {"soul_barrels","toggle"},
+[0x34694200E0287] = {"soul_bulldozer","toggle"},
+[0x34694200E0082] = {"soul_pots","toggle"},
+[0x34694200E00B0] = {"soul_rocks","toggle"},
+[0x34694200E00A8] = {"soul_signs","toggle"}
 }

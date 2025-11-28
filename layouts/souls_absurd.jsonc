@@ -10,7 +10,10 @@
         "v_alignment": "center",
         "item_margin": "1,1",
         "rows": [
-          ["soul_songwall", "soul_trees_bushes"]
+          ["soul_songwall", "soul_deku_flowers", "soul_rocks"],
+          ["soul_trees_bushes", "soul_barrels", "soul_signs"],
+          ["soul_grass", "soul_bulldozer", ""],
+          ["soul_grottos", "soul_pots", ""]
         ]
       }
     ]

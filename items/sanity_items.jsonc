@@ -719,5 +719,53 @@
     "type": "toggle",
     "img": "images/absurd/tree.png",
     "codes": "soul_trees_bushes"
+  },
+  {
+    "name": "Soul of Grass",
+    "type": "toggle",
+    "img": "images/absurd/grass.png",
+    "codes": "soul_grass"
+  },
+  {
+    "name": "Soul of Grottos",
+    "type": "toggle",
+    "img": "images/absurd/grotto.png",
+    "codes": "soul_grottos"
+  },
+  {
+    "name": "Soul of Deku Flowers",
+    "type": "toggle",
+    "img": "images/absurd/deku_flower.png",
+    "codes": "soul_deku_flowers"
+  },
+  {
+    "name": "Soul of Barrels",
+    "type": "toggle",
+    "img": "images/absurd/barrel.png",
+    "codes": "soul_barrels"
+  },
+  {
+    "name": "Soul of Gorman Ranch Bulldozer",
+    "type": "toggle",
+    "img": "images/absurd/gorman_house.png",
+    "codes": "soul_bulldozer"
+  },
+  {
+    "name": "Soul of Pots",
+    "type": "toggle",
+    "img": "images/icons/pot.png",
+    "codes": "soul_pots"
+  },
+  {
+    "name": "Soul of Rocks",
+    "type": "toggle",
+    "img": "images/absurd/rock.png",
+    "codes": "soul_rocks"
+  },
+  {
+    "name": "Soul of Signs",
+    "type": "toggle",
+    "img": "images/absurd/sign.png",
+    "codes": "soul_signs"
   }
 ]

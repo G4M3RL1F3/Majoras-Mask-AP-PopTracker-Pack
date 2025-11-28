@@ -197,7 +197,8 @@
     "img": "images/equipment/twinmold.png",
     "codes": "remains_count",
     "min_quantity": 0,
-    "max_quantity": 4
+    "max_quantity": 4,
+    "initial_quantity": 0
   },
   {
     "name": "Remains Moon",

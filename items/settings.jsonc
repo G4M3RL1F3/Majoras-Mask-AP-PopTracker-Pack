@@ -28,7 +28,7 @@
     "type": "consumable",
     "img": "images/pack_settings/remains_for_moon.png",
     "codes": "moon_remains_required",
-    "min_quantity": 1,
+    "min_quantity": 0,
     "max_quantity": 4,
     "initial_quantity": 4,
     "overlay_font_size": 40
@@ -38,7 +38,7 @@
     "type": "consumable",
     "img": "images/pack_settings/remains_for_majora.png",
     "codes": "majora_remains_required",
-    "min_quantity": 1,
+    "min_quantity": 0,
     "max_quantity": 4,
     "initial_quantity": 4,
     "overlay_font_size": 40

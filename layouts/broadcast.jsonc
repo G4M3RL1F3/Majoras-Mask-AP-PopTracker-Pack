@@ -12,8 +12,8 @@
         "rows": [
           ["sticks", "nuts", "bow", "firearrow", "icearrow", "lightarrow", "ocarina", "shield"],
           ["bombs", "bombchu_bag", "keg", "hookshot", "lens", "magic", "fairysword", "spin_attack"],
-          ["timecheck", "healingcheck", "eponacheck", "soaringcheck", "stormscheck", "wallet", "double_defense", "pictobox"],
-          ["sonatacheck", "lullabycheck", "bossanovacheck", "elegycheck", "oathcheck", "beans", "bombers_notebook", "moontear"],
+          ["time", "healing", "epona", "soaring", "storms", "wallet", "double_defense", "pictobox"],
+          ["sonata", "lullaby", "bossanova", "elegy", "oath", "beans", "bombers_notebook", "moontear"],
           ["postman", "allnight", "blast", "stone", "fairymask", "deku", "roomkey", "landdeed"],
           ["keaton", "bremen", "bunny", "dongero", "scents", "goron", "express", "swampdeed"],
           ["romanimask", "circusleadermask", "kafeimask", "couple", "maskoftruth", "zora", "kafeiletter", "mountaindeed"],

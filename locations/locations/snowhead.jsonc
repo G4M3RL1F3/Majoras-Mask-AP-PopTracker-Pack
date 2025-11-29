@@ -227,21 +227,21 @@
             "item_count": 500,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": ["Snowhead/Goron Village/Shop (Spring) Item 1"]
+            "access_rules": ["$can_afford|Snowhead/Goron Village/Shop (Spring) Item 1"]
           },
           {
             "name": "Shop (Spring) Item 2",
             "item_count": 500,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": ["Snowhead/Goron Village/Shop (Spring) Item 2"]
+            "access_rules": ["$can_afford|Snowhead/Goron Village/Shop (Spring) Item 2"]
           },
           {
             "name": "Shop (Spring) Item 3",
             "item_count": 500,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": ["Snowhead/Goron Village/Shop (Spring) Item 3"]
+            "access_rules": ["$can_afford|Snowhead/Goron Village/Shop (Spring) Item 3"]
           },
           {
             "name": "Scrub Purchase",

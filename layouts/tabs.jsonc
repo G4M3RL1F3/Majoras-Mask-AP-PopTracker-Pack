@@ -3,15 +3,22 @@
     "type": "tabbed",
     "tabs": [
       {
+        "title": "Termina",
+        "content": {
+          "type": "map",
+          "maps": ["overworld"]
+        }
+      },
+      {
         "title": "Overworld",
         "content": {
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Termina",
+              "title": "Clock Town",
               "content": {
                 "type": "map",
-                "maps": ["overworld"]
+                "maps": ["clock_town"]
               }
             }
           ]

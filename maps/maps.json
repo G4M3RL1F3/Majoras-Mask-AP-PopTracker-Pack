@@ -70,5 +70,11 @@
         "location_size": 26,
         "location_border_thickness": 1,
         "img": "images/maps/moon.png"
+    },
+    {
+        "name": "clock_town",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/clock_town.png"
     }
 ]

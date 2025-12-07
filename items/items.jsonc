@@ -267,7 +267,8 @@
     "type": "consumable",
     "img": "images/items/bottle.png",
     "codes": "empty_bottle",
-    "max_quantity": 2
+    "max_quantity": 2,
+    "overlay_background": "#000000"
   },
   {
     "name": "Red Potion",

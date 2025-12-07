@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "package_version": "0.9.5.2",
+      "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/archive/refs/tags/v0.9.5.2.zip",
+      "sha256": "8be1b5b9aedb5da38824bdf7b304f616857003291bf0e252353572c48fe20ba1",
+      "changelog": [
+        "Overhauled broadcast window (credits to KorbenTheFireX)",
+        "Remade stray fairy icons to make them more friendly to overlays",
+        "Added Clock Town map",
+        "Auto-tracking fixes",
+        "Remains for Moon and Remains for Majora minimum setting is now 0",
+        "Fixed temples' Oath check not turning green when Boss Key Sanity is set to false"
+      ]
+    },
+    {
       "package_version": "0.9.5.1",
       "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/archive/refs/tags/v0.9.5.1.zip",
       "sha256": "13b3987d8e55326de25ca94c5dd0ad94fbc75783be626e024e2876c16fea7b51",

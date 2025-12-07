@@ -1498,10 +1498,10 @@
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Mirror Room Sun Face Chest, deku",
-              "normal_logic, $has|smallkey_st|2, mirrorshield",
-              "normal_logic, small_key_sanity_off, mirrorshield, $has_explosives",
-              "normal_logic, $has|smallkey_st|1, $can_use_light_arrows",
-              "normal_logic, small_key_sanity_off, $can_use_light_arrows"
+              "normal_logic, $has|smallkey_st|2, mirrorshield, deku",
+              "normal_logic, small_key_sanity_off, mirrorshield, deku, $has_explosives",
+              "normal_logic, $has|smallkey_st|1, deku, $can_use_light_arrows",
+              "normal_logic, small_key_sanity_off, deku, $can_use_light_arrows"
             ]
           },
           {

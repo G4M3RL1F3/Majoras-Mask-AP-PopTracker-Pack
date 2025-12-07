@@ -69,7 +69,8 @@
     "img": "images/equipment/heart_piece.png",
     "allow_disabled": true,
     "codes": "heart_piece",
-    "max_quantity": 36
+    "max_quantity": 36,
+    "overlay_background": "#000000"
   },
   {
     "name": "Heart Container",
@@ -77,7 +78,8 @@
     "img": "images/equipment/heart_container.png",
     "allow_disabled": true,
     "codes": "heart_container",
-    "max_quantity": 8
+    "max_quantity": 8,
+    "overlay_background": "#000000"
   },
   {
     "name": "Double Defense",
@@ -396,7 +398,8 @@
     "img": "images/equipment/fairy_wf.png",
     //"allow_disabled": false,
     "codes": "fairy_wf",
-    "max_quantity": 15
+    "max_quantity": 15,
+    "overlay_background": "#000000"
   },
   {
     "name":  "Snowhead Stray Fairies",
@@ -404,7 +407,8 @@
     "img": "images/equipment/fairy_sh.png",
     //"allow_disabled": false,
     "codes": "fairy_sh",
-    "max_quantity": 15
+    "max_quantity": 15,
+    "overlay_background": "#000000"
   },
   {
     "name":  "Great Bay Stray Fairies",
@@ -412,7 +416,8 @@
     "img": "images/equipment/fairy_gb.png",
     //"allow_disabled": false,
     "codes": "fairy_gb",
-    "max_quantity": 15
+    "max_quantity": 15,
+    "overlay_background": "#000000"
   },
   {
     "name":  "Stone Tower Stray Fairies",
@@ -420,7 +425,8 @@
     "img": "images/equipment/fairy_st.png",
     //"allow_disabled": false,
     "codes": "fairy_st",
-    "max_quantity": 15
+    "max_quantity": 15,
+    "overlay_background": "#000000"
   },
   {
     "name":  "Swamp Skulltula Tokens",
@@ -428,7 +434,8 @@
     "img": "images/equipment/skull_ss.png",
     //"allow_disabled": false,
     "codes": "skull_ss",
-    "max_quantity": 30
+    "max_quantity": 30,
+    "overlay_background": "#000000"
   },
   {
     "name":  "Ocean Skulltula Tokens",
@@ -436,7 +443,8 @@
     "img": "images/equipment/skull_gb.png",
     //"allow_disabled": false,
     "codes": "skull_gb",
-    "max_quantity": 30
+    "max_quantity": 30,
+    "overlay_background": "#000000"
   },
   {
     "name": "Odolwa Boss Reward",

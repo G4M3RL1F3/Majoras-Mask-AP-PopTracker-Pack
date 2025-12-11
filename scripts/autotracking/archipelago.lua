@@ -107,8 +107,14 @@ function onClear(slot_data)
                 print(index, value)
             end
         end
+
+        -- if shop prices are set to be free, set them to the price of 1
+        -- leaving the prices at 0 marks them as checked, which we don't want
         for k, v in pairs(SHOP_NAMES) do
             RANDOMIZED_PRICES[k] = {v[1], slot_data["shop_prices_ints"][k]}
+            if slot_data["shop_prices_ints"][k] == 0 then
+                RANDOMIZED_PRICES[k] = {v[1], 1}
+            end
         end
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print("Printing RANDOMIZED_PRICES table:")

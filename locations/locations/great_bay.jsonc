@@ -3,6 +3,7 @@
     "name": "Great Bay",
     "chest_unopened_img": "images/icons/chest.png",
     "chest_opened_img": "images/icons/check_32.png",
+    "overlay_background": "#000000",
     "access_rules": ["$great_bay"],
     "children": [
       {

@@ -76,5 +76,11 @@
         "location_size": 30,
         "location_border_thickness": 1,
         "img": "images/maps/clock_town.png"
+    },
+    {
+        "name": "woods_of_mystery",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/woods_of_mystery.png"
     }
 ]

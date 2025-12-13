@@ -15,10 +15,33 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Clock Town",
+              "title": "Central",
               "content": {
-                "type": "map",
-                "maps": ["clock_town"]
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Clock Town",
+                    "content": {
+                      "type": "map",
+                      "maps": ["clock_town"]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Swamp",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Woods of Mystery",
+                    "content": {
+                      "type": "map",
+                      "maps": ["woods_of_mystery"]
+                    }
+                  }
+                ]
               }
             }
           ]

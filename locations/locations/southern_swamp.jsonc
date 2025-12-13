@@ -182,6 +182,11 @@
             "map": "overworld",
             "x": 645,
             "y": 423
+          },
+          {
+            "map": "woods_of_mystery",
+            "x": 374,
+            "y": 198
           }
         ]
       },
@@ -239,6 +244,11 @@
             "map": "overworld",
             "x": 650,
             "y": 440
+          },
+          {
+            "map": "woods_of_mystery",
+            "x": 461,
+            "y": 461
           }
         ]
       },

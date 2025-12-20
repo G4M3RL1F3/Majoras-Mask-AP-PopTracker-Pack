@@ -57,7 +57,7 @@ end
 -- Termina Field -> Path to Mountain Village
 -- Easy and normal
 function path_mountain()
-    return (has("bow") or ((has("owl_mountain") or (has("owl_snowhead") and has("goron") and has("magic")) and has("ocarina") and has("soaring"))))
+    return (has("bow") or ((has("owl_mountain") or (has("owl_snowhead") and has("goron") and has("magic"))) and has("ocarina") and has("soaring")))
 end
 
 -- Path to Mountain Village -> Mountain Village

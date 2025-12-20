@@ -65,7 +65,7 @@ function baby_mountain_village()
     return path_mountain() and has("goron") and baby_has_explosives() and can_use_fire_arrows()
 end
 function mountain_village()
-    return path_mountain() and (has("goron") or has_explosives() or can_use_fire_arrows())
+    return (path_mountain() and (has("goron") or has_explosives() or can_use_fire_arrows())) or ((has("owl_mountain") or (has("owl_snowhead") and has("goron") and has("magic"))) and has("ocarina") and has("soaring"))
 end
 
 -- Path to Snowhead -> Snowhead

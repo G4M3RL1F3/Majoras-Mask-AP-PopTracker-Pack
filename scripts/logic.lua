@@ -113,6 +113,10 @@ function can_reach_seahorse()
     return great_bay() and has("zora") and has("pictobox") and (has("hookshot") or has("goron"))
 end
 
+function can_warp_out()
+    return can_play_soaring() and (has("owl_ct") or has("owl_milk_road") or has("owl_swamp") or has("owl_ikana_canyon") or has("owl_stone_tower"))
+end
+
 
 -- Easy difficulty rules
 function baby_has_bombchus()

@@ -287,6 +287,230 @@
     "codes": "scarecrow_stone_tower_upper"
   },
 
+  // Enemy Souls
+  {
+    "name": "Soul of Guays",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/guay.png",
+    "codes": "soul_guays"
+  },
+  {
+    "name": "Soul of Takkuri",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/takkuri.png",
+    "codes": "soul_takkuri"
+  },
+  {
+    "name": "Soul of Wolfos",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/wolfos.png",
+    "codes": "soul_wolfos"
+  },
+  {
+    "name": "Soul of Chu Jelly",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/chu_jelly.png",
+    "codes": "soul_chu_jelly"
+  },
+  {
+    "name": "Soul of Deku Baba",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/deku_baba.png",
+    "codes": "soul_deku_baba"
+  },
+  {
+    "name": "Soul of Real Bombchus",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/real_bombchu.png",
+    "codes": "soul_real_bombchus"
+  },
+  {
+    "name": "Soul of Eenos",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/eenos.png",
+    "codes": "soul_eenos"
+  },
+  {
+    "name": "Soul of Tektites",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/tektite.png",
+    "codes": "soul_tektite"
+  },
+  {
+    "name": "Soul of Peehats",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/peehat.png",
+    "codes": "soul_peehats"
+  },
+  {
+    "name": "Soul of Dodongos",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/dodongo.png",
+    "codes": "soul_dodongos"
+  },
+  {
+    "name": "Soul of Dragonflies",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/dragonfly.png",
+    "codes": "soul_dragonflies"
+  },
+  {
+    "name": "Soul of Gekkos",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/gekko.png",
+    "codes": "soul_gekko"
+  },
+  {
+    "name": "Soul of Boes",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/boes.png",
+    "codes": "soul_boes"
+  },
+  {
+    "name": "Soul of Hanging Skulltulas",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/hanging_skulltula.png",
+    "codes": "soul_hanging_skulltula"
+  },
+  {
+    "name": "Soul of Dinolfos",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/dinolfos.png",
+    "codes": "soul_dinolfos"
+  },
+  {
+    "name": "Soul of Snappers",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/snapper.png",
+    "codes": "soul_snappers"
+  },
+  {
+    "name": "Soul of Carnivorous Lilypads",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/carnivorous_lilypad.png",
+    "codes": "soul_carnivorous_lilypad"
+  },
+  {
+    "name": "Soul of Freezards",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/freezard.png",
+    "codes": "soul_freezard"
+  },
+  {
+    "name": "Soul of Wizzrobes",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/wizrobe.png",
+    "codes": "soul_wizzrobe"
+  },
+  {
+    "name": "Soul of Pirate Guards",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/pirate.png",
+    "codes": "soul_pirate_guards"
+  },
+  {
+    "name": "Soul of Coloured Pirates",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/coloured_pirate.png",
+    "codes": "soul_coloured_pirates"
+  },
+  {
+    "name": "Soul of Giant Bonefish",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/giant_bonefish.png",
+    "codes": "soul_giant_bonefish"
+  },
+  {
+    "name": "Soul of Wart",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/wart.png",
+    "codes": "soul_wart"
+  },
+  {
+    "name": "Soul of Octoroks",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/octorok.png",
+    "codes": "soul_octoroks"
+  },
+  {
+    "name": "Soul of Jellied Gekko",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/jellied_gekko.png",
+    "codes": "soul_jellied_gekko"
+  },
+  {
+    "name": "Soul of Iron Knuckle",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/iron_knuckle.png",
+    "codes": "soul_iron_knuckle"
+  },
+  {
+    "name": "Soul of Bad Bats",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/bad_bat.png",
+    "codes": "soul_bad_bats"
+  },
+  {
+    "name": "Soul of Keese",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/keese.png",
+    "codes": "soul_keese"
+  },
+  {
+    "name": "Soul of Leevers",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/leever.png",
+    "codes": "soul_leevers"
+  },
+  {
+    "name": "Soul of Garo",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/garo.png",
+    "codes": "soul_garo"
+  },
+  {
+    "name": "Soul of Garo Master",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/garo_master.png",
+    "codes": "soul_garo_master"
+  },
+  {
+    "name": "Soul of Armos",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/armos.png",
+    "codes": "soul_armos"
+  },
+  {
+    "name": "Soul of Death Armos",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/death_armos.png",
+    "codes": "soul_death_armos"
+  },
+  {
+    "name": "Soul of Eyegore",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/eyegore.png",
+    "codes": "soul_eyegore"
+  },
+  {
+    "name": "Soul of Redead",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/redead.png",
+    "codes": "soul_redead"
+  },
+  {
+    "name": "Soul of Igos",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/igos.png",
+    "codes": "soul_Igos"
+  },
+  {
+    "name": "Soul of Gomess",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/enemies/gomess.png",
+    "codes": "soul_gomess"
+  },
+
   // Boss Souls
   {
     "name": "Soul of Odolwa",

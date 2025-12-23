@@ -19,7 +19,8 @@
             ]
           },
           {
-            "name": "Termina Grass Grotto Chest"
+            "name": "Termina Grass Grotto Chest",
+            "access_rules": ["soul_grottos"]
           }
         ],
         "map_locations": [
@@ -34,7 +35,8 @@
         "name": "Termina Ikana Pillar Grotto Chest",
         "sections": [
           {
-            "name": "Termina Ikana Pillar Grotto Chest"
+            "name": "Termina Ikana Pillar Grotto Chest",
+            "access_rules": ["soul_grottos"]
           }
         ],
         "map_locations": [
@@ -62,11 +64,11 @@
         ]
       },
       {
-        "name": "Termina Field Peahat Grotto",
+        "name": "Termina Field Peehat Grotto",
         "sections": [
           {
-            "name": "Defeat Peahat (Daytime Only)",
-            "access_rules": ["$baby_can_smack_hard", "normal_logic"]
+            "name": "Defeat Peehat (Daytime Only)",
+            "access_rules": ["$baby_can_smack_hard", "normal_logic, soul_grottos, soul_peehat"]
           }
         ],
         "map_locations": [
@@ -82,7 +84,7 @@
         "sections": [
           {
             "name": "Termina Dodongo Grotto Chest",
-            "access_rules": ["$baby_can_smack_hard", "normal_logic"]
+            "access_rules": ["$baby_can_smack_hard", "normal_logic, soul_grottos, soul_dodongos"]
           }
         ],
         "map_locations": [
@@ -99,7 +101,7 @@
           {
             "name": "Termina Healing Kamaro (Midnight - 6 AM)",
             "chest_unopened_img": "images/characters/kamaro.png",
-            "access_rules": ["$can_play_healing"]
+            "access_rules": ["soul_kamaro, $can_play_healing"]
           }
         ],
         "map_locations": [
@@ -118,8 +120,8 @@
             "name": "Termina Bio Baba Grotto HP",
             "access_rules": [
               "easy_logic, $baby_has_explosives, goron, zora, $baby_has_projectiles",
-              "normal_logic, $has_explosives, zora",
-              "normal_logic, goron, zora"
+              "normal_logic, soul_grottos, $has_explosives, zora",
+              "normal_logic, soul_grottos, goron, zora"
             ]
           }
         ],
@@ -139,8 +141,8 @@
             "chest_unopened_img": "images/items/moon_tear.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles",
-              "normal_logic, deku"
+              "normal_logic, soul_astral_man, soul_skull_kid, $has_projectiles",
+              "normal_logic, soul_astral_man, soul_skull_kid, soul_deku_flowers, deku"
             ]
           }
         ],
@@ -149,6 +151,11 @@
             "map": "overworld",
             "x": 590,
             "y": 347
+          },
+          {
+            "map": "clock_town",
+            "x": 1124,
+            "y": 290
           }
         ]
       },
@@ -160,7 +167,7 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, wallet",
-              "normal_logic, $has_projectiles, wallet"
+              "normal_logic, soul_grottos, soul_business_scrub, soul_astral_man, $has_projectiles, adultwallet"
             ]
           }
         ],
@@ -180,11 +187,11 @@
             "name": "Termina Gossip Stones HP",
             "access_rules": [
               "easy_logic, deku, $can_play_sonata, goron, $can_play_lullaby, zora, $can_play_bossa_nova",
-              "normal_logic, deku, $can_play_sonata, $has_explosives",
-              "normal_logic, deku, $can_play_sonata, goron",
-              "normal_logic, goron, $can_play_lullaby",
-              "normal_logic, zora, $can_play_bossa_nova, $has_explosives",
-              "normal_logic, zora, $can_play_bossa_nova, goron"
+              "normal_logic, soul_grottos, deku, $can_play_sonata, $has_explosives",
+              "normal_logic, soul_grottos, deku, $can_play_sonata, goron",
+              "normal_logic, soul_grottos, goron, $can_play_lullaby",
+              "normal_logic, soul_grottos, zora, $can_play_bossa_nova, $has_explosives",
+              "normal_logic, soul_grottos, zora, $can_play_bossa_nova, goron"
             ]
           }
         ],
@@ -213,7 +220,7 @@
       },
       {
         "name": "Termina Log Bombable Grotto",
-        "access_rules": ["easy_logic, $baby_has_explosives", "normal_logic, $has_explosives"],
+        "access_rules": ["easy_logic, $baby_has_explosives", "normal_logic, soul_grottos, $has_explosives"],
         "map_locations": [
           {
             "map": "overworld",
@@ -226,13 +233,13 @@
             "name": "Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$can_play_eponas"]
+            "access_rules": ["soul_cow, $can_play_eponas"]
           },
           {
             "name": "Right Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$can_play_eponas"]
+            "access_rules": ["soul_cow, $can_play_eponas"]
           }
         ]
       }

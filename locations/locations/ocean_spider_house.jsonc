@@ -1,6 +1,7 @@
 [
   {
     "name": "Ocean Spider House",
+    "access_rules": ["soul_gs"],
     "children": [
       {
         "name": "Ramp",

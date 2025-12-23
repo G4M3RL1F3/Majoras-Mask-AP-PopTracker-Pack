@@ -15,7 +15,7 @@
             "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase"
           },
           {
-            "ref": "Groups/Great Bay Map Purchase/Great Bay Map Purchase "
+            "ref": "Groups/Great Bay Map Purchase/Great Bay Map Purchase"
           }
         ],
         "map_locations": [
@@ -32,11 +32,12 @@
           {
             "name": "Race",
             "chest_unopened_img": "images/icons/carrot.png",
-            "access_rules": ["$can_play_eponas"]
+            "access_rules": ["soul_gorman_brothers, $can_play_eponas"]
           },
           {
             "name": "Purchase",
             "chest_unopened_img": "images/characters/gorman_brothers.png",
+            "access_rules": ["soul_gorman_brothers"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -57,7 +58,7 @@
           {
             "name": "Baby Cuccos March",
             "chest_unopened_img": "images/characters/grog.png",
-            "access_rules": ["bremenmask"]
+            "access_rules": ["soul_grog, bremenmask"]
           }
         ],
         "map_locations": [
@@ -85,7 +86,7 @@
             "chest_unopened_img": "images/icons/dog.png",
             "access_rules": [
               "easy_logic, giantswallet, truth",
-              "normal_logic, truth"
+              "normal_logic, soul_dog_race, truth"
             ]
           }
         ],
@@ -104,19 +105,19 @@
             "name": "Free Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
+            "access_rules": ["soul_cow, $can_use_powder_keg, $can_play_eponas"]
           },
           {
             "name": "Stables Front Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
+            "access_rules": ["soul_cow, $can_use_powder_keg, $can_play_eponas"]
           },
           {
             "name": "Stables Back Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
+            "access_rules": ["soul_cow, $can_use_powder_keg, $can_play_eponas"]
           }
         ],
         "map_locations": [
@@ -132,18 +133,18 @@
         "sections": [
           {
             "name": "Romani Game",
-            "access_rules": ["$can_use_powder_keg, bow"],
+            "access_rules": ["soul_romani_cremia, $can_use_powder_keg, bow"],
             "chest_unopened_img": "images/characters/romani.png"
           },
           {
             "name": "Aliens",
-            "access_rules": ["$can_use_powder_keg, bow"],
+            "access_rules": ["soul_romani_cremia, $can_use_powder_keg, bow"],
             "chest_unopened_img": "images/characters/romani.png"
           },
           {
             "name": "Helping Cremia",
             "chest_unopened_img": "images/characters/cremia.png",
-            "access_rules": ["$can_use_powder_keg, bow"]
+            "access_rules": ["soul_romani_cremia, $can_use_powder_keg, bow"]
           }
         ],
         "map_locations": [

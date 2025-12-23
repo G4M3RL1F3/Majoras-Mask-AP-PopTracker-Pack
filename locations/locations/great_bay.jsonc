@@ -19,25 +19,27 @@
           {
             "name": "Healing Zora",
             "chest_unopened_img": "images/masks/zora.png",
-            "access_rules": ["$can_play_healing"]
+            "access_rules": ["soul_coast_zora, $can_play_healing"]
           },
           {
             "name": "Fisherman's Grotto Chest",
-            "access_rules": [""]
+            "access_rules": ["soul_grottos"]
           },
           {
-            "ref": "Groups/Great Bay Map Purchase/Great Bay Map Purchase"
+            "ref": "Groups/Great Bay Map Purchase/Great Bay Map Purchase",
+            "access_rules": ["bow", "hookshot"]
           },
           {
-            "ref": "Groups/Stone Tower Map Purchase/Stone Tower Map Purchase "
+            "ref": "Groups/Stone Tower Map Purchase/Stone Tower Map Purchase",
+            "access_rules": ["bow", "hookshot"]
           },
           {
             "name": "Baby Zora Song",
             "chest_unopened_img": "images/equipment/song_bossa_nova_no_text.png",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest",
-              "normal_logic, $has|bottles|1, $can_reach_seahorse",
-              "normal_logic, $has|bottles|1, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
+              "normal_logic, soul_researcher, $has|bottles|1, $can_reach_seahorse",
+              "normal_logic, soul_researcher, $has|bottles|1, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
             ]
           },
           {
@@ -52,20 +54,20 @@
             "name": "Ledge Grotto Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["hookshot, $can_play_eponas"]
+            "access_rules": ["soul_grottos, soul_cow, hookshot, $can_play_eponas"]
           },
           {
             "name": "Ledge Grotto Right Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["hookshot, $can_play_eponas"]
+            "access_rules": ["soul_grottos, soul_cow, hookshot, $can_play_eponas"]
           },
           {
             "name": "Scarecrow Ledge HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, hookshot, $baby_can_plant_beans",
-              "normal_logic, hookshot, $can_plant_beans"
+              "normal_logic, soul_scarecrow, hookshot, $can_plant_beans"
             ]
           },
           {
@@ -73,7 +75,7 @@
             "chest_unopened_img": "images/icons/torch.png",
             "access_rules": [
               "easy_logic, $baby_clear_greatbay",
-              "normal_logic, $clear_greatbay"
+              "normal_logic, soul_fisherman, $clear_greatbay"
             ]
           }
         ]
@@ -103,7 +105,7 @@
           {
             "name": "Pot Game",
             "chest_unopened_img": "images/characters/zora.png",
-            "access_rules": ["zora"]
+            "access_rules": ["soul_potgame_hall_zora, soul_pots, zora"]
           },
           {
             "name": "Deku Flower Chest",
@@ -111,21 +113,21 @@
           },
           {
             "name": "Scarecrow Chest",
-            "access_rules": ["hookshot, deku"]
+            "access_rules": ["soul_scarecrow, hookshot, deku"]
           },
           {
             "name": "Grotto Chest",
             "access_rules": [
               "easy_logic, goron, $baby_has_explosives",
-              "normal_logic, goron",
-              "normal_logic, $has_explosives"
+              "normal_logic, soul_grottos, goron",
+              "normal_logic, soul_grottos, $has_explosives"
             ]
           },
           {
             "name": "Great Bay Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
-            "access_rules": ["$checkRequirements|required_stray_fairies|fairy_gb, hookshot"]
+            "access_rules": ["soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_gb, hookshot"]
           },
           {
             "name": "Beaver Bros. Race 1",
@@ -155,21 +157,21 @@
             "chest_unopened_img": "images/characters/zora_shop.png",
             "item_count": 500,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["zora, $can_afford|Great Bay/Zora Hall/Shop 1"]
+            "access_rules": ["soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 1"]
           },
           {
             "name": "Shop 2",
             "chest_unopened_img": "images/characters/zora_shop.png",
             "item_count": 500,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["zora, $can_afford|Great Bay/Zora Hall/Shop 2"]
+            "access_rules": ["soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 2"]
           },
           {
             "name": "Shop 3",
             "chest_unopened_img": "images/characters/zora_shop.png",
             "item_count": 500,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["zora, $can_afford|Great Bay/Zora Hall/Shop 3"]
+            "access_rules": ["soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 3"]
           },
           {
             "name": "Deku Scrub Purchase",
@@ -177,18 +179,18 @@
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, zora, $baby_has_bottle",
-              "normal_logic, zora, $has|bottles|1"
+              "normal_logic, soul_business_scrub, zora, $has|bottles|1"
             ]
           },
           {
             "name": "Goron Scrub Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": ["zora, mountaindeed, goron"]
+            "access_rules": ["soul_business_scrub, zora, mountaindeed, goron"]
           },
           {
             "name": "Goron Scrub Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["deku, zora, mountaindeed, goron"]
+            "access_rules": ["soul_business_scrub, soul_deku_flowers, deku, zora, mountaindeed, goron"]
           },
           {
             "name": "Evan's Song",
@@ -201,17 +203,17 @@
           {
             "name": "Torches Reward",
             "chest_unopened_img": "images/icons/torch.png",
-            "access_rules": ["$can_use_fire_arrows"]
+            "access_rules": ["soul_hall_zora, $can_use_fire_arrows"]
           },
           {
             "name": "Good Picture of Lulu",
             "chest_unopened_img": "images/characters/zora.png",
-            "access_rules": ["zora, pictobox"]
+            "access_rules": ["soul_hall_zora, soul_lulu, zora, pictobox"]
           },
           {
             "name": "Bad Picture of Lulu",
             "chest_unopened_img": "images/characters/zora.png",
-            "access_rules": ["zora, pictobox"]
+            "access_rules": ["soul_hall_zora, soul_lulu, zora, pictobox"]
           }
         ]
       },
@@ -230,21 +232,21 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle",
-              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, soul_fisherman, soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
             ]
           },
           {
             "name": "Upper Eel Chest",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
-              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, soul_fisherman, soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
             ]
           },
           {
             "name": "Lower Eel Chest",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
-              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, soul_fisherman, soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
             ]
           }
         ]

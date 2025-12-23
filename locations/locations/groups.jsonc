@@ -1,7 +1,7 @@
 [
   {
     "name": "Groups",
-    "access_rules": ["$has_projectiles"],
+    "access_rules": ["$has_projectiles, soul_tingle"],
     "children": [
       {
         "name": "Clock Town Map Purchase",
@@ -11,9 +11,22 @@
             "hosted_item": "clock_town_map_purchase_1"
           },
           {
-            "name": "Clock Town Map Purchase ", //Ikana Canyon
+            "name": "Clock Town Map Purchase", //Ikana Canyon
             "access_rules": ["$ikana_canyon, $can_use_ice_arrows"],
             "hosted_item": "clock_town_map_purchase_2"
+          }
+        ]
+      },
+      {
+        "name": "Woodfall Map Purchase",
+        "sections": [
+          {
+            "name": "Woodfall Map Purchase", //Road to Swamp
+            "hosted_item": "woodfall_map_purchase_1"
+          },
+          {
+            "name": "Woodfall Map Purchase", //Clock Town
+            "hosted_item": "woodfall_map_purchase_2"
           }
         ]
       },
@@ -26,7 +39,7 @@
             "hosted_item": "snowhead_map_purchase_1"
           },
           {
-            "name": "Snowhead Map Purchase ", //Road to Swamp
+            "name": "Snowhead Map Purchase", //Road to Swamp
             "hosted_item": "snowhead_map_purchase_2"
           }
         ]
@@ -39,7 +52,7 @@
             "hosted_item": "romani_ranch_map_purchase_1"
           },
           {
-            "name": "Romani Ranch Map Purchase ", //Twin Islands
+            "name": "Romani Ranch Map Purchase", //Twin Islands
             "access_rules": ["$mountain_village"],
             "hosted_item": "romani_ranch_map_purchase_2"
           }
@@ -54,7 +67,7 @@
             "hosted_item": "great_bay_map_purchase_1"
           },
           {
-            "name": "Great Bay Map Purchase ", //Milk Road
+            "name": "Great Bay Map Purchase", //Milk Road
             "hosted_item": "great_bay_map_purchase_2"
           }
         ]
@@ -68,7 +81,7 @@
             "hosted_item": "stone_tower_map_purchase_1"
           },
           {
-            "name": "Stone Tower Map Purchase ", //Great Bay Coast
+            "name": "Stone Tower Map Purchase", //Great Bay Coast
             "access_rules": ["$great_bay"],
             "hosted_item": "stone_tower_map_purchase_2"
           }

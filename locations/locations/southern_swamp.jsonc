@@ -30,7 +30,8 @@
         "name": "Road to Swamp Grotto Chest",
         "sections": [
           {
-            "name": "Road to Swamp Grotto Chest"
+            "name": "Road to Swamp Grotto Chest",
+            "access_rules": ["soul_grottos"]
           }
         ],
         "map_locations": [
@@ -43,7 +44,7 @@
       },
       {
         "name": "Swamp Shooting Gallery",
-        "access_rules": ["bow"],
+        "access_rules": ["soul_archery_man, bow"],
         "chest_unopened_img": "images/icons/archery.png",
         "sections": [
           {
@@ -73,11 +74,14 @@
             "chest_unopened_img": "images/equipment/rmap_woodfall.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles"
+              "normal_logic, soul_tingle, $has_projectiles"
             ]
           },
           {
-            "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase "
+            "ref": "Groups/Snowhead Map Purchase/Woodfall Map Purchase"
+          },
+          {
+            "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase"
           }
         ],
         "map_locations": [
@@ -94,7 +98,7 @@
           {
             "name": "Southern Swamp Deku Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": ["landdeed"]
+            "access_rules": ["soul_business_scrub, landdeed"]
           },
           {
             "name": "Southern Swamp Deku Scrub Purchase",
@@ -102,14 +106,14 @@
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, deku, $can_plant_beans",
-              "normal_logic, deku, $can_plant_beans",
-              "normal_logic, landdeed, moontear, can_plant_beans"
+              "normal_logic, soul_business_scrub, deku, $can_plant_beans",
+              "normal_logic, soul_business_scrub, landdeed, moontear, $can_plant_beans"
             ]
           },
           {
             "name": "Southern Swamp Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["deku, landdeed"]
+            "access_rules": ["soul_business_scrub, soul_deku_flowers, deku, landdeed"]
           }
         ],
         "map_locations": [
@@ -126,14 +130,14 @@
           {
             "name": "Southern Swamp Healing Koume",
             "chest_unopened_img": "images/items/pictobox.png",
-            "access_rules": ["normal_logic, $has|bottles|1"]
+            "access_rules": ["normal_logic, soul_koume, $has|bottles|1"]
           },
           {
             "name": "Southern Swamp Boat Archery",
             "chest_unopened_img": "images/icons/archery.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, redpotion, chateau, bow",
-              "normal_logic, $clear_woodfall, $has|bottles|1, bow"
+              "normal_logic, soul_koume, $clear_woodfall, $has|bottles|1, bow"
             ]
           },
           {
@@ -141,7 +145,7 @@
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
               "easy_logic, $baby_deku_palace, pictobox",
-              "normal_logic, pictobox"
+              "normal_logic, soul_tingle, soul_swamp_guide, pictobox"
             ]
           },
           {
@@ -149,7 +153,7 @@
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
               "easy_logic, $baby_deku_palace, pictobox",
-              "normal_logic, pictobox"
+              "normal_logic, soul_swamp_guide, pictobox"
             ]
           },
           {
@@ -157,7 +161,7 @@
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
               "easy_logic, $baby_deku_palace, pictobox",
-              "normal_logic, pictobox"
+              "normal_logic, soul_swamp_guide, pictobox"
             ]
           }
         ],
@@ -174,7 +178,8 @@
         "sections": [
           {
             "name": "Southern Swamp Kotake Item",
-            "chest_unopened_img": "images/items/red_potion.png"
+            "chest_unopened_img": "images/items/red_potion.png",
+            "access_rules": ["soul_kotake"]
           }
         ],
         "map_locations": [
@@ -197,7 +202,7 @@
             "name": "Item 1",
             "chest_unopened_img": "images/items/blue_potion.png",
             "item_count": 500,
-            "access_rules": ["maskofscents, $has|bottles|1, $can_afford|$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 1"],
+            "access_rules": ["soul_kotake, maskofscents, $has|bottles|1, $can_afford|$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 1"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -207,7 +212,7 @@
             "name": "Item 2",
             "chest_unopened_img": "images/items/green_potion.png",
             "item_count": 500,
-            "access_rules": ["$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 2"],
+            "access_rules": ["soul_kotake, $can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 2"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -217,7 +222,7 @@
             "name": "Item 3",
             "chest_unopened_img": "images/items/red_potion.png",
             "item_count": 500,
-            "access_rules": ["$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 3"],
+            "access_rules": ["soul_kotake, $can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 3"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -236,7 +241,8 @@
         "name": "Southern Swamp Day 2 Grotto Chest",
         "sections": [
           {
-            "name": "Southern Swamp Day 2 Grotto Chest"
+            "name": "Southern Swamp Day 2 Grotto Chest",
+            "access_rules": ["soul_grottos"]
           }
         ],
         "map_locations": [
@@ -261,7 +267,7 @@
               "chest_unopened_img": "images/equipment/song_sonata_no_text.png",
             "access_rules": [
               "easy_logic, ocarina, $baby_can_plant_beans, deku, $baby_has_projectiles",
-              "normal_logic, ocarina, $can_plant_beans, deku"
+              "normal_logic, soul_deku_flowers, soul_monkey, ocarina, $can_plant_beans, deku"
             ]
           }
         ],
@@ -299,14 +305,14 @@
             "name": "Deku Palace Bean Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_can_plant_beans, hookshot",
-              "normal_logic, $can_plant_beans",
-              "normal_logic, hookshot"
+              "normal_logic, soul_grottos, $can_plant_beans",
+              "normal_logic, soul_grottos, hookshot"
             ]
           },
           {
             "name": "Deku Palace Bean Seller",
             "chest_unopened_img": "images/characters/bean_seller.png",
-            "access_rules": ["deku"]
+            "access_rules": ["soul_grottos, soul_bean_seller, deku"]
           }
         ],
         "map_locations": [
@@ -324,7 +330,7 @@
           {
             "name": "Southern Swamp Song Tablet",
               "chest_unopened_img": "images/equipment/song_soaring_no_text.png",
-            "access_rules": ["deku"]
+            "access_rules": ["soul_deku_flowers, deku"]
           }
         ],
         "map_locations": [
@@ -341,7 +347,7 @@
         "sections": [
           {
             "name": "Southern Swamp Grotto Chest",
-            "access_rules": ["deku"]
+            "access_rules": ["soul_grottos, deku"]
           }
         ],
         "map_locations": [
@@ -357,18 +363,21 @@
         "access_rules": ["easy_logic, $baby_woodfall", "normal_logic, $woodfall"],
         "sections": [
           {
-            "name": "Woodfall Owl Statue Chest"
+            "name": "Woodfall Owl Statue Chest",
+            "access_rules": ["soul_deku_flowers, deku", "hookshot"]
           },
           {
-            "name": "Woodfall Bridge Chest"
+            "name": "Woodfall Bridge Chest",
+            "access_rules": ["soul_deku_flowers"]
           },
           {
-            "name": "Woodfall Entrance Chest"
+            "name": "Woodfall Entrance Chest",
+            "access_rules": ["soul_deku_flowers"]
           },
           {
             "name": "Woodfall Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
-            "access_rules": ["$checkRequirements|required_stray_fairies|fairy_wf"]
+            "access_rules": ["soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_wf"]
             //"visibility_rules": ["shuffle_great_fairy_rewards"]
           }
         ],

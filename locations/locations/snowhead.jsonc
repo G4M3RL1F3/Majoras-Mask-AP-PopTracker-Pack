@@ -30,8 +30,8 @@
             "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
               "easy_logic, $can_play_lullaby, $can_use_fire_arrows",
-              "normal_logic, goron, magic, $can_play_lullaby",
-              "normal_logic, goron, $can_use_fire_arrows"
+              "normal_logic, soul_hungry_goron, goron, magic, $can_play_lullaby",
+              "normal_logic, soul_hungry_goron, goron, $can_use_fire_arrows"
             ]
           },
           {
@@ -39,9 +39,9 @@
             "chest_unopened_img": "images/equipment/sword2.png",
             "access_rules": [
               "easy_logic, adultswallet, $baby_clear_snowhead, $baby_has_bottle, @Mountain Village/Invisible Ladder Cave Healing Invisible Goron, $can_use_fire_arrows",
-              "normal_logic, adultswallet, $can_use_fire_arrows",
-              "normal_logic, adultswallet, @Twin Islands/Hot Water Grotto Chest",
-              "normal_logic, adultswallet, $clear_snowhead"
+              "normal_logic, soul_smithy, adultswallet, $can_use_fire_arrows",
+              "normal_logic, soul_smithy, adultswallet, @Twin Islands/Hot Water Grotto Chest",
+              "normal_logic, soul_smithy, adultswallet, $clear_snowhead"
             ]
           },
           {
@@ -49,21 +49,21 @@
             "chest_unopened_img": "images/equipment/sword3.png",
             "access_rules": [
               "easy_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize",
-              "normal_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize, $has|bottles|1"
+              "normal_logic, soul_smithy, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize, $has|bottles|1"
             ]
           },
           {
             "name": "Spring Waterfall Chest",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead",
-              "normal_logic, $clear_snowhead"
+              "normal_logic, $clear_snowhead, lens"
             ]
           },
           {
             "name": "Spring Ramp Grotto",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead",
-              "normal_logic, $clear_snowhead"
+              "normal_logic, soul_grottos, $clear_snowhead"
             ]
           },
           {
@@ -71,7 +71,7 @@
             "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
               "easy_logic, dongeromask, $baby_clear_snowhead, $baby_woodfall_temple, $baby_can_smack_hard, $baby_has_explosives, deku, goron, $baby_great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows",
-              "normal_logic, dongeromask, $clear_snowhead, @Dungeons/Woodfall Temple/Woodfall Temple Gekko Chest, $great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows"
+              "normal_logic, frog_yellow, frog_white, frog_cyan, frog_blue, frog_pink, dongero, $clear_snowhead, @Dungeons/Woodfall Temple/Woodfall Temple Gekko Chest, $great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows"
             ]
           }
         ]
@@ -94,14 +94,14 @@
             "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase"
           },
           {
-            "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase "
+            "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase"
           },
           {
             "name": "Ramp Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, goron, hookshot",
-              "normal_logic, $has_explosives, goron",
-              "normal_logic, $has_explosives, hookshot"
+              "normal_logic, soul_grottos, $has_explosives, goron",
+              "normal_logic, soul_grottos, $has_explosives, hookshot"
             ]
           },
           {
@@ -109,19 +109,19 @@
             "chest_unopened_img": "images/characters/elder_goron.png",
             "access_rules": [
               "easy_logic, goron, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_has_bottle",
-              "normal_logic, goron, $can_use_fire_arrows",
-              "normal_logic, goron, $has|bottles|1, $can_use_lens",
-              "normal_logic, goron, $has|bottles|1, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring"
+              "normal_logic, soul_goron_elder, goron, $can_use_fire_arrows",
+              "normal_logic, soul_goron_elder, goron, $has|bottles|1, $can_use_lens",
+              "normal_logic, soul_goron_elder, goron, $has|bottles|1, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, owl_mountain"
             ]
           },
           {
             "name": "Hot Water Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_clear_snowhead",
-              "normal_logic, $has_explosives, $can_use_fire_arrows",
-              "normal_logic, $can_use_lens, goron, $has|bottles|1, $has_explosives",
-              "normal_logic, $clear_snowhead",
-              "normal_logic, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, $can_play_soaring"
+              "normal_logic, soul_grottos, $has_explosives, $can_use_fire_arrows",
+              "normal_logic, soul_grottos, $can_use_lens, goron, $has|bottles|1, $has_explosives",
+              "normal_logic, soul_grottos, $clear_snowhead",
+              "normal_logic, soul_grottos, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, owl_mountain"
             ]
           },
           {
@@ -206,43 +206,43 @@
             "name": "Shop Item 1",
             "chest_unopened_img": "images/characters/goron_shop.png",
             "item_count": 500,
-            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["$can_afford|Snowhead/Goron Village/Shop Item 1"]
+            "visibility_rules": ["shopsanity_enabled", "soul_shop_owners, shopsanity_advanced"],
+            "access_rules": ["soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 1"]
           },
           {
             "name": "Shop Item 2",
             "item_count": 500,
             "chest_unopened_img": "images/characters/goron_shop.png",
-            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["$can_afford|Snowhead/Goron Village/Shop Item 2"]
+            "visibility_rules": ["shopsanity_enabled", "soul_shop_owners, shopsanity_advanced"],
+            "access_rules": ["soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 2"]
           },
           {
             "name": "Shop Item 3",
             "item_count": 500,
             "chest_unopened_img": "images/characters/goron_shop.png",
-            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["$can_afford|Snowhead/Goron Village/Shop Item 3"]
+            "visibility_rules": ["shopsanity_enabled", "soul_shop_owners, shopsanity_advanced"],
+            "access_rules": ["soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 3"]
           },
           {
             "name": "Shop (Spring) Item 1",
             "item_count": 500,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": ["$clear_snowhead, $can_afford|Snowhead/Goron Village/Shop (Spring) Item 1"]
+            "access_rules": ["soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 1"]
           },
           {
             "name": "Shop (Spring) Item 2",
             "item_count": 500,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": ["$clear_snowhead, $can_afford|Snowhead/Goron Village/Shop (Spring) Item 2"]
+            "access_rules": ["soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 2"]
           },
           {
             "name": "Shop (Spring) Item 3",
             "item_count": 500,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": ["$clear_snowhead, $can_afford|Snowhead/Goron Village/Shop (Spring) Item 3"]
+            "access_rules": ["soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 3"]
           },
           {
             "name": "Scrub Purchase",
@@ -250,27 +250,27 @@
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, goron, adultswallet",
-              "normal_logic, goron, adultswallet",
-              "normal_logic, @Snowhead/Goron Village/Freestanding HP, @Southern Swamp/Swamp Business Scrub/Southern Swamp Freestanding HP, moontear, adultswallet"
+              "normal_logic, soul_business_scrub, goron, adultswallet",
+              "normal_logic, soul_business_scrub, @Snowhead/Goron Village/Freestanding HP, @Southern Swamp/Swamp Business Scrub/Southern Swamp Freestanding HP, moontear, adultswallet"
             ]
           },
           {
             "name": "Deku Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": ["deku, swampdeed"]
+            "access_rules": ["soul_business_scrub, deku, swampdeed"]
           },
           {
             "name": "Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["@Goron Village/Deku Trade"]
+            "access_rules": ["soul_business_scrub, soul_deku_flowers, @Goron Village/Deku Trade"]
           },
           {
             "name": "Powder Keg Goron Reward",
             "chest_unopened_img": "images/items/keg.png",
             "access_rules": [
               "easy_logic, powderkeg, $baby_clear_snowhead, $can_use_fire_arrows",
-              "normal_logic, $clear_snowhead",
-              "normal_logic, goron, $can_use_fire_arrows"
+              "normal_logic, soul_medigoron, $clear_snowhead",
+              "normal_logic, soul_medigoron, goron, $can_use_fire_arrows"
             ]
           //},
           //{
@@ -278,7 +278,7 @@
           //  "visibility_rules": ["shopsanity_advanced"],
           //  "access_rules": [
           //    "easy_logic, $baby_clear_snowhead, deku, swampdeed",
-          //    "normal_logic, $clear_snowhead, deku, swampdeed"
+          //    "normal_logic, soul_business_scrub, soul_deku_flowers, $clear_snowhead, deku, swampdeed"
           //  ]
           }
         ]
@@ -301,13 +301,15 @@
             "name": "Grotto Chest",
             "access_rules": [
               "easy_logic, goron, magic, $baby_has_explosives",
-              "normal_logic, goron, magic, $has_explosives"
+              "normal_logic, soul_grottos, goron, magic, $has_explosives"
             ]
           },
           {
             "name": "Scarecrow Pillar HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["goron, $can_use_lens, hookshot"]
+            "access_rules": [
+              "soul_scarecrow, goron, $can_use_lens, hookshot"
+          ]
           }
         ]
       },
@@ -331,7 +333,7 @@
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": [
               "easy_logic, $baby_snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh",
-              "normal_logic, $snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh"
+              "normal_logic, soul_great_fairy, $snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh"
             ]
           }
         ]

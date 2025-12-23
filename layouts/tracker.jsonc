@@ -215,6 +215,17 @@
                           },
                           {
                             "type": "group",
+                            "header": "Enemy Souls",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "enemy_souls_layout"
+                            }
+                          },
+                          {
+                            "type": "group",
                             "header": "Boss Souls",
                             "dock": "left",
                             "content": {

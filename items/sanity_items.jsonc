@@ -553,13 +553,13 @@
   {
     "name": "Soul of Keaton",
     "type": "toggle",
-    "img": "images/masks/keaton.png",
+    "img": "images/characters/keaton.png",
     "codes": "soul_keaton"
   },
   {
     "name": "Soul of Gold Skulltulas",
     "type": "toggle",
-    "img": "images/equipment/skull_normal.png",
+    "img": "images/icons/gold_skulltula.png",
     "codes": "soul_gs"
   },
   {

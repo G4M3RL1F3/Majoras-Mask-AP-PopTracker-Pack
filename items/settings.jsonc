@@ -446,5 +446,11 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Boss Souls",
+    "type": "toggle",
+    "img": "images/pack_settings/souls/boss_souls.png",
+    "codes": "boss_souls"
   }
 ]

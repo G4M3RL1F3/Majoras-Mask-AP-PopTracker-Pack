@@ -9,6 +9,14 @@
           "type": "layout",
           "key": "settings_tab"
         }
+      },
+      {
+        "title": "Sanities",
+        "content": {
+          "type": "layout",
+          "key": "settings_souls"
+        }
+      }
       //},
       //{
       //  "title": "Logic Tricks",
@@ -16,7 +24,6 @@
       //    "type": "layout",
       //    "key": "logic_tricks_tab"
       //  }
-      }
     ]
   }
 }

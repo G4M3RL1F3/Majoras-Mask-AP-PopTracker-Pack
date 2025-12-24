@@ -54,13 +54,19 @@
             "name": "Ledge Grotto Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["soul_grottos, soul_cow, hookshot, $can_play_eponas"]
+            "access_rules": [
+              "soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
+              "soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
+            ]
           },
           {
             "name": "Ledge Grotto Right Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["soul_grottos, soul_cow, hookshot, $can_play_eponas"]
+            "access_rules": [
+              "soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
+              "soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
+            ]
           },
           {
             "name": "Scarecrow Ledge HP",

@@ -435,10 +435,18 @@
       }
     ]
   },
+
+  // Souls
   {
     "name": "Boss Souls",
     "type": "toggle",
     "img": "images/pack_settings/souls/boss_souls.png",
     "codes": "boss_souls"
+  },
+  {
+    "name": "Misc. Souls",
+    "type": "toggle",
+    "img": "images/pack_settings/souls/misc_souls.png",
+    "codes": "misc_souls"
   }
 ]

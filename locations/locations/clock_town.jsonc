@@ -124,7 +124,10 @@
           {
             "name": "Interact with Postman's Hat equipped",
             "chest_unopened_img": "images/icons/postbox.png",
-            "access_rules": ["soul_postboxes, postman"]
+            "access_rules": [
+              "misc_souls, soul_postboxes, postman",
+              "$misc_souls_off, postman"
+            ]
           }
         ],
         "map_locations": [
@@ -292,7 +295,10 @@
         "sections": [
           {
             "name": "Keaton Quiz",
-            "access_rules": ["soul_keaton, keaton"],
+            "access_rules": [
+              "$misc_souls_off, keaton",
+              "misc_souls, soul_keaton, keaton"
+            ],
             "chest_unopened_img": "images/masks/keaton.png"
           }
         ],

@@ -20,6 +20,11 @@
                     "type": "item",
                     "max_width": 260,
                     "item": "boss_souls"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "misc_souls"
                   }
                 ]
               }

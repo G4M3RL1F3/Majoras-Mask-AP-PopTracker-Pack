@@ -233,13 +233,19 @@
             "name": "Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["soul_cow, $can_play_eponas"]
+            "access_rules": [
+              "$misc_souls_off, $can_play_eponas",
+              "misc_souls, soul_cow, $can_play_eponas"
+            ]
           },
           {
             "name": "Right Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["soul_cow, $can_play_eponas"]
+            "access_rules": [
+              "$misc_souls_off, $can_play_eponas",
+              "misc_souls, soul_cow, $can_play_eponas"
+            ]
           }
         ]
       }

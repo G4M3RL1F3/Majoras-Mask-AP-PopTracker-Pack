@@ -865,16 +865,16 @@
     "codes": "soul_researcher"
   },
   {
-    "name": "Soul of Hall Zora",
+    "name": "Soul of Coast Zora",
     "type": "toggle",
     "img": "images/characters/zora.png",
-    "codes": "soul_hall_zora"
+    "codes": "soul_coast_zora"
   },
   {
-    "name": "Soul of Pot Game Zora",
+    "name": "Soul of Pot Game & Hall Zora",
     "type": "toggle",
     "img": "images/characters/pot_game_zora.png",
-    "codes": "soul_pot_game"
+    "codes": "soul_potgame_hall_zora"
   },
   {
     "name": "Soul of Lulu",

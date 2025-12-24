@@ -19,7 +19,7 @@
           {
             "name": "Healing Zora",
             "chest_unopened_img": "images/masks/zora.png",
-            "access_rules": ["soul_coast_zora, $can_play_healing"]
+            "access_rules": ["$can_play_healing"]
           },
           {
             "name": "Fisherman's Grotto Chest",

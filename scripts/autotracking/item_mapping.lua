@@ -217,7 +217,6 @@ ITEM_MAPPING = {
 [0x34694200C01FF] = {"soul_smithy","toggle"},
 [0x34694200C01C2] = {"soul_fisherman","toggle"},
 [0x34694200C00AE] = {"soul_researcher","toggle"},
-[0x34694200C0260] = {"soul_coast_zora","toggle"},
 [0x34694200C0228] = {"soul_potgame_hall_zora","toggle"},
 [0x34694200C0252] = {"soul_lulu","toggle"},
 [0x34694200C024A] = {"soul_shiro","toggle"},

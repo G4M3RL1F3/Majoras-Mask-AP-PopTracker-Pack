@@ -865,12 +865,6 @@
     "codes": "soul_researcher"
   },
   {
-    "name": "Soul of Coast Zora",
-    "type": "toggle",
-    "img": "images/characters/zora.png",
-    "codes": "soul_coast_zora"
-  },
-  {
     "name": "Soul of Pot Game & Hall Zora",
     "type": "toggle",
     "img": "images/characters/pot_game_zora.png",

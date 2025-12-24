@@ -11,6 +11,7 @@ end
 
 ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
+ScriptHost:LoadScript("scripts/inverse_rules.lua")
 ScriptHost:LoadScript("scripts/regions.lua")
 Tracker:AddLayouts("layouts/broadcast.jsonc")
 ScriptHost:LoadScript("scripts/items.lua")

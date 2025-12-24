@@ -161,23 +161,11 @@
     "codes": "small_key_sanity"
   },
   {
-    "name": "Small Key Sanity Off",
-    "type": "toggle",
-    "codes": "small_key_sanity_off",
-    "initial_active_state": true
-  },
-  {
     "name": "Boss Key Sanity",
     "type": "toggle",
     "img": "images/pack_settings/sanities/boss_key_sanity_on.png",
     "disabled_img": "images/pack_settings/sanities/boss_key_sanity_off.png",
     "codes": "boss_key_sanity"
-  },
-  {
-    "name": "Boss Key Sanity Off",
-    "type": "toggle",
-    "codes": "boss_key_sanity_off",
-    "initial_active_state": true
   },
   {
     "name": "Skullsanity",

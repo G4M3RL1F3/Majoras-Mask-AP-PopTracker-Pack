@@ -267,6 +267,13 @@
     "initial_quantity": 15,
     "overlay_font_size": 40
   },
+  {
+    "name": "Scarecrow Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/scarecrows/scarecrow_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/scarecrows/scarecrow_sanity_off.png",
+    "codes": "scarecrow_sanity"
+  },
 
   //Inventory
   {

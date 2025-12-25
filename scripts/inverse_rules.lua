@@ -17,3 +17,8 @@ ScriptHost:AddWatchForCode("Misc. Souls Off", "misc_souls", misc_souls_off)
 function misc_souls_off()
     return (1 - Tracker:ProviderCountForCode("misc_souls") > 0)
 end
+
+ScriptHost:AddWatchForCode("Scarecrow Sanity Off", "scarecrow_sanity", scarecrow_sanity_off)
+function scarecrow_sanity_off()
+    return (1 - Tracker:ProviderCountForCode("scarecrow_sanity") > 0)
+end

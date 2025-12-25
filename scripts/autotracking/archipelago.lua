@@ -186,6 +186,9 @@ function onClear(slot_data)
     setFromSlotData("receive_filled_wallets","receive_filled_wallets")
     setFromSlotData("damage_multiplier","damage_multiplier")
     setFromSlotData("death_behavior","death_behavior")
+    setFromSlotData("boss_souls","boss_souls")
+    setFromSlotData("misc_souls","misc_souls")
+    setFromSlotData("scarecrowsanity","scarecrow_sanity")
     --setFromSlotData("death_link","death_link")
     --for _, trick in ipairs(slot_data["logic_tricks"]) do
     --    Tracker:FindObjectForCode(LOGIC_TRICK_MAPPING[string.format("%s", trick)]).Active = true

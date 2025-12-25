@@ -21,6 +21,13 @@
           {
             "name": "Termina Grass Grotto Chest",
             "access_rules": ["soul_grottos"]
+          },
+          {
+            "name": "Termina Grass Grotto Grass",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["soul_grottos, soul_grass"],
+            "item_count": 14,
+            "clear_as_group": true
           }
         ],
         "map_locations": [
@@ -32,11 +39,18 @@
         ]
       },
       {
-        "name": "Termina Ikana Pillar Grotto Chest",
+        "name": "Termina Ikana Pillar Grotto",
         "sections": [
           {
             "name": "Termina Ikana Pillar Grotto Chest",
             "access_rules": ["soul_grottos"]
+          },
+          {
+            "name": "Termina Ikana Pillar Grotto Grass",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["soul_grottos, soul_grass"],
+            "item_count": 14,
+            "clear_as_group": true
           }
         ],
         "map_locations": [
@@ -64,11 +78,130 @@
         ]
       },
       {
+        "name": "Termina Field Grass Patches",
+        "chest_unopened_img": "images/absurd/grass.png",
+        "chest_opened_img": "images/icons/check_32.png",
+        "access_rules": ["soul_grass"],
+        //"visibility_rules": ["$absurd_souls"]
+        "sections": [
+          {
+            "name": "Grass Near Western Water Ramp",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Near Takkuri Gossip Tree",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Southwest Above Rock Ledge",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Near Western Fountains",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Near Takkuri",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Near Kamaro",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Near Peehat Grotto",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass In Front of Log",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Near Northern Ramp",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Near Grass Grotto",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Below Southeast Hill Fence",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Bottom of Southeast Hill Grass",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Near Eastern Pillars",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Near Eastern Pillar Grotto",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Middle of Southeast Hill Grass",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Middle of Southeast Hill Grass",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Near Business Scrub Grotto",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Near Observatory Fence",
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Grass Near Eastern Gossip Grotto",
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 540,
+            "y": 300
+          }
+        ]
+      },
+      {
         "name": "Termina Field Peehat Grotto",
         "sections": [
           {
             "name": "Defeat Peehat (Daytime Only)",
             "access_rules": ["$baby_can_smack_hard", "normal_logic, soul_grottos, soul_peehat"]
+          },
+          {
+            "name": "Termina Field Peehat Grotto Grass",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["soul_grottos, soul_grass"],
+            "item_count": 12,
+            "clear_as_group": true
           }
         ],
         "map_locations": [
@@ -123,6 +256,14 @@
               "normal_logic, soul_grottos, $has_explosives, zora",
               "normal_logic, soul_grottos, goron, zora"
             ]
+          },
+          {
+            "name": "Termina Field Bio Baba Grotto Grass",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["soul_grottos, soul_grass"],
+            "item_count": 2,
+            "clear_as_group": true
           }
         ],
         "map_locations":[
@@ -203,18 +344,56 @@
           },
           {
             "map": "overworld",
+            "x": 515,
+            "y": 345
+          }
+        ]
+      },
+      {
+        "name": "Termina Gossip Stones HP",
+        "chest_unopened_img": "images/icons/gossip_stone.png",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Gossip Stones HP/Termina Gossip Stones HP"
+          },
+          {
+            "name": "Termina Field Eastern Gossip Grotto Grass",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["soul_grass"],
+            "item_count": 5,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
             "x": 599,
             "y": 320
+          }
+        ]
+      },
+      {
+        "name": "Termina Bombable Rock Grotto",
+        "chest_unopened_img": "images/icons/gossip_stone.png",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Gossip Stones HP/Termina Gossip Stones HP"
           },
+          {
+            "name": "Termina Field Bombable Rock Grass",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["soul_grass"],
+            "item_count": 5,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
           {
             "map": "overworld",
             "x": 498,
             "y": 299
-          },
-          {
-            "map": "overworld",
-            "x": 515,
-            "y": 345
           }
         ]
       },
@@ -246,6 +425,54 @@
               "$misc_souls_off, $can_play_eponas",
               "misc_souls, soul_cow, $can_play_eponas"
             ]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass Group 1",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["soul_grass"],
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass Group 2",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["soul_grass"],
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass Group 3",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["soul_grass"],
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass Group 4",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["soul_grass"],
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass Group 5",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["soul_grass"],
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass Group 6",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["soul_grass"],
+            "item_count": 12,
+            "clear_as_group": true
           }
         ]
       }

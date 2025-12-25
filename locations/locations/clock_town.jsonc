@@ -7,11 +7,50 @@
     "children": [
       {
         "name": "Before Clock Town",
-        "access_rules": ["deku"],
+        "access_rules": ["soul_deku_flowers, deku"],
         "visibility_rules": ["intro_checks"],
         "sections": [
           {
             "name": "Chest"
+          },
+          {
+            "name": "Before Clock Town Flower",
+            "item_count": 11,
+            "clear_as_group": true,
+            "chest_unopened_img": "images/absurd/deku_flower.png"
+            //"visibility_rules": ["$absurd_souls"]
+          },
+          {
+            "name": "Before Clock Town Keaton Grass",
+            "item_count": 9,
+            "clear_as_group": true,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["soul_grass"]
+            //"visibility_rules": ["$absurd_souls"]
+          },
+          {
+            "name": "Before Clock Town Skullkid Keaton Grass",
+            "item_count": 9,
+            "clear_as_group": true,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["soul_grass"]
+            //"visibility_rules": ["$absurd_souls"]
+          },
+          {
+            "name": "Lost Woods Grass",
+            "item_count": 24,
+            "clear_as_group": true,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["soul_grass"]
+            //"visibility_rules": ["$absurd_souls"]
+          },
+          {
+            "name": "Lost Woods Keaton Grass",
+            "item_count": 9,
+            "clear_as_group": true,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["soul_grass"]
+            //"visibility_rules": ["$absurd_souls"]
           }
         ],
         "map_locations": [
@@ -215,6 +254,12 @@
             "name": "North Clock Town Tree HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["soul_trees_bushes"]
+          },
+          {
+            "name": "North Clock Town Tree 2",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "access_rules": ["soul_trees_bushes"]
+            //"visibility_rules": ["$absurd_souls"]
           }
         ],
         "map_locations": [
@@ -242,6 +287,12 @@
             "name": "North Clock Town Deku Playground All Days",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["soul_grottos, soul_deku_flowers, soul_deku_employee, deku"]
+          },
+          {
+            "name": "North Clock Town Tree 1",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "access_rules": ["soul_trees_bushes"]
+            //"visibility_rules": ["$absurd_souls"]
           }
         ],
         "map_locations": [
@@ -300,6 +351,14 @@
               "misc_souls, soul_keaton, keaton"
             ],
             "chest_unopened_img": "images/masks/keaton.png"
+          },
+          {
+            "name": "North Clock Town Keaton Grass",
+            "item_count": 9,
+            "clear_as_group": true,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["soul_grass"]
+            //"visibility_rules": ["$absurd_souls"]
           }
         ],
         "map_locations": [
@@ -728,12 +787,20 @@
         ]
       },
       {
-        "name": "Laundry Pool Musician",
+        "name": "Laundry Pool",
         "sections": [
           {
             "name": "Laundry Pool Musician (Night 1 - 2)",
             "chest_unopened_img": "images/characters/guru_guru.png",
             "access_rules": ["soul_guru_guru"]
+          },
+          {
+            "name": "Laundry Pool Grass",
+            "item_count": 3,
+            "clear_as_group": true,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["soul_grass"]
+            //"visibility_rules": ["$absurd_souls"]
           }
         ],
         "map_locations": [

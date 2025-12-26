@@ -206,12 +206,14 @@
             "name": "Shop Item 1",
             "chest_unopened_img": "images/characters/goron_shop.png",
             "item_count": 500,
+            "clear_as_group": true,
             "visibility_rules": ["shopsanity_enabled", "soul_shop_owners, shopsanity_advanced"],
             "access_rules": ["soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 1"]
           },
           {
             "name": "Shop Item 2",
             "item_count": 500,
+            "clear_as_group": true,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_enabled", "soul_shop_owners, shopsanity_advanced"],
             "access_rules": ["soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 2"]
@@ -219,6 +221,7 @@
           {
             "name": "Shop Item 3",
             "item_count": 500,
+            "clear_as_group": true,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_enabled", "soul_shop_owners, shopsanity_advanced"],
             "access_rules": ["soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 3"]
@@ -226,6 +229,7 @@
           {
             "name": "Shop (Spring) Item 1",
             "item_count": 500,
+            "clear_as_group": true,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
             "access_rules": ["soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 1"]
@@ -233,6 +237,7 @@
           {
             "name": "Shop (Spring) Item 2",
             "item_count": 500,
+            "clear_as_group": true,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
             "access_rules": ["soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 2"]
@@ -240,6 +245,7 @@
           {
             "name": "Shop (Spring) Item 3",
             "item_count": 500,
+            "clear_as_group": true,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
             "access_rules": ["soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 3"]

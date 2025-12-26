@@ -8,7 +8,7 @@
         "name": "Woodfall Temple",
         "access_rules": [
           "easy_logic, $baby_woodfall_temple",
-          "normal_logic, $woodfall_temple, soul_deku_flowers"
+          "normal_logic, $woodfall_temple"
         ],
         "sections": [
           {
@@ -88,7 +88,10 @@
           {
             "name": "Woodfall Temple Pot SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
-            "access_rules": ["soul_pots"]
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_pots"
+            ]
             //"visibility_rules": ["fairysanity"]
           },
           {
@@ -517,7 +520,8 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
-              "normal_logic, soul_barrels"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_barrels"
             ]
           },
           {
@@ -526,7 +530,8 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
-              "normal_logic, soul_pots"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
             ]
           },
           {
@@ -543,9 +548,12 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, zora, bow, fairymask, deku",
-              "normal_logic, soul_pots, $can_use_ice_arrows",
-              "normal_logic, soul_pots, $has_projectiles, fairymask",
-              "normal_logic, soul_pots, deku"
+              "normal_logic, $absurd_souls_off, $can_use_ice_arrows",
+              "normal_logic, $absurd_souls_off, $has_projectiles, fairymask",
+              "normal_logic, $absurd_souls_off, deku",
+              "normal_logic, absurd_souls, soul_pots, $can_use_ice_arrows",
+              "normal_logic, absurd_souls, soul_pots, $has_projectiles, fairymask",
+              "normal_logic, absurd_souls, soul_pots, deku"
             ]
           },
           {
@@ -583,7 +591,8 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
-              "normal_logic, soul_pots"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
             ]
           },
           {
@@ -808,8 +817,10 @@
             "name": "Swamphouse First Room Pot Near Entrance Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
-              "normal_logic, soul_pots, $misc_souls_off, $can_smack",
-              "normal_logic, soul_pots, misc_souls, soul_gs, $can_smack"
+              "normal_logic, $absurd_souls_off, $misc_souls_off, $can_smack",
+              "normal_logic, $absurd_souls_off, misc_souls, soul_gs, $can_smack",
+              "normal_logic, absurd_souls, soul_pots, $misc_souls_off, $can_smack",
+              "normal_logic, absurd_souls, soul_pots, misc_souls, soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -953,8 +964,10 @@
             "name": "Swamphouse Pottery Room Small Pot Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
-              "normal_logic, soul_pots, $misc_souls_off, $can_smack",
-              "normal_logic, soul_pots, misc_souls, soul_gs, $can_smack"
+              "normal_logic, $absurd_souls_off, $misc_souls_off, $can_smack",
+              "normal_logic, $absurd_souls_off, misc_souls, soul_gs, $can_smack",
+              "normal_logic, absurd_souls, soul_pots, $misc_souls_off, $can_smack",
+              "normal_logic, absurd_souls, soul_pots, misc_souls, soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1142,16 +1155,20 @@
           {
             "name": "First Room Open Pot #1 Token",
             "access_rules": [
-              "$misc_souls_off, soul_pots, hookshot, $has_explosives",
-              "misc_souls, soul_gs, soul_pots, hookshot, $has_explosives"
+              "$misc_souls_off, $absurd_souls_off, hookshot, $has_explosives",
+              "misc_souls, soul_gs, $absurd_souls_off, hookshot, $has_explosives",
+              "$misc_souls_off, absurd_souls, soul_pots, hookshot, $has_explosives",
+              "misc_souls, soul_gs, absurd_souls, soul_pots, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Open Pot #2 Token",
             "access_rules": [
-              "$misc_souls_off, soul_pots, hookshot, $has_explosives",
-              "misc_souls, soul_gs, soul_pots, hookshot, $has_explosives"
+              "$misc_souls_off, $absurd_souls_off, hookshot, $has_explosives",
+              "misc_souls, soul_gs, $absurd_souls_off, hookshot, $has_explosives",
+              "$misc_souls_off, absurd_souls, soul_pots, hookshot, $has_explosives",
+              "misc_souls, soul_gs, absurd_souls, soul_pots, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1254,8 +1271,10 @@
           {
             "name": "First Room Downstairs Breakable Pot Token",
             "access_rules": [
-              "$misc_souls_off, soul_pots, hookshot, $has_explosives",
-              "misc_souls, soul_gs, soul_pots, hookshot, $has_explosives"
+              "$misc_souls_off, $absurd_souls_off, hookshot, $has_explosives",
+              "misc_souls, soul_gs, $absurd_souls_off, hookshot, $has_explosives",
+              "$misc_souls_off, absurd_souls, soul_pots, hookshot, $has_explosives",
+              "misc_souls, soul_gs, absurd_souls, soul_pots, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1357,8 +1376,10 @@
             "name": "Storage Room Ceiling Pot Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, soul_pots, $misc_souls_off, hookshot, $has_explosives",
-              "normal_logic, soul_pots, misc_souls, soul_gs, hookshot, $has_explosives"
+              "normal_logic, $absurd_souls_off, $misc_souls_off, hookshot, $has_explosives",
+              "normal_logic, $absurd_souls_off, misc_souls, soul_gs, hookshot, $has_explosives",
+              "normal_logic, absurd_souls, soul_pots, $misc_souls_off, hookshot, $has_explosives",
+              "normal_logic, absurd_souls, soul_pots, misc_souls, soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1518,7 +1539,10 @@
           {
             "name": "Pillar Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["soul_deku_flowers, deku, $can_use_lens, $can_use_fire_arrows"]
+            "access_rules": [
+              "$absurd_souls_off, deku, $can_use_lens, $can_use_fire_arrows",
+              "absurd_souls, soul_deku_flowers, deku, $can_use_lens, $can_use_fire_arrows"
+            ]
           },
           {
             "name": "King Song",
@@ -1554,8 +1578,10 @@
             "name": "Entrance Room Lower Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
-              "deku, soul_deku_flowers, $can_use_light_arrows, hookshot, $has|smallkey_st|4",
-              "deku, soul_deku_flowers, $can_use_light_arrows, $has_explosives, hookshot, $small_key_sanity_off"
+              "deku, $absurd_souls_off, $can_use_light_arrows, hookshot, $has|smallkey_st|4",
+              "deku, $absurd_souls_off, $can_use_light_arrows, $has_explosives, hookshot, $small_key_sanity_off",
+              "deku, absurd_souls, soul_deku_flowers, $can_use_light_arrows, hookshot, $has|smallkey_st|4",
+              "deku, absurd_souls, soul_deku_flowers, $can_use_light_arrows, $has_explosives, hookshot, $small_key_sanity_off"
             ]
           },
           {
@@ -1641,10 +1667,14 @@
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Mirror Room Sun Face Chest, deku",
-              "normal_logic, soul_deku_flowers, $has|smallkey_st|2, mirrorshield, deku",
-              "normal_logic, soul_deku_flowers, $small_key_sanity_off, mirrorshield, deku, $has_explosives",
-              "normal_logic, soul_deku_flowers, $has|smallkey_st|1, deku, $can_use_light_arrows",
-              "normal_logic, soul_deku_flowers, $small_key_sanity_off, deku, $can_use_light_arrows"
+              "normal_logic, $absurd_souls_off, $has|smallkey_st|2, mirrorshield, deku",
+              "normal_logic, $absurd_souls_off, $small_key_sanity_off, mirrorshield, deku, $has_explosives",
+              "normal_logic, $absurd_souls_off, $has|smallkey_st|1, deku, $can_use_light_arrows",
+              "normal_logic, $absurd_souls_off, $small_key_sanity_off, deku, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_deku_flowers, $has|smallkey_st|2, mirrorshield, deku",
+              "normal_logic, absurd_souls, soul_deku_flowers, $small_key_sanity_off, mirrorshield, deku, $has_explosives",
+              "normal_logic, absurd_souls, soul_deku_flowers, $has|smallkey_st|1, deku, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_deku_flowers, $small_key_sanity_off, deku, $can_use_light_arrows"
             ]
           },
           {
@@ -1652,27 +1682,33 @@
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest, goron",
-              "normal_logic, soul_deku_flowers, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest, goron"
+              "normal_logic, $absurd_souls_off, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest, goron",
+              "normal_logic, absurd_souls, soul_deku_flowers, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest, goron"
             ]
           },
           {
             "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest",
-              "normal_logic, soul_garo_master, soul_deku_flowers, $can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest"
+              "normal_logic, soul_garo_master, $absurd_souls_off, $can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest",
+              "normal_logic, soul_garo_master, absurd_souls, soul_deku_flowers, $can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest"
             ]
           },
           {
             "name": "After Garo Upside Down Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
-            "access_rules": ["soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest"]
+            "access_rules": [
+              "$absurd_souls_off, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest",
+              "absurd_souls, soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest"
+            ]
           },
           {
             "name": "Eyegore Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Garo Master Chest, $baby_has_explosives, $baby_has_projectiles",
-              "normal_logic, soul_deku_flowers, @Dungeons/Stone Tower Temple/Garo Master Chest, hookshot"
+              "normal_logic, $absurd_souls_off, @Dungeons/Stone Tower Temple/Garo Master Chest, hookshot",
+              "normal_logic, absurd_souls, soul_deku_flowers, @Dungeons/Stone Tower Temple/Garo Master Chest, hookshot"
             ]
           }
         ],
@@ -1701,25 +1737,34 @@
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, deku, $can_use_light_arrows",
-              "normal_logic, soul_deku_flowers, $can_use_light_arrows, deku"
+              "normal_logic, $absurd_souls_off, $can_use_light_arrows, deku",
+              "normal_logic, absurd_souls, soul_deku_flowers, $can_use_light_arrows, deku"
             ]
           },
           {
             "name": "Eastern Air Gust Room Frozen Switch Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
-            "access_rules": ["soul_deku_flowers, deku, $can_use_fire_arrows, $can_use_light_arrows"]
+            "access_rules": [
+              "$absurd_souls_off, deku, $can_use_fire_arrows, $can_use_light_arrows",
+              "absurd_souls, soul_deku_flowers, deku, $can_use_fire_arrows, $can_use_light_arrows"
+            ]
           },
           {
             "name": "Eastern Air Gust Room Switch Chest",
-            "access_rules": ["soul_deku_flowers, deku, $can_use_light_arrows"]
+            "access_rules": [
+              "$absurd_souls_off, deku, $can_use_light_arrows",
+              "absurd_souls, soul_deku_flowers, deku, $can_use_light_arrows"
+            ]
           },
           {
             "name": "Wizzrobe Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, deku, $can_use_light_arrows",
-              "normal_logic, soul_deku_flowers, soul_wizzrobe, deku, $can_use_light_arrows, $has|smallkey_st|3",
-              "normal_logic, soul_deku_flowers, soul_wizzrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives"
+              "normal_logic, $absurd_souls_off, soul_wizzrobe, deku, $can_use_light_arrows, $has|smallkey_st|3",
+              "normal_logic, $absurd_souls_off, soul_wizzrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives",
+              "normal_logic, absurd_souls, soul_deku_flowers, soul_wizzrobe, deku, $can_use_light_arrows, $has|smallkey_st|3",
+              "normal_logic, absurd_souls, soul_deku_flowers, soul_wizzrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives"
             ]
           },
           {
@@ -1730,15 +1775,18 @@
             "name": "Gomess Chest",
             "access_rules": [
               "easy_logic, deku, $can_use_light_arrows, fairysword, fiercedeity",
-              "normal_logic, soul_deku_flowers, soul_gomess, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $can_use_light_arrows, $can_smack_hard"
+              "normal_logic, $absurd_souls_off, soul_gomess, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $can_use_light_arrows, $can_smack_hard",
+              "normal_logic, absurd_souls, soul_deku_flowers, soul_gomess, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $can_use_light_arrows, $can_smack_hard"
             ]
           },
           {
             "name": "Eyegore Chest",
             "access_rules": [
               "easy_logic, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $baby_has_explosives, $baby_has_projectiles",
-              "normal_logic, soul_deku_flowers, soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $has|smallkey_st|4",
-              "normal_logic, soul_deku_flowers, soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $small_key_sanity_off"
+              "normal_logic, $absurd_souls_off, soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $has|smallkey_st|4",
+              "normal_logic, $absurd_souls_off, soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $small_key_sanity_off",
+              "normal_logic, absurd_souls, soul_deku_flowers, soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $has|smallkey_st|4",
+              "normal_logic, absurd_souls, soul_deku_flowers, soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $small_key_sanity_off"
             ]
           },
           {

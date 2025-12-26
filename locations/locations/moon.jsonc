@@ -11,7 +11,10 @@
           {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["soul_moon_kid, soul_deku_flowers, deku"]
+            "access_rules": [
+              "soul_moon_kid, $absurd_souls_off, deku",
+              "soul_moon_kid, absurd_souls, soul_deku_flowers, deku"
+            ]
           }
         ],
         "map_locations": [

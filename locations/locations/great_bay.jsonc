@@ -23,7 +23,10 @@
           },
           {
             "name": "Fisherman's Grotto Chest",
-            "access_rules": ["soul_grottos"]
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grottos"
+            ]
           },
           {
             "ref": "Groups/Great Bay Map Purchase/Great Bay Map Purchase",
@@ -55,8 +58,10 @@
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
             "access_rules": [
-              "soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
-              "soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
+              "$absurd_souls_off, $misc_souls_off, hookshot, $can_play_eponas",
+              "$absurd_souls_off, misc_souls, soul_cow, hookshot, $can_play_eponas",
+              "absurd_souls, soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
+              "absurd_souls, soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
             ]
           },
           {
@@ -64,8 +69,10 @@
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
             "access_rules": [
-              "soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
-              "soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
+              "$absurd_souls_off, $misc_souls_off, hookshot, $can_play_eponas",
+              "$absurd_souls_off, misc_souls, soul_cow, hookshot, $can_play_eponas",
+              "absurd_souls, soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
+              "absurd_souls, soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
             ]
           },
           {
@@ -111,7 +118,10 @@
           {
             "name": "Pot Game",
             "chest_unopened_img": "images/characters/zora.png",
-            "access_rules": ["soul_potgame_hall_zora, soul_pots, zora"]
+            "access_rules": [
+              "soul_potgame_hall_zora, $absurd_souls_off, zora",
+              "soul_potgame_hall_zora, absurd_souls, soul_pots, zora"
+            ]
           },
           {
             "name": "Deku Flower Chest",
@@ -125,8 +135,10 @@
             "name": "Grotto Chest",
             "access_rules": [
               "easy_logic, goron, $baby_has_explosives",
-              "normal_logic, soul_grottos, goron",
-              "normal_logic, soul_grottos, $has_explosives"
+              "normal_logic, $absurd_souls_off, goron",
+              "normal_logic, $absurd_souls_off, $has_explosives",
+              "normal_logic, absurd_souls, soul_grottos, goron",
+              "normal_logic, absurd_souls, soul_grottos, $has_explosives"
             ]
           },
           {
@@ -199,7 +211,10 @@
           {
             "name": "Goron Scrub Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["soul_business_scrub, soul_deku_flowers, deku, zora, mountaindeed, goron"]
+            "access_rules": [
+              "soul_business_scrub, $absurd_souls_off, deku, zora, mountaindeed, goron",
+              "soul_business_scrub, absurd_souls, soul_deku_flowers, deku, zora, mountaindeed, goron"
+            ]
           },
           {
             "name": "Evan's Song",

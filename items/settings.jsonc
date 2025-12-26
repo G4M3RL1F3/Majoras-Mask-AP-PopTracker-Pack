@@ -447,13 +447,22 @@
   {
     "name": "Boss Souls",
     "type": "toggle",
-    "img": "images/pack_settings/souls/boss_souls.png",
+    "img": "images/pack_settings/souls/boss_souls_on.png",
+    "disabled_img": "images/pack_settings/souls/boss_souls_off.png",
     "codes": "boss_souls"
+  },
+  {
+    "name": "Absurd Souls",
+    "type": "toggle",
+    "img": "images/pack_settings/souls/absurd_souls_on.png",
+    "disabled_img": "images/pack_settings/souls/absurd_souls_off.png",
+    "codes": "absurd_souls"
   },
   {
     "name": "Misc. Souls",
     "type": "toggle",
-    "img": "images/pack_settings/souls/misc_souls.png",
+    "img": "images/pack_settings/souls/misc_souls_on.png",
+    "disabled_img": "images/pack_settings/souls/misc_souls_off.png",
     "codes": "misc_souls"
   }
 ]

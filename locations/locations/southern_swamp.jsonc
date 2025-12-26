@@ -31,7 +31,10 @@
         "sections": [
           {
             "name": "Road to Swamp Grotto Chest",
-            "access_rules": ["soul_grottos"]
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grottos"
+            ]
           }
         ],
         "map_locations": [
@@ -113,7 +116,10 @@
           {
             "name": "Southern Swamp Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["soul_business_scrub, soul_deku_flowers, deku, landdeed"]
+            "access_rules": [
+              "soul_business_scrub, $absurd_souls_off, deku, landdeed",
+              "soul_business_scrub, absurd_souls, soul_deku_flowers, deku, landdeed"
+            ]
           }
         ],
         "map_locations": [
@@ -245,7 +251,10 @@
         "sections": [
           {
             "name": "Southern Swamp Day 2 Grotto Chest",
-            "access_rules": ["soul_grottos"]
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grottos"
+            ]
           }
         ],
         "map_locations": [
@@ -270,7 +279,8 @@
               "chest_unopened_img": "images/equipment/song_sonata_no_text.png",
             "access_rules": [
               "easy_logic, ocarina, $baby_can_plant_beans, deku, $baby_has_projectiles",
-              "normal_logic, soul_deku_flowers, soul_monkey, ocarina, $can_plant_beans, deku"
+              "normal_logic, $absurd_souls_off, soul_monkey, ocarina, $can_plant_beans, deku",
+              "normal_logic, absurd_souls, soul_deku_flowers, soul_monkey, ocarina, $can_plant_beans, deku"
             ]
           }
         ],
@@ -308,14 +318,19 @@
             "name": "Deku Palace Bean Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_can_plant_beans, hookshot",
-              "normal_logic, soul_grottos, $can_plant_beans",
-              "normal_logic, soul_grottos, hookshot"
+              "normal_logic, $absurd_souls_off, $can_plant_beans",
+              "normal_logic, $absurd_souls_off, hookshot",
+              "normal_logic, absurd_souls, soul_grottos, $can_plant_beans",
+              "normal_logic, absurd_souls, soul_grottos, hookshot"
             ]
           },
           {
             "name": "Deku Palace Bean Seller",
             "chest_unopened_img": "images/characters/bean_seller.png",
-            "access_rules": ["soul_grottos, soul_bean_seller, deku"]
+            "access_rules": [
+              "$absurd_souls_off, soul_bean_seller, deku",
+              "absurd_souls, soul_grottos, soul_bean_seller, deku"
+            ]
           }
         ],
         "map_locations": [
@@ -333,7 +348,10 @@
           {
             "name": "Southern Swamp Song Tablet",
               "chest_unopened_img": "images/equipment/song_soaring_no_text.png",
-            "access_rules": ["soul_deku_flowers, deku"]
+            "access_rules": [
+              "$absurd_souls_off, deku",
+              "absurd_souls, soul_deku_flowers, deku"
+            ]
           }
         ],
         "map_locations": [
@@ -350,7 +368,10 @@
         "sections": [
           {
             "name": "Southern Swamp Grotto Chest",
-            "access_rules": ["soul_grottos, deku"]
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grottos, deku"
+            ]
           }
         ],
         "map_locations": [
@@ -367,15 +388,24 @@
         "sections": [
           {
             "name": "Woodfall Owl Statue Chest",
-            "access_rules": ["soul_deku_flowers, deku", "hookshot"]
+            "access_rules": [
+              "$absurd_souls_off, deku", "hookshot",
+              "absurd_souls, soul_deku_flowers, deku", "hookshot"
+            ]
           },
           {
             "name": "Woodfall Bridge Chest",
-            "access_rules": ["soul_deku_flowers"]
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_deku_flowers"
+            ]
           },
           {
             "name": "Woodfall Entrance Chest",
-            "access_rules": ["soul_deku_flowers"]
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_deku_flowers"
+            ]
           },
           {
             "name": "Woodfall Great Fairy Reward",

@@ -25,7 +25,10 @@
         "sections": [
           {
             "name": "Road to Ikana Rock Grotto Chest",
-            "access_rules": ["soul_grottos, goron"]
+            "access_rules": [
+              "$absurd_souls_off, goron",
+              "absurd_souls, soul_grottos, goron"
+            ]
           }
         ],
         "map_locations": [
@@ -64,7 +67,8 @@
             "name": "Bombable Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives",
-              "normal_logic, soul_grottos, $has_explosives, soul_grottos"
+              "normal_logic, $absurd_souls_off, $has_explosives",
+              "normal_logic, absurd_souls, soul_grottos, $has_explosives"
             ]
           },
           {
@@ -131,7 +135,10 @@
         "sections": [
           {
             "name": "Grotto Chest",
-            "access_rules": ["soul_grottos"]
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grottos"
+            ]
           }
         ],
         "map_locations": [
@@ -169,7 +176,10 @@
           {
             "name": "Zora Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["soul_business_scrub, soul_deku_flowers, deku, zora, oceandeed"]
+            "access_rules": [
+              "soul_business_scrub, $absurd_souls_off, deku, zora, oceandeed",
+              "soul_business_scrub, absurd_souls, soul_deku_flowers, deku, zora, oceandeed"
+            ]
           }
         ],
         "map_locations": [

@@ -464,5 +464,12 @@
     "img": "images/pack_settings/souls/misc_souls_on.png",
     "disabled_img": "images/pack_settings/souls/misc_souls_off.png",
     "codes": "misc_souls"
+  },
+  {
+    "name": "NPC Souls",
+    "type": "toggle",
+    "img": "images/pack_settings/souls/npc_souls_on.png",
+    "disabled_img": "images/pack_settings/souls/npc_souls_off.png",
+    "codes": "npc_souls"
   }
 ]

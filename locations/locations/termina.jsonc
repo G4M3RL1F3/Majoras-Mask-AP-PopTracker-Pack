@@ -254,7 +254,10 @@
           {
             "name": "Termina Healing Kamaro (Midnight - 6 AM)",
             "chest_unopened_img": "images/characters/kamaro.png",
-            "access_rules": ["soul_kamaro, $can_play_healing"]
+            "access_rules": [
+              "$npc_souls_off, $can_play_healing",
+              "npc_souls, soul_kamaro, $can_play_healing"
+            ]
           }
         ],
         "map_locations": [
@@ -305,9 +308,12 @@
             "chest_unopened_img": "images/items/moon_tear.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
-              "normal_logic, soul_astral_man, soul_skull_kid, $has_projectiles",
-              "normal_logic, soul_astral_man, soul_skull_kid, $absurd_souls_off, deku",
-              "normal_logic, soul_astral_man, soul_skull_kid, absurd_souls, soul_deku_flowers, deku"
+              "normal_logic, $npc_souls_off, $has_projectiles",
+              "normal_logic, $npc_souls_off, $absurd_souls_off, deku",
+              "normal_logic, $npc_souls_off, absurd_souls, soul_deku_flowers, deku",
+              "normal_logic, npc_souls, soul_astral_man, soul_skull_kid, $has_projectiles",
+              "normal_logic, npc_souls, soul_astral_man, soul_skull_kid, $absurd_souls_off, deku",
+              "normal_logic, npc_souls, soul_astral_man, soul_skull_kid, absurd_souls, soul_deku_flowers, deku"
             ]
           }
         ],
@@ -332,8 +338,10 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, wallet",
-              "normal_logic, $absurd_souls_off, soul_business_scrub, soul_astral_man, $has_projectiles, adultwallet",
-              "normal_logic, absurd_souls, soul_grottos, soul_business_scrub, soul_astral_man, $has_projectiles, adultwallet"
+              "normal_logic, $absurd_souls_off, $npc_souls_off, $has_projectiles, adultwallet",
+              "normal_logic, absurd_souls, soul_grottos, $npc_souls_off, $has_projectiles, adultwallet",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_business_scrub, soul_astral_man, $has_projectiles, adultwallet",
+              "normal_logic, absurd_souls, soul_grottos, npc_souls, soul_business_scrub, soul_astral_man, $has_projectiles, adultwallet"
             ]
           }
         ],

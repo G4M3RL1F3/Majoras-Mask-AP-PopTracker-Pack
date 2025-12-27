@@ -30,6 +30,11 @@
                     "type": "item",
                     "max_width": 260,
                     "item": "misc_souls"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "npc_souls"
                   }
                 ]
               }

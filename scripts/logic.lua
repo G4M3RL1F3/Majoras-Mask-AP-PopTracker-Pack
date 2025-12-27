@@ -86,7 +86,7 @@ function can_plant_beans() -- was "plant_beans"
 end
 
 function can_use_powder_keg() -- was "use_keg"
-    return has("keg") and has("goron")
+    return has("keg") and has("goron") and ((has("npc_souls") and has("soul_keg_goron")) or npc_souls_off()) or (((has("npc_souls") and has("soul_medigoron")) or npc_souls_off()) and has("adultswallet"))
 end
 
 function can_use_fire_arrows() -- was "use_fire_arrows"

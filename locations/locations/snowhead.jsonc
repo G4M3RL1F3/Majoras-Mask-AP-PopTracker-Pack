@@ -30,8 +30,10 @@
             "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
               "easy_logic, $can_play_lullaby, $can_use_fire_arrows",
-              "normal_logic, soul_hungry_goron, goron, magic, $can_play_lullaby",
-              "normal_logic, soul_hungry_goron, goron, $can_use_fire_arrows"
+              "normal_logic, $npc_souls_off, goron, magic, $can_play_lullaby",
+              "normal_logic, $npc_souls_off, goron, $can_use_fire_arrows",
+              "normal_logic, npc_souls, soul_hungry_goron, goron, magic, $can_play_lullaby",
+              "normal_logic, npc_souls, soul_hungry_goron, goron, $can_use_fire_arrows"
             ]
           },
           {
@@ -39,9 +41,12 @@
             "chest_unopened_img": "images/equipment/sword2.png",
             "access_rules": [
               "easy_logic, adultswallet, $baby_clear_snowhead, $baby_has_bottle, @Mountain Village/Invisible Ladder Cave Healing Invisible Goron, $can_use_fire_arrows",
-              "normal_logic, soul_smithy, adultswallet, $can_use_fire_arrows",
-              "normal_logic, soul_smithy, adultswallet, @Twin Islands/Hot Water Grotto Chest",
-              "normal_logic, soul_smithy, adultswallet, $clear_snowhead"
+              "normal_logic, $npc_souls_off, adultswallet, $can_use_fire_arrows",
+              "normal_logic, $npc_souls_off, adultswallet, @Twin Islands/Hot Water Grotto Chest",
+              "normal_logic, $npc_souls_off, adultswallet, $clear_snowhead",
+              "normal_logic, npc_souls, soul_smithy, adultswallet, $can_use_fire_arrows",
+              "normal_logic, npc_souls, soul_smithy, adultswallet, @Twin Islands/Hot Water Grotto Chest",
+              "normal_logic, npc_souls, soul_smithy, adultswallet, $clear_snowhead"
             ]
           },
           {
@@ -49,7 +54,8 @@
             "chest_unopened_img": "images/equipment/sword3.png",
             "access_rules": [
               "easy_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize",
-              "normal_logic, soul_smithy, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize, $has|bottles|1"
+              "normal_logic, $npc_souls_off, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize, $has|bottles|1",
+              "normal_logic, npc_souls, soul_smithy, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize, $has|bottles|1"
             ]
           },
           {
@@ -112,9 +118,12 @@
             "chest_unopened_img": "images/characters/elder_goron.png",
             "access_rules": [
               "easy_logic, goron, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_has_bottle",
-              "normal_logic, soul_goron_elder, goron, $can_use_fire_arrows",
-              "normal_logic, soul_goron_elder, goron, $has|bottles|1, $can_use_lens",
-              "normal_logic, soul_goron_elder, goron, $has|bottles|1, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, owl_mountain"
+              "normal_logic, $npc_souls_off, goron, $can_use_fire_arrows",
+              "normal_logic, $npc_souls_off, goron, $has|bottles|1, $can_use_lens",
+              "normal_logic, $npc_souls_off, goron, $has|bottles|1, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, owl_mountain",
+              "normal_logic, npc_souls, soul_goron_elder, goron, $can_use_fire_arrows",
+              "normal_logic, npc_souls, soul_goron_elder, goron, $has|bottles|1, $can_use_lens",
+              "normal_logic, npc_souls, soul_goron_elder, goron, $has|bottles|1, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, owl_mountain"
             ]
           },
           {
@@ -214,24 +223,33 @@
             "chest_unopened_img": "images/characters/goron_shop.png",
             "item_count": 500,
             "clear_as_group": true,
-            "visibility_rules": ["shopsanity_enabled", "soul_shop_owners, shopsanity_advanced"],
-            "access_rules": ["soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 1"]
+            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
+            "access_rules": [
+              "$npc_souls_off, $can_afford|Snowhead/Goron Village/Shop Item 1",
+              "npc_souls, soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 1"
+            ]
           },
           {
             "name": "Shop Item 2",
             "item_count": 500,
             "clear_as_group": true,
             "chest_unopened_img": "images/characters/goron_shop.png",
-            "visibility_rules": ["shopsanity_enabled", "soul_shop_owners, shopsanity_advanced"],
-            "access_rules": ["soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 2"]
+            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
+            "access_rules": [
+              "$npc_souls_off, $can_afford|Snowhead/Goron Village/Shop Item 2",
+              "npc_souls, soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 2"
+            ]
           },
           {
             "name": "Shop Item 3",
             "item_count": 500,
             "clear_as_group": true,
             "chest_unopened_img": "images/characters/goron_shop.png",
-            "visibility_rules": ["shopsanity_enabled", "soul_shop_owners, shopsanity_advanced"],
-            "access_rules": ["soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 3"]
+            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
+            "access_rules": [
+              "$npc_souls_off, $can_afford|Snowhead/Goron Village/Shop Item 3",
+              "npc_souls, soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 3"
+            ]
           },
           {
             "name": "Shop (Spring) Item 1",
@@ -239,7 +257,10 @@
             "clear_as_group": true,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": ["soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 1"]
+            "access_rules": [
+              "$npc_souls_off, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 1",
+              "npc_souls, soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 1"
+            ]
           },
           {
             "name": "Shop (Spring) Item 2",
@@ -247,7 +268,10 @@
             "clear_as_group": true,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": ["soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 2"]
+            "access_rules": [
+              "$npc_souls_off, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 2",
+              "npc_souls, soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 2"
+            ]
           },
           {
             "name": "Shop (Spring) Item 3",
@@ -255,7 +279,10 @@
             "clear_as_group": true,
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": ["soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 3"]
+            "access_rules": [
+              "$npc_souls_off, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 3",
+              "npc_souls, soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 3"
+            ]
           },
           {
             "name": "Scrub Purchase",
@@ -263,21 +290,28 @@
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, goron, adultswallet",
-              "normal_logic, soul_business_scrub, goron, adultswallet",
-              "normal_logic, soul_business_scrub, @Snowhead/Goron Village/Freestanding HP, @Southern Swamp/Swamp Business Scrub/Southern Swamp Freestanding HP, moontear, adultswallet"
+              "normal_logic, $npc_souls_off, goron, adultswallet",
+              "normal_logic, $npc_souls_off, @Snowhead/Goron Village/Freestanding HP, @Southern Swamp/Swamp Business Scrub/Southern Swamp Freestanding HP, moontear, adultswallet",
+              "normal_logic, npc_souls, soul_business_scrub, goron, adultswallet",
+              "normal_logic, npc_souls, soul_business_scrub, @Snowhead/Goron Village/Freestanding HP, @Southern Swamp/Swamp Business Scrub/Southern Swamp Freestanding HP, moontear, adultswallet"
             ]
           },
           {
             "name": "Deku Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": ["soul_business_scrub, deku, swampdeed"]
+            "access_rules": [
+              "$npc_souls_off, deku, swampdeed",
+              "npc_souls, soul_business_scrub, deku, swampdeed"
+            ]
           },
           {
             "name": "Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
-              "soul_business_scrub, $absurd_souls_off, @Goron Village/Deku Trade",
-              "soul_business_scrub, absurd_souls, soul_deku_flowers, @Goron Village/Deku Trade"
+              "$npc_souls_off, $absurd_souls_off, @Goron Village/Deku Trade",
+              "$npc_souls_off, absurd_souls, soul_deku_flowers, @Goron Village/Deku Trade",
+              "npc_souls, soul_business_scrub, $absurd_souls_off, @Goron Village/Deku Trade",
+              "npc_souls, soul_business_scrub, absurd_souls, soul_deku_flowers, @Goron Village/Deku Trade"
             ]
           },
           {
@@ -285,8 +319,10 @@
             "chest_unopened_img": "images/items/keg.png",
             "access_rules": [
               "easy_logic, powderkeg, $baby_clear_snowhead, $can_use_fire_arrows",
-              "normal_logic, soul_medigoron, $clear_snowhead",
-              "normal_logic, soul_medigoron, goron, $can_use_fire_arrows"
+              "normal_logic, $npc_souls_off, $clear_snowhead",
+              "normal_logic, $npc_souls_off, goron, $can_use_fire_arrows",
+              "normal_logic, npc_souls, soul_medigoron, $clear_snowhead",
+              "normal_logic, npc_souls, soul_medigoron, goron, $can_use_fire_arrows"
             ]
           //},
           //{
@@ -294,8 +330,10 @@
           //  "visibility_rules": ["shopsanity_advanced"],
           //  "access_rules": [
           //    "easy_logic, $baby_clear_snowhead, deku, swampdeed",
-          //    "normal_logic, soul_business_scrub, $absurd_souls_off, $clear_snowhead, deku, swampdeed",
-          //    "normal_logic, soul_business_scrub, absurd_souls, soul_deku_flowers, $clear_snowhead, deku, swampdeed"
+          //    "normal_logic, $npc_souls_off, $absurd_souls_off, $clear_snowhead, deku, swampdeed",
+          //    "normal_logic, $npc_souls_off, absurd_souls, soul_deku_flowers, $clear_snowhead, deku, swampdeed",
+          //    "normal_logic, npc_souls, soul_business_scrub, $absurd_souls_off, $clear_snowhead, deku, swampdeed",
+          //    "normal_logic, npc_souls, soul_business_scrub, absurd_souls, soul_deku_flowers, $clear_snowhead, deku, swampdeed"
           //  ]
           }
         ]
@@ -351,7 +389,8 @@
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": [
               "easy_logic, $baby_snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh",
-              "normal_logic, soul_great_fairy, $snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh"
+              "normal_logic, $npc_souls_off, $snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh",
+              "normal_logic, npc_souls, soul_great_fairy, $snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh"
             ]
           }
         ]

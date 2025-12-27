@@ -3,7 +3,7 @@
     "name": "Inside the Moon",
     "chest_unopened_img": "images/icons/chest.png",
     "chest_opened_img": "images/icons/check_32.png",
-    "access_rules": ["soul_moon_kid, $moon"],
+    "access_rules": ["$moon"],
     "children": [
       {
         "name": "Deku Trial",
@@ -12,8 +12,10 @@
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
-              "soul_moon_kid, $absurd_souls_off, deku",
-              "soul_moon_kid, absurd_souls, soul_deku_flowers, deku"
+              "$npc_souls_off, $absurd_souls_off, deku",
+              "$npc_souls_off, absurd_souls, soul_deku_flowers, deku",
+              "npc_souls, soul_moon_kid, $absurd_souls_off, deku",
+              "npc_souls, soul_moon_kid, absurd_souls, soul_deku_flowers, deku"
             ]
           }
         ],
@@ -36,7 +38,10 @@
           {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["soul_moon_kid, goron, magic"]
+            "access_rules": [
+              "$npc_souls_off, goron, magic",
+              "npc_souls, soul_moon_kid, goron, magic"
+            ]
           }
         ],
         "map_locations": [
@@ -58,7 +63,10 @@
           {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["soul_moon_kid, zora"]
+            "access_rules": [
+              "$nps_souls_off, zora",
+              "npc_souls, soul_moon_kid, zora"
+            ]
           }
         ],
         "map_locations": [
@@ -81,7 +89,8 @@
             "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, fiercedeity, magic, fairysword, gildedsword, bow, hookshot",
-              "normal_logic, soul_moon_kid, soul_garo_master, $can_smack_hard, hookshot"
+              "normal_logic, $npc_souls_off, soul_garo_master, $can_smack_hard, hookshot",
+              "normal_logic, npc_souls, soul_moon_kid, soul_garo_master, $can_smack_hard, hookshot"
             ]
           },
           {
@@ -156,7 +165,10 @@
           {
             "name": "Trade All Masks",
             "chest_unopened_img": "images/masks/fierce_deity.png",
-            "access_rules": ["soul_moon_kid, postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Link Trial/Heart Piece, $can_use_fire_arrows"]
+            "access_rules": [
+              "$npc_souls_off, postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Link Trial/Heart Piece, $can_use_fire_arrows",
+              "npc_souls, soul_moon_kid, postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Link Trial/Heart Piece, $can_use_fire_arrows"
+            ]
           }
         ],
         "map_locations": [

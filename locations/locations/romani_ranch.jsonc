@@ -32,12 +32,18 @@
           {
             "name": "Race",
             "chest_unopened_img": "images/icons/carrot.png",
-            "access_rules": ["soul_gorman_brothers, $can_play_eponas"]
+            "access_rules": [
+              "$npc_souls_off, $can_play_eponas",
+              "npc_souls, soul_gorman_brothers, $can_play_eponas"
+            ]
           },
           {
             "name": "Purchase",
             "chest_unopened_img": "images/characters/gorman_brothers.png",
-            "access_rules": ["soul_gorman_brothers"],
+            "access_rules": [
+              "$npc_souls_off",
+              "npc_souls, soul_gorman_brothers"
+            ],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -58,7 +64,10 @@
           {
             "name": "Baby Cuccos March",
             "chest_unopened_img": "images/characters/grog.png",
-            "access_rules": ["soul_grog, bremenmask"]
+            "access_rules": [
+              "$npc_souls_off, bremenmask",
+              "npc_souls, soul_grog, bremenmask"
+            ]
           }
         ],
         "map_locations": [
@@ -86,7 +95,8 @@
             "chest_unopened_img": "images/icons/dog.png",
             "access_rules": [
               "easy_logic, giantswallet, truth",
-              "normal_logic, soul_dog_race, truth"
+              "normal_logic, $npc_souls_off, truth",
+              "normal_logic, npc_souls, soul_dog_race, truth"
             ]
           }
         ],
@@ -142,18 +152,27 @@
         "sections": [
           {
             "name": "Romani Game",
-            "access_rules": ["soul_romani_cremia, $can_use_powder_keg, bow"],
-            "chest_unopened_img": "images/characters/romani.png"
+            "chest_unopened_img": "images/characters/romani.png",
+            "access_rules": [
+              "$npc_souls_off, $can_use_powder_keg, bow",
+              "npc_souls, soul_romani_cremia, $can_use_powder_keg, bow"
+            ]
           },
           {
             "name": "Aliens",
-            "access_rules": ["soul_romani_cremia, $can_use_powder_keg, bow"],
-            "chest_unopened_img": "images/characters/romani.png"
+            "chest_unopened_img": "images/characters/romani.png",
+            "access_rules": [
+              "$npc_souls_off, $can_use_powder_keg, bow",
+              "npc_souls, soul_romani_cremia, $can_use_powder_keg, bow"
+            ]
           },
           {
             "name": "Helping Cremia",
             "chest_unopened_img": "images/characters/cremia.png",
-            "access_rules": ["soul_romani_cremia, $can_use_powder_keg, bow"]
+            "access_rules": [
+              "$npc_souls_off, $can_use_powder_keg, bow",
+              "npc_souls, soul_romani_cremia, $can_use_powder_keg, bow"
+            ]
           }
         ],
         "map_locations": [

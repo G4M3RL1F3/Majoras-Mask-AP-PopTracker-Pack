@@ -11,7 +11,19 @@ function canReachHotWaterGrottoChest()
     return (has_explosives() and can_use_fire_arrows()) or (can_use_lens() and has("bottles", 1) and has("goron") and has_explosives) or clear_snowhead() or (canReachIkanaWellInvisibleChest() and can_play_soaring())
 end
 
+function canReachWoodfallGekkoChest()
+    return has("soul_gekko") and has("bow") and can_smack()
+end
+
+function canReachGreatBayTemple()
+    return has("soul_trees_bushes") and can_play_bossa_nova() and has("hookshot") and has("zora")
+end
+
 -- Songs
+function can_play_time() -- was "play_healing"
+    return has("time") and has("ocarina")
+end
+
 function can_play_healing() -- was "play_healing"
     return has("healing") and has("ocarina")
 end
@@ -44,11 +56,50 @@ function can_play_elegy()
     return has("elegy") and has("ocarina")
 end
 
+function can_use_ct_owl()
+    return can_play_soaring() and has("owl_ct")
+end
+
+function can_use_milkroad_owl()
+    return can_play_soaring() and has("owl_milk_road")
+end
+
+function can_use_swamp_owl()
+    return can_play_soaring() and has("owl_swamp")
+end
+
+function can_use_woodfall_owl()
+    return can_play_soaring() and has("owl_woodfall")
+end
+
+function can_use_mountain_owl()
+    return can_play_soaring() and has("owl_mountain")
+end
+
+function can_use_snowhead_owl()
+    return can_play_soaring() and has("owl_snowhead")
+end
+
+function can_use_zora_owl()
+    return can_play_soaring() and (has("owl_coast") or has("owl_zora_cape"))
+end
+
+function can_use_ikana_owl()
+    return can_play_soaring() and has("owl_ikana_canyon")
+end
+
+function can_use_stonetower_owl()
+    return can_play_soaring() and has("owl_stone_tower")
+end
+
+function can_warp_out()
+    return can_play_soaring() and (can_use_ct_owl() or can_use_milkroad_owl() or can_use_swamp_owl() or can_use_ikana_owl() or can_use_stonetower_owl())
+end
 
 -- Rules consistent between difficulties
 
 function can_get_magic_beans() -- was "get_beans"
-    return has("beans") and has("deku") and deku_palace()
+    return has("soul_bean_seller") and has("soul_grottos") and has("beans") and has("deku") and deku_palace()
 end
 
 -- has_bombchus() unnecessary: any bombchu pickup is linked to one toggle "bombchu"
@@ -78,7 +129,7 @@ function has_paper()
 end
 
 function can_get_cow_milk()
-    return has("bottles", 1) and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("gibdo") and has("bottles",1) and can_plant_beans() and canReachHotWaterGrottoChest() or can_use_light_arrows() and (canReachHotWaterGrottoChest() or (has("goron") and can_use_lens()) or canReachIkanaWellInvisibleChest())))
+    return has("soul_cow") and has("soul_grottos") and has("bottles", 1) and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("soul_barten") and has("romani")) or (has("gibdo") and has("bottles", 1) and can_plant_beans() and canReachHotWaterGrottoChest() or can_use_light_arrows() and (canReachHotWaterGrottoChest() or (has("goron") and can_use_lens()) or canReachIkanaWellInvisibleChest())))
 end
 
 function can_plant_beans() -- was "plant_beans"
@@ -110,13 +161,16 @@ function can_bring_to_player()
 end
 
 function can_reach_seahorse()
-    return great_bay() and has("zora") and has("pictobox") and (has("hookshot") or has("goron"))
+    return great_bay() and has("soul_fisherman") and has("soul_pirate_guards") and has("zora") and has("pictobox") and (has("hookshot") or has("goron"))
 end
 
-function can_warp_out()
-    return can_play_soaring() and (has("owl_ct") or has("owl_milk_road") or has("owl_swamp") or has("owl_ikana_canyon") or has("owl_stone_tower"))
+function can_get_frogs()
+    return (canReachWoodfallGekkoChest() and canReachGreatBayTemple() and can_use_ice_arrows() and can_use_fire_arrows()) or (has("frog_yellow") and has("frog_white") and has("frog_cyan") and has("frog_blue") and has("frog_pink"))
 end
 
+function can_get_frog_choir_hp()
+    return has("dongero") and clear_snowhead() and can_get_frogs()
+end
 
 -- Easy difficulty rules
 function baby_has_bombchus()
@@ -160,14 +214,20 @@ function baby_can_bring_to_player()
 end
 
 function baby_can_reach_seahorse()
-    return great_bay() and has("zora") and has("hookshot") and has("goron") and has("pictobox")
+    return great_bay() and has("soul_fisherman") and has("zora") and has("pictobox") and (has("hookshot") or has("goron"))
 end
 
 function baby_can_get_cow_milk()
     return baby_has_bottle() and can_play_eponas() and baby_has_explosives() and can_use_powder_keg() and has("hookshot") and has("gibdo") and baby_can_plant_beans() and can_use_light_arrows() and canReachHotWaterGrottoChest() and has("goron") and canReachHealingInvisibleGoron() and canReachIkanaWellInvisibleChest()
 end
 
------
+function frogSanity()
+    if Tracker:FindObjectForCode("frogsanity").Active == false then
+        Tracker:FindObjectForCode("frogsanity_off").Active = true
+    else
+        Tracker:FindObjectForCode("frogsanity_off").Active = false
+    end
+end
 
 -- This function's purpose is for counting how many bottles have been acquired.
 -- Currently used to check if the player has any bottle so that it can be accounted for logic.
@@ -253,7 +313,7 @@ function remainCount()
     else
         Tracker:FindObjectForCode("remains_moon").Active = false
     end
-end
+end    
 
 function can_afford(location)
     local price = 0
@@ -278,6 +338,15 @@ function clear_wft()
     end
     if Tracker:FindObjectForCode("boss_odolwa_hosted").Active == false then
         Tracker:FindObjectForCode("wftreward").Active = false
+    end
+end
+
+function clear_sht()
+    if Tracker:FindObjectForCode("boss_goht_hosted").Active then
+        Tracker:FindObjectForCode("shtreward").Active = true
+    end
+    if Tracker:FindObjectForCode("boss_goht_hosted").Active == false then
+        Tracker:FindObjectForCode("shtreward").Active = false
     end
 end
 
@@ -403,7 +472,9 @@ end
 
 ScriptHost:AddWatchForCode("Small Key Sanity Off", "small_key_sanity", smallKeySanity)
 ScriptHost:AddWatchForCode("Boss Key Sanity Off", "boss_key_sanity", bossKeySanity)
+ScriptHost:AddWatchForCode("Frogsanity Off", "frogsanity", frogSanity)
 ScriptHost:AddWatchForCode("OdolwaDefeated", "boss_odolwa_hosted", clear_wft)
+ScriptHost:AddWatchForCode("GohtDefeated", "boss_goht_hosted", clear_sht)
 ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottleCount)
 ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", bottleCount)
 ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", bottleCount)

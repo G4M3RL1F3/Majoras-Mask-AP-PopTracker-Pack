@@ -142,6 +142,9 @@
         "sections": [
           {
             "ref": "Dungeons/Snowhead Temple/Basement Switch Chest SF"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Basement Grass"
           }
         ],
         "map_locations": [
@@ -149,6 +152,21 @@
             "map": "snowhead_temple",
             "x": 479,
             "y": 1073
+          }
+        ]
+      },
+      {
+        "name": "Basement Grass",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Basement Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 479,
+            "y": 923
           }
         ]
       },

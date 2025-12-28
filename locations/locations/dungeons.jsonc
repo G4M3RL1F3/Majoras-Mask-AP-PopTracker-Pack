@@ -12,9 +12,31 @@
         ],
         "sections": [
           {
+            "name": "Woodfall Temple Entrance Room Grass",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
             "name": "Woodfall Temple Entrance Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": [""]
+          },
+          {
+            "name": "Woodfall Temple Main Room Grass",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Woodfall Temple Switch Chest SF",
@@ -24,6 +46,17 @@
           {
             "name": "Woodfall Temple Ledge Chest",
             "access_rules": [""]
+          },
+          {
+            "name": "Woodfall Temple Deku Elevator Room Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Woodfall Temple Turtle Chest",
@@ -37,6 +70,17 @@
               "normal_logic, soul_dinolfols, $small_key_sanity_off, $can_smack",
               "normal_logic, soul_dinolfols, bow"
             ]
+          },
+          {
+            "name": "Woodfall Temple Turtle Room Grass",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Woodfall Temple Gekko Chest",
@@ -53,6 +97,32 @@
               "normal_logic, soul_dragonflies, $small_key_sanity_off",
               "normal_logic, soul_dragonflies, bow"
             ]
+          },
+          {
+            "name": "Woodfall Temple Dragonfly Chest Room Grass",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, smallkey_wf",
+              "$absurd_souls_off, $small_key_sanity_off",
+              "absurd_souls, soul_grass, smallkey_wf",
+              "absurd_souls, soul_grass, $small_key_sanity_off"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Woodfall Temple 2F Moving Flower Platform Room Grass",
+            "item_count": 10,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, smallkey_wf",
+              "$absurd_souls_off, $small_key_sanity_off",
+              "absurd_souls, soul_grass, smallkey_wf",
+              "absurd_souls, soul_grass, $small_key_sanity_off"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Woodfall Temple Dark Room Chest SF",
@@ -177,6 +247,17 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
+            "name": "Woodfall Temple Pre-Boss Room Grass",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
             "name": "Woodfall Temple Heart Container",
             "chest_unopened_img": "images/equipment/heart_container.png",
             "access_rules": [
@@ -214,6 +295,20 @@
               "normal_logic, boss_souls, soul_odolwa, bow, $can_smack, odolwa, boss_warps_with_remains"
             ],
             "hosted_item": "oath_wft"
+          },
+          {
+            "name": "Woodfall Temple Odolwa's Lair Grass",
+            "item_count": 16,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, bosskey_wf",
+              "normal_logic, $absurd_souls_off, $boss_key_sanity_off",
+              "normal_logic, $absurd_souls_off, boss_warps_with_remains",
+              "normal_logic, absurd_souls, soul_grass, bosskey_wf",
+              "normal_logic, absurd_souls, soul_grass, $boss_key_sanity_off",
+              "normal_logic, absurd_souls, soul_grass, boss_warps_with_remains"
+            ]
           }
         ],
         "map_locations": [
@@ -307,6 +402,17 @@
             "name": "Basement Switch Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_sh.png",
             "access_rules": [""]
+          },
+          {
+            "name": "Snowhead Temple Basement Grass",
+            "item_count": 10,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Main Room Wall Chest SF",
@@ -1427,11 +1533,33 @@
         ],
         "sections": [
           {
+            "name": "Secret Shrine Entrance Grass",
+            "item_count": 6,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
             "name": "Dinolfos Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $can_use_light_arrows",
               "normal_logic, soul_dinolfos, $can_smack_hard, $can_use_light_arrows"
             ]
+          },
+          {
+            "name": "Secret Shrine Dinolfos Grass",
+            "item_count": 4,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Wizzrobe Chest",
@@ -1441,6 +1569,17 @@
             ]
           },
           {
+            "name": "Secret Shrine Wizzrobe Grass",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
             "name": "Wart Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $baby_has_projectiles, $baby_has_explosives, $can_use_light_arrows",
@@ -1448,11 +1587,33 @@
             ]
           },
           {
+            "name": "Secret Shrine Wart Grass",
+            "item_count": 8,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
             "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $can_use_light_arrows",
               "normal_logic, soul_garo_master, $can_smack_hard, $can_use_light_arrows"
             ]
+          },
+          {
+            "name": "Secret Shrine Garo Master Grass",
+            "item_count": 6,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Completion Chest",
@@ -1528,6 +1689,72 @@
             ]
           },
           {
+            "name": "Beneath the Well Right Side Cow Grass",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, maskofscents",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, adultswallet",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, $can_play_soaring, $can_use_lens, goron",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_use_light_arrows, maskofscents",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_use_light_arrows, adultswallet",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_soaring, $can_use_lens, goron",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, maskofscents",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, adultswallet",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, $can_play_soaring, $can_use_lens, goron",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_use_light_arrows, maskofscents",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_use_light_arrows, adultswallet",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_soaring, $can_use_lens, goron",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, maskofscents",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, adultswallet",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, $can_play_soaring, $can_use_lens, goron",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, maskofscents",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, adultswallet",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_soaring, $can_use_lens, goron",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, maskofscents",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, adultswallet",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, $can_play_soaring, $can_use_lens, goron",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, maskofscents",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, adultswallet",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_soaring, $can_use_lens, goron",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Beneath the Well Right Side Before Big Poe and Cow Grass",
+            "item_count": 4,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $can_plant_beans",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $can_use_light_arrows",
+              "normal_logic, $absurd_souls_off, $npc_souls, soul_gibdo, gibdo, $can_plant_beans",
+              "normal_logic, $absurd_souls_off, $npc_souls, soul_gibdo, gibdo, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $can_plant_beans",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdo, gibdo, $can_plant_beans",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdo, gibdo, $can_use_light_arrows"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
             "name": "Invisible Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, adultswallet, maskofscents, $can_use_fire_arrows, $can_use_lens",
@@ -1538,6 +1765,19 @@
             ]
           },
           {
+            "name": "Beneath the Well Left Side Back Room Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, adultswallet",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, maskofscents",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, adultswallet",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, maskofscents"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
             "name": "Rightside Torch Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, $baby_can_plant_beans, $can_use_light_arrows",
@@ -1546,6 +1786,25 @@
               "normal_logic, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans",
               "normal_logic, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows"
             ]
+          },
+          {
+            "name": "Beneath the Well Right Side Back Room Grass",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, bombs",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, bombs",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, bombs",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, bombs",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow",
+              "normal_logic, $absurd_souls_off, $can_use_light_arrows, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_grass, $can_use_light_arrows, $can_use_fire_arrows"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Final Chest",
@@ -1574,6 +1833,17 @@
           "normal_logic, $ikana_castle"
         ],
         "sections": [
+          {
+            "name": "Ikana Castle Grass",
+            "item_count": 11,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
           {
             "name": "Pillar Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
@@ -1613,6 +1883,17 @@
             "access_rules": ["bow"]
           },
           {
+            "name": "Stone Tower Temple Entrance Room Grass",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
             "name": "Entrance Room Lower Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
@@ -1621,6 +1902,17 @@
               "deku, absurd_souls, soul_deku_flowers, $can_use_light_arrows, hookshot, $has|smallkey_st|4",
               "deku, absurd_souls, soul_deku_flowers, $can_use_light_arrows, $has_explosives, hookshot, $small_key_sanity_off"
             ]
+          },
+          {
+            "name": "Stone Tower Temple Elegy Maze Grass",
+            "item_count": 6,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Armos Room Back Chest",

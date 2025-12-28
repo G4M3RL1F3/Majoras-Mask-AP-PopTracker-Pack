@@ -74,12 +74,45 @@
             ]
           },
           {
+            "name": "Mountain Village Spring Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, $clear_snowhead",
+              "absurd_souls, soul_grottos, soul_grass, $clear_snowhead"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
             "name": "Spring Frog Choir HP",
             "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
               "easy_logic, dongeromask, $baby_clear_snowhead, $baby_woodfall_temple, $baby_can_smack_hard, $baby_has_explosives, deku, goron, $baby_great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows",
               "normal_logic, frog_yellow, frog_white, frog_cyan, frog_blue, frog_pink, dongero, $clear_snowhead, @Dungeons/Woodfall Temple/Woodfall Temple Gekko Chest, $great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows"
             ]
+          },
+          {
+            "name": "Mountain Village Keaton Grass",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, $clear_snowhead",
+              "absurd_souls, soul_grass, $clear_snowhead"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Mountain Village Springtime Grass",
+            "item_count": 30,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, $clear_snowhead",
+              "absurd_souls, soul_grass, $clear_snowhead"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ]
       },
@@ -112,6 +145,19 @@
               "normal_logic, absurd_souls, soul_grottos, $has_explosives, goron",
               "normal_logic, absurd_souls, soul_grottos, $has_explosives, hookshot"
             ]
+          },
+          {
+            "name": "Twin Islands Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $has_explosives, goron",
+              "normal_logic, $absurd_souls_off, $has_explosives, hookshot",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, $has_explosives, goron",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, $has_explosives, hookshot"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Goron Elder Request",
@@ -162,6 +208,17 @@
               "normal_logic, $clear_snowhead, powderkeg",
               "normal_logic, $clear_snowhead, @Snowhead/Goron Village/Powder Keg Goron Reward"
             ]
+          },
+          {
+            "name": "Twin Islands Springtime Grass",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, $clear_snowhead",
+              "absurd_souls, soul_grass, $clear_snowhead"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ]
       },
@@ -193,6 +250,17 @@
               "easy_logic, $baby_has_explosives, $can_use_lens",
               "normal_logic, $has_explosives"
             ]
+          },
+          {
+            "name": "Goron Village Lens Cave Grass",
+            "item_count": 24,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ]
       },
@@ -359,6 +427,17 @@
               "normal_logic, $absurd_souls_off, goron, magic, $has_explosives",
               "normal_logic, absurd_souls, soul_grottos, goron, magic, $has_explosives"
             ]
+          },
+          {
+            "name": "Path To Snowhead Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, goron, magic, $has_explosives",
+              "absurd_souls, soul_grass, soul_grottos, goron, magic, $has_explosives"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Scarecrow Pillar HP",

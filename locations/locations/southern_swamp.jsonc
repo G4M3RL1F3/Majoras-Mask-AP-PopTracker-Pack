@@ -15,6 +15,28 @@
               "easy_logic, $baby_has_projectiles",
               "normal_logic, $has_projectiles"
             ]
+          },
+          {
+            "name": "Road to Southern Swamp Grass Group 1",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass Group 2",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -25,9 +47,8 @@
           }
         ]
       },
-
       {
-        "name": "Road to Swamp Grotto Chest",
+        "name": "Road to Swamp Grotto",
         "sections": [
           {
             "name": "Road to Swamp Grotto Chest",
@@ -35,6 +56,17 @@
               "$absurd_souls_off",
               "absurd_souls, soul_grottos"
             ]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -58,6 +90,17 @@
           },
           {
             "name": "Swamp Shooting Gallery 2180 Points"
+          },
+          {
+            "name": "Outside Archery Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -96,6 +139,48 @@
             "map": "overworld",
             "x": 545,
             "y": 419
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Owl",
+        "sections": [
+          {
+            "name": "Southern Swamp Owl Statue",
+            "chest_unopened_img": "images/pack_settings/sanities/owl_statues/owl_swamp_on.png"
+            // "access_rules": [
+            //   "$owlsanity_off, $can_smack",
+            //   "owlsanity, $can_smack"
+            // ]
+          },
+          {
+            "name": "Southern Swamp Owl Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Southern Swamp Owl Post Dungeon Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, clear_wft",
+              "absurd_souls, soul_grass, clear_wft"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 535,
+            "y": 430
           }
         ]
       },
@@ -187,6 +272,28 @@
               "normal_logic, $npc_souls_off, pictobox",
               "normal_logic, npc_souls, soul_swamp_guide, pictobox"
             ]
+          },
+          {
+            "name": "Southern Swamp Grass Near Tourist Centre",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Southern Swamp Post Dungeon Grass Near Tourist Centre",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, clear_wft",
+              "absurd_souls, soul_grass, clear_wft"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -266,6 +373,72 @@
               "shopsanity_enabled",
               "shopsanity_advanced"
             ]
+          },
+          {
+            "name": "Southern Swamp Grass Near Witch Shop Group 1",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Southern Swamp Grass Near Witch Shop Group 2",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Southern Swamp Near Gossip Stone Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Southern Swamp Post Dungeon Grass Near Witch Shop Group 1",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, clear_wft",
+              "absurd_souls, soul_grass, clear_wft"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Southern Swamp Post Dungeon Grass Near Witch Shop Group 2",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, clear_wft",
+              "absurd_souls, soul_grass, clear_wft"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Southern Swamp Post Dungeon Near Gossip Stone Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, clear_wft",
+              "absurd_souls, soul_grass, clear_wft"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -277,7 +450,57 @@
         ]
       },
       {
-        "name": "Southern Swamp Day 2 Grotto Chest",
+        "name": "Woods of Mystery",
+        "sections": [
+          {
+            "name": "Woods of Mystery Grass",
+            "item_count": 20,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Woods of Mystery Day 2 Unique Grass",
+            "item_count": 1,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Woods of Mystery Day 3 Unique Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 637,
+            "y": 430
+          },
+          {
+            "map": "woods_of_mystery",
+            "x": 285,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Day 2 Grotto",
         "sections": [
           {
             "name": "Southern Swamp Day 2 Grotto Chest",
@@ -285,6 +508,17 @@
               "$absurd_souls_off",
               "absurd_souls, soul_grottos"
             ]
+          },
+          {
+            "name": "Woods of Mystery Day 2 Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -365,6 +599,17 @@
               "$absurd_souls_off, npc_souls, soul_bean_seller, deku",
               "absurd_souls, soul_grottos, npc_souls, soul_bean_seller, deku"
             ]
+          },
+          {
+            "name": "Deku Palace Bean Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -397,7 +642,7 @@
         ]
       },
       {
-        "name": "Southern Swamp Grotto Chest",
+        "name": "Southern Swamp Grotto",
         "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
         "sections": [
           {
@@ -406,6 +651,17 @@
               "$absurd_souls_off",
               "absurd_souls, soul_grottos, deku"
             ]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -449,6 +705,17 @@
               "npc_souls, soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_wf"
             ]
             //"visibility_rules": ["shuffle_great_fairy_rewards"]
+          },
+          {
+            "name": "Woodfall Grass",
+            "item_count": 6,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [

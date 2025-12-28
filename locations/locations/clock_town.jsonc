@@ -109,6 +109,26 @@
         ]
       },
       {
+        "name": "South Clock Town Owl",
+        "sections": [
+          {
+            "name": "Clock Town Owl Statue",
+            "chest_unopened_img": "images/pack_settings/sanities/owl_statues/owl_ct_on.png"
+            // "access_rules": [
+            //   "$owlsanity_off, $can_smack",
+            //   "owlsanity, $can_smack"
+            // ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 95,
+            "y": 105
+          }
+        ]
+      },
+      {
         "name": "South Clock Town Business Scrub",
         "sections": [
           {
@@ -118,6 +138,15 @@
               "$npc_souls_off, moontear",
               "npc_souls, soul_business_scrub, moontear"
             ]
+          },
+          {
+            "name": "Deku Flower",
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": [
+              "$absurd_souls_off, deku",
+              "absurd_souls, soul_deku_flowers, deku"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -283,7 +312,6 @@
               "$absurd_souls_off",
               "absurd_souls, soul_trees_bushes"
             ]
-            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "North Clock Town Tree 2",

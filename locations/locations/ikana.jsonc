@@ -21,7 +21,7 @@
         ]
       },
       {
-        "name": "Road to Ikana Rock Grotto Chest",
+        "name": "Road to Ikana Rock Grotto",
         "sections": [
           {
             "name": "Road to Ikana Rock Grotto Chest",
@@ -29,6 +29,17 @@
               "$absurd_souls_off, goron",
               "absurd_souls, soul_grottos, goron"
             ]
+          },
+          {
+            "name": "Road To Ikana Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, goron",
+              "absurd_souls, soul_grottos, soul_grass, goron"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -71,6 +82,17 @@
               "normal_logic, $absurd_souls_off, $has_explosives",
               "normal_logic, absurd_souls, soul_grottos, $has_explosives"
             ]
+          },
+          {
+            "name": "Ikana Graveyard Bombable Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, $has_explosives",
+              "absurd_souls, soul_grottos, soul_grass, $has_explosives"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Day 1 Bats Chest",
@@ -124,6 +146,28 @@
               "normal_logic, $npc_souls_off, $can_play_sonata, $can_smack_hard",
               "normal_logic, npc_souls, soul_stalchildren, $can_play_sonata, $can_smack_hard"
             ]
+          },
+          {
+            "name": "Ikana Graveyard Lower Grass",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Ikana Graveyard Upper Grass",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -147,6 +191,17 @@
               "$absurd_souls_off",
               "absurd_souls, soul_grottos"
             ]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grottos, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -277,6 +332,17 @@
               "$npc_souls_off, $can_use_ice_arrows, $checkRequirements|required_stray_fairies|fairy_st",
               "npc_souls, soul_great_fairy, $can_use_ice_arrows, $checkRequirements|required_stray_fairies|fairy_st"
             ]
+          },
+          {
+            "name": "Ikana Canyon Grass",
+            "item_count": 4,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, $can_use_ice_arrows",
+              "absurd_souls, soul_grottos, soul_grass, $can_use_ice_arrows"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [

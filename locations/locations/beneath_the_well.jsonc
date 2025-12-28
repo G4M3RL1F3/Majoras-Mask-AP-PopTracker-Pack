@@ -7,6 +7,9 @@
         "sections": [
           {
             "ref": "Dungeons/Beneath the Well/Cow"
+          },
+          {
+            "ref": "Dungeons/Beneath the Well/Beneath the Well Right Side Cow Grass"
           }
         ],
         "map_locations": [
@@ -29,6 +32,36 @@
             "map": "beneath_the_well",
             "x": 545,
             "y": 496
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Beneath the Well/Beneath the Well Right Side Back Room Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 545,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Beneath the Well/Beneath the Well Left Side Back Room Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 256,
+            "y": 592
           }
         ]
       },

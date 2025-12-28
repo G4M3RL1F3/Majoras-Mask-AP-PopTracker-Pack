@@ -27,6 +27,51 @@
         ]
       },
       {
+        "name": "Milk Road",
+        "sections": [
+          {
+          "ref": "Clock Town/Keaton/Keaton Quiz"
+          },
+          {
+            "name": "Milk Road Keaton Grass",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Milk Road Owl Statue",
+            "chest_unopened_img": "images/pack_settings/sanities/owl_statues/owl_milk_road_on.png"
+            // "access_rules": [
+            //   "$owlsanity_off, $can_smack",
+            //   "owlsanity, $can_smack"
+            // ]
+          },
+          {
+            "name": "Milk Road Owl Grass",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 461,
+            "y": 364
+          }
+        ]
+      },
+      {
         "name": "Gorman Track",
         "sections": [
           {
@@ -48,6 +93,28 @@
               "shopsanity_enabled",
               "shopsanity_advanced"
             ]
+          },
+          {
+            "name": "Milk Road Gorman Racetrack Grass Group 1",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Milk Road Gorman Racetrack Grass Group 2",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -179,6 +246,73 @@
           {
             "map": "overworld",
             "x": 391,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Romani Ranch Grass",
+        "sections": [
+          {
+            "name": "Romani Ranch Grass In Front of Gossip Tree",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Romani Ranch Grass Behind Gossip Tree",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Romani Ranch Grass Near Entrance",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Romani Ranch Grass Between Entrance and Barn",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Romani Ranch Grass Behind Barn",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 406,
             "y": 350
           }
         ]

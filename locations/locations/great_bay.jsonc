@@ -29,6 +29,28 @@
             ]
           },
           {
+            "name": "Fisherman's Grass",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Fisherman's Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_grottos, soul_grass"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
             "ref": "Groups/Great Bay Map Purchase/Great Bay Map Purchase",
             "access_rules": ["bow", "hookshot"]
           },
@@ -76,6 +98,72 @@
               "absurd_souls, soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
               "absurd_souls, soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
             ]
+          },
+          {
+            "name": "Great Bay Grotto Grass Group 1",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, hookshot, $can_play_eponas",
+              "absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Great Bay Grotto Grass Group 2",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, hookshot, $can_play_eponas",
+              "absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Great Bay Grotto Grass Group 3",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, hookshot, $can_play_eponas",
+              "absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Great Bay Grotto Grass Group 4",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, hookshot, $can_play_eponas",
+              "absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Great Bay Grotto Grass Group 5",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, hookshot, $can_play_eponas",
+              "absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Great Bay Grotto Grass Group 6",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, hookshot, $can_play_eponas",
+              "absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Scarecrow Ledge HP",
@@ -153,6 +241,19 @@
               "normal_logic, absurd_souls, soul_grottos, goron",
               "normal_logic, absurd_souls, soul_grottos, $has_explosives"
             ]
+          },
+          {
+            "name": "Zora Cape Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$absurd_souls_off, goron",
+              "$absurd_souls_off, $has_explosives",
+              "absurd_souls, soul_grottos, soul_grass, goron",
+              "abusrd_souls, soul_grottos, soul_grass, $has_explosives"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Great Bay Great Fairy Reward",

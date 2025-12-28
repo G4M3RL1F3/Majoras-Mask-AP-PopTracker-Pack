@@ -33,6 +33,36 @@
         ]
       },
       {
+        "name": "Entrance Room Grass",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Stone Tower Temple Entrance Room Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 402,
+            "y": 766
+          }
+        ]
+      },
+      {
+        "name": "Elegy Maze Grass",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Stone Tower Temple Elegy Maze Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 138,
+            "y": 630
+          }
+        ]
+      },
+      {
         "name": "Armos Room Back Chest",
         "sections": [
           {

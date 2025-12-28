@@ -8,6 +8,21 @@
         "name": "",
         "sections": [
           {
+            "ref": "Dungeons/Ikana Castle/Ikana Castle Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 426,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
             "ref": "Dungeons/Ikana Castle/Pillar Freestanding HP"
           }
         ],

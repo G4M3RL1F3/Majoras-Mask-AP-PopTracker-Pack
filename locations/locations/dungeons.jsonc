@@ -1556,8 +1556,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "$absurd_souls_off, $can_use_light_arrows",
+              "absurd_souls, soul_grass, $can_use_light_arrows"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -1574,8 +1574,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "$absurd_souls_off, $can_use_light_arrows",
+              "absurd_souls, soul_grass, $can_use_light_arrows"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -1592,8 +1592,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "$absurd_souls_off, $can_use_light_arrows",
+              "absurd_souls, soul_grass, $can_use_light_arrows"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -1610,8 +1610,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "$absurd_souls_off, $can_use_light_arrows",
+              "absurd_souls, soul_grass, $can_use_light_arrows"
             ]
             //"visibility_rules": ["absurd_souls"]
           },

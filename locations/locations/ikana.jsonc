@@ -182,7 +182,7 @@
         "name": "Near Secret Shrine Entrance",
         "access_rules": [
           "easy_logic, $baby_ikana_canyon",
-          "normal_logic, $ikana_canyon"
+          "normal_logic, $lower_ikana_canyon"
         ],
         "sections": [
           {
@@ -216,7 +216,7 @@
         "name": "Near Thief's Hideout Entrance",
         "access_rules": [
           "easy_logic, $baby_ikana_canyon",
-          "normal_logic, $ikana_canyon"
+          "normal_logic, $lower_ikana_canyon"
         ],
         "sections": [
           {
@@ -261,7 +261,7 @@
         "name": "Ikana Canyon",
         "access_rules": [
           "easy_logic, $baby_ikana_canyon",
-          "normal_logic, $ikana_canyon"
+          "normal_logic, $upper_ikana_canyon"
         ],
         "sections": [
           //{

@@ -221,14 +221,6 @@ function baby_can_get_cow_milk()
     return baby_has_bottle() and can_play_eponas() and baby_has_explosives() and can_use_powder_keg() and has("hookshot") and has("gibdo") and baby_can_plant_beans() and can_use_light_arrows() and canReachHotWaterGrottoChest() and has("goron") and canReachHealingInvisibleGoron() and canReachIkanaWellInvisibleChest()
 end
 
-function frogSanity()
-    if Tracker:FindObjectForCode("frogsanity").Active == false then
-        Tracker:FindObjectForCode("frogsanity_off").Active = true
-    else
-        Tracker:FindObjectForCode("frogsanity_off").Active = false
-    end
-end
-
 -- This function's purpose is for counting how many bottles have been acquired.
 -- Currently used to check if the player has any bottle so that it can be accounted for logic.
 function bottleCount()
@@ -313,7 +305,186 @@ function remainCount()
     else
         Tracker:FindObjectForCode("remains_moon").Active = false
     end
-end    
+end
+
+
+function maskCount()
+    local masks_count = Tracker:FindObjectForCode("masks_count")
+    masks_count.AcquiredCount = masks_count.MinCount
+    if Tracker:FindObjectForCode("captain").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("allnight").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("bunnyhood").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("keaton").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("garo").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("romani").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("circus").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("postman").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("couple").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("fairymask").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("gibdo").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("dongero").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("kamaro").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("truth").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("stone").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("breman").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("blast").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("scents").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("kafei").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("giant").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("deku").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("goron").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("zora").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if Tracker:FindObjectForCode("fiercedeitymask").Active then
+        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
+            masks_count.AcquiredCount = masks_count.MaxCount
+        else
+            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
+        end
+    end
+    if masks_count.AcquiredCount >= Tracker:FindObjectForCode("masks_required").AcquiredCount then
+        Tracker:FindObjectForCode("masks_moon").Active = true
+    else
+        Tracker:FindObjectForCode("masks_moon").Active = false
+    end
+end
 
 function can_afford(location)
     local price = 0

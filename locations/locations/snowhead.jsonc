@@ -507,7 +507,8 @@
             "name": "Scarecrow Pillar HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
-              "soul_scarecrow, goron, $can_use_lens, hookshot"
+              "$can_reach_scarecrow|scarecrow_path_snowhead_winter, npc_souls, soul_scarecrow, goron, $can_use_lens, hookshot",
+              "$can_reach_scarecrow|scarecrow_path_snowhead_winter, $npc_souls_off, goron, $can_use_lens, hookshot"
           ]
           }
         ]

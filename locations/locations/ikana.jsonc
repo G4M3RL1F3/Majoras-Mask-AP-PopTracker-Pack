@@ -80,10 +80,8 @@
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
-              "normal_logic, $absurd_souls_off, $can_play_eponas, $scarecrow_sanity_off, hookshot",
-              "normal_logic, $absurd_souls_off, $can_play_eponas, scarcrow, $can_reach_scarecrow, road_to_ikana_spire, hookshot",
-              "normal_logic, $absurd_souls_off, $can_play_eponas, $scarecrow_sanity_off, $can_reach_scarecrow, road_to_ikana_spire, hookshot",
-              "normal_logic, absurd_souls, soul_pots, $can_play_eponas, hookshot"
+              "$absurd_souls_off, $can_play_eponas, $can_reach_scarecrow|scarecrow_road_to_ikana, hookshot",
+              "absurd_souls, soul_pots, $can_play_eponas, hookshot"
             ]
           }
         ],
@@ -482,44 +480,28 @@
             "name": "Stone Tower Lower Scarecrow Pots",
             "item_count": 12,
             "access_rules": [
-              "normal_logic, $absurd_souls_off, $npc_souls_off, $scarecrow_sanity_off, hookshot, goron, zora, elegy",
-              "normal_logic, $absurd_souls_off, $npc_souls_off, scarecrow_sanity, $can_reach_scarecrow, stone_tower_lower, hookshot, goron, zora, elegy",
-              "normal_logic, $absurd_souls_off, $npc_souls_off, $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
-              "normal_logic, $absurd_souls_off, $npc_souls_off, scarecrow_sanity, $can_reach_scarecrow, stone_tower_lower, hookshot, $can_use_stonetower_owl",
-              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, goron, zora, elegy",
-              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_lower, hookshot, goron, zora, elegy",
-              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
-              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_lower, hookshot, $can_use_stonetower_owl",
-              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $scarecrow_sanity_off, hookshot, goron, zora, elegy",
-              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $can_reach_scarecrow, stone_tower_lower, hookshot, goron, zora, elegy",
-              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
-              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $can_reach_scarecrow, stone_tower_lower, hookshot, $can_use_stonetower_owl",
-              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, goron, zora, elegy",
-              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_lower, hookshot, goron, zora, elegy",
-              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
-              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_lower, hookshot, $can_use_stonetower_owl"
+              "normal_logic, $absurd_souls_off, $npc_souls_off, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, $can_use_stonetower_owl",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, $can_use_stonetower_owl"
             ]
           },
           {
             "name": "Stone Tower Upper Scarecrow Pots",
             "item_count": 9,
             "access_rules": [
-              "normal_logic, $absurd_souls_off, $npc_souls_off, $scarecrow_sanity_off, hookshot, goron, zora, elegy",
-              "normal_logic, $absurd_souls_off, $npc_souls_off, scarecrow_sanity, $can_reach_scarecrow, stone_tower_upper, hookshot, goron, zora, elegy",
-              "normal_logic, $absurd_souls_off, $npc_souls_off, $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
-              "normal_logic, $absurd_souls_off, $npc_souls_off, scarecrow_sanity, $can_reach_scarecrow, stone_tower_upper, hookshot, $can_use_stonetower_owl",
-              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, goron, zora, elegy",
-              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_upper, hookshot, goron, zora, elegy",
-              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
-              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_upper, hookshot, $can_use_stonetower_owl",
-              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $scarecrow_sanity_off, hookshot, goron, zora, elegy",
-              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $can_reach_scarecrow, stone_tower_upper, hookshot, goron, zora, elegy",
-              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
-              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $can_reach_scarecrow, stone_tower_upper, hookshot, $can_use_stonetower_owl",
-              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, goron, zora, elegy",
-              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_upper, hookshot, goron, zora, elegy",
-              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
-              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_upper, hookshot, $can_use_stonetower_owl"
+              "normal_logic, $absurd_souls_off, $npc_souls_off, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, $can_use_stonetower_owl",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, $can_use_stonetower_owl"
             ]
           },
           {

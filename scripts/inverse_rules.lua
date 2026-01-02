@@ -27,8 +27,3 @@ ScriptHost:AddWatchForCode("NPC Souls Off", "npc_souls", npc_souls_off)
 function npc_souls_off()
     return (1 - Tracker:ProviderCountForCode("npc_souls") > 0)
 end
-
-ScriptHost:AddWatchForCode("Scarecrow Sanity Off", "scarecrow_sanity", scarecrow_sanity_off)
-function scarecrow_sanity_off()
-    return (1 - Tracker:ProviderCountForCode("scarecrow_sanity") > 0)
-end

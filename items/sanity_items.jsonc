@@ -105,7 +105,7 @@
 
   // Scarecrows,
   {
-    "name": "Mountain Village Rooftop Scarecrow",
+    "name": "Mountain Village Rooftop Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/mtn_village_winter.png",
     "codes": "mtn_village_winter"
@@ -118,7 +118,7 @@
     "codes": "scarecrow_mtn_village_winter"
   },
   {
-    "name": "Mountain Village Spring Rooftop Scarecrow",
+    "name": "Mountain Village Spring Rooftop Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/mtn_village_spring.png",
     "codes": "mtn_village_spring"
@@ -131,7 +131,7 @@
     "codes": "scarecrow_mtn_village_spring"
   },
   {
-    "name": "Path to Snowhead Scarecrow",
+    "name": "Path to Snowhead Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/path_snowhead_pillar_winter.png",
     "codes": "path_snowhead_pillar_winter"
@@ -144,7 +144,7 @@
     "codes": "scarecrow_path_snowhead_winter"
   },
   {
-    "name": "Path to Snowhead Spring Scarecrow",
+    "name": "Path to Snowhead Spring Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/path_snowhead_pillar_spring.png",
     "codes": "path_snowhead_pillar_spring"
@@ -157,7 +157,7 @@
     "codes": "scarecrow_path_snowhead_spring"
   },
   {
-    "name": "Twin Islands Scarecrow",
+    "name": "Twin Islands Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/twin_islands_ramp_winter.png",
     "codes": "twin_islands_ramp_winter"
@@ -170,7 +170,7 @@
     "codes": "scarecrow_twin_islands_winter"
   },
   {
-    "name": "Twin Islands Spring Scarecrow",
+    "name": "Twin Islands Spring Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/twin_islands_ramp_spring.png",
     "codes": "twin_islands_ramp_spring"
@@ -183,7 +183,7 @@
     "codes": "scarecrow_twin_islands_spring"
   },
   {
-    "name": "Snowhead Temple Lower Scarecrow",
+    "name": "Snowhead Temple Lower Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/sht_lower_red_door.png",
     "codes": "sht_lower_red_door"
@@ -196,7 +196,7 @@
     "codes": "scarecrow_sht_lower"
   },
   {
-    "name": "Snowhead Temple Hidden Alcove Scarecrow",
+    "name": "Snowhead Temple Hidden Alcove Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/sht_hidden.png",
     "codes": "sht_hidden"
@@ -209,7 +209,7 @@
     "codes": "scarecrow_sht_hidden_alcove"
   },
   {
-    "name": "Great Bay Coast Rock Wall Scarecrow",
+    "name": "Great Bay Coast Rock Wall Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/gb_coast_rock_wall.png",
     "codes": "gb_coast_rock_wall"
@@ -222,7 +222,7 @@
     "codes": "scarecrow_gb_coast_rock_wall"
   },
   {
-    "name": "Zora Cape Beavers Scarecrow",
+    "name": "Zora Cape Beavers Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/zora_cape_beaver_ledge.png",
     "codes": "zora_cape_beaver_ledge"
@@ -235,7 +235,7 @@
     "codes": "scarecrow_zora_cape_beavers"
   },
   {
-    "name": "Zora Cape Island Scarecrow",
+    "name": "Zora Cape Island Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/zora_cape_island.png",
     "codes": "zora_cape_island"
@@ -248,7 +248,7 @@
     "codes": "scarecrow_zora_cape_island"
   },
   {
-    "name": "Road to Ikana Scarecrow",
+    "name": "Road to Ikana Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/road_to_ikana_spire.png",
     "codes": "road_to_ikana_spire"
@@ -261,7 +261,7 @@
     "codes": "scarecrow_road_to_ikana"
   },
   {
-    "name": "Stone Tower Lower Scarecrow",
+    "name": "Stone Tower Lower Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/stone_tower_lower.png",
     "codes": "stone_tower_lower"
@@ -274,7 +274,7 @@
     "codes": "scarecrow_stone_tower_lower"
   },
   {
-    "name": "Stone Tower Upper Scarecrow",
+    "name": "Stone Tower Upper Scarecrow", // Background
     "type": "static",
     "img": "images/pack_settings/sanities/scarecrows/stone_tower_upper.png",
     "codes": "stone_tower_upper"

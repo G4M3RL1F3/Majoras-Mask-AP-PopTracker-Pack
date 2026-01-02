@@ -133,10 +133,8 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, hookshot, $baby_can_plant_beans",
-              "normal_logic, $scarecrow_sanity_off, $npc_souls_off, hookshot, $can_plant_beans",
-              "normal_logic, $scarecrow_sanity_off, npc_souls, soul_scarecrow, hookshot, $can_plant_beans",
-              "normal_logic, scarecrow_sanity, scarecrow_gb_coast_rock_wall, $npc_souls_off, hookshot, $can_plant_beans",
-              "normal_logic, scarecrow_sanity, scarecrow_gb_coast_rock_wall, npc_souls, soul_scarecrow, hookshot, $can_plant_beans"
+              "normal_logic, $can_reach_scarecrow|scarecrow_gb_coast_rock_wall, $npc_souls_off, hookshot, $can_plant_beans",
+              "normal_logic, $can_reach_scarecrow|scarecrow_gb_coast_rock_wall, npc_souls, soul_scarecrow, hookshot, $can_plant_beans"
             ]
           },
           {
@@ -287,14 +285,14 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "normal_logic, $npc_souls_off, $absurd_souls_off, zora",
-              "normal_logic, $npc_souls_off, $absurd_souls_off, goron, keg",
-              "normal_logic, $npc_souls_off, absurd_souls, soul_pots, zora",
-              "normal_logic, $npc_souls_off, absurd_souls, soul_pots, goron, keg",
-              "normal_logic, npc_souls, soul_potgame_hall_zora, $absurd_souls_off, zora",
-              "normal_logic, npc_souls, soul_potgame_hall_zora, $absurd_souls_off, goron, keg",
-              "normal_logic, npc_souls, soul_potgame_hall_zora, absurd_souls, soul_pots, zora",
-              "normal_logic, npc_souls, soul_potgame_hall_zora, absurd_souls, soul_pots, goron, keg"
+              "$npc_souls_off, $absurd_souls_off, zora",
+              "$npc_souls_off, $absurd_souls_off, goron, keg",
+              "$npc_souls_off, absurd_souls, soul_pots, zora",
+              "$npc_souls_off, absurd_souls, soul_pots, goron, keg",
+              "npc_souls, soul_potgame_hall_zora, $absurd_souls_off, zora",
+              "npc_souls, soul_potgame_hall_zora, $absurd_souls_off, goron, keg",
+              "npc_souls, soul_potgame_hall_zora, absurd_souls, soul_pots, zora",
+              "npc_souls, soul_potgame_hall_zora, absurd_souls, soul_pots, goron, keg"
             ]
           },
           {
@@ -304,10 +302,8 @@
           {
             "name": "Scarecrow Chest",
             "access_rules": [
-              "$scarecrow_sanity_off, $npc_souls_off, hookshot, deku",
-              "$scarecrow_sanity_off, npc_souls, soul_scarecrow, hookshot, deku",
-              "scarecrow_sanity, scarecrow_zora_cape_beavers, $npc_souls_off, hookshot, deku",
-              "scarecrow_sanity, scarecrow_zora_cape_beavers, npc_souls, soul_scarecrow, hookshot, deku"
+              "$can_reach_scarecrow|scarecrow_zora_cape_beavers, $npc_souls_off, hookshot, deku",
+              "$can_reach_scarecrow|scarecrow_zora_cape_beavers, npc_souls, soul_scarecrow, hookshot, deku"
             ]
           },
           {

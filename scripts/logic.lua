@@ -19,6 +19,10 @@ function canReachGreatBayTemple()
     return has("soul_trees_bushes") and can_play_bossa_nova() and has("hookshot") and has("zora")
 end
 
+function can_reach_scarecrow()
+    return has("soul_scarecrow") and has("ocarina") and (has("mtn_village_winter") or has("mtn_village_spring") or has("path_snowhead_pillar_winter") or has("path_snowhead_pillar_spring") or has("twin_islands_ramp_winter") or has("twin_islands_ramp_spring") or has("sht_lower_red_door") or has("sht_hidden") or has("gb_coast_rock_wall") or has("zora_cape_beaver_ledge") or has("zora_cape_island") or has("road_to_ikana_spire") or has("stone_tower_lower") or has("stone_tower_upper"))
+end
+
 -- Songs
 function can_play_time() -- was "play_healing"
     return has("time") and has("ocarina")

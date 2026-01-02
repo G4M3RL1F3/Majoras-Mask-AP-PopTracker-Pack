@@ -36,6 +36,24 @@
         "name": "Goron Trial",
         "sections": [
           {
+            "ref": "Inside the Moon/Goron Trial HP/Heart Piece"
+          },
+          {
+            "ref": "Inside the Moon/Goron Trial Pots/Goron Trial Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 111,
+            "y": 532
+          }
+        ]
+      },
+      {
+        "name": "Goron Trial HP",
+        "sections": [
+          {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
@@ -46,11 +64,6 @@
         ],
         "map_locations": [
           {
-            "map": "overworld",
-            "x": 111,
-            "y": 532
-          },
-          {
             "map": "moon",
             "x": 646,
             "y": 145
@@ -58,7 +71,7 @@
         ]
       },
       {
-        "name": "Goron Trial",
+        "name": "Goron Trial Pots",
         "sections": [
           {
             "name": "Goron Trial Pots",
@@ -74,11 +87,6 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "overworld",
-            "x": 111,
-            "y": 512
-          },
           {
             "map": "moon",
             "x": 705,
@@ -135,6 +143,18 @@
         "name": "Link Trial",
         "sections": [
           {
+            "name": "Link Trial Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "$npc_souls_off, $absurd_souls_off, @Inside the Moon",
+              "$npc_souls_off, absurd_souls, soul_pots, @Inside the Moon",
+              "npc_souls, soul_moon_kid, $absurd_souls_off, @Inside the Moon",
+              "npc_souls, soul_moon_kid, absured_souls, soul_pots, @Inside the Moon"
+            ]
+          },
+          {
             "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, fiercedeity, magic, fairysword, gildedsword, bow, hookshot",
@@ -167,24 +187,10 @@
         "name": "Link Trial",
         "sections": [
           {
-            "name": "Link Trial Pots",
-            "chest_unopened_img": "images/icons/pot.png",
-            "item_count": 8,
-            "clear_as_group": false,
-            "access_rules": [
-              "$npc_souls_off, $absurd_souls_off, @Inside the Moon",
-              "$npc_souls_off, absurd_souls, soul_pots, @Inside the Moon",
-              "npc_souls, soul_moon_kid, $absurd_souls_off, @Inside the Moon",
-              "npc_souls, soul_moon_kid, absured_souls, soul_pots, @Inside the Moon"
-            ]
+            "ref": "Inside the Moon/Link Trial/Link Trial Pots"
           }
         ],
         "map_locations": [
-          {
-            "map": "overworld",
-            "x": 151,
-            "y": 552
-          },
           {
             "map": "moon",
             "x": 1560,

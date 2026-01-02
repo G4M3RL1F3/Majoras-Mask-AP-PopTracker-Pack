@@ -48,6 +48,21 @@
         ]
       },
       {
+        "name": "Entrance Room Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Stone Tower Temple Entrance Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 306,
+            "y": 766
+          }
+        ]
+      },
+      {
         "name": "Elegy Maze Grass",
         "sections": [
           {
@@ -104,6 +119,36 @@
             "map": "stone_tower_temple",
             "x": 58,
             "y": 1439
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Lower Basement Armos Pots (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 58,
+            "y": 1396
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Lower Basement Armos Pots (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 58,
+            "y": 1501
           }
         ]
       },
@@ -168,6 +213,41 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Right Side Near Locked Door Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 545,
+            "y": 619
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Right Side Underwater Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 450,
+            "y": 641
+          },
+          {
+            "map": "stone_tower_temple",
+            "x": 638,
+            "y": 728
+          }
+        ]
+      },
+      {
         "name": "Mirror Room Sun Block Chest",
         "sections": [
           {
@@ -194,6 +274,21 @@
             "map": "stone_tower_temple",
             "x": 554,
             "y": 414
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Mirror Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 545,
+            "y": 569
           }
         ]
       },
@@ -228,6 +323,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Deku Updraft Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 417,
+            "y": 253
+          }
+        ]
+      },
+      {
         "name": "Garo Master Chest",
         "sections": [
           {
@@ -254,6 +364,21 @@
             "map": "stone_tower_temple",
             "x": 305,
             "y": 496
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Lower Spike Roller Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 305,
+            "y": 451
           }
         ]
       },
@@ -327,6 +452,9 @@
         "sections": [
           {
             "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Switch Chest"
+          },
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Updraft Pots"
           }
         ],
         "map_locations": [
@@ -334,6 +462,51 @@
             "map": "stone_tower_temple",
             "x": 1337,
             "y": 759
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Updraft Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1250,
+            "y": 1415
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Small Poe Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 875,
+            "y": 644
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Lower Bridge Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1103,
+            "y": 600
           }
         ]
       },
@@ -349,6 +522,21 @@
             "map": "stone_tower_temple",
             "x": 811,
             "y": 1396
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Wizzrobe Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 855,
+            "y": 1540
           }
         ]
       },
@@ -383,6 +571,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Gomess Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1550,
+            "y": 650
+          }
+        ]
+      },
+      {
         "name": "Eyegore Chest",
         "sections": [
           {
@@ -394,6 +597,21 @@
             "map": "stone_tower_temple",
             "x": 1103,
             "y": 692
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Pre Boss Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1099,
+            "y": 415
           }
         ]
       },

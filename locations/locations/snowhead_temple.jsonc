@@ -33,6 +33,36 @@
         ]
       },
       {
+        "name": "Bridge Room Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Blue Door Lava Bridge Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 548,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Main Room Scarecrow Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Main Room Scarecrow Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1136,
+            "y": 340
+          }
+        ]
+      },
+      {
         "name": "Bridge Room Pillar Bubble SF",
         "sections": [
           {
@@ -93,6 +123,26 @@
         ]
       },
       {
+        "name": "Gray Door Wolfos Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Locked Grey Door Wolfos Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 112,
+            "y": 407
+          },
+          {
+            "map": "snowhead_temple",
+            "x": 305,
+            "y": 500
+          }
+        ]
+      },
+      {
         "name": "Stacked Block Upper Chest SF",
         "sections": [
           {
@@ -123,6 +173,26 @@
         ]
       },
       {
+        "name": "Orange Door Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Orange Door Push Block Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 197,
+            "y": 352
+          },
+          {
+            "map": "snowhead_temple",
+            "x": 124,
+            "y": 250
+          }
+        ]
+      },
+      {
         "name": "Freezard Torch Room Chest SF",
         "sections": [
           {
@@ -138,13 +208,55 @@
         ]
       },
       {
+        "name": "Frozen Green Door Pots (Lower)",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Frozen Green Door Pots (Lower)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 120,
+            "y": 155
+          },
+          {
+            "map": "snowhead_temple",
+            "x": 295,
+            "y": 125
+          }
+        ]
+      },
+      {
+        "name": "Frozen Green Door Pots (Upper)",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Frozen Green Door Pots (Upper)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 217,
+            "y": 259
+          },
+          {
+            "map": "snowhead_temple",
+            "x": 146,
+            "y": 36
+          },
+          {
+            "map": "snowhead_temple",
+            "x": 369,
+            "y": 125
+          }
+        ]
+      },
+      {
         "name": "Basement Switch Chest SF",
         "sections": [
           {
             "ref": "Dungeons/Snowhead Temple/Basement Switch Chest SF"
-          },
-          {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Basement Grass"
           }
         ],
         "map_locations": [
@@ -156,7 +268,7 @@
         ]
       },
       {
-        "name": "Basement Grass",
+        "name": "Main Room Basement Grass",
         "sections": [
           {
             "ref": "Dungeons/Snowhead Temple/Snowhead Temple Basement Grass"
@@ -167,6 +279,21 @@
             "map": "snowhead_temple",
             "x": 479,
             "y": 923
+          }
+        ]
+      },
+      {
+        "name": "Main Room Basement Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Main Room Basement Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 298,
+            "y": 908
           }
         ]
       },
@@ -276,6 +403,36 @@
         ]
       },
       {
+        "name": "Goron Puzzle Room Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Goron Pound Puzzle Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 920,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "2nd Floor Bridge Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Main Room 2nd Floor Bridge Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1134,
+            "y": 245
+          }
+        ]
+      },
+      {
         "name": "Lower Wizzrobe Chest",
         "sections": [
           {
@@ -336,6 +493,21 @@
         ]
       },
       {
+        "name": "4th Floor Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Main Room 4th Floor Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1134,
+            "y": 1048
+          }
+        ]
+      },
+      {
         "name": "Upper Wizzrobe Chest",
         "sections": [
           {
@@ -351,6 +523,21 @@
         ]
       },
       {
+        "name": "4th Floor Wizzrobe Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple 4th Floor Wizzrobe Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1324,
+            "y": 1008
+          }
+        ]
+      },
+      {
         "name": "Goht",
         "sections": [
           {
@@ -358,6 +545,9 @@
           },
           {
             "ref": "Dungeons/Snowhead Temple/Goht's Remains"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/Goht Boss Room Pots"
           },
           {
             "ref": "Dungeons/Snowhead Temple/Oath to Order"

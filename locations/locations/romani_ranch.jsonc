@@ -38,8 +38,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -57,8 +57,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -78,8 +78,8 @@
             "name": "Race",
             "chest_unopened_img": "images/icons/carrot.png",
             "access_rules": [
-              "$npc_souls_off, $can_play_eponas",
-              "npc_souls, soul_gorman_brothers, $can_play_eponas"
+              "normal_logic, $npc_souls_off, $can_play_eponas",
+              "normal_logic, npc_souls, soul_gorman_brothers, $can_play_eponas"
             ]
           },
           {
@@ -87,7 +87,7 @@
             "chest_unopened_img": "images/characters/gorman_brothers.png",
             "access_rules": [
               "$npc_souls_off",
-              "npc_souls, soul_gorman_brothers"
+              "normal_logic, npc_souls, soul_gorman_brothers"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -100,8 +100,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -111,8 +111,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -132,8 +132,18 @@
             "name": "Baby Cuccos March",
             "chest_unopened_img": "images/characters/grog.png",
             "access_rules": [
-              "$npc_souls_off, bremenmask",
-              "npc_souls, soul_grog, bremenmask"
+              "normal_logic, $npc_souls_off, bremenmask",
+              "normal_logic, npc_souls, soul_grog, bremenmask"
+            ]
+          },
+          {
+            "name": "Cucco Shack Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_pots"
             ]
           }
         ],
@@ -164,6 +174,16 @@
               "easy_logic, giantswallet, truth",
               "normal_logic, $npc_souls_off, truth",
               "normal_logic, npc_souls, soul_dog_race, truth"
+            ]
+          },
+          {
+            "name": "Doggy Racetrack Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_pots"
             ]
           }
         ],
@@ -221,46 +241,34 @@
             "name": "Romani Game",
             "chest_unopened_img": "images/characters/romani.png",
             "access_rules": [
-              "$npc_souls_off, $can_use_powder_keg, bow",
-              "npc_souls, soul_romani_cremia, $can_use_powder_keg, bow"
+              "normal_logic, $npc_souls_off, $can_use_powder_keg, bow",
+              "normal_logic, npc_souls, soul_romani_cremia, $can_use_powder_keg, bow"
             ]
           },
           {
             "name": "Aliens",
             "chest_unopened_img": "images/characters/romani.png",
             "access_rules": [
-              "$npc_souls_off, $can_use_powder_keg, bow",
-              "npc_souls, soul_romani_cremia, $can_use_powder_keg, bow"
+              "normal_logic, $npc_souls_off, $can_use_powder_keg, bow",
+              "normal_logic, npc_souls, soul_romani_cremia, $can_use_powder_keg, bow"
             ]
           },
           {
             "name": "Helping Cremia",
             "chest_unopened_img": "images/characters/cremia.png",
             "access_rules": [
-              "$npc_souls_off, $can_use_powder_keg, bow",
-              "npc_souls, soul_romani_cremia, $can_use_powder_keg, bow"
+              "normal_logic, $npc_souls_off, $can_use_powder_keg, bow",
+              "normal_logic, npc_souls, soul_romani_cremia, $can_use_powder_keg, bow"
             ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 391,
-            "y": 350
-          }
-        ]
-      },
-      {
-        "name": "Romani Ranch Grass",
-        "sections": [
+          },
           {
             "name": "Romani Ranch Grass In Front of Gossip Tree",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -270,8 +278,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -281,8 +289,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -292,8 +300,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -303,8 +311,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -312,7 +320,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 406,
+            "x": 391,
             "y": 350
           }
         ]

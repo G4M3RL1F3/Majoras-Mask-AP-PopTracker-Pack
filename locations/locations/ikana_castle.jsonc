@@ -14,8 +14,108 @@
         "map_locations": [
           {
             "map": "ikana_castle",
-            "x": 426,
-            "y": 263
+            "x": 793,
+            "y": 94
+          },
+          {
+            "map": "ikana_castle",
+            "x": 450,
+            "y": 456
+          },
+          {
+            "map": "ikana_castle",
+            "x": 620,
+            "y": 607
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Ikana Castle/Exterior Corner Pot"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 792,
+            "y": 607
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Ikana Castle/Frozen Eyes Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1250,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Ikana Castle/Left Side Falling Ceiling Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1330,
+            "y": 249
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Ikana Castle/Left Side Broken Floor Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1700,
+            "y": 249
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Ikana Castle/Left Side Staircase Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1950,
+            "y": 185
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Ikana Castle/Right Side Staircase Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1950,
+            "y": 545
           }
         ]
       },
@@ -39,6 +139,9 @@
         "sections": [
           {
             "ref": "Dungeons/Ikana Castle/King Song"
+          },
+          {
+            "ref": "Dungeons/Ikana Castle/Throne Room Pots"
           }
         ],
         "map_locations": [

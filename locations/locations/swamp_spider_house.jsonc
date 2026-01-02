@@ -18,6 +18,21 @@
         ]
       },
       {
+        "name": "Main Room Pots",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamp Spider House Main Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 335,
+            "y": 820
+          }
+        ]
+      },
+      {
         "name": "First Room Pot Near Entrance Token",
         "sections": [
           {
@@ -138,6 +153,21 @@
         ]
       },
       {
+        "name": "Tablet Room Pots",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamp Spider House Tablet Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 737,
+            "y": 720
+          }
+        ]
+      },
+      {
         "name": "Monument Room Left Crate Token",
         "sections": [
           {
@@ -209,6 +239,26 @@
             "map": "swamp_spider_house",
             "x": 900,
             "y": 711
+          }
+        ]
+      },
+      {
+        "name": "Giant Jar Room",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamp Spider House Giant Jar Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1255,
+            "y": 854
+          },
+          {
+            "map": "swamp_spider_house",
+            "x": 1230,
+            "y": 570
           }
         ]
       },
@@ -314,6 +364,21 @@
             "map": "swamp_spider_house",
             "x": 1262,
             "y": 479
+          }
+        ]
+      },
+      {
+        "name": "Gold Room Pots",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamp Spider House Gold Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1185,
+            "y": 440
           }
         ]
       },

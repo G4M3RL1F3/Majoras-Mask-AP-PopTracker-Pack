@@ -23,7 +23,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -34,7 +34,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -54,7 +54,7 @@
             "name": "Road to Swamp Grotto Chest",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grottos"
+              "normal_logic, absurd_souls, soul_grottos"
             ]
           },
           {
@@ -64,7 +64,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grottos, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -79,17 +79,21 @@
       },
       {
         "name": "Swamp Shooting Gallery",
-        "access_rules": [
-            "$npc_souls_off, bow",
-            "npc_souls, soul_archery_man, bow"
-          ],
         "chest_unopened_img": "images/icons/archery.png",
         "sections": [
           {
-            "name": "Swamp Shooting Gallery 2120 Points"
+            "name": "Swamp Shooting Gallery 2120 Points",
+            "access_rules": [
+            "normal_logic, $npc_souls_off, bow",
+            "normal_logic, npc_souls, soul_archery_man, bow"
+            ]
           },
           {
-            "name": "Swamp Shooting Gallery 2180 Points"
+            "name": "Swamp Shooting Gallery 2180 Points",
+            "access_rules": [
+            "normal_logic, $npc_souls_off, bow",
+            "normal_logic, npc_souls, soul_archery_man, bow"
+            ]
           },
           {
             "name": "Outside Archery Grass",
@@ -98,9 +102,19 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Road to Southern Swamp Outside Archery Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
           }
         ],
         "map_locations": [
@@ -160,7 +174,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -170,8 +184,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, clear_wft",
-              "absurd_souls, soul_grass, clear_wft"
+              "normal_logic, $absurd_souls_off, clear_wft",
+              "normal_logic, absurd_souls, soul_grass, clear_wft"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -191,8 +205,8 @@
             "name": "Southern Swamp Deku Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": [
-              "$npc_souls_off, landdeed",
-              "npc_souls, soul_business_scrub, landdeed"
+              "normal_logic, $npc_souls_off, landdeed",
+              "normal_logic, npc_souls, soul_business_scrub, landdeed"
             ]
           },
           {
@@ -211,10 +225,10 @@
             "name": "Southern Swamp Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
-              "$npc_souls_off, $absurd_souls_off, deku, landdeed",
-              "$npc_souls_off, absurd_souls, soul_deku_flowers, deku, landdeed",
-              "npc_souls, soul_business_scrub, $absurd_souls_off, deku, landdeed",
-              "npc_souls, soul_business_scrub, absurd_souls, soul_deku_flowers, deku, landdeed"
+              "normal_logic, $npc_souls_off, $absurd_souls_off, deku, landdeed",
+              "normal_logic, $npc_souls_off, absurd_souls, soul_deku_flowers, deku, landdeed",
+              "normal_logic, npc_souls, soul_business_scrub, $absurd_souls_off, deku, landdeed",
+              "normal_logic, npc_souls, soul_business_scrub, absurd_souls, soul_deku_flowers, deku, landdeed"
             ]
           }
         ],
@@ -233,8 +247,8 @@
             "name": "Southern Swamp Healing Koume",
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
-              "$npc_souls_off, $has|bottles|1",
-              "npc_souls, soul_koume, $has|bottles|1"
+              "normal_logic, $npc_souls_off, $has|bottles|1",
+              "normal_logic, npc_souls, soul_koume, $has|bottles|1"
             ]
           },
           {
@@ -280,7 +294,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -290,8 +304,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, clear_wft",
-              "absurd_souls, soul_grass, clear_wft"
+              "normal_logic, $absurd_souls_off, clear_wft",
+              "normal_logic, absurd_souls, soul_grass, clear_wft"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -312,7 +326,7 @@
             "chest_unopened_img": "images/items/red_potion.png",
             "access_rules": [
               "$npc_souls_off",
-              "npc_souls, soul_koume"
+              "normal_logic, npc_souls, soul_koume"
             ]
           }
         ],
@@ -338,8 +352,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, maskofscents, $has|bottles|1, $can_afford|$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 1",
-              "npc_souls, soul_kotake, maskofscents, $has|bottles|1, $can_afford|$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 1"
+              "normal_logic, $npc_souls_off, maskofscents, $has|bottles|1, $can_afford|$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 1",
+              "normal_logic, npc_souls, soul_kotake, maskofscents, $has|bottles|1, $can_afford|$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 1"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -352,8 +366,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 2",
-              "npc_souls, soul_kotake, $can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 2"
+              "normal_logic, $npc_souls_off, $can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 2",
+              "normal_logic, npc_souls, soul_kotake, $can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 2"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -366,8 +380,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 3",
-              "npc_souls, soul_kotake, $can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 3"
+              "normal_logic, $npc_souls_off, $can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 3",
+              "normal_logic, npc_souls, soul_kotake, $can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 3"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -381,7 +395,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -392,7 +406,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -403,7 +417,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -413,8 +427,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, clear_wft",
-              "absurd_souls, soul_grass, clear_wft"
+              "normal_logic, $absurd_souls_off, clear_wft",
+              "normal_logic, absurd_souls, soul_grass, clear_wft"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -424,8 +438,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, clear_wft",
-              "absurd_souls, soul_grass, clear_wft"
+              "normal_logic, $absurd_souls_off, clear_wft",
+              "normal_logic, absurd_souls, soul_grass, clear_wft"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -435,10 +449,30 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, clear_wft",
-              "absurd_souls, soul_grass, clear_wft"
+              "normal_logic, $absurd_souls_off, clear_wft",
+              "normal_logic, absurd_souls, soul_grass, clear_wft"
             ]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Southern Swamp Beneath Witch Shop Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
+            "name": "Southern Swamp Post Dungeon Witch Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $clear_woodfall",
+              "normal_logic, absurd_souls, soul_pots, $clear_woodfall"
+            ]
           }
         ],
         "map_locations": [
@@ -459,7 +493,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -470,7 +504,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -481,7 +515,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -506,7 +540,7 @@
             "name": "Southern Swamp Day 2 Grotto Chest",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grottos"
+              "normal_logic, absurd_souls, soul_grottos"
             ]
           },
           {
@@ -516,7 +550,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grottos, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -559,13 +593,23 @@
         ]
       },
       {
-        "name": "Deku Palace HP",
+        "name": "Deku Palace",
         "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
         "sections": [
           {
             "name": "Deku Palace HP",
             "access_rules": ["deku"],
             "chest_unopened_img": "images/equipment/heart_piece.png"
+          },
+          {
+            "name": "Deku Palace Right Side Upper Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, deku, $can_plant_beans",
+              "normal_logic, absurd_souls, soul_pots, soul_deku_flowers, deku, $can_plant_beans"
+            ]
           }
         ],
         "map_locations": [
@@ -594,10 +638,10 @@
             "name": "Deku Palace Bean Seller",
             "chest_unopened_img": "images/characters/bean_seller.png",
             "access_rules": [
-              "$absurd_souls_off, $npc_souls_off, deku",
-              "absurd_souls, soul_grottos, $npc_souls_off, deku",
-              "$absurd_souls_off, npc_souls, soul_bean_seller, deku",
-              "absurd_souls, soul_grottos, npc_souls, soul_bean_seller, deku"
+              "normal_logic, $absurd_souls_off, $npc_souls_off, deku",
+              "normal_logic, absurd_souls, soul_grottos, $npc_souls_off, deku",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_bean_seller, deku",
+              "normal_logic, absurd_souls, soul_grottos, npc_souls, soul_bean_seller, deku"
             ]
           },
           {
@@ -607,7 +651,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -628,8 +672,8 @@
             "name": "Southern Swamp Song Tablet",
               "chest_unopened_img": "images/equipment/song_soaring_no_text.png",
             "access_rules": [
-              "$absurd_souls_off, deku",
-              "absurd_souls, soul_deku_flowers, deku"
+              "normal_logic, $absurd_souls_off, deku",
+              "normal_logic, absurd_souls, soul_deku_flowers, deku"
             ]
           }
         ],
@@ -649,7 +693,7 @@
             "name": "Southern Swamp Grotto Chest",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grottos, deku"
+              "normal_logic, absurd_souls, soul_grottos, deku"
             ]
           },
           {
@@ -659,7 +703,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -679,30 +723,26 @@
           {
             "name": "Woodfall Owl Statue Chest",
             "access_rules": [
-              "$absurd_souls_off, deku", "hookshot",
-              "absurd_souls, soul_deku_flowers, deku", "hookshot"
+              "$absurd_souls_off", "hookshot",
+              "normal_logic, absurd_souls, soul_deku_flowers"
             ]
           },
           {
             "name": "Woodfall Bridge Chest",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_deku_flowers"
+              "normal_logic, absurd_souls, soul_deku_flowers"
             ]
           },
           {
-            "name": "Woodfall Entrance Chest",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_deku_flowers"
-            ]
+            "name": "Woodfall Entrance Chest"
           },
           {
             "name": "Woodfall Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
-              "$npc_souls_off, $checkRequirements|required_stray_fairies|fairy_wf",
-              "npc_souls, soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_wf"
+              "normal_logic, $npc_souls_off, $checkRequirements|required_stray_fairies|fairy_wf",
+              "normal_logic, npc_souls, soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_wf"
             ]
             //"visibility_rules": ["shuffle_great_fairy_rewards"]
           },
@@ -713,9 +753,19 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Woodfall Owl Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
           }
         ],
         "map_locations": [
@@ -737,6 +787,16 @@
               "normal_logic, $clear_woodfall, $has|bottles|1, sword",
               "normal_logic, $clear_woodfall, $has|bottles|1, fairysword",
               "normal_logic, $clear_woodfall, $has|bottles|1, fiercedeity"
+            ]
+          },
+          {
+            "name": "Deku Butler Race Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $clear_woodfall",
+              "normal_logic, absurd_souls, soul_pots, $clear_woodfall"
             ]
           }
         ],

@@ -58,6 +58,55 @@
         ]
       },
       {
+        "name": "Goron Trial",
+        "sections": [
+          {
+            "name": "Goron Trial Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 15,
+            "clear_as_group": false,
+            "access_rules": [
+              "$npc_souls_off, $absurd_souls_off, @Inside the Moon/Goron Trial/Heart Piece",
+              "$npc_souls_off, absurd_souls, soul_pots, @Inside the Moon/Goron Trial/Heart Piece",
+              "npc_souls, soul_moon_kid, $absurd_souls_off, @Inside the Moon/Goron Trial/Heart Piece",
+              "npc_souls, soul_moon_kid, absured_souls, soul_pots, @Inside the Moon/Goron Trial/Heart Piece"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 111,
+            "y": 512
+          },
+          {
+            "map": "moon",
+            "x": 705,
+            "y": 92
+          },
+          {
+            "map": "moon",
+            "x": 705,
+            "y": 775
+          },
+          {
+            "map": "moon",
+            "x": 705,
+            "y": 332
+          },
+          {
+            "map": "moon",
+            "x": 787,
+            "y": 250
+          },
+          {
+            "map": "moon",
+            "x": 822,
+            "y": 557
+          }
+        ]
+      },
+      {
         "name": "Zora Trial",
         "sections": [
           {
@@ -115,6 +164,35 @@
         ]
       },
       {
+        "name": "Link Trial",
+        "sections": [
+          {
+            "name": "Link Trial Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "$npc_souls_off, $absurd_souls_off, @Inside the Moon",
+              "$npc_souls_off, absurd_souls, soul_pots, @Inside the Moon",
+              "npc_souls, soul_moon_kid, $absurd_souls_off, @Inside the Moon",
+              "npc_souls, soul_moon_kid, absured_souls, soul_pots, @Inside the Moon"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 151,
+            "y": 552
+          },
+          {
+            "map": "moon",
+            "x": 1560,
+            "y": 800
+          }
+        ]
+      },
+      {
         "name": "Garo Master Room",
         "sections": [
           {
@@ -168,6 +246,22 @@
             "access_rules": [
               "$npc_souls_off, postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Link Trial/Heart Piece, $can_use_fire_arrows",
               "npc_souls, soul_moon_kid, postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Link Trial/Heart Piece, $can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "Majora Lair Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$npc_souls_off, $boss_souls_off, $absurd_souls_off, @Inside the Moon",
+              "$npc_souls_off, $boss_souls_off, absurd_souls, soul_pots, @Inside the Moon",
+              "$npc_souls_off, boss_souls, soul_majora, $absurd_souls_off, @Inside the Moon",
+              "$npc_souls_off, boss_souls, soul_majora, absurd_souls, soul_pots, @Inside the Moon",
+              "npc_souls, soul_moon_kid, $boss_souls_off, $absurd_souls_off, @Inside the Moon",
+              "npc_souls, soul_moon_kid, $boss_souls_off, absurd_souls, soul_pots, @Inside the Moon",
+              "npc_souls, soul_moon_kid, boss_souls, soul_majora, $absurd_souls_off, @Inside the Moon",
+              "npc_souls, soul_moon_kid, boss_souls absured_souls, soul_pots, @Inside the Moon"
             ]
           }
         ],

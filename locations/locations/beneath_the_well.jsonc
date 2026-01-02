@@ -69,6 +69,51 @@
         "name": "",
         "sections": [
           {
+            "ref": "Dungeons/Beneath the Well/Left Side Back Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 417,
+            "y": 592
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Beneath the Well/Right Side Before Chest Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 645,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Beneath the Well/Big Poe Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 830,
+            "y": 730
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
             "ref": "Dungeons/Beneath the Well/Rightside Torch Chest"
           }
         ],

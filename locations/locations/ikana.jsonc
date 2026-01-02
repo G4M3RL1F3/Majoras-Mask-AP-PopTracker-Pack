@@ -26,8 +26,8 @@
           {
             "name": "Road to Ikana Rock Grotto Chest",
             "access_rules": [
-              "$absurd_souls_off, goron",
-              "absurd_souls, soul_grottos, goron"
+              "normal_logic, $absurd_souls_off,, goron",
+              "normal_logic, absurd_souls, soul_grottos, goron"
             ]
           },
           {
@@ -36,8 +36,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, goron",
-              "absurd_souls, soul_grottos, soul_grass, goron"
+              "normal_logic, $absurd_souls_off,, goron",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, goron"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -72,6 +72,30 @@
         ]
       },
       {
+        "name": "Road to Ikana Scarecrow",
+        "sections": [
+          {
+            "name": "Road To Ikana Scarecrow Pillar Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_play_eponas, $scarecrow_sanity_off, hookshot",
+              "normal_logic, $absurd_souls_off, $can_play_eponas, scarcrow, $can_reach_scarecrow, road_to_ikana_spire, hookshot",
+              "normal_logic, $absurd_souls_off, $can_play_eponas, $scarecrow_sanity_off, $can_reach_scarecrow, road_to_ikana_spire, hookshot",
+              "normal_logic, absurd_souls, soul_pots, $can_play_eponas, hookshot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 670,
+            "y": 295
+          }
+        ]
+      },
+      {
         "name": "Graveyard",
         "access_rules": ["$graveyard"],
         "sections": [
@@ -84,13 +108,13 @@
             ]
           },
           {
-            "name": "Ikana Graveyard Bombable Grotto Grass",
+            "name": "Bombable Grotto Grass",
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, $has_explosives",
-              "absurd_souls, soul_grottos, soul_grass, $has_explosives"
+              "normal_logic, $absurd_souls_off,, $has_explosives",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, $has_explosives"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -112,6 +136,18 @@
             ]
           },
           {
+            "name": "Day 1 Grave Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, captain",
+              "normal_logic, $absurd_souls_off, soul_stalchildren, captain",
+              "normal_logic, absurd_souls, soul_pots, $enemy_souls_off, captain",
+              "normal_logic, absurd_souls, soul_pots, soul_stalchildren, captain"
+            ]
+          },
+          {
             "name": "Day 2 Dampe Bats",
             "chest_unopened_img": "images/characters/dampe.png",
             "access_rules": [
@@ -129,6 +165,42 @@
             ]
           },
           {
+            "name": "Day 2 Entrance Grave Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, captain",
+              "normal_logic, $absurd_souls_off, soul_stalchildren, captain",
+              "normal_logic, absurd_souls, soul_pots, $enemy_souls_off, captain",
+              "normal_logic, absurd_souls, soul_pots, soul_stalchildren, captain"
+            ]
+          },
+          {
+            "name": "Day 2 Invisible Path Entryway Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, captain",
+              "normal_logic, $absurd_souls_off, soul_stalchildren, captain",
+              "normal_logic, absurd_souls, soul_pots, $enemy_souls_off, captain",
+              "normal_logic, absurd_souls, soul_pots, soul_stalchildren, captain"
+            ]
+          },
+          {
+            "name": "Day 2 Invisible Path Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, captain, lens, $has_explosives",
+              "normal_logic, $absurd_souls_off, soul_stalchildren, captain, lens, $has_explosives",
+              "normal_logic, absurd_souls, soul_pots, $enemy_souls_off, captain, lens, $has_explosives",
+              "normal_logic, absurd_souls, soul_pots, soul_stalchildren, captain, lens, $has_explosives"
+            ]
+          },
+          {
             "name": "Day 3 Dampe Big Poe Chest",
             "access_rules": [
               "easy_logic, captainhat, bow",
@@ -136,6 +208,18 @@
               "normal_logic, $npc_souls_off, captainhat, zora",
               "normal_logic, npc_souls, soul_stalchildren, soul_dampe, captainhat, bow",
               "normal_logic, npc_souls, soul_stalchildren, soul_dampe, captainhat, zora"
+            ]
+          },
+          {
+            "name": "Day 3 Grave Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 10,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, captain",
+              "normal_logic, $absurd_souls_off, soul_stalchildren, captain",
+              "normal_logic, absurd_souls, soul_pots, $enemy_souls_off, captain",
+              "normal_logic, absurd_souls, soul_pots, soul_stalchildren, captain"
             ]
           },
           {
@@ -148,24 +232,24 @@
             ]
           },
           {
-            "name": "Ikana Graveyard Lower Grass",
+            "name": "Lower Grass",
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
           {
-            "name": "Ikana Graveyard Upper Grass",
+            "name": "Upper Grass",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -188,18 +272,18 @@
           {
             "name": "Grotto Chest",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grottos"
             ]
           },
           {
-            "name": "Ikana Canyon Grotto Grass",
+            "name": "Grotto Grass",
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos, soul_grass"
+              "normal_logic, $absurd_souls_off,",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -213,7 +297,7 @@
         ]
       },
       {
-        "name": "Near Thief's Hideout Entrance",
+        "name": "Near Sakon's Hideout Entrance",
         "access_rules": [
           "easy_logic, $baby_ikana_canyon",
           "normal_logic, $lower_ikana_canyon"
@@ -242,10 +326,10 @@
             "name": "Zora Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
-              "$npc_souls_off, $absurd_souls_off, deku, zora, oceandeed",
-              "$npc_souls_off, absurd_souls, soul_deku_flowers, deku, zora, oceandeed",
-              "npc_souls, soul_business_scrub, $absurd_souls_off, deku, zora, oceandeed",
-              "npc_souls, soul_business_scrub, absurd_souls, soul_deku_flowers, deku, zora, oceandeed"
+              "normal_logic, $npc_souls_off, $absurd_souls_off, deku, zora, oceandeed",
+              "normal_logic, $npc_souls_off, absurd_souls, soul_deku_flowers, deku, zora, oceandeed",
+              "normal_logic, npc_souls, soul_business_scrub, $absurd_souls_off, deku, zora, oceandeed",
+              "normal_logic, npc_souls, soul_business_scrub, absurd_souls, soul_deku_flowers, deku, zora, oceandeed"
             ]
           }
         ],
@@ -254,6 +338,30 @@
             "map": "overworld",
             "x": 791,
             "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Sakon's Hideout",
+        "access_rules": ["normal_logic, $lower_ikana_canyon"],
+        "sections": [
+          {
+            "name": "Hideout Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, @Clock Town/Stock Pot Inn/Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)",
+              "normal_logic, $absurd_souls_off, enemy_souls, soul_deku_baba, soul_wolfos, @Clock Town/Stock Pot Inn/Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)",
+              "normal_logic, absurd_souls, soul_pots, $enemy_souls_off, @Clock Town/Stock Pot Inn/Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)",
+              "normal_logic, absurd_souls, soul_pots, enemy_souls, soul_deku_baba, soul_wolfos, @Clock Town/Stock Pot Inn/Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 766,
+            "y": 310
           }
         ]
       },
@@ -329,8 +437,8 @@
             "chest_unopened_img": "images/equipment/fairy_st.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": [
-              "$npc_souls_off, $can_use_ice_arrows, $checkRequirements|required_stray_fairies|fairy_st",
-              "npc_souls, soul_great_fairy, $can_use_ice_arrows, $checkRequirements|required_stray_fairies|fairy_st"
+              "normal_logic, $npc_souls_off, $can_use_ice_arrows, $checkRequirements|required_stray_fairies|fairy_st",
+              "normal_logic, npc_souls, soul_great_fairy, $can_use_ice_arrows, $checkRequirements|required_stray_fairies|fairy_st"
             ]
           },
           {
@@ -339,8 +447,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, $can_use_ice_arrows",
-              "absurd_souls, soul_grottos, soul_grass, $can_use_ice_arrows"
+              "normal_logic, $absurd_souls_off,, $can_use_ice_arrows",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, $can_use_ice_arrows"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -350,6 +458,86 @@
             "map": "overworld",
             "x": 847,
             "y": 251
+          }
+        ]
+      },
+            {
+        "name": "Stone Tower",
+        "chest_unopened_img": "images/icons/pot.png",
+        "access_rules": [
+          "normal_logic, $upper_ikana_canyon"
+        ],
+        "sections": [
+          {
+            "name": "Stone Tower Climb Pots",
+            "item_count": 2,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, $can_use_stonetower_owl"
+            ]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pots",
+            "item_count": 12,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $npc_souls_off, $scarecrow_sanity_off, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, scarecrow_sanity, $can_reach_scarecrow, stone_tower_lower, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, scarecrow_sanity, $can_reach_scarecrow, stone_tower_lower, hookshot, $can_use_stonetower_owl",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_lower, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_lower, hookshot, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $scarecrow_sanity_off, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $can_reach_scarecrow, stone_tower_lower, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $can_reach_scarecrow, stone_tower_lower, hookshot, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_lower, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_lower, hookshot, $can_use_stonetower_owl"
+            ]
+          },
+          {
+            "name": "Stone Tower Upper Scarecrow Pots",
+            "item_count": 9,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $npc_souls_off, $scarecrow_sanity_off, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, scarecrow_sanity, $can_reach_scarecrow, stone_tower_upper, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, scarecrow_sanity, $can_reach_scarecrow, stone_tower_upper, hookshot, $can_use_stonetower_owl",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_upper, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_upper, hookshot, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $scarecrow_sanity_off, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $can_reach_scarecrow, stone_tower_upper, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off $can_reach_scarecrow, stone_tower_upper, hookshot, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_upper, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $scarecrow_sanity_off, hookshot, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, $can_reach_scarecrow, stone_tower_upper, hookshot, $can_use_stonetower_owl"
+            ]
+          },
+          {
+            "name": "Stone Tower Owl Pots",
+            "item_count": 4,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, goron, zora, elegy",
+              "normal_logic, $absurd_souls_off, $can_use_stonetower_owl",
+              "normal_logic, absurd_souls, soul_pots, hookshot, goron, zora, elegy",
+              "normal_logic, absurd_souls, soul_pots, $can_use_stonetower_owl"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 946,
+            "y": 231
           }
         ]
       },
@@ -379,6 +567,16 @@
             "access_rules": [
               "easy_logic, $baby_can_plant_beans",
               "normal_logic, $can_plant_beans"
+            ]
+          },
+          {
+            "name": "Bean Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_plant_beans",
+              "normal_logic, absurd_souls, soul_pots, $can_plant_beans"
             ]
           }
         ],

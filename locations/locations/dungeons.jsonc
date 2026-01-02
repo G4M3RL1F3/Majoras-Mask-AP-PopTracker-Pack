@@ -12,13 +12,23 @@
         ],
         "sections": [
           {
+            "name": "Woodfall Temple Entrance Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
             "name": "Woodfall Temple Entrance Room Grass",
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -33,10 +43,20 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Woodfall Temple Main Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
           },
           {
             "name": "Woodfall Temple Switch Chest SF",
@@ -53,22 +73,26 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
           {
-            "name": "Woodfall Temple Turtle Chest",
-            "access_rules": ["soul_snappers"]
+            "name": "Woodfall Temple Deku Elevator Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
           },
           {
-            "name": "Woodfall Temple Dinolfos Chest",
+            "name": "Woodfall Temple Turtle Chest",
             "access_rules": [
-              "easy_logic, bow, $baby_can_smack_hard",
-              "normal_logic, soul_dinolfols, smallkey_wf, $can_smack",
-              "normal_logic, soul_dinolfols, $small_key_sanity_off, $can_smack",
-              "normal_logic, soul_dinolfols, bow"
+              "$enemy_souls_off",
+              "enemy_souls, soul_snappers"
             ]
           },
           {
@@ -77,25 +101,53 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Woodfall Temple Dinolfos Chest",
+            "access_rules": [
+              "easy_logic, bow, $baby_can_smack_hard",
+              "normal_logic, $enemy_souls_off, smallkey_wf, $can_smack",
+              "normal_logic, $enemy_souls_off, $small_key_sanity_off, $can_smack",
+              "normal_logic, $enemy_souls_off, bow",
+              "normal_logic, enemy_souls, soul_dinolfols, smallkey_wf, $can_smack",
+              "normal_logic, enemy_souls, soul_dinolfols, $small_key_sanity_off, $can_smack",
+              "normal_logic, enemy_souls, soul_dinolfols, bow"
+            ]
           },
           {
             "name": "Woodfall Temple Gekko Chest",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, $baby_has_explosives, deku, goron",
-              "normal_logic, soul_gekko, bow, $can_smack"
+              "normal_logic, $enemy_souls_off, bow, $can_smack",
+              "normal_logic, enemy_souls, soul_gekko, bow, $can_smack"
+            ]
+          },
+          {
+            "name": "Woodfall Temple Gekko Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, bow, $can_smack",
+              "normal_logic, $absurd_souls_off, enemy_souls, soul_gekko, bow, $can_smack",
+              "normal_logic, absurd_souls, soul_pots, $enemy_souls_off, bow, $can_smack",
+              "normal_logic, absurd_souls, soul_pots, enemy_souls, soul_gekko, bow, $can_smack"
             ]
           },
           {
             "name": "Woodfall Temple Dragonfly Chest",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles",
-              "normal_logic, soul_dragonflies, smallkey_wf",
-              "normal_logic, soul_dragonflies, $small_key_sanity_off",
-              "normal_logic, soul_dragonflies, bow"
+              "normal_logic, $enemy_souls_off, smallkey_wf",
+              "normal_logic, $enemy_souls_off, $small_key_sanity_off",
+              "normal_logic, $enemy_souls_off, bow",
+              "normal_logic, enemy_souls, soul_dragonflies, smallkey_wf",
+              "normal_logic, enemy_souls, soul_dragonflies, $small_key_sanity_off",
+              "normal_logic, enemy_souls, soul_dragonflies, bow"
             ]
           },
           {
@@ -104,23 +156,23 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, smallkey_wf",
-              "$absurd_souls_off, $small_key_sanity_off",
-              "absurd_souls, soul_grass, smallkey_wf",
-              "absurd_souls, soul_grass, $small_key_sanity_off"
+              "normal_logic, $absurd_souls_off, smallkey_wf",
+              "normal_logic, $absurd_souls_off, $small_key_sanity_off",
+              "normal_logic, absurd_souls, soul_grass, smallkey_wf",
+              "normal_logic, absurd_souls, soul_grass, $small_key_sanity_off"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
           {
             "name": "Woodfall Temple 2F Moving Flower Platform Room Grass",
-            "item_count": 10,
+            "item_count": 11,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, smallkey_wf",
-              "$absurd_souls_off, $small_key_sanity_off",
-              "absurd_souls, soul_grass, smallkey_wf",
-              "absurd_souls, soul_grass, $small_key_sanity_off"
+              "normal_logic, $absurd_souls_off, smallkey_wf",
+              "normal_logic, $absurd_souls_off, $small_key_sanity_off",
+              "normal_logic, absurd_souls, soul_grass, smallkey_wf",
+              "normal_logic, absurd_souls, soul_grass, $small_key_sanity_off"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -159,8 +211,8 @@
             "name": "Woodfall Temple Pot SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_pots"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
             ]
             //"visibility_rules": ["fairysanity"]
           },
@@ -186,6 +238,16 @@
               "normal_logic, soul_hanging_skulltula, bow"
             ]
             //"visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Left Side Bridge Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
           },
           {
             "name": "Woodfall Temple Bridge Room Bubble SF",
@@ -252,10 +314,20 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Woodfall Temple Pre-Boss Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
           },
           {
             "name": "Woodfall Temple Heart Container",
@@ -327,11 +399,23 @@
         ],
         "sections": [
           {
+            "name": "Snowhead Temple Entrance Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
             "name": "Bridge Room Freezard Chest",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, hookshot",
-              "normal_logic, soul_freezard, $can_use_fire_arrows",
-              "normal_logic, soul_freezard, hookshot"
+              "normal_logic, $enemy_souls_off, $can_use_fire_arrows",
+              "normal_logic, $enemy_souls_off, hookshot",
+              "normal_logic, enemy_souls, soul_freezard, $can_use_fire_arrows",
+              "normal_logic, enemy_souls, soul_freezard, hookshot"
             ]
           },
           {
@@ -348,6 +432,70 @@
               "normal_logic, fairymask, bow"
             ]
             //"visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Snowhead Temple Blue Door Lava Bridge Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
+            "name": "Snowhead Temple Main Room Basement Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
+            "name": "Snowhead Temple Main Room Scarecrow Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $npc_souls_off, hookshot, $can_use_fire_arrows",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_scarecrow, hookshot",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off, hookshot, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_scarecrow, hookshot"
+            ]
+          },
+          {
+            "name": "Snowhead Temple Main Room 2nd Floor Bridge Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_fire_arrows",
+              "normal_logic, $absurd_souls_off, $has|smallkey_sh|2",
+              "normal_logic, absurd_souls, soul_pots, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_pots, $has|smallkey_sh|2"
+            ]
+          },
+          {
+            "name": "Snowhead Temple Frozen Green Door Pots (Lower)",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
+            "name": "Snowhead Temple Frozen Green Door Pots (Upper)",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_pots, $can_use_fire_arrows"
+            ]
           },
           {
             "name": "Frozen Block Chest",
@@ -380,6 +528,16 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
+            "name": "Snowhead Temple Locked Grey Door Wolfos Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $has|smallkey_sh|2",
+              "normal_logic, absurd_souls, soul_pots, $has|smallkey_sh|2"
+            ]
+          },
+          {
             "name": "Stacked Block Upper Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_sh.png",
             "access_rules": [
@@ -394,9 +552,24 @@
             "access_rules": [""]
           },
           {
+            "name": "Snowhead Temple Orange Door Push Block Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_fire_arrows, $has|smallkey_sh|1",
+              "normal_logic, $absurd_souls_off, $can_use_fire_arrows, hookshot",
+              "normal_logic, absurd_souls, soul_pots, $can_use_fire_arrows, $has|smallkey_sh|1",
+              "normal_logic, absurd_souls, soul_pots, $can_use_fire_arrows, hookshot"
+            ]
+          },
+          {
             "name": "Freezard Torch Room Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_sh.png",
-            "access_rules": ["soul_freezard, $can_use_fire_arrows"]
+            "access_rules": [
+              "$enemy_souls_off, $can_use_fire_arrows",
+              "enemy_souls, soul_freezard, $can_use_fire_arrows"
+            ]
           },
           {
             "name": "Basement Switch Chest SF",
@@ -409,8 +582,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -477,12 +650,39 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
+            "name": "Snowhead Temple Goron Pound Puzzle Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $has_explosives, $has|smallkey_sh|2",
+              "normal_logic, $absurd_souls_off, $has_explosives, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_pots, $has_explosives, $has|smallkey_sh|2",
+              "normal_logic, absurd_souls, soul_pots, $has_explosives, $can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "Snowhead Temple Main Room 2nd Floor Bridge Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $has_explosives, $has|smallkey_sh|2",
+              "normal_logic, $absurd_souls_off, $has_explosives, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_pots, $has_explosives, $has|smallkey_sh|2",
+              "normal_logic, absurd_souls, soul_pots, $has_explosives, $can_use_fire_arrows"
+            ]
+          },
+          {
             "name": "Lower Wizzrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $baby_has_projectiles, $baby_can_smack_hard",
-              "normal_logic, soul_wizzrobe, $has|smallkey_sh|2, $has_explosives",
-              "normal_logic, soul_wizzrobe, $small_key_sanity_off, $has_explosives",
-              "normal_logic, soul_wizzrobe, $can_use_fire_arrows"
+              "normal_logic, $enemy_souls_off, $has|smallkey_sh|2, $has_explosives",
+              "normal_logic, $enemy_souls_off, $small_key_sanity_off, $has_explosives",
+              "normal_logic, $enemy_souls_off, $can_use_fire_arrows",
+              "normal_logic, enemy_souls, soul_wizzrobe, $has|smallkey_sh|2, $has_explosives",
+              "normal_logic, enemy_souls, soul_wizzrobe, $small_key_sanity_off, $has_explosives",
+              "normal_logic, enemy_souls, soul_wizzrobe, $can_use_fire_arrows"
             ]
           },
           {
@@ -500,8 +700,10 @@
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows",
-              "normal_logic, soul_dinolfos, $has|smallkey_sh|1, $can_use_fire_arrows",
-              "normal_logic, soul_dinolfos, $small_key_sanity_off, $can_use_fire_arrows"
+              "normal_logic, $enemy_souls_off, $has|smallkey_sh|1, $can_use_fire_arrows",
+              "normal_logic, $enemy_souls_off, $small_key_sanity_off, $can_use_fire_arrows",
+              "normal_logic, enemy_souls, soul_dinolfos, $has|smallkey_sh|1, $can_use_fire_arrows",
+              "normal_logic, enemy_souls, soul_dinolfos, $small_key_sanity_off, $can_use_fire_arrows"
             ]
             //"visibility_rules": ["fairysanity"]
           },
@@ -510,19 +712,49 @@
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows",
-              "normal_logic, soul_dinolfos, $has|smallkey_sh|1, $can_use_fire_arrows",
-              "normal_logic, soul_dinolfos, $small_key_sanity_off, $can_use_fire_arrows"
+              "normal_logic, $enemy_souls_off, $has|smallkey_sh|1, $can_use_fire_arrows",
+              "normal_logic, $enemy_souls_off, $small_key_sanity_off, $can_use_fire_arrows",
+              "normal_logic, enemy_souls, soul_dinolfos, $has|smallkey_sh|1, $can_use_fire_arrows",
+              "normal_logic, enemy_souls, soul_dinolfos, $small_key_sanity_off, $can_use_fire_arrows"
             ]
             //"visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Snowhead Temple Main Room 4th Floor Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_fire_arrows, $has|smallkey_sh|3",
+              "normal_logic, $absurd_souls_off, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow",
+              "normal_logic, absurd_souls, soul_pots, $can_use_fire_arrows, $has|smallkey_sh|3",
+              "normal_logic, absurd_souls, soul_pots, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow"
+            ]
           },
           {
             "name": "Upper Wizzrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $baby_can_smack_hard",
-              "normal_logic, soul_wizrobe, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, soul_wizrobe, $small_key_sanity_off, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, soul_wizrobe, $has|smallkey_sh|1, $can_use_fire_arrows, deku",
-              "normal_logic, soul_wizrobe, $small_key_sanity_off, $can_use_fire_arrows, deku"
+              "normal_logic, $enemy_souls_off, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, $enemy_souls_off, $small_key_sanity_off, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, $enemy_souls_off, $has|smallkey_sh|1, $can_use_fire_arrows, deku",
+              "normal_logic, $enemy_souls_off, $small_key_sanity_off, $can_use_fire_arrows, deku",
+              "normal_logic, enemy_souls, soul_wizzrobe, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, enemy_souls, soul_wizzrobe, $small_key_sanity_off, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, enemy_souls, soul_wizzrobe, $has|smallkey_sh|1, $can_use_fire_arrows, deku",
+              "normal_logic, enemy_souls, soul_wizzrobe, $small_key_sanity_off, $can_use_fire_arrows, deku"
+            ]
+          },
+          {
+            "name": "Snowhead Temple 4th Floor Wizzrobe Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_fire_arrows, $has|smallkey_sh|3",
+              "normal_logic, $absurd_souls_off, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow",
+              "normal_logic, absurd_souls, soul_pots, $can_use_fire_arrows, $has|smallkey_sh|3",
+              "normal_logic, absurd_souls, soul_pots, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow"
             ]
           },
           {
@@ -557,6 +789,24 @@
               "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $small_key_sanity_off, bosskey_sh",
               "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
               "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
+            ]
+          },
+          {
+            "name": "Goht Boss Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 14,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $has|smallkey_sh|1, bosskey_sh",
+              "normal_logic, $absurd_souls_off, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, $absurd_souls_off, $small_key_sanity_off, bosskey_sh",
+              "normal_logic, $absurd_souls_off, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, $absurd_souls_off, boss_warps_with_remains",
+              "normal_logic, absurd_souls, soul_pots, $has|smallkey_sh|1, bosskey_sh",
+              "normal_logic, absurd_souls, soul_pots, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, absurd_souls, soul_pots, $small_key_sanity_off, bosskey_sh",
+              "normal_logic, absurd_souls, soul_pots, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, absurd_souls, soul_pots, boss_warps_with_remains"
             ]
           },
           {
@@ -641,6 +891,16 @@
             ]
           },
           {
+            "name": "Great Bay Temple Above Blender Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
             "name": "Before Red Valve Room Chest",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, zora, bow, hookshot, deku",
@@ -660,6 +920,16 @@
               "normal_logic, absurd_souls, soul_pots, $can_use_ice_arrows",
               "normal_logic, absurd_souls, soul_pots, $has_projectiles, fairymask",
               "normal_logic, absurd_souls, soul_pots, deku"
+            ]
+          },
+          {
+            "name": "Great Bay Temple Red Green Pipe Tunnel Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 11,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_ice_arrows",
+              "normal_logic, absurd_souls, soul_pots, $can_use_ice_arrows"
             ]
           },
           {
@@ -685,6 +955,16 @@
             ]
           },
           {
+            "name": "Great Bay Temple Before Gekko Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
             "name": "Mad Jellied Gekko Chest",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, zora",
@@ -702,6 +982,28 @@
             ]
           },
           {
+            "name": "Great Bay Temple Red Valve Underwater Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
+            "name": "Great Bay Temple Behind Locked Door Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 12,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $smallkey_gb,",
+              "normal_logic, $absurd_souls_off, $small_key_sanity_off,",
+              "normal_logic, absurd_souls, soul_pots, $smallkey_gb",
+              "normal_logic, absurd_souls, soul_pots, $small_key_sanity_off"
+            ]
+          },
+          {
             "name": "Behind Locked Door Chest",
             "access_rules": [
               "easy_logic, smallkey_gb, bow, $baby_has_explosives, fairysword, mirrorshield, zora",
@@ -714,6 +1016,18 @@
             ]
           },
           {
+            "name": "Great Bay Temple Wart Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $smallkey_gb,",
+              "normal_logic, $absurd_souls_off, $small_key_sanity_off,",
+              "normal_logic, absurd_souls, soul_pots, $smallkey_gb",
+              "normal_logic, absurd_souls, soul_pots, $small_key_sanity_off"
+            ]
+          },
+          {
             "name": "Room Behind Waterfall Ceiling Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
@@ -722,11 +1036,22 @@
             ]
           },
           {
+            "name": "Great Bay Temple Room Behind 1F Waterfall Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_ice_arrows, zora",
+              "normal_logic, absurd_souls, soul_pots, $can_use_ice_arrows, zora"
+            ]
+          },
+          {
             "name": "Freezable Waterwheel Upper Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
-              "normal_logic, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
+              "normal_logic, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows, hookshot",
+              "normal_logic, enemy_souls, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
             ]
           },
           {
@@ -734,7 +1059,20 @@
             "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
-              "normal_logic, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
+              "normal_logic, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows, hookshot",
+              "normal_logic, enemy_souls, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
+            ]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe Frozen Waterwheel Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows, hookshot",
+              "normal_logic, $absurd_souls_off, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot",
+              "normal_logic, absurd_souls, soul_pots, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows, hookshot",
+              "normal_logic, absurd_souls, soul_pots, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
             ]
           },
           {
@@ -743,7 +1081,20 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, $can_use_ice_arrows, $can_use_fire_arrows, bombchu_bag",
-              "normal_logic, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
+              "normal_logic, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows",
+              "normal_logic, enemy_souls, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "Great Bay Temple Seesaw Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows, hookshot",
+              "normal_logic, $absurd_souls_off, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot",
+              "normal_logic, absurd_souls, soul_pots, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows, hookshot",
+              "normal_logic, absurd_souls, soul_pots, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
             ]
           },
           {
@@ -751,7 +1102,7 @@
             "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, zora, hookshot",
-              "normal_logic, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
+              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
             ]
           },
           {
@@ -768,6 +1119,18 @@
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
             "access_rules": ["@Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF"]
+          },
+          {
+            "name": "Great Bay Temple Pots Underneath Boss Door Platform",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows",
+              "normal_logic, $absurd_souls_off, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_pots, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_pots, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
+            ]
           },
           {
             "name": "Heart Container",
@@ -808,6 +1171,18 @@
               "normal_logic, boss_souls, soul_gyorg, hookshot, gyorg, boss_warps_with_remains"
             ],
             "hosted_item": "oath_gbt"
+          },
+          {
+            "name": "Great Bay Temple Gyorg Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
+              "normal_logic, $absurd_souls_off, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_pots, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_pots, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
+            ]
           }
         ],
         "map_locations": [
@@ -843,6 +1218,27 @@
             ]
           },
           {
+            "name": "Pirates' Fortress Sewers Cage Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, goron",
+              "normal_logic, absurd_souls, soul_pots, soul_barrels, goron"
+            ]
+          },
+          {
+            "name": "Pirates' Fortress Sewers After Gate Hidden Ladder Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, goron",
+              "normal_logic, absurd_souls, soul_pots, hookshot, goron",
+              "normal_logic, absurd_souls, soul_pots, soul_barrels, goron"
+            ]
+          },
+          {
             "name": "Pirates' Fortress Sewers Maze Chest",
             "access_rules": ["goron"]
           },
@@ -855,6 +1251,17 @@
             "access_rules": ["goron"]
           },
           {
+            "name": "Pirates' Fortress Sewers Exit Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, goron",
+              "normal_logic, absurd_souls, soul_pots, hookshot, goron",
+              "normal_logic, absurd_souls, soul_pots, soul_barrels, goron"
+            ]
+          },
+          {
             "name": "Pirates' Fortress Interior Tank Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, hookshot, $baby_can_smack_hard, magic, stonemask",
@@ -862,10 +1269,42 @@
             ]
           },
           {
+            "name": "Pirates' Fortress Interior Underwater Chest Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, $can_smack_hard",
+              "normal_logic, absurd_souls, soul_pots, hookshot, $can_smack_hard"
+            ]
+          },
+          {
             "name": "Pirates' Fortress Interior Guarded Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
               "normal_logic, $pirates_fortress_interior, hookshot"
+            ]
+          },
+          {
+            "name": "Pirates' Fortress Interior Room Past Pink Guard Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $pirates_fortress_interior, hookshot",
+              "normal_logic, absurd_souls, soul_pots, $pirates_fortress_interior, hookshot"
+            ]
+          },
+          {
+            "name": "Pirates' Fortress Interior Room Past Green Guard Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, hookshot, $can_smack_hard",
+              "normal_logic, $absurd_souls_off, enemy_souls, soul_coloured_pirates, hookshot, $can_smack_hard",
+              "normal_logic, absurd_souls, soul_pots, $enemy_souls_off, hookshot, $can_smack_hard",
+              "normal_logic, absurd_souls, soul_pots, enemy_souls, soul_coloured_pirates, hookshot, $can_smack_hard"
             ]
           },
           {
@@ -880,6 +1319,16 @@
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, hookshot, stonemask",
               "normal_logic, $pirates_fortress_interior, hookshot"
+            ]
+          },
+          {
+            "name": "Pirates' Fortress Interior Upper Beehive Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, $can_smack_hard",
+              "normal_logic, absurd_souls, soul_pots, hookshot, $can_smack_hard"
             ]
           },
           {
@@ -921,6 +1370,16 @@
               "skullsanity_2, npc_souls, soul_spider_man, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token"
             ]
             //"visibility_rules": ["shuffle_swamphouse_reward"]
+          },
+          {
+            "name": "Swamp Spider House Main Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
           },
           {
             "name": "Swamphouse First Room Pot Near Entrance Token",
@@ -1001,6 +1460,16 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
+            "name": "Swamp Spider House Tablet Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
             "name": "Swamphouse Monument Room Left Crate Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
@@ -1050,6 +1519,16 @@
               "normal_logic, misc_souls, soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Swamp Spider House Giant Jar Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
           },
           {
             "name": "Swamphouse Pottery Room Beehive #1 Token",
@@ -1119,6 +1598,16 @@
               "normal_logic, misc_souls, soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Swamp Spider House Gold Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
           },
           {
             "name": "Swamphouse Golden Room Crawling Left Wall Token",
@@ -1244,6 +1733,16 @@
               "misc_souls, soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Ocean Spiderhouse Bottom of Ramp Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $has_explosives",
+              "normal_logic, absurd_souls, soul_pots, has_explosives"
+            ]
           },
           {
             "name": "Lobby Ceiling Token",
@@ -1396,6 +1895,16 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
+            "name": "Ocean Spiderhouse Main Room Lower Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, $has_explosives",
+              "normal_logic, absurd_souls, soul_pots, hookshot, $has_explosives"
+            ]
+          },
+          {
             "name": "Dining Room Open Pot Token",
             "access_rules": [
               "$misc_souls_off, hookshot, $has_explosives",
@@ -1447,6 +1956,16 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
+            "name": "Ocean Spiderhouse Coloured Skulls Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, $has_explosives",
+              "normal_logic, absurd_souls, soul_pots, hookshot, $has_explosives"
+            ]
+          },
+          {
             "name": "Storage Room Web Token",
             "access_rules": [
               "$misc_souls_off, hookshot, $can_use_fire_arrows, $has_explosives",
@@ -1493,11 +2012,21 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
+            "name": "Ocean Spiderhouse Crate Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, $has_explosives",
+              "normal_logic, absurd_souls, soul_pots, hookshot, $has_explosives"
+            ]
+          },
+          {
             "name": "Coloured Mask Sequence HP",
             "chest_unopened_img": "images/icons/chest.png",
             "access_rules": [
-              "$npc_souls_off, hookshot, captainhat, bow, $has_explosives",
-              "npc_souls, soul_stalchildren, hookshot, captainhat, bow, $has_explosives"
+              "normal_logic, $npc_souls_off, hookshot, captainhat, bow, $has_explosives",
+              "normal_logic, npc_souls, soul_stalchildren, hookshot, captainhat, bow, $has_explosives"
             ]
           },
           {
@@ -1533,13 +2062,24 @@
         ],
         "sections": [
           {
+            "name": "Secret Shrine Entrance Pots",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/pot.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
             "name": "Secret Shrine Entrance Grass",
             "item_count": 6,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -1556,8 +2096,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, $can_use_light_arrows",
-              "absurd_souls, soul_grass, $can_use_light_arrows"
+              "normal_logic, $absurd_souls_off, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_grass, $can_use_light_arrows"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -1574,8 +2114,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, $can_use_light_arrows",
-              "absurd_souls, soul_grass, $can_use_light_arrows"
+              "normal_logic, $absurd_souls_off, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_grass, $can_use_light_arrows"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -1592,8 +2132,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, $can_use_light_arrows",
-              "absurd_souls, soul_grass, $can_use_light_arrows"
+              "normal_logic, $absurd_souls_off, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_grass, $can_use_light_arrows"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -1610,8 +2150,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, $can_use_light_arrows",
-              "absurd_souls, soul_grass, $can_use_light_arrows"
+              "normal_logic, $absurd_souls_off, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_grass, $can_use_light_arrows"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -1622,6 +2162,17 @@
               "normal_logic, $npc_souls_off, $can_smack_hard, $can_use_light_arrows",
               "normal_logic, npc_souls, soul_spirit_house_owner, $can_smack_hard, $can_use_light_arrows"
             ]
+          },
+          {
+            "name": "Secret Shrine Underwater Pots",
+            "item_count": 6,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/pot.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+            //"visibility_rules": ["absurd_souls"]
           }
         ],
         "map_locations": [
@@ -1778,6 +2329,18 @@
             //"visibility_rules": ["absurd_souls"]
           },
           {
+            "name": "Left Side Back Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, adultswallet",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, maskofscents",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, adultswallet",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, maskofscents"
+            ]
+          },
+          {
             "name": "Rightside Torch Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, $baby_can_plant_beans, $can_use_light_arrows",
@@ -1800,9 +2363,41 @@
               "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, bombs",
               "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow",
               "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, bombs",
-              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow",
-              "normal_logic, $absurd_souls_off, $can_use_light_arrows, $can_use_fire_arrows",
-              "normal_logic, absurd_souls, soul_grass, $can_use_light_arrows, $can_use_fire_arrows"
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Right Side Before Chest Room Pots",
+            "item_count": 10,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/icons/pot.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, $has|bottles|1, $can_use_light_arrows",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_plant_beans",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, $has|bottles|1, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Big Poe Pots",
+            "item_count": 4,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/icons/pot.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, bombs, $has|bottles|1, $can_plant_beans",
+              "normal_logic, $absurd_souls_off, $npc_souls_off, gibdo, bombs, $can_use_light_arrows",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, bombs, $has|bottles|1, $can_plant_beans",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_gibdos, gibdo, bombs, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, bombs $has|bottles|1, $can_plant_beans",
+              "normal_logic, absurd_souls, soul_grass, $npc_souls_off, gibdo, bombs, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, bombs, $has|bottles|1, $can_plant_beans",
+              "normal_logic, absurd_souls, soul_grass, npc_souls, soul_gibdos, gibdo, bombs, $can_use_light_arrows"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -1839,17 +2434,93 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Exterior Corner Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
+            "name": "Frozen Eyes Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_light_arrows",
+              "normal_logic, $absurd_souls_off, mirrorshield",
+              "normal_logic, absurd_souls, soul_pots, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_pots, mirrorshield"
+            ]
+          },
+          {
+            "name": "Left Side Falling Ceiling Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_pots, $can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "Left Side Broken Floor Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_fire_arrows, deku",
+              "normal_logic, absurd_souls, soul_pots, soul_deku_flowers, $can_use_fire_arrows, deku"
+            ]
+          },
+          {
+            "name": "Left Side Staircase Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_fire_arrows, deku",
+              "normal_logic, absurd_souls, soul_pots, soul_deku_flowers, $can_use_fire_arrows, deku"
+            ]
+          },
+          {
+            "name": "Right Side Staircase Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, $can_use_fire_arrows",
+              "normal_logic, $absurd_souls_off, enemy_souls, soul_wizzrobe, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_pots, soul_deku_flowers, $enemy_souls_off, $can_use_fire_arrows, deku",
+              "normal_logic, absurd_souls, soul_pots, soul_deku_flowers, enemy_souls, soul_wizzrobe, $can_use_fire_arrows, deku"
+            ]
+          },
+          {
+            "name": "Throne Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_light_arrows",
+              "normal_logic, $absurd_souls_off, mirrorshield, deku, lens, $can_use_fire_arrows, goron, keg",
+              "normal_logic, absurd_souls, soul_pots, soul_deku_flowers, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_pots, soul_deku_flowers, mirrorshield, deku, lens, $can_use_fire_arrows, goron, keg"
+            ]
           },
           {
             "name": "Pillar Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
-              "$absurd_souls_off, deku, $can_use_lens, $can_use_fire_arrows",
-              "absurd_souls, soul_deku_flowers, deku, $can_use_lens, $can_use_fire_arrows"
+              "normal_logic, $absurd_souls_off, deku, $can_use_lens, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_deku_flowers, deku, $can_use_lens, $can_use_fire_arrows"
             ]
           },
           {
@@ -1888,8 +2559,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -1904,13 +2575,22 @@
             ]
           },
           {
+            "name": "Stone Tower Temple Entrance Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
             "name": "Stone Tower Temple Elegy Maze Grass",
             "item_count": 6,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -1936,6 +2616,28 @@
               "easy_logic, $can_use_light_arrows, mirrorshield, $baby_has_explosives, goron",
               "normal_logic, soul_armos, $has_explosives, $can_use_light_arrows",
               "normal_logic, soul_armos, $has_explosives, mirrorshield"
+            ]
+          },
+          {
+            "name": "Lower Basement Armos Pots (Front)",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
+            "name": "Lower Basement Armos Pots (Back)",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_light_arrows",
+              "normal_logic, $absurd_souls_off, mirrorshield",
+              "normal_logic, absurd_souls, soul_pots, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_pots, mirrorshield"
             ]
           },
           {
@@ -1973,6 +2675,30 @@
             ]
           },
           {
+            "name": "Right Side Near Locked Door Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_light_arrows",
+              "normal_logic, $absurd_souls_off, $has|smallkey_st|1",
+              "normal_logic, absurd_souls, soul_pots,  $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_pots, $has|smallkey_st|1"
+            ]
+          },
+          {
+            "name": "Right Side Underwater Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_light_arrows, zora",
+              "normal_logic, $absurd_souls_off, $has|smallkey_st|1, zora",
+              "normal_logic, absurd_souls, soul_pots,  $can_use_light_arrows, zora",
+              "normal_logic, absurd_souls, soul_pots, $has|smallkey_st|1, zora"
+            ]
+          },
+          {
             "name": "Mirror Room Sun Block Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
@@ -1990,6 +2716,18 @@
               "normal_logic, $small_key_sanity_off, mirrorshield, $has_explosives",
               "normal_logic, $has|smallkey_st|1, $can_use_light_arrows",
               "normal_logic, $small_key_sanity_off, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Mirror Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $can_use_light_arrows, $has|smallkey_st|1",
+              "normal_logic, $absurd_souls_off, goron, zora, mirrorshield, $has|smallkey_st|2",
+              "normal_logic, absurd_souls, soul_pots,  $can_use_light_arrows, $has|smallkey_st|1",
+              "normal_logic, absurd_souls, soul_pots, goron, zora, mirrorshield, $has|smallkey_st|2"
             ]
           },
           {
@@ -2017,6 +2755,16 @@
             ]
           },
           {
+            "name": "Deku Updraft Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, deku, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest",
+              "normal_logic, absurd_souls, soul_pots, soul_deku_flowers, deku, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest"
+            ]
+          },
+          {
             "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest",
@@ -2028,8 +2776,18 @@
             "name": "After Garo Upside Down Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
-              "$absurd_souls_off, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest",
-              "absurd_souls, soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest"
+              "normal_logic, $absurd_souls_off, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest",
+              "normal_logic, absurd_souls, soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest"
+            ]
+          },
+          {
+            "name": "Lower Spike Roller Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, @Dungeons/Stone Tower Temple/Deku Updraft Pots",
+              "normal_logic, absurd_souls, soul_pots, @Dungeons/Stone Tower Temple/Deku Updraft Pots"
             ]
           },
           {
@@ -2075,15 +2833,25 @@
             "name": "Eastern Air Gust Room Frozen Switch Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
-              "$absurd_souls_off, deku, $can_use_fire_arrows, $can_use_light_arrows",
-              "absurd_souls, soul_deku_flowers, deku, $can_use_fire_arrows, $can_use_light_arrows"
+              "normal_logic, $absurd_souls_off, deku, $can_use_fire_arrows, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_deku_flowers, deku, $can_use_fire_arrows, $can_use_light_arrows"
             ]
           },
           {
             "name": "Eastern Air Gust Room Switch Chest",
             "access_rules": [
-              "$absurd_souls_off, deku, $can_use_light_arrows",
-              "absurd_souls, soul_deku_flowers, deku, $can_use_light_arrows"
+              "normal_logic, $absurd_souls_off, deku, $can_use_light_arrows",
+              "normal_logic, absurd_souls, soul_deku_flowers, deku, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Updraft Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, deku, @Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Fire Chest",
+              "normal_logic, absurd_souls, soul_pots, soul_deku_flowers, deku, @Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Fire Chest"
             ]
           },
           {
@@ -2091,15 +2859,45 @@
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, deku, $can_use_light_arrows",
-              "normal_logic, $absurd_souls_off, soul_wizzrobe, deku, $can_use_light_arrows, $has|smallkey_st|3",
-              "normal_logic, $absurd_souls_off, soul_wizzrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives",
-              "normal_logic, absurd_souls, soul_deku_flowers, soul_wizzrobe, deku, $can_use_light_arrows, $has|smallkey_st|3",
-              "normal_logic, absurd_souls, soul_deku_flowers, soul_wizzrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives"
+              "normal_logic, $absurd_souls_off, $enemy_souls_off, deku, $can_use_light_arrows, $has|smallkey_st|3",
+              "normal_logic, $absurd_souls_off, enemy_souls, soul_wizzrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives",
+              "normal_logic, absurd_souls, soul_deku_flowers, $enemy_souls_off, deku, $can_use_light_arrows, $has|smallkey_st|3",
+              "normal_logic, absurd_souls, soul_deku_flowers, enemy_souls, soul_wizzrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives"
+            ]
+          },
+          {
+            "name": "Wizzrobe Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "access_rules": [
+              "easy_logic, deku, $can_use_light_arrows",
+              "normal_logic, $absurd_souls_off, deku, hookshot, $can_use_light_arrows, @Dungeons/Inverted Stone Tower Temple/Gomess Chest",
+              "normal_logic, absurd_souls, soul_deku_flowers, soul_pots, deku, hookshot, $can_use_light_arrows, @Dungeons/Inverted Stone Tower Temple/Gomess Chest"
             ]
           },
           {
             "name": "Death Armos Maze Chest",
             "access_rules": ["@Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest"]
+          },
+          {
+            "name": "Small Poe Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Room Pots",
+              "normal_logic, absurd_souls, soul_pots, soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Room Pots"
+            ]
+          },
+          {
+            "name": "Lower Bridge Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Room Pots",
+              "normal_logic, absurd_souls, soul_pots, soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Room Pots"
+            ]
           },
           {
             "name": "Gomess Chest",
@@ -2110,6 +2908,16 @@
             ]
           },
           {
+            "name": "Gomess Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, deku, @Dungeons/Stone Tower Temple/Wizzrobe Room Pots",
+              "normal_logic, absurd_souls, soul_pots, soul_deku_flowers, deku, @Dungeons/Stone Tower Temple/Wizzrobe Room Pots"
+            ]
+          },
+          {
             "name": "Eyegore Chest",
             "access_rules": [
               "easy_logic, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $baby_has_explosives, $baby_has_projectiles",
@@ -2117,6 +2925,16 @@
               "normal_logic, $absurd_souls_off, soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $small_key_sanity_off",
               "normal_logic, absurd_souls, soul_deku_flowers, soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $has|smallkey_st|4",
               "normal_logic, absurd_souls, soul_deku_flowers, soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $small_key_sanity_off"
+            ]
+          },
+          {
+            "name": "Pre Boss Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 12,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, @Dungeons/Stone Tower Temple/Eyegore Chest",
+              "normal_logic, absurd_souls, soul_pots, @Dungeons/Stone Tower Temple/Eyegore Chest"
             ]
           },
           {

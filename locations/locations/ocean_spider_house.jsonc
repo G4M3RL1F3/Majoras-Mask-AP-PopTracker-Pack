@@ -1,7 +1,6 @@
 [
   {
     "name": "Ocean Spider House",
-    "access_rules": ["soul_gs"],
     "children": [
       {
         "name": "Ramp",
@@ -18,6 +17,21 @@
             "map": "ocean_spider_house",
             "x": 468,
             "y": 606
+          }
+        ]
+      },
+      {
+        "name": "Bottom Entrance Ramp Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Ocean Spider House/Ocean Spiderhouse Bottom of Ramp Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 468,
+            "y": 387
           }
         ]
       },
@@ -251,6 +265,9 @@
         "sections": [
           {
             "ref": "Dungeons/Ocean Spider House/First Room Downstairs Breakable Pot Token"
+          },
+          {
+            "ref": "Dungeons/Ocean Spider House/Ocean Spiderhouse Main Room Lower Pots"
           }
         ],
         "map_locations": [
@@ -273,6 +290,21 @@
             "map": "ocean_spider_house",
             "x": 991,
             "y": 242
+          }
+        ]
+      },
+      {
+        "name": "First Room Downstairs Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Ocean Spider House/Ocean Spiderhouse Main Room Lower Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 1047,
+            "y": 600
           }
         ]
       },
@@ -339,6 +371,21 @@
             "map": "ocean_spider_house",
             "x": 1183,
             "y": 516
+          }
+        ]
+      },
+      {
+        "name": "Dining Room Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Ocean Spider House/Ocean Spiderhouse Coloured Skulls Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 1090,
+            "y": 470
           }
         ]
       },
@@ -415,6 +462,21 @@
             "x": 749,
             "y": 388,
             "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Storage Room Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Ocean Spider House/Ocean Spiderhouse Crate Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 775,
+            "y": 375
           }
         ]
       },

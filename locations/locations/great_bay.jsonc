@@ -24,8 +24,8 @@
           {
             "name": "Fisherman's Grotto Chest",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grottos"
             ]
           },
           {
@@ -34,8 +34,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -45,8 +45,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -78,93 +78,56 @@
             ]
           },
           {
-            "name": "Ledge Grotto Left Cow",
-            "chest_unopened_img": "images/icons/cow.png",
-            "visibility_rules": ["cowsanity"],
+            "name": "Great Bay Fisherman Game",
+            "chest_unopened_img": "images/icons/torch.png",
             "access_rules": [
-              "$absurd_souls_off, $misc_souls_off, hookshot, $can_play_eponas",
-              "$absurd_souls_off, misc_souls, soul_cow, hookshot, $can_play_eponas",
-              "absurd_souls, soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
-              "absurd_souls, soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
+              "easy_logic, $baby_clear_greatbay",
+              "normal_logic, $npc_souls_off, $clear_greatbay",
+              "normal_logic, npc_souls, soul_fisherman, $clear_greatbay"
             ]
           },
           {
-            "name": "Ledge Grotto Right Cow",
-            "chest_unopened_img": "images/icons/cow.png",
-            "visibility_rules": ["cowsanity"],
-            "access_rules": [
-              "$absurd_souls_off, $misc_souls_off, hookshot, $can_play_eponas",
-              "$absurd_souls_off, misc_souls, soul_cow, hookshot, $can_play_eponas",
-              "absurd_souls, soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
-              "absurd_souls, soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
-            ]
-          },
-          {
-            "name": "Great Bay Grotto Grass Group 1",
-            "item_count": 12,
+            "name": "Great Bay Coast Beside Pirates' Fortress Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
             "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, hookshot, $can_play_eponas",
-              "absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
             ]
-            //"visibility_rules": ["absurd_souls"]
           },
           {
-            "name": "Great Bay Grotto Grass Group 2",
-            "item_count": 12,
+            "name": "Great Bay Coast Rock Pool Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
             "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, hookshot, $can_play_eponas",
-              "absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
             ]
-            //"visibility_rules": ["absurd_souls"]
           },
           {
-            "name": "Great Bay Grotto Grass Group 3",
-            "item_count": 12,
+            "name": "Great Bay Coast Behind Marine Lab Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
             "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, hookshot, $can_play_eponas",
-              "absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
             ]
-            //"visibility_rules": ["absurd_souls"]
-          },
+          }
+        ]
+      },
+      {
+        "name": "Great Bay Coast Rock Wall",
+        "map_locations": [
           {
-            "name": "Great Bay Grotto Grass Group 4",
-            "item_count": 12,
-            "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off, hookshot, $can_play_eponas",
-              "absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
-            ]
-            //"visibility_rules": ["absurd_souls"]
-          },
-          {
-            "name": "Great Bay Grotto Grass Group 5",
-            "item_count": 12,
-            "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off, hookshot, $can_play_eponas",
-              "absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
-            ]
-            //"visibility_rules": ["absurd_souls"]
-          },
-          {
-            "name": "Great Bay Grotto Grass Group 6",
-            "item_count": 12,
-            "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off, hookshot, $can_play_eponas",
-              "absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
-            ]
-            //"visibility_rules": ["absurd_souls"]
-          },
+            "map": "overworld",
+            "x": 305,
+            "y": 319
+          }
+        ],
+        "sections": [
           {
             "name": "Scarecrow Ledge HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
@@ -177,12 +140,111 @@
             ]
           },
           {
-            "name": "Great Bay Fisherman Game",
-            "chest_unopened_img": "images/icons/torch.png",
+            "name": "Ledge Grotto Left Cow",
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
             "access_rules": [
-              "easy_logic, $baby_clear_greatbay",
-              "normal_logic, $npc_souls_off, $clear_greatbay",
-              "normal_logic, npc_souls, soul_fisherman, $clear_greatbay"
+              "normal_logic, $absurd_souls_off, $misc_souls_off, hookshot, $can_play_eponas",
+              "normal_logic, $absurd_souls_off, misc_souls, soul_cow, hookshot, $can_play_eponas",
+              "normal_logic, absurd_souls, soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
+              "normal_logic, absurd_souls, soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
+            ]
+          },
+          {
+            "name": "Ledge Grotto Right Cow",
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $misc_souls_off, hookshot, $can_play_eponas",
+              "normal_logic, $absurd_souls_off, misc_souls, soul_cow, hookshot, $can_play_eponas",
+              "normal_logic, absurd_souls, soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
+              "normal_logic, absurd_souls, soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
+            ]
+          },
+          {
+            "name": "Great Bay Grotto Grass Group 1",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, $can_play_eponas",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Great Bay Grotto Grass Group 2",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, $can_play_eponas",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Great Bay Grotto Grass Group 3",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, $can_play_eponas",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Great Bay Grotto Grass Group 4",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, $can_play_eponas",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Great Bay Grotto Grass Group 5",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, $can_play_eponas",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Great Bay Grotto Grass Group 6",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot, $can_play_eponas",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, hookshot, $can_play_eponas"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Great Bay Coast Lower Rock Wall Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
+            "name": "Great Bay Coast Upper Rock Wall Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, hookshot",
+              "normal_logic, absurd_souls, soul_pots, hookshot"
             ]
           }
         ]
@@ -213,10 +275,26 @@
             "name": "Pot Game",
             "chest_unopened_img": "images/characters/zora.png",
             "access_rules": [
-              "$npc_souls_off, $absurd_souls_off, zora",
-              "$npc_souls_off, absurd_souls, soul_pots, zora",
-              "npc_souls, soul_potgame_hall_zora, $absurd_souls_off, zora",
-              "npc_souls, soul_potgame_hall_zora, absurd_souls, soul_pots, zora"
+              "normal_logic, $npc_souls_off, $absurd_souls_off, zora",
+              "normal_logic, $npc_souls_off, absurd_souls, soul_pots, zora",
+              "normal_logic, npc_souls, soul_potgame_hall_zora, $absurd_souls_off, zora",
+              "normal_logic, npc_souls, soul_potgame_hall_zora, absurd_souls, soul_pots, zora"
+            ]
+          },
+          {
+            "name": "Zora Cape Jar Game Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $npc_souls_off, $absurd_souls_off, zora",
+              "normal_logic, $npc_souls_off, $absurd_souls_off, goron, keg",
+              "normal_logic, $npc_souls_off, absurd_souls, soul_pots, zora",
+              "normal_logic, $npc_souls_off, absurd_souls, soul_pots, goron, keg",
+              "normal_logic, npc_souls, soul_potgame_hall_zora, $absurd_souls_off, zora",
+              "normal_logic, npc_souls, soul_potgame_hall_zora, $absurd_souls_off, goron, keg",
+              "normal_logic, npc_souls, soul_potgame_hall_zora, absurd_souls, soul_pots, zora",
+              "normal_logic, npc_souls, soul_potgame_hall_zora, absurd_souls, soul_pots, goron, keg"
             ]
           },
           {
@@ -248,9 +326,9 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, goron",
-              "$absurd_souls_off, $has_explosives",
-              "absurd_souls, soul_grottos, soul_grass, goron",
+              "normal_logic, $absurd_souls_off, goron",
+              "normal_logic, $absurd_souls_off, $has_explosives",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, goron",
               "abusrd_souls, soul_grottos, soul_grass, $has_explosives"
             ]
             //"visibility_rules": ["absurd_souls"]
@@ -260,10 +338,10 @@
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": [
-              "$absurd_souls_off, $npc_souls_off, $checkRequirements|required_stray_fairies|fairy_gb, hookshot",
-              "$absurd_souls_off, npc_souls, soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_gb, hookshot",
-              "absurd_souls, soul_trees_bushes, $npc_souls_off, $checkRequirements|required_stray_fairies|fairy_gb, hookshot",
-              "absurd_souls, soul_trees_bushes, npc_souls, soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_gb, hookshot"
+              "normal_logic, $absurd_souls_off, $npc_souls_off, $checkRequirements|required_stray_fairies|fairy_gb, hookshot",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_gb, hookshot",
+              "normal_logic, absurd_souls, soul_trees_bushes, $npc_souls_off, $checkRequirements|required_stray_fairies|fairy_gb, hookshot",
+              "normal_logic, absurd_souls, soul_trees_bushes, npc_souls, soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_gb, hookshot"
             ]
           },
           {
@@ -275,6 +353,16 @@
             "name": "Beaver Bros. Race 2",
             "chest_unopened_img": "images/icons/beaver_ring.png",
             "access_rules": ["hookshot, zora"]
+          },
+          {
+            "name": "Zora Cape Owl Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
           }
         ]
       },
@@ -296,8 +384,8 @@
             "clear_as_group": true,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
             "access_rules": [
-              "$npc_souls_off, zora, $can_afford|Great Bay/Zora Hall/Shop 1",
-              "npc_souls, soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 1"
+              "normal_logic, $npc_souls_off, zora, $can_afford|Great Bay/Zora Hall/Shop 1",
+              "normal_logic, npc_souls, soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 1"
             ]
           },
           {
@@ -307,8 +395,8 @@
             "clear_as_group": true,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
             "access_rules": [
-              "$npc_souls_off, zora, $can_afford|Great Bay/Zora Hall/Shop 2",
-              "npc_souls, soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 2"
+              "normal_logic, $npc_souls_off, zora, $can_afford|Great Bay/Zora Hall/Shop 2",
+              "normal_logic, npc_souls, soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 2"
             ]
           },
           {
@@ -318,8 +406,8 @@
             "clear_as_group": true,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
             "access_rules": [
-              "$npc_souls_off, zora, $can_afford|Great Bay/Zora Hall/Shop 3",
-              "npc_souls, soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 3"
+              "normal_logic, $npc_souls_off, zora, $can_afford|Great Bay/Zora Hall/Shop 3",
+              "normal_logic, npc_souls, soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 3"
             ]
           },
           {
@@ -336,18 +424,18 @@
             "name": "Goron Scrub Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": [
-              "$npc_souls_off, zora, mountaindeed, goron",
-              "npc_souls, soul_business_scrub, zora, mountaindeed, goron"
+              "normal_logic, $npc_souls_off, zora, mountaindeed, goron",
+              "normal_logic, npc_souls, soul_business_scrub, zora, mountaindeed, goron"
             ]
           },
           {
             "name": "Goron Scrub Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
-              "$npc_souls_off, $absurd_souls_off, deku, zora, mountaindeed, goron",
-              "$npc_souls_off, absurd_souls, soul_deku_flowers, deku, zora, mountaindeed, goron",
-              "npc_souls, soul_business_scrub, $absurd_souls_off, deku, zora, mountaindeed, goron",
-              "npc_souls, soul_business_scrub, absurd_souls, soul_deku_flowers, deku, zora, mountaindeed, goron"
+              "normal_logic, $npc_souls_off, $absurd_souls_off, deku, zora, mountaindeed, goron",
+              "normal_logic, $npc_souls_off, absurd_souls, soul_deku_flowers, deku, zora, mountaindeed, goron",
+              "normal_logic, npc_souls, soul_business_scrub, $absurd_souls_off, deku, zora, mountaindeed, goron",
+              "normal_logic, npc_souls, soul_business_scrub, absurd_souls, soul_deku_flowers, deku, zora, mountaindeed, goron"
             ]
           },
           {
@@ -362,24 +450,24 @@
             "name": "Torches Reward",
             "chest_unopened_img": "images/icons/torch.png",
             "access_rules": [
-              "$npc_souls_off, $can_use_fire_arrows",
-              "npc_souls, soul_potgame_hall_zora, $can_use_fire_arrows"
+              "normal_logic, $npc_souls_off, $can_use_fire_arrows",
+              "normal_logic, npc_souls, soul_potgame_hall_zora, $can_use_fire_arrows"
             ]
           },
           {
             "name": "Good Picture of Lulu",
             "chest_unopened_img": "images/characters/zora.png",
             "access_rules": [
-              "$npc_souls_off, zora, pictobox",
-              "npc_souls, soul_potgame_hall_zora, soul_lulu, zora, pictobox"
+              "normal_logic, $npc_souls_off, zora, pictobox",
+              "normal_logic, npc_souls, soul_potgame_hall_zora, soul_lulu, zora, pictobox"
             ]
           },
           {
             "name": "Bad Picture of Lulu",
             "chest_unopened_img": "images/characters/zora.png",
             "access_rules": [
-              "$npc_souls_off, zora, pictobox",
-              "npc_souls, soul_potgame_hall_zora, soul_lulu, zora, pictobox"
+              "normal_logic, $npc_souls_off, zora, pictobox",
+              "normal_logic, npc_souls, soul_potgame_hall_zora, soul_lulu, zora, pictobox"
             ]
           }
         ]
@@ -417,6 +505,18 @@
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
               "normal_logic, $npc_souls_off, $can_reach_seahorse, $has|bottles|1, zora",
               "normal_logic, npc_souls, soul_fisherman, soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
+            ]
+          },
+          {
+            "name": "Pinnacle Rock Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 11,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $npc_souls_off, $can_reach_seahorse, $has|bottles|1, zora",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_fisherman, $can_reach_seahorse, $has|bottles|1, zora",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off, $can_reach_seahorse, $has|bottles|1, zora",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_fisherman, $can_reach_seahorse, $has|bottles|1, zora"
             ]
           }
         ]

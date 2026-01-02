@@ -52,6 +52,9 @@
         "sections": [
           {
             "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Cage HP"
+          },
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Cage Room Pots"
           }
         ],
         "map_locations": [
@@ -108,10 +111,43 @@
         ]
       },
       {
+        "name": "Sewers Ladder Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers After Gate Hidden Ladder Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1760,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Sewers Exit Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Exit Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1889,
+            "y": 615
+          }
+        ]
+      },
+      {
         "name": "Pirates' Fortress Interior Tank Chest",
         "sections": [
           {
             "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Tank Chest"
+          },
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Underwater Chest Room Pots"
           }
         ],
         "map_locations": [
@@ -119,6 +155,21 @@
             "map": "pirates_fortress",
             "x": 875,
             "y": 1465
+          }
+        ]
+      },
+      {
+        "name": "Green Guard Egg Room Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Room Past Green Guard Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1707,
+            "y": 1094
           }
         ]
       },
@@ -134,6 +185,21 @@
             "map": "pirates_fortress",
             "x": 1243,
             "y": 1129
+          }
+        ]
+      },
+      {
+        "name": "Pink Guard Egg Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Room Past Pink Guard Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1408,
+            "y": 1225
           }
         ]
       },
@@ -164,6 +230,21 @@
             "map": "pirates_fortress",
             "x": 962,
             "y": 771
+          }
+        ]
+      },
+      {
+        "name": "Upper Leader's Room Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Upper Beehive Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 319,
+            "y": 1064
           }
         ]
       },

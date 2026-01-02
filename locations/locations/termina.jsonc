@@ -21,8 +21,8 @@
           {
             "name": "Termina Grass Grotto Chest",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grottos"
             ]
           },
           {
@@ -43,13 +43,13 @@
         ]
       },
       {
-        "name": "Termina Ikana Pillar Grotto",
+        "name": "Termina Ikana Pillars",
         "sections": [
           {
             "name": "Termina Ikana Pillar Grotto Chest",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grottos"
             ]
           },
           {
@@ -59,6 +59,16 @@
             //"visibility_rules": ["absurd_souls"],
             "item_count": 14,
             "clear_as_group": false
+          },
+          {
+            "name": "Termina Field Eastern Pillar Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $has_projectiles",
+              "normal_logic, absurd_souls, soul_pots, $has_projectiles"
+            ]
           }
         ],
         "map_locations": [
@@ -90,8 +100,8 @@
         "chest_unopened_img": "images/absurd/grass.png",
         "chest_opened_img": "images/icons/check_32.png",
         "access_rules": [
-            "$absurd_souls_off",
-            "absurd_souls, soul_grass"
+            "normal_logic, $absurd_souls_off",
+            "normal_logic, absurd_souls, soul_grass"
           ],
           //"visibility_rules": ["absurd_souls"],
         "sections": [
@@ -214,7 +224,10 @@
             "name": "Termina Field Peehat Grotto Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": ["soul_grottos, soul_grass"],
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass"
+            ],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
             "clear_as_group": false
@@ -235,8 +248,10 @@
             "name": "Termina Dodongo Grotto Chest",
             "access_rules": [
               "$baby_can_smack_hard",
-              "normal_logic, $absurd_souls_off, soul_dodongos",
-              "normal_logic, souls_absurd, soul_grottos, soul_dodongos"
+              "normal_logic, $absurd_souls_off, $enemy_souls_off",
+              "normal_logic, $absurd_souls_off, enemy_souls, soul_dodongos",
+              "normal_logic, absurd_souls, soul_grottos, $enemy_souls_off",
+              "normal_logic, absurd_souls, soul_grottos, enemy_souls, soul_dodongos"
             ]
           }
         ],
@@ -255,8 +270,8 @@
             "name": "Termina Healing Kamaro (Midnight - 6 AM)",
             "chest_unopened_img": "images/characters/kamaro.png",
             "access_rules": [
-              "$npc_souls_off, $can_play_healing",
-              "npc_souls, soul_kamaro, $can_play_healing"
+              "normal_logic, $npc_souls_off, $can_play_healing",
+              "normal_logic, npc_souls, soul_kamaro, $can_play_healing"
             ]
           }
         ],
@@ -269,7 +284,7 @@
         ]
       },
       {
-        "name": "Termina Bio Baba Grotto HP",
+        "name": "Termina Bio Baba Grotto",
         "chest_unopened_img": "images/equipment/heart_piece.png",
         "sections": [
           {
@@ -286,7 +301,10 @@
             "name": "Termina Field Bio Baba Grotto Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": ["soul_grottos, soul_grass"],
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass"
+            ],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 2,
             "clear_as_group": false
@@ -315,6 +333,16 @@
               "normal_logic, npc_souls, soul_astral_man, soul_skull_kid, $absurd_souls_off, deku",
               "normal_logic, npc_souls, soul_astral_man, soul_skull_kid, absurd_souls, soul_deku_flowers, deku"
             ]
+          },
+          {
+            "name": "Astral Observatory Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory",
+              "normal_logic, absurd_souls, soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"
+            ]
           }
         ],
         "map_locations": [
@@ -342,6 +370,16 @@
               "normal_logic, absurd_souls, soul_grottos, $npc_souls_off, $has_projectiles, adultwallet",
               "normal_logic, $absurd_souls_off, npc_souls, soul_business_scrub, soul_astral_man, $has_projectiles, adultwallet",
               "normal_logic, absurd_souls, soul_grottos, npc_souls, soul_business_scrub, soul_astral_man, $has_projectiles, adultwallet"
+            ]
+          },
+          {
+            "name": "Termina Field Deku Business Scrub Grotto Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grottos, soul_pots"
             ]
           }
         ],
@@ -399,8 +437,8 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass"
             ],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 5,
@@ -427,8 +465,8 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass"
             ],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 5,
@@ -481,8 +519,8 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
@@ -493,8 +531,8 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
@@ -505,8 +543,8 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
@@ -517,8 +555,8 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
@@ -529,8 +567,8 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
@@ -541,8 +579,8 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_grass"
             ],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,

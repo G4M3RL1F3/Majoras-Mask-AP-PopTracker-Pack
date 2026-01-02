@@ -6,6 +6,21 @@
         "name": "",
         "sections": [
           {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Pot"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 730,
+            "y": 1160
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
             "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Room Grass"
           }
         ],
@@ -29,6 +44,21 @@
             "map": "woodfall_temple",
             "x": 826,
             "y": 1100
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Main Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 830,
+            "y": 815
           }
         ]
       },
@@ -93,6 +123,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Deku Elevator Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 975,
+            "y": 864
+          }
+        ]
+      },
+      {
         "name": "Turtle Chest",
         "sections": [
           {
@@ -130,6 +175,9 @@
         "sections": [
           {
             "ref": "Dungeons/Woodfall Temple/Woodfall Temple Gekko Chest"
+          },
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Gekko Pots"
           }
         ],
         "map_locations": [
@@ -294,6 +342,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Left Side Bridge Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 565,
+            "y": 736
+          }
+        ]
+      },
+      {
         "name": "Bridge Room Hive SF",
         "sections": [
           {
@@ -350,6 +413,21 @@
             "map": "woodfall_temple",
             "x": 725,
             "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Pre-Boss Room Pots",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 725,
+            "y": 295
           }
         ]
       },

@@ -135,8 +135,8 @@
             "name": "Moon's Tear Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": [
-              "$npc_souls_off, moontear",
-              "npc_souls, soul_business_scrub, moontear"
+              "normal_logic, $npc_souls_off, moontear",
+              "normal_logic, npc_souls, soul_business_scrub, moontear"
             ]
           },
           {
@@ -392,7 +392,7 @@
             "name": "North Clock Town Great Fairy Reward",
             "access_rules": [
               "$npc_souls_off", "fairy_ct",
-              "npc_souls, soul_great_fairy, fairy_ct"
+              "normal_logic, npc_souls, soul_great_fairy, fairy_ct"
             ]
           },
           {
@@ -522,7 +522,7 @@
             "chest_unopened_img": "images/characters/madame_aroma.png",
             "access_rules": [
               "$npc_souls_off",
-              "npc_souls, soul_madame_aroma"
+              "normal_logic, npc_souls, soul_madame_aroma"
             ]
           },
           {
@@ -530,7 +530,7 @@
             "chest_unopened_img": "images/characters/mayor_dotour.png",
             "access_rules": [
               "$npc_souls_off",
-              "npc_souls, soul_council, couple"
+              "normal_logic, npc_souls, soul_council, couple"
             ]
           }
         ],
@@ -594,15 +594,15 @@
           {
             "name": "East Clock Town Shooting Gallery 40-49 Points",
             "access_rules": [
-              "$npc_souls_off, bow",
-              "npc_souls, soul_archery_man, bow"
+              "normal_logic, $npc_souls_off, bow",
+              "normal_logic, npc_souls, soul_archery_man, bow"
             ]
           },
           {
             "name": "East Clock Town Shooting Gallery Perfect 50 Points",
             "access_rules": [
-              "$npc_souls_off, bow",
-              "npc_souls, soul_archery_man, bow"
+              "normal_logic, $npc_souls_off, bow",
+              "normal_logic, npc_souls, soul_archery_man, bow"
             ]
           }
         ],
@@ -626,28 +626,28 @@
             "name": "East Clock Town Treasure Game Chest (Human)",
             "access_rules": [
               "$npc_souls_off",
-              "npc_souls, soul_treasure_game_lady"
+              "normal_logic, npc_souls, soul_treasure_game_lady"
             ]
           },
           {
             "name": "East Clock Town Treasure Game Chest (Deku)",
             "access_rules": [
-              "$npc_souls_off, deku",
-              "npc_souls, soul_treasure_game_lady, deku"
+              "normal_logic, $npc_souls_off, deku",
+              "normal_logic, npc_souls, soul_treasure_game_lady, deku"
             ]
           },
           {
             "name": "East Clock Town Treasure Game Chest (Goron)",
             "access_rules": [
-              "$npc_souls_off, goron",
-              "npc_souls, soul_treasure_game_lady, goron"
+              "normal_logic, $npc_souls_off, goron",
+              "normal_logic, npc_souls, soul_treasure_game_lady, goron"
             ]
           },
           {
             "name": "East Clock Town Treasure Game Chest (Zora)",
             "access_rules": [
-              "$npc_souls_off, zora",
-              "npc_souls, soul_treasure_game_lady, zora"
+              "normal_logic, $npc_souls_off, zora",
+              "normal_logic, npc_souls, soul_treasure_game_lady, zora"
             ]
           }
         ],
@@ -673,6 +673,16 @@
               "easy_logic, $baby_has_explosives, $baby_has_projectiles",
               "normal_logic, $has_explosives, $has_projectiles"
             ]
+          },
+          {
+            "name": "Bomber's Hideout Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "$absurd_souls_off, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory",
+              "absurd_souls, soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"
+            ]
           }
         ],
         "map_locations": [
@@ -696,7 +706,7 @@
             "chest_unopened_img": "images/characters/anju.png",
             "access_rules": [
               "$npc_souls_off",
-              "npc_souls, soul_anju"
+              "normal_logic, npc_souls, soul_anju"
             ]
           },
           {
@@ -721,8 +731,8 @@
             "name": "Stock Pot Inn Midnight Toilet Hand",
             "chest_unopened_img": "images/characters/toilet_hand.png",
             "access_rules": [
-              "$npc_souls_off, $has_paper",
-              "npc_souls, soul_toilet_hand, $has_paper"
+              "normal_logic, $npc_souls_off, $has_paper",
+              "normal_logic, npc_souls, soul_toilet_hand, $has_paper"
             ]
           },
           {
@@ -730,7 +740,7 @@
             "chest_unopened_img": "images/characters/anjus_grandmother.png",
             "access_rules": [
               "$npc_souls_off",
-              "npc_souls, soul_anjus_grandmother, allnightmask"
+              "normal_logic, npc_souls, soul_anjus_grandmother, allnightmask"
             ]
           },
           {
@@ -738,7 +748,7 @@
             "chest_unopened_img": "images/characters/anjus_grandmother.png",
             "access_rules": [
               "$npc_souls_off",
-              "npc_souls, soul_anjus_grandmother, allnightmask"
+              "normal_logic, npc_souls, soul_anjus_grandmother, allnightmask"
             ]
           },
           {
@@ -777,16 +787,16 @@
             "name": "Milk Bar Show (Night 1 - 2)",
             "chest_unopened_img": "images/characters/toto.png",
             "access_rules": [
-              "$npc_souls_off, romani, deku, goron, zora, ocarina",
-              "npc_souls, soul_toto_gorman, romani, deku, goron, zora, ocarina"
+              "normal_logic, $npc_souls_off, romani, deku, goron, zora, ocarina",
+              "normal_logic, npc_souls, soul_toto_gorman, romani, deku, goron, zora, ocarina"
             ]
           },
           {
             "name": "Priority Mail to Aroma (Final Night)",
             "chest_unopened_img": "images/characters/madame_aroma.png",
             "access_rules": [
-              "$npc_souls_off, romani, kafei, express",
-              "npc_souls, soul_madame_aroma, romani, kafei, express"
+              "normal_logic, $npc_souls_off, romani, kafei, express",
+              "normal_logic, npc_souls, soul_madame_aroma, romani, kafei, express"
             ]
           },
           {
@@ -794,10 +804,10 @@
             "chest_unopened_img": "images/items/milk_bottle.png",
             "access_rules": ["romani"],
             "visibility_rules": [
-              "$npc_souls_off, shopsanity_enabled",
-              "$npc_souls_off, shopsanity_advanced",
-              "npc_souls, soul_barten, shopsanity_enabled",
-              "npc_souls, soul_barten, shopsanity_advanced"
+              "normal_logic, $npc_souls_off, shopsanity_enabled",
+              "normal_logic, $npc_souls_off, shopsanity_advanced",
+              "normal_logic, npc_souls, soul_barten, shopsanity_enabled",
+              "normal_logic, npc_souls, soul_barten, shopsanity_advanced"
             ]
           },
           {
@@ -805,10 +815,10 @@
             "chest_unopened_img": "images/items/chateau_romani.png",
             "access_rules": ["romani, adultswallet"],
             "visibility_rules": [
-              "$npc_souls_off, shopsanity_enabled",
-              "$npc_souls_off, shopsanity_advanced",
-              "npc_souls, soul_barten, shopsanity_enabled",
-              "npc_souls, soul_barten, shopsanity_advanced"
+              "normal_logic, $npc_souls_off, shopsanity_enabled",
+              "normal_logic, $npc_souls_off, shopsanity_advanced",
+              "normal_logic, npc_souls, soul_barten, shopsanity_enabled",
+              "normal_logic, npc_souls, soul_barten, shopsanity_advanced"
             ]
           }
         ],
@@ -832,8 +842,8 @@
             "name": "West Clock Town Rosa Sisters (Night 1 - 2)",
             "chest_unopened_img": "images/characters/rosa_sisters.png",
             "access_rules": [
-              "$npc_souls_off, kamaro",
-              "npc_souls, soul_rosa_sisters, kamaro"
+              "normal_logic, $npc_souls_off, kamaro",
+              "normal_logic, npc_souls, soul_rosa_sisters, kamaro"
             ]
           }
         ],
@@ -858,7 +868,7 @@
             "name": "West Clock Town Bank 200 Rupees",
             "access_rules": [
               "$npc_souls_off",
-              "npc_souls, soul_banker"
+              "normal_logic, npc_souls, soul_banker"
             ]
           },
           {
@@ -892,14 +902,24 @@
         ]
       },
       {
-        "name": "West Clock Town Swordsman Expert Course",
+        "name": "West Clock Town Swordsman School",
         "chest_unopened_img": "images/equipment/sword1.png",
         "sections": [
           {
             "name": "West Clock Town Swordsman Expert Course",
             "access_rules": [
-              "$npc_souls_off, sword",
-              "npc_souls, soul_swordsman, sword"
+              "normal_logic, $npc_souls_off, sword",
+              "normal_logic, npc_souls, soul_swordsman, sword"
+            ]
+          },
+          {
+            "name": "Sword School Night 3 Midnight Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "$absurd_souls_off, sword",
+              "absurd_souls, soul_pots, sword"
             ]
           }
         ],
@@ -923,16 +943,16 @@
             "name": "West Clock Town Postman Counting (Day 1: 3 PM - Midnight, Day 2: 5 PM - Midnight)",
             "chest_unopened_img": "images/characters/postman.png",
             "access_rules": [
-              "$npc_souls_off, bunnyhood",
-              "npc_souls, soul_postman, bunnyhood"
+              "normal_logic, $npc_souls_off, bunnyhood",
+              "normal_logic, npc_souls, soul_postman, bunnyhood"
             ]
           },
           {
             "name": "West Clock Town Priority Mail to Postman (Final Night)",
             "chest_unopened_img": "images/characters/postman.png",
             "access_rules": [
-              "$npc_souls_off, express",
-              "npc_souls, soul_postman, express"
+              "normal_logic, $npc_souls_off, express",
+              "normal_logic, npc_souls, soul_postman, express"
             ]
           }
         ],
@@ -957,7 +977,7 @@
             "chest_unopened_img": "images/characters/guru_guru.png",
             "access_rules": [
               "$npc_souls_off",
-              "npc_souls, soul_guru_guru"
+              "normal_logic, npc_souls, soul_guru_guru"
             ]
           },
           {
@@ -1090,16 +1110,28 @@
             "name": "Clock Tower Happy Mask Salesman #1",
             "chest_unopened_img": "images/characters/happy_mask_salesman.png",
             "access_rules": [
-              "$npc_souls_off, ocarina",
-              "npc_souls, soul_happy_mask_salesman, ocarina"
+              "normal_logic, $npc_souls_off, ocarina",
+              "normal_logic, npc_souls, soul_happy_mask_salesman, ocarina"
             ]
           },
           {
             "name": "Clock Tower Happy Mask Salesman #2",
             "chest_unopened_img": "images/characters/happy_mask_salesman.png",
             "access_rules": [
-              "$npc_souls_off, ocarina",
-              "npc_souls, soul_happy_mask_salesman, ocarina"
+              "normal_logic, $npc_souls_off, ocarina",
+              "normal_logic, npc_souls, soul_happy_mask_salesman, ocarina"
+            ]
+          },
+          {
+            "name": "Top of Clock Tower Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "$absurd_souls_off, $can_warp_out",
+              "$absurd_souls_off, $can_play_time",
+              "absurd_souls, soul_pots, $can_warp_out",
+              "absurd_souls, soul_pots, $can_play_time"
             ]
           }
         ],
@@ -1137,8 +1169,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 1",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 1"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 1",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 1"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1151,8 +1183,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 2",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 2"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 2",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 2"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1165,8 +1197,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 3",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 3"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 3",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 3"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1179,8 +1211,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 4",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 4"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 4",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 4"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1193,8 +1225,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 5",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 5"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 5",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 5"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1207,8 +1239,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 6",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 6"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 6",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 6"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1221,8 +1253,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 7",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 7"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 7",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 7"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1235,8 +1267,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 8",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 8"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop Item 8",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop Item 8"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1249,8 +1281,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 1",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 1"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 1",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 1"
             ],
             "visibility_rules": ["shopsanity_advanced"]
           },
@@ -1260,8 +1292,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 2",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 2"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 2",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 2"
             ],
             "visibility_rules": ["shopsanity_advanced"]
           },
@@ -1271,8 +1303,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 3",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 3"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 3",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 3"
             ],
             "visibility_rules": ["shopsanity_advanced"]
           },
@@ -1282,8 +1314,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 4",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 4"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 4",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 4"
             ],
             "visibility_rules": ["shopsanity_advanced"]
           },
@@ -1293,8 +1325,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 5",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 5"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 5",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 5"
             ],
             "visibility_rules": ["shopsanity_advanced"]
           },
@@ -1304,8 +1336,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 6",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 6"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 6",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 6"
             ],
             "visibility_rules": ["shopsanity_advanced"]
           },
@@ -1315,8 +1347,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 7",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 7"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 7",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 7"
             ],
             "visibility_rules": ["shopsanity_advanced"]
           },
@@ -1326,10 +1358,18 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 8",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 8"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Trading Post/Shop (Night) Item 8",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Trading Post/Shop (Night) Item 8"
             ],
             "visibility_rules": ["shopsanity_advanced"]
+          },
+          {
+            "name": "Trading Post Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "access_rules": [
+              "$absurd_souls_off",
+              "absurd_souls, soul_pots"
+            ]
           }
         ]
       },
@@ -1354,8 +1394,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Bomb Shop/Item 1",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Bomb Shop/Item 1"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Bomb Shop/Item 1",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Bomb Shop/Item 1"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1367,8 +1407,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Bomb Shop/Item 2",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Bomb Shop/Item 2"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Bomb Shop/Item 2",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Bomb Shop/Item 2"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1380,8 +1420,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Bomb Shop/Item 3",
-              "npc_souls, soul_shop_owners, $can_afford|Clock Town/Bomb Shop/Item 3"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Bomb Shop/Item 3",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Clock Town/Bomb Shop/Item 3"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1393,8 +1433,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, @Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM), $can_afford|Clock Town/Bomb Shop/Item 3 (Stop Thief)",
-              "npc_souls, soul_shop_owners, soul_bomb_shop_lady, soul_sakon, @Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM), $can_afford|Clock Town/Bomb Shop/Item 3 (Stop Thief)"
+              "normal_logic, $npc_souls_off, @Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM), $can_afford|Clock Town/Bomb Shop/Item 3 (Stop Thief)",
+              "normal_logic, npc_souls, soul_shop_owners, soul_bomb_shop_lady, soul_sakon, @Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM), $can_afford|Clock Town/Bomb Shop/Item 3 (Stop Thief)"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1404,8 +1444,8 @@
           {
             "name": "Powder Keg Goron",
             "access_rules": [
-              "$npc_souls_off, goron, powderkeg",
-              "npc_souls, soul_keg_goron, goron, powderkeg"
+              "normal_logic, $npc_souls_off, goron, powderkeg",
+              "normal_logic, npc_souls, soul_keg_goron, goron, powderkeg"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1435,8 +1475,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, @Clock Town/Bomb Shop/Item 3 (Stop Thief), $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)",
-              "npc_souls, soul_curiosity_shop_man, @Clock Town/Bomb Shop/Item 3 (Stop Thief), $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)"
+              "normal_logic, $npc_souls_off, @Clock Town/Bomb Shop/Item 3 (Stop Thief), $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)",
+              "normal_logic, npc_souls, soul_curiosity_shop_man, @Clock Town/Bomb Shop/Item 3 (Stop Thief), $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1448,8 +1488,8 @@
             "item_count": 500,
             "clear_as_group": true,
             "access_rules": [
-              "$npc_souls_off, $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 Thief Stolen Item",
-              "npc_souls, soul_curiosity_shop_man, $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 Thief Stolen Item"
+              "normal_logic, $npc_souls_off, $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 Thief Stolen Item",
+              "normal_logic, npc_souls, soul_curiosity_shop_man, $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 Thief Stolen Item"
             ],
             "visibility_rules": [
               "shopsanity_enabled",
@@ -1546,7 +1586,7 @@
         "chest_unopened_img": "images/icons/lottery.png",
         "access_rules": [
           "$npc_souls_off",
-          "npc_souls, soul_lottery"
+          "normal_logic, npc_souls, soul_lottery"
         ],
         "map_locations": [
           {

@@ -74,17 +74,6 @@
             ]
           },
           {
-            "name": "Mountain Village Spring Grotto Grass",
-            "item_count": 14,
-            "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off, $clear_snowhead",
-              "absurd_souls, soul_grottos, soul_grass, $clear_snowhead"
-            ]
-            //"visibility_rules": ["absurd_souls"]
-          },
-          {
             "name": "Spring Frog Choir HP",
             "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
@@ -93,13 +82,24 @@
             ]
           },
           {
+            "name": "Mountain Village Spring Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $clear_snowhead",
+              "normal_logic, absurd_souls, soul_grottos, soul_grass, $clear_snowhead"
+            ]
+            //"visibility_rules": ["absurd_souls"]
+          },
+          {
             "name": "Mountain Village Keaton Grass",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, $clear_snowhead",
-              "absurd_souls, soul_grass, $clear_snowhead"
+              "normal_logic, $absurd_souls_off, $clear_snowhead",
+              "normal_logic, absurd_souls, soul_grass, $clear_snowhead"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -109,10 +109,50 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, $clear_snowhead",
-              "absurd_souls, soul_grass, $clear_snowhead"
+              "normal_logic, $absurd_souls_off, $clear_snowhead",
+              "normal_logic, absurd_souls, soul_grass, $clear_snowhead"
             ]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Mountain Village Rooftop Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $has_hard_projectiles",
+              "normal_logic, absurd_souls, soul_pots, $has_hard_projectiles"
+            ]
+          },
+          {
+            "name": "Mountain Village Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
+            "name": "Mountain Smithy Pots Inide at Night",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off",
+              "normal_logic, absurd_souls, soul_pots"
+            ]
+          },
+          {
+            "name": "Mountain Village Springtime Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $clear_snowhead",
+              "normal_logic, absurd_souls, soul_pots, $clear_snowhead"
+            ]
           }
         ]
       },
@@ -210,13 +250,25 @@
             ]
           },
           {
+            "name": "Goron Racetrack Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 30,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, goron, keg",
+              "normal_logic, $absurd_souls_off, goron, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_pots, goron, keg",
+              "normal_logic, absurd_souls, soul_pots, goron, $can_use_fire_arrows"
+            ]
+          },
+          {
             "name": "Twin Islands Springtime Grass",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, $clear_snowhead",
-              "absurd_souls, soul_grass, $clear_snowhead"
+              "normal_logic, $absurd_souls_off, $clear_snowhead",
+              "normal_logic, absurd_souls, soul_grass, $clear_snowhead"
             ]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -293,8 +345,8 @@
             "clear_as_group": true,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
             "access_rules": [
-              "$npc_souls_off, $can_afford|Snowhead/Goron Village/Shop Item 1",
-              "npc_souls, soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 1"
+              "normal_logic, $npc_souls_off, $can_afford|Snowhead/Goron Village/Shop Item 1",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 1"
             ]
           },
           {
@@ -304,8 +356,8 @@
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
             "access_rules": [
-              "$npc_souls_off, $can_afford|Snowhead/Goron Village/Shop Item 2",
-              "npc_souls, soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 2"
+              "normal_logic, $npc_souls_off, $can_afford|Snowhead/Goron Village/Shop Item 2",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 2"
             ]
           },
           {
@@ -315,8 +367,8 @@
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
             "access_rules": [
-              "$npc_souls_off, $can_afford|Snowhead/Goron Village/Shop Item 3",
-              "npc_souls, soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 3"
+              "normal_logic, $npc_souls_off, $can_afford|Snowhead/Goron Village/Shop Item 3",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 3"
             ]
           },
           {
@@ -326,8 +378,8 @@
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
             "access_rules": [
-              "$npc_souls_off, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 1",
-              "npc_souls, soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 1"
+              "normal_logic, $npc_souls_off, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 1",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 1"
             ]
           },
           {
@@ -337,8 +389,8 @@
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
             "access_rules": [
-              "$npc_souls_off, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 2",
-              "npc_souls, soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 2"
+              "normal_logic, $npc_souls_off, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 2",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 2"
             ]
           },
           {
@@ -348,8 +400,20 @@
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
             "access_rules": [
-              "$npc_souls_off, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 3",
-              "npc_souls, soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 3"
+              "normal_logic, $npc_souls_off, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 3",
+              "normal_logic, npc_souls, soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 3"
+            ]
+          },
+          {
+            "name": "Goron Shrine Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 11,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, $npc_souls_off",
+              "normal_logic, $absurd_souls_off, npc_souls, soul_medigoron",
+              "normal_logic, absurd_souls, soul_pots, $npc_souls_off",
+              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_medigoron"
             ]
           },
           {
@@ -368,18 +432,18 @@
             "name": "Deku Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": [
-              "$npc_souls_off, deku, swampdeed",
-              "npc_souls, soul_business_scrub, deku, swampdeed"
+              "normal_logic, $npc_souls_off, deku, swampdeed",
+              "normal_logic, npc_souls, soul_business_scrub, deku, swampdeed"
             ]
           },
           {
             "name": "Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
-              "$npc_souls_off, $absurd_souls_off, @Goron Village/Deku Trade",
-              "$npc_souls_off, absurd_souls, soul_deku_flowers, @Goron Village/Deku Trade",
-              "npc_souls, soul_business_scrub, $absurd_souls_off, @Goron Village/Deku Trade",
-              "npc_souls, soul_business_scrub, absurd_souls, soul_deku_flowers, @Goron Village/Deku Trade"
+              "normal_logic, $npc_souls_off, $absurd_souls_off, @Goron Village/Deku Trade",
+              "normal_logic, $npc_souls_off, absurd_souls, soul_deku_flowers, @Goron Village/Deku Trade",
+              "normal_logic, npc_souls, soul_business_scrub, $absurd_souls_off, @Goron Village/Deku Trade",
+              "normal_logic, npc_souls, soul_business_scrub, absurd_souls, soul_deku_flowers, @Goron Village/Deku Trade"
             ]
           },
           {
@@ -434,8 +498,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, goron, magic, $has_explosives",
-              "absurd_souls, soul_grass, soul_grottos, goron, magic, $has_explosives"
+              "normal_logic, $absurd_souls_off, goron, magic, $has_explosives",
+              "normal_logic, absurd_souls, soul_grass, soul_grottos, goron, magic, $has_explosives"
             ]
             //"visibility_rules": ["absurd_souls"]
           },

@@ -174,28 +174,19 @@
             "name": "Free Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": [
-              "$misc_souls_off, $can_use_powder_keg, $can_play_eponas",
-              "misc_souls, soul_cow, $can_use_powder_keg, $can_play_eponas"
-            ]
+            "access_rules": ["$has_misc_soul|soul_cow, $can_use_powder_keg, $can_play_eponas"]
           },
           {
             "name": "Stables Front Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": [
-              "$misc_souls_off, $can_use_powder_keg, $can_play_eponas",
-              "misc_souls, soul_cow, $can_use_powder_keg, $can_play_eponas"
-            ]
+            "access_rules": ["$has_misc_soul|soul_cow, $can_use_powder_keg, $can_play_eponas"]
           },
           {
             "name": "Stables Back Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": [
-              "$misc_souls_off, $can_use_powder_keg, $can_play_eponas",
-              "misc_souls, soul_cow, $can_use_powder_keg, $can_play_eponas"
-            ]
+            "access_rules": ["$has_misc_soul|soul_cow, $can_use_powder_keg, $can_play_eponas"]
           }
         ],
         "map_locations": [

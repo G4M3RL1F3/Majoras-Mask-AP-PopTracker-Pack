@@ -190,10 +190,7 @@
           {
             "name": "Interact with Postman's Hat equipped",
             "chest_unopened_img": "images/icons/postbox.png",
-            "access_rules": [
-              "misc_souls, soul_postboxes, postman",
-              "$misc_souls_off, postman"
-            ]
+            "access_rules": ["$has_misc_soul|soul_postboxes, postman"]
           }
         ],
         "map_locations": [
@@ -373,10 +370,7 @@
         "sections": [
           {
             "name": "Keaton Quiz",
-            "access_rules": [
-              "$misc_souls_off, keaton",
-              "misc_souls, soul_keaton, keaton"
-            ],
+            "access_rules": ["$has_misc_soul|soul_keaton, keaton"],
             "chest_unopened_img": "images/masks/keaton.png"
           },
           {
@@ -650,10 +644,8 @@
             "chest_unopened_img": "images/characters/anju_kafei.png",
             "access_rules": [
               "easy_logic, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, garo, gibdo",
-              "normal_logic, $misc_souls_off, $has_npc_soul|soul_anju, $has_npc_soul|soul_kafei, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, garo",
-              "normal_logic, $misc_souls_off, $has_npc_soul|soul_anju, $has_npc_soul|soul_kafei, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, gibdo",
-              "normal_logic, misc_souls, soul_postboxes, $has_npc_soul|soul_anju, $has_npc_soul|soul_kafei, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, garo",
-              "normal_logic, misc_souls, soul_postboxes, $has_npc_soul|soul_anju, $has_npc_soul|soul_kafei, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, gibdo"
+              "normal_logic, $has_misc_soul|soul_postboxes, $has_npc_soul|soul_anju, $has_npc_soul|soul_kafei, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, garo",
+              "normal_logic, $has_misc_soul|soul_postboxes, $has_npc_soul|soul_anju, $has_npc_soul|soul_kafei, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, gibdo"
             ]
           }
         ],
@@ -898,26 +890,17 @@
           {
             "name": "Laundry Pool Kafei's Request (Day 2, 4:30 PM)",
             "chest_unopened_img": "images/characters/kafei.png",
-            "access_rules": [
-              "$misc_souls_off, $has_npc_soul|soul_kafei, kafeiletter",
-              "misc_souls, soul_postboxes, $has_npc_soul|soul_kafei, kafeiletter"
-            ]
+            "access_rules": ["$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, kafeiletter"]
           },
           {
             "name": "Laundry Pool Curiosity Shop Salesman #1 (Final Day, 1 PM - 9 PM)",
             "chest_unopened_img": "images/characters/curiosity_shop_man.png",
-            "access_rules": [
-              "$misc_souls_off, $has_npc_soul|soul_kafei, $has_npc_soul|soul_curiosity_shop_man, kafeiletter",
-              "misc_souls, soul_postboxes, $has_npc_soul|soul_kafei, $has_npc_soul|soul_curiosity_shop_man, kafeiletter"
-            ]
+            "access_rules": ["$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, $has_npc_soul|soul_curiosity_shop_man, kafeiletter"]
           },
           {
             "name": "Laundry Pool Curiosity Shop Salesman #2 (Final Day, 1 PM - 9 PM)",
             "chest_unopened_img": "images/characters/curiosity_shop_man.png",
-            "access_rules": [
-              "$misc_souls_off, $has_npc_soul|soul_kafei, $has_npc_soul|soul_curiosity_shop_man, kafeiletter",
-              "misc_souls, soul_postboxes, $has_npc_soul|soul_kafei, $has_npc_soul|soul_curiosity_shop_man, kafeiletter"
-            ]
+            "access_rules": ["$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, $has_npc_soul|soul_curiosity_shop_man, kafeiletter"]
           }
         ],
         "map_locations": [

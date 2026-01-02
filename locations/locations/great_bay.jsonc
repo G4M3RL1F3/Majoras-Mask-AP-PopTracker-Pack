@@ -119,19 +119,13 @@
             "name": "Ledge Grotto Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": [
-              "$has_absurd_soul|soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
-              "$has_absurd_soul|soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_misc_soul|soul_cow, hookshot, $can_play_eponas"]
           },
           {
             "name": "Ledge Grotto Right Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": [
-              "$has_absurd_soul|soul_grottos, $misc_souls_off, hookshot, $can_play_eponas",
-              "$has_absurd_soul|soul_grottos, misc_souls, soul_cow, hookshot, $can_play_eponas"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_misc_soul|soul_cow, hookshot, $can_play_eponas"]
           },
           {
             "name": "Great Bay Grotto Grass Group 1",

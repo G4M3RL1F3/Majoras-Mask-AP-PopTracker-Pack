@@ -11,20 +11,14 @@
         "sections": [
           {
             "name": "Chest",
-            "access_rules": [
-              "$absurd_souls_off, deku",
-              "absurd_souls, soul_deku_flowers, deku"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"]
           },
           {
             "name": "Before Clock Town Flower",
             "item_count": 11,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": [
-              "$absurd_souls_off, deku",
-              "absurd_souls, soul_deku_flowers, deku"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -32,10 +26,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -43,10 +34,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -54,10 +42,7 @@
             "item_count": 24,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -65,10 +50,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           }
         ],
@@ -139,10 +121,7 @@
           {
             "name": "Deku Flower",
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": [
-              "$absurd_souls_off, deku",
-              "absurd_souls, soul_deku_flowers, deku"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"]
             //"visibility_rules": ["absurd_souls"]
           }
         ],
@@ -167,8 +146,7 @@
             "access_rules": [
               "easy_logic, hookshot, deku, moontear",
               "normal_logic, hookshot",
-              "normal_logic, $has_npc_soul|soul_business_scrub, $absurd_souls_off, deku, moontear",
-              "normal_logic, $has_npc_soul|soul_business_scrub, absurd_souls, soul_deku_flowers, deku, moontear"
+              "normal_logic, $has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, deku, moontear"
             ]
           }
         ],
@@ -302,18 +280,12 @@
           {
             "name": "North Clock Town Tree HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_trees_bushes"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
           },
           {
             "name": "North Clock Town Tree 2",
             "chest_unopened_img": "images/absurd/tree.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_trees_bushes"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
             //"visibility_rules": ["absurd_souls"]
           }
         ],
@@ -336,30 +308,17 @@
           {
             "name": "North Clock Town Deku Playground Any Day",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": [
-              "$absurd_souls_off, soul_deku_employee, deku",
-              "absurd_souls, soul_grottos, soul_deku_flowers, soul_deku_employee, deku",
-              "$absurd_souls_off, soul_deku_employee, deku",
-              "absurd_souls, soul_grottos, soul_deku_flowers, soul_deku_employee, deku"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
           },
           {
             "name": "North Clock Town Deku Playground All Days",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": [
-              "$absurd_souls_off, soul_deku_employee, deku",
-              "absurd_souls, soul_grottos, soul_deku_flowers, soul_deku_employee, deku",
-              "$absurd_souls_off, soul_deku_employee, deku",
-              "absurd_souls, soul_grottos, soul_deku_flowers, soul_deku_employee, deku"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
           },
           {
             "name": "North Clock Town Tree 1",
             "chest_unopened_img": "images/absurd/tree.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_trees_bushes"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
             //"visibility_rules": ["absurd_souls"]
           }
         ],
@@ -425,10 +384,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           }
         ],
@@ -634,10 +590,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": [
-              "$absurd_souls_off, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory",
-              "absurd_souls, soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"]
           }
         ],
         "map_locations": [
@@ -833,10 +786,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 5,
             "clear_as_group": false,
-            "access_rules": [
-              "$absurd_souls_off, sword",
-              "absurd_souls, soul_pots, sword"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, sword"]
           }
         ],
         "map_locations": [
@@ -892,10 +842,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           }
         ],
@@ -1021,10 +968,8 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "$absurd_souls_off, $can_warp_out",
-              "$absurd_souls_off, $can_play_time",
-              "absurd_souls, soul_pots, $can_warp_out",
-              "absurd_souls, soul_pots, $can_play_time"
+              "$has_absurd_soul|soul_pots, $can_warp_out",
+              "$has_absurd_soul|soul_pots, $can_play_time"
             ]
           }
         ],
@@ -1211,10 +1156,7 @@
           {
             "name": "Trading Post Pot",
             "chest_unopened_img": "images/icons/pot.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_pots"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots"]
           }
         ]
       },

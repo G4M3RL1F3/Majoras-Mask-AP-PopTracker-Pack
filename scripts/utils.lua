@@ -94,3 +94,11 @@ function has_npc_soul(soul)
     return has(soul)
   end
 end
+
+function has_absurd_soul(soul)
+  if Tracker:FindObjectForCode("absurd_souls").Active == false then
+    return true
+  else
+    return has(soul)
+  end
+end

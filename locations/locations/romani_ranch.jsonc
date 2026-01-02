@@ -37,10 +37,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "normal_logic, $absurd_souls_off,",
-              "normal_logic, absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -56,10 +53,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "normal_logic, $absurd_souls_off,",
-              "normal_logic, absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           }
         ],
@@ -93,10 +87,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -104,10 +95,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off,",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           }
         ],
@@ -132,10 +120,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": [
-              "$absurd_souls_off,",
-              "absurd_souls, soul_pots"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots"]
           }
         ],
         "map_locations": [
@@ -171,10 +156,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": [
-              "$absurd_souls_off,",
-              "absurd_souls, soul_pots"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots"]
           }
         ],
         "map_locations": [
@@ -247,10 +229,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off,",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -258,10 +237,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off,",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -269,10 +245,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off,",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -280,10 +253,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off,",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -291,10 +261,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off,",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           }
         ],

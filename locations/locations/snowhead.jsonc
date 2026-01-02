@@ -63,8 +63,7 @@
             "name": "Spring Ramp Grotto",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead",
-              "normal_logic, $absurd_souls_off, $clear_snowhead",
-              "normal_logic, absurd_souls, soul_grottos, $clear_snowhead"
+              "normal_logic, $has_absurd_soul|soul_grottos, $clear_snowhead"
             ]
           },
           {
@@ -80,10 +79,7 @@
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off, $clear_snowhead",
-              "absurd_souls, soul_grottos, soul_grass, $clear_snowhead"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $clear_snowhead"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -91,10 +87,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off, $clear_snowhead",
-              "absurd_souls, soul_grass, $clear_snowhead"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -102,10 +95,7 @@
             "item_count": 30,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off, $clear_snowhead",
-              "absurd_souls, soul_grass, $clear_snowhead"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -113,40 +103,28 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": [
-              "$absurd_souls_off, $has_hard_projectiles",
-              "absurd_souls, soul_pots, $has_hard_projectiles"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_hard_projectiles"]
           },
           {
             "name": "Mountain Village Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_pots"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots"]
           },
           {
             "name": "Mountain Smithy Pots Inide at Night",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_pots"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots"]
           },
           {
             "name": "Mountain Village Springtime Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": [
-              "$absurd_souls_off, $clear_snowhead",
-              "absurd_souls, soul_pots, $clear_snowhead"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, $clear_snowhead"]
           }
         ]
       },
@@ -174,10 +152,8 @@
             "name": "Ramp Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, goron, hookshot",
-              "normal_logic, $absurd_souls_off, $has_explosives, goron",
-              "normal_logic, $absurd_souls_off, $has_explosives, hookshot",
-              "normal_logic, absurd_souls, soul_grottos, $has_explosives, goron",
-              "normal_logic, absurd_souls, soul_grottos, $has_explosives, hookshot"
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, goron",
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, hookshot"
             ]
           },
           {
@@ -186,10 +162,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$absurd_souls_off, $has_explosives, goron",
-              "$absurd_souls_off, $has_explosives, hookshot",
-              "absurd_souls, soul_grottos, soul_grass, $has_explosives, goron",
-              "absurd_souls, soul_grottos, soul_grass, $has_explosives, hookshot"
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives, goron",
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives, hookshot"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -207,14 +181,10 @@
             "name": "Hot Water Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_clear_snowhead",
-              "normal_logic, $absurd_souls_off, $has_explosives, $can_use_fire_arrows",
-              "normal_logic, $absurd_souls_off, $can_use_lens, goron, $has|bottles|1, $has_explosives",
-              "normal_logic, $absurd_souls_off, $clear_snowhead",
-              "normal_logic, $absurd_souls_off, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, owl_mountain",
-              "normal_logic, absurd_souls, soul_grottos, $has_explosives, $can_use_fire_arrows",
-              "normal_logic, absurd_souls, soul_grottos, $can_use_lens, goron, $has|bottles|1, $has_explosives",
-              "normal_logic, absurd_souls, soul_grottos, $clear_snowhead",
-              "normal_logic, absurd_souls, soul_grottos, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, owl_mountain"
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, $can_use_fire_arrows",
+              "normal_logic, $has_absurd_soul|soul_grottos, $can_use_lens, goron, $has|bottles|1, $has_explosives",
+              "normal_logic, $has_absurd_soul|soul_grottos, $clear_snowhead",
+              "normal_logic, $has_absurd_soul|soul_grottos, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, owl_mountain"
             ]
           },
           {
@@ -246,10 +216,8 @@
             "item_count": 30,
             "clear_as_group": false,
             "access_rules": [
-              "$absurd_souls_off, goron, keg",
-              "$absurd_souls_off, goron, $can_use_fire_arrows",
-              "absurd_souls, soul_pots, goron, keg",
-              "absurd_souls, soul_pots, goron, $can_use_fire_arrows"
+              "$has_absurd_soul|soul_pots, goron, keg",
+              "$has_absurd_soul|soul_pots, goron, $can_use_fire_arrows"
             ]
           },
           {
@@ -257,10 +225,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off, $clear_snowhead",
-              "absurd_souls, soul_grass, $clear_snowhead"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"]
             //"visibility_rules": ["absurd_souls"]
           }
         ]
@@ -299,10 +264,7 @@
             "item_count": 24,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           }
         ]
@@ -382,10 +344,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 11,
             "clear_as_group": false,
-            "access_rules": [
-              "$absurd_souls_off, $has_npc_soul|soul_medigoron",
-              "absurd_souls, soul_pots, $has_npc_soul|soul_medigoron"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_medigoron"]
           },
           {
             "name": "Scrub Purchase",
@@ -405,10 +364,7 @@
           {
             "name": "Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "$has_npc_soul|soul_business_scrub, $absurd_souls_off, @Goron Village/Deku Trade",
-              "$has_npc_soul|soul_business_scrub, absurd_souls, soul_deku_flowers, @Goron Village/Deku Trade"
-            ]
+            "access_rules": ["$has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, @Goron Village/Deku Trade"]
           },
           {
             "name": "Powder Keg Goron Reward",
@@ -424,8 +380,7 @@
           //  "visibility_rules": ["shopsanity_advanced"],
           //  "access_rules": [
           //    "easy_logic, $baby_clear_snowhead, deku, swampdeed",
-          //    "normal_logic, $has_npc_soul|soul_business_scrub, $absurd_souls_off, $clear_snowhead, deku, swampdeed",
-          //    "normal_logic, $has_npc_soul|soul_business_scrub, absurd_souls, soul_deku_flowers, $clear_snowhead, deku, swampdeed"
+          //    "normal_logic, $has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, $clear_snowhead, deku, swampdeed"
           //  ]
           }
         ]
@@ -448,8 +403,7 @@
             "name": "Grotto Chest",
             "access_rules": [
               "easy_logic, goron, magic, $baby_has_explosives",
-              "normal_logic, $absurd_souls_off, goron, magic, $has_explosives",
-              "normal_logic, absurd_souls, soul_grottos, goron, magic, $has_explosives"
+              "normal_logic, $has_absurd_soul|soul_grottos, goron, magic, $has_explosives"
             ]
           },
           {
@@ -457,10 +411,7 @@
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$absurd_souls_off, goron, magic, $has_explosives",
-              "absurd_souls, soul_grass, soul_grottos, goron, magic, $has_explosives"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grass, $has_absurd_soul|soul_grottos, goron, magic, $has_explosives"]
             //"visibility_rules": ["absurd_souls"]
           },
           {

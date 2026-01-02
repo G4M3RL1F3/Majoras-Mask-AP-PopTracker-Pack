@@ -41,7 +41,7 @@ function baby_woodfall_temple()
     return baby_woodfall() and can_play_sonata() and has("bosskey_wf") and has("smallkey_wf")
 end
 function woodfall_temple()
-    return (woodfall() and can_play_sonata() and has("absurd_souls") and has("soul_deku_flowers")) or (woodfall() and can_play_sonata() and absurd_souls_off())
+    return woodfall() and can_play_sonata() and has_absurd_soul("soul_deku_flowers")
 end
 
 -- What's needed to defeat Odolwa

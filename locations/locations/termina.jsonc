@@ -20,10 +20,7 @@
           },
           {
             "name": "Termina Grass Grotto Chest",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grottos"]
           },
           {
             "name": "Termina Grass Grotto Grass",
@@ -47,10 +44,7 @@
         "sections": [
           {
             "name": "Termina Ikana Pillar Grotto Chest",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grottos"]
           },
           {
             "name": "Termina Ikana Pillar Grotto Grass",
@@ -65,10 +59,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": [
-              "$absurd_souls_off, $has_projectiles",
-              "absurd_souls, soul_pots, $has_projectiles"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_projectiles"]
           }
         ],
         "map_locations": [
@@ -99,10 +90,7 @@
         "name": "Termina Field Grass Patches",
         "chest_unopened_img": "images/absurd/grass.png",
         "chest_opened_img": "images/icons/check_32.png",
-        "access_rules": [
-            "$absurd_souls_off",
-            "absurd_souls, soul_grass"
-          ],
+        "access_rules": ["$has_absurd_soul|soul_grass"],
           //"visibility_rules": ["absurd_souls"],
         "sections": [
           {
@@ -216,18 +204,14 @@
             "name": "Defeat Peehat (Daytime Only)",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard",
-              "normal_logic, $absurd_souls_off, soul_peehat",
-              "normal_logic, absurd_souls, soul_grottos, soul_peehat"
+              "normal_logic, $has_absurd_soul|soul_grottos, soul_peehat"
             ]
           },
           {
             "name": "Termina Field Peehat Grotto Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos, soul_grass"
-            ],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
             "clear_as_group": false
@@ -248,10 +232,8 @@
             "name": "Termina Dodongo Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard",
-              "normal_logic, $absurd_souls_off, $enemy_souls_off",
-              "normal_logic, $absurd_souls_off, enemy_souls, soul_dodongos",
-              "normal_logic, absurd_souls, soul_grottos, $enemy_souls_off",
-              "normal_logic, absurd_souls, soul_grottos, enemy_souls, soul_dodongos"
+              "normal_logic, $has_absurd_soul|soul_grottos, $enemy_souls_off",
+              "normal_logic, $has_absurd_soul|soul_grottos, enemy_souls, soul_dodongos"
             ]
           }
         ],
@@ -288,20 +270,15 @@
             "name": "Termina Bio Baba Grotto HP",
             "access_rules": [
               "easy_logic, $baby_has_explosives, goron, zora, $baby_has_projectiles",
-              "normal_logic, $absurd_souls_off, $has_explosives, zora",
-              "normal_logic, $absurd_souls_off, goron, zora",
-              "normal_logic, absurd_souls, soul_grottos, $has_explosives, zora",
-              "normal_logic, absurd_souls, soul_grottos, goron, zora"
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, zora",
+              "normal_logic, $has_absurd_soul|soul_grottos, goron, zora"
             ]
           },
           {
             "name": "Termina Field Bio Baba Grotto Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos, soul_grass"
-            ],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 2,
             "clear_as_group": false
@@ -324,8 +301,7 @@
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
               "normal_logic, $has_npc_soul|soul_astral_man, $has_npc_soul|soul_skull_kid, $has_projectiles",
-              "normal_logic, $has_npc_soul|soul_astral_man, $has_npc_soul|soul_skull_kid, $absurd_souls_off, deku",
-              "normal_logic, $has_npc_soul|soul_astral_man, $has_npc_soul|soul_skull_kid, absurd_souls, soul_deku_flowers, deku"
+              "normal_logic, $has_npc_soul|soul_astral_man, $has_npc_soul|soul_skull_kid, $has_absurd_soul|soul_deku_flowers, deku"
             ]
           },
           {
@@ -333,10 +309,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": [
-              "$absurd_souls_off, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory",
-              "absurd_souls, soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"]
           }
         ],
         "map_locations": [
@@ -360,8 +333,7 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, wallet",
-              "normal_logic, $absurd_souls_off, $has_npc_soul|soul_business_scrub, $has_npc_soul|soul_astral_man, $has_projectiles, adultwallet",
-              "normal_logic, absurd_souls, soul_grottos, $has_npc_soul|soul_business_scrub, $has_npc_soul|soul_astral_man, $has_projectiles, adultwallet"
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_npc_soul|soul_business_scrub, $has_npc_soul|soul_astral_man, $has_projectiles, adultwallet"
             ]
           },
           {
@@ -369,10 +341,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos, soul_pots"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_pots"]
           }
         ],
         "map_locations": [
@@ -391,16 +360,11 @@
             "name": "Termina Gossip Stones HP",
             "access_rules": [
               "easy_logic, deku, $can_play_sonata, goron, $can_play_lullaby, zora, $can_play_bossa_nova",
-              "normal_logic, $absurd_souls_off, deku, $can_play_sonata, $has_explosives",
-              "normal_logic, $absurd_souls_off, deku, $can_play_sonata, goron",
-              "normal_logic, $absurd_souls_off, goron, $can_play_lullaby",
-              "normal_logic, $absurd_souls_off, zora, $can_play_bossa_nova, $has_explosives",
-              "normal_logic, $absurd_souls_off, zora, $can_play_bossa_nova, goron",
-              "normal_logic, absurd_souls, soul_grottos, deku, $can_play_sonata, $has_explosives",
-              "normal_logic, absurd_souls, soul_grottos, deku, $can_play_sonata, goron",
-              "normal_logic, absurd_souls, soul_grottos, goron, $can_play_lullaby",
-              "normal_logic, absurd_souls, soul_grottos, zora, $can_play_bossa_nova, $has_explosives",
-              "normal_logic, absurd_souls, soul_grottos, zora, $can_play_bossa_nova, goron"
+              "normal_logic, $has_absurd_soul|soul_grottos, deku, $can_play_sonata, $has_explosives",
+              "normal_logic, $has_absurd_soul|soul_grottos, deku, $can_play_sonata, goron",
+              "normal_logic, $has_absurd_soul|soul_grottos, goron, $can_play_lullaby",
+              "normal_logic, $has_absurd_soul|soul_grottos, zora, $can_play_bossa_nova, $has_explosives",
+              "normal_logic, $has_absurd_soul|soul_grottos, zora, $can_play_bossa_nova, goron"
             ]
           }
         ],
@@ -428,10 +392,7 @@
             "name": "Termina Field Eastern Gossip Grotto Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos, soul_grass"
-            ],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 5,
             "clear_as_group": false
@@ -456,10 +417,7 @@
             "name": "Termina Field Bombable Rock Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grottos, soul_grass"
-            ],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 5,
             "clear_as_group": false
@@ -477,8 +435,7 @@
         "name": "Termina Log Bombable Grotto",
         "access_rules": [
           "easy_logic, $baby_has_explosives",
-          "normal_logic, $absurd_souls_off, $has_explosives",
-          "normal_logic, absurd_souls, soul_grottos, $has_explosives"
+          "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives"
         ],
         "map_locations": [
           {
@@ -510,10 +467,7 @@
             "name": "Termina Field Cow Grotto Grass Group 1",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ],
+            "access_rules": ["$has_absurd_soul|soul_grass"],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
             "clear_as_group": false
@@ -522,10 +476,7 @@
             "name": "Termina Field Cow Grotto Grass Group 2",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ],
+            "access_rules": ["$has_absurd_soul|soul_grass"],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
             "clear_as_group": false
@@ -534,10 +485,7 @@
             "name": "Termina Field Cow Grotto Grass Group 3",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ],
+            "access_rules": ["$has_absurd_soul|soul_grass"],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
             "clear_as_group": false
@@ -546,10 +494,7 @@
             "name": "Termina Field Cow Grotto Grass Group 4",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ],
+            "access_rules": ["$has_absurd_soul|soul_grass"],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
             "clear_as_group": false
@@ -558,10 +503,7 @@
             "name": "Termina Field Cow Grotto Grass Group 5",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ],
+            "access_rules": ["$has_absurd_soul|soul_grass"],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
             "clear_as_group": false
@@ -570,10 +512,7 @@
             "name": "Termina Field Cow Grotto Grass Group 6",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": [
-              "$absurd_souls_off",
-              "absurd_souls, soul_grass"
-            ],
+            "access_rules": ["$has_absurd_soul|soul_grass"],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 12,
             "clear_as_group": false

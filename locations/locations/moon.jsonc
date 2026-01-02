@@ -11,10 +11,7 @@
           {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "$has_npc_soul|soul_moon_kid, $absurd_souls_off, deku",
-              "$has_npc_soul|soul_moon_kid, absurd_souls, soul_deku_flowers, deku"
-            ]
+            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku"]
           }
         ],
         "map_locations": [
@@ -73,10 +70,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 15,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_npc_soul|soul_moon_kid, $absurd_souls_off, @Inside the Moon/Goron Trial/Heart Piece",
-              "$has_npc_soul|soul_moon_kid, absured_souls, soul_pots, @Inside the Moon/Goron Trial/Heart Piece"
-            ]
+            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_pots, @Inside the Moon/Goron Trial/Heart Piece"]
           }
         ],
         "map_locations": [
@@ -137,10 +131,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_npc_soul|soul_moon_kid, $absurd_souls_off",
-              "$has_npc_soul|soul_moon_kid, absured_souls, soul_pots"
-            ]
+            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_pots"]
           },
           {
             "name": "Garo Master Chest",
@@ -244,10 +235,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$has_npc_soul|soul_moon_kid, $boss_souls_off, $absurd_souls_off",
-              "$has_npc_soul|soul_moon_kid, $boss_souls_off, absurd_souls, soul_potsn",
-              "$has_npc_soul|soul_moon_kid, boss_souls, soul_majora, $absurd_souls_off",
-              "$has_npc_soul|soul_moon_kid, boss_souls absured_souls, soul_pots"
+              "$has_npc_soul|soul_moon_kid, $boss_souls_off, $has_absurd_soul|soul_pots",
+              "$has_npc_soul|soul_moon_kid, boss_souls, soul_majora, $has_absurd_soul|soul_pots"
             ]
           }
         ],

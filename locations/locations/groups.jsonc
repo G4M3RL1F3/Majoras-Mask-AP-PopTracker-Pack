@@ -1,10 +1,7 @@
 [
   {
     "name": "Groups",
-    "access_rules": [
-      "$has_projectiles, $npc_souls_off",
-      "$has_projectiles, npc_souls, soul_tingle"
-    ],
+    "access_rules": ["$has_projectiles, $has_npc_soul|soul_tingle"],
     "children": [
       {
         "name": "Clock Town Map Purchase",

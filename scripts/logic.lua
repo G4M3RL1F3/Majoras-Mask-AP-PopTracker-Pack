@@ -19,14 +19,6 @@ function canReachGreatBayTemple()
     return has("soul_trees_bushes") and can_play_bossa_nova() and has("hookshot") and has("zora")
 end
 
-function can_reach_scarecrow(soul)
-    if Tracker:FindObjectForCode("scarecrow_sanity").Active == false then
-        return true
-    else
-        return has("soul_scarecrow") and has("ocarina") and has(soul)
-    end
-end
-
 -- Songs
 function can_play_time() -- was "play_healing"
     return has("time") and has("ocarina")
@@ -145,7 +137,7 @@ function can_plant_beans() -- was "plant_beans"
 end
 
 function can_use_powder_keg() -- was "use_keg"
-    return has("keg") and has("goron") and ((has("npc_souls") and has("soul_keg_goron")) or npc_souls_off()) or (((has("npc_souls") and has("soul_medigoron")) or npc_souls_off()) and has("adultswallet"))
+    return has("keg") and has("goron") and has_npc_soul("soul_keg_goron") or (has_npc_soul("soul_medigoron") and can_use_fire_arrows() and has("adultswallet"))
 end
 
 function can_use_fire_arrows() -- was "use_fire_arrows"

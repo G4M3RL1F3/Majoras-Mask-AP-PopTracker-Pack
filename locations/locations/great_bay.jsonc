@@ -63,10 +63,8 @@
             "chest_unopened_img": "images/equipment/song_bossa_nova_no_text.png",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest",
-              "normal_logic, $npc_souls_off, $has|bottles|1, $can_reach_seahorse",
-              "normal_logic, $npc_souls_off, $has|bottles|1, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest",
-              "normal_logic, npc_souls, soul_researcher, $has|bottles|1, $can_reach_seahorse",
-              "normal_logic, npc_souls, soul_researcher, $has|bottles|1, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
+              "normal_logic, $has_npc_soul|soul_researcher, $has|bottles|1, $can_reach_seahorse",
+              "normal_logic, $has_npc_soul|soul_researcher, $has|bottles|1, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
             ]
           },
           {
@@ -82,8 +80,7 @@
             "chest_unopened_img": "images/icons/torch.png",
             "access_rules": [
               "easy_logic, $baby_clear_greatbay",
-              "normal_logic, $npc_souls_off, $clear_greatbay",
-              "normal_logic, npc_souls, soul_fisherman, $clear_greatbay"
+              "normal_logic, $has_npc_soul|soul_fisherman, $clear_greatbay"
             ]
           },
           {
@@ -133,8 +130,7 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, hookshot, $baby_can_plant_beans",
-              "normal_logic, $can_reach_scarecrow|scarecrow_gb_coast_rock_wall, $npc_souls_off, hookshot, $can_plant_beans",
-              "normal_logic, $can_reach_scarecrow|scarecrow_gb_coast_rock_wall, npc_souls, soul_scarecrow, hookshot, $can_plant_beans"
+              "normal_logic, $can_reach_scarecrow|scarecrow_gb_coast_rock_wall, $has_npc_soul|soul_scarecrow, hookshot, $can_plant_beans"
             ]
           },
           {
@@ -273,10 +269,8 @@
             "name": "Pot Game",
             "chest_unopened_img": "images/characters/zora.png",
             "access_rules": [
-              "normal_logic, $npc_souls_off, $absurd_souls_off, zora",
-              "normal_logic, $npc_souls_off, absurd_souls, soul_pots, zora",
-              "normal_logic, npc_souls, soul_potgame_hall_zora, $absurd_souls_off, zora",
-              "normal_logic, npc_souls, soul_potgame_hall_zora, absurd_souls, soul_pots, zora"
+              "$has_npc_soul|soul_potgame_hall_zora, $absurd_souls_off, zora",
+              "$has_npc_soul|soul_potgame_hall_zora, absurd_souls, soul_pots, zora"
             ]
           },
           {
@@ -285,14 +279,10 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "$npc_souls_off, $absurd_souls_off, zora",
-              "$npc_souls_off, $absurd_souls_off, goron, keg",
-              "$npc_souls_off, absurd_souls, soul_pots, zora",
-              "$npc_souls_off, absurd_souls, soul_pots, goron, keg",
-              "npc_souls, soul_potgame_hall_zora, $absurd_souls_off, zora",
-              "npc_souls, soul_potgame_hall_zora, $absurd_souls_off, goron, keg",
-              "npc_souls, soul_potgame_hall_zora, absurd_souls, soul_pots, zora",
-              "npc_souls, soul_potgame_hall_zora, absurd_souls, soul_pots, goron, keg"
+              "$has_npc_soul|soul_potgame_hall_zora, $absurd_souls_off, zora",
+              "$has_npc_soul|soul_potgame_hall_zora, $absurd_souls_off, goron, keg",
+              "$has_npc_soul|soul_potgame_hall_zora, absurd_souls, soul_pots, zora",
+              "$has_npc_soul|soul_potgame_hall_zora, absurd_souls, soul_pots, goron, keg"
             ]
           },
           {
@@ -301,10 +291,7 @@
           },
           {
             "name": "Scarecrow Chest",
-            "access_rules": [
-              "$can_reach_scarecrow|scarecrow_zora_cape_beavers, $npc_souls_off, hookshot, deku",
-              "$can_reach_scarecrow|scarecrow_zora_cape_beavers, npc_souls, soul_scarecrow, hookshot, deku"
-            ]
+            "access_rules": ["$can_reach_scarecrow|scarecrow_zora_cape_beavers, $has_npc_soul|soul_scarecrow, hookshot, deku"]
           },
           {
             "name": "Grotto Chest",
@@ -322,9 +309,9 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "normal_logic, $absurd_souls_off, goron",
-              "normal_logic, $absurd_souls_off, $has_explosives",
-              "normal_logic, absurd_souls, soul_grottos, soul_grass, goron",
+              "$absurd_souls_off, goron",
+              "$absurd_souls_off, $has_explosives",
+              "absurd_souls, soul_grottos, soul_grass, goron",
               "abusrd_souls, soul_grottos, soul_grass, $has_explosives"
             ]
             //"visibility_rules": ["absurd_souls"]
@@ -334,10 +321,8 @@
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": [
-              "normal_logic, $absurd_souls_off, $npc_souls_off, $checkRequirements|required_stray_fairies|fairy_gb, hookshot",
-              "normal_logic, $absurd_souls_off, npc_souls, soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_gb, hookshot",
-              "normal_logic, absurd_souls, soul_trees_bushes, $npc_souls_off, $checkRequirements|required_stray_fairies|fairy_gb, hookshot",
-              "normal_logic, absurd_souls, soul_trees_bushes, npc_souls, soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_gb, hookshot"
+              "$absurd_souls_off, $has_npc_soul|soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_gb, hookshot",
+              "absurd_souls, soul_trees_bushes, $has_npc_soul|soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_gb, hookshot"
             ]
           },
           {
@@ -356,8 +341,8 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "normal_logic, $absurd_souls_off",
-              "normal_logic, absurd_souls, soul_pots"
+              "$absurd_souls_off",
+              "absurd_souls, soul_pots"
             ]
           }
         ]
@@ -379,10 +364,7 @@
             "item_count": 500,
             "clear_as_group": true,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": [
-              "normal_logic, $npc_souls_off, zora, $can_afford|Great Bay/Zora Hall/Shop 1",
-              "normal_logic, npc_souls, soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 1"
-            ]
+            "access_rules": ["$has_npc_soul|soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 1"]
           },
           {
             "name": "Shop 2",
@@ -390,10 +372,7 @@
             "item_count": 500,
             "clear_as_group": true,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": [
-              "normal_logic, $npc_souls_off, zora, $can_afford|Great Bay/Zora Hall/Shop 2",
-              "normal_logic, npc_souls, soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 2"
-            ]
+            "access_rules": ["$has_npc_soul|soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 2"]
           },
           {
             "name": "Shop 3",
@@ -401,10 +380,7 @@
             "item_count": 500,
             "clear_as_group": true,
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": [
-              "normal_logic, $npc_souls_off, zora, $can_afford|Great Bay/Zora Hall/Shop 3",
-              "normal_logic, npc_souls, soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 3"
-            ]
+            "access_rules": ["$has_npc_soul|soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 3"]
           },
           {
             "name": "Deku Scrub Purchase",
@@ -412,26 +388,20 @@
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, zora, $baby_has_bottle",
-              "normal_logic, $npc_souls_off, zora, $has|bottles|1",
-              "normal_logic, npc_souls, soul_business_scrub, zora, $has|bottles|1"
+              "normal_logic, $has_npc_soul|soul_business_scrub, zora, $has|bottles|1"
             ]
           },
           {
             "name": "Goron Scrub Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": [
-              "normal_logic, $npc_souls_off, zora, mountaindeed, goron",
-              "normal_logic, npc_souls, soul_business_scrub, zora, mountaindeed, goron"
-            ]
+            "access_rules": ["$has_npc_soul|soul_business_scrub, zora, mountaindeed, goron"]
           },
           {
             "name": "Goron Scrub Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
-              "normal_logic, $npc_souls_off, $absurd_souls_off, deku, zora, mountaindeed, goron",
-              "normal_logic, $npc_souls_off, absurd_souls, soul_deku_flowers, deku, zora, mountaindeed, goron",
-              "normal_logic, npc_souls, soul_business_scrub, $absurd_souls_off, deku, zora, mountaindeed, goron",
-              "normal_logic, npc_souls, soul_business_scrub, absurd_souls, soul_deku_flowers, deku, zora, mountaindeed, goron"
+              "$has_npc_soul|soul_business_scrub, $absurd_souls_off, deku, zora, mountaindeed, goron",
+              "$has_npc_soul|soul_business_scrub, absurd_souls, soul_deku_flowers, deku, zora, mountaindeed, goron"
             ]
           },
           {
@@ -445,26 +415,17 @@
           {
             "name": "Torches Reward",
             "chest_unopened_img": "images/icons/torch.png",
-            "access_rules": [
-              "normal_logic, $npc_souls_off, $can_use_fire_arrows",
-              "normal_logic, npc_souls, soul_potgame_hall_zora, $can_use_fire_arrows"
-            ]
+            "access_rules": ["$has_npc_soul|soul_potgame_hall_zora, $can_use_fire_arrows"]
           },
           {
             "name": "Good Picture of Lulu",
             "chest_unopened_img": "images/characters/zora.png",
-            "access_rules": [
-              "normal_logic, $npc_souls_off, zora, pictobox",
-              "normal_logic, npc_souls, soul_potgame_hall_zora, soul_lulu, zora, pictobox"
-            ]
+            "access_rules": ["$has_npc_soul|soul_potgame_hall_zora, soul_lulu, zora, pictobox"]
           },
           {
             "name": "Bad Picture of Lulu",
             "chest_unopened_img": "images/characters/zora.png",
-            "access_rules": [
-              "normal_logic, $npc_souls_off, zora, pictobox",
-              "normal_logic, npc_souls, soul_potgame_hall_zora, soul_lulu, zora, pictobox"
-            ]
+            "access_rules": ["$has_npc_soul|soul_potgame_hall_zora, soul_lulu, zora, pictobox"]
           }
         ]
       },
@@ -483,24 +444,21 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle",
-              "normal_logic, $npc_souls_off, $can_reach_seahorse, $has|bottles|1, zora",
-              "normal_logic, npc_souls, soul_fisherman, soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $has_npc_soul|soul_fisherman, $has_npc_soul|soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
             ]
           },
           {
             "name": "Upper Eel Chest",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
-              "normal_logic, $npc_souls_off, $can_reach_seahorse, $has|bottles|1, zora",
-              "normal_logic, npc_souls, soul_fisherman, soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $has_npc_soul|soul_fisherman, $has_npc_soul|soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
             ]
           },
           {
             "name": "Lower Eel Chest",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
-              "normal_logic, $npc_souls_off, $can_reach_seahorse, $has|bottles|1, zora",
-              "normal_logic, npc_souls, soul_fisherman, soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $has_npc_soul|soul_fisherman, $has_npc_soul|soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
             ]
           },
           {
@@ -509,10 +467,8 @@
             "item_count": 11,
             "clear_as_group": false,
             "access_rules": [
-              "normal_logic, $absurd_souls_off, $npc_souls_off, $can_reach_seahorse, $has|bottles|1, zora",
-              "normal_logic, $absurd_souls_off, npc_souls, soul_fisherman, $can_reach_seahorse, $has|bottles|1, zora",
-              "normal_logic, absurd_souls, soul_pots, $npc_souls_off, $can_reach_seahorse, $has|bottles|1, zora",
-              "normal_logic, absurd_souls, soul_pots, npc_souls, soul_fisherman, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $absurd_souls_off, $has_npc_soul|soul_fisherman, $can_reach_seahorse, $has|bottles|1, zora",
+              "normal_logic, absurd_souls, soul_pots, $has_npc_soul|soul_fisherman, $can_reach_seahorse, $has|bottles|1, zora"
             ]
           }
         ]

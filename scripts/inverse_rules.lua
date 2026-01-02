@@ -22,8 +22,3 @@ ScriptHost:AddWatchForCode("Misc. Souls Off", "misc_souls", misc_souls_off)
 function misc_souls_off()
     return (1 - Tracker:ProviderCountForCode("misc_souls") > 0)
 end
-
-ScriptHost:AddWatchForCode("NPC Souls Off", "npc_souls", npc_souls_off)
-function npc_souls_off()
-    return (1 - Tracker:ProviderCountForCode("npc_souls") > 0)
-end

@@ -78,3 +78,19 @@ function toggle_hosted_item(code)
     end
   end
 end
+
+function can_reach_scarecrow(scarecrow)
+  if Tracker:FindObjectForCode("scarecrow_sanity").Active == false then
+    return true
+  else
+    return has("soul_scarecrow") and has("ocarina") and has(scarecrow)
+  end
+end
+
+function has_npc_soul(soul)
+  if Tracker:FindObjectForCode("npc_souls").Active == false then
+    return true
+  else
+    return has(soul)
+  end
+end

@@ -12,10 +12,8 @@
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
-              "$npc_souls_off, $absurd_souls_off, deku",
-              "$npc_souls_off, absurd_souls, soul_deku_flowers, deku",
-              "npc_souls, soul_moon_kid, $absurd_souls_off, deku",
-              "npc_souls, soul_moon_kid, absurd_souls, soul_deku_flowers, deku"
+              "$has_npc_soul|soul_moon_kid, $absurd_souls_off, deku",
+              "$has_npc_soul|soul_moon_kid, absurd_souls, soul_deku_flowers, deku"
             ]
           }
         ],
@@ -56,10 +54,7 @@
           {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "$npc_souls_off, goron, magic",
-              "npc_souls, soul_moon_kid, goron, magic"
-            ]
+            "access_rules": ["$has_npc_soul|soul_moon_kid, goron, magic"]
           }
         ],
         "map_locations": [
@@ -79,10 +74,8 @@
             "item_count": 15,
             "clear_as_group": false,
             "access_rules": [
-              "$npc_souls_off, $absurd_souls_off, @Inside the Moon/Goron Trial/Heart Piece",
-              "$npc_souls_off, absurd_souls, soul_pots, @Inside the Moon/Goron Trial/Heart Piece",
-              "npc_souls, soul_moon_kid, $absurd_souls_off, @Inside the Moon/Goron Trial/Heart Piece",
-              "npc_souls, soul_moon_kid, absured_souls, soul_pots, @Inside the Moon/Goron Trial/Heart Piece"
+              "$has_npc_soul|soul_moon_kid, $absurd_souls_off, @Inside the Moon/Goron Trial/Heart Piece",
+              "$has_npc_soul|soul_moon_kid, absured_souls, soul_pots, @Inside the Moon/Goron Trial/Heart Piece"
             ]
           }
         ],
@@ -120,10 +113,7 @@
           {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "$nps_souls_off, zora",
-              "npc_souls, soul_moon_kid, zora"
-            ]
+            "access_rules": ["$has_npc_soul|soul_moon_kid, zora"]
           }
         ],
         "map_locations": [
@@ -148,18 +138,15 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": [
-              "$npc_souls_off, $absurd_souls_off, @Inside the Moon",
-              "$npc_souls_off, absurd_souls, soul_pots, @Inside the Moon",
-              "npc_souls, soul_moon_kid, $absurd_souls_off, @Inside the Moon",
-              "npc_souls, soul_moon_kid, absured_souls, soul_pots, @Inside the Moon"
+              "$has_npc_soul|soul_moon_kid, $absurd_souls_off",
+              "$has_npc_soul|soul_moon_kid, absured_souls, soul_pots"
             ]
           },
           {
             "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, fiercedeity, magic, fairysword, gildedsword, bow, hookshot",
-              "normal_logic, $npc_souls_off, soul_garo_master, $can_smack_hard, hookshot",
-              "normal_logic, npc_souls, soul_moon_kid, soul_garo_master, $can_smack_hard, hookshot"
+              "normal_logic, $has_npc_soul|soul_moon_kid, soul_garo_master, $can_smack_hard, hookshot"
             ]
           },
           {
@@ -249,10 +236,7 @@
           {
             "name": "Trade All Masks",
             "chest_unopened_img": "images/masks/fierce_deity.png",
-            "access_rules": [
-              "$npc_souls_off, postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Link Trial/Heart Piece, $can_use_fire_arrows",
-              "npc_souls, soul_moon_kid, postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Link Trial/Heart Piece, $can_use_fire_arrows"
-            ]
+            "access_rules": ["$has_npc_soul|soul_moon_kid, postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Link Trial/Heart Piece, $can_use_fire_arrows"]
           },
           {
             "name": "Majora Lair Pots",
@@ -260,14 +244,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$npc_souls_off, $boss_souls_off, $absurd_souls_off, @Inside the Moon",
-              "$npc_souls_off, $boss_souls_off, absurd_souls, soul_pots, @Inside the Moon",
-              "$npc_souls_off, boss_souls, soul_majora, $absurd_souls_off, @Inside the Moon",
-              "$npc_souls_off, boss_souls, soul_majora, absurd_souls, soul_pots, @Inside the Moon",
-              "npc_souls, soul_moon_kid, $boss_souls_off, $absurd_souls_off, @Inside the Moon",
-              "npc_souls, soul_moon_kid, $boss_souls_off, absurd_souls, soul_pots, @Inside the Moon",
-              "npc_souls, soul_moon_kid, boss_souls, soul_majora, $absurd_souls_off, @Inside the Moon",
-              "npc_souls, soul_moon_kid, boss_souls absured_souls, soul_pots, @Inside the Moon"
+              "$has_npc_soul|soul_moon_kid, $boss_souls_off, $absurd_souls_off",
+              "$has_npc_soul|soul_moon_kid, $boss_souls_off, absurd_souls, soul_potsn",
+              "$has_npc_soul|soul_moon_kid, boss_souls, soul_majora, $absurd_souls_off",
+              "$has_npc_soul|soul_moon_kid, boss_souls absured_souls, soul_pots"
             ]
           }
         ],

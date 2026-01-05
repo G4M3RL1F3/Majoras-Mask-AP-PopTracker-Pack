@@ -10,10 +10,10 @@
         "v_alignment": "center",
         "item_margin": "1,1",
         "rows": [
-          ["soul_guays", "soul_takkuri", "soul_wolfos", "soul_chu_jelly", "soul_deku_baba", "soul_real_bombchus", "soul_eenos", "soul_tektite", "soul_peehats", "soul_dodongos"],
-          ["soul_dragonflies", "soul_gekko", "soul_boes", "soul_hanging_skulltula", "soul_dinolfos", "soul_snappers", "soul_carnivorous_lilypad", "soul_freezard", "soul_wizzrobe", ""],
-          ["soul_pirate_guards", "soul_coloured_pirates", "soul_giant_bonefish", "soul_wart", "soul_octoroks", "soul_jellied_gekko", "soul_iron_knuckle", "soul_bad_bats", "soul_keese", ""],
-          ["soul_leevers", "soul_garo", "soul_garo_master", "soul_armos", "soul_death_armos", "soul_eyegore", "soul_redead", "soul_igos", "soul_gomess", ""]
+          ["soul_takkuri",   "soul_peahats",     "soul_boes",              "soul_freezard",         "soul_wart",          "soul_bad_bats",    "soul_igos"],
+          ["soul_wolfos",    "soul_dodongos",    "soul_hanging_skulltula", "soul_wizrobe",          "soul_octoroks",      "soul_garo_master", "soul_gomess"],
+          ["soul_chu_jelly", "soul_dragonflies", "soul_dinolfos",          "soul_pirate_guards",    "soul_jellied_gekko", "soul_armos",       ""],
+          ["soul_deku_baba", "soul_gekko",       "soul_snappers",          "soul_coloured_pirates", "soul_iron_knuckle",  "soul_eyegore",     ""]
         ]
       }
     ]

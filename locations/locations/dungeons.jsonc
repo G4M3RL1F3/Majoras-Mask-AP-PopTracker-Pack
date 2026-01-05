@@ -598,15 +598,15 @@
             ]
           },
           {
-            "name": "Lower Wizzrobe Chest",
+            "name": "Lower Wizrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $baby_has_projectiles, $baby_can_smack_hard",
               "normal_logic, $enemy_souls_off, $has|smallkey_sh|2, $has_explosives",
               "normal_logic, $enemy_souls_off, $small_key_sanity_off, $has_explosives",
               "normal_logic, $enemy_souls_off, $can_use_fire_arrows",
-              "normal_logic, enemy_souls, soul_wizzrobe, $has|smallkey_sh|2, $has_explosives",
-              "normal_logic, enemy_souls, soul_wizzrobe, $small_key_sanity_off, $has_explosives",
-              "normal_logic, enemy_souls, soul_wizzrobe, $can_use_fire_arrows"
+              "normal_logic, enemy_souls, soul_wizrobe, $has|smallkey_sh|2, $has_explosives",
+              "normal_logic, enemy_souls, soul_wizrobe, $small_key_sanity_off, $has_explosives",
+              "normal_logic, enemy_souls, soul_wizrobe, $can_use_fire_arrows"
             ]
           },
           {
@@ -654,21 +654,21 @@
             ]
           },
           {
-            "name": "Upper Wizzrobe Chest",
+            "name": "Upper Wizrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $baby_can_smack_hard",
               "normal_logic, $enemy_souls_off, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
               "normal_logic, $enemy_souls_off, $small_key_sanity_off, $can_use_fire_arrows, $has_explosives",
               "normal_logic, $enemy_souls_off, $has|smallkey_sh|1, $can_use_fire_arrows, deku",
               "normal_logic, $enemy_souls_off, $small_key_sanity_off, $can_use_fire_arrows, deku",
-              "normal_logic, enemy_souls, soul_wizzrobe, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, enemy_souls, soul_wizzrobe, $small_key_sanity_off, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, enemy_souls, soul_wizzrobe, $has|smallkey_sh|1, $can_use_fire_arrows, deku",
-              "normal_logic, enemy_souls, soul_wizzrobe, $small_key_sanity_off, $can_use_fire_arrows, deku"
+              "normal_logic, enemy_souls, soul_wizrobe, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, enemy_souls, soul_wizrobe, $small_key_sanity_off, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, enemy_souls, soul_wizrobe, $has|smallkey_sh|1, $can_use_fire_arrows, deku",
+              "normal_logic, enemy_souls, soul_wizrobe, $small_key_sanity_off, $can_use_fire_arrows, deku"
             ]
           },
           {
-            "name": "Snowhead Temple 4th Floor Wizzrobe Pots",
+            "name": "Snowhead Temple 4th Floor Wizrobe Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 5,
             "clear_as_group": false,
@@ -683,14 +683,14 @@
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, $baby_has_explosives",
               "normal_logic, $boss_souls_off, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, $boss_souls_off, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, $boss_souls_off, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, $boss_souls_off, $can_use_fire_arrows, $small_key_sanity_off, bosskey_sh",
-              "normal_logic, $boss_souls_off, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, $boss_souls_off, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, $boss_souls_off, $can_use_fire_arrows, gohtremains, boss_warps_with_remains",
               "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $small_key_sanity_off, bosskey_sh",
-              "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
             ]
           },
@@ -700,14 +700,14 @@
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, $baby_has_explosives",
               "normal_logic, $boss_souls_off, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, $boss_souls_off, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, $boss_souls_off, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, $boss_souls_off, $can_use_fire_arrows, $small_key_sanity_off, bosskey_sh",
-              "normal_logic, $boss_souls_off, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, $boss_souls_off, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, $boss_souls_off, $can_use_fire_arrows, gohtremains, boss_warps_with_remains",
               "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $small_key_sanity_off, bosskey_sh",
-              "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
             ]
           },
@@ -718,9 +718,9 @@
             "clear_as_group": false,
             "access_rules": [
               "normal_logic, $has_absurd_soul|soul_pots, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, $has_absurd_soul|soul_pots, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, $has_absurd_soul|soul_pots, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, $has_absurd_soul|soul_pots, $small_key_sanity_off, bosskey_sh",
-              "normal_logic, $has_absurd_soul|soul_pots, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, $has_absurd_soul|soul_pots, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, $has_absurd_soul|soul_pots, boss_warps_with_remains"
             ]
           },
@@ -730,14 +730,14 @@
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
               "normal_logic, $boss_souls_off, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, $boss_souls_off, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, $boss_souls_off, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, $boss_souls_off, $can_use_fire_arrows, $small_key_sanity_off, bosskey_sh",
-              "normal_logic, $boss_souls_off, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, $boss_souls_off, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, $boss_souls_off, $can_use_fire_arrows, gohtremains, boss_warps_with_remains",
               "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $small_key_sanity_off, bosskey_sh",
-              "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
+              "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "normal_logic, boss_souls, soul_goht, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
             ],
             "hosted_item": "oath_sht"
@@ -1814,14 +1814,14 @@
             //"visibility_rules": ["absurd_souls"]
           },
           {
-            "name": "Wizzrobe Chest",
+            "name": "Wizrobe Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $baby_has_projectiles, $can_use_light_arrows",
-              "normal_logic, soul_wizzrobe, $can_smack_hard, $can_use_light_arrows"
+              "normal_logic, soul_wizrobe, $can_smack_hard, $can_use_light_arrows"
             ]
           },
           {
-            "name": "Secret Shrine Wizzrobe Grass",
+            "name": "Secret Shrine Wizrobe Grass",
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -2083,7 +2083,7 @@
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, $enemy_souls_off, $can_use_fire_arrows, deku",
-              "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, enemy_souls, soul_wizzrobe, $can_use_fire_arrows, deku"
+              "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, enemy_souls, soul_wizrobe, $can_use_fire_arrows, deku"
             ]
           },
           {
@@ -2385,16 +2385,16 @@
             "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, deku, @Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Fire Chest"]
           },
           {
-            "name": "Wizzrobe Chest",
+            "name": "Wizrobe Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, deku, $can_use_light_arrows",
               "normal_logic, $has_absurd_soul|soul_deku_flowers, $enemy_souls_off, deku, $can_use_light_arrows, $has|smallkey_st|3",
-              "normal_logic, $has_absurd_soul|soul_deku_flowers, enemy_souls, soul_wizzrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives"
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, enemy_souls, soul_wizrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives"
             ]
           },
           {
-            "name": "Wizzrobe Pots",
+            "name": "Wizrobe Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 5,
             "access_rules": [
@@ -2404,27 +2404,27 @@
           },
           {
             "name": "Death Armos Maze Chest",
-            "access_rules": ["@Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest"]
+            "access_rules": ["@Dungeons/Inverted Stone Tower Temple/Wizrobe Chest"]
           },
           {
             "name": "Small Poe Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Room Pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Wizrobe Room Pots"]
           },
           {
             "name": "Lower Bridge Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Room Pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Wizrobe Room Pots"]
           },
           {
             "name": "Gomess Chest",
             "access_rules": [
               "easy_logic, deku, $can_use_light_arrows, fairysword, fiercedeity",
-              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_absurd_soul|soul_gomess, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $can_use_light_arrows, $can_smack_hard"
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_absurd_soul|soul_gomess, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $can_use_light_arrows, $can_smack_hard"
             ]
           },
           {
@@ -2432,14 +2432,14 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, deku, @Dungeons/Stone Tower Temple/Wizzrobe Room Pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, deku, @Dungeons/Stone Tower Temple/Wizrobe Room Pots"]
           },
           {
             "name": "Eyegore Chest",
             "access_rules": [
-              "easy_logic, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $baby_has_explosives, $baby_has_projectiles",
-              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_absurd_soul|soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $has|smallkey_st|4",
-              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_absurd_soul|soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $small_key_sanity_off"
+              "easy_logic, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $baby_has_explosives, $baby_has_projectiles",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_absurd_soul|soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $has|smallkey_st|4",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_absurd_soul|soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $small_key_sanity_off"
             ]
           },
           {

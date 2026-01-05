@@ -124,7 +124,7 @@
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Peehat Grotto",
+            "name": "Grass Near Peahat Grotto",
             "item_count": 12,
             "clear_as_group": false
           },
@@ -198,17 +198,17 @@
         ]
       },
       {
-        "name": "Termina Field Peehat Grotto",
+        "name": "Termina Field Peahat Grotto",
         "sections": [
           {
-            "name": "Defeat Peehat (Daytime Only)",
+            "name": "Defeat Peahat (Daytime Only)",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard",
-              "normal_logic, $has_absurd_soul|soul_grottos, soul_peehat"
+              "normal_logic, $has_absurd_soul|soul_grottos, soul_peahat"
             ]
           },
           {
-            "name": "Termina Field Peehat Grotto Grass",
+            "name": "Termina Field Peahat Grotto Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],

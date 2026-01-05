@@ -511,10 +511,10 @@
         ]
       },
       {
-        "name": "Wizzrobe Chest",
+        "name": "Wizrobe Chest",
         "sections": [
           {
-            "ref": "Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest"
+            "ref": "Dungeons/Inverted Stone Tower Temple/Wizrobe Chest"
           }
         ],
         "map_locations": [
@@ -529,7 +529,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Inverted Stone Tower Temple/Wizzrobe Pots"
+            "ref": "Dungeons/Inverted Stone Tower Temple/Wizrobe Pots"
           }
         ],
         "map_locations": [

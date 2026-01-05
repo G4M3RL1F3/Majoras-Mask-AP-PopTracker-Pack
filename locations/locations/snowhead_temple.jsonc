@@ -433,10 +433,10 @@
         ]
       },
       {
-        "name": "Lower Wizzrobe Chest",
+        "name": "Lower Wizrobe Chest",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Lower Wizzrobe Chest"
+            "ref": "Dungeons/Snowhead Temple/Lower Wizrobe Chest"
           }
         ],
         "map_locations": [
@@ -508,10 +508,10 @@
         ]
       },
       {
-        "name": "Upper Wizzrobe Chest",
+        "name": "Upper Wizrobe Chest",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Upper Wizzrobe Chest"
+            "ref": "Dungeons/Snowhead Temple/Upper Wizrobe Chest"
           }
         ],
         "map_locations": [
@@ -523,10 +523,10 @@
         ]
       },
       {
-        "name": "4th Floor Wizzrobe Pots",
+        "name": "4th Floor Wizrobe Pots",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple 4th Floor Wizzrobe Pots"
+            "ref": "Dungeons/Snowhead Temple/Snowhead Temple 4th Floor Wizrobe Pots"
           }
         ],
         "map_locations": [

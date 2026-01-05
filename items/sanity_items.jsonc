@@ -3,71 +3,71 @@
   {
     "name": "Clock Town Owl Statue",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/owl_statues/owl_ct_on.png",
-    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_ct.png",
+    "img": "images/owl_statues/owl_ct_on.png",
+    "disabled_img": "images/owl_statues/owl_ct.png",
     "codes": "owl_ct"
   },
   {
     "name": "Milk Road Owl Statue",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/owl_statues/owl_milk_road_on.png",
-    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_milk_road.png",
+    "img": "images/owl_statues/owl_milk_road_on.png",
+    "disabled_img": "images/owl_statues/owl_milk_road.png",
     "codes": "owl_milk_road"
   },
   {
     "name": "Southern Swamp Owl Statue",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/owl_statues/owl_swamp_on.png",
-    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_swamp.png",
+    "img": "images/owl_statues/owl_swamp_on.png",
+    "disabled_img": "images/owl_statues/owl_swamp.png",
     "codes": "owl_swamp"
   },
   {
     "name": "Woodfall Owl Statue",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/owl_statues/owl_woodfall_on.png",
-    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_woodfall.png",
+    "img": "images/owl_statues/owl_woodfall_on.png",
+    "disabled_img": "images/owl_statues/owl_woodfall.png",
     "codes": "owl_woodfall"
   },
   {
     "name": "Mountain Village Owl Statue",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/owl_statues/owl_mountain_on.png",
-    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_mountain.png",
+    "img": "images/owl_statues/owl_mountain_on.png",
+    "disabled_img": "images/owl_statues/owl_mountain.png",
     "codes": "owl_mountain"
   },
   {
     "name": "Snowhead Owl Statue",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/owl_statues/owl_snowhead_on.png",
-    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_snowhead.png",
+    "img": "images/owl_statues/owl_snowhead_on.png",
+    "disabled_img": "images/owl_statues/owl_snowhead.png",
     "codes": "owl_snowhead"
   },
   {
     "name": "Great Bay Coast Owl Statue",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/owl_statues/owl_coast_on.png",
-    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_coast.png",
+    "img": "images/owl_statues/owl_coast_on.png",
+    "disabled_img": "images/owl_statues/owl_coast.png",
     "codes": "owl_coast"
   },
   {
     "name": "Zora Cape Owl Statue",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/owl_statues/owl_zora_cape_on.png",
-    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_zora_cape.png",
+    "img": "images/owl_statues/owl_zora_cape_on.png",
+    "disabled_img": "images/owl_statues/owl_zora_cape.png",
     "codes": "owl_zora_cape"
   },
   {
     "name": "Ikana Canyon Owl Statue",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/owl_statues/owl_ikana_canyon_on.png",
-    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_ikana_canyon.png",
+    "img": "images/owl_statues/owl_ikana_canyon_on.png",
+    "disabled_img": "images/owl_statues/owl_ikana_canyon.png",
     "codes": "owl_ikana_canyon"
   },
   {
     "name": "Stone Tower Owl Statue",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/owl_statues/owl_stone_tower_on.png",
-    "disabled_img": "images/pack_settings/sanities/owl_statues/owl_stone_tower.png",
+    "img": "images/owl_statues/owl_stone_tower_on.png",
+    "disabled_img": "images/owl_statues/owl_stone_tower.png",
     "codes": "owl_stone_tower"
   },
 
@@ -75,31 +75,31 @@
   {
     "name": "Yellow Frog",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/frogs/frog_yellow.png",
+    "img": "images/frogs/frog_yellow.png",
     "codes": "frog_yellow"
   },
   {
     "name": "White Frog",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/frogs/frog_white.png",
+    "img": "images/frogs/frog_white.png",
     "codes": "frog_white"
   },
   {
     "name": "Cyan Frog",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/frogs/frog_cyan.png",
+    "img": "images/frogs/frog_cyan.png",
     "codes": "frog_cyan"
   },
   {
     "name": "Blue Frog",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/frogs/frog_blue.png",
+    "img": "images/frogs/frog_blue.png",
     "codes": "frog_blue"
   },
   {
     "name": "Pink Frog",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/frogs/frog_pink.png",
+    "img": "images/frogs/frog_pink.png",
     "codes": "frog_pink"
   },
 
@@ -107,183 +107,183 @@
   {
     "name": "Mountain Village Rooftop Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/mtn_village_winter.png",
+    "img": "images/scarecrows/mtn_village_winter.png",
     "codes": "mtn_village_winter"
   },
   {
     "name": "Mountain Village Rooftop Scarecrow",
     "type": "toggle_badged",
     "base_item": "mtn_village_winter",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_mtn_village_winter"
   },
   {
     "name": "Mountain Village Spring Rooftop Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/mtn_village_spring.png",
+    "img": "images/scarecrows/mtn_village_spring.png",
     "codes": "mtn_village_spring"
   },
   {
     "name": "Mountain Village Spring Rooftop Scarecrow",
     "type": "toggle_badged",
     "base_item": "mtn_village_spring",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_mtn_village_spring"
   },
   {
     "name": "Path to Snowhead Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/path_snowhead_pillar_winter.png",
+    "img": "images/scarecrows/path_snowhead_pillar_winter.png",
     "codes": "path_snowhead_pillar_winter"
   },
   {
     "name": "Path to Snowhead Scarecrow",
     "type": "toggle_badged",
     "base_item": "path_snowhead_pillar_winter",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_path_snowhead_winter"
   },
   {
     "name": "Path to Snowhead Spring Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/path_snowhead_pillar_spring.png",
+    "img": "images/scarecrows/path_snowhead_pillar_spring.png",
     "codes": "path_snowhead_pillar_spring"
   },
   {
     "name": "Path to Snowhead Spring Scarecrow",
     "type": "toggle_badged",
     "base_item": "path_snowhead_pillar_spring",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_path_snowhead_spring"
   },
   {
     "name": "Twin Islands Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/twin_islands_ramp_winter.png",
+    "img": "images/scarecrows/twin_islands_ramp_winter.png",
     "codes": "twin_islands_ramp_winter"
   },
   {
     "name": "Twin Islands Scarecrow",
     "type": "toggle_badged",
     "base_item": "twin_islands_ramp_winter",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_twin_islands_winter"
   },
   {
     "name": "Twin Islands Spring Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/twin_islands_ramp_spring.png",
+    "img": "images/scarecrows/twin_islands_ramp_spring.png",
     "codes": "twin_islands_ramp_spring"
   },
   {
     "name": "Twin Islands Spring Scarecrow",
     "type": "toggle_badged",
     "base_item": "twin_islands_ramp_spring",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_twin_islands_spring"
   },
   {
     "name": "Snowhead Temple Lower Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/sht_lower_red_door.png",
+    "img": "images/scarecrows/sht_lower_red_door.png",
     "codes": "sht_lower_red_door"
   },
   {
     "name": "Snowhead Temple Lower Scarecrow",
     "type": "toggle_badged",
     "base_item": "sht_lower_red_door",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_sht_lower"
   },
   {
     "name": "Snowhead Temple Hidden Alcove Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/sht_hidden.png",
+    "img": "images/scarecrows/sht_hidden.png",
     "codes": "sht_hidden"
   },
   {
     "name": "Snowhead Temple Hidden Alcove Scarecrow",
     "type": "toggle_badged",
     "base_item": "sht_hidden",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_sht_hidden_alcove"
   },
   {
     "name": "Great Bay Coast Rock Wall Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/gb_coast_rock_wall.png",
+    "img": "images/scarecrows/gb_coast_rock_wall.png",
     "codes": "gb_coast_rock_wall"
   },
   {
     "name": "Great Bay Coast Rock Wall Scarecrow",
     "type": "toggle_badged",
     "base_item": "gb_coast_rock_wall",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_gb_coast_rock_wall"
   },
   {
     "name": "Zora Cape Beavers Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/zora_cape_beaver_ledge.png",
+    "img": "images/scarecrows/zora_cape_beaver_ledge.png",
     "codes": "zora_cape_beaver_ledge"
   },
   {
     "name": "Zora Cape Beavers Scarecrow",
     "type": "toggle_badged",
     "base_item": "zora_cape_beaver_ledge",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_zora_cape_beavers"
   },
   {
     "name": "Zora Cape Island Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/zora_cape_island.png",
+    "img": "images/scarecrows/zora_cape_island.png",
     "codes": "zora_cape_island"
   },
   {
     "name": "Zora Cape Island Scarecrow",
     "type": "toggle_badged",
     "base_item": "zora_cape_island",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_zora_cape_island"
   },
   {
     "name": "Road to Ikana Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/road_to_ikana_spire.png",
+    "img": "images/scarecrows/road_to_ikana_spire.png",
     "codes": "road_to_ikana_spire"
   },
   {
     "name": "Road to Ikana Scarecrow",
     "type": "toggle_badged",
     "base_item": "road_to_ikana_spire",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_road_to_ikana"
   },
   {
     "name": "Stone Tower Lower Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/stone_tower_lower.png",
+    "img": "images/scarecrows/stone_tower_lower.png",
     "codes": "stone_tower_lower"
   },
   {
     "name": "Stone Tower Lower Scarecrow",
     "type": "toggle_badged",
     "base_item": "stone_tower_lower",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_stone_tower_lower"
   },
   {
     "name": "Stone Tower Upper Scarecrow", // Background
     "type": "static",
-    "img": "images/pack_settings/sanities/scarecrows/stone_tower_upper.png",
+    "img": "images/scarecrows/stone_tower_upper.png",
     "codes": "stone_tower_upper"
   },
   {
     "name": "Stone Tower Upper Scarecrow",
     "type": "toggle_badged",
     "base_item": "stone_tower_upper",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow.png",
+    "img": "images/scarecrows/scarecrow.png",
     "codes": "scarecrow_stone_tower_upper"
   },
 

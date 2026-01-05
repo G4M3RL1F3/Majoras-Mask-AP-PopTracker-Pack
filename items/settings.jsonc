@@ -1,6 +1,6 @@
-//Create items to display them in pack settings. Codes are used in /layouts/settings.jsonc for linking.
+// Create items to display them in pack settings. Codes are used in /layouts/settings.jsonc for linking.
 [
-  //Game Options
+  // Game Options
   {
     "name": "Logic Difficulty",
     "type": "progressive",
@@ -52,7 +52,7 @@
     "codes": "boss_warps_with_remains"
   },
 
-  //Shuffles
+  // Shuffles
   {
     "name": "Swordless",
     "type": "toggle",
@@ -152,7 +152,7 @@
     "codes": "shuffle_great_fairy_rewards"
   },
 
-  //Sanities
+  // Sanities
   {
     "name": "Small Key Sanity",
     "type": "toggle",
@@ -270,12 +270,12 @@
   {
     "name": "Scarecrow Sanity",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/scarecrows/scarecrow_sanity_on.png",
-    "disabled_img": "images/pack_settings/sanities/scarecrows/scarecrow_sanity_off.png",
+    "img": "images/pack_settings/sanities/scarecrow_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/scarecrow_sanity_off.png",
     "codes": "scarecrow_sanity"
   },
 
-  //Inventory
+  // Inventory
   {
     "name": "Start with Song of Soaring",
     "type": "toggle",

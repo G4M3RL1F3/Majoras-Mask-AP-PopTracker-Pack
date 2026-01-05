@@ -42,7 +42,7 @@
           },
           {
             "name": "Milk Road Owl Statue",
-            "chest_unopened_img": "images/pack_settings/sanities/owl_statues/owl_milk_road_on.png"
+            "chest_unopened_img": "images/owl_statues/owl_milk_road_on.png"
             // "access_rules": [
             //   "$owlsanity_off, $can_smack",
             //   "owlsanity, $can_smack"

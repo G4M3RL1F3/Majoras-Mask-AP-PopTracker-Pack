@@ -374,21 +374,21 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle",
-              "normal_logic, $has_npc_soul|soul_fisherman, $has_npc_soul|soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $has_npc_soul|soul_fisherman, $has_enemy_soul|soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
             ]
           },
           {
             "name": "Upper Eel Chest",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
-              "normal_logic, $has_npc_soul|soul_fisherman, $has_npc_soul|soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $has_npc_soul|soul_fisherman, $has_enemy_soul|soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
             ]
           },
           {
             "name": "Lower Eel Chest",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
-              "normal_logic, $has_npc_soul|soul_fisherman, $has_npc_soul|soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $has_npc_soul|soul_fisherman, $has_enemy_soul|soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
             ]
           },
           {

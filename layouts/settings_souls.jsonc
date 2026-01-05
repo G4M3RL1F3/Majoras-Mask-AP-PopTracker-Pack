@@ -35,6 +35,11 @@
                     "type": "item",
                     "max_width": 260,
                     "item": "npc_souls"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "enemy_souls"
                   }
                 ]
               }

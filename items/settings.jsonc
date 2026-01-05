@@ -471,5 +471,12 @@
     "img": "images/pack_settings/souls/npc_souls_on.png",
     "disabled_img": "images/pack_settings/souls/npc_souls_off.png",
     "codes": "npc_souls"
+  },
+  {
+    "name": "Enemy Souls",
+    "type": "toggle",
+    "img": "images/pack_settings/souls/enemy_souls_on.png",
+    "disabled_img": "images/pack_settings/souls/enemy_souls_off.png",
+    "codes": "enemy_souls"
   }
 ]

@@ -204,7 +204,7 @@
             "name": "Defeat Peahat (Daytime Only)",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard",
-              "normal_logic, $has_absurd_soul|soul_grottos, soul_peahat"
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_enemy_soul|soul_peahat"
             ]
           },
           {
@@ -232,8 +232,7 @@
             "name": "Termina Dodongo Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard",
-              "normal_logic, $has_absurd_soul|soul_grottos, $enemy_souls_off",
-              "normal_logic, $has_absurd_soul|soul_grottos, enemy_souls, soul_dodongos"
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_enemy_soul|soul_dodongos"
             ]
           }
         ],

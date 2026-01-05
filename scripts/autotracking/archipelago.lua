@@ -190,6 +190,7 @@ function onClear(slot_data)
     setFromSlotData("absurd_souls","absurd_souls")
     setFromSlotData("misc_souls","misc_souls")
     setFromSlotData("npc_souls","npc_souls")
+    setFromSlotData("enemy_souls","enemy_souls")
     setFromSlotData("scarecrowsanity","scarecrow_sanity")
     --setFromSlotData("death_link","death_link")
     --for _, trick in ipairs(slot_data["logic_tricks"]) do

@@ -72,10 +72,7 @@
           },
           {
             "name": "Woodfall Temple Turtle Chest",
-            "access_rules": [
-              "$enemy_souls_off",
-              "enemy_souls, soul_snappers"
-            ]
+            "access_rules": ["$has_enemy_soul|soul_snappers"]
           },
           {
             "name": "Woodfall Temple Turtle Room Grass",
@@ -89,20 +86,16 @@
             "name": "Woodfall Temple Dinolfos Chest",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard",
-              "normal_logic, $enemy_souls_off, smallkey_wf, $can_smack",
-              "normal_logic, $enemy_souls_off, $small_key_sanity_off, $can_smack",
-              "normal_logic, $enemy_souls_off, bow",
-              "normal_logic, enemy_souls, soul_dinolfols, smallkey_wf, $can_smack",
-              "normal_logic, enemy_souls, soul_dinolfols, $small_key_sanity_off, $can_smack",
-              "normal_logic, enemy_souls, soul_dinolfols, bow"
+              "normal_logic, $has_enemy_soul|soul_dinolfols, smallkey_wf, $can_smack",
+              "normal_logic, $has_enemy_soul|soul_dinolfols, $small_key_sanity_off, $can_smack",
+              "normal_logic, $has_enemy_soul|soul_dinolfols, bow"
             ]
           },
           {
             "name": "Woodfall Temple Gekko Chest",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, $baby_has_explosives, deku, goron",
-              "normal_logic, $enemy_souls_off, bow, $can_smack",
-              "normal_logic, enemy_souls, soul_gekko, bow, $can_smack"
+              "normal_logic, $has_enemy_soul|soul_gekko, bow, $can_smack"
             ]
           },
           {
@@ -110,21 +103,15 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_absurd_soul|soul_pots, $enemy_souls_off, bow, $can_smack",
-              "$has_absurd_soul|soul_pots, enemy_souls, soul_gekko, bow, $can_smack"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_gekko, bow, $can_smack"]
           },
           {
             "name": "Woodfall Temple Dragonfly Chest",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles",
-              "normal_logic, $enemy_souls_off, smallkey_wf",
-              "normal_logic, $enemy_souls_off, $small_key_sanity_off",
-              "normal_logic, $enemy_souls_off, bow",
-              "normal_logic, enemy_souls, soul_dragonflies, smallkey_wf",
-              "normal_logic, enemy_souls, soul_dragonflies, $small_key_sanity_off",
-              "normal_logic, enemy_souls, soul_dragonflies, bow"
+              "normal_logic, $has_enemy_soul|soul_dragonflies, smallkey_wf",
+              "normal_logic, $has_enemy_soul|soul_dragonflies, $small_key_sanity_off",
+              "normal_logic, $has_enemy_soul|soul_dragonflies, bow"
             ]
           },
           {
@@ -154,9 +141,9 @@
             "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_can_smack",
-              "normal_logic, soul_boes, smallkey_wf",
-              "normal_logic, soul_boes, $small_key_sanity_off",
-              "normal_logic, soul_boes, bow"
+              "normal_logic, $has_enemy_soul|soul_boes, smallkey_wf",
+              "normal_logic, $has_enemy_soul|soul_boes, $small_key_sanity_off",
+              "normal_logic, $has_enemy_soul|soul_boes, bow"
             ]
           },
           {
@@ -168,7 +155,7 @@
           {
             "name": "Woodfall Temple Deku Baba SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
-            "access_rules": ["soul_deku_baba"]
+            "access_rules": ["$has_enemy_soul|soul_deku_baba"]
             //"visibility_rules": ["fairysanity"]
           },
           {
@@ -203,9 +190,9 @@
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_can_smack_hard, $baby_has_projectiles",
-              "normal_logic, soul_hanging_skulltula, smallkey_wf, $can_smack",
-              "normal_logic, soul_hanging_skulltula, $small_key_sanity_off, $can_smack",
-              "normal_logic, soul_hanging_skulltula, bow"
+              "normal_logic, $has_enemy_soul|soul_hanging_skulltula, smallkey_wf, $can_smack",
+              "normal_logic, $has_enemy_soul|soul_hanging_skulltula, $small_key_sanity_off, $can_smack",
+              "normal_logic, $has_enemy_soul|soul_hanging_skulltula, bow"
             ]
             //"visibility_rules": ["fairysanity"]
           },
@@ -367,10 +354,8 @@
             "name": "Bridge Room Freezard Chest",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, hookshot",
-              "normal_logic, $enemy_souls_off, $can_use_fire_arrows",
-              "normal_logic, $enemy_souls_off, hookshot",
-              "normal_logic, enemy_souls, soul_freezard, $can_use_fire_arrows",
-              "normal_logic, enemy_souls, soul_freezard, hookshot"
+              "normal_logic, $has_enemy_soul|soul_freezard, $can_use_fire_arrows",
+              "normal_logic, $has_enemy_soul|soul_freezard, hookshot"
             ]
           },
           {
@@ -497,10 +482,7 @@
           {
             "name": "Freezard Torch Room Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_sh.png",
-            "access_rules": [
-              "$enemy_souls_off, $can_use_fire_arrows",
-              "enemy_souls, soul_freezard, $can_use_fire_arrows"
-            ]
+            "access_rules": ["$has_enemy_soul|soul_freezard, $can_use_fire_arrows"]
           },
           {
             "name": "Basement Switch Chest SF",
@@ -601,12 +583,9 @@
             "name": "Lower Wizrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $baby_has_projectiles, $baby_can_smack_hard",
-              "normal_logic, $enemy_souls_off, $has|smallkey_sh|2, $has_explosives",
-              "normal_logic, $enemy_souls_off, $small_key_sanity_off, $has_explosives",
-              "normal_logic, $enemy_souls_off, $can_use_fire_arrows",
-              "normal_logic, enemy_souls, soul_wizrobe, $has|smallkey_sh|2, $has_explosives",
-              "normal_logic, enemy_souls, soul_wizrobe, $small_key_sanity_off, $has_explosives",
-              "normal_logic, enemy_souls, soul_wizrobe, $can_use_fire_arrows"
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $has|smallkey_sh|2, $has_explosives",
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $small_key_sanity_off, $has_explosives",
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $can_use_fire_arrows"
             ]
           },
           {
@@ -624,10 +603,8 @@
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows",
-              "normal_logic, $enemy_souls_off, $has|smallkey_sh|1, $can_use_fire_arrows",
-              "normal_logic, $enemy_souls_off, $small_key_sanity_off, $can_use_fire_arrows",
-              "normal_logic, enemy_souls, soul_dinolfos, $has|smallkey_sh|1, $can_use_fire_arrows",
-              "normal_logic, enemy_souls, soul_dinolfos, $small_key_sanity_off, $can_use_fire_arrows"
+              "normal_logic, $has_enemy_soul|soul_dinolfos, $has|smallkey_sh|1, $can_use_fire_arrows",
+              "normal_logic, $has_enemy_soul|soul_dinolfos, $small_key_sanity_off, $can_use_fire_arrows"
             ]
             //"visibility_rules": ["fairysanity"]
           },
@@ -636,10 +613,8 @@
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows",
-              "normal_logic, $enemy_souls_off, $has|smallkey_sh|1, $can_use_fire_arrows",
-              "normal_logic, $enemy_souls_off, $small_key_sanity_off, $can_use_fire_arrows",
-              "normal_logic, enemy_souls, soul_dinolfos, $has|smallkey_sh|1, $can_use_fire_arrows",
-              "normal_logic, enemy_souls, soul_dinolfos, $small_key_sanity_off, $can_use_fire_arrows"
+              "normal_logic, $has_enemy_soul|soul_dinolfos, $has|smallkey_sh|1, $can_use_fire_arrows",
+              "normal_logic, $has_enemy_soul|soul_dinolfos, $small_key_sanity_off, $can_use_fire_arrows"
             ]
             //"visibility_rules": ["fairysanity"]
           },
@@ -649,22 +624,18 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "normal_logic, $has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|3",
-              "normal_logic, $has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow|scarecrow_sht_lower"
+              "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|3",
+              "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow|scarecrow_sht_lower"
             ]
           },
           {
             "name": "Upper Wizrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $baby_can_smack_hard",
-              "normal_logic, $enemy_souls_off, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, $enemy_souls_off, $small_key_sanity_off, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, $enemy_souls_off, $has|smallkey_sh|1, $can_use_fire_arrows, deku",
-              "normal_logic, $enemy_souls_off, $small_key_sanity_off, $can_use_fire_arrows, deku",
-              "normal_logic, enemy_souls, soul_wizrobe, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, enemy_souls, soul_wizrobe, $small_key_sanity_off, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, enemy_souls, soul_wizrobe, $has|smallkey_sh|1, $can_use_fire_arrows, deku",
-              "normal_logic, enemy_souls, soul_wizrobe, $small_key_sanity_off, $can_use_fire_arrows, deku"
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $small_key_sanity_off, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $has|smallkey_sh|1, $can_use_fire_arrows, deku",
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $small_key_sanity_off, $can_use_fire_arrows, deku"
             ]
           },
           {
@@ -673,8 +644,8 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "normal_logic, $has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|3",
-              "normal_logic, $has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow|scarecrow_sht_lower"
+              "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|3",
+              "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow|scarecrow_sht_lower"
             ]
           },
           {
@@ -717,11 +688,11 @@
             "item_count": 14,
             "clear_as_group": false,
             "access_rules": [
-              "normal_logic, $has_absurd_soul|soul_pots, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, $has_absurd_soul|soul_pots, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
-              "normal_logic, $has_absurd_soul|soul_pots, $small_key_sanity_off, bosskey_sh",
-              "normal_logic, $has_absurd_soul|soul_pots, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
-              "normal_logic, $has_absurd_soul|soul_pots, boss_warps_with_remains"
+              "$has_absurd_soul|soul_pots, $has|smallkey_sh|1, bosskey_sh",
+              "$has_absurd_soul|soul_pots, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
+              "$has_absurd_soul|soul_pots, $small_key_sanity_off, bosskey_sh",
+              "$has_absurd_soul|soul_pots, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
+              "$has_absurd_soul|soul_pots, boss_warps_with_remains"
             ]
           },
           {
@@ -772,7 +743,7 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, bow, fairymask",
-              "normal_logic, soul_hanging_skulltula, $can_smack_hard"
+              "normal_logic, $has_enemy_soul|soul_hanging_skulltula, $can_smack_hard"
             ]
           },
           {
@@ -841,7 +812,7 @@
             "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, zora, bow, hookshot",
-              "normal_logic, soul_deku_baba"
+              "normal_logic, $has_enemy_soul|soul_deku_baba"
             ]
           },
           {
@@ -869,7 +840,7 @@
             "name": "Mad Jellied Gekko Chest",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, zora",
-              "normal_logic, soul_jellied_gekko, $can_use_ice_arrows, $can_use_fire_arrows"
+              "normal_logic, $has_enemy_soul|soul_jellied_gekko, $can_use_ice_arrows, $can_use_fire_arrows"
             ]
           },
           {
@@ -902,12 +873,12 @@
             "name": "Behind Locked Door Chest",
             "access_rules": [
               "easy_logic, smallkey_gb, bow, $baby_has_explosives, fairysword, mirrorshield, zora",
-              "normal_logic, soul_wart, smallkey_gb, $can_smack_hard",
-              "normal_logic, soul_wart, smallkey_gb, $has_explosives",
-              "normal_logic, soul_wart, smallkey_gb, bow",
-              "normal_logic, soul_wart, $small_key_sanity_off, $can_smack_hard",
-              "normal_logic, soul_wart, $small_key_sanity_off, $has_explosives",
-              "normal_logic, soul_wart, $small_key_sanity_off, bow"
+              "normal_logic, $has_enemy_soul|soul_wart, smallkey_gb, $can_smack_hard",
+              "normal_logic, $has_enemy_soul|soul_wart, smallkey_gb, $has_explosives",
+              "normal_logic, $has_enemy_soul|soul_wart, smallkey_gb, bow",
+              "normal_logic, $has_enemy_soul|soul_wart, $small_key_sanity_off, $can_smack_hard",
+              "normal_logic, $has_enemy_soul|soul_wart, $small_key_sanity_off, $has_explosives",
+              "normal_logic, $has_enemy_soul|soul_wart, $small_key_sanity_off, bow"
             ]
           },
           {
@@ -942,8 +913,7 @@
             "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
-              "normal_logic, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows, hookshot",
-              "normal_logic, enemy_souls, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
+              "normal_logic, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
             ]
           },
           {
@@ -951,8 +921,7 @@
             "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
-              "normal_logic, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows, hookshot",
-              "normal_logic, enemy_souls, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
+              "normal_logic, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
             ]
           },
           {
@@ -960,10 +929,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_absurd_soul|soul_pots, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows, hookshot",
-              "$has_absurd_soul|soul_pots, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"]
           },
           {
             "name": "Seesaw Room Underwater Barrel SF",
@@ -971,8 +937,7 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, $can_use_ice_arrows, $can_use_fire_arrows, bombchu_bag",
-              "normal_logic, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows",
-              "normal_logic, enemy_souls, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
+              "normal_logic, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
             ]
           },
           {
@@ -980,10 +945,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_absurd_soul|soul_pots, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows, hookshot",
-              "$has_absurd_soul|soul_pots, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"]
           },
           {
             "name": "Seesaw Room Chest SF",
@@ -999,7 +961,7 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, fairymask, $can_use_ice_arrows, $can_use_fire_arrows",
-              "normal_logic, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
+              "normal_logic, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
             ]
           },
           {
@@ -1013,10 +975,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_absurd_soul|soul_pots, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows",
-              "$has_absurd_soul|soul_pots, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"]
           },
           {
             "name": "Heart Container",
@@ -1063,10 +1022,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_absurd_soul|soul_pots, $enemy_souls_off, $can_use_ice_arrows, $can_use_fire_arrows",
-              "$has_absurd_soul|soul_pots, soul_octoroks, soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"]
           }
         ],
         "map_locations": [
@@ -1144,7 +1100,7 @@
             "name": "Pirates' Fortress Interior Tank Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, hookshot, $baby_can_smack_hard, magic, stonemask",
-              "normal_logic, soul_coloured_pirates, $pirates_fortress_interior, hookshot, $can_smack_hard"
+              "normal_logic, $has_enemy_soul|soul_coloured_pirates, $pirates_fortress_interior, hookshot, $can_smack_hard"
             ]
           },
           {
@@ -1173,10 +1129,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_absurd_soul|soul_pots, $enemy_souls_off, hookshot, $can_smack_hard",
-              "$has_absurd_soul|soul_pots, enemy_souls, soul_coloured_pirates, hookshot, $can_smack_hard"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_coloured_pirates, hookshot, $can_smack_hard"]
           },
           {
             "name": "Pirates' Fortress Hub Lower Chest",
@@ -1802,7 +1755,7 @@
             "name": "Dinolfos Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $can_use_light_arrows",
-              "normal_logic, soul_dinolfos, $can_smack_hard, $can_use_light_arrows"
+              "normal_logic, $has_enemy_soul|soul_dinolfos, $can_smack_hard, $can_use_light_arrows"
             ]
           },
           {
@@ -1817,7 +1770,7 @@
             "name": "Wizrobe Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $baby_has_projectiles, $can_use_light_arrows",
-              "normal_logic, soul_wizrobe, $can_smack_hard, $can_use_light_arrows"
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $can_smack_hard, $can_use_light_arrows"
             ]
           },
           {
@@ -1832,7 +1785,7 @@
             "name": "Wart Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $baby_has_projectiles, $baby_has_explosives, $can_use_light_arrows",
-              "normal_logic, soul_wart, $can_smack_hard, $can_use_light_arrows"
+              "normal_logic, $has_enemy_soul|soul_wart, $can_smack_hard, $can_use_light_arrows"
             ]
           },
           {
@@ -1847,7 +1800,7 @@
             "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $can_use_light_arrows",
-              "normal_logic, soul_garo_master, $can_smack_hard, $can_use_light_arrows"
+              "normal_logic, $has_enemy_soul|soul_garo_master, $can_smack_hard, $can_use_light_arrows"
             ]
           },
           {
@@ -2081,10 +2034,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, $enemy_souls_off, $can_use_fire_arrows, deku",
-              "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, enemy_souls, soul_wizrobe, $can_use_fire_arrows, deku"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_wizrobe, $can_use_fire_arrows, deku"]
           },
           {
             "name": "Throne Room Pots",
@@ -2106,8 +2056,8 @@
             "chest_unopened_img": "images/equipment/song_elegy_no_text.png",
             "access_rules": [
               "easy_logic, deku, $can_use_lens, $can_use_fire_arrows, goron, powderkeg, mirrorshield, $baby_can_smack_hard, $can_use_light_arrows",
-              "normal_logic, soul_igos, deku, $can_use_lens, $can_use_fire_arrows, goron, powderkeg, mirrorshield",
-              "normal_logic, soul_igos, $can_use_fire_arrows, mirrorshield, $can_use_light_arrows"
+              "normal_logic, $has_enemy_soul|soul_igos, deku, $can_use_lens, $can_use_fire_arrows, goron, powderkeg, mirrorshield",
+              "normal_logic, $has_enemy_soul|soul_igos, $can_use_fire_arrows, mirrorshield, $can_use_light_arrows"
             ]
           }
         ],
@@ -2181,8 +2131,8 @@
             "name": "Armos Room Lava Chest",
             "access_rules": [
               "easy_logic, $can_use_light_arrows, mirrorshield, $baby_has_explosives, goron",
-              "normal_logic, soul_armos, $has_explosives, $can_use_light_arrows",
-              "normal_logic, soul_armos, $has_explosives, mirrorshield"
+              "normal_logic, $has_enemy_soul|soul_armos, $has_explosives, $can_use_light_arrows",
+              "normal_logic, $has_enemy_soul|soul_armos, $has_explosives, mirrorshield"
             ]
           },
           {
@@ -2316,7 +2266,7 @@
             "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest",
-              "soul_garo_master, $has_absurd_soul|soul_deku_flowers, $can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest"
+              "normal_logic, $has_enemy_soul|soul_garo_master, $has_absurd_soul|soul_deku_flowers, $can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest"
             ]
           },
           {
@@ -2336,7 +2286,7 @@
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Garo Master Chest, $baby_has_explosives, $baby_has_projectiles",
-              "$has_absurd_soul|soul_deku_flowers, @Dungeons/Stone Tower Temple/Garo Master Chest, hookshot"
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, @Dungeons/Stone Tower Temple/Garo Master Chest, hookshot"
             ]
           }
         ],
@@ -2389,8 +2339,7 @@
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, deku, $can_use_light_arrows",
-              "normal_logic, $has_absurd_soul|soul_deku_flowers, $enemy_souls_off, deku, $can_use_light_arrows, $has|smallkey_st|3",
-              "normal_logic, $has_absurd_soul|soul_deku_flowers, enemy_souls, soul_wizrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives"
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_wizrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives"
             ]
           },
           {

@@ -274,6 +274,13 @@
     "disabled_img": "images/pack_settings/sanities/scarecrow_sanity_off.png",
     "codes": "scarecrow_sanity"
   },
+  {
+    "name": "Frog Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/frogsanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/frogsanity_off.png",
+    "codes": "frogsanity"
+  },
 
   // Inventory
   {

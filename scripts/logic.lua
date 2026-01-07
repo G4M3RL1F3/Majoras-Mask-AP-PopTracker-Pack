@@ -1,30 +1,9 @@
--- Can reach specific locations (there's probably a better way to do this)
-function canReachHealingInvisibleGoron()
-    return can_use_lens() and can_play_healing()
-end
-
-function canReachIkanaWellInvisibleChest()
-    return has("gibdo") and has("bottles", 1) and (has("adultswallet") or has("maskofscents"))
-end
-
-function canReachHotWaterGrottoChest()
-    return (has_explosives() and can_use_fire_arrows()) or (can_use_lens() and has("bottles", 1) and has("goron") and has_explosives) or clear_snowhead() or (canReachIkanaWellInvisibleChest() and can_play_soaring())
-end
-
-function canReachWoodfallGekkoChest()
-    return has("soul_gekko") and has("bow") and can_smack()
-end
-
-function canReachGreatBayTemple()
-    return has("soul_trees_bushes") and can_play_bossa_nova() and has("hookshot") and has("zora")
-end
-
 -- Songs
-function can_play_time() -- was "play_healing"
+function can_play_time()
     return has("time") and has("ocarina")
 end
 
-function can_play_healing() -- was "play_healing"
+function can_play_healing()
     return has("healing") and has("ocarina")
 end
 
@@ -40,7 +19,7 @@ function can_play_storms()
     return has("storms") and has("ocarina")
 end
 
-function can_play_sonata() -- was "play_sonata"
+function can_play_sonata()
     return has("sonata") and has("ocarina")
 end
 
@@ -98,29 +77,29 @@ end
 
 -- Rules consistent between difficulties
 
-function can_get_magic_beans() -- was "get_beans"
-    return has("soul_bean_seller") and has("soul_grottos") and has("beans") and has("deku") and deku_palace()
+function can_get_magic_beans()
+    return has_npc_soul("soul_bean_seller") and has_absurd_soul("soul_grottos") and has("deku") and deku_palace()
 end
 
 -- has_bombchus() unnecessary: any bombchu pickup is linked to one toggle "bombchu"
 
-function has_explosives() -- was "explosives"
+function has_explosives()
     return has("bombs") or has("bombchu_bag") or has("blast")
 end
 
-function has_hard_projectiles() -- was "has_hard_projectiles"
+function has_hard_projectiles()
     return has("bow") or has("zora") or has("hookshot")
 end
 
-function has_projectiles() -- was "projectiles"
+function has_projectiles()
     return (has("deku") and has("magic")) or has_hard_projectiles()
 end
 
-function can_smack_hard() -- was "smack_hard"
-    return has("sword") or has("fiercedeity") or has("fairysword") or has("goron")
+function can_smack_hard()
+    return has("sword") or has("fiercedeity") or has("fairysword") or has("goron") or has("zora")
 end
 
-function can_smack() -- was "smack"
+function can_smack()
     return can_smack_hard() or has("deku")
 end
 
@@ -129,30 +108,30 @@ function has_paper()
 end
 
 function can_get_cow_milk()
-    return has("soul_cow") and has("soul_grottos") and has("bottles", 1) and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("soul_barten") and has("romani")) or (has("gibdo") and has("bottles", 1) and can_plant_beans() and canReachHotWaterGrottoChest() or can_use_light_arrows() and (canReachHotWaterGrottoChest() or (has("goron") and can_use_lens()) or canReachIkanaWellInvisibleChest())))
+    return has_misc_soul("soul_cow") and has_absurd_soul("soul_grottos") and has("bottles", 1) and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has_npc_soul("soul_barten") and has("romani")) or (has("gibdo") and has_npc_soul("soul_gibdos") and has("bottles", 1) and can_plant_beans() and Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") or can_use_light_arrows() and (Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") or (has("goron") and can_use_lens()) or Tracker:FindObjectForCode("@Dungeons/Beneath the Well/Invisible Chest"))))
 end
 
-function can_plant_beans() -- was "plant_beans"
+function can_plant_beans()
     return can_get_magic_beans() and (has("bottles", 1) or can_play_storms())
 end
 
-function can_use_powder_keg() -- was "use_keg"
+function can_use_powder_keg()
     return has("keg") and has("goron") and has_npc_soul("soul_keg_goron") or (has_npc_soul("soul_medigoron") and can_use_fire_arrows() and has("adultswallet"))
 end
 
-function can_use_fire_arrows() -- was "use_fire_arrows"
+function can_use_fire_arrows()
     return has("bow") and has("magic") and has("firearrow")
 end
 
-function can_use_ice_arrows() -- was "use_ice_arrows"
+function can_use_ice_arrows()
     return has("bow") and has("magic") and has("icearrow")
 end
 
-function can_use_light_arrows() -- was "use_light_arrows"
+function can_use_light_arrows()
     return has("bow") and has("magic") and has("lightarrow")
 end
 
-function can_use_lens() -- was "use_lens"
+function can_use_lens()
     return has("lens") and has("magic")
 end
 
@@ -161,15 +140,22 @@ function can_bring_to_player()
 end
 
 function can_reach_seahorse()
-    return great_bay() and has("soul_fisherman") and has("soul_pirate_guards") and has("zora") and has("pictobox") and (has("hookshot") or has("goron"))
-end
-
-function can_get_frogs()
-    return (canReachWoodfallGekkoChest() and canReachGreatBayTemple() and can_use_ice_arrows() and can_use_fire_arrows()) or (has("frog_yellow") and has("frog_white") and has("frog_cyan") and has("frog_blue") and has("frog_pink"))
+    return great_bay() and has_npc_soul("soul_fisherman") and has_npc_soul("soul_pirate_guards") and has("zora") and has("pictobox") and (has("hookshot") or has("goron"))
 end
 
 function can_get_frog_choir_hp()
-    return has("dongero") and clear_snowhead() and can_get_frogs()
+    if not has("dongero") then      -- If Don Gero Mask hasn't been obtained, then it's unobtainable.
+        return false
+    end
+    if not clear_snowhead() then    -- If Snowhead cannot be cleared, then it's unobtainable.
+        return false
+    end
+
+    if has("frogsanity") then       -- If frogsanity is on, check for frog items. Otherwise, check for vanilla locations access rules.
+        return has("frog_yellow") and has("frog_white") and has("frog_cyan") and has("frog_blue") and has("frog_pink")
+    else
+        return Tracker:FindObjectForCode("@Dungeons/Woodfall Temple/Woodfall Temple Gekko Chest") and great_bay_temple() and can_use_ice_arrows() and can_use_fire_arrows()
+    end
 end
 
 -- Easy difficulty rules
@@ -218,7 +204,7 @@ function baby_can_reach_seahorse()
 end
 
 function baby_can_get_cow_milk()
-    return baby_has_bottle() and can_play_eponas() and baby_has_explosives() and can_use_powder_keg() and has("hookshot") and has("gibdo") and baby_can_plant_beans() and can_use_light_arrows() and canReachHotWaterGrottoChest() and has("goron") and canReachHealingInvisibleGoron() and canReachIkanaWellInvisibleChest()
+    return baby_has_bottle() and can_play_eponas() and baby_has_explosives() and can_use_powder_keg() and has("hookshot") and has("gibdo") and baby_can_plant_beans() and can_use_light_arrows() and Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") and has("goron") and Tracker:FindObjectForCode("@Snowhead/Mountain Village/Healing Darmani") and Tracker:FindObjectForCode("@Dungeons/Beneath the Well/Invisible Chest")
 end
 
 -- This function's purpose is for counting how many bottles have been acquired.
@@ -641,9 +627,6 @@ function oath_to_order_stt()
     end
 end
 
-ScriptHost:AddWatchForCode("Small Key Sanity Off", "small_key_sanity", smallKeySanity)
-ScriptHost:AddWatchForCode("Boss Key Sanity Off", "boss_key_sanity", bossKeySanity)
-ScriptHost:AddWatchForCode("Frogsanity Off", "frogsanity", frogSanity)
 ScriptHost:AddWatchForCode("OdolwaDefeated", "boss_odolwa_hosted", clear_wft)
 ScriptHost:AddWatchForCode("GohtDefeated", "boss_goht_hosted", clear_sht)
 ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottleCount)

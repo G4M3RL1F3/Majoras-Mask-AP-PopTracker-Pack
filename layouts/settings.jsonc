@@ -169,6 +169,11 @@
                     "type": "item",
                     "max_width": 260,
                     "item": "scarecrow_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "frogsanity"
                   }
                 ]
               },

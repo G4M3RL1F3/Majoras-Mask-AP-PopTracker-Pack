@@ -2169,10 +2169,7 @@
           {
             "name": "Pillar Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "normal_logic, $absurd_souls_off, deku, $can_use_lens, $can_use_fire_arrows",
-              "normal_logic, absurd_souls, soul_deku_flowers, deku, $can_use_lens, $can_use_fire_arrows"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_lens, $can_use_fire_arrows"]
           },
           {
             "name": "King Song",

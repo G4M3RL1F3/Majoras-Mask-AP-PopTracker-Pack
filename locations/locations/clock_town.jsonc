@@ -1014,8 +1014,8 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "$has_absurd_souls|soul_pots, $can_warp_out",
-              "$has_absurd_souls|soul_pots, $can_play_time"
+              "$has_absurd_soul|soul_pots, $can_warp_out",
+              "$has_absurd_soul|soul_pots, $can_play_time"
             ]
           }
         ],

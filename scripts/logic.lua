@@ -641,6 +641,9 @@ function oath_to_order_stt()
     end
 end
 
+ScriptHost:AddWatchForCode("Small Key Sanity Off", "small_key_sanity", smallKeySanity)
+ScriptHost:AddWatchForCode("Boss Key Sanity Off", "boss_key_sanity", bossKeySanity)
+ScriptHost:AddWatchForCode("Frogsanity Off", "frogsanity", frogSanity)
 ScriptHost:AddWatchForCode("OdolwaDefeated", "boss_odolwa_hosted", clear_wft)
 ScriptHost:AddWatchForCode("GohtDefeated", "boss_goht_hosted", clear_sht)
 ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottleCount)

@@ -388,6 +388,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Icicle Rupees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 855,
+            "y": 433
+          }
+        ]
+      },
+      {
         "name": "Timed Switch Room Bubble SF",
         "sections": [
           {

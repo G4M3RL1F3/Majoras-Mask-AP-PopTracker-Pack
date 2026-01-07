@@ -25,7 +25,7 @@
           {
             "name": "Termina Grass Grotto Grass",
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["soul_grass, soul_grottos"],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 14,
             "clear_as_group": false
@@ -49,7 +49,7 @@
           {
             "name": "Termina Ikana Pillar Grotto Grass",
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["soul_grass, soul_grottos"],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 14,
             "clear_as_group": false
@@ -60,6 +60,13 @@
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_projectiles"]
+          },
+          {
+            "name": "Eastern Pillar Rupee",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 1,
+            "clear_as_group": false
           }
         ],
         "map_locations": [
@@ -71,18 +78,30 @@
         ]
       },
       {
-        "name": "Termina Underwater Chest",
+        "name": "East Termina Field",
         "sections": [
           {
-            "name": "Termina Underwater Chest",
-            "access_rules": ["zora"]
+            "name": "Tree Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
+          },
+          {
+            "name": "Secret Guay Rupee",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_npc_soul|soul_astral_man, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 478,
-            "y": 329
+            "x": 590,
+            "y": 347
           }
         ]
       },
@@ -94,57 +113,57 @@
           //"visibility_rules": ["absurd_souls"],
         "sections": [
           {
-            "name": "Grass Near Western Water Ramp",
+            "name": "Near Western Water Ramp",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Takkuri Gossip Tree",
+            "name": "Near Takkuri Gossip Tree",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass Southwest Above Rock Ledge",
+            "name": "Southwest Above Rock Ledge",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Western Fountains",
+            "name": "Near Western Fountains",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Takkuri",
+            "name": "Near Takkuri",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Kamaro",
+            "name": "Near Kamaro",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Peahat Grotto",
+            "name": "Near Peahat Grotto",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass In Front of Log",
+            "name": "In Front of Log",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Northern Ramp",
+            "name": "Near Northern Ramp",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Grass Grotto",
+            "name": "Near Grass Grotto",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass Below Southeast Hill Fence",
+            "name": "Below Southeast Hill Fence",
             "item_count": 12,
             "clear_as_group": false
           },
@@ -154,17 +173,12 @@
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Eastern Pillars",
+            "name": "Near Eastern Pillars",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Eastern Pillar Grotto",
-            "item_count": 12,
-            "clear_as_group": false
-          },
-          {
-            "name": "Middle of Southeast Hill Grass",
+            "name": "Near Eastern Pillar Grotto",
             "item_count": 12,
             "clear_as_group": false
           },
@@ -174,17 +188,17 @@
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Business Scrub Grotto",
+            "name": "Near Business Scrub Grotto",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Observatory Fence",
+            "name": "Near Observatory Fence",
             "item_count": 12,
             "clear_as_group": false
           },
           {
-            "name": "Grass Near Eastern Gossip Grotto",
+            "name": "Near Eastern Gossip Grotto",
             "item_count": 12,
             "clear_as_group": false
           }
@@ -226,6 +240,66 @@
         ]
       },
       {
+        "name": "North Termina Field",
+        "sections": [
+          {
+            "name": "Invisible Rupee Over Northern Ramp",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["invisisanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["goron, magic"]
+          },
+          {
+            "name": "6am Songwall",
+            "chest_unopened_img": "images/absurd/song_wall.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_songwall, ocarina"]
+          },
+          {
+            "name": "7am Songwall",
+            "chest_unopened_img": "images/absurd/song_wall.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_songwall, ocarina"]
+          },
+          {
+            "name": "8am Songwall",
+            "chest_unopened_img": "images/absurd/song_wall.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_songwall, ocarina"]
+          },
+          {
+            "name": "10am Songwall",
+            "chest_unopened_img": "images/absurd/song_wall.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_songwall, ocarina"]
+          },
+          {
+            "name": "8pm Songwall",
+            "chest_unopened_img": "images/absurd/song_wall.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_songwall, ocarina"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 536,
+            "y": 275
+          }
+        ]
+      },
+      {
         "name": "Termina Dodongo Grotto Chest",
         "sections": [
           {
@@ -258,6 +332,75 @@
             "map": "overworld",
             "x": 513,
             "y": 260
+          }
+        ]
+      },
+      {
+        "name": "West Termina Field",
+        "chest_unopened_img": "images/icons/hitspot.png",
+        "sections": [
+          {
+            "name": "Fountain Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["invisisanity"],
+            "item_count": 2,
+            "clear_as_group": false
+          },
+          {
+            "name": "Invisible Rupee Over Ramp Near Fountains",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["invisisanity"],
+            "item_count": 1,
+            "clear_as_group": false
+          },
+          {
+            "name": "West Wall Hitspot",
+            "item_count": 3,
+            "clear_as_group": false
+            //"visibility_rules": ["$hitsanity"]
+          },
+          {
+            "name": "Above West Clock Town Entry Hitspot",
+            "item_count": 3,
+            "clear_as_group": false,
+            //"visibility_rules": ["$hitsanity"]
+            "access_rules": [
+              "$has_projectiles"
+            ]
+          },
+          {
+            "name": "Song Guay Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 20,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_sonata",
+              "$can_play_lullaby",
+              "$can_play_bossa_nova"
+            ]
+          },
+          {
+            "name": "Song Guay Goron/Epona Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_sonata, $can_play_eponas",
+              "$can_play_lullaby, $can_play_eponas",
+              "$can_play_bossa_nova, $can_play_eponas",
+              "$can_play_sonata, goron",
+              "$can_play_lullaby, goron",
+              "$can_play_bossa_nova, goron"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 520,
+            "y": 300
           }
         ]
       },
@@ -314,8 +457,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 590,
-            "y": 347
+            "x": 605,
+            "y": 333
           },
           {
             "map": "clock_town",
@@ -427,6 +570,78 @@
             "map": "overworld",
             "x": 498,
             "y": 299
+          }
+        ]
+      },
+      {
+        "name": "South West Termina Field",
+        "chest_unopened_img": "images/icons/chest.png",
+        "sections": [
+          {
+            "name": "Termina Underwater Chest",
+            "access_rules": ["zora"]
+          },
+          {
+            "name": "Invisible Rupee Over Water",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["invisisanity"],
+            "item_count": 1,
+            "clear_as_group": false
+          },
+          {
+            "name": "Thieving Bird Rupee",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_enemy_soul|soul_takkuri, $has_absurd_soul|soul_grass",
+              "$has_eenemy_soul_takkuri, $has_projectiles"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 489,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "South Termina Field",
+        "chest_unopened_img": "images/icons/hitspot.png",
+        "sections": [
+          {
+            "name": "Invisible Rupees In Long Grass",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["invisisanity"],
+            "item_count": 5,
+            "clear_as_group": false
+          },
+          {
+            "name": "Invisible Rupee Over Log",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["invisisanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "goron, magic",
+              "$has_absurd_soul|soul_deku_flowers, deku"
+            ]
+          },
+          {
+            "name": "Skull Kid Drawing Hitspot",
+            "item_count": 3,
+            "clear_as_group": false
+            //"visibility_rules": ["hitsanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 536,
+            "y": 369
           }
         ]
       },

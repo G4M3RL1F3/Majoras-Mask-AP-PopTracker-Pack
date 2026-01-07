@@ -75,6 +75,17 @@
           {
             "name": "Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png"
+          },
+          {
+            "name": "Targets Hitspots",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            //"visibility_rules": ["$hitsanity"]
+            "access_rules": [
+              "$has_projectiles",
+              "hookshot"
+            ]
           }
         ],
         "map_locations": [
@@ -313,6 +324,30 @@
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
           },
           {
+            "name": "Deku Playground Day 1 Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
+          },
+          {
+            "name": "Deku Playground Day 2 Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
+          },
+          {
+            "name": "Deku Playground Day 3 Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
+          },
+          {
             "name": "North Clock Town Tree 1",
             "chest_unopened_img": "images/absurd/tree.png",
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
@@ -495,6 +530,13 @@
               "easy_logic, bow, bombs, $baby_has_bombchus",
               "normal_logic, $has_npc_soul|soul_honey_darling, bow, bombs, bombchu_bag"
             ]
+          },
+          {
+            "name": "Target & Basket Hitspots",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 9,
+            "clear_as_group": false
+            //"visibility_rules": ["$hitsanity"]
           }
         ],
         "map_locations": [
@@ -647,6 +689,16 @@
               "normal_logic, $has_misc_soul|soul_postboxes, $has_npc_soul|soul_anju, $has_npc_soul|soul_kafei, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, garo",
               "normal_logic, $has_misc_soul|soul_postboxes, $has_npc_soul|soul_anju, $has_npc_soul|soul_kafei, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, gibdo"
             ]
+          },
+          {
+            "name": "Mask Hitspot",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            //"visibility_rules": ["$hitsanity"]
+            "access_rules": [
+              "zora, magic"
+            ]
           }
         ],
         "map_locations": [
@@ -739,17 +791,11 @@
           },
           {
             "name": "West Clock Town Bank 500 Rupees",
-            "access_rules": [
-              "easy_logic, fiercedeitymask, fairysword, adultswallet",
-              "normal_logic, $has_npc_soul|soul_banker, adultswallet"
-            ]
+            "access_rules": ["$has_npc_soul|soul_banker, adultswallet"]
           },
           {
             "name": "West Clock Town Bank 1000 Rupees",
-            "access_rules": [
-              "easy_logic, fiercedeitymask, fairysword, giantswallet",
-              "normal_logic, $has_npc_soul|soul_banker, giantswallet"
-            ]
+            "access_rules": ["$has_npc_soul|soul_banker, giantswallet"]
           }
         ],
         "map_locations": [
@@ -779,6 +825,16 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, sword"]
+          },
+          {
+            "name": "Sword School Gong (Strike At Top Of Hour)",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 1,
+            "clear_as_group": false,
+            //"visibility_rules": ["$hitsanity"]
+            "access_rules": [
+              "$can_smack"
+            ]
           }
         ],
         "map_locations": [
@@ -836,6 +892,13 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Night 2 Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 3,
+            "clear_as_group": false
           }
         ],
         "map_locations": [
@@ -951,8 +1014,8 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "$has_absurd_soul|soul_pots, $can_warp_out",
-              "$has_absurd_soul|soul_pots, $can_play_time"
+              "$has_absurd_souls|soul_pots, $can_warp_out",
+              "$has_absurd_souls|soul_pots, $can_play_time"
             ]
           }
         ],

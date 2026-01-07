@@ -382,7 +382,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $clear_woodfall"]
+            "access_rules": ["$has_absurd_soul|soul_pots, clear_wft"]
           }
         ],
         "map_locations": [
@@ -464,6 +464,25 @@
         ]
       },
       {
+        "name": "Beyond Potion Shop",
+        "sections": [
+          {
+            "name": "Stump Rupee",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 1,
+            "clear_as_group": false
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 580,
+            "y": 512
+          }
+        ]
+      },
+      {
         "name": "Deku Palace Monkey Song",
         "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
         "sections": [
@@ -499,6 +518,20 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, deku, $can_plant_beans"]
+          },
+          {
+            "name": "Right Side Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 13,
+            "clear_as_group": false
+          },
+          {
+            "name": "Left Side Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 11,
+            "clear_as_group": false
           }
         ],
         "map_locations": [
@@ -531,7 +564,7 @@
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
           }
         ],
@@ -574,7 +607,7 @@
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, deku"]
             //"visibility_rules": ["absurd_souls"]
           }
         ],
@@ -657,6 +690,16 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $clear_woodfall"]
+          },
+          {
+            "name": "Deku Butler Race Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 30,
+            "clear_as_group": false,
+            "access_rules": [
+              "$clear_woodfall, sword, $has_bottle|1"
+            ]
           }
         ],
         "map_locations": [

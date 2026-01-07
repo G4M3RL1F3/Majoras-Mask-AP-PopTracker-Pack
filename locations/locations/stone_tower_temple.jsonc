@@ -168,6 +168,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Eyegore Room Light Block Rupees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 334,
+            "y": 564
+          }
+        ]
+      },
+      {
         "name": "Eyegore Room Dexi Hand Ledge Chest",
         "sections": [
           {
@@ -293,10 +308,13 @@
         ]
       },
       {
-        "name": "Air Gust Room Side Chest",
+        "name": "",
         "sections": [
           {
             "ref": "Dungeons/Stone Tower Temple/Air Gust Room Side Chest"
+          },
+          {
+            "ref": "Dungeons/Stone Tower Temple/Deku Updraft Rupees"
           }
         ],
         "map_locations": [
@@ -372,6 +390,9 @@
         "sections": [
           {
             "ref": "Dungeons/Stone Tower Temple/Lower Spike Roller Pots"
+          },
+          {
+            "ref": "Dungeons/Stone Tower Temple/Bridge Room Rupees"
           }
         ],
         "map_locations": [
@@ -448,7 +469,22 @@
         ]
       },
       {
-        "name": "Eastern Air Gust Room Switch Chest",
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Right Side Light Block Rupees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1285,
+            "y": 808
+          }
+        ]
+      },
+      {
+        "name": "",
         "sections": [
           {
             "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Switch Chest"
@@ -477,6 +513,21 @@
             "map": "stone_tower_temple",
             "x": 1250,
             "y": 1415
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Dexihand Rupees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1200,
+            "y": 598
           }
         ]
       },
@@ -605,6 +656,9 @@
         "sections": [
           {
             "ref": "Dungeons/Inverted Stone Tower Temple/Pre Boss Pots"
+          },
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Pre Boss Rupees"
           }
         ],
         "map_locations": [

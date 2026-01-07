@@ -99,9 +99,7 @@
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": [
-              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives"]
             //"visibility_rules": ["absurd_souls"]
           },
           {
@@ -142,6 +140,14 @@
             ]
           },
           {
+            "name": "Day 2 Grave Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 7,
+            "clear_as_group": false,
+            "access_rules": ["$has_enemy_soul|soul_stalchildren, captain"]
+          },
+          {
             "name": "Day 2 Entrance Grave Pot",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 1,
@@ -160,7 +166,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_stalchildren, captain, lens, $has_explosives"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_stalchildren, captain, lens"]
           },
           {
             "name": "Day 3 Dampe Big Poe Chest",
@@ -200,6 +206,13 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Lantern Hitspots",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 12,
+            "clear_as_group": false,
+            "access_rules": ["$has_projectiles"]
           }
         ],
         "map_locations": [

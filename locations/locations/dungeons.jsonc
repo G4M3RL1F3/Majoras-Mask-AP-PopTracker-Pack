@@ -278,6 +278,22 @@
             "access_rules": ["$has_absurd_soul|soul_pots"]
           },
           {
+            "name": "Pre-Boss Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["bow"]
+          },
+          {
+            "name": "Pre-Boss Zora Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["bow, zora"]
+          },
+          {
             "name": "Woodfall Temple Heart Container",
             "chest_unopened_img": "images/equipment/heart_container.png",
             "access_rules": [
@@ -548,6 +564,18 @@
             ]
           },
           {
+            "name": "Icicle Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives, $has|smallkey_sh|1",
+              "$has_explosives, hookshot",
+              "$has_npc_soul|soul_scarecrow, scarecrow_sht_lower, $has|smallkey_sh|1, hookshot"
+            ]
+          },
+          {
             "name": "Timed Switch Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [
@@ -747,6 +775,13 @@
             ]
           },
           {
+            "name": "Waterwheel Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 5,
+            "clear_as_group": false
+          },
+          {
             "name": "Waterwheel Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
@@ -837,6 +872,14 @@
             "access_rules": ["$has_absurd_soul|soul_pots"]
           },
           {
+            "name": "Before Gekko Room Underwater Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$clear_snowhead"]
+          },
+          {
             "name": "Mad Jellied Gekko Chest",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, zora",
@@ -907,6 +950,14 @@
             "access_rules": [
               "$has_absurd_soul|soul_pots, $can_use_ice_arrows, zora"
             ]
+          },
+          {
+            "name": "Behind Waterfall Ceiling Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$can_use_ice_arrows"]
           },
           {
             "name": "Freezable Waterwheel Upper Chest SF",
@@ -1075,6 +1126,14 @@
             ]
           },
           {
+            "name": "Sewers Rupees Under Barrels",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["goron, zora"]
+          },
+          {
             "name": "Pirates' Fortress Sewers Maze Chest",
             "access_rules": ["goron"]
           },
@@ -1095,6 +1154,22 @@
               "$has_absurd_soul|soul_pots, hookshot, goron",
               "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_barrels, goron"
             ]
+          },
+          {
+            "name": "Sewers Exit Rupees Under Barrels",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["goron, zora"]
+          },
+          {
+            "name": "Interior Ledge Recovery Hearts",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$pirates_fortress_interior, hookshot"]
           },
           {
             "name": "Pirates' Fortress Interior Tank Chest",
@@ -1132,6 +1207,13 @@
             "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_coloured_pirates, hookshot, $can_smack_hard"]
           },
           {
+            "name": "Outdoor Pirate Flag Eye Hitspots",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["$has_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Hub Lower Chest"]
+          },
+          {
             "name": "Pirates' Fortress Hub Lower Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, goron, hookshot, stonemask",
@@ -1151,6 +1233,13 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, hookshot, $can_smack_hard"]
+          },
+          {
+            "name": "Indoor Pirate Flag Eye Hitspots",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"]
           },
           {
             "name": "Pirates' Fortress Leader's Room Chest",
@@ -1320,6 +1409,13 @@
             "access_rules": ["$has_absurd_soul|soul_pots"]
           },
           {
+            "name": "Invisible Rupees Above Giant Jars",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["invisisanity"],
+            "item_count": 5,
+            "clear_as_group": false
+          },
+          {
             "name": "Swamphouse Pottery Room Beehive #1 Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_projectiles",
@@ -1464,6 +1560,14 @@
               "normal_logic, $has_misc_soul|soul_gs, $can_smack, $has_projectiles"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Totem Eye Hitspots",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 12,
+            "clear_as_group": false,
+            //"visibility_rules": ["$hitsanity"]
+            "access_rules": ["$has_projectiles"]
           }
         ],
         "map_locations": [
@@ -1505,18 +1609,26 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
+            "name": "First Room Mask Hitspots",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 9,
+            "clear_as_group": false,
+            //"visibility_rules": ["$hitsanity"]
+            "access_rules": ["hookshot, $has_explosives"]
+          },
+          {
             "name": "First Room Rafter Token",
             "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Open Pot #1 Token",
-            "access_rules": ["$has_misc_soul|soul_gs, $has_absurd_soul|soul_pots, hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Open Pot #2 Token",
-            "access_rules": ["$has_misc_soul|soul_gs, $has_absurd_soul|soul_pots, hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
@@ -1739,9 +1851,17 @@
             "name": "Secret Shrine Entrance Pots",
             "item_count": 3,
             "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/pot.png",
+            "chest_unopened_img": "images/icons/pot.png",
             "access_rules": ["$has_absurd_soul|soul_pots"]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Secret Shrine Entrance Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 17,
+            "clear_as_group": false,
+            "access_rules": ["zora", "$can_plant_beans"]
           },
           {
             "name": "Secret Shrine Entrance Grass",
@@ -1822,7 +1942,7 @@
             "name": "Secret Shrine Underwater Pots",
             "item_count": 6,
             "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/pot.png",
+            "chest_unopened_img": "images/icons/pot.png",
             "access_rules": ["$has_absurd_soul|soul_pots"]
             //"visibility_rules": ["absurd_souls"]
           }
@@ -2049,7 +2169,10 @@
           {
             "name": "Pillar Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_lens, $can_use_fire_arrows"]
+            "access_rules": [
+              "normal_logic, $absurd_souls_off, deku, $can_use_lens, $can_use_fire_arrows",
+              "normal_logic, absurd_souls, soul_deku_flowers, deku, $can_use_lens, $can_use_fire_arrows"
+            ]
           },
           {
             "name": "King Song",
@@ -2161,6 +2284,14 @@
             ]
           },
           {
+            "name": "Eyegore Room Light Block Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$can_use_light_arrows, zora"]
+          },
+          {
             "name": "Eyegore Room Dexi Hand Ledge Chest",
             "access_rules": [
               "easy_logic, zora, @Dungeons/Stone Tower Temple/Armos Room Lava Chest, $can_use_light_arrows",
@@ -2248,6 +2379,14 @@
             ]
           },
           {
+            "name": "Deku Updraft Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, @Dungeons/Stone Tower Temple/Mirror Rom Sun Face Chest"]
+          },
+          {
             "name": "Air Gust Room Goron Switch Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
@@ -2279,7 +2418,15 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, @Dungeons/Stone Tower Temple/Deku Updraft Pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots, @Dungeons/Stone Tower Temple/Garo Master Chest"]
+          },
+          {
+            "name": "Bridge Room Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["hookshot, @Dungeons/Stone Tower Temple/Garo Master Chest"]
           },
           {
             "name": "Eyegore Chest",
@@ -2319,6 +2466,13 @@
             ]
           },
           {
+            "name": "Right Side Light Block Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 2,
+            "clear_as_group": false
+          },
+          {
             "name": "Eastern Air Gust Room Frozen Switch Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_fire_arrows, $can_use_light_arrows"]
@@ -2326,6 +2480,13 @@
           {
             "name": "Eastern Air Gust Room Switch Chest",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_light_arrows"]
+          },
+          {
+            "name": "Dexihand Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 3,
+            "clear_as_group": false
           },
           {
             "name": "Updraft Pots",
@@ -2397,6 +2558,13 @@
             "item_count": 12,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, @Dungeons/Stone Tower Temple/Eyegore Chest"]
+          },
+          {
+            "name": "Pre Boss Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 11,
+            "clear_as_group": false
           },
           {
             "name": "Heart Container",

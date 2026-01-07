@@ -63,6 +63,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Totem Eye Hitspots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 342,
+            "y": 704
+          }
+        ]
+      },
+      {
         "name": "First Room Crawling Right Column Token",
         "sections": [
           {
@@ -243,7 +258,7 @@
         ]
       },
       {
-        "name": "Giant Jar Room",
+        "name": "",
         "sections": [
           {
           "ref": "Dungeons/Swamp Spider House/Swamp Spider House Giant Jar Room Pots"
@@ -259,6 +274,41 @@
             "map": "swamp_spider_house",
             "x": 1230,
             "y": 570
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Invisible Rupees Above Giant Jars"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1305,
+            "y": 815
+          },
+          {
+            "map": "swamp_spider_house",
+            "x": 1330,
+            "y": 770
+          },
+          {
+            "map": "swamp_spider_house",
+            "x": 1330,
+            "y": 727
+          },
+          {
+            "map": "swamp_spider_house",
+            "x": 1330,
+            "y": 681
+          },
+          {
+            "map": "swamp_spider_house",
+            "x": 1330,
+            "y": 632
           }
         ]
       },

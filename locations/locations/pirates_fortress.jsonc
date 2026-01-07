@@ -66,6 +66,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Sewers Rupees Under Barrels"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1750,
+            "y": 150
+          }
+        ]
+      },
+      {
         "name": "Pirates' Fortress Sewers Maze Chest",
         "sections": [
           {
@@ -126,10 +141,13 @@
         ]
       },
       {
-        "name": "Sewers Exit Pots",
+        "name": "",
         "sections": [
           {
             "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Exit Pots"
+          },
+          {
+            "ref": "Dungeons/Pirates' Fortress/Sewers Exit Rupees Under Barrels"
           }
         ],
         "map_locations": [
@@ -137,6 +155,21 @@
             "map": "pirates_fortress",
             "x": 1889,
             "y": 615
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Interior Ledge Recovery Hearts"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1170,
+            "y": 255
           }
         ]
       },
@@ -204,6 +237,21 @@
         ]
       },
       {
+        "name": "Outdoor Pirate Flag Eye Hitspots",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Outdoor Pirate Flag Eye Hitspots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1077,
+            "y": 463
+          }
+        ]
+      },
+      {
         "name": "Pirates' Fortress Hub Lower Chest",
         "sections": [
           {
@@ -245,6 +293,21 @@
             "map": "pirates_fortress",
             "x": 319,
             "y": 1064
+          }
+        ]
+      },
+      {
+        "name": "Indoor Pirate Flag Eye Hitspots",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Indoor Pirate Flag Eye Hitspots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 225,
+            "y": 1106
           }
         ]
       },

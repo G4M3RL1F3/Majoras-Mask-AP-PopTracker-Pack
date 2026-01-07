@@ -432,6 +432,41 @@
         ]
       },
       {
+        "name": "Pre-Boss Rupees",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Rupees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 725,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Pre-Boss Zora Rupees",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Zora Rupees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 645,
+            "y": 340
+          },
+          {
+            "map": "woodfall_temple",
+            "x": 790,
+            "y": 340
+          }
+        ]
+      },
+      {
         "name": "Pre-Boss Upper Left Bubble SF",
         "sections": [
           {

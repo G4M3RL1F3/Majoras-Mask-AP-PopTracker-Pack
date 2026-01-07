@@ -51,6 +51,31 @@
         ]
       },
       {
+        "name": "First Room Mask Hitspots",
+        "sections": [
+          {
+            "ref": "Dungeons/Ocean Spider House/First Room Mask Hitspots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ocean_spider_house",
+            "x": 491,
+            "y": 145
+          },
+          {
+            "map": "ocean_spider_house",
+            "x": 363,
+            "y": 110
+          },
+          {
+            "map": "ocean_spider_house",
+            "x": 1046,
+            "y": 425
+          }
+        ]
+      },
+      {
         "name": "First Room Rafter Token",
         "sections": [
           {

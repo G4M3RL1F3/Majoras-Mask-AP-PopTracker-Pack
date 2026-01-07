@@ -121,6 +121,13 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"]
+          },
+          {
+            "name": "Cucco Shack Hitspots",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 6,
+            "clear_as_group": false
+            //"visibility_rules": ["$hitsanity"]
           }
         ],
         "map_locations": [
@@ -187,6 +194,13 @@
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
             "access_rules": ["$has_misc_soul|soul_cow, $can_use_powder_keg, $can_play_eponas"]
+          },
+          {
+            "name": "Haystack Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["rupeesanity"],
+            "item_count": 2,
+            "clear_as_group": false
           }
         ],
         "map_locations": [
@@ -254,6 +268,13 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Invisible Fence Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            //"visibility_rules": ["invisisanity"],
+            "item_count": 6,
+            "clear_as_group": false
           }
         ],
         "map_locations": [

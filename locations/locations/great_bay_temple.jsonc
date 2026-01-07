@@ -18,10 +18,13 @@
         ]
       },
       {
-        "name": "Waterwheel Room Skulltula SF",
+        "name": "",
         "sections": [
           {
             "ref": "Dungeons/Great Bay Temple/Waterwheel Room Skulltula SF"
+          },
+          {
+            "ref": "Dungeons/Great Bay Temple/Waterwheel Rupees"
           }
         ],
         "map_locations": [
@@ -198,10 +201,13 @@
         ]
       },
       {
-        "name": "Caged Chest Room Pot SF",
+        "name": "",
         "sections": [
           {
             "ref": "Dungeons/Great Bay Temple/Caged Chest Room Pot SF"
+          },
+          {
+            "ref": "Dungeons/Great Bay Temple/Before Gekko Room Underwater Rupees"
           }
         ],
         "map_locations": [
@@ -302,6 +308,26 @@
             "map": "great_bay_temple",
             "x": 371,
             "y": 277
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Behind Waterfall Ceiling Rupees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 325,
+            "y": 157
+          },
+          {
+            "map": "great_bay_temple",
+            "x": 417,
+            "y": 157
           }
         ]
       },

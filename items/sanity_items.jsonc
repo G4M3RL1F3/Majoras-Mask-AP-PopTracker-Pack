@@ -288,12 +288,12 @@
   },
 
   // Enemy Souls
-  //{
-  //  "name": "Soul of Guays",
-  //  "type": "toggle",
-  //  "img": "images/enemies/guay.png",
-  //  "codes": "soul_guays"
-  //},
+  // {
+  //   "name": "Soul of Guays",
+  //   "type": "toggle",
+  //   "img": "images/enemies/guay.png",
+  //   "codes": "soul_guays"
+  // },
   {
     "name": "Soul of Takkuri",
     "type": "toggle",
@@ -318,24 +318,24 @@
     "img": "images/enemies/deku_baba.png",
     "codes": "soul_deku_baba"
   },
-  //{
-  //  "name": "Soul of Real Bombchus",
-  //  "type": "toggle",
-  //  "img": "images/enemies/real_bombchu.png",
-  //  "codes": "soul_real_bombchus"
-  //},
-  //{
-  //  "name": "Soul of Eenos",
-  //  "type": "toggle",
-  //  "img": "images/enemies/eenos.png",
-  //  "codes": "soul_eenos"
-  //},
-  //{
-  //  "name": "Soul of Tektites",
-  //  "type": "toggle",
-  //  "img": "images/enemies/tektite.png",
-  //  "codes": "soul_tektite"
-  //},
+  // {
+  //   "name": "Soul of Real Bombchus",
+  //   "type": "toggle",
+  //   "img": "images/enemies/real_bombchu.png",
+  //   "codes": "soul_real_bombchus"
+  // },
+  // {
+  //   "name": "Soul of Eenos",
+  //   "type": "toggle",
+  //   "img": "images/enemies/eenos.png",
+  //   "codes": "soul_eenos"
+  // },
+  // {
+  //   "name": "Soul of Tektites",
+  //   "type": "toggle",
+  //   "img": "images/enemies/tektite.png",
+  //   "codes": "soul_tektite"
+  // },
   {
     "name": "Soul of Peahats",
     "type": "toggle",
@@ -384,12 +384,12 @@
     "img": "images/enemies/snapper.png",
     "codes": "soul_snappers"
   },
-  //{
-  //  "name": "Soul of Carnivorous Lilypads",
-  //  "type": "toggle",
-  //  "img": "images/enemies/carnivorous_lilypad.png",
-  //  "codes": "soul_carnivorous_lilypad"
-  //},
+  // {
+  //   "name": "Soul of Carnivorous Lilypads",
+  //   "type": "toggle",
+  //   "img": "images/enemies/carnivorous_lilypad.png",
+  //   "codes": "soul_carnivorous_lilypad"
+  // },
   {
     "name": "Soul of Freezards",
     "type": "toggle",
@@ -414,12 +414,12 @@
     "img": "images/enemies/coloured_pirate.png",
     "codes": "soul_coloured_pirates"
   },
-  //{
-  //  "name": "Soul of Giant Bonefish",
-  //  "type": "toggle",
-  //  "img": "images/enemies/giant_bonefish.png",
-  //  "codes": "soul_giant_bonefish"
-  //},
+  // {
+  //   "name": "Soul of Giant Bonefish",
+  //   "type": "toggle",
+  //   "img": "images/enemies/giant_bonefish.png",
+  //   "codes": "soul_giant_bonefish"
+  // },
   {
     "name": "Soul of Wart",
     "type": "toggle",
@@ -451,24 +451,24 @@
     "disabled_img": "images/enemies/bad_bat_off.png",
     "codes": "soul_bad_bats"
   },
-  //{
-  //  "name": "Soul of Keese",
-  //  "type": "toggle",
-  //  "img": "images/enemies/keese.png",
-  //  "codes": "soul_keese"
-  //},
-  //{
-  //  "name": "Soul of Leevers",
-  //  "type": "toggle",
-  //  "img": "images/enemies/leever.png",
-  //  "codes": "soul_leevers"
-  //},
-  //{
-  //  "name": "Soul of Garo",
-  //  "type": "toggle",
-  //  "img": "images/enemies/garo.png",
-  //  "codes": "soul_garo"
-  //},
+  // {
+  //   "name": "Soul of Keese",
+  //   "type": "toggle",
+  //   "img": "images/enemies/keese.png",
+  //   "codes": "soul_keese"
+  // },
+  // {
+  //   "name": "Soul of Leevers",
+  //   "type": "toggle",
+  //   "img": "images/enemies/leever.png",
+  //   "codes": "soul_leevers"
+  // },
+  // {
+  //   "name": "Soul of Garo",
+  //   "type": "toggle",
+  //   "img": "images/enemies/garo.png",
+  //   "codes": "soul_garo"
+  // },
   {
     "name": "Soul of Garo Master",
     "type": "toggle",
@@ -481,24 +481,24 @@
     "img": "images/enemies/armos.png",
     "codes": "soul_armos"
   },
-  //{
-  //  "name": "Soul of Death Armos",
-  //  "type": "toggle",
-  //  "img": "images/enemies/death_armos.png",
-  //  "codes": "soul_death_armos"
-  //},
+  // {
+  //   "name": "Soul of Death Armos",
+  //   "type": "toggle",
+  //   "img": "images/enemies/death_armos.png",
+  //   "codes": "soul_death_armos"
+  // },
   {
     "name": "Soul of Eyegore",
     "type": "toggle",
     "img": "images/enemies/eyegore.png",
     "codes": "soul_eyegore"
   },
-  //{
-  //  "name": "Soul of Redead",
-  //  "type": "toggle",
-  //  "img": "images/enemies/redead.png",
-  //  "codes": "soul_redead"
-  //},
+  // {
+  //   "name": "Soul of Redead",
+  //   "type": "toggle",
+  //   "img": "images/enemies/redead.png",
+  //   "codes": "soul_redead"
+  // },
   {
     "name": "Soul of Igos",
     "type": "toggle",

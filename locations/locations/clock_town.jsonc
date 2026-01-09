@@ -26,32 +26,32 @@
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Before Clock Town Skullkid Keaton Grass",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Lost Woods Grass",
             "item_count": 24,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Lost Woods Keaton Grass",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           }
         ],
         "map_locations": [
@@ -413,8 +413,8 @@
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           }
         ],
         "map_locations": [
@@ -914,8 +914,8 @@
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Laundry Pool Crate",

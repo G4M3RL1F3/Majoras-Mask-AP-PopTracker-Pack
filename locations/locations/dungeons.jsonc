@@ -23,8 +23,8 @@
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Woodfall Temple Entrance Chest SF",
@@ -36,8 +36,8 @@
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Woodfall Temple Main Room Pots",
@@ -60,8 +60,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Woodfall Temple Deku Elevator Pots",
@@ -79,8 +79,8 @@
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Woodfall Temple Dinolfos Chest",
@@ -122,8 +122,8 @@
             "access_rules": [
               "$has_absurd_soul|soul_grass, smallkey_wf",
               "$has_absurd_soul|soul_grass, $small_key_sanity_off"
-            ]
-            //"visibility_rules": ["absurd_souls"]
+            ],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Woodfall Temple 2F Moving Flower Platform Room Grass",
@@ -133,8 +133,8 @@
             "access_rules": [
               "$has_absurd_soul|soul_grass, smallkey_wf",
               "$has_absurd_soul|soul_grass, $small_key_sanity_off"
-            ]
-            //"visibility_rules": ["absurd_souls"]
+            ],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Woodfall Temple Dark Room Chest SF",
@@ -267,8 +267,8 @@
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Woodfall Temple Pre-Boss Pots",
@@ -341,7 +341,8 @@
               "$has_absurd_soul|soul_grass, bosskey_wf",
               "$has_absurd_soul|soul_grass, $boss_key_sanity_off",
               "$has_absurd_soul|soul_grass, boss_warps_with_remains"
-            ]
+            ],
+            "visibility_rules": ["grass_sanity"]
           }
         ],
         "map_locations": [
@@ -535,8 +536,8 @@
             "item_count": 10,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Main Room Wall Chest SF",
@@ -2140,8 +2141,8 @@
             "item_count": 6,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Dinolfos Chest",
@@ -2155,8 +2156,8 @@
             "item_count": 4,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Wizrobe Chest",
@@ -2170,8 +2171,8 @@
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Wart Chest",
@@ -2185,8 +2186,8 @@
             "item_count": 8,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Garo Master Chest",
@@ -2200,8 +2201,8 @@
             "item_count": 6,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Completion Chest",
@@ -2269,8 +2270,8 @@
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_soaring, $can_use_lens, goron",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
-            ]
-            //"visibility_rules": ["absurd_souls"]
+            ],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Beneath the Well Right Side Before Big Poe and Cow Grass",
@@ -2280,8 +2281,8 @@
             "access_rules": [
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdo, gibdo, $can_plant_beans",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdo, gibdo, $can_use_light_arrows"
-            ]
-            //"visibility_rules": ["absurd_souls"]
+            ],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Invisible Chest",
@@ -2299,8 +2300,8 @@
             "access_rules": [
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, adultswallet",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, maskofscents"
-            ]
-            //"visibility_rules": ["absurd_souls"]
+            ],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Left Side Back Room Pots",
@@ -2325,8 +2326,8 @@
             "access_rules": [
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, bombs",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow"
-            ]
-            //"visibility_rules": ["absurd_souls"]
+            ],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Right Side Before Chest Room Pots",
@@ -2380,8 +2381,8 @@
             "item_count": 11,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Exterior Corner Pot",
@@ -2488,8 +2489,8 @@
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Entrance Room Lower Chest",
@@ -2518,8 +2519,8 @@
             "item_count": 6,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Armos Room Back Chest",

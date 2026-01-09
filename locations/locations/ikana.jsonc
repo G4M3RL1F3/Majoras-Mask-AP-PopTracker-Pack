@@ -40,8 +40,8 @@
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, goron"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, goron"],
+            "visibility_rules": ["grass_sanity"]
           }
         ],
         "map_locations": [
@@ -143,8 +143,8 @@
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Graveyard Rock Circle",
@@ -256,16 +256,16 @@
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Upper Grass",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Lantern Hitspots",
@@ -299,8 +299,8 @@
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           }
         ],
         "map_locations": [
@@ -443,8 +443,8 @@
             "item_count": 4,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $can_use_ice_arrows"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $can_use_ice_arrows"],
+            "visibility_rules": ["grass_sanity"]
           }
         ],
         "map_locations": [

@@ -126,24 +126,24 @@
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $clear_snowhead"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $clear_snowhead"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Mountain Village Keaton Grass",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Mountain Village Springtime Grass",
             "item_count": 30,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Mountain Village Rooftop Pot",
@@ -266,8 +266,8 @@
             "access_rules": [
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives, goron",
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives, hookshot"
-            ]
-            //"visibility_rules": ["absurd_souls"]
+            ],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Goron Elder Request",
@@ -335,8 +335,8 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Spring Rocks Above Grotto",
@@ -390,8 +390,8 @@
             "item_count": 24,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Lens Cave Boulders",
@@ -600,8 +600,8 @@
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, $has_absurd_soul|soul_grottos, goron, magic, $has_explosives"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass, $has_absurd_soul|soul_grottos, goron, magic, $has_explosives"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Scarecrow Pillar HP",

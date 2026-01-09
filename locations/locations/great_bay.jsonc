@@ -30,16 +30,16 @@
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Fisherman's Grotto Grass",
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "ref": "Groups/Great Bay Map Purchase/Great Bay Map Purchase",
@@ -173,48 +173,48 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Great Bay Grotto Grass Group 2",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Great Bay Grotto Grass Group 3",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Great Bay Grotto Grass Group 4",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Great Bay Grotto Grass Group 5",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Great Bay Grotto Grass Group 6",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Great Bay Coast Lower Rock Wall Pots",
@@ -317,8 +317,8 @@
             "access_rules": [
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, goron",
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives"
-            ]
-            //"visibility_rules": ["absurd_souls"]
+            ],
+            "visibility_rules": ["grass_sanity"]
           },
           {
             "name": "Grotto Boulder",

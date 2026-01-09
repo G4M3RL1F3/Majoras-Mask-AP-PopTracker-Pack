@@ -29,6 +29,22 @@
             //"visibility_rules": ["absurd_souls"],
             "item_count": 14,
             "clear_as_group": false
+          },
+          {
+            "name": "Town Wall Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            //"visibility_rules": ["soilsanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has|bottles|1"]
+          },
+          {
+            "name": "Stump Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            //"visibility_rules": ["soilsanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$has|bottles|1"]
           }
         ],
         "map_locations": [
@@ -67,6 +83,14 @@
             //"visibility_rules": ["rupeesanity"],
             "item_count": 1,
             "clear_as_group": false
+          },
+          {
+            "name": "Eastern Pillar Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            //"visibility_rules": ["soilsanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$has|bottles|1"]
           }
         ],
         "map_locations": [
@@ -325,6 +349,14 @@
             "name": "Termina Healing Kamaro (Midnight - 6 AM)",
             "chest_unopened_img": "images/characters/kamaro.png",
             "access_rules": ["$has_npc_soul|soul_kamaro, $can_play_healing"]
+          },
+          {
+            "name": "Kamaro Rock Circle",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks"]
           }
         ],
         "map_locations": [
@@ -394,6 +426,14 @@
               "$can_play_lullaby, goron",
               "$can_play_bossa_nova, goron"
             ]
+          },
+          {
+            "name": "Rock Behind Coast Wall",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $can_play_eponas"]
           }
         ],
         "map_locations": [
@@ -409,6 +449,17 @@
         "chest_unopened_img": "images/equipment/heart_piece.png",
         "sections": [
           {
+            "name": "Bio Baba Boulder",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives",
+              "goron"
+            ]
+          },
+          {
             "name": "Termina Bio Baba Grotto HP",
             "access_rules": [
               "easy_logic, $baby_has_explosives, goron, zora, $baby_has_projectiles",
@@ -420,10 +471,24 @@
             "name": "Termina Field Bio Baba Grotto Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives",
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, goron"
+            ],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 2,
             "clear_as_group": false
+          },
+          {
+            "name": "Rock In Grotto",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_rocks, $has_explosives",
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_rocks, goron"
+            ]
           }
         ],
         "map_locations":[
@@ -452,6 +517,14 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"]
+          },
+          {
+            "name": "Observatory Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            //"visibility_rules": ["soilsanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has|bottles|1, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"]
           }
         ],
         "map_locations": [
@@ -484,6 +557,14 @@
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_pots"]
+          },
+          {
+            "name": "Business Scrub Crate",
+            "chest_unopened_img": "images/icons/crate.png",
+            //"visibility_rules": ["woodsanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_grottos"]
           }
         ],
         "map_locations": [
@@ -553,16 +634,38 @@
         "chest_unopened_img": "images/icons/gossip_stone.png",
         "sections": [
           {
+            "name": "Bombable Rock",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives",
+              "goron"
+            ]
+          },
+          {
             "ref": "Termina Field/Termina Gossip Stones HP/Termina Gossip Stones HP"
           },
           {
             "name": "Termina Field Bombable Rock Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives",
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, goron"
+            ],
             //"visibility_rules": ["absurd_souls"],
             "item_count": 5,
             "clear_as_group": false
+          },
+          {
+            "name": "Rock Wall Behind Grotto",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $has_explosives"]
           }
         ],
         "map_locations": [
@@ -598,6 +701,14 @@
               "$has_enemy_soul|soul_takkuri, $has_absurd_soul|soul_grass",
               "$has_eenemy_soul_takkuri, $has_projectiles"
             ]
+          },
+          {
+            "name": "Rock Wall",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $has_explosives"]
           }
         ],
         "map_locations": [

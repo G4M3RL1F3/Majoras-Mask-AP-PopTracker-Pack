@@ -37,6 +37,9 @@
         "sections": [
           {
             "ref": "Dungeons/Stone Tower Temple/Stone Tower Temple Entrance Room Grass"
+          },
+          {
+            "ref": "Dungeons/Stone Tower Temple/Entrance Room Crates"
           }
         ],
         "map_locations": [
@@ -59,6 +62,21 @@
             "map": "stone_tower_temple",
             "x": 306,
             "y": 766
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Elegy Maze Crates"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 45,
+            "y": 825
           }
         ]
       },
@@ -179,6 +197,21 @@
             "map": "stone_tower_temple",
             "x": 334,
             "y": 564
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Eyegore Room Crates"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 409,
+            "y": 715
           }
         ]
       },
@@ -311,6 +344,21 @@
         "name": "",
         "sections": [
           {
+            "ref": "Dungeons/Stone Tower Temple/Mirror Room Crates"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 540,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
             "ref": "Dungeons/Stone Tower Temple/Air Gust Room Side Chest"
           },
           {
@@ -423,6 +471,26 @@
   {
     "name": "Inverted Stone Tower Temple",
     "children": [
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Entrance Room Crates"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1025,
+            "y": 848
+          },
+          {
+            "map": "stone_tower_temple",
+            "x": 1185,
+            "y": 780
+          }
+        ]
+      },
       {
         "name": "Entrance Room Sun Face Chest",
         "sections": [
@@ -603,6 +671,21 @@
             "map": "stone_tower_temple",
             "x": 846,
             "y": 781
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Gomess Hallway Crates"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1420,
+            "y": 650
           }
         ]
       },

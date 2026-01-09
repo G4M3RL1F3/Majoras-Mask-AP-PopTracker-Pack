@@ -59,6 +59,22 @@
             ]
           },
           {
+            "name": "Scattered Beach Rocks",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks"]
+          },
+          {
+            "name": "Underwater Beach Rocks (Bombchu Only)",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, bombchu_bag"]
+          },
+          {
             "name": "Feeding Lab Fish",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
@@ -89,6 +105,22 @@
             "access_rules": ["$has_absurd_soul|soul_pots"]
           },
           {
+            "name": "Underwater Rocks Below Rock Pool (Bombchu Only)",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, bombchu_bag, zora"]
+          },
+          {
+            "name": "Underwater Rock Near Like-Like (Bombchu Only)",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, bombchu_bag, zora"]
+          },
+          {
             "name": "Great Bay Coast Behind Marine Lab Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
@@ -112,8 +144,17 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, hookshot, $baby_can_plant_beans",
-              "normal_logic, $can_reach_scarecrow|scarecrow_gb_coast_rock_wall, $has_npc_soul|soul_scarecrow, hookshot, $can_plant_beans"
+              "normal_logic, $can_reach_scarecrow|scarecrow_gb_coast_rock_wall, $npc_souls_off, hookshot, $can_plant_beans",
+              "normal_logic, $can_reach_scarecrow|scarecrow_gb_coast_rock_wall, npc_souls, soul_scarecrow, hookshot, $can_plant_beans"
             ]
+          },
+          {
+            "name": "Rock Wall Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            //"visibility_rules": ["soilsanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["hookshot, $has|bottles|1"]
           },
           {
             "name": "Ledge Grotto Left Cow",
@@ -188,6 +229,22 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, hookshot"]
+          },
+          {
+            "name": "Rock Wall Rocks",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks"]
+          },
+          {
+            "name": "Underwater Rock Near Rock Wall (Bombchu Only)",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, bombchu_bag, zora"]
           }
         ]
       },
@@ -229,6 +286,14 @@
             ]
           },
           {
+            "name": "Beach Rocks",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 10,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks"]
+          },
+          {
             "name": "Deku Flower Chest",
             "access_rules": ["hookshot"]
           },
@@ -254,6 +319,30 @@
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives"
             ]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Grotto Boulder",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives", "goron"]
+          },
+          {
+            "name": "Island Rocks",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $has_absurd_soul|soul_trees_bushes, hookshot"]
+          },
+          {
+            "name": "Great Fairy Boulders",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes, $has_explosives, hookshot"]
           },
           {
             "name": "Great Bay Great Fairy Reward",

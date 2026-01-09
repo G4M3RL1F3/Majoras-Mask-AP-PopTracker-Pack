@@ -532,6 +532,22 @@
             //"visibility_rules": ["rupeesanity"],
             "item_count": 11,
             "clear_as_group": false
+          },
+          {
+            "name": "Palace Exterior Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            //"visibility_rules": ["soilsanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has|bottles|1"]
+          },
+          {
+            "name": "Guarded Boulders",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["goron"]
           }
         ],
         "map_locations": [
@@ -566,6 +582,14 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Bean Daddy Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            //"visibility_rules": ["soilsanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has|bottles|1"]
           }
         ],
         "map_locations": [

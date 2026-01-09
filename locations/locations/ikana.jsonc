@@ -24,11 +24,19 @@
         "name": "Road to Ikana Rock Grotto",
         "sections": [
           {
+            "name": "Grotto Boulder",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["goron"]
+          },
+          {
             "name": "Road to Ikana Rock Grotto Chest",
             "access_rules": ["$has_absurd_soul|soul_grottos, goron"]
           },
           {
-            "name": "Road To Ikana Grotto Grass",
+            "name": "Road to Ikana Grotto Grass",
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -53,6 +61,18 @@
             "access_rules": [
               "easy_logic, $can_play_eponas, $baby_has_bottle, $can_use_lens",
               "normal_logic, $has_npc_soul|soul_shiro, $can_play_eponas, $has|bottles|1, $can_use_lens"
+            ]
+          },
+          {
+            "name": "Shiro's Safety Rock Circle",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_rocks, $can_play_eponas",
+              "$has_absurd_soul|soul_rocks, $can_use_ikana_owl",
+              "$has_absurd_soul|soul_rocks, $can_use_stonetower_owl"
             ]
           }
         ],
@@ -84,6 +104,30 @@
         ]
       },
       {
+        "name": "Road to Ikana Cliff",
+        "sections": [
+          {
+            "name": "Nejiron Boulders",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives, $has_npc_soul|soul_spirit_house_owner, $can_play_eponas, hookshot, garo",
+              "$has_explosives, $has_npc_soul|soul_spirit_house_owner, $can_play_eponas, hookshot, gibdo",
+              "$has_explosives, $can_use_ikana_owl",
+              "$has_explosives, $can_use_stonetower_owl"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 725,
+            "y": 288
+          }
+        ]
+      },
+      {
         "name": "Graveyard",
         "access_rules": ["$graveyard"],
         "sections": [
@@ -101,6 +145,14 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives"]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Graveyard Rock Circle",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks"]
           },
           {
             "name": "Day 1 Bats Chest",
@@ -190,6 +242,14 @@
               "easy_logic, $can_play_sonata, $baby_can_smack_hard, bow",
               "normal_logic, $has_npc_soul|soul_stalchildren, $can_play_sonata, $can_smack_hard"
             ]
+          },
+          {
+            "name": "Captain Keeta Rockwall",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks $has_explosives, $can_play_sonata"]
           },
           {
             "name": "Lower Grass",
@@ -450,6 +510,30 @@
           "normal_logic, $inverted_stone_tower"
         ],
         "sections": [
+          {
+            "name": "Inverted Tower Rocks",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks"]
+          },
+          {
+            "name": "Inverted Lower Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            //"visibility_rules": ["soilsanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$has|bottles|1"]
+          },
+          {
+            "name": "Inverted Upper Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            //"visibility_rules": ["soilsanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$can_plant_beans, $has|bottles|1"]
+          },
           {
             "name": "Left Chest",
             "access_rules": [

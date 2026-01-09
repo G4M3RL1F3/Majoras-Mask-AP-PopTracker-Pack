@@ -83,6 +83,17 @@
             ]
           },
           {
+            "name": "Crate Behind Fence",
+            "chest_unopened_img": "images/icons/crate.png",
+            //"visibility_rules": ["woodsanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_bulldozer",
+              "$can_play_time, @Romani Ranch/Romani Ranch Outside/Helping Cremia"
+            ]
+          },
+          {
             "name": "Milk Road Gorman Racetrack Grass Group 1",
             "item_count": 12,
             "clear_as_group": false,
@@ -114,6 +125,13 @@
             "name": "Baby Cuccos March",
             "chest_unopened_img": "images/characters/grog.png",
             "access_rules": ["$has_npc_soul|soul_grog, bremenmask"]
+          },
+          {
+            "name": "Cucco Shack Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            //"visibility_rules": ["woodsanity"],
+            "item_count": 3,
+            "clear_as_group": false
           },
           {
             "name": "Cucco Shack Pots",
@@ -164,6 +182,14 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"]
+          },
+          {
+            "name": "Doggy Racetrack Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            //"visibility_rules": ["soilsanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$has|bottles|1"]
           }
         ],
         "map_locations": [
@@ -218,6 +244,13 @@
             "name": "Romani Game",
             "chest_unopened_img": "images/characters/romani.png",
             "access_rules": ["$has_npc_soul|soul_romani_cremia, $can_use_powder_keg, bow"]
+          },
+          {
+            "name": "Crate Next To Romani",
+            "chest_unopened_img": "images/icons/crate.png",
+            //"visibility_rules": ["woodsanity"],
+            "item_count": 1,
+            "clear_as_group": false
           },
           {
             "name": "Aliens",
@@ -275,6 +308,22 @@
             //"visibility_rules": ["invisisanity"],
             "item_count": 6,
             "clear_as_group": false
+          },
+          {
+            "name": "Day 1 Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            //"visibility_rules": ["soilsanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$can_use_powder_keg, $has|bottles|1"]
+          },
+          {
+            "name": "Day 2/3 Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            //"visibility_rules": ["soilsanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has|bottles|1"]
           }
         ],
         "map_locations": [

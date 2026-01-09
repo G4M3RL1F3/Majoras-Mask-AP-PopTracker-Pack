@@ -18,6 +18,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Entry Rocks"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 400,
+            "y": 1035
+          }
+        ]
+      },
+      {
         "name": "Main Room Pots",
         "sections": [
           {
@@ -213,6 +228,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Swamp Spider House/Monument Room Crates"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 20,
+            "y": 775
+          }
+        ]
+      },
+      {
         "name": "Monument Room Crawling Wall Token",
         "sections": [
           {
@@ -254,6 +284,24 @@
             "map": "swamp_spider_house",
             "x": 900,
             "y": 711
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Swamp Spider House/Monument Room Boulder"
+          },
+          {
+          "ref": "Dungeons/Swamp Spider House/Monument Room Soil Under Boulder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 151,
+            "y": 742
           }
         ]
       },
@@ -309,6 +357,21 @@
             "map": "swamp_spider_house",
             "x": 1330,
             "y": 632
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Pottery Room Rock"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1275,
+            "y": 555
           }
         ]
       },
@@ -428,6 +491,36 @@
           {
             "map": "swamp_spider_house",
             "x": 1185,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Swamp Spider House/Gold Room Crates"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 951,
+            "y": 545
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Gold Room Soil"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 951,
             "y": 440
           }
         ]

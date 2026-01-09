@@ -48,6 +48,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Fortress Exterior Balcony Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 623,
+            "y": 692
+          }
+        ]
+      },
+      {
         "name": "Pirates' Fortress Sewers Cage HP",
         "sections": [
           {
@@ -68,6 +83,9 @@
       {
         "name": "",
         "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Sewers Cage Room Barrels"
+          },
           {
             "ref": "Dungeons/Pirates' Fortress/Sewers Rupees Under Barrels"
           }
@@ -147,6 +165,9 @@
             "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Exit Pots"
           },
           {
+            "ref": "Dungeons/Pirates' Fortress/Sewers Exit Barrels"
+          },
+          {
             "ref": "Dungeons/Pirates' Fortress/Sewers Exit Rupees Under Barrels"
           }
         ],
@@ -162,7 +183,30 @@
         "name": "",
         "sections": [
           {
+            "ref": "Dungeons/Pirates' Fortress/Interior Courtyard Crates"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 925,
+            "y": 507
+          },
+          {
+            "map": "pirates_fortress",
+            "x": 911,
+            "y": 288
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
             "ref": "Dungeons/Pirates' Fortress/Interior Ledge Recovery Hearts"
+          },
+          {
+            "ref": "Dungeons/Pirates' Fortress/Guarded Bridge Barrel"
           }
         ],
         "map_locations": [
@@ -192,7 +236,7 @@
         ]
       },
       {
-        "name": "Green Guard Egg Room Pots",
+        "name": "",
         "sections": [
           {
             "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Room Past Green Guard Pots"
@@ -222,17 +266,20 @@
         ]
       },
       {
-        "name": "Pink Guard Egg Pots",
+        "name": "",
         "sections": [
           {
             "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Room Past Pink Guard Pots"
+          },
+          {
+            "ref": "Dungeons/Pirates' Fortress/Interior Room Past Pink Guard Barrel"
           }
         ],
         "map_locations": [
           {
             "map": "pirates_fortress",
             "x": 1408,
-            "y": 1225
+            "y": 1265
           }
         ]
       },
@@ -308,6 +355,21 @@
             "map": "pirates_fortress",
             "x": 225,
             "y": 1106
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Leader's Room Barrels"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 271,
+            "y": 1233
           }
         ]
       },

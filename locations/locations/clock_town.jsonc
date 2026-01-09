@@ -760,6 +760,30 @@
         ]
       },
       {
+        "name": "East Clock Town Center",
+        "sections": [
+          {
+            "name": "Juggler's Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            //"visibility_rules": ["woodsanity"],
+            "item_count": 2,
+            "clear_as_group": false
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 200,
+            "y": 142
+          },
+          {
+            "map": "clock_town",
+            "x": 852,
+            "y": 588
+          }
+        ]
+      },
+      {
         "name": "West Clock Town Rosa Sisters",
         "sections": [
           {
@@ -892,6 +916,13 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Laundry Pool Crate",
+            "chest_unopened_img": "images/icons/crate.png",
+            //"visibility_rules": ["woodsanity"],
+            "item_count": 1,
+            "clear_as_group": false
           },
           {
             "name": "Night 2 Rupees",

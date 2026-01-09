@@ -7,6 +7,38 @@
     "access_rules": ["$path_mountain"],
     "children": [
       {
+        "name": "Path To Mountain Village",
+        "access_rules": ["bow"],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 535,
+            "y": 206
+          }
+        ],
+        "sections": [
+          {
+            "name": "Large Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 11,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives",
+              "goron",
+              "$can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "Small Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 4,
+            "clear_as_group": false
+          }
+        ]
+      },
+      {
         "name": "Mountain Village",
         "access_rules": [
           "easy_logic, $baby_mountain_village",
@@ -51,6 +83,21 @@
               "easy_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize",
               "normal_logic, $has_npc_soul|soul_smithy, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize, $has|bottles|1"
             ]
+          },
+          {
+            "name": "Day 1 Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 13,
+            "clear_as_group": false
+          },
+          {
+            "name": "Outside Darmani Graveyard Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["lens, magic"]
           },
           {
             "name": "Spring Waterfall Chest",
@@ -127,10 +174,42 @@
             "access_rules": ["$has_absurd_soul|soul_pots, $clear_snowhead"]
           },
           {
+            "name": "Spring Rock Triangle",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $clear_snowhead"]
+          },
+          {
+            "name": "Spring Outside Darmani Grave Rocks",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $clear_snowhead"]
+          },
+          {
+            "name": "Spring Boulders Under Smithy",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$clear_snowhead"]
+          },
+          {
             "name": "Spring Boulder Under Smithy Rupee",
             "chest_unopened_img": "images/icons/rupee.png",
             //"visibility_rules": ["rupeesanity"],
             "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$clear_snowhead"]
+          },
+          {
+            "name": "Village Spring Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$clear_snowhead"]
           }
@@ -165,6 +244,21 @@
             ]
           },
           {
+            "name": "Day 1 Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 16,
+            "clear_as_group": false
+          },
+          {
+            "name": "Near Grotto Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["goron", "$has_npc_soul|soul_scarecrow, twin_islands_ramp_winter, hookshot"]
+          },
+          {
             "name": "Twin Islands Grotto Grass",
             "item_count": 14,
             "clear_as_group": false,
@@ -194,6 +288,14 @@
               "normal_logic, $has_absurd_soul|soul_grottos, $clear_snowhead",
               "normal_logic, $has_absurd_soul|soul_grottos, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, owl_mountain"
             ]
+          },
+          {
+            "name": "Hot Water Grotto Boulders",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["@Snowhead/Twin Islands/Hot Water Grotto Chest"]
           },
           {
             "name": "Spring Underwater Cave Chest",
@@ -237,6 +339,14 @@
             //"visibility_rules": ["absurd_souls"]
           },
           {
+            "name": "Spring Rocks Above Grotto",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks"]
+          },
+          {
             "name": "Spring Underwater Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
             //"visibility_rules": ["rupeesanity"],
@@ -276,12 +386,20 @@
             ]
           },
           {
-            "name": "Goron Village Lens Cave Grass",
+            "name": "Lens Cave Grass",
             "item_count": 24,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"]
             //"visibility_rules": ["absurd_souls"]
+          },
+          {
+            "name": "Lens Cave Boulders",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives"]
           }
         ]
       },
@@ -299,6 +417,13 @@
           }
         ],
         "sections": [
+          {
+            "name": "Village Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 21,
+            "clear_as_group": false
+          },
           {
             "name": "Baby Goron Lullaby",
             "chest_unopened_img": "images/equipment/song_lullaby_no_text.png",
@@ -360,7 +485,15 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 11,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_medigoron"]
+            "access_rules": ["$has_absurd_soul|soul_rocks, goron", "$has_absurd_soul|soul_pots, $has_npc_soul|soul_medigoron"]
+          },
+          {
+            "name": "Goron Shrine Rocks",
+            "chest_unopened_img": "images/absurd/rock.png",
+            //"visibility_rules": ["rocksanity"],
+            "item_count": 16,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, goron", "$has_absurd_soul|soul_rocks, $has_npc_soul|soul_medigoron"]
           },
           {
             "name": "Scrub Purchase",
@@ -398,6 +531,22 @@
           //    "easy_logic, $baby_clear_snowhead, deku, swampdeed",
           //    "normal_logic, $has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, $clear_snowhead, deku, swampdeed"
           //  ]
+          },
+          {
+            "name": "Keg Goron Crate",
+            "chest_unopened_img": "images/icons/crate.png",
+            //"visibility_rules": ["woodsanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$can_use_fire_arrows"]
+          },
+          {
+            "name": "Keg Goron Spring Crate",
+            "chest_unopened_img": "images/icons/crate.png",
+            //"visibility_rules": ["woodsanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$clear_snowhead"]
           }
         ]
       },
@@ -415,6 +564,30 @@
           }
         ],
         "sections": [
+          {
+            "name": "Between Ramps Large Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["goron, magic"]
+          },
+          {
+            "name": "Near Grotto Small Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$snowhead"]
+          },
+          {
+            "name": "Near Grotto Large Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$snowhead, goron", "$snowhead, $has_explosives", "$snowhead, $can_use_fire_arrows"]
+          },
           {
             "name": "Grotto Chest",
             "access_rules": [
@@ -459,6 +632,21 @@
               "easy_logic, $baby_snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh",
               "normal_logic, $has_npc_soul|soul_great_fairy, $snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh"
             ]
+          },
+          {
+            "name": "Outside Snowhead Temple Small Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 4,
+            "clear_as_group": false
+          },
+          {
+            "name": "Outside Snowhead Temple Large Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["$snowhead_temple"]
           }
         ]
       }

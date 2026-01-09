@@ -21,6 +21,26 @@
         "name": "",
         "sections": [
           {
+            "ref": "Dungeons/Great Bay Temple/Entrance Barrels"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 285,
+            "y": 1030
+          },
+          {
+            "map": "great_bay_temple",
+            "x": 460,
+            "y": 1030
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
             "ref": "Dungeons/Great Bay Temple/Waterwheel Room Skulltula SF"
           },
           {
@@ -186,6 +206,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Jellied Gekko Room Crates"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 585,
+            "y": 80
+          }
+        ]
+      },
+      {
         "name": "Mad Jellied Gekko Chest",
         "sections": [
           {
@@ -315,6 +350,21 @@
         "name": "",
         "sections": [
           {
+            "ref": "Dungeons/Great Bay Temple/Behind 1F Waterfall Barrels"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 324,
+            "y": 237
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
             "ref": "Dungeons/Great Bay Temple/Behind Waterfall Ceiling Rupees"
           }
         ],
@@ -377,6 +427,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Frozen Waterwheel Room Barrels"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 794,
+            "y": 271
+          }
+        ]
+      },
+      {
         "name": "Seesaw Room Underwater Barrel SF",
         "sections": [
           {
@@ -408,6 +473,21 @@
             "map": "great_bay_temple",
             "x": 761,
             "y": 497
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Seesaw Room Crates"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 766,
+            "y": 545
           }
         ]
       },

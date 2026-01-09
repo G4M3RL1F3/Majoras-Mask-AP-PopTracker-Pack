@@ -464,6 +464,9 @@
         "sections": [
           {
             "ref": "Dungeons/Ocean Spider House/Storage Room Hidden Hole Token"
+          },
+          {
+            "ref": "Dungeons/Ocean Spider House/Storage Room Crate"
           }
         ],
         "map_locations": [

@@ -685,9 +685,9 @@
             "name": "Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)",
             "chest_unopened_img": "images/characters/anju_kafei.png",
             "access_rules": [
-              "easy_logic, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, garo, gibdo",
-              "normal_logic, $has_misc_soul|soul_postboxes, $has_npc_soul|soul_anju, $has_npc_soul|soul_kafei, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, garo",
-              "normal_logic, $has_misc_soul|soul_postboxes, $has_npc_soul|soul_anju, $has_npc_soul|soul_kafei, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, gibdo"
+              "easy_logic, kafei, $can_play_song|epona, kafeiletter, pendant, hookshot, garo, gibdo",
+              "normal_logic, $has_misc_soul|soul_postboxes, $has_npc_soul|soul_anju, $has_npc_soul|soul_kafei, kafei, $can_play_song|epona, kafeiletter, pendant, hookshot, garo",
+              "normal_logic, $has_misc_soul|soul_postboxes, $has_npc_soul|soul_anju, $has_npc_soul|soul_kafei, kafei, $can_play_song|epona, kafeiletter, pendant, hookshot, gibdo"
             ]
           },
           {
@@ -1046,7 +1046,7 @@
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_pots, $can_warp_out",
-              "$has_absurd_soul|soul_pots, $can_play_time"
+              "$has_absurd_soul|soul_pots, $can_play_song|time"
             ]
           }
         ],

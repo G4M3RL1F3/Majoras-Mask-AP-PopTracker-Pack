@@ -19,7 +19,7 @@
           {
             "name": "Healing Zora",
             "chest_unopened_img": "images/masks/zora.png",
-            "access_rules": ["$can_play_healing"]
+            "access_rules": ["$can_play_song|healing"]
           },
           {
             "name": "Fisherman's Grotto Chest",
@@ -160,20 +160,20 @@
             "name": "Ledge Grotto Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_misc_soul|soul_cow, hookshot, $can_play_eponas"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_misc_soul|soul_cow, hookshot, $can_play_song|epona"]
           },
           {
             "name": "Ledge Grotto Right Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_misc_soul|soul_cow, hookshot, $can_play_eponas"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_misc_soul|soul_cow, hookshot, $can_play_song|epona"]
           },
           {
             "name": "Great Bay Grotto Grass Group 1",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_song|epona"],
             "visibility_rules": ["grass_sanity"]
           },
           {
@@ -181,7 +181,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_song|epona"],
             "visibility_rules": ["grass_sanity"]
           },
           {
@@ -189,7 +189,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_song|epona"],
             "visibility_rules": ["grass_sanity"]
           },
           {
@@ -197,7 +197,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_song|epona"],
             "visibility_rules": ["grass_sanity"]
           },
           {
@@ -205,7 +205,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_song|epona"],
             "visibility_rules": ["grass_sanity"]
           },
           {
@@ -213,7 +213,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_eponas"],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot, $can_play_song|epona"],
             "visibility_rules": ["grass_sanity"]
           },
           {

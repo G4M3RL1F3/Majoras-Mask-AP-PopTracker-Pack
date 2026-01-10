@@ -148,7 +148,7 @@
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
-              "easy_logic, @Link Trial/Garo Master Chest, $baby_has_explosives, $can_play_healing, $can_play_eponas",
+              "easy_logic, @Link Trial/Garo Master Chest, $baby_has_explosives, $can_play_song|healing, $can_play_song|epona",
               "normal_logic, $has_enemy_soul|soul_iron_knuckle, @Link Trial/Garo Master Chest, bombchu_bag, bow"
             ]
           }

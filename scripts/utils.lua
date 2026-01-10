@@ -79,6 +79,14 @@ function toggle_hosted_item(code)
   end
 end
 
+function can_play_song(song)
+  return has("ocarina") and has(song)
+end
+
+function can_use_owl(owl)
+  return can_play_song("soaring") and has(owl)
+end
+
 function can_reach_scarecrow(scarecrow)
   if Tracker:FindObjectForCode("scarecrow_sanity").Active == false then
     return true

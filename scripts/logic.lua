@@ -1,78 +1,5 @@
--- Songs
-function can_play_time()
-    return has("time") and has("ocarina")
-end
-
-function can_play_healing()
-    return has("healing") and has("ocarina")
-end
-
-function can_play_eponas()
-    return has("epona") and has("ocarina")
-end
-
-function can_play_soaring()
-    return has("soaring") and has("ocarina")
-end
-
-function can_play_storms()
-    return has("storms") and has("ocarina")
-end
-
-function can_play_sonata()
-    return has("sonata") and has("ocarina")
-end
-
-function can_play_lullaby()
-    return has("goronlullaby") and has("ocarina")
-end
-
-function can_play_bossa_nova()
-    return has("bossanova") and has("ocarina")
-end
-
-function can_play_elegy()
-    return has("elegy") and has("ocarina")
-end
-
-function can_use_ct_owl()
-    return can_play_soaring() and has("owl_ct")
-end
-
-function can_use_milkroad_owl()
-    return can_play_soaring() and has("owl_milk_road")
-end
-
-function can_use_swamp_owl()
-    return can_play_soaring() and has("owl_swamp")
-end
-
-function can_use_woodfall_owl()
-    return can_play_soaring() and has("owl_woodfall")
-end
-
-function can_use_mountain_owl()
-    return can_play_soaring() and has("owl_mountain")
-end
-
-function can_use_snowhead_owl()
-    return can_play_soaring() and has("owl_snowhead")
-end
-
-function can_use_zora_owl()
-    return can_play_soaring() and (has("owl_coast") or has("owl_zora_cape"))
-end
-
-function can_use_ikana_owl()
-    return can_play_soaring() and has("owl_ikana_canyon")
-end
-
-function can_use_stonetower_owl()
-    return can_play_soaring() and has("owl_stone_tower")
-end
-
 function can_warp_out()
-    return can_play_soaring() and (can_use_ct_owl() or can_use_milkroad_owl() or can_use_swamp_owl() or can_use_ikana_owl() or can_use_stonetower_owl())
+    return can_play_song("soaring") and (can_use_owl("owl_ct") or can_use_owl("owl_milk_road") or can_use_owl("owl_swamp") or can_use_owl("owl_ikana_canyon") or can_use_owl("owl_stone_tower"))
 end
 
 -- Rules consistent between difficulties
@@ -108,11 +35,11 @@ function has_paper()
 end
 
 function can_get_cow_milk()
-    return has_misc_soul("soul_cow") and has_absurd_soul("soul_grottos") and has("bottles", 1) and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has_npc_soul("soul_barten") and has("romani")) or (has("gibdo") and has_npc_soul("soul_gibdos") and has("bottles", 1) and can_plant_beans() and Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") or can_use_light_arrows() and (Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") or (has("goron") and can_use_lens()) or Tracker:FindObjectForCode("@Dungeons/Beneath the Well/Invisible Chest"))))
+    return has_misc_soul("soul_cow") and has_absurd_soul("soul_grottos") and has("bottles", 1) and can_play_song("epona") and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has_npc_soul("soul_barten") and has("romani")) or (has("gibdo") and has_npc_soul("soul_gibdos") and has("bottles", 1) and can_plant_beans() and Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") or can_use_light_arrows() and (Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") or (has("goron") and can_use_lens()) or Tracker:FindObjectForCode("@Dungeons/Beneath the Well/Invisible Chest"))))
 end
 
 function can_plant_beans()
-    return can_get_magic_beans() and (has("bottles", 1) or can_play_storms())
+    return can_get_magic_beans() and (has("bottles", 1) or can_play_song("storms"))
 end
 
 function can_use_powder_keg()
@@ -192,7 +119,7 @@ function baby_has_bottle()
 end
 
 function baby_can_plant_beans()
-    return can_get_magic_beans() and baby_has_bottle() and can_play_storms()
+    return can_get_magic_beans() and baby_has_bottle() and can_play_song("storms")
 end
 
 function baby_can_bring_to_player()
@@ -204,7 +131,7 @@ function baby_can_reach_seahorse()
 end
 
 function baby_can_get_cow_milk()
-    return baby_has_bottle() and can_play_eponas() and baby_has_explosives() and can_use_powder_keg() and has("hookshot") and has("gibdo") and baby_can_plant_beans() and can_use_light_arrows() and Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") and has("goron") and Tracker:FindObjectForCode("@Snowhead/Mountain Village/Healing Darmani") and Tracker:FindObjectForCode("@Dungeons/Beneath the Well/Invisible Chest")
+    return baby_has_bottle() and can_play_song("epona") and baby_has_explosives() and can_use_powder_keg() and has("hookshot") and has("gibdo") and baby_can_plant_beans() and can_use_light_arrows() and Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") and has("goron") and Tracker:FindObjectForCode("@Snowhead/Mountain Village/Healing Darmani") and Tracker:FindObjectForCode("@Dungeons/Beneath the Well/Invisible Chest")
 end
 
 -- This function's purpose is for counting how many bottles have been acquired.

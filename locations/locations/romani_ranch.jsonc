@@ -71,7 +71,7 @@
           {
             "name": "Race",
             "chest_unopened_img": "images/icons/carrot.png",
-            "access_rules": ["$has_npc_soul|soul_gorman_brothers, $can_play_eponas"]
+            "access_rules": ["$has_npc_soul|soul_gorman_brothers, $can_play_song|epona"]
           },
           {
             "name": "Purchase",
@@ -90,7 +90,7 @@
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_bulldozer",
-              "$can_play_time, @Romani Ranch/Romani Ranch Outside/Helping Cremia"
+              "$can_play_song|time, @Romani Ranch/Romani Ranch Outside/Helping Cremia"
             ]
           },
           {
@@ -207,19 +207,19 @@
             "name": "Free Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$has_misc_soul|soul_cow, $can_use_powder_keg, $can_play_eponas"]
+            "access_rules": ["$has_misc_soul|soul_cow, $can_use_powder_keg, $can_play_song|epona"]
           },
           {
             "name": "Stables Front Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$has_misc_soul|soul_cow, $can_use_powder_keg, $can_play_eponas"]
+            "access_rules": ["$has_misc_soul|soul_cow, $can_use_powder_keg, $can_play_song|epona"]
           },
           {
             "name": "Stables Back Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$has_misc_soul|soul_cow, $can_use_powder_keg, $can_play_eponas"]
+            "access_rules": ["$has_misc_soul|soul_cow, $can_use_powder_keg, $can_play_song|epona"]
           },
           {
             "name": "Haystack Rupees",

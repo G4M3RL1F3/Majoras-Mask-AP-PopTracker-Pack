@@ -9,7 +9,7 @@ function baby_south_swamp()
     return has("redpotion") and baby_has_hard_projectiles() and has("deku") and has("pictobox")
 end
 function south_swamp()
-    return has("bottles", 1) or (has_hard_projectiles() and has("deku")) or (has("pictobox") and has("deku")) or (can_use_woodfall_owl() and has("deku"))
+    return has("bottles", 1) or (has_hard_projectiles() and has("deku")) or (has("pictobox") and has("deku")) or (can_use_owl("owl_woodfall") and has("deku"))
 end
 
 -- Southern Swamp (Deku Palace) -> Swamp Spider House
@@ -33,7 +33,7 @@ function baby_woodfall()
     return baby_south_swamp() and has("deku")
 end
 function woodfall()
-    return can_use_woodfall_owl() or (south_swamp() and has("deku"))
+    return can_use_owl("owl_woodfall") or (south_swamp() and has("deku"))
 end
 
 -- Woodfall -> Woodfall Temple
@@ -57,7 +57,7 @@ end
 -- Termina Field -> Path to Mountain Village
 -- Easy and normal
 function path_mountain()
-    return has("bow") or can_use_mountain_owl()
+    return has("bow") or can_use_owl("owl_mountain")
 end
 
 -- Path to Mountain Village -> Mountain Village
@@ -65,7 +65,7 @@ function baby_mountain_village()
     return path_mountain() and has("goron") and baby_has_explosives() and can_use_fire_arrows()
 end
 function mountain_village()
-    return (path_mountain() and (has("goron") or has_explosives() or can_use_fire_arrows())) or can_use_snowhead_owl()
+    return (path_mountain() and (has("goron") or has_explosives() or can_use_fire_arrows())) or can_use_owl("owl_snowhead")
 end
 
 -- Path to Snowhead -> Snowhead
@@ -73,7 +73,7 @@ function baby_snowhead()
     return baby_mountain_village() and has("goron") and can_play_lullaby() and has("magic") and has("bosskey_sh") and has("smallkey_sh", 3)
 end
 function snowhead()
-    return (mountain_village() and has("goron") and can_play_lullaby() and has("magic")) or (can_use_snowhead_owl() and has("goron") and can_play_lullaby())
+    return (mountain_village() and has("goron") and can_play_lullaby() and has("magic")) or (can_use_owl("owl_snowhead") and has("goron") and can_play_lullaby())
 end
 
 -- Snowhead -> Snowhead Temple
@@ -97,7 +97,7 @@ end
 -- Termina Field -> Great Bay
 -- Easy and normal
 function great_bay()
-    return can_play_eponas() or can_use_zora_owl()
+    return can_play_song("epona") or (can_use_owl("owl_coast") or can_use_owl("owl_zora_cape"))
 end
 
 -- Great Bay -> Ocean Spider House
@@ -144,20 +144,20 @@ end
 -- Road to Ikana -> Ikana Graveyard
 -- Easy and normal
 function graveyard()
-    return can_play_eponas() or can_use_ikana_owl() or can_use_stonetower_owl()
+    return can_play_song("epona") or can_use_owl("owl_ikana_canyon") or can_use_owl("owl_stone_tower")
 end
 
 --Road to Ikana -> Lower Ikana Canyon
 function baby_ikana_canyon()
-    return can_play_eponas() and has("hookshot") and has("garo") and has("gibdo")
+    return can_play_song("epona") and has("hookshot") and has("garo") and has("gibdo")
 end
 function lower_ikana_canyon()
-    return (has("soul_spirit_house_owner") and can_play_eponas() and has("hookshot") and (has("garo") or has("gibdo"))) or can_use_ikana_owl() or can_use_stonetower_owl()
+    return (has("soul_spirit_house_owner") and can_play_song("epona") and has("hookshot") and (has("garo") or has("gibdo"))) or can_use_owl("owl_ikana_canyon") or can_use_owl("owl_stone_tower")
 end
 
 -- Lower Ikana Canyon -> Upper Ikana Canyon
 function upper_ikana_canyon()
-    return (lower_ikana_canyon() and has("soul_octoroks") and can_use_ice_arrows()) or can_use_ikana_owl() or can_use_stonetower_owl()
+    return (lower_ikana_canyon() and has("soul_octoroks") and can_use_ice_arrows()) or can_use_owl("owl_ikana_canyon") or can_use_owl("owl_stone_tower")
 end
 
 -- Lower Ikana Canyon -> Secret Shrine
@@ -191,16 +191,16 @@ end
 
 -- Stone Tower -> Stone Tower Temple
 function baby_stone_tower_temple()
-    return baby_ikana_canyon() and can_use_ice_arrows() and can_play_elegy() and has("goron") and has("zora") and has("smallkey_st", 4) and has("bosskey_st")
+    return baby_ikana_canyon() and can_use_ice_arrows() and can_play_song("elegy") and has("goron") and has("zora") and has("smallkey_st", 4) and has("bosskey_st")
 end
 function stone_tower_temple()
-    return (lower_ikana_canyon() and has("soul_octoroks") and can_use_ice_arrows()) or ((can_use_ikana_owl() and has("hookshot") and has("goron") and has("zora")) or can_use_stonetower_owl()) and can_play_elegy()
+    return (lower_ikana_canyon() and has("soul_octoroks") and can_use_ice_arrows()) or ((can_use_owl("owl_ikana_canyon") and has("hookshot") and has("goron") and has("zora")) or can_use_owl("owl_stone_tower")) and can_play_song("elegy")
 end
 
 -- Stone Tower -> Stone Tower (Inverted)
 function baby_inverted_stone_tower()
-    return baby_stone_tower_temple() and can_use_light_arrows() and can_play_elegy() and has("smallkey_st", 4) and has("bosskey_st")
+    return baby_stone_tower_temple() and can_use_light_arrows() and can_play_song("elegy") and has("smallkey_st", 4) and has("bosskey_st")
 end
 function inverted_stone_tower()
-    return stone_tower_temple() and can_use_light_arrows() and can_play_elegy()
+    return stone_tower_temple() and can_use_light_arrows() and can_play_song("elegy")
 end

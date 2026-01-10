@@ -650,14 +650,14 @@
           {
             "name": "Woodfall Owl Statue Chest",
             "access_rules": [
-              "$can_use_woodfall_owl, hookshot",
+              "$can_use_owl|owl_woodfall, hookshot",
               "$has_absurd_soul|soul_deku_flowers"
             ]
           },
           {
             "name": "Woodfall Bridge Chest",
             "access_rules": [
-              "$can_use_woodfall_owl, hookshot",
+              "$can_use_owl|owl_woodfall, hookshot",
               "$has_absurd_soul|soul_deku_flowers"
             ]
           },

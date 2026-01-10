@@ -348,7 +348,7 @@
           {
             "name": "Termina Healing Kamaro (Midnight - 6 AM)",
             "chest_unopened_img": "images/characters/kamaro.png",
-            "access_rules": ["$has_npc_soul|soul_kamaro, $can_play_healing"]
+            "access_rules": ["$has_npc_soul|soul_kamaro, $can_play_song|healing"]
           },
           {
             "name": "Kamaro Rock Circle",
@@ -407,9 +407,9 @@
             "item_count": 20,
             "clear_as_group": false,
             "access_rules": [
-              "$can_play_sonata",
-              "$can_play_lullaby",
-              "$can_play_bossa_nova"
+              "$can_play_song|sonata",
+              "$can_play_song|goronlullaby",
+              "$can_play_song|bossanova"
             ]
           },
           {
@@ -419,12 +419,12 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "$can_play_sonata, $can_play_eponas",
-              "$can_play_lullaby, $can_play_eponas",
-              "$can_play_bossa_nova, $can_play_eponas",
-              "$can_play_sonata, goron",
-              "$can_play_lullaby, goron",
-              "$can_play_bossa_nova, goron"
+              "$can_play_song|sonata, $can_play_song|epona",
+              "$can_play_song|goronlullaby, $can_play_song|epona",
+              "$can_play_song|bossanova, $can_play_song|epona",
+              "$can_play_song|sonata, goron",
+              "$can_play_song|goronlullaby, goron",
+              "$can_play_song|bossanova, goron"
             ]
           },
           {
@@ -433,7 +433,7 @@
             //"visibility_rules": ["rocksanity"],
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_rocks, $can_play_eponas"]
+            "access_rules": ["$has_absurd_soul|soul_rocks, $can_play_song|epona"]
           }
         ],
         "map_locations": [
@@ -582,12 +582,12 @@
           {
             "name": "Termina Gossip Stones HP",
             "access_rules": [
-              "easy_logic, deku, $can_play_sonata, goron, $can_play_lullaby, zora, $can_play_bossa_nova",
-              "normal_logic, $has_absurd_soul|soul_grottos, deku, $can_play_sonata, $has_explosives",
-              "normal_logic, $has_absurd_soul|soul_grottos, deku, $can_play_sonata, goron",
-              "normal_logic, $has_absurd_soul|soul_grottos, goron, $can_play_lullaby",
-              "normal_logic, $has_absurd_soul|soul_grottos, zora, $can_play_bossa_nova, $has_explosives",
-              "normal_logic, $has_absurd_soul|soul_grottos, zora, $can_play_bossa_nova, goron"
+              "easy_logic, deku, $can_play_song|sonata, goron, $can_play_song|goronlullaby, zora, $can_play_song|bossanova",
+              "normal_logic, $has_absurd_soul|soul_grottos, deku, $can_play_song|sonata, $has_explosives",
+              "normal_logic, $has_absurd_soul|soul_grottos, deku, $can_play_song|sonata, goron",
+              "normal_logic, $has_absurd_soul|soul_grottos, goron, $can_play_song|goronlullaby",
+              "normal_logic, $has_absurd_soul|soul_grottos, zora, $can_play_song|bossanova, $has_explosives",
+              "normal_logic, $has_absurd_soul|soul_grottos, zora, $can_play_song|bossanova, goron"
             ]
           }
         ],
@@ -774,13 +774,13 @@
             "name": "Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$has_misc_soul|soul_cow, $can_play_eponas"]
+            "access_rules": ["$has_misc_soul|soul_cow, $can_play_song|epona"]
           },
           {
             "name": "Right Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$has_misc_soul|soul_cow, $can_play_eponas"]
+            "access_rules": ["$has_misc_soul|soul_cow, $can_play_song|epona"]
           },
           {
             "name": "Termina Field Cow Grotto Grass Group 1",

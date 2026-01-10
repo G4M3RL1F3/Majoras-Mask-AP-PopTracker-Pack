@@ -1702,7 +1702,7 @@
           {
             "name": "Swamphouse Pottery Room Upper Wall Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku, $baby_can_bring_to_player",
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku, $baby_can_bring_to_player",
               "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
@@ -1740,7 +1740,7 @@
           {
             "name": "Swamphouse Golden Room Crawling Left Wall Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku, $baby_can_bring_to_player",
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku, $baby_can_bring_to_player",
               "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
@@ -1773,7 +1773,7 @@
           {
             "name": "Swamphouse Tree Room Tall Grass #1 Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku",
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku",
               "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
@@ -1781,7 +1781,7 @@
           {
             "name": "Swamphouse Tree Room Tall Grass #2 Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku",
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku",
               "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
@@ -1789,7 +1789,7 @@
           {
             "name": "Swamphouse Tree Room Tree #1 Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku",
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku",
               "normal_logic, soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
@@ -1797,7 +1797,7 @@
           {
             "name": "Swamphouse Tree Room Tree #2 Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku",
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku",
               "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
@@ -1805,7 +1805,7 @@
           {
             "name": "Swamphouse Tree Room Tree #3 Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku",
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku",
               "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
@@ -1813,7 +1813,7 @@
           {
             "name": "Swamphouse Tree Room Beehive Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $baby_has_projectiles, $can_play_sonata, deku",
+              "easy_logic, $baby_can_smack, $baby_has_projectiles, $can_play_song|sonata, deku",
               "normal_logic, $has_misc_soul|soul_gs, $can_smack, $has_projectiles"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
@@ -2241,17 +2241,17 @@
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
             "access_rules": [
-              "easy_logic, gibdo, $baby_has_bottle, $can_play_eponas, $baby_can_plant_beans, $can_use_light_arrows, maskofscents, adultswallet, zora",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, maskofscents",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, adultswallet",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $can_play_soaring, $can_use_lens, goron",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, maskofscents",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, adultswallet",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, $can_use_lens, goron",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
+              "easy_logic, gibdo, $baby_has_bottle, $can_play_song|epona, $baby_can_plant_beans, $can_use_light_arrows, maskofscents, adultswallet, zora",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_plant_beans, maskofscents",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_plant_beans, adultswallet",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_plant_beans, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_plant_beans, $can_play_song|soaring, $can_use_lens, goron",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_use_light_arrows, maskofscents",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_use_light_arrows, adultswallet",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_use_light_arrows, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_use_light_arrows, $can_play_song|soaring, $can_use_lens, goron",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
             ]
           },
           {
@@ -2262,13 +2262,13 @@
             "access_rules": [
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, maskofscents",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, adultswallet",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, $can_play_soaring, $can_use_lens, goron",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, $can_play_song|soaring, $can_use_lens, goron",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, maskofscents",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, adultswallet",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_soaring, $can_use_lens, goron",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_song|soaring, $can_use_lens, goron",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
             ],
             "visibility_rules": ["grass_sanity"]

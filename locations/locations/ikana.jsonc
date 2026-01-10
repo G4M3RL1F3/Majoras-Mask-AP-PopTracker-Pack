@@ -59,8 +59,8 @@
             "name": "Road to Ikana Stone Soldier",
             "chest_unopened_img": "images/characters/shiro.png",
             "access_rules": [
-              "easy_logic, $can_play_eponas, $baby_has_bottle, $can_use_lens",
-              "normal_logic, $has_npc_soul|soul_shiro, $can_play_eponas, $has|bottles|1, $can_use_lens"
+              "easy_logic, $can_play_song|epona, $baby_has_bottle, $can_use_lens",
+              "normal_logic, $has_npc_soul|soul_shiro, $can_play_song|epona, $has|bottles|1, $can_use_lens"
             ]
           },
           {
@@ -70,9 +70,9 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": [
-              "$has_absurd_soul|soul_rocks, $can_play_eponas",
-              "$has_absurd_soul|soul_rocks, $can_use_ikana_owl",
-              "$has_absurd_soul|soul_rocks, $can_use_stonetower_owl"
+              "$has_absurd_soul|soul_rocks, $can_play_song|epona",
+              "$has_absurd_soul|soul_rocks, $can_use_owl|owl_ikana_canyon",
+              "$has_absurd_soul|soul_rocks, $can_use_owl|owl_stone_tower"
             ]
           }
         ],
@@ -92,7 +92,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $can_play_eponas, $can_reach_scarecrow|scarecrow_road_to_ikana, hookshot"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $can_play_song|epona, $can_reach_scarecrow|scarecrow_road_to_ikana, hookshot"]
           }
         ],
         "map_locations": [
@@ -112,10 +112,10 @@
             "item_count": 7,
             "clear_as_group": false,
             "access_rules": [
-              "$has_explosives, $has_npc_soul|soul_spirit_house_owner, $can_play_eponas, hookshot, garo",
-              "$has_explosives, $has_npc_soul|soul_spirit_house_owner, $can_play_eponas, hookshot, gibdo",
-              "$has_explosives, $can_use_ikana_owl",
-              "$has_explosives, $can_use_stonetower_owl"
+              "$has_explosives, $has_npc_soul|soul_spirit_house_owner, $can_play_song|epona, hookshot, garo",
+              "$has_explosives, $has_npc_soul|soul_spirit_house_owner, $can_play_song|epona, hookshot, gibdo",
+              "$has_explosives, $can_use_owl|owl_ikana_canyon",
+              "$has_explosives, $can_use_owl|owl_stone_tower"
             ]
           }
         ],
@@ -239,8 +239,8 @@
             "name": "Captain Keeta Chest",
             "chest_unopened_img": "images/masks/captains.png",
             "access_rules": [
-              "easy_logic, $can_play_sonata, $baby_can_smack_hard, bow",
-              "normal_logic, $has_npc_soul|soul_stalchildren, $can_play_sonata, $can_smack_hard"
+              "easy_logic, $can_play_song|sonata, $baby_can_smack_hard, bow",
+              "normal_logic, $has_npc_soul|soul_stalchildren, $can_play_song|sonata, $can_smack_hard"
             ]
           },
           {
@@ -249,7 +249,7 @@
             //"visibility_rules": ["rocksanity"],
             "item_count": 5,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_rocks $has_explosives, $can_play_sonata"]
+            "access_rules": ["$has_absurd_soul|soul_rocks $has_explosives, $can_play_song|sonata"]
           },
           {
             "name": "Lower Grass",
@@ -419,8 +419,8 @@
             "name": "Healing Pamela's Father",
             "chest_unopened_img": "images/masks/gibdo.png",
             "access_rules": [
-              "easy_logic, $can_use_ice_arrows, $can_play_healing, $can_play_storms, $baby_has_explosives, stonemask",
-              "normal_logic, $has_npc_soul|soul_pamela_father, $has_npc_soul|soul_composer_poe, $can_use_ice_arrows, $can_play_healing, $can_play_storms"
+              "easy_logic, $can_use_ice_arrows, $can_play_song|healing, $can_play_song|storms, $baby_has_explosives, stonemask",
+              "normal_logic, $has_npc_soul|soul_pamela_father, $has_npc_soul|soul_composer_poe, $can_use_ice_arrows, $can_play_song|healing, $can_play_song|storms"
             ]
           },
           {
@@ -467,7 +467,7 @@
             "item_count": 2,
             "access_rules": [
               "$has_absurd_soul|soul_pots, hookshot, goron, zora, elegy",
-              "$has_absurd_soul|soul_pots, $can_use_stonetower_owl"
+              "$has_absurd_soul|soul_pots, $can_use_owl|owl_stone_tower"
             ]
           },
           {
@@ -475,7 +475,7 @@
             "item_count": 12,
             "access_rules": [
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, goron, zora, elegy",
-              "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, $can_use_stonetower_owl"
+              "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, $can_use_owl|owl_stone_tower"
             ]
           },
           {
@@ -483,7 +483,7 @@
             "item_count": 9,
             "access_rules": [
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, goron, zora, elegy",
-              "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, $can_use_stonetower_owl"
+              "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, $can_use_owl|owl_stone_tower"
             ]
           },
           {
@@ -491,7 +491,7 @@
             "item_count": 4,
             "access_rules": [
               "$has_absurd_soul|soul_pots, hookshot, goron, zora, elegy",
-              "$has_absurd_soul|soul_pots, $can_use_stonetower_owl"
+              "$has_absurd_soul|soul_pots, $can_use_owl|owl_stone_tower"
             ]
           }
         ],

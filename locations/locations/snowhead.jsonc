@@ -55,14 +55,14 @@
           {
             "name": "Healing Darmani",
             "chest_unopened_img": "images/masks/goron.png",
-            "access_rules": ["$can_use_lens, $can_play_healing"]
+            "access_rules": ["$can_use_lens, $can_play_song|healing"]
           },
           {
             "name": "Hungry Goron",
             "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
-              "easy_logic, $can_play_lullaby, $can_use_fire_arrows",
-              "normal_logic, $has_npc_soul|soul_hungry_goron, goron, magic, $can_play_lullaby",
+              "easy_logic, $can_play_song|goronlullaby, $can_use_fire_arrows",
+              "normal_logic, $has_npc_soul|soul_hungry_goron, goron, magic, $can_play_song|goronlullaby",
               "normal_logic, $has_npc_soul|soul_hungry_goron, goron, $can_use_fire_arrows"
             ]
           },
@@ -273,20 +273,20 @@
             "name": "Goron Elder Request",
             "chest_unopened_img": "images/characters/elder_goron.png",
             "access_rules": [
-              "easy_logic, goron, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_has_bottle",
+              "easy_logic, goron, $can_use_fire_arrows, $can_use_lens, $can_play_song|healing, $baby_has_bottle",
               "normal_logic, $has_npc_soul|soul_goron_elder, goron, $can_use_fire_arrows",
               "normal_logic, $has_npc_soul|soul_goron_elder, goron, $has|bottles|1, $can_use_lens",
-              "normal_logic, $has_npc_soul|soul_goron_elder, goron, $has|bottles|1, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, owl_mountain"
+              "normal_logic, $has_npc_soul|soul_goron_elder, goron, $has|bottles|1, @Dungeons/Beneath the Well/Invisible Chest, $can_play_song|soaring, owl_mountain"
             ]
           },
           {
             "name": "Hot Water Grotto Chest",
             "access_rules": [
-              "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_clear_snowhead",
+              "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $can_use_lens, $can_play_song|healing, $baby_clear_snowhead",
               "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, $can_use_fire_arrows",
               "normal_logic, $has_absurd_soul|soul_grottos, $can_use_lens, goron, $has|bottles|1, $has_explosives",
               "normal_logic, $has_absurd_soul|soul_grottos, $clear_snowhead",
-              "normal_logic, $has_absurd_soul|soul_grottos, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, owl_mountain"
+              "normal_logic, $has_absurd_soul|soul_grottos, @Dungeons/Beneath the Well/Invisible Chest, $can_play_song|soaring, owl_mountain"
             ]
           },
           {
@@ -428,8 +428,8 @@
             "name": "Baby Goron Lullaby",
             "chest_unopened_img": "images/equipment/song_lullaby_no_text.png",
             "access_rules": [
-              "easy_logic, goron, $can_play_lullaby, $can_use_lens, $can_play_healing, $can_use_fire_arrows, $baby_has_bottle",
-              "normal_logic, goron, $can_play_lullaby"
+              "easy_logic, goron, $can_play_song|goronlullaby, $can_use_lens, $can_play_song|healing, $can_use_fire_arrows, $baby_has_bottle",
+              "normal_logic, goron, $can_play_song|goronlullaby"
             ]
           },
           {

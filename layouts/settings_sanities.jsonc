@@ -1,0 +1,92 @@
+{
+  "settings_sanities": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": 5,
+    "content": [
+      {
+        "type": "array",
+				"orientation": "vertical",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"content": [
+              {
+                "type": "group",
+                "header": "Sanities",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "small_key_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "boss_key_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "skullsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "required_skull_tokens"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "fairysanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "required_stray_fairies"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "shopsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "scrubsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "cowsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "scarecrow_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "frogsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "grass_sanity"
+                  }
+                ]
+              }
+						]
+					}
+				]
+      }
+    ]
+  }
+}

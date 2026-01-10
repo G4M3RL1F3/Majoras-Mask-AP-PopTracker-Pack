@@ -1,0 +1,42 @@
+{
+  "settings_goals": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": 5,
+    "content": [
+      {
+        "type": "array",
+				"orientation": "vertical",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"content": [
+              {
+                "type": "group",
+                "header": "Goal Settings",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "moon_remains_required"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "majora_remains_required"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "boss_warps_with_remains"
+                  }
+                ]
+              }
+						]
+					}
+				]
+      }
+    ]
+  }
+}

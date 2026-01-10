@@ -158,44 +158,39 @@ function bottleCount(bottles_needed)
     end
     if current_bottle_count >= bottles_needed then
         return true
+    else
+        return false
     end
 end
 
-function remainCount()
-    local remains_count = Tracker:FindObjectForCode("remains_count")
-    remains_count.AcquiredCount = remains_count.MinCount
+function remainCount(check)
+    local remains_count
+    remains_count = 0
     if Tracker:FindObjectForCode("odolwa").Active then
-        if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
-            remains_count.AcquiredCount = remains_count.MaxCount
-        else
-            remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
-        end
+        remains_count = remains_count + 1
     end
     if Tracker:FindObjectForCode("goht").Active then
-        if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
-            remains_count.AcquiredCount = remains_count.MaxCount
-        else
-            remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
-        end
+        remains_count = remains_count + 1
     end
     if Tracker:FindObjectForCode("gyorg").Active then
-        if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
-            remains_count.AcquiredCount = remains_count.MaxCount
-        else
-            remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
-        end
+        remains_count = remains_count + 1
     end
     if Tracker:FindObjectForCode("twinmold").Active then
-        if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
-            remains_count.AcquiredCount = remains_count.MaxCount
+        remains_count = remains_count + 1
+    end
+    if check == "moon" then
+        if remains_count >= Tracker:FindObjectForCode("moon_remains_required").AcquiredCount then
+            return true
         else
-            remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
+            return false
         end
     end
-    if remains_count.AcquiredCount >= Tracker:FindObjectForCode("moon_remains_required").AcquiredCount then
-        Tracker:FindObjectForCode("remains_moon").Active = true
-    else
-        Tracker:FindObjectForCode("remains_moon").Active = false
+    if check == "majora" then
+        if remains_count >= Tracker:FindObjectForCode("majora_remains_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
     end
 end
 
@@ -535,11 +530,6 @@ end
 
 ScriptHost:AddWatchForCode("OdolwaDefeated", "boss_odolwa_hosted", clear_wft)
 ScriptHost:AddWatchForCode("GohtDefeated", "boss_goht_hosted", clear_sht)
-ScriptHost:AddWatchForCode("OdolwaObtained", "odolwa", remainCount)
-ScriptHost:AddWatchForCode("GohtObtained", "goht", remainCount)
-ScriptHost:AddWatchForCode("GyorgObtained", "gyorg", remainCount)
-ScriptHost:AddWatchForCode("TwinmoldObtained", "twinmold", remainCount)
-ScriptHost:AddWatchForCode("MoonRemainsCountUpdated", "moon_remains_required", remainCount)
 ScriptHost:AddWatchForCode("ClockTownMapPurchased1", "clock_town_map_purchase_1", clock_town_map_purchased_1)
 ScriptHost:AddWatchForCode("ClockTownMapPurchased2", "clock_town_map_purchase_2", clock_town_map_purchased_2)
 ScriptHost:AddWatchForCode("SnowheadMapPurchased1", "snowhead_map_purchase_1", snowhead_map_purchased_1)

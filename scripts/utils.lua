@@ -126,3 +126,11 @@ function has_enemy_soul(soul)
     return has(soul)
   end
 end
+
+function has_boss_soul(soul)
+  if Tracker:FindObjectForCode("boss_souls").Active == false then
+    return true
+  else
+    return has(soul)
+  end
+end

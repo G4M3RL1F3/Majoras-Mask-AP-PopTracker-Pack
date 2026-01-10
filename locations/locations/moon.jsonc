@@ -234,10 +234,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_npc_soul|soul_moon_kid, $boss_souls_off, $has_absurd_soul|soul_pots",
-              "$has_npc_soul|soul_moon_kid, boss_souls, soul_majora, $has_absurd_soul|soul_pots"
-            ]
+            "access_rules": ["$remainCount|majora, $has_npc_soul|soul_moon_kid, $has_boss_soul|soul_majora, $has_absurd_soul|soul_pots"]
           }
         ],
         "map_locations": [

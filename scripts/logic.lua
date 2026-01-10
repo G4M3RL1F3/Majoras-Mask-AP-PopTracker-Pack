@@ -35,11 +35,11 @@ function has_paper()
 end
 
 function can_get_cow_milk()
-    return has_misc_soul("soul_cow") and has_absurd_soul("soul_grottos") and has("bottles", 1) and can_play_song("epona") and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has_npc_soul("soul_barten") and has("romani")) or (has("gibdo") and has_npc_soul("soul_gibdos") and has("bottles", 1) and can_plant_beans() and Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") or can_use_light_arrows() and (Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") or (has("goron") and can_use_lens()) or Tracker:FindObjectForCode("@Dungeons/Beneath the Well/Invisible Chest"))))
+    return has_misc_soul("soul_cow") and has_absurd_soul("soul_grottos") and bottleCount(1) and can_play_song("epona") and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has_npc_soul("soul_barten") and has("romani")) or (has("gibdo") and has_npc_soul("soul_gibdos") and bottleCount(1) and can_plant_beans() and Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") or can_use_light_arrows() and (Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") or (has("goron") and can_use_lens()) or Tracker:FindObjectForCode("@Dungeons/Beneath the Well/Invisible Chest"))))
 end
 
 function can_plant_beans()
-    return can_get_magic_beans() and (has("bottles", 1) or can_play_song("storms"))
+    return can_get_magic_beans() and (bottleCount(1) or can_play_song("storms"))
 end
 
 function can_use_powder_keg()
@@ -534,11 +534,6 @@ end
 
 ScriptHost:AddWatchForCode("OdolwaDefeated", "boss_odolwa_hosted", clear_wft)
 ScriptHost:AddWatchForCode("GohtDefeated", "boss_goht_hosted", clear_sht)
-ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottleCount)
-ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", bottleCount)
-ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", bottleCount)
-ScriptHost:AddWatchForCode("bottlecounter_gold", "gold_dust", bottleCount)
-ScriptHost:AddWatchForCode("bottlecounter_empty_bottle", "empty_bottle", bottleCount)
 ScriptHost:AddWatchForCode("OdolwaObtained", "odolwa", remainCount)
 ScriptHost:AddWatchForCode("GohtObtained", "goht", remainCount)
 ScriptHost:AddWatchForCode("GyorgObtained", "gyorg", remainCount)

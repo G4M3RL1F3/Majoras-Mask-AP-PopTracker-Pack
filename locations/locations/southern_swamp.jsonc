@@ -90,7 +90,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": ["pot_sanity"]
           }
         ],
         "map_locations": [
@@ -375,14 +376,16 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Southern Swamp Post Dungeon Witch Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $clear_woodfall"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $clear_woodfall"],
+            "visibility_rules": ["pot_sanity"]
           }
         ],
         "map_locations": [
@@ -517,7 +520,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, deku, $can_plant_beans"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, deku, $can_plant_beans"],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Right Side Rupees",
@@ -684,7 +688,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": ["pot_sanity"]
           }
         ],
         "map_locations": [
@@ -713,7 +718,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $clear_woodfall"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $clear_woodfall"],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Deku Butler Race Rupees",

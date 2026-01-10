@@ -95,14 +95,16 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": "pot_sanity"
           },
           {
             "name": "Great Bay Coast Rock Pool Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": "pot_sanity"
           },
           {
             "name": "Underwater Rocks Below Rock Pool (Bombchu Only)",
@@ -125,7 +127,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": "pot_sanity"
           }
         ]
       },
@@ -220,14 +223,16 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": "pot_sanity"
           },
           {
             "name": "Great Bay Coast Upper Rock Wall Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, hookshot"]
+            "access_rules": ["$has_absurd_soul|soul_pots, hookshot"],
+            "visibility_rules": "pot_sanity"
           },
           {
             "name": "Rock Wall Rocks",
@@ -282,7 +287,8 @@
             "access_rules": [
               "$has_npc_soul|soul_potgame_hall_zora, $has_absurd_soul|soul_pots, zora",
               "$has_npc_soul|soul_potgame_hall_zora, $has_absurd_soul|soul_pots, goron, keg"
-            ]
+            ],
+            "visibility_rules": "pot_sanity"
           },
           {
             "name": "Beach Rocks",
@@ -364,7 +370,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": "pot_sanity"
           }
         ]
       },
@@ -484,7 +491,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 11,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_fisherman, $can_reach_seahorse, $bottleCount|1, zora"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_fisherman, $can_reach_seahorse, $bottleCount|1, zora"],
+            "visibility_rules": "pot_sanity"
           }
         ]
       }

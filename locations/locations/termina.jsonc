@@ -75,7 +75,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $has_projectiles"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_projectiles"],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Eastern Pillar Rupee",
@@ -516,7 +517,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"]
+            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Observatory Soil",
@@ -556,7 +558,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_pots"],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Business Scrub Crate",

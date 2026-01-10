@@ -288,6 +288,13 @@
     "disabled_img": "images/pack_settings/sanities/grass_sanity_off.png",
     "codes": "grass_sanity"
   },
+  {
+    "name": "Pot Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/pot_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/pot_sanity_off.png",
+    "codes": "pot_sanity"
+  },
 
   // Inventory
   {

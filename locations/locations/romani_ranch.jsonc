@@ -138,7 +138,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": "pot_sanity"
           },
           {
             "name": "Cucco Shack Hitspots",
@@ -181,7 +182,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": "pot_sanity"
           },
           {
             "name": "Doggy Racetrack Soil",

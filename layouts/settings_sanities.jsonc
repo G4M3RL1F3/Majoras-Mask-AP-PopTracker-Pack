@@ -82,6 +82,16 @@
                     "item": "grass_sanity"
                   }
                 ]
+              },
+              {
+                "type": "group",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "pot_sanity"
+                  }
+                ]
               }
 						]
 					}

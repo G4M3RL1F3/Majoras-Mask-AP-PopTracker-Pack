@@ -150,28 +150,32 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $has_hard_projectiles"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_hard_projectiles"],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Mountain Village Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Mountain Smithy Pots Inide at Night",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Mountain Village Springtime Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $clear_snowhead"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $clear_snowhead"],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Spring Rock Triangle",
@@ -328,7 +332,8 @@
             "access_rules": [
               "$has_absurd_soul|soul_pots, goron, keg",
               "$has_absurd_soul|soul_pots, goron, $can_use_fire_arrows"
-            ]
+            ],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Twin Islands Springtime Grass",
@@ -485,7 +490,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 11,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_rocks, goron", "$has_absurd_soul|soul_pots, $has_npc_soul|soul_medigoron"]
+            "access_rules": ["$has_absurd_soul|soul_rocks, goron", "$has_absurd_soul|soul_pots, $has_npc_soul|soul_medigoron"],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Goron Shrine Rocks",

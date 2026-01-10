@@ -626,7 +626,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"]
+            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"],
+            "visibility_rules": "pot_sanity"
           }
         ],
         "map_locations": [
@@ -848,7 +849,8 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 5,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, sword"]
+            "access_rules": ["$has_absurd_soul|soul_pots, sword"],
+            "visibility_rules": "pot_sanity"
           },
           {
             "name": "Sword School Gong (Strike At Top Of Hour)",
@@ -1047,7 +1049,8 @@
             "access_rules": [
               "$has_absurd_soul|soul_pots, $can_warp_out",
               "$has_absurd_soul|soul_pots, $can_play_song|time"
-            ]
+            ],
+            "visibility_rules": "pot_sanity"
           }
         ],
         "map_locations": [
@@ -1233,7 +1236,8 @@
           {
             "name": "Trading Post Pot",
             "chest_unopened_img": "images/icons/pot.png",
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": "pot_sanity"
           }
         ]
       },

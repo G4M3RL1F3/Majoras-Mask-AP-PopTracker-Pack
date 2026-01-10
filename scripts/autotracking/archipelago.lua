@@ -189,6 +189,8 @@ function onClear(slot_data)
     setFromSlotData("enemy_souls","enemy_souls")
     setFromSlotData("scarecrowsanity","scarecrow_sanity")
     setFromSlotData("frogsanity","frogsanity")
+    setFromSlotData("grasssanity","grass_sanity")
+    setFromSlotData("potsanity","pot_sanity")
     --for _, trick in ipairs(slot_data["logic_tricks"]) do
     --    Tracker:FindObjectForCode(LOGIC_TRICK_MAPPING[string.format("%s", trick)]).Active = true
     --end

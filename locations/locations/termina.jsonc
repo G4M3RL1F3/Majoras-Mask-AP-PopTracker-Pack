@@ -36,7 +36,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has|bottles|1"]
+            "access_rules": ["$bottleCount|1"]
           },
           {
             "name": "Stump Soil",
@@ -44,7 +44,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["$has|bottles|1"]
+            "access_rules": ["$bottleCount|1"]
           }
         ],
         "map_locations": [
@@ -90,7 +90,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["$has|bottles|1"]
+            "access_rules": ["$bottleCount|1"]
           }
         ],
         "map_locations": [
@@ -524,7 +524,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has|bottles|1, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"]
+            "access_rules": ["$bottleCount|1, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"]
           }
         ],
         "map_locations": [

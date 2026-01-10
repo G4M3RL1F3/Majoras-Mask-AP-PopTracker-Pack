@@ -1476,8 +1476,8 @@
             "chest_unopened_img": "images/masks/truth.png",
             "access_rules": [
               "$checkRequirements|required_skull_tokens|skull_ss, $has_npc_soul|soul_spider_man",
-              "skullsanity_0, $has_npc_soul|soul_spider_man, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token",
-              "skullsanity_2, $has_npc_soul|soul_spider_man, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token"
+              "skullsanity_0, $has_npc_soul|soul_spider_man, $can_smack, $bottleCount|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token",
+              "skullsanity_2, $has_npc_soul|soul_spider_man, $can_smack, $bottleCount|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token"
             ]
             //"visibility_rules": ["shuffle_swamphouse_reward"]
           },
@@ -1542,7 +1542,7 @@
             "name": "Swamphouse First Room Left Bugpatch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_bottle",
-              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $has|bottles|1"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $bottleCount|1"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1550,7 +1550,7 @@
             "name": "Swamphouse First Room Right Bugpatch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_bottle",
-              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $has|bottles|1"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $bottleCount|1"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1558,7 +1558,7 @@
             "name": "Swamphouse First Room Upper Right Bugpatch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_bottle",
-              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $has|bottles|1"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $bottleCount|1"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1633,7 +1633,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has|bottles|1"]
+            "access_rules": ["$bottleCount|1"]
           },
           {
             "name": "Swamp Spider House Giant Jar Room Pots",
@@ -1735,7 +1735,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["$has|bottles|1"]
+            "access_rules": ["$bottleCount|1"]
           },
           {
             "name": "Swamphouse Golden Room Crawling Left Wall Token",
@@ -2126,7 +2126,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has|bottles|1"]
+            "access_rules": ["$bottleCount|1"]
           },
           {
             "name": "Secret Shrine Entrance Rupees",
@@ -2242,16 +2242,16 @@
             "visibility_rules": ["cowsanity"],
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, $can_play_song|epona, $baby_can_plant_beans, $can_use_light_arrows, maskofscents, adultswallet, zora",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_plant_beans, maskofscents",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_plant_beans, adultswallet",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_plant_beans, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_plant_beans, $can_play_song|soaring, $can_use_lens, goron",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_use_light_arrows, maskofscents",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_use_light_arrows, adultswallet",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_use_light_arrows, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_use_light_arrows, $can_play_song|soaring, $can_use_lens, goron",
-              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_play_song|epona, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_plant_beans, maskofscents",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_plant_beans, adultswallet",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_plant_beans, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_plant_beans, $can_play_song|soaring, $can_use_lens, goron",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_use_light_arrows, maskofscents",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_use_light_arrows, adultswallet",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_use_light_arrows, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_use_light_arrows, $can_play_song|soaring, $can_use_lens, goron",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
             ]
           },
           {
@@ -2260,16 +2260,16 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, maskofscents",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, adultswallet",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, $can_play_song|soaring, $can_use_lens, goron",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, maskofscents",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, adultswallet",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, $can_play_song|soaring, $can_use_lens, goron",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, maskofscents",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, adultswallet",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, $can_play_song|soaring, $can_use_lens, goron",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, maskofscents",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, adultswallet",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, $can_play_song|soaring, $can_use_lens, goron",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
             ],
             "visibility_rules": ["grass_sanity"]
           },
@@ -2288,8 +2288,8 @@
             "name": "Invisible Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, adultswallet, maskofscents, $can_use_fire_arrows, $can_use_lens",
-              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, adultswallet",
-              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, maskofscents"
+              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, adultswallet",
+              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, maskofscents"
             ]
           },
           {
@@ -2298,8 +2298,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, adultswallet",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, maskofscents"
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, adultswallet",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, maskofscents"
             ],
             "visibility_rules": ["grass_sanity"]
           },
@@ -2308,14 +2308,14 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 5,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, maskofscents"]
+            "access_rules": ["$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, maskofscents"]
           },
           {
             "name": "Rightside Torch Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, $baby_can_plant_beans, $can_use_light_arrows",
-              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans",
-              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows"
+              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans",
+              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows"
             ]
           },
           {
@@ -2324,8 +2324,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, bombs",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow"
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, bombs",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, captainhat, bow"
             ],
             "visibility_rules": ["grass_sanity"]
           },
@@ -2335,8 +2335,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/icons/pot.png",
             "access_rules": [
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_use_light_arrows"
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows"
             ]
             //"visibility_rules": ["absurd_souls"]
           },
@@ -2346,7 +2346,7 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/icons/pot.png",
             "access_rules": [
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, bombs, $has|bottles|1, $can_plant_beans",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, bombs, $bottleCount|1, $can_plant_beans",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, bombs, $can_use_light_arrows"
             ]
             //"visibility_rules": ["absurd_souls"]
@@ -2355,8 +2355,8 @@
             "name": "Final Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, $baby_can_plant_beans, $can_use_light_arrows, bombs, captainhat, bow",
-              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, bombs",
-              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow",
+              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, bombs",
+              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, captainhat, bow",
               "normal_logic, $can_use_light_arrows, $can_use_fire_arrows"
             ]
           }

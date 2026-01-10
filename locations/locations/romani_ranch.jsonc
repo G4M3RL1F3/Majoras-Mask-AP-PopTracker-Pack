@@ -189,7 +189,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["$has|bottles|1"]
+            "access_rules": ["$bottleCount|1"]
           }
         ],
         "map_locations": [
@@ -315,7 +315,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["$can_use_powder_keg, $has|bottles|1"]
+            "access_rules": ["$can_use_powder_keg, $bottleCount|1"]
           },
           {
             "name": "Day 2/3 Soil",
@@ -323,7 +323,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has|bottles|1"]
+            "access_rules": ["$bottleCount|1"]
           }
         ],
         "map_locations": [

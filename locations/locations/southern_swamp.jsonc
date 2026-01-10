@@ -205,14 +205,14 @@
           {
             "name": "Southern Swamp Healing Koume",
             "chest_unopened_img": "images/items/pictobox.png",
-            "access_rules": ["$has_npc_soul|soul_koume, $has|bottles|1"]
+            "access_rules": ["$has_npc_soul|soul_koume, $bottleCount|1"]
           },
           {
             "name": "Southern Swamp Boat Archery",
             "chest_unopened_img": "images/icons/archery.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, redpotion, chateau, bow",
-              "normal_logic, $has_npc_soul|soul_koume, $clear_woodfall, $has|bottles|1, bow"
+              "normal_logic, $has_npc_soul|soul_koume, $clear_woodfall, $bottleCount|1, bow"
             ]
           },
           {
@@ -294,7 +294,7 @@
             "chest_unopened_img": "images/items/blue_potion.png",
             "item_count": 500,
             "clear_as_group": true,
-            "access_rules": ["$has_npc_soul|soul_kotake, maskofscents, $has|bottles|1, $can_afford|$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 1"],
+            "access_rules": ["$has_npc_soul|soul_kotake, maskofscents, $bottleCount|1, $can_afford|$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 1"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -539,7 +539,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has|bottles|1"]
+            "access_rules": ["$bottleCount|1"]
           },
           {
             "name": "Guarded Boulders",
@@ -589,7 +589,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has|bottles|1"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $bottleCount|1"]
           }
         ],
         "map_locations": [
@@ -703,9 +703,9 @@
             "chest_unopened_img": "images/characters/butler.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, $baby_has_bottle",
-              "normal_logic, $clear_woodfall, $has|bottles|1, sword",
-              "normal_logic, $clear_woodfall, $has|bottles|1, fairysword",
-              "normal_logic, $clear_woodfall, $has|bottles|1, fiercedeity"
+              "normal_logic, $clear_woodfall, $bottleCount|1, sword",
+              "normal_logic, $clear_woodfall, $bottleCount|1, fairysword",
+              "normal_logic, $clear_woodfall, $bottleCount|1, fiercedeity"
             ]
           },
           {

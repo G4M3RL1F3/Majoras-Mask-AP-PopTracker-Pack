@@ -136,49 +136,27 @@ end
 
 -- This function's purpose is for counting how many bottles have been acquired.
 -- Currently used to check if the player has any bottle so that it can be accounted for logic.
-function bottleCount()
-    local bottle_count = Tracker:FindObjectForCode("bottles")
-    bottle_count.AcquiredCount = bottle_count.MinCount
+function bottleCount(bottles_needed)
+    local current_bottle_count
+    current_bottle_count = 0
     if Tracker:FindObjectForCode("milk").Active then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
+        current_bottle_count = current_bottle_count + 1
     end
     if Tracker:FindObjectForCode("chateau").Active then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
+        current_bottle_count = current_bottle_count + 1
     end
     if Tracker:FindObjectForCode("redpotion").Active then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
-    end
-    if Tracker:FindObjectForCode("gold_dust").Active then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
+        current_bottle_count = current_bottle_count + 1
     end
     if Tracker:FindObjectForCode("empty_bottle").AcquiredCount == 1 then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
+        current_bottle_count = current_bottle_count + 1
     elseif Tracker:FindObjectForCode("empty_bottle").AcquiredCount == 2 then
-        if (bottle_count.AcquiredCount + bottle_count.Increment + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment + bottle_count.Increment
-        end
+        current_bottle_count = current_bottle_count + 2
+    elseif Tracker:FindObjectForCode("empty_bottle").AcquiredCount == 3 then
+        current_bottle_count = current_bottle_count + 3
+    end
+    if current_bottle_count >= bottles_needed then
+        return true
     end
 end
 

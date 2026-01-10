@@ -1347,8 +1347,8 @@
             "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
               "easy_logic, @Southern Swamp/Southern Swamp Witch Shop/Item 1, $baby_can_get_cow_milk",
-              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $has|bottles|1, maskofscents",
-              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $has|bottles|1, $can_get_cow_milk"
+              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $bottleCount|1, maskofscents",
+              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $bottleCount|1, $can_get_cow_milk"
             ]
           },
           {
@@ -1357,7 +1357,7 @@
             "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
               "easy_logic, $baby_has_bottle",
-              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $has|bottles|1"
+              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $bottleCount|1"
             ]
           },
           {
@@ -1366,7 +1366,7 @@
             "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
               "easy_logic, $baby_has_bottle, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest",
-              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $has|bottles|1, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest"
+              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $bottleCount|1, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest"
             ]
           },
           {
@@ -1375,10 +1375,10 @@
             "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
               "easy_logic, $baby_has_bottle, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
-              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $has|bottles|1, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest",
-              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $has|bottles|1, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
-              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $has|bottles|1, romani, adultswallet",
-              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $has|bottles|1, @Snowhead/Twin Islands/Goron Racetrack Prize"
+              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $bottleCount|1, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest",
+              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $bottleCount|1, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
+              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $bottleCount|1, romani, adultswallet",
+              "normal_logic, $has_npc_soul|soul_curiosity_shop_man, $bottleCount|1, @Snowhead/Twin Islands/Goron Racetrack Prize"
             ]
           }
         ]

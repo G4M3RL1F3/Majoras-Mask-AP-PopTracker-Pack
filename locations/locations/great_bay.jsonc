@@ -54,8 +54,8 @@
             "chest_unopened_img": "images/equipment/song_bossa_nova_no_text.png",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest",
-              "normal_logic, $has_npc_soul|soul_researcher, $has|bottles|1, $can_reach_seahorse",
-              "normal_logic, $has_npc_soul|soul_researcher, $has|bottles|1, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
+              "normal_logic, $has_npc_soul|soul_researcher, $bottleCount|1, $can_reach_seahorse",
+              "normal_logic, $has_npc_soul|soul_researcher, $bottleCount|1, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
             ]
           },
           {
@@ -79,7 +79,7 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_bottle, zora",
-              "normal_logic, $has|bottles|1"
+              "normal_logic, $bottleCount|1"
             ]
           },
           {
@@ -154,7 +154,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["hookshot, $has|bottles|1"]
+            "access_rules": ["hookshot, $bottleCount|1"]
           },
           {
             "name": "Ledge Grotto Left Cow",
@@ -410,7 +410,7 @@
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, zora, $baby_has_bottle",
-              "normal_logic, $has_npc_soul|soul_business_scrub, zora, $has|bottles|1"
+              "normal_logic, $has_npc_soul|soul_business_scrub, zora, $bottleCount|1"
             ]
           },
           {
@@ -463,21 +463,21 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle",
-              "normal_logic, $has_npc_soul|soul_fisherman, $has_enemy_soul|soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $has_npc_soul|soul_fisherman, $has_enemy_soul|soul_pirate_guards, $can_reach_seahorse, $bottleCount|1, zora"
             ]
           },
           {
             "name": "Upper Eel Chest",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
-              "normal_logic, $has_npc_soul|soul_fisherman, $has_enemy_soul|soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $has_npc_soul|soul_fisherman, $has_enemy_soul|soul_pirate_guards, $can_reach_seahorse, $bottleCount|1, zora"
             ]
           },
           {
             "name": "Lower Eel Chest",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
-              "normal_logic, $has_npc_soul|soul_fisherman, $has_enemy_soul|soul_pirate_guards, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $has_npc_soul|soul_fisherman, $has_enemy_soul|soul_pirate_guards, $can_reach_seahorse, $bottleCount|1, zora"
             ]
           },
           {
@@ -485,7 +485,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 11,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_fisherman, $can_reach_seahorse, $has|bottles|1, zora"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_fisherman, $can_reach_seahorse, $bottleCount|1, zora"]
           }
         ]
       }

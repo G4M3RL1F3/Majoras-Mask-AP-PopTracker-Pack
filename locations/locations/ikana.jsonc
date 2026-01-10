@@ -60,7 +60,7 @@
             "chest_unopened_img": "images/characters/shiro.png",
             "access_rules": [
               "easy_logic, $can_play_song|epona, $baby_has_bottle, $can_use_lens",
-              "normal_logic, $has_npc_soul|soul_shiro, $can_play_song|epona, $has|bottles|1, $can_use_lens"
+              "normal_logic, $has_npc_soul|soul_shiro, $can_play_song|epona, $bottleCount|1, $can_use_lens"
             ]
           },
           {
@@ -332,7 +332,7 @@
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, $baby_has_bottle, adultswallet",
-              "normal_logic, $has_npc_soul|soul_business_scrub, $has|bottles|1, adultswallet"
+              "normal_logic, $has_npc_soul|soul_business_scrub, $bottleCount|1, adultswallet"
             ]
           },
           {
@@ -393,7 +393,7 @@
           //  "visibility_rules": ["scrubsanity"],
           //  "access_rules": [
           //    "easy_logic, zora, $baby_has_bottle, adultswallet",
-          //    "normal_logic, zora, $has|bottles|1, adultswallet"
+          //    "normal_logic, zora, $bottleCount|1, adultswallet"
           //  ]
           //},
           //{
@@ -524,7 +524,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["$has|bottles|1"]
+            "access_rules": ["$bottleCount|1"]
           },
           {
             "name": "Inverted Upper Soil",
@@ -532,7 +532,7 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 1,
             "clear_as_group": false,
-            "access_rules": ["$can_plant_beans, $has|bottles|1"]
+            "access_rules": ["$can_plant_beans, $bottleCount|1"]
           },
           {
             "name": "Left Chest",

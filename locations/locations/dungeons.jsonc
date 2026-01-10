@@ -86,9 +86,9 @@
             "name": "Woodfall Temple Dinolfos Chest",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard",
-              "normal_logic, $has_enemy_soul|soul_dinolfols, smallkey_wf, $can_smack",
-              "normal_logic, $has_enemy_soul|soul_dinolfols, $small_key_sanity_off, $can_smack",
-              "normal_logic, $has_enemy_soul|soul_dinolfols, bow"
+              "normal_logic, $has_enemy_soul|soul_dinolfos, smallkey_wf, $can_smack",
+              "normal_logic, $has_enemy_soul|soul_dinolfos, $small_key_sanity_off, $can_smack",
+              "normal_logic, $has_enemy_soul|soul_dinolfos, bow"
             ]
           },
           {
@@ -1015,7 +1015,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "access_rules": [
-              "$has_absurd_soul|soul_pots, $smallkey_gb",
+              "$has_absurd_soul|soul_pots, smallkey_gb",
               "$has_absurd_soul|soul_pots, $small_key_sanity_off"
             ]
           },
@@ -1037,7 +1037,7 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": [
-              "$has_absurd_soul|soul_pots, $smallkey_gb",
+              "$has_absurd_soul|soul_pots, smallkey_gb",
               "$has_absurd_soul|soul_pots, $small_key_sanity_off"
             ]
           },
@@ -1435,7 +1435,7 @@
             //"visibility_rules": ["woodsanity"],
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$pirates_fotress_inerior, $has_absurd_soul|soul_barrels, bow"]
+            "access_rules": ["$pirates_fortress_interior, $has_absurd_soul|soul_barrels, bow"]
           },
           {
             "name": "Indoor Pirate Flag Eye Hitspots",
@@ -1858,7 +1858,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, has_explosives"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_explosives"]
           },
           {
             "name": "Lobby Ceiling Token",
@@ -2279,8 +2279,8 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdo, gibdo, $can_plant_beans",
-              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdo, gibdo, $can_use_light_arrows"
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $can_plant_beans",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $can_use_light_arrows"
             ],
             "visibility_rules": ["grass_sanity"]
           },
@@ -2442,10 +2442,7 @@
           {
             "name": "Pillar Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "normal_logic, $absurd_souls_off, deku, $can_use_lens, $can_use_fire_arrows",
-              "normal_logic, absurd_souls, soul_deku_flowers, deku, $can_use_lens, $can_use_fire_arrows"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_lens, $can_use_fire_arrows"]
           },
           {
             "name": "King Song",
@@ -2857,7 +2854,7 @@
             "name": "Gomess Chest",
             "access_rules": [
               "easy_logic, deku, $can_use_light_arrows, fairysword, fiercedeity",
-              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_absurd_soul|soul_gomess, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $can_use_light_arrows, $can_smack_hard"
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_gomess, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $can_use_light_arrows, $can_smack_hard"
             ]
           },
           {
@@ -2871,8 +2868,8 @@
             "name": "Eyegore Chest",
             "access_rules": [
               "easy_logic, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $baby_has_explosives, $baby_has_projectiles",
-              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_absurd_soul|soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $has|smallkey_st|4",
-              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_absurd_soul|soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $small_key_sanity_off"
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $has|smallkey_st|4",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $small_key_sanity_off"
             ]
           },
           {

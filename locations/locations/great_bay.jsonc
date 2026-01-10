@@ -144,8 +144,7 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, hookshot, $baby_can_plant_beans",
-              "normal_logic, $can_reach_scarecrow|scarecrow_gb_coast_rock_wall, $npc_souls_off, hookshot, $can_plant_beans",
-              "normal_logic, $can_reach_scarecrow|scarecrow_gb_coast_rock_wall, npc_souls, soul_scarecrow, hookshot, $can_plant_beans"
+              "normal_logic, $can_reach_scarecrow|scarecrow_gb_coast_rock_wall, $has_npc_soul|soul_scarecrow, hookshot, $can_plant_beans"
             ]
           },
           {
@@ -439,12 +438,12 @@
           {
             "name": "Good Picture of Lulu",
             "chest_unopened_img": "images/characters/zora.png",
-            "access_rules": ["$has_npc_soul|soul_potgame_hall_zora, soul_lulu, zora, pictobox"]
+            "access_rules": ["$has_npc_soul|soul_potgame_hall_zora, $has_npc_soul|soul_lulu, zora, pictobox"]
           },
           {
             "name": "Bad Picture of Lulu",
             "chest_unopened_img": "images/characters/zora.png",
-            "access_rules": ["$has_npc_soul|soul_potgame_hall_zora, soul_lulu, zora, pictobox"]
+            "access_rules": ["$has_npc_soul|soul_potgame_hall_zora, $has_npc_soul|soul_lulu, zora, pictobox"]
           }
         ]
       },

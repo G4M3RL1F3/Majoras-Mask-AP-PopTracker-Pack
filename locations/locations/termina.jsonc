@@ -242,7 +242,7 @@
             "name": "Defeat Peahat (Daytime Only)",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard",
-              "normal_logic, $has_absurd_soul|soul_grottos, $has_enemy_soul|soul_peahat"
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_enemy_soul|soul_peahats"
             ]
           },
           {
@@ -548,7 +548,7 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, wallet",
-              "normal_logic, $has_absurd_soul|soul_grottos, $has_npc_soul|soul_business_scrub, $has_npc_soul|soul_astral_man, $has_projectiles, adultwallet"
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_npc_soul|soul_business_scrub, $has_npc_soul|soul_astral_man, $has_projectiles, adultswallet"
             ]
           },
           {

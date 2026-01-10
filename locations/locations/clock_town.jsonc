@@ -443,10 +443,10 @@
             "chest_unopened_img": "images/characters/bomb_shop_lady.png",
             "access_rules": [
               "easy_logic, sword, fairysword",
-              "normal_logic, $has_npc_soul|soul_bomb_shop_lady, soul_sakon, sword",
-              "normal_logic, $has_npc_soul|soul_bomb_shop_lady, soul_sakon, fairysword",
-              "normal_logic, $has_npc_soul|soul_bomb_shop_lady, soul_sakon, zora",
-              "normal_logic, $has_npc_soul|soul_bomb_shop_lady, soul_sakon, goron"
+              "normal_logic, $has_npc_soul|soul_bomb_shop_lady, $has_npc_soul|soul_sakon, sword",
+              "normal_logic, $has_npc_soul|soul_bomb_shop_lady, $has_npc_soul|soul_sakon, fairysword",
+              "normal_logic, $has_npc_soul|soul_bomb_shop_lady, $has_npc_soul|soul_sakon, zora",
+              "normal_logic, $has_npc_soul|soul_bomb_shop_lady, $has_npc_soul|soul_sakon, goron"
             ]
           }
         ],

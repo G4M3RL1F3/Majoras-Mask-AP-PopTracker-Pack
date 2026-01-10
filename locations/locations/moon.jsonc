@@ -70,7 +70,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 15,
             "clear_as_group": false,
-            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_pots, @Inside the Moon/Goron Trial/Heart Piece"]
+            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_pots, @Inside the Moon/Goron Trial HP/Heart Piece"]
           }
         ],
         "map_locations": [

@@ -249,7 +249,7 @@
             //"visibility_rules": ["rocksanity"],
             "item_count": 5,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_rocks $has_explosives, $can_play_song|sonata"]
+            "access_rules": ["$has_absurd_soul|soul_rocks, $has_explosives, $can_play_song|sonata"]
           },
           {
             "name": "Lower Grass",
@@ -406,7 +406,7 @@
           //  "chest_unopened_img": "images/equipment/rmap_clocktown.png",
           //  "access_rules": [
           //    "easy_logic, $baby_has_projectiles, $baby_ikana_canyon, $can_use_ice_arrows",
-          //    "normal_logic, $ikana_canyon, $can_use_ice_arrows"
+          //    "normal_logic, $upper_ikana_canyon, $can_use_ice_arrows"
           //  ]
           //},
           {

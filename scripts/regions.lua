@@ -38,10 +38,10 @@ end
 
 -- Woodfall -> Woodfall Temple
 function baby_woodfall_temple()
-    return baby_woodfall() and can_play_sonata() and has("bosskey_wf") and has("smallkey_wf")
+    return baby_woodfall() and can_play_song("sonata") and has("bosskey_wf") and has("smallkey_wf")
 end
 function woodfall_temple()
-    return woodfall() and can_play_sonata() and has_absurd_soul("soul_deku_flowers")
+    return woodfall() and can_play_song("sonata") and has_absurd_soul("soul_deku_flowers")
 end
 
 -- What's needed to defeat Odolwa
@@ -70,18 +70,18 @@ end
 
 -- Path to Snowhead -> Snowhead
 function baby_snowhead()
-    return baby_mountain_village() and has("goron") and can_play_lullaby() and has("magic") and has("bosskey_sh") and has("smallkey_sh", 3)
+    return baby_mountain_village() and has("goron") and can_play_song("goronlullaby") and has("magic") and has("bosskey_sh") and has("smallkey_sh", 3)
 end
 function snowhead()
-    return (mountain_village() and has("goron") and can_play_lullaby() and has("magic")) or (can_use_owl("owl_snowhead") and has("goron") and can_play_lullaby())
+    return (mountain_village() and has("goron") and can_play_song("goronlullaby") and has("magic")) or (can_use_owl("owl_snowhead") and has("goron") and can_play_song("goronlullaby"))
 end
 
 -- Snowhead -> Snowhead Temple
 function baby_snowhead_temple()
-    return baby_snowhead() and has("goron") and can_play_lullaby() and has("magic") and has("bosskey_sh") and has("smallkey_sh", 3)
+    return baby_snowhead() and has("goron") and can_play_song("goronlullaby") and has("magic") and has("bosskey_sh") and has("smallkey_sh", 3)
 end
 function snowhead_temple()
-    return snowhead() and has("goron") and can_play_lullaby() and has("magic")
+    return snowhead() and has("goron") and can_play_song("goronlullaby") and has("magic")
 end
 
 -- What's needed to defeat Goht
@@ -124,10 +124,10 @@ end
 
 -- Zora Cape -> Great Bay Temple
 function baby_great_bay_temple()
-    return great_bay() and can_play_bossa_nova() and has("hookshot") and has("zora") and has("bosskey_gb") and has("smallkey_gb")
+    return great_bay() and can_play_song("bossanova") and has("hookshot") and has("zora") and has("bosskey_gb") and has("smallkey_gb")
 end
 function great_bay_temple()
-    return great_bay() and can_play_bossa_nova() and has("hookshot") and has("zora")
+    return great_bay() and can_play_song("bossanova") and has("hookshot") and has("zora")
 end
 
 -- What's needed to defeat Gyorg
@@ -152,12 +152,12 @@ function baby_ikana_canyon()
     return can_play_song("epona") and has("hookshot") and has("garo") and has("gibdo")
 end
 function lower_ikana_canyon()
-    return (has("soul_spirit_house_owner") and can_play_song("epona") and has("hookshot") and (has("garo") or has("gibdo"))) or can_use_owl("owl_ikana_canyon") or can_use_owl("owl_stone_tower")
+    return (has_npc_soul("soul_spirit_house_owner") and can_play_song("epona") and has("hookshot") and (has("garo") or has("gibdo"))) or can_use_owl("owl_ikana_canyon") or can_use_owl("owl_stone_tower")
 end
 
 -- Lower Ikana Canyon -> Upper Ikana Canyon
 function upper_ikana_canyon()
-    return (lower_ikana_canyon() and has("soul_octoroks") and can_use_ice_arrows()) or can_use_owl("owl_ikana_canyon") or can_use_owl("owl_stone_tower")
+    return (lower_ikana_canyon() and has_enemy_soul("soul_octoroks") and can_use_ice_arrows()) or can_use_owl("owl_ikana_canyon") or can_use_owl("owl_stone_tower")
 end
 
 -- Lower Ikana Canyon -> Secret Shrine
@@ -194,7 +194,7 @@ function baby_stone_tower_temple()
     return baby_ikana_canyon() and can_use_ice_arrows() and can_play_song("elegy") and has("goron") and has("zora") and has("smallkey_st", 4) and has("bosskey_st")
 end
 function stone_tower_temple()
-    return (lower_ikana_canyon() and has("soul_octoroks") and can_use_ice_arrows()) or ((can_use_owl("owl_ikana_canyon") and has("hookshot") and has("goron") and has("zora")) or can_use_owl("owl_stone_tower")) and can_play_song("elegy")
+    return (lower_ikana_canyon() and has_enemy_soul("soul_octoroks") and can_use_ice_arrows()) or ((can_use_owl("owl_ikana_canyon") and has("hookshot") and has("goron") and has("zora")) or can_use_owl("owl_stone_tower")) and can_play_song("elegy")
 end
 
 -- Stone Tower -> Stone Tower (Inverted)

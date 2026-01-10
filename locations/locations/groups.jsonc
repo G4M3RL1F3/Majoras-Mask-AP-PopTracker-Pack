@@ -12,7 +12,7 @@
           },
           {
             "name": "Clock Town Map Purchase", //Ikana Canyon
-            "access_rules": ["$ikana_canyon, $can_use_ice_arrows"],
+            "access_rules": ["$upper_ikana_canyon, $can_use_ice_arrows"],
             "hosted_item": "clock_town_map_purchase_2"
           }
         ]
@@ -77,7 +77,7 @@
         "sections": [
           {
             "name": "Stone Tower Map Purchase", //Ikana Canyon
-            "access_rules": ["$ikana_canyon, $can_use_ice_arrows"],
+            "access_rules": ["$upper_ikana_canyon, $can_use_ice_arrows"],
             "hosted_item": "stone_tower_map_purchase_1"
           },
           {

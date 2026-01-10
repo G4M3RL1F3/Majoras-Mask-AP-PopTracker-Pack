@@ -155,7 +155,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, clear_wft"],
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
             "visibility_rules": ["grass_sanity"]
           }
         ],
@@ -252,7 +252,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, clear_wft"],
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
             "visibility_rules": ["grass_sanity"]
           }
         ],
@@ -351,7 +351,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, clear_wft"],
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
             "visibility_rules": ["grass_sanity"]
           },
           {
@@ -359,7 +359,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, clear_wft"],
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
             "visibility_rules": ["grass_sanity"]
           },
           {
@@ -367,7 +367,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, clear_wft"],
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
             "visibility_rules": ["grass_sanity"]
           },
           {
@@ -382,7 +382,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, clear_wft"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $clear_woodfall"]
           }
         ],
         "map_locations": [
@@ -722,7 +722,7 @@
             "item_count": 30,
             "clear_as_group": false,
             "access_rules": [
-              "$clear_woodfall, sword, $has_bottle|1"
+              "$clear_woodfall, sword, $bottleCount|1"
             ]
           }
         ],

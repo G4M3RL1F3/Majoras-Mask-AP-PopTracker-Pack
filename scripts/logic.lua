@@ -67,7 +67,7 @@ function can_bring_to_player()
 end
 
 function can_reach_seahorse()
-    return great_bay() and has_npc_soul("soul_fisherman") and has_npc_soul("soul_pirate_guards") and has("zora") and has("pictobox") and (has("hookshot") or has("goron"))
+    return great_bay() and has_npc_soul("soul_fisherman") and has_enemy_soul("soul_pirate_guards") and has("zora") and has("pictobox") and (has("hookshot") or has("goron"))
 end
 
 function can_get_frog_choir_hp()
@@ -139,6 +139,7 @@ end
 function bottleCount(bottles_needed)
     local current_bottle_count
     current_bottle_count = 0
+    bottles_needed = tonumber(bottles_needed)
     if Tracker:FindObjectForCode("milk").Active then
         current_bottle_count = current_bottle_count + 1
     end

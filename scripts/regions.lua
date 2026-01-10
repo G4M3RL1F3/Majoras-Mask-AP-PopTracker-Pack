@@ -1,6 +1,6 @@
 -- "remains_moon" is its own toggle that triggers when the required amount of Remains to access the moon is met.
 function moon()
-    return has("ocarina") and has("oath") and remainCount("moon")
+    return has("ocarina") and has("oath") and remainCount("moon") and maskCount("moon")
 end
 
 --- SWAMP REGION ---

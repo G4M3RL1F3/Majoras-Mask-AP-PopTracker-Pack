@@ -184,8 +184,7 @@ function remainCount(check)
         else
             return false
         end
-    end
-    if check == "majora" then
+    elseif check == "majora" then
         if remains_count >= Tracker:FindObjectForCode("majora_remains_required").AcquiredCount then
             return true
         else
@@ -195,181 +194,93 @@ function remainCount(check)
 end
 
 
-function maskCount()
-    local masks_count = Tracker:FindObjectForCode("masks_count")
-    masks_count.AcquiredCount = masks_count.MinCount
+function maskCount(check)
+    local masks_count
+    masks_count = 0
     if Tracker:FindObjectForCode("captain").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("allnight").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("bunnyhood").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("keaton").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("garo").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("romani").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("circus").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("postman").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("couple").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("fairymask").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("gibdo").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("dongero").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("kamaro").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("truth").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("stone").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
-    if Tracker:FindObjectForCode("breman").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+    if Tracker:FindObjectForCode("bremen").Active then
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("blast").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("scents").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("kafei").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("giant").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("deku").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("goron").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("zora").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
     if Tracker:FindObjectForCode("fiercedeitymask").Active then
-        if (masks_count.AcquiredCount + masks_count.Increment) >= masks_count.MaxCount then
-            masks_count.AcquiredCount = masks_count.MaxCount
-        else
-            masks_count.AcquiredCount = masks_count.AcquiredCount + masks_count.Increment
-        end
+        masks_count = masks_count + 1
     end
-    if masks_count.AcquiredCount >= Tracker:FindObjectForCode("masks_required").AcquiredCount then
-        Tracker:FindObjectForCode("masks_moon").Active = true
-    else
-        Tracker:FindObjectForCode("masks_moon").Active = false
+    if check == "moon" then
+        if masks_count >= Tracker:FindObjectForCode("moon_masks_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
+    elseif check == "majora" then
+        if masks_count >= Tracker:FindObjectForCode("majora_masks_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
     end
 end
 

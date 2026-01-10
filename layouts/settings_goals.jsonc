@@ -14,7 +14,7 @@
 						"content": [
               {
                 "type": "group",
-                "header": "Goal Settings",
+                "header": "Moon Requirements",
                 "content": [
                   {
                     "type": "item",
@@ -24,8 +24,30 @@
                   {
                     "type": "item",
                     "max_width": 260,
+                    "item": "moon_masks_required"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "header": "Majora's Lair Requirements",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
                     "item": "majora_remains_required"
                   },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "majora_masks_required"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "header": "Other Goal Settings",
+                "content": [
                   {
                     "type": "item",
                     "max_width": 260,

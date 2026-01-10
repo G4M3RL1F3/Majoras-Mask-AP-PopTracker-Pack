@@ -1,6 +1,6 @@
 // Create items to display them in pack settings. Codes are used in /layouts/settings.jsonc for linking.
 [
-  // Game Options
+  // Goal Options
   {
     "name": "Logic Difficulty",
     "type": "progressive",
@@ -41,6 +41,26 @@
     "min_quantity": 0,
     "max_quantity": 4,
     "initial_quantity": 4,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Masks for Moon",
+    "type": "consumable",
+    "img": "images/pack_settings/masks_for_moon.png",
+    "codes": "moon_masks_required",
+    "min_quantity": 0,
+    "max_quantity": 24,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Masks for Majora",
+    "type": "consumable",
+    "img": "images/pack_settings/masks_for_majora.png",
+    "codes": "majora_masks_required",
+    "min_quantity": 0,
+    "max_quantity": 24,
+    "initial_quantity": 0,
     "overlay_font_size": 40
   },
   {

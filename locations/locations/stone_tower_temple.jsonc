@@ -359,7 +359,22 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Stone Tower Temple/Air Gust Room Side Chest"
+            "ref": "Dungeons/Stone Tower Temple/Deku Updraft Deku Flower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 550,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Deku Updraft Side Chest"
           },
           {
             "ref": "Dungeons/Stone Tower Temple/Deku Updraft Rupees"
@@ -374,10 +389,10 @@
         ]
       },
       {
-        "name": "Air Gust Room Goron Switch Chest",
+        "name": "Deku Updraft Goron Switch Chest",
         "sections": [
           {
-            "ref": "Dungeons/Stone Tower Temple/Air Gust Room Goron Switch Chest"
+            "ref": "Dungeons/Stone Tower Temple/Deku Updraft Goron Switch Chest"
           }
         ],
         "map_locations": [
@@ -503,6 +518,21 @@
             "map": "stone_tower_temple",
             "x": 1103,
             "y": 848
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1420,
+            "y": 711
           }
         ]
       },

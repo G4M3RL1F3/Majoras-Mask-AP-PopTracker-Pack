@@ -35,6 +35,49 @@
             //"visibility_rules": ["snowsanity"],
             "item_count": 4,
             "clear_as_group": false
+          },
+          {
+            "name": "Lower Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            //"visibility_rules": ["tree_sanity"],
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
+          },
+          {
+            "name": "Upper Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            //"visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$has_absurd_soul|soul_trees_bushes, goron",
+              "$has_absurd_soul|soul_tress_bushes, $has_explosives",
+              "$has_absurd_soul|soul_trees_bushes, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_trees_bushes, $can_use_owl|owl_mountain_village"
+            ]
+          },
+          {
+            "name": "Mountain Path Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_signs, goron",
+              "$has_absurd_soul|soul_signs, $has_explosives",
+              "$has_absurd_soul|soul_signs, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_signs, $can_use_owl|owl_mountain_village"
+            ]
+            //"visibility_rules": ["signsanity"]
+          },
+          {
+            "name": "Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona"
+            ]
           }
         ]
       },
@@ -53,9 +96,52 @@
         ],
         "sections": [
           {
+            "name": "Clock Town Owl Statue",
+            //"visibility_rules": ["owl_sanity"],
+            "chest_unopened_img": "images/owl_statues/owl_mountain_on.png"
+          },
+          {
+            "name": "Owl Statue Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"]
+            //"visibility_rules": ["signsanity"]
+          },
+          {
+            "name": "Owl Statue Springtime Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs, $clear_snowhead"]
+            //"visibility_rules": ["signsanity"]
+          },
+          {
+            "name": "Bridge Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"]
+            //"visibility_rules": ["signsanity"]
+          },
+          {
             "name": "Healing Darmani",
             "chest_unopened_img": "images/masks/goron.png",
             "access_rules": ["$can_use_lens, $can_play_song|healing"]
+          },
+          {
+            "name": "Outside Darmani Graveyard Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["lens, magic"]
+          },
+          {
+            "name": "Near Grave Pond Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"]
+            //"visibility_rules": ["signsanity"]
+          },
+          {
+            "name": "Near Grave Pond Springtime Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs, $clear_snowhead"]
+            //"visibility_rules": ["signsanity"]
           },
           {
             "name": "Hungry Goron",
@@ -65,6 +151,12 @@
               "normal_logic, $has_npc_soul|soul_hungry_goron, goron, magic, $can_play_song|goronlullaby",
               "normal_logic, $has_npc_soul|soul_hungry_goron, goron, $can_use_fire_arrows"
             ]
+          },
+          {
+            "name": "Outside Smithy Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"]
+            //"visibility_rules": ["signsanity"]
           },
           {
             "name": "Smithy Upgrade",
@@ -85,19 +177,23 @@
             ]
           },
           {
+            "name": "Rooftop Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"]
+            //"visibility_rules": ["scarecrowsanity"]
+          },
+          {
+            "name": "Spring Rooftop Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$clear_snowhead, $has_npc_soul|soul_scarecrow, ocarina"]
+            //"visibility_rules": ["scarecrowsanity"]
+          },
+          {
             "name": "Day 1 Snowballs",
             "chest_unopened_img": "images/icons/snowball.png",
             //"visibility_rules": ["snowsanity"],
             "item_count": 13,
             "clear_as_group": false
-          },
-          {
-            "name": "Outside Darmani Graveyard Snowballs",
-            "chest_unopened_img": "images/icons/snowball.png",
-            //"visibility_rules": ["snowsanity"],
-            "item_count": 2,
-            "clear_as_group": false,
-            "access_rules": ["lens, magic"]
           },
           {
             "name": "Spring Waterfall Chest",
@@ -107,10 +203,32 @@
             ]
           },
           {
+            "name": "Spring Waterfall Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$clear_snowhead, $can_play_song|healing",
+              "$clear_snowhead, $can_play_song|epona"
+            ]
+          },
+          {
             "name": "Spring Ramp Grotto",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead",
               "normal_logic, $has_absurd_soul|soul_grottos, $clear_snowhead"
+            ]
+          },
+          {
+            "name": "Spring Ramp Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$clear_snowhead, $can_play_song|healing",
+              "$clear_snowhead, $can_play_song|epona"
             ]
           },
           {
@@ -216,6 +334,38 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$clear_snowhead"]
+          },
+          {
+            "name": "Village Spring Tree Beehive",
+            "chest_unopened_img": "images/icons/beehive.png",
+            //"visibility_rules": ["hive_sanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$clear_snowhead, $has_projectiles"
+            ]
+          },
+          {
+            "name": "Spring Butterfly Fairies",
+            "chest_unopened_img": "images/icons/butterfly.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 9,
+            "clear_as_group": false,
+            "access_rules": [
+              "$clear_snowhead, $has_misc_soul|soul_butterflies"
+            ]
+          },
+          {
+            "name": "Twin Islands Entrance Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"]
+            //"visibility_rules": ["signsanity"]
+          },
+          {
+            "name": "Twin Islands Entrance Springtime Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs, $clear_snowhead"]
+            //"visibility_rules": ["signsanity"]
           }
         ]
       },
@@ -238,6 +388,18 @@
           },
           {
             "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase"
+          },
+          {
+            "name": "Twin Islands Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"]
+            //"visibility_rules": ["scarecrowsanity"]
+          },
+          {
+            "name": "Twin Islands (Spring) Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$clear_snowhead, $has_npc_soul|soul_scarecrow, ocarina"]
+            //"visibility_rules": ["scarecrowsanity"]
           },
           {
             "name": "Ramp Grotto Chest",
@@ -316,6 +478,21 @@
             ]
           },
           {
+            "name": "Outside Goron Racetrack Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_signs, goron",
+              "$has_absurd_soul|soul_signs, $has_npc_soul|soul_scarecrow, hookshot, scarecrow_twin_islands_winter"
+            ]
+            //"visibility_rules": ["signsanity"]
+          },
+          {
+            "name": "Outside Goron Racetrack Springtime Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs, $clear_snowhead"]
+            //"visibility_rules": ["signsanity"]
+          },
+          {
             "name": "Goron Racetrack Prize",
             "chest_unopened_img": "images/items/gold_dust.png",
             "access_rules": [
@@ -334,6 +511,17 @@
               "$has_absurd_soul|soul_pots, goron, $can_use_fire_arrows"
             ],
             "visibility_rules": ["pot_sanity"]
+          },
+          {
+            "name": "Goron Racetrack Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 10,
+            "clear_as_group": false,
+            //"visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$has_absurd_soul|soul_trees_bushes, goron, keg",
+              "$has_absurd_soul|soul_trees_bushes, goron, $can_use_fire_arrows"
+            ]
           },
           {
             "name": "Twin Islands Springtime Grass",
@@ -358,6 +546,44 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$clear_snowhead"]
+          },
+          {
+            "name": "Bridge Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            //"visibility_rules": ["tree_sanity"],
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
+          },
+          {
+            "name": "Ramp Tree",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 1,
+            "clear_as_group": false,
+            //"visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$has_absurd_soul|soul_trees_bushes, goron",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_scarecrow, scarecrow_twin_islands_winter, hookshot"
+            ]
+          },
+          {
+            "name": "Spring Bridge Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            //"visibility_rules": ["tree_sanity"],
+            "access_rules": ["$clear_snowhead, $has_absurd_soul|soul_trees_bushes"]
+          },
+          {
+            "name": "Spring Ramp Tree",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 1,
+            "clear_as_group": false,
+            //"visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$clear_snowhead, $has_absurd_soul|soul_trees_bushes, goron",
+              "$clear_snowhead, $has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_scarecrow, scarecrow_twin_islands_spring, hookshot"
+            ]
           }
         ]
       },
@@ -405,6 +631,12 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$has_explosives"]
+          },
+          {
+            "name": "Outside Lens Cave Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"]
+            //"visibility_rules": ["signsanity"]
           }
         ]
       },
@@ -428,6 +660,12 @@
             //"visibility_rules": ["snowsanity"],
             "item_count": 21,
             "clear_as_group": false
+          },
+          {
+            "name": "Outside Goron Shrine Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"]
+            //"visibility_rules": ["signsanity"]
           },
           {
             "name": "Baby Goron Lullaby",
@@ -522,6 +760,20 @@
             "access_rules": ["$has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, @Goron Village/Deku Trade"]
           },
           {
+            "name": "Business Scrub Deku Flower",
+            "item_count": 1,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, swampdeed"]
+            //"visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Outside Keg Goron Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"]
+            //"visibility_rules": ["signsanity"]
+          },
+          {
             "name": "Powder Keg Goron Reward",
             "chest_unopened_img": "images/items/keg.png",
             "access_rules": [
@@ -571,6 +823,20 @@
         ],
         "sections": [
           {
+            "name": "By Tree Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"]
+            //"visibility_rules": ["signsanity"]
+          },
+          {
+            "name": "Tree Drops",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            //"visibility_rules": ["tree_sanity"],
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
+          },
+          {
             "name": "Between Ramps Large Snowballs",
             "chest_unopened_img": "images/icons/snowball.png",
             //"visibility_rules": ["snowsanity"],
@@ -595,6 +861,12 @@
             "access_rules": ["$snowhead, goron", "$snowhead, $has_explosives", "$snowhead, $can_use_fire_arrows"]
           },
           {
+            "name": "Near Grotto Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"]
+            //"visibility_rules": ["signsanity"]
+          },
+          {
             "name": "Grotto Chest",
             "access_rules": [
               "easy_logic, goron, magic, $baby_has_explosives",
@@ -613,6 +885,18 @@
             "name": "Scarecrow Pillar HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["$can_reach_scarecrow|scarecrow_path_snowhead_winter, $has_npc_soul|soul_scarecrow, goron, $can_use_lens, hookshot"]
+          },
+          {
+            "name": "Path to Snowhead Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"]
+            //"visibility_rules": ["scarecrowsanity"]
+          },
+          {
+            "name": "Path to Snowhead (Spring) Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$clear_snowhead, $has_npc_soul|soul_scarecrow, ocarina"]
+            //"visibility_rules": ["scarecrowsanity"]
           }
         ]
       },
@@ -630,6 +914,17 @@
           }
         ],
         "sections": [
+          {
+            "name": "Snowhead Owl Statue",
+            //"visibility_rules": ["owl_sanity"],
+            "chest_unopened_img": "images/owl_statues/owl_snowhead_on.png"
+          },
+          {
+            "name": "Owl Statue Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"]
+            //"visibility_rules": ["signsanity"]
+          },
           {
             "name": "Snowhead Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_sh.png",

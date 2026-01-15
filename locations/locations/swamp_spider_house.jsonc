@@ -93,6 +93,31 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Swamp Spider House/Main Room Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1060,
+            "y": 700
+          },
+          {
+            "map": "swamp_spider_house",
+            "x": 955,
+            "y": 780
+          },
+          {
+            "map": "swamp_spider_house",
+            "x": 1175,
+            "y": 780
+          }
+        ]
+      },
+      {
         "name": "First Room Crawling Right Column Token",
         "sections": [
           {
@@ -406,6 +431,51 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Swamp Spider House/Pottery Room Beehives"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1280,
+            "y": 715
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Swamp Spider House/Pottery Room Ledge Deku Flower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1250,
+            "y": 780
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Swamp Spider House/Pottery Room Sonata Deku Flower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1250,
+            "y": 615
+          }
+        ]
+      },
+      {
         "name": "Pottery Room Small Pot Token",
         "sections": [
           {
@@ -571,10 +641,13 @@
         ]
       },
       {
-        "name": "Golden Room Beehive Token",
+        "name": "",
         "sections": [
           {
           "ref": "Dungeons/Swamp Spider House/Swamphouse Golden Room Beehive Token"
+          },
+          {
+            "ref": "Dungeons/Swamp Spider House/Gold Room Beehives"
           }
         ],
         "map_locations": [
@@ -626,6 +699,9 @@
           },
           {
           "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #3 Token"
+          },
+          {
+            "ref": "Dungeons/Swamp Spider House/Tree Room Gossip Fairy"
           }
         ],
         "map_locations": [
@@ -637,10 +713,13 @@
         ]
       },
       {
-        "name": "Tree Room Beehive Token",
+        "name": "",
         "sections": [
           {
           "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Beehive Token"
+          },
+          {
+            "ref": "Dungeons/Swamp Spider House/Tree Room Beehives"
           }
         ],
         "map_locations": [

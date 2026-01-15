@@ -21,14 +21,32 @@
         "name": "",
         "sections": [
           {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Room Beehive"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 725,
+            "y": 1050
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
             "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Room Grass"
+          },
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Room Deku Flowers"
           }
         ],
         "map_locations": [
           {
             "map": "woodfall_temple",
             "x": 730,
-            "y": 1075
+            "y": 1088
           }
         ]
       },
@@ -78,6 +96,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Main Room Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 724,
+            "y": 669
+          }
+        ]
+      },
+      {
         "name": "Switch Chest",
         "sections": [
           {
@@ -111,13 +144,28 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Deku Elevator Room Grass"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Elevator Room Grass"
           }
         ],
         "map_locations": [
           {
             "map": "woodfall_temple",
             "x": 1042,
+            "y": 736
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Elevator Room Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 975,
             "y": 736
           }
         ]
@@ -145,6 +193,9 @@
           },
           {
             "ref": "Dungeons/Woodfall Temple/Woodfall Temple Turtle Room Grass"
+          },
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Turtle Room Deku Flowers"
           }
         ],
         "map_locations": [
@@ -160,6 +211,9 @@
         "sections": [
           {
             "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dinolfos Chest"
+          },
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dinolfos Room Deku Flowers"
           }
         ],
         "map_locations": [
@@ -189,6 +243,27 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Frog"
+          },
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Main Room Grass"
+          },
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Gekko Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 966,
+            "y": 475
+          }
+        ]
+      },
+      {
         "name": "Dragonfly Chest Room",
         "sections": [
           {
@@ -196,13 +271,16 @@
           },
           {
             "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dragonfly Chest Room Grass"
+          },
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dragonfly Room Deku Flowers"
           }
         ],
         "map_locations": [
           {
             "map": "woodfall_temple",
             "x": 507,
-            "y": 973
+            "y": 920
           }
         ]
       },
@@ -210,7 +288,10 @@
         "name": "Moving Deku Flower Platform Room",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple 2F Moving Flower Platform Room Grass"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple 2nd Floor Moving Flower Platform Room Grass"
+          },
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple 2nd Floor Moving Deku Flowers"
           }
         ],
         "map_locations": [
@@ -372,6 +453,36 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Bridge Room Web"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 304,
+            "y": 625
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Bridge Room Beehive"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 304,
+            "y": 666
+          }
+        ]
+      },
+      {
         "name": "Pre-Boss Upper Right Bubble SF",
         "sections": [
           {
@@ -413,6 +524,21 @@
             "map": "woodfall_temple",
             "x": 725,
             "y": 500
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 725,
+            "y": 444
           }
         ]
       },
@@ -506,10 +632,13 @@
             "ref": "Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Remains"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Oath to Order"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Lair Grass"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Lair Grass"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Lair Deku Flower"
+          },
+          {
+            "ref": "Dungeons/Woodfall Temple/Oath to Order"
           }
         ],
         "map_locations": [

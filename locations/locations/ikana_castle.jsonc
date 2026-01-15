@@ -78,6 +78,21 @@
         "name": "",
         "sections": [
           {
+            "ref": "Dungeons/Ikana Castle/Left Side Falling Ceiling Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1490,
+            "y": 205
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
             "ref": "Dungeons/Ikana Castle/Left Side Broken Floor Room Pots"
           }
         ],
@@ -86,6 +101,21 @@
             "map": "ikana_castle",
             "x": 1700,
             "y": 249
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Ikana Castle/Left Side Broken Floor Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1630,
+            "y": 175
           }
         ]
       },
@@ -116,6 +146,21 @@
             "map": "ikana_castle",
             "x": 1950,
             "y": 545
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Ikana Castle/Exterior Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 515,
+            "y": 215
           }
         ]
       },

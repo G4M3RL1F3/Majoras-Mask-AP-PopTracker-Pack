@@ -10,6 +10,12 @@
           },
           {
             "ref": "Dungeons/Beneath the Well/Beneath the Well Right Side Cow Grass"
+          },
+          {
+            "ref": "Dungeons/Beneath the Well/Right Side Cow Bushes"
+          },
+          {
+            "ref": "Dungeons/Beneath the Well/Right Side Cow Tree"
           }
         ],
         "map_locations": [
@@ -17,6 +23,21 @@
             "map": "beneath_the_well",
             "x": 1044,
             "y": 995
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Beneath the Well/Beneath the Well Left Side Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 333,
+            "y": 855
           }
         ]
       },
@@ -77,6 +98,36 @@
             "map": "beneath_the_well",
             "x": 417,
             "y": 592
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Beneath the Well/Fairy Fountain Fairies"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 330,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Beneath the Well/Freezard Room Icicles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beneath_the_well",
+            "x": 522,
+            "y": 1017
           }
         ]
       },

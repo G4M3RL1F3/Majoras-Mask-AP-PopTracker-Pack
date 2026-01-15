@@ -6,6 +6,39 @@
         "name": "",
         "sections": [
           {
+            "ref": "Dungeons/Snowhead Temple/Entry Block Icicles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 387,
+            "y": 544
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Grey Door Icicles"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/Grey Door Ceiling Icicles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 353,
+            "y": 477
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
             "ref": "Dungeons/Snowhead Temple/Entrance Pots"
           }
         ],
@@ -67,6 +100,9 @@
         "sections": [
           {
             "ref": "Dungeons/Snowhead Temple/Snowhead Temple Main Room Scarecrow Pots"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/Lower Scarecrow"
           }
         ],
         "map_locations": [
@@ -127,6 +163,9 @@
         "sections": [
           {
             "ref": "Dungeons/Snowhead Temple/Frozen Block Chest"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/Frozen Block Ceiling Icicles"
           }
         ],
         "map_locations": [
@@ -142,6 +181,9 @@
         "sections": [
           {
             "ref": "Dungeons/Snowhead Temple/Frozen Block Upper Chest SF"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/Frozen Block Ceiling Icicles"
           }
         ],
         "map_locations": [
@@ -157,6 +199,9 @@
         "sections": [
           {
             "ref": "Dungeons/Snowhead Temple/Bombable Stairs Crate SF"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/Frozen Block Room Bombable Wall"
           }
         ],
         "map_locations": [
@@ -347,6 +392,12 @@
         "sections": [
           {
             "ref": "Dungeons/Snowhead Temple/Main Room Wall Chest SF"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/Hidden Alcove Scarecrow"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/Main Room Wall Chest Deku Flower"
           }
         ],
         "map_locations": [
@@ -455,6 +506,9 @@
         "sections": [
           {
             "ref": "Dungeons/Snowhead Temple/Icicle Rupees"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/Icicle Room Ceiling Icicles"
           }
         ],
         "map_locations": [
@@ -595,6 +649,12 @@
         "sections": [
           {
             "ref": "Dungeons/Snowhead Temple/3rd Floor Locked Door Snowballs"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/3rd Floor Locked Door Icicles"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/3rd Floor Locked Door Ceiling Icicles"
           }
         ],
         "map_locations": [
@@ -651,6 +711,21 @@
         ]
       },
       {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/4th Floor Outside Wizrobe Icicles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1163,
+            "y": 1148
+          }
+        ]
+      },
+      {
         "name": "Upper Wizrobe Chest",
         "sections": [
           {
@@ -694,6 +769,12 @@
           },
           {
             "ref": "Dungeons/Snowhead Temple/Oath to Order"
+          },
+          {
+            "ref": "Dungeons/Snowhead/Outside Boss Door Deku Flower"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/Outside Boss Door Icicles"
           }
         ],
         "map_locations": [

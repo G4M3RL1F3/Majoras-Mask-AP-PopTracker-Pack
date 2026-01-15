@@ -106,6 +106,14 @@
         "name": "East Termina Field",
         "sections": [
           {
+            "name": "Observatory Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            //"visibility_rules": ["tree_sanity"],
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
+          },
+          {
             "name": "Tree Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
             //"visibility_rules": ["rupeesanity"],
@@ -119,7 +127,18 @@
             //"visibility_rules": ["rupeesanity"],
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$has_npc_soul|soul_astral_man, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"]
+            "access_rules": ["$has_npc_soul|soul_astral_man, @Termina Field/Astral Observatory/Moon's Tear"]
+          },
+          {
+            "name": "East Corner Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona"
+            ]
           }
         ],
         "map_locations": [
@@ -254,6 +273,16 @@
             "visibility_rules": ["grass_sanity"],
             "item_count": 12,
             "clear_as_group": false
+          },
+          {
+            "name": "Butterfly Fairies",
+            "chest_unopened_img": "images/icons/butterfly.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_misc_soul|soul_butterflies"
+            ]
           }
         ],
         "map_locations": [
@@ -314,6 +343,17 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_songwall, ocarina"]
+          },
+          {
+            "name": "Near Songwall Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona"
+            ]
           }
         ],
         "map_locations": [
@@ -346,6 +386,14 @@
       {
         "name": "Termina Healing Kamaro",
         "sections": [
+          {
+            "name": "Notebook Event: Meeting Kamaro",
+            "chest_unopened_img": "images/equipment/bombers_notebook.png",
+            //"visibility_rules": ["notebook_sanity"],
+            "access_rules": [
+              "$has_npc_soul|soul_kamaro, bombers_notebook"
+            ]
+          },
           {
             "name": "Termina Healing Kamaro (Midnight - 6 AM)",
             "chest_unopened_img": "images/characters/kamaro.png",
@@ -490,6 +538,17 @@
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_rocks, $has_explosives",
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_rocks, goron"
             ]
+          },
+          {
+            "name": "Bio Baba Beehive",
+            "chest_unopened_img": "images/icons/beehive.png",
+            //"visibility_rules": ["hive_sanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_explosives, zora",
+              "$has_absurd_soul|soul_grottos, goron, zora"
+            ]
           }
         ],
         "map_locations":[
@@ -501,10 +560,10 @@
         ]
       },
       {
-        "name": "East Clock Town Astral Observatory",
+        "name": "Astral Observatory",
         "sections": [
           {
-            "name": "East Clock Town Astral Observatory",
+            "name": "Moon's Tear",
             "chest_unopened_img": "images/items/moon_tear.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
@@ -517,8 +576,14 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"],
+            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/Astral Observatory/Moon's Tear"],
             "visibility_rules": ["pot_sanity"]
+          },
+          {
+            "name": "Observatory Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina, @Termina Field/Astral Observatory/Moon's Tear"]
+            //"visibility_rules": ["scarecrowsanity"]
           },
           {
             "name": "Observatory Soil",
@@ -526,7 +591,26 @@
             //"visibility_rules": ["soilsanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$bottleCount|1, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"]
+            "access_rules": ["$bottleCount|1, @Termina Field/Astral Observatory/Moon's Tear"]
+          },
+          {
+            "name": "Observatory Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing, @Termina Field/Astral Observatory/Moon's Tear",
+              "$can_play_song|epona, @Termina Field/Astral Observatory/Moon's Tear"
+            ]
+          },
+          {
+            "name": "Observatory Deku Flower",
+            "item_count": 1,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"]
+            //"visibility_rules": ["flower_sanity"]
           }
         ],
         "map_locations": [
@@ -592,6 +676,9 @@
               "normal_logic, $has_absurd_soul|soul_grottos, zora, $can_play_song|bossanova, $has_explosives",
               "normal_logic, $has_absurd_soul|soul_grottos, zora, $can_play_song|bossanova, goron"
             ]
+          },
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Gossip Stones HP Gossip Fairy"
           }
         ],
         "map_locations": [
@@ -622,6 +709,9 @@
             "visibility_rules": ["grass_sanity"],
             "item_count": 5,
             "clear_as_group": false
+          },
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Gossip Stones HP Gossip Fairy"
           }
         ],
         "map_locations": [
@@ -635,6 +725,7 @@
       {
         "name": "Termina Bombable Rock Grotto",
         "chest_unopened_img": "images/icons/gossip_stone.png",
+        "chest_opened_img": "images/icons/check_32.png",
         "sections": [
           {
             "name": "Bombable Rock",
@@ -648,7 +739,7 @@
             ]
           },
           {
-            "ref": "Termina Field/Termina Gossip Stones HP/Termina Gossip Stones HP"
+            "ref": "@Termina Field/Termina Gossip Stones HP/Termina Gossip Stones HP"
           },
           {
             "name": "Termina Field Bombable Rock Grass",
@@ -661,6 +752,50 @@
             "visibility_rules": ["grass_sanity"],
             "item_count": 5,
             "clear_as_group": false
+          },
+          {
+            "name": "Bombable Rock Beehive",
+            "chest_unopened_img": "images/icons/beehive.png",
+            //"visibility_rules": ["hive_sanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_projectiles, $has_explosives",
+              "$has_absurd_soul|soul_grottos, $has_projectiles, goron"
+            ]
+          },
+          {
+            "name": "Gossip Stones HP Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $can_play_song|healing",
+              "$has_absurd_soul|soul_grottos, $can_play_song|epona"
+            ]
+          },
+          {
+            "name": "Butterfly Fairies",
+            "chest_unopened_img": "images/icons/butterfly.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterflies, $has_explosives",
+              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterflies, goron"
+            ]
+          },
+          {
+            "name": "Near Bombable Rock Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona"
+            ]
           },
           {
             "name": "Rock Wall Behind Grotto",
@@ -695,7 +830,7 @@
             "clear_as_group": false
           },
           {
-            "name": "Thieving Bird Rupee",
+            "name": "Takkuri Rupee",
             "chest_unopened_img": "images/icons/rupee.png",
             //"visibility_rules": ["rupeesanity"],
             "item_count": 1,
@@ -704,6 +839,23 @@
               "$has_enemy_soul|soul_takkuri, $has_absurd_soul|soul_grass",
               "$has_eenemy_soul_takkuri, $has_projectiles"
             ]
+          },
+          {
+            "name": "Takkuri Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona"
+            ]
+          },
+          {
+            "name": "Takkuri Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"]
+            //"visibility_rules": ["signsanity"]
           },
           {
             "name": "Rock Wall",
@@ -749,6 +901,25 @@
             "item_count": 3,
             "clear_as_group": false
             //"visibility_rules": ["hitsanity"]
+          },
+          {
+            "name": "Around Log Deku Flowers",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"]
+            //"visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Southern Tree Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona"
+            ]
           }
         ],
         "map_locations": [
@@ -838,6 +1009,26 @@
             "visibility_rules": ["grass_sanity"],
             "item_count": 12,
             "clear_as_group": false
+          },
+          {
+            "name": "Butterfly Fairies",
+            "chest_unopened_img": "images/icons/butterfly.png",
+            //"visibility_rules": ["real_fairysanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterflies, $has_explosives"
+            ]
+          },
+          {
+            "name": "Cow Grotto Beehive",
+            "chest_unopened_img": "images/icons/beehive.png",
+            //"visibility_rules": ["hive_sanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_projectiles, $has_explosives"
+            ]
           }
         ]
       }

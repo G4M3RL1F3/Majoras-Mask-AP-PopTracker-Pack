@@ -210,6 +210,9 @@
         "sections": [
           {
             "ref": "Dungeons/Great Bay Temple/Jellied Gekko Room Crates"
+          },
+          {
+            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Frog"
           }
         ],
         "map_locations": [
@@ -265,6 +268,21 @@
             "map": "great_bay_temple",
             "x": 586,
             "y": 312
+          }
+        ]
+      },
+      {
+        "name": "",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Outside Frog Miniboss Door Icicles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 570,
+            "y": 183
           }
         ]
       },

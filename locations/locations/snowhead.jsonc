@@ -30,16 +30,11 @@
             ]
           },
           {
-            "name": "Small Snowballs",
+            "name": "Lower Small Snowballs",
             "chest_unopened_img": "images/icons/snowball.png",
             //"visibility_rules": ["snowsanity"],
-            "item_count": 4,
-            "clear_as_group": false,
-            "access_rules": [
-              "$has_explosives",
-              "goron",
-              "$can_use_fire_arrows"
-            ]
+            "item_count": 3,
+            "clear_as_group": false
           },
           {
             "name": "Lower Trees",
@@ -48,6 +43,18 @@
             "clear_as_group": false,
             //"visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
+          },
+          {
+            "name": "Upper Small Snowball",
+            "chest_unopened_img": "images/icons/snowball.png",
+            //"visibility_rules": ["snowsanity"],
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives",
+              "goron",
+              "$can_use_fire_arrows"
+            ]
           },
           {
             "name": "Upper Trees",

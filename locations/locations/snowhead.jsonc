@@ -34,7 +34,12 @@
             "chest_unopened_img": "images/icons/snowball.png",
             //"visibility_rules": ["snowsanity"],
             "item_count": 4,
-            "clear_as_group": false
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives",
+              "goron",
+              "$can_use_fire_arrows"
+            ]
           },
           {
             "name": "Lower Trees",

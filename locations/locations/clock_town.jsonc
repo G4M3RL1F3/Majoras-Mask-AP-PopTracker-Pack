@@ -210,9 +210,7 @@
             "name": "Notebook Event: Deposited Letter To Kafei",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             //"visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_utility_soul|soul_postboxees, kafeiletter"
-            ]
+            "access_rules": ["$has_misc_soul|soul_postboxes, kafeiletter"]
           }
         ],
         "map_locations": [
@@ -1338,7 +1336,7 @@
             ]
           },
           {
-            "name": "Laundry Pool Curiosity Shop Salesman #1 (Final Day, 1 PM - 9 PM)",
+            "name": "Laundry Pool Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)",
             "chest_unopened_img": "images/characters/curiosity_shop_man.png",
             "access_rules": ["$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, $has_npc_soul|soul_curiosity_shop_man, kafeiletter"]
           },
@@ -1346,12 +1344,10 @@
             "name": "Notebook Event: Received Keaton Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             //"visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "@Clock Town/Curiosity Shop Backroom/Laundry Pool Curiosity Shop Salesman #1 (Final Day, 1 PM - 9 PM)"
-            ]
+            "access_rules": ["@Clock Town/Curiosity Shop Backroom/Laundry Pool Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)"]
           },
           {
-            "name": "Laundry Pool Curiosity Shop Salesman #2 (Final Day, 1 PM - 9 PM)",
+            "name": "Laundry Pool Curiosity Shop Salesman #2 (Final Day 1 PM - 9 PM)",
             "chest_unopened_img": "images/characters/curiosity_shop_man.png",
             "access_rules": ["$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, $has_npc_soul|soul_curiosity_shop_man, kafeiletter"]
           },

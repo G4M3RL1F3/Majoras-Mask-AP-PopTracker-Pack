@@ -374,8 +374,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$has_npc_sou|soul_moon_kid, goron, $can_play_song|healing",
-              "$has_npc_sou|soul_moon_kid, goron, $can_play_song|epona"
+              "$has_npc_soul|soul_moon_kid, goron, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, goron, $can_play_song|epona"
             ]
           }
         ],
@@ -397,8 +397,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$has_npc_sou|soul_moon_kid, goron, $can_play_song|healing",
-              "$has_npc_sou|soul_moon_kid, goron, $can_play_song|epona"
+              "$has_npc_soul|soul_moon_kid, goron, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, goron, $can_play_song|epona"
             ]
           }
         ],
@@ -478,8 +478,8 @@
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
-              "$has_npc_sou|soul_moon_kid, zora, $can_play_song|healing",
-              "$has_npc_sou|soul_moon_kid, zora, $can_play_song|epona"
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|epona"
             ]
           }
         ],
@@ -501,8 +501,8 @@
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
-              "$has_npc_sou|soul_moon_kid, zora, $can_play_song|healing",
-              "$has_npc_sou|soul_moon_kid, zora, $can_play_song|epona"
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|epona"
             ]
           }
         ],
@@ -524,8 +524,8 @@
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
-              "$has_npc_sou|soul_moon_kid, zora, $can_play_song|healing",
-              "$has_npc_sou|soul_moon_kid, zora, $can_play_song|epona"
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|epona"
             ]
           }
         ],
@@ -547,8 +547,8 @@
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
-              "$has_npc_sou|soul_moon_kid, zora, $can_play_song|healing",
-              "$has_npc_sou|soul_moon_kid, zora, $can_play_song|epona"
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|epona"
             ]
           }
         ],
@@ -792,7 +792,7 @@
             "item_count": 13,
             "clear_as_group": false,
             "access_rules": [
-              "$has_misc_soul|soul_butterflies"
+              "$has_misc_soul|soul_butterfly"
             ]
           },
           {
@@ -811,7 +811,7 @@
           {
             "name": "100% Completion Goal",
             "chest_unopened_img": "images/icons/majoras_mask.png",
-            "access_rules": ["$remainCount|4, $maskCount|24, $owlCount|10, $scarecrowCount|14, $frogCunt|5, $tradeitemCount|8, $has|fairy_wf|15, $has|fairy_sh|15, $has|fairy_gb|15, $has|fairy_st|15, fairy_ct, $has|skull_wf|30, $has|skull_gb|30"]
+            "access_rules": ["$remainCount|4, $maskCount|24, $owlCount|10, $scarecrowCount|14, $frogCount|5, $tradeitemCount|8, $has|fairy_wf|15, $has|fairy_sh|15, $has|fairy_gb|15, $has|fairy_st|15, fairy_ct, $has|skull_ss|30, $has|skull_gb|30"]
             //"visibility_rules": ["completion_goal"]
           }
         ],

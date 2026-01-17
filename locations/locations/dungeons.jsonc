@@ -1734,7 +1734,7 @@
             //"visibility_rules": ["woodsanity"],
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$pirates_fotress_interior, $has_absurd_soul|soul_barrels, bow"]
+            "access_rules": ["$pirates_fortress_interior, $has_absurd_soul|soul_barrels, bow"]
           },
           {
             "name": "Indoor Pirate Flag Eye Hitspots",
@@ -3022,7 +3022,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_fire_arrow"]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_fire_arrows"]
             //"visibility_rules": ["flower_sanity"]
           },
           {
@@ -3467,6 +3467,7 @@
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, deku, $can_use_light_arrows",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_wizrobe, deku, $can_use_light_arrows, $has|smallkey_st|3, hookshot",
               "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_wizrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives"
             ]
           },

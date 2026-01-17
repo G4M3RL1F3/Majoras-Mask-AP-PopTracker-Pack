@@ -480,9 +480,7 @@
             "name": "Notebook Event: Escaped Sakon's Hideout",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             //"visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_kafei, $has_utility_soul|soul_postboxes, kafeiletter, $lower_ikana_canyon"
-            ]
+            "access_rules": ["$has_npc_soul|soul_kafei, $has_misc_soul|soul_postboxes, kafeiletter, $lower_ikana_canyon"]
           }
         ],
         "map_locations": [
@@ -606,8 +604,8 @@
             "name": "Lower Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
             "access_rules": [
-              "$has_npc_soul|soul_scarecrow, $can_play_elegy, goron, zora",
-              "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_stone_tower, $can_play_elegy"
+              "$has_npc_soul|soul_scarecrow, $can_play_song|elegy, goron, zora",
+              "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_stone_tower, $can_play_song|elegy"
             ]
             //"visibility_rules": ["scarecrowsanity"]
           },
@@ -623,8 +621,8 @@
             "name": "Upper Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
             "access_rules": [
-              "$has_npc_soul|soul_scarecrow, $can_play_elegy, goron, zora",
-              "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_stone_tower, $can_play_elegy"
+              "$has_npc_soul|soul_scarecrow, $can_play_song|elegy, goron, zora",
+              "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_stone_tower, $can_play_song|elegy"
             ]
             //"visibility_rules": ["scarecrowsanity"]
           },

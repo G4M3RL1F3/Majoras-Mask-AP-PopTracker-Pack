@@ -52,7 +52,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$has_misc_soul|soul_butterflies"
+              "$has_misc_soul|soul_butterfly"
             ]
           },
           {
@@ -262,7 +262,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "$has_misc_soul|soul_butterflies"
+              "$has_misc_soul|soul_butterfly"
             ]
           },
           {

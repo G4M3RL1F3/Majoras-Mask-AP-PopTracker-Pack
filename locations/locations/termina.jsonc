@@ -281,7 +281,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$has_misc_soul|soul_butterflies"
+              "$has_misc_soul|soul_butterfly"
             ]
           }
         ],
@@ -782,8 +782,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterflies, $has_explosives",
-              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterflies, goron"
+              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterfly, $has_explosives",
+              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterfly, goron"
             ]
           },
           {
@@ -1017,7 +1017,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterflies, $has_explosives"
+              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterfly, $has_explosives"
             ]
           },
           {

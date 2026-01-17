@@ -786,7 +786,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Bean Daddy Soil",
+            "name": "Bean Seller Soil",
             "chest_unopened_img": "images/icons/soil.png",
             //"visibility_rules": ["soilsanity"],
             "item_count": 3,
@@ -794,17 +794,15 @@
             "access_rules": ["$has_absurd_soul|soul_grottos, $bottleCount|1"]
           },
           {
-            "name": "Bean Daddy Butterfly Fairies",
+            "name": "Bean Seller Butterfly Fairies",
             "chest_unopened_img": "images/icons/butterfly.png",
             //"visibility_rules": ["real_fairysanity"],
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterflies"
-            ]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterfly"]
           },
           {
-            "name": "Bean Daddy Cut the Sign",
+            "name": "Bean Seller Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_signs"]
             //"visibility_rules": ["signsanity"]

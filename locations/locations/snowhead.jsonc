@@ -364,7 +364,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "access_rules": [
-              "$clear_snowhead, $has_misc_soul|soul_butterflies"
+              "$clear_snowhead, $has_misc_soul|soul_butterfly"
             ]
           },
           {

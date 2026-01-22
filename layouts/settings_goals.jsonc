@@ -30,6 +30,21 @@
                     "type": "item",
                     "max_width": 260,
                     "item": "star_fox_moon"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "moon_owls_required"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "moon_scarecrows_required"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "moon_frogs_required"
                   }
                 ]
               },
@@ -51,6 +66,21 @@
                     "type": "item",
                     "max_width": 260,
                     "item": "star_fox_majora"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "majora_owls_required"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "majora_scarecrows_required"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "majora_frogs_required"
                   }
                 ]
               },

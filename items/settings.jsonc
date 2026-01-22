@@ -78,6 +78,66 @@
     "overlay_font_size": 40
   },
   {
+    "name": "Owls for Moon",
+    "type": "consumable",
+    "img": "images/pack_settings/owls_for_moon.png",
+    "codes": "moon_owls_required",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Owls for Majora",
+    "type": "consumable",
+    "img": "images/pack_settings/owls_for_majora.png",
+    "codes": "majora_owls_required",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Scarecrows for Moon",
+    "type": "consumable",
+    "img": "images/pack_settings/scarecrows_for_moon.png",
+    "codes": "moon_scarecrows_required",
+    "min_quantity": 0,
+    "max_quantity": 14,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Scarecrows for Majora",
+    "type": "consumable",
+    "img": "images/pack_settings/scarecrows_for_majora.png",
+    "codes": "majora_scarecrows_required",
+    "min_quantity": 0,
+    "max_quantity": 14,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Frogs for Moon",
+    "type": "consumable",
+    "img": "images/pack_settings/frogs_for_moon.png",
+    "codes": "moon_frogs_required",
+    "min_quantity": 0,
+    "max_quantity": 5,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Frogs for Majora",
+    "type": "consumable",
+    "img": "images/pack_settings/frogs_for_majora.png",
+    "codes": "majora_frogs_required",
+    "min_quantity": 0,
+    "max_quantity": 5,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
     "name": "Boss Warps With Remains",
     "type": "toggle",
     "img": "images/pack_settings/boss_warps_with_remains_on.png",

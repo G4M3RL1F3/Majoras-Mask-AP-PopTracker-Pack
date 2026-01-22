@@ -317,6 +317,148 @@ function starFox(check)
     end
 end
 
+function owlCount(check)
+    local owl_count
+    owl_count = 0
+    if Tracker:FindObjectForCode("owl_ct").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_milk_road").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_swamp").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_woodfall").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_mountain").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_snowhead").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_coast").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_zora_cape").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_ikana_canyon").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_stone_tower").Active then
+        masks_count = masks_count + 1
+    end
+    if check == "moon" then
+        if masks_count >= Tracker:FindObjectForCode("moon_owls_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
+    elseif check == "majora" then
+        if masks_count >= Tracker:FindObjectForCode("majora_owls_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
+    end
+end
+
+function frogCount(check)
+    local frog_count
+    frog_count = 0
+    if Tracker:FindObjectForCode("frog_yellow").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("frog_white").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("frog_pink").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("frog_blue").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("frog_cyan").Active then
+        masks_count = masks_count + 1
+    end
+    if check == "moon" then
+        if masks_count >= Tracker:FindObjectForCode("moon_frogs_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
+    elseif check == "majora" then
+        if masks_count >= Tracker:FindObjectForCode("majora_frogs_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
+    end
+end
+
+function scarecrowCount(check)
+    local scarecrow_count
+    scarecrow_count = 0
+    if Tracker:FindObjectForCode("scarecrow_mtn_village_winter").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_mtn_village_spring").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_path_snowhead_winter").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_path_snowhead_spring").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_twin_islands_winter").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_twin_islands_spring").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_sht_lower").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_sht_hidden_alcove").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_gb_coast_rock_wall").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_zora_cape_beavers").Active then
+        masks_count = masks_count + 1
+    end
+        if Tracker:FindObjectForCode("scarecrow_zora_cape_island").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_road_to_ikana").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_stone_tower_lower").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_stone_tower_upper").Active then
+        masks_count = masks_count + 1
+    end
+
+    if check == "moon" then
+        if masks_count >= Tracker:FindObjectForCode("moon_scarecrows_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
+    elseif check == "majora" then
+        if masks_count >= Tracker:FindObjectForCode("majora_scarecrows_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
+    end
+end
+
 function can_afford(location)
     local price = 0
     for key, value in ipairs(RANDOMIZED_PRICES) do

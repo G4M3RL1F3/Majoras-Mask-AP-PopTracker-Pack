@@ -1,6 +1,6 @@
 -- "remains_moon" is its own toggle that triggers when the required amount of Remains to access the moon is met.
 function moon()
-    return has("ocarina") and has("oath") and remainCount("moon") and maskCount("moon")
+    return has("ocarina") and has("oath") and remainCount("moon") and maskCount("moon") and starFox("moon")
 end
 
 --- SWAMP REGION ---
@@ -65,7 +65,7 @@ function baby_mountain_village()
     return path_mountain() and has("goron") and baby_has_explosives() and can_use_fire_arrows()
 end
 function mountain_village()
-    return (path_mountain() and (has("goron") or has_explosives() or can_use_fire_arrows())) or can_use_owl("owl_snowhead")
+    return (path_mountain() and has("goron") or has_explosives() or can_use_fire_arrows()) or (can_use_owl("owl_mountain") or (can_use_owl("owl_snowhead") and has("goron") and has("magic")))
 end
 
 -- Path to Snowhead -> Snowhead
@@ -73,7 +73,7 @@ function baby_snowhead()
     return baby_mountain_village() and has("goron") and can_play_song("goronlullaby") and has("magic") and has("bosskey_sh") and has("smallkey_sh", 3)
 end
 function snowhead()
-    return (mountain_village() and has("goron") and can_play_song("goronlullaby") and has("magic")) or (can_use_owl("owl_snowhead") and has("goron") and can_play_song("goronlullaby"))
+    return (mountain_village() and has("goron") and can_play_song("goronlullaby") and has("magic")) or (can_use_owl("owl_snowhead"))
 end
 
 -- Snowhead -> Snowhead Temple
@@ -144,7 +144,7 @@ end
 -- Road to Ikana -> Ikana Graveyard
 -- Easy and normal
 function graveyard()
-    return can_play_song("epona") or can_use_owl("owl_ikana_canyon") or can_use_owl("owl_stone_tower")
+    return can_play_song("epona")
 end
 
 --Road to Ikana -> Lower Ikana Canyon

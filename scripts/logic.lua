@@ -284,6 +284,39 @@ function maskCount(check)
     end
 end
 
+function starFox(check)
+    local star_fox
+    star_fox = 0
+    if Tracker:FindObjectForCode("bunnyhood").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("keaton").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("dongero").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("bremen").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scents").Active then
+        masks_count = masks_count + 1
+    end
+    if check == "moon" then
+        if masks_count >= Tracker:FindObjectForCode("moon_masks_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
+    elseif check == "majora" then
+        if masks_count >= Tracker:FindObjectForCode("majora_masks_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
+    end
+end
+
 function can_afford(location)
     local price = 0
     for key, value in ipairs(RANDOMIZED_PRICES) do

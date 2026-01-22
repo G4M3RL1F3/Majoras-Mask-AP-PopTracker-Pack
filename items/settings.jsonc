@@ -44,6 +44,20 @@
     "overlay_font_size": 40
   },
   {
+    "name": "Star Fox for Moon",
+    "type": "toggle",
+    "img": "images/pack_settings/star_fox_moon_on.png",
+    "disabled_img": "images/pack_settings/star_fox_moon_off.png",
+    "codes": "star_fox_moon"
+  },
+  {
+    "name": "Star Fox for Majora",
+    "type": "toggle",
+    "img": "images/pack_settings/star_fox_majora_on.png",
+    "disabled_img": "images/pack_settings/star_fox_majora_off.png",
+    "codes": "star_fox_majora"
+  },
+  {
     "name": "Masks for Moon",
     "type": "consumable",
     "img": "images/pack_settings/masks_for_moon.png",

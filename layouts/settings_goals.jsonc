@@ -25,6 +25,11 @@
                     "type": "item",
                     "max_width": 260,
                     "item": "moon_masks_required"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "star_fox_moon"
                   }
                 ]
               },
@@ -41,6 +46,11 @@
                     "type": "item",
                     "max_width": 260,
                     "item": "majora_masks_required"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "star_fox_majora"
                   }
                 ]
               },

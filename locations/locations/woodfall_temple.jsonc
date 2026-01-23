@@ -51,10 +51,10 @@
         ]
       },
       {
-        "name": "Gagwab Chest",
+        "name": "Turtle Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Gagwab Chest"
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Turtle Chest"
           }
     
         ],

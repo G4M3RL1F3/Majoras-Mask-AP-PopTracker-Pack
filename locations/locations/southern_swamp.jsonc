@@ -98,7 +98,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           }
         ],
@@ -471,7 +472,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           },
           {
@@ -482,7 +484,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$clear_woodfall, $can_play_song|healing",
-              "$clear_woodfall, $can_play_song|epona"
+              "$clear_woodfall, $can_play_song|epona",
+              "$clear_woodfall, $can_play_song|storms"
             ]
           }
         ],

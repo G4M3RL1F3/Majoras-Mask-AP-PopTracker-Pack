@@ -137,7 +137,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           }
         ],
@@ -352,7 +353,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           }
         ],
@@ -601,7 +603,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing, @Termina Field/Astral Observatory/Moon's Tear",
-              "$can_play_song|epona, @Termina Field/Astral Observatory/Moon's Tear"
+              "$can_play_song|epona, @Termina Field/Astral Observatory/Moon's Tear",
+              "$can_play_song|storms, @Termina Field/Astral Observatory/Moon's Tear"
             ]
           },
           {
@@ -772,7 +775,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_grottos, $can_play_song|healing",
-              "$has_absurd_soul|soul_grottos, $can_play_song|epona"
+              "$has_absurd_soul|soul_grottos, $can_play_song|epona",
+              "$has_absurd_soul|soul_grottos, $can_play_song|storms"
             ]
           },
           {
@@ -794,7 +798,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           },
           {
@@ -848,7 +853,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           },
           {
@@ -918,7 +924,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           }
         ],

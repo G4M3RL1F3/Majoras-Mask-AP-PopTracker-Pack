@@ -61,7 +61,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           }
         ],
@@ -224,7 +225,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           },
           {
@@ -296,7 +298,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           },
           {
@@ -350,7 +353,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           }
         ],
@@ -457,7 +461,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           },
           {
@@ -476,7 +481,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           },
           {

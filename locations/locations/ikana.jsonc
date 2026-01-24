@@ -132,6 +132,8 @@
             "access_rules": [
               "$can_use_owl|owl_ikana_canyon, $can_play_song|healing",
               "$can_use_owl|owl_stone_tower, $can_play_song|healing",
+              "$can_use_owl|owl_ikana_canyon, $can_play_song|storms",
+              "$can_use_owl|owl_stone_tower, $can_play_song|storms",
               "$can_play_song|epona"
             ]
           }
@@ -352,7 +354,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           },
           {
@@ -441,7 +444,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing, @Ikana/Near Sakon's Hideout Entrance/Zora Trade Freestanding HP",
-              "$can_play_song|epona, @Ikana/Near Sakon's Hideout Entrance/Zora Trade Freestanding HP"
+              "$can_play_song|epona, @Ikana/Near Sakon's Hideout Entrance/Zora Trade Freestanding HP",
+              "$can_play_song|storms, @Ikana/Near Sakon's Hideout Entrance/Zora Trade Freestanding HP"
             ]
           },
           {
@@ -542,7 +546,8 @@
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
-              "$can_play_song|epona"
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           },
           {

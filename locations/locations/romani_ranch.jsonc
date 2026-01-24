@@ -42,7 +42,7 @@
           },
           {
             "name": "Milk Road Owl Statue",
-            //"visibility_rules": ["owl_sanity"],
+            "visibility_rules": ["owl_sanity"],
             "chest_unopened_img": "images/owl_statues/owl_milk_road_on.png"
           },
           {
@@ -56,7 +56,7 @@
           {
             "name": "Milk Road Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -79,7 +79,7 @@
           {
             "name": "Notebook Event: Meeting Gorman Brothers",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_gorman_brothers, bombers_notebook"
             ]
@@ -92,7 +92,7 @@
           {
             "name": "Notebook Event: Received Garo's Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_bombers, $has_projectiles"
             ]
@@ -109,7 +109,7 @@
           {
             "name": "Crate Behind Fence",
             "chest_unopened_img": "images/icons/crate.png",
-            //"visibility_rules": ["woodsanity"],
+            "visibility_rules": ["wood_sanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -120,8 +120,8 @@
           {
             "name": "Fence Day 3 Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Gorman Racetrack Grass Group 1",
@@ -144,7 +144,7 @@
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 12,
             "clear_as_group": false,
-            //"visibility_rules": ["tree_sanity"],
+            "visibility_rules": ["tree_sanity"],
             "access_rules": [
               "$has_absurd_soul|soul_trees_bushes, $can_play_song|time, @Romani Ranch/Romani Ranch Outside/Helping Cremia",
               "$has_absurd_soul|soul_trees_bushes, $has_absurd_soul|soul_bulldozer"
@@ -155,7 +155,7 @@
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 12,
             "clear_as_group": false,
-            //"visibility_rules": ["tree_sanity"],
+            "visibility_rules": ["tree_sanity"],
             "access_rules": [
               "$has_absurd_soul|soul_trees_bushes, $can_play_song|time, @Romani Ranch/Romani Ranch Outside/Helping Cremia",
               "$has_absurd_soul|soul_trees_bushes, $has_absurd_soul|soul_bulldozer"
@@ -176,7 +176,7 @@
           {
             "name": "Notebook Event: Meeting Grog",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_grog, bombers_notebook"
             ]
@@ -189,7 +189,7 @@
           {
             "name": "Notebook Event: Received Bunny Hood",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_grog, bremenmask"
             ]
@@ -197,7 +197,7 @@
           {
             "name": "Cucco Shack Crates",
             "chest_unopened_img": "images/icons/crate.png",
-            //"visibility_rules": ["woodsanity"],
+            "visibility_rules": ["wood_sanity"],
             "item_count": 3,
             "clear_as_group": false
           },
@@ -213,13 +213,13 @@
             "name": "Cucco Shack Hitspots",
             "chest_unopened_img": "images/icons/hitspot.png",
             "item_count": 6,
-            "clear_as_group": false
-            //"visibility_rules": ["$hitsanity"]
+            "clear_as_group": false,
+            "visibility_rules": ["hit_sanity"]
           },
           {
             "name": "Cucco Shack Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -232,7 +232,7 @@
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 7,
             "clear_as_group": false,
-            //"visibility_rules": ["tree_sanity"],
+            "visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
           },
           {
@@ -240,7 +240,7 @@
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 1,
             "clear_as_group": false,
-            //"visibility_rules": ["tree_sanity"],
+            "visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
           }
         ],
@@ -283,7 +283,7 @@
           {
             "name": "Doggy Racetrack Soil",
             "chest_unopened_img": "images/icons/soil.png",
-            //"visibility_rules": ["soilsanity"],
+            "visibility_rules": ["soil_sanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$bottleCount|1"]
@@ -291,7 +291,7 @@
           {
             "name": "Doggy Racetrack Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -302,8 +302,8 @@
           {
             "name": "Doggy Racetrack Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           }
         ],
         "map_locations": [
@@ -338,14 +338,14 @@
           {
             "name": "Haystack Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
-            //"visibility_rules": ["rupeesanity"],
+            "visibility_rules": ["rupee_sanity"],
             "item_count": 2,
             "clear_as_group": false
           },
           {
             "name": "Near Barn Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -368,13 +368,13 @@
           {
             "name": "Epona's Stable Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Notebook Event: Meeting Romani",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_romani_cremia, bombers_notebook"
             ]
@@ -387,7 +387,7 @@
           {
             "name": "Notebook Event: Promised To Help With Aliens",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_bombers, $has_projectiles"
             ]
@@ -395,7 +395,7 @@
           {
             "name": "Crate Next To Romani",
             "chest_unopened_img": "images/icons/crate.png",
-            //"visibility_rules": ["woodsanity"],
+            "visibility_rules": ["wood_sanity"],
             "item_count": 1,
             "clear_as_group": false
           },
@@ -407,7 +407,7 @@
           {
             "name": "Notebook Event: Defended Against Aliens",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "@Romani Ranch/Romani Ranch Outside/Aliens"
             ]
@@ -415,7 +415,7 @@
           {
             "name": "Notebook Event: Received Milk Bottle",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_bombers, $has_projectiles"
             ]
@@ -423,7 +423,7 @@
           {
             "name": "Notebook Event: Meeting Cremia",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_romani_cremia, bombers_notebook"
             ]
@@ -436,7 +436,7 @@
           {
             "name": "Notebook Event: Escorted Cremia",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "@Romani Ranch/Romani Ranch Outside/Helping Cremia"
             ]
@@ -444,7 +444,7 @@
           {
             "name": "Notebook Event: Received Romani's Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "@Romani Ranch/Romani Ranch Outside/Helping Cremia"
             ]
@@ -452,7 +452,7 @@
           {
             "name": "Entry Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -471,7 +471,7 @@
           {
             "name": "Tree Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -514,14 +514,14 @@
           {
             "name": "Invisible Fence Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
-            //"visibility_rules": ["invisisanity"],
+            "visibility_rules": ["invisi_sanity"],
             "item_count": 6,
             "clear_as_group": false
           },
           {
             "name": "Day 1 Soil",
             "chest_unopened_img": "images/icons/soil.png",
-            //"visibility_rules": ["soilsanity"],
+            "visibility_rules": ["soil_sanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$can_use_powder_keg, $bottleCount|1"]
@@ -529,7 +529,7 @@
           {
             "name": "Day 2/3 Soil",
             "chest_unopened_img": "images/icons/soil.png",
-            //"visibility_rules": ["soilsanity"],
+            "visibility_rules": ["soil_sanity"],
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$bottleCount|1"]
@@ -539,7 +539,7 @@
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 4,
             "clear_as_group": false,
-            //"visibility_rules": ["tree_sanity"],
+            "visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
           },
           {
@@ -547,7 +547,7 @@
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 7,
             "clear_as_group": false,
-            //"visibility_rules": ["tree_sanity"],
+            "visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
           }
         ],

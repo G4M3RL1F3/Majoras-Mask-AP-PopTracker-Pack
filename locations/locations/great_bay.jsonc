@@ -19,14 +19,14 @@
           {
             "name": "Coast Entrance Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Beachfront Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Healing Zora",
@@ -48,18 +48,16 @@
           {
             "name": "Fisherman Butterfly Fairies",
             "chest_unopened_img": "images/icons/butterfly.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_misc_soul|soul_butterfly"
-            ]
+            "access_rules": ["$has_misc_soul|soul_butterfly"]
           },
           {
             "name": "Fisherman Hut Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Fisherman's Grotto Grass",
@@ -79,14 +77,14 @@
           },
           {
             "name": "Great Bay Coast Owl Statue",
-            //"visibility_rules": ["owl_sanity"],
+            "visibility_rules": ["owl_sanity"],
             "chest_unopened_img": "images/owl_statues/owl_coast_on.png"
           },
           {
             "name": "Research Lab Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Baby Zora Song",
@@ -100,7 +98,7 @@
           {
             "name": "Scattered Beach Rocks",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rock_sanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks"]
@@ -108,7 +106,7 @@
           {
             "name": "Underwater Beach Rocks (Bombchu Only)",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rock_sanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks, bombchu_bag"]
@@ -140,8 +138,8 @@
           {
             "name": "Rock Pool Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Great Bay Coast Rock Pool Pots",
@@ -154,7 +152,7 @@
           {
             "name": "Underwater Rocks Below Rock Pool (Bombchu Only)",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rock_sanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks, bombchu_bag, zora"]
@@ -162,7 +160,7 @@
           {
             "name": "Underwater Rock Near Like-Like (Bombchu Only)",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rock_sanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks, bombchu_bag, zora"]
@@ -180,7 +178,7 @@
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 3,
             "clear_as_group": false,
-            //"visibility_rules": ["tree_sanity"],
+            "visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
           },
           {
@@ -188,20 +186,20 @@
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 1,
             "clear_as_group": false,
-            //"visibility_rules": ["tree_sanity"],
+            "visibility_rules": ["tree_sanity"],
             "access_rules": ["$clear_greatbay, $has_absurd_soul|soul_trees_bushes"]
           },
           {
             "name": "Fisherman Boat Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$clear_greatbay, $has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$clear_greatbay, $has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Zora Cape Entrance Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           }
         ]
       },
@@ -218,8 +216,8 @@
           {
             "name": "Rock Wall Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
-            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"]
-            //"visibility_rules": ["scarecrowsanity"]
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
+            "visibility_rules": ["scarecrow_sanity"]
           },
           {
             "name": "Scarecrow Ledge HP",
@@ -232,7 +230,7 @@
           {
             "name": "Rock Wall Soil",
             "chest_unopened_img": "images/icons/soil.png",
-            //"visibility_rules": ["soil_sanity"],
+            "visibility_rules": ["soil_sanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["hookshot, $bottleCount|1"]
@@ -240,8 +238,8 @@
           {
             "name": "North Clock Town Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Ledge Grotto Left Cow",
@@ -258,12 +256,10 @@
           {
             "name": "Cow Grotto Butterfly Fairies",
             "chest_unopened_img": "images/icons/butterfly.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": [
-              "$has_misc_soul|soul_butterfly"
-            ]
+            "access_rules": ["$has_misc_soul|soul_butterfly"]
           },
           {
             "name": "Great Bay Grotto Grass Group 1",
@@ -316,7 +312,7 @@
           {
             "name": "Great Bay Grotto Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
-            //"visibility_rules": ["hive_sanity"],
+            "visibility_rules": ["hive_sanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -342,7 +338,7 @@
           {
             "name": "Rock Wall Rocks",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rock_sanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks"]
@@ -350,7 +346,7 @@
           {
             "name": "Underwater Rock Near Rock Wall (Bombchu Only)",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rock_sanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks, bombchu_bag, zora"]
@@ -358,7 +354,7 @@
           {
             "name": "Rock Wall Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -389,13 +385,13 @@
           {
             "name": "Waterfall Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Zora Cape Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -426,21 +422,21 @@
           {
             "name": "Jar Game Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Jar Game Trees",
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 2,
             "clear_as_group": false,
-            //"visibility_rules": ["tree_sanity"],
+            "visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
           },
           {
             "name": "Beach Rocks",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rock_sanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 10,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks"]
@@ -454,14 +450,14 @@
             "item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, hookshot"]
-            //"visibility_rules": ["flower_sanity"]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, hookshot"],
+            "visibility_rules": ["flower_sanity"]
           },
           {
             "name": "Beaver's Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
-            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"]
-            //"visibility_rules": ["scarecrowsanity"]
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
+            "visibility_rules": ["scarecrow_sanity"]
           },
           {
             "name": "Scarecrow Chest",
@@ -470,15 +466,15 @@
           {
             "name": "Island Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
-            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"]
-            //"visibility_rules": ["scarecrowsanity"]
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
+            "visibility_rules": ["scarecrow_sanity"]
           },
           {
             "name": "Island Trees",
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 3,
             "clear_as_group": false,
-            //"visibility_rules": ["tree_sanity"],
+            "visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes, hookshot"]
           },
           {
@@ -503,7 +499,7 @@
           {
             "name": "Grotto Boulder",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rock_sanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": ["$has_explosives", "goron"]
@@ -511,7 +507,7 @@
           {
             "name": "Island Rocks",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rock_sanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks, $has_absurd_soul|soul_trees_bushes, hookshot"]
@@ -519,7 +515,7 @@
           {
             "name": "Great Fairy Boulders",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rock_sanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_trees_bushes, $has_explosives, hookshot"]
@@ -542,7 +538,7 @@
           },
           {
             "name": "Zora Cape Owl Statue",
-            //"visibility_rules": ["owl_sanity"],
+            "visibility_rules": ["owl_sanity"],
             "chest_unopened_img": "images/owl_statues/owl_zora_cape_on.png"
           },
           {
@@ -556,15 +552,15 @@
           {
             "name": "Giant Turtle Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Giant Turtle Trees",
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 2,
             "clear_as_group": false,
-            //"visibility_rules": ["tree_sanity"],
+            "visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes, zora, hookshot"]
           }
         ]
@@ -618,8 +614,8 @@
             "item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_business_scrub, deku, goron, zora, mountaindeed"]
-            //"visibility_rules": ["flower_sanity"]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_business_scrub, deku, goron, zora, mountaindeed"],
+            "visibility_rules": ["flower_sanity"]
           },
           {
             "name": "Goron Scrub Trade",
@@ -657,8 +653,8 @@
           {
             "name": "Pervert Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
-            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"]
-            //"visibility_rules": ["scarecrowsanity"]
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
+            "visibility_rules": ["scarecrow_sanity"]
           }
         ]
       },

@@ -26,7 +26,7 @@
           {
             "name": "Grotto Boulder",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rocksanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["goron"]
@@ -58,7 +58,7 @@
           {
             "name": "Notebook Event: Meeting Shiro",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_shiro, bombers_notebook, lens, magic, $can_play_song|epona",
               "$has_npc_soul|soul_shiro, bombers_notebook, lens, magic, $can_use_owl|owl_ikana_canyon",
@@ -76,7 +76,7 @@
           {
             "name": "Notebook Event: Received Stone Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "@Ikana/Road to Ikana Stone Soldier/Road to Ikana Stone Soldier"
             ]
@@ -84,7 +84,7 @@
           {
             "name": "Shiro's Safety Rock Circle",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rocksanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": [
@@ -112,8 +112,8 @@
               "$has_npc_soul|soul_scarecrow, $can_play_song|epona",
               "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_ikana_canyon",
               "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_stone_tower"
-            ]
-            //"visibility_rules": ["scarecrowsanity"]
+            ],
+            "visibility_rules": ["scarecrow_sanity"]
           },
           {
             "name": "Road To Ikana Scarecrow Pillar Pot",
@@ -126,7 +126,7 @@
           {
             "name": "Near Scarecrow Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -157,7 +157,8 @@
               "$has_explosives, $has_npc_soul|soul_spirit_house_owner, $can_play_song|epona, hookshot, gibdo",
               "$has_explosives, $can_use_owl|owl_ikana_canyon",
               "$has_explosives, $can_use_owl|owl_stone_tower"
-            ]
+            ],
+            "visibility_rules": ["rock_sanity"]
           }
         ],
         "map_locations": [
@@ -190,7 +191,7 @@
           {
             "name": "Graveyard Rock Circle",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rocksanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks"]
@@ -236,7 +237,7 @@
           {
             "name": "Day 2 Grave Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
-            //"visibility_rules": ["rupeesanity"],
+            "visibility_rules": ["rupee_sanity"],
             "item_count": 7,
             "clear_as_group": false,
             "access_rules": ["$has_enemy_soul|soul_stalchildren, captain"]
@@ -268,8 +269,8 @@
           {
             "name": "Day 2 Grave Bombable Wall",
             "chest_unopened_img": "images/icons/bombwall.png",
-            "access_rules": ["$has_npc_soul|soul_stalchildren, $has_explosives, captain, lens"]
-            //"visibility_rules": ["bombwall_sanity"]
+            "access_rules": ["$has_npc_soul|soul_stalchildren, $has_explosives, captain, lens"],
+            "visibility_rules": ["bombwall_sanity"]
           },
           {
             "name": "Day 3 Dampe Big Poe Chest",
@@ -298,7 +299,7 @@
           {
             "name": "Captain Keeta Rockwall",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rocksanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks, $has_explosives, $can_play_song|sonata"]
@@ -324,7 +325,8 @@
             "chest_unopened_img": "images/icons/hitspot.png",
             "item_count": 12,
             "clear_as_group": false,
-            "access_rules": ["$has_projectiles"]
+            "access_rules": ["$has_projectiles"],
+            "visibility_rules": ["hit_sanity"]
           }
         ],
         "map_locations": [
@@ -345,7 +347,7 @@
           {
             "name": "Near River Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -356,8 +358,8 @@
           {
             "name": "Near River Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           }
         ],
         "map_locations": [
@@ -390,8 +392,8 @@
           {
             "name": "Outside Shrine Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           }
         ],
         "map_locations": [
@@ -434,7 +436,7 @@
           {
             "name": "Ocean Deed Trade Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -447,14 +449,14 @@
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, deku, zora, oceandeed"]
-            //"visibility_rules": ["flower_sanity"]
+            "access_rules": ["$has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, deku, zora, oceandeed"],
+            "visibility_rules": ["flower_sanity"]
           },
           {
             "name": "Outside Sakon's Hideout Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           }
         ],
         "map_locations": [
@@ -479,8 +481,8 @@
           {
             "name": "Notebook Event: Escaped Sakon's Hideout",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
-            "access_rules": ["$has_npc_soul|soul_kafei, $has_misc_soul|soul_postboxes, kafeiletter, $lower_ikana_canyon"]
+            "visibility_rules": ["notebook_sanity"],
+            "access_rules": ["$has_npc_soul|soul_kafei, $has_utility_soul|soul_postboxes, kafeiletter, $lower_ikana_canyon"]
           }
         ],
         "map_locations": [
@@ -500,7 +502,7 @@
         "sections": [
           {
             "name": "Ikana Canyon Owl Statue",
-            //"visibility_rules": ["owl_sanity"],
+            "visibility_rules": ["owl_sanity"],
             "chest_unopened_img": "images/owl_statues/owl_ikana_canyon_on.png"
           },
           {
@@ -529,13 +531,13 @@
           {
             "name": "Spirit House Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Near Spirit House Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -560,20 +562,20 @@
           {
             "name": "Outside Well Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Near Ikana Castle Gate Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Outside Spring Cave Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           }
         ],
         "map_locations": [
@@ -606,8 +608,8 @@
             "access_rules": [
               "$has_npc_soul|soul_scarecrow, $can_play_song|elegy, goron, zora",
               "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_stone_tower, $can_play_song|elegy"
-            ]
-            //"visibility_rules": ["scarecrowsanity"]
+            ],
+            "visibility_rules": ["scarecrow_sanity"]
           },
           {
             "name": "Stone Tower Lower Scarecrow Pots",
@@ -615,7 +617,8 @@
             "access_rules": [
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, goron, zora, elegy",
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, $can_use_owl|owl_stone_tower"
-            ]
+            ],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Upper Scarecrow",
@@ -623,8 +626,8 @@
             "access_rules": [
               "$has_npc_soul|soul_scarecrow, $can_play_song|elegy, goron, zora",
               "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_stone_tower, $can_play_song|elegy"
-            ]
-            //"visibility_rules": ["scarecrowsanity"]
+            ],
+            "visibility_rules": ["scarecrow_sanity"]
           },
           {
             "name": "Stone Tower Upper Scarecrow Pots",
@@ -632,11 +635,12 @@
             "access_rules": [
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, goron, zora, elegy",
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, $can_use_owl|owl_stone_tower"
-            ]
+            ],
+            "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Stone Tower Owl Statue",
-            //"visibility_rules": ["owl_sanity"],
+            "visibility_rules": ["owl_sanity"],
             "chest_unopened_img": "images/owl_statues/owl_stone_tower_on.png",
             "access_rules": [
               "$can_play_song|elegy, hookshot, goron, zora",
@@ -649,7 +653,8 @@
             "access_rules": [
               "$has_absurd_soul|soul_pots, hookshot, goron, zora, elegy",
               "$has_absurd_soul|soul_pots, $can_use_owl|owl_stone_tower"
-            ]
+            ],
+            "visibility_rules": ["pot_sanity"]
           }
         ],
         "map_locations": [
@@ -670,7 +675,7 @@
           {
             "name": "Inverted Tower Rocks",
             "chest_unopened_img": "images/absurd/rock.png",
-            //"visibility_rules": ["rocksanity"],
+            "visibility_rules": ["rock_sanity"],
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks"]
@@ -678,7 +683,7 @@
           {
             "name": "Inverted Lower Soil",
             "chest_unopened_img": "images/icons/soil.png",
-            //"visibility_rules": ["soilsanity"],
+            "visibility_rules": ["soil_sanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$bottleCount|1"]
@@ -686,7 +691,7 @@
           {
             "name": "Inverted Upper Soil",
             "chest_unopened_img": "images/icons/soil.png",
-            //"visibility_rules": ["soilsanity"],
+            "visibility_rules": ["soil_sanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$can_plant_beans, $bottleCount|1"]

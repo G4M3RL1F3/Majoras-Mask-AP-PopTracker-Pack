@@ -389,6 +389,132 @@
     "disabled_img": "images/pack_settings/sanities/pot_sanity_off.png",
     "codes": "pot_sanity"
   },
+  {
+    "name": "Flower Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/flower_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/flower_sanity_off.png",
+    "codes": "flower_sanity"
+  },
+  {
+    "name": "Wood Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/wood_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/wood_sanity_off.png",
+    "codes": "wood_sanity"
+  },
+  {
+    "name": "Sign Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/sign_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/sign_sanity_off.png",
+    "codes": "sign_sanity"
+  },
+  {
+    "name": "Owl Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/owl_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/owl_sanity_off.png",
+    "codes": "owl_sanity"
+  },
+  {
+    "name": "Hit Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/hit_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/hit_sanity_off.png",
+    "codes": "hit_sanity"
+  },
+  {
+    "name": "Notebook Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/notebook_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/notebook_sanity_off.png",
+    "codes": "notebook_sanity"
+  },
+  {
+    "name": "Tree/Bush Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/tree_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/tree_sanity_off.png",
+    "codes": "tree_sanity"
+  },
+  {
+    "name": "Rock Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/rock_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/rock_sanity_off.png",
+    "codes": "rock_sanity"
+  },
+  {
+    "name": "Rupee Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/rupee_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/rupee_sanity_off.png",
+    "codes": "rupee_sanity"
+  },
+  {
+    "name": "Invisible Rupee Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/invisi_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/invisi_sanity_off.png",
+    "codes": "invisi_sanity"
+  },
+  {
+    "name": "Soil Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/soil_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/soil_sanity_off.png",
+    "codes": "soil_sanity"
+  },
+  {
+    "name": "Snowball Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/snow_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/snow_sanity_off.png",
+    "codes": "snow_sanity"
+  },
+  {
+    "name": "Icicle Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/icicle_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/icicle_sanity_off.png",
+    "codes": "icicle_sanity"
+  },
+  {
+    "name": "Real Fairy Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/real_fairysanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/real_fairysanity_off.png",
+    "codes": "real_fairysanity"
+  },
+  {
+    "name": "Hive Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/hive_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/hive_sanity_off.png",
+    "codes": "hive_sanity"
+  },
+  {
+    "name": "Web Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/web_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/web_sanity_off.png",
+    "codes": "web_sanity"
+  },
+  {
+    "name": "Bombwall Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/bombwall_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/bombwall_sanity_off.png",
+    "codes": "bombwall_sanity"
+  },
+  {
+    "name": "Painting Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/painting_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/painting_sanity_off.png",
+    "codes": "painting_sanity"
+  },
 
   // Inventory
   {

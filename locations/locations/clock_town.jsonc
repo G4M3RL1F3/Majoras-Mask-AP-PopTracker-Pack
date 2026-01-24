@@ -18,8 +18,8 @@
             "item_count": 11,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"]
-            //"visibility_rules": ["flower_sanity"]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
           },
           {
             "name": "Before Clock Town Keaton Grass",
@@ -81,7 +81,7 @@
             "chest_unopened_img": "images/icons/hitspot.png",
             "item_count": 3,
             "clear_as_group": false,
-            //"visibility_rules": ["$hitsanity"]
+            "visibility_rules": ["hit_sanity"],
             "access_rules": [
               "$has_projectiles",
               "hookshot"
@@ -107,7 +107,7 @@
           {
             "name": "Clock Town Owl Statue",
             "chest_unopened_img": "images/owl_statues/owl_ct_on.png",
-            //"visibility_rules": ["owl_sanity"],
+            "visibility_rules": ["owl_sanity"],
             "access_rules": ["$can_smack"]
           }
         ],
@@ -132,8 +132,8 @@
             "item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, moontear, deku"]
-            //"visibility_rules": ["flower_sanity"]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, moontear, deku"],
+            "visibility_rules": ["flower_sanity"]
           }
         ],
         "map_locations": [
@@ -209,8 +209,8 @@
           {
             "name": "Notebook Event: Deposited Letter To Kafei",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
-            "access_rules": ["$has_misc_soul|soul_postboxes, kafeiletter"]
+            "visibility_rules": ["notebook_sanity"],
+            "access_rules": ["$has_misc_soul|soul_postboxees, kafeiletter"]
           }
         ],
         "map_locations": [
@@ -280,7 +280,7 @@
           {
             "name": "Notebook Event: Meeting Bombers",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_toto_gorman, bombers_notebook"
             ]
@@ -288,7 +288,7 @@
           {
             "name": "Notebook Event: Received Bomber's Notebook",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_bombers, $has_projectiles"
             ]
@@ -296,7 +296,7 @@
           {
             "name": "Notebook Event: Learned Secret Code",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_bombers, $has_projectiles"
             ]
@@ -326,8 +326,8 @@
           {
             "name": "North Clock Town East Tree",
             "chest_unopened_img": "images/absurd/tree.png",
-            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"],
+            "visibility_rules": ["tree_sanity"]
           }
         ],
         "map_locations": [
@@ -351,8 +351,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"]
-            //"visibility_rules": ["flower_sanity"]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
           },
           {
             "name": "North Clock Town Deku Playground Any Day",
@@ -367,7 +367,7 @@
           {
             "name": "Deku Playground Day 1 Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
-            //"visibility_rules": ["rupeesanity"],
+            "visibility_rules": ["rupee_sanity"],
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
@@ -375,7 +375,7 @@
           {
             "name": "Deku Playground Day 2 Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
-            //"visibility_rules": ["rupeesanity"],
+            "visibility_rules": ["rupee_sanity"],
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
@@ -383,7 +383,7 @@
           {
             "name": "Deku Playground Day 3 Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
-            //"visibility_rules": ["rupeesanity"],
+            "visibility_rules": ["rupee_sanity"],
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
@@ -393,20 +393,20 @@
             "item_count": 8,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, deku"]
-            //"visibility_rules": ["flower_sanity"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
           },
           {
             "name": "North Clock Town West Tree",
             "chest_unopened_img": "images/absurd/tree.png",
-            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
-            //"visibility_rules": ["absurd_souls"]
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"],
+            "visibility_rules": ["tree_sanity"]
           },
           {
             "name": "Playground Exterior Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           }
         ],
         "map_locations": [
@@ -425,7 +425,7 @@
       {
         "name": "Clock Town Great Fairy",
         "access_rules": ["fairy_ct"],
-        //"visibility_rules": ["shuffle_great_fairy_rewards"],
+        "visibility_rules": ["shuffle_great_fairy_rewards"],
         "chest_unopened_img": "images/equipment/fairy_ct.png",
         "sections": [
           {
@@ -507,7 +507,7 @@
           {
             "name": "Notebook Event: Meeting Bomb Granny",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_bomb_shop_lady, bombers_notebook"
             ]
@@ -515,7 +515,7 @@
           {
             "name": "Notebook Event: Received Blast Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "@Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM)"
             ]
@@ -560,7 +560,7 @@
           {
             "name": "Notebook Event: Meeting Africa (Toto)",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_toto_gorman, bombers_notebook"
             ]
@@ -573,7 +573,7 @@
           {
             "name": "Notebook Event: Meeting Madame Aroma",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_madame_aroma, bombers_notebook"
             ]
@@ -581,7 +581,7 @@
           {
             "name": "Notebook Event: Received Kafei's Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_madame_aroma"
             ]
@@ -589,7 +589,7 @@
           {
             "name": "Notebook Event: Meeting Mayor Dotour",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_council, bombers_notebook"
             ]
@@ -602,7 +602,7 @@
           {
             "name": "Notebook Event: Received Mayor HP",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_council, couple"
             ]
@@ -646,8 +646,8 @@
             "name": "Target & Basket Hitspots",
             "chest_unopened_img": "images/icons/hitspot.png",
             "item_count": 9,
-            "clear_as_group": false
-            //"visibility_rules": ["$hitsanity"]
+            "clear_as_group": false,
+            "visibility_rules": ["hit_sanity"]
           }
         ],
         "map_locations": [
@@ -743,8 +743,8 @@
           {
             "name": "Bomber's Hideout Bombable Wall",
             "chest_unopened_img": "images/icons/bombwall.png",
-            "access_rules": ["$has_hard_projectiles, $has_explosives"]
-            //"visibility_rules": ["bombwall_sanity"]
+            "access_rules": ["$has_hard_projectiles, $has_explosives"],
+            "visibility_rules": ["bombwall_sanity"]
           }
         ],
         "map_locations": [
@@ -771,7 +771,7 @@
           {
             "name": "Notebook Event: Meeting Anju",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_anju, bombers_notebook"
             ]
@@ -779,7 +779,7 @@
           {
             "name": "Notebook Event: Received Room Key",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_anju"
             ]
@@ -794,7 +794,7 @@
           {
             "name": "Notebook Event: Promised Midnight Meeting",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_anju, kafeimask"
             ]
@@ -811,7 +811,7 @@
           {
             "name": "Notebook Event: Promised To Meet Kafei",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_bombers, $has_projectiles"
             ]
@@ -819,7 +819,7 @@
           {
             "name": "Notebook Event: Received Letter To Kafei",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "kafeimask, @Clock Town/Stock Pot Inn/Stock Pot Inn Midnight Meeting (Night 1: 11:30 PM)"
             ]
@@ -827,7 +827,7 @@
           {
             "name": "Notebook Event: Delivered Pendant of Memories",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "@Clock Town/Stock Pot Inn/Stock Pot Inn Midnight Meeting (Night 1: 11:30 PM)"
             ]
@@ -835,7 +835,7 @@
           {
             "name": "Notebook Event: Meeting Toilet Hand",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_toilet_hand, bombers_notebook"
             ]
@@ -848,7 +848,7 @@
           {
             "name": "Notebook Event: Received Toilet Hand HP",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_toilet_hand, $has_paper"
             ]
@@ -856,7 +856,7 @@
           {
             "name": "Notebook Event: Meeting Anju's Grandmother",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_anjus_grandmother, bombers_notebook"
             ]
@@ -869,7 +869,7 @@
           {
             "name": "Notebook Event: Received Grandma Short Story HP",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_anjus_grandmother, allnightmask"
             ]
@@ -882,7 +882,7 @@
           {
             "name": "Notebook Event: Received Grandma Long Story HP",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_anjus_grandmother, allnightmask"
             ]
@@ -899,7 +899,7 @@
           {
             "name": "Notebook Event: Received Couple's Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "@Clock Town/Stock Pot Inn/Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)"
             ]
@@ -909,7 +909,7 @@
             "chest_unopened_img": "images/icons/hitspot.png",
             "item_count": 3,
             "clear_as_group": false,
-            //"visibility_rules": ["$hitsanity"]
+            "visibility_rules": ["hit_sanity"],
             "access_rules": [
               "zora, magic"
             ]
@@ -942,7 +942,7 @@
           {
             "name": "Notebook Event: Meeting Gorman",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_toto_gorman, bombers_notebook"
             ]
@@ -950,7 +950,7 @@
           {
             "name": "Notebook Event: Received Circus Leader's Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "@Clock Town/Milk Bar (10 PM - 6 AM)/Milk Bar Show (Night 1 - 2)"
             ]
@@ -963,7 +963,7 @@
           {
             "name": "Notebook Event: Delivered Priority Mail",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_madame_aroma, romani, kafei, express"
             ]
@@ -989,8 +989,8 @@
           {
             "name": "Milk Bar Roof Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"]
-            //"visibility_rules": ["signsanity"]
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           }
         ],
         "map_locations": [
@@ -1012,7 +1012,7 @@
           {
             "name": "Juggler's Crates",
             "chest_unopened_img": "images/icons/crate.png",
-            //"visibility_rules": ["woodsanity"],
+            "visibility_rules": ["wood_sanity"],
             "item_count": 2,
             "clear_as_group": false
           },
@@ -1021,8 +1021,8 @@
             "item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"]
-            //"visibility_rules": ["flower_sanity"]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
           }
         ],
         "map_locations": [
@@ -1044,7 +1044,7 @@
           {
             "name": "Notebook Event: Meeting Rosa Sisters",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_rosa_sisters, bombers_notebook"
             ]
@@ -1057,7 +1057,7 @@
           {
             "name": "Notebook Event: Received Rosa Sister's HP",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_rosa_sisters, kamaro"
             ]
@@ -1127,7 +1127,7 @@
             "chest_unopened_img": "images/icons/hitspot.png",
             "item_count": 1,
             "clear_as_group": false,
-            //"visibility_rules": ["$hitsanity"]
+            "visibility_rules": ["hit_sanity"],
             "access_rules": [
               "$can_smack"
             ]
@@ -1141,8 +1141,8 @@
               "$has_absurd_soul|soul_signs, $has_npc_soul|soul_swordsman, goron",
               "$has_absurd_soul|soul_signs, $has_npc_soul|soul_swordsman, zora",
               "$has_absurd_soul|soul_signs, $has_npc_soul|soul_swordsman, blastmask"
-            ]
-            //"visibility_rules": ["signsanity"]
+            ],
+            "visibility_rules": ["sign_sanity"]
           }
         ],
         "map_locations": [
@@ -1164,7 +1164,7 @@
           {
             "name": "Notebook Event: Meeting Postman",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_toto_gorman, bombers_notebook"
             ]
@@ -1177,7 +1177,7 @@
           {
             "name": "Notebook Event: Received Postman HP",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_postman, bunnyhood"
             ]
@@ -1190,7 +1190,7 @@
           {
             "name": "Notebook Event: Received Postman's Hat",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_postman, express"
             ]
@@ -1215,7 +1215,7 @@
           {
             "name": "Notebook Event: Meeting Guru Guru",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_guru_guru, bombers_notebook"
             ]
@@ -1228,7 +1228,7 @@
           {
             "name": "Notebook Event: Received Bremen Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_guru_guru"
             ]
@@ -1236,7 +1236,7 @@
           {
             "name": "Notebook Event: Meeting Kafei",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_toto_gorman, bombers_notebook"
             ]
@@ -1258,14 +1258,14 @@
           {
             "name": "Laundry Pool Crate",
             "chest_unopened_img": "images/icons/crate.png",
-            //"visibility_rules": ["woodsanity"],
+            "visibility_rules": ["wood_sanity"],
             "item_count": 1,
             "clear_as_group": false
           },
           {
             "name": "Night 2 Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
-            //"visibility_rules": ["rupeesanity"],
+            "visibility_rules": ["rupee_sanity"],
             "item_count": 3,
             "clear_as_group": false
           }
@@ -1285,7 +1285,7 @@
       },
       {
         "name": "Stray Fairy (Clock Town)",
-        //"visibility_rules": ["fairysanity"],
+        "visibility_rules": ["fairysanity"],
         "sections": [
           {
             "name": "Stray Fairy (Clock Town)",
@@ -1330,10 +1330,8 @@
           {
             "name": "Notebook Event: Received Pendant of Memories",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, kafeiletter"
-            ]
+            "visibility_rules": ["notebook_sanity"],
+            "access_rules": ["$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, kafeiletter"]
           },
           {
             "name": "Laundry Pool Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)",
@@ -1343,8 +1341,8 @@
           {
             "name": "Notebook Event: Received Keaton Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
-            "access_rules": ["@Clock Town/Curiosity Shop Backroom/Laundry Pool Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)"]
+            "visibility_rules": ["notebook_sanity"],
+            "access_rules": [ "@Clock Town/Curiosity Shop Backroom/Laundry Pool Curiosity Shop Salesman #1 (Final Day, 1 PM - 9 PM)"]
           },
           {
             "name": "Laundry Pool Curiosity Shop Salesman #2 (Final Day 1 PM - 9 PM)",
@@ -1354,10 +1352,8 @@
           {
             "name": "Notebook Event: Received Priority Mail",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_bombers, $has_projectiles"
-            ]
+            "visibility_rules": ["notebook_sanity"],
+            "access_rules": ["$has_npc_soul|soul_bombers, $has_projectiles"]
           }
         ],
         "map_locations": [
@@ -1603,15 +1599,15 @@
           {
             "name": "Trading Post Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
-            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"]
-            //"visibility_rules": ["scarecrowsanity"]
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
+            "visibility_rules": ["scarecrow_sanity"]
           },
           {
             "name": "Trading Post Bushes",
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 4,
             "clear_as_group": false,
-            //"visibility_rules": ["tree_sanity"],
+            "visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
           }
         ]
@@ -1703,7 +1699,7 @@
           {
             "name": "Notebook Event: Meeting Curiosity Shop Man",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_curiosity_shop_man, bombers_notebook"
             ]
@@ -1721,7 +1717,7 @@
           {
             "name": "Notebook Event: Received All Night Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            //"visibility_rules": ["notebook_sanity"],
+            "visibility_rules": ["notebook_sanity"],
             "access_rules": [
               "$has_npc_soul|soul_curiosity_shop_man, @Clock Town/Bomb Shop/Item 3 (Stop Thief), $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)"
             ]
@@ -1797,14 +1793,6 @@
           }
         ],
         "sections": [
-          //{
-          //  "name": "Clock Town Map Purchase",
-          //  "chest_unopened_img": "images/equipment/rmap_clocktown.png",
-          //  "access_rules": [
-          //    "easy_logic, $baby_has_projectiles, $baby_ikana_canyon, $can_use_ice_arrows",
-          //    "normal_logic, $has_projectiles"
-          //  ]
-          //},
           {
             "ref": "Groups/Clock Town Map Purchase/Clock Town Map Purchase"
           },

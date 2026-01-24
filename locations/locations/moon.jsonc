@@ -49,7 +49,7 @@
           {
             "name": "Heart Piece Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -77,8 +77,8 @@
             "item_count": 11,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku"]
-            //"visibility_rules": ["flower_sanity"]
+            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
           }
         ],
         "map_locations": [
@@ -110,7 +110,7 @@
           {
             "name": "Front Left Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -136,7 +136,7 @@
           {
             "name": "Front Right Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -162,7 +162,7 @@
           {
             "name": "Back Left Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -188,7 +188,7 @@
           {
             "name": "Back Right Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -249,7 +249,7 @@
           {
             "name": "Heart Piece Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -348,7 +348,7 @@
           {
             "name": "Exit Icicles",
             "chest_unopened_img": "images/icons/icicle.png",
-            //"visibility_rules": ["iciclesanity"],
+            "visibility_rules": ["icicle_sanity"],
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
@@ -370,7 +370,7 @@
           {
             "name": "First Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
@@ -393,7 +393,7 @@
           {
             "name": "Second Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
@@ -451,7 +451,7 @@
           {
             "name": "Heart Piece Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -474,7 +474,7 @@
           {
             "name": "LLL Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -497,7 +497,7 @@
           {
             "name": "LRR Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -520,7 +520,7 @@
           {
             "name": "RRL Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -543,7 +543,7 @@
           {
             "name": "RRR Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -622,7 +622,7 @@
           {
             "name": "Dinofols-Garo Master Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -664,7 +664,7 @@
           {
             "name": "Garo Master-Iron Knuckle Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -703,7 +703,7 @@
           {
             "name": "Bombable Wall",
             "chest_unopened_img": "images/icons/bombwall.png",
-            //"visibility_rules": ["bombwall_sanity"],
+            "visibility_rules": ["bombwall_sanity"],
             "access_rules": [
               "@Inside the Moon/Garo Master Room/Garo Master Chest, $has_bombchus"
             ]
@@ -723,7 +723,7 @@
           {
             "name": "Iron Knuckle Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
@@ -759,7 +759,7 @@
           {
             "name": "Heart Piece Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": [
@@ -770,8 +770,8 @@
           {
             "name": "Bombable Ceiling",
             "chest_unopened_img": "images/icons/bombwall.png",
-            "access_rules": ["@Inside the Moon/Iron Kuckle Room Room/Iron Knuckle Chest, $has_bombchus"]
-            //"visibility_rules": ["bombwall_sanity"]
+            "access_rules": ["@Inside the Moon/Iron Kuckle Room Room/Iron Knuckle Chest, $has_bombchus"],
+            "visibility_rules": ["bombwall_sanity"]
           }
         ],
         "map_locations": [
@@ -788,7 +788,7 @@
           {
             "name": "Field Butterfly Fairies",
             "chest_unopened_img": "images/icons/butterfly.png",
-            //"visibility_rules": ["real_fairysanity"],
+            "visibility_rules": ["real_fairysanity"],
             "item_count": 13,
             "clear_as_group": false,
             "access_rules": [
@@ -805,7 +805,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$remainCount|majora, $maskCount|majora, $has_npc_soul|soul_moon_kid, $has_boss_soul|soul_majora, $has_absurd_soul|soul_pots"],
+            "access_rules": ["$remainCount|majora, $maskCount|majora, $starFox|majora, $has_npc_soul|soul_moon_kid, $has_boss_soul|soul_majora, $has_absurd_soul|soul_pots"],
             "visibility_rules": ["pot_sanity"]
           },
           {

@@ -1,369 +1,771 @@
---ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
---ScriptHost:LoadScript("scripts/autotracking/mappings.lua")
-ScriptHost:LoadScript("scripts/autotracking/shop.lua")
-ScriptHost:LoadScript("scripts/autotracking/tables.lua")
-
-set_default_prices()
-
--- used for hint tracking to quickly map hint status to a value from the Highlight enum
-HINT_STATUS_MAPPING = {}
-if Highlight then
-	HINT_STATUS_MAPPING = {
-		[20] = Highlight.Avoid,
-		[40] = Highlight.None,
-		[10] = Highlight.NoPriority,
-		[0] = Highlight.Unspecified,
-		[30] = Highlight.Priority,
-	}
-end
+ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/sign_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/encounter_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/pokemon_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/evolution_location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/ap_helper.lua")
 
 CUR_INDEX = -1
-SLOT_DATA = nil
-LOCAL_ITEMS = {}
-GLOBAL_ITEMS = {}
-RANDOMIZED_PRICES = {}
+PLAYER_ID = -1
+TEAM_NUMBER = 0
+
+EVENT_ID = ""
+EVENT2_ID = ""
+KEY_ID = ""
+STATIC_ID = ""
+ROCKETTRAP_ID = ""
+SEEN_ID = ""
+CAUGHT_ID = ""
+EVOLUTION_DATA = ""
+BREEDING_DATA = ""
+CHECKED_SIGNS = nil
+UNOWN_DATA = nil
+TRADE_DATA = nil
 
 function onClear(slot_data)
-    Tracker.BulkUpdate = true
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
-    end
-    SLOT_DATA = slot_data
+    isUpdating = true
     CUR_INDEX = -1
-    -- reset locations
-    for _, v in pairs(LOCATION_MAPPING) do
-        if v[1] then
-            if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-                print(string.format("onClear: clearing location %s", v[1]))
-            end
-            local obj = Tracker:FindObjectForCode(v[1])
-            if obj then
-                if v[1]:sub(1, 1) == "@" then
-                    obj.AvailableChestCount = obj.ChestCount
-                    if obj.Highlight then
-                        obj.Highlight = Highlight.None
-                    end
+    resetLocations()
+    resetItems()
+    CAUGHT = {}
+    SEEN = {}
+    
+    for _, code in ipairs(FLAG_STATIC_CODES) do
+        ScriptHost:RemoveWatchForCode(code)
+    end
+    
+    -- this resets trainer visibility. It will cause some "cannot find object"-errors
+    -- but I am not willing to make yet another list that is just a list.
+    for i = 1039, 1522 do
+        local obj = Tracker:FindObjectForCode("trainersanity_" .. i)
+        if obj then
+            obj.Active = false
+        end
+    end
+    for i = 296, 302 do
+        local obj = Tracker:FindObjectForCode("trainersanity_" .. i)
+        obj.Active = false
+    end
+    Tracker:FindObjectForCode("trainersanity_1702").Active = false -- literally just Eusine the fucker.
+
+    -- resets unown codes
+    for i = 1, 26 do
+        local obj = Tracker:FindObjectForCode("UNOWN_" .. i)
+        if obj then
+            obj.Active = false
+        end
+    end
+
+    for _, code in ipairs(FLAG_TRADE_CODES) do
+        Tracker:FindObjectForCode(code).Active = false
+    end
+
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
+
+    print(dump_table(slot_data))
+    
+    for k, v in pairs(slot_data) do
+        if slot_data["johto_only"] ~= nil then
+            if  k == "apworld_version" then
+                local version_str = tostring(v)
+                local first_two_dots = version_str:match("^([^.]+%.[^.]+)%.")
+                if first_two_dots == "5.3" or nil then
+                    Tracker:AddLayouts("layouts/tracker.json")
                 else
-                    obj.Active = false
+                    Tracker:AddLayouts("layouts/versionmismatch.json")
+                    return
                 end
-            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-                print(string.format("onClear: could not find object for code %s", v[1]))
             end
-        end
-    end
-    -- reset items
-    for _, v in pairs(ITEM_MAPPING) do
-        if v[1] and v[2] then
-            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: clearing item %s of type %s", v[1], v[2]))
-            end
-            local obj = Tracker:FindObjectForCode(v[1])
-            if obj then
-                if v[2] == "toggle" then
-                    obj.Active = false
-                elseif v[2] == "progressive" then
-                    obj.CurrentStage = 0
-                    obj.Active = false
-                elseif v[2] == "consumable" then
-                    obj.AcquiredCount = 0
-                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                    print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))
-                end
-            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: could not find object for code %s", v[1]))
-            end
-        end
-    end
-    Tracker:FindObjectForCode("remains_moon").Active = false
-    Tracker:FindObjectForCode("bottles").CurrentStage = 0
-
-    -- reset logic tricks
-    --for _, logictrick in pairs(LOGIC_TRICK_MAPPING) do
-    --    Tracker:FindObjectForCode(string.lower(logictrick)).Active = false
-    --end
-
-    LOCAL_ITEMS = {}
-    GLOBAL_ITEMS = {}
-
-	-- setup data storage tracking for hint tracking
-	local data_strorage_keys = {}
-	if PopVersion >= "0.32.0" then
-		data_strorage_keys = { getHintDataStorageKey() }
-	end
-	-- subscribes to the data storage keys for updates
-	-- triggers callback in the SetNotify handler on update
-	Archipelago:SetNotify(data_strorage_keys)
-	-- gets the current value for the data storage keys
-	-- triggers callback in the Retrieved handler when result is received
-	Archipelago:Get(data_strorage_keys)
-
-    -- applies shop prices from slot data on each shop item for display
-    if slot_data["shopsanity"] ~= 0 then
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print("Printing shop values given from slot data:")
-            for index, value in ipairs(slot_data["shop_prices_ints"]) do
-                print(index, value)
-            end
-        end
-
-        -- if shop prices are set to be free, set them to the price of 1
-        -- leaving the prices at 0 marks them as checked, which we don't want
-        for k, v in pairs(SHOP_NAMES) do
-            RANDOMIZED_PRICES[k] = {v[1], slot_data["shop_prices_ints"][k]}
-            if slot_data["shop_prices_ints"][k] == 0 then
-                RANDOMIZED_PRICES[k] = {v[1], 1}
-            end
-        end
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print("Printing RANDOMIZED_PRICES table:")
-        end
-        for key, value in pairs(RANDOMIZED_PRICES) do
-            print(key, value[1], value[2])
-        end
-    end
-    adjust_display_cost()
-
-    -- read YAML options
-    local function setFromSlotData(slot_data_key, item_code)
-        local v = slot_data[slot_data_key]
-        if not v then
-            print(string.format("Could not find key '%s' in slot data", slot_data_key))
-            return nil
-        end
-
-        local obj = Tracker:FindObjectForCode(item_code)
-        if not obj then
-            print(string.format("Could not find item for code '%s'", item_code))
-            return nil
-        end
-
-        if obj.Type == 'toggle' then
-            local active = v ~= 0
-            obj.Active = active
-            return v
-        elseif obj.Type == 'progressive' then
-            obj.CurrentStage = v
-            return v
-        elseif obj.Type == 'consumable' then
-            obj.AcquiredCount = v
-            return v
         else
-            print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
-            return nil
-        end
+            Tracker:AddLayouts("layouts/not_crystal.json")
+        end            
     end
 
-    setFromSlotData("logic_difficulty","logic_difficulty")
-    setFromSlotData("majora_remains_required","majora_remains_required")
-    setFromSlotData("majora_masks_required","majora_masks_required")
-    setFromSlotData("majora_star_fox","majora_star_fox")
-    setFromSlotData("majora_owls_required","majora_owls_required")
-    setFromSlotData("majora_scarecrows_required","majora_scarecrows_required")
-    setFromSlotData("majora_frogs_required","majora_frogs_required")
-    setFromSlotData("moon_remains_required","moon_remains_required")
-    setFromSlotData("moon_masks_required","moon_masks_required")
-    setFromSlotData("moon_star_fox","moon_star_fox")
-    setFromSlotData("moon_owls_required","moon_owls_required")
-    setFromSlotData("moon_scarecrows_required","moon_scarecrows_required")
-    setFromSlotData("moon_frogs_required","moon_frogs_required")
-    setFromSlotData("remains_allow_boss_warps","remains_allow_boss_warps")
-    setFromSlotData("camc","camc")
-    setFromSlotData("start_with_soaring","start_with_soaring")
-    setFromSlotData("shuffle_regional_maps","shuffle_regional_maps")
-    setFromSlotData("shuffle_boss_remains","shuffle_boss_remains")
-    setFromSlotData("shuffle_spiderhouse_reward","shuffle_spiderhouse_reward")
-    setFromSlotData("skullsanity","skullsanity")
-    setFromSlotData("required_skull_tokens","required_skull_tokens")
-    setFromSlotData("shopsanity","shopsanity")
-    setFromSlotData("scrubsanity","scrubsanity")
-    setFromSlotData("cowsanity","cowsanity")
-    setFromSlotData("keysanity","small_key_sanity")
-    setFromSlotData("bosskeysanity","boss_key_sanity")
-    setFromSlotData("intro_checks","intro_checks")
-    setFromSlotData("curiostity_shop_trades","curiosity_shop_trades")
-    setFromSlotData("shuffle_great_fairy_rewards","shuffle_great_fairy_rewards")
-    setFromSlotData("fairysanity","fairysanity")
-    setFromSlotData("required_stray_fairies","required_stray_fairies")
-    setFromSlotData("start_with_consumables","start_with_consumables")
-    setFromSlotData("permanent_chateau_romani","permanent_chateau_romani")
-    setFromSlotData("start_with_inverted_time","start_with_inverted_time")
-    setFromSlotData("receive_filled_wallets","receive_filled_wallets")
-    setFromSlotData("damage_multiplier","damage_multiplier")
-    setFromSlotData("death_behavior","death_behavior")
-    setFromSlotData("boss_souls","boss_souls")
-    setFromSlotData("absurd_souls","absurd_souls")
-    setFromSlotData("misc_souls","misc_souls")
-    setFromSlotData("npc_souls","npc_souls")
-    setFromSlotData("enemy_souls","enemy_souls")
-    setFromSlotData("scarecrowsanity","scarecrow_sanity")
-    setFromSlotData("frogsanity","frogsanity")
-    setFromSlotData("grasssanity","grass_sanity")
-    setFromSlotData("potsanity","pot_sanity")    
-    --for _, trick in ipairs(slot_data["logic_tricks"]) do
-    --    Tracker:FindObjectForCode(LOGIC_TRICK_MAPPING[string.format("%s", trick)]).Active = true
-    --end
 
-	Tracker.BulkUpdate = false
+    POKEMON_TO_LOCATIONS = {}
+    
+    -- This appends Trades & BCC to region encounters slot data
+    REGION_ENCOUNTERS = slot_data.region_encounters
+    REGION_ENCOUNTERS["contest_encounters"] = slot_data.contest_encounters
+    for trade_key, trade_data in pairs(slot_data.trades) do
+        REGION_ENCOUNTERS[trade_key] = { tonumber(trade_data.received) }
+    end
+
+    for location, dex_list in pairs(REGION_ENCOUNTERS) do
+        for _, dex_number in pairs(dex_list) do
+            if POKEMON_TO_LOCATIONS[dex_number] == nil then
+                POKEMON_TO_LOCATIONS[dex_number] = {}
+            end
+            table.insert(POKEMON_TO_LOCATIONS[dex_number], location)
+        end
+    end
+    
+    TRADE_DATA = slot_data.trades
+    UNOWN_DATA = slot_data.unown_signs
+    
+    -- This sets each Encounter location to however many unique encounters there are in it
+    for region_key, location in pairs(ENCOUNTER_MAPPING) do
+        local object = Tracker:FindObjectForCode(location)
+        object.AvailableChestCount = #REGION_ENCOUNTERS[region_key]
+    end
+    
+    EVOLUTION_DATA = slot_data.evolution_info
+    BREEDING_DATA = slot_data.breeding_info
+
+    for k, v in pairs(slot_data) do
+        if SLOT_CODES[k] then
+            Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = SLOT_CODES[k].mapping[v]
+        elseif REQUIREMENT_CODES[k] then
+			local item = REQUIREMENT_CODES[k].item
+			item:setType(REQUIREMENT_CODES[k].mapping[v])
+		elseif AMOUNT_CODES[k] then
+			local item = AMOUNT_CODES[k].item
+			item:setStage(v)
+        elseif LIST_CODES[k] then
+            for _, code in pairs(LIST_CODES[k].values) do
+                Tracker:FindObjectForCode(code).CurrentStage = LIST_CODES[k].mapping[0]
+            end
+        
+            for _, name in ipairs(v or {}) do
+                local code = LIST_CODES[k].values[name]
+                if code then
+                    Tracker:FindObjectForCode(code).CurrentStage = LIST_CODES[k].mapping[1]
+                end
+            end
+        elseif k == "trainersanity" then
+            for _, value in ipairs(v) do
+                Tracker:FindObjectForCode("trainersanity_" .. value).Active = true
+            end
+            if #v == 0 then
+                TRAINERS:setType("none")
+            elseif #v == 372 and has("johto_only_off") then
+                TRAINERS:setType("full")
+            elseif #v == 242 and (has("johto_only_on") or has("johto_only_silver")) then
+                TRAINERS:setType("full")
+            else
+                TRAINERS:setType("partial")
+                TRAINERS:setStage(#v)
+            end
+        elseif k == "dexsanity" then
+            Tracker:FindObjectForCode("dexsanity").AcquiredCount = v
+        elseif k == "evolution_gym_levels" then
+            local val = tonumber(v) or 0
+            Tracker:FindObjectForCode("yaml_digit1").CurrentStage = math.floor(val / 10)
+            Tracker:FindObjectForCode("yaml_digit2").CurrentStage = val % 10
+        elseif k == "dexcountsanity" then
+            local val = tonumber(v) or 0
+            Tracker:FindObjectForCode("dexcountsanity_lastcheck_digit1").CurrentStage = math.floor(val / 100)
+            Tracker:FindObjectForCode("dexcountsanity_lastcheck_digit2").CurrentStage = math.floor(val / 10) % 10
+            Tracker:FindObjectForCode("dexcountsanity_lastcheck_digit3").CurrentStage = val % 10
+        elseif k == "dexcountsanity_step" then
+            local val = tonumber(v) or 0
+            Tracker:FindObjectForCode("dexcountsanity_stepinterval_digit1").CurrentStage = math.floor(val / 100)
+            Tracker:FindObjectForCode("dexcountsanity_stepinterval_digit2").CurrentStage = math.floor(val / 10) % 10
+            Tracker:FindObjectForCode("dexcountsanity_stepinterval_digit3").CurrentStage = val % 10
+        elseif k == "dexcountsanity_leniency" then
+            local val = tonumber(v) or 0
+            Tracker:FindObjectForCode("dexcountsanity_logicleniency_digit1").CurrentStage = math.floor(val / 100)
+            Tracker:FindObjectForCode("dexcountsanity_logicleniency_digit2").CurrentStage = math.floor(val / 10) % 10
+            Tracker:FindObjectForCode("dexcountsanity_logicleniency_digit3").CurrentStage = val % 10
+        elseif k == "dexcountsanity_checks" then
+            local val = tonumber(v) or 0
+            Tracker:FindObjectForCode("dexcountsanity_totalchecks_digit1").CurrentStage = math.floor(val / 100)
+            Tracker:FindObjectForCode("dexcountsanity_totalchecks_digit2").CurrentStage = math.floor(val / 10) % 10
+            Tracker:FindObjectForCode("dexcountsanity_totalchecks_digit3").CurrentStage = val % 10
+            Tracker:FindObjectForCode("@ZDexsanity/Dexcountsanity/Total").AvailableChestCount = val
+        elseif k == "dexsanity_pokemon" then
+            local valid_ids = {}
+            for i = 1, 251 do valid_ids[i] = true end
+            local found = {}
+            for _, num in ipairs(v) do
+                if valid_ids[num] then
+                    Tracker:FindObjectForCode("dexsanity_" .. num).Active = true
+                    found[num] = true
+                end
+            end
+            for i = 1, 251 do
+                if not found[i] then
+                    Tracker:FindObjectForCode("dexsanity_" .. i).Active = false
+                end
+            end
+        elseif k == "logically_available_pokemon_count" then
+            Tracker:FindObjectForCode("diploma_goal_count").AcquiredCount = tonumber(v)
+        else
+            -- print(string.format("No setting could be found for key: %s", k))
+        end
+    end
+    
+    updateRemainingDexcountsanityChecks()
+    showMonVisibility()
+    
+    -- tea function
+    local stages = {
+        ["0000"] = 0,
+        ["0001"] = 1,
+        ["0010"] = 2,
+        ["0011"] = 3,
+        ["0100"] = 4,
+        ["0101"] = 5,
+        ["0110"] = 6,
+        ["0111"] = 7,
+        ["1000"] = 8,
+        ["1001"] = 9,
+        ["1010"] = 10,
+        ["1011"] = 11,
+        ["1100"] = 12,
+        ["1101"] = 13,
+        ["1110"] = 14,
+        ["1111"] = 15
+    }
+    
+    
+
+    -- Fetch Active values for north, east, south, west directions
+    local tea_north = Tracker:FindObjectForCode("tea_north").Active and "1" or "0"
+    local tea_east = Tracker:FindObjectForCode("tea_east").Active and "1" or "0"
+    local tea_south = Tracker:FindObjectForCode("tea_south").Active and "1" or "0"
+    local tea_west = Tracker:FindObjectForCode("tea_west").Active and "1" or "0"
+
+    -- Concatenate values to form the key
+    local key = tea_north .. tea_east .. tea_south .. tea_west
+
+    -- Set CurrentStage for "tea"
+    Tracker:FindObjectForCode("tea_guard").CurrentStage = stages[key]
+    
+    if PLAYER_ID>-1 then
+        if string.lower(Archipelago:GetPlayerAlias(PLAYER_ID)):find("chrism") then
+            Tracker:FindObjectForCode("chrism").CurrentStage = 1
+        else
+            Tracker:FindObjectForCode("chrism").CurrentStage = 0
+        end
+        
+        updateEvents(0)
+        updateEvents2(0)
+        updateStatics(0)
+        updateRocketTraps(0)
+        updateVanillaKeyItems(0)
+        
+        EVENT_ID="pokemon_crystal_events_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({EVENT_ID})
+        Archipelago:Get({EVENT_ID})
+        
+        EVENT2_ID="pokemon_crystal_events_2_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({EVENT2_ID})
+        Archipelago:Get({EVENT2_ID})
+        
+        STATIC_ID="pokemon_crystal_statics_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({STATIC_ID})
+        Archipelago:Get({STATIC_ID})
+
+        ROCKETTRAP_ID="pokemon_crystal_rockettraps_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({ROCKETTRAP_ID})
+        Archipelago:Get({ROCKETTRAP_ID})
+        
+        KEY_ID="pokemon_crystal_keys_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({KEY_ID})
+        Archipelago:Get({KEY_ID})
+        
+        SEEN_ID="pokemon_crystal_seen_pokemon_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({SEEN_ID})
+        Archipelago:Get({SEEN_ID})
+        
+        CAUGHT_ID="pokemon_crystal_caught_pokemon_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({CAUGHT_ID})
+        Archipelago:Get({CAUGHT_ID})
+        
+        SIGN_ID="pokemon_crystal_signs_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({SIGN_ID})
+        Archipelago:Get({SIGN_ID})
+        
+        UNOWN_ID="pokemon_crystal_unowns_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({UNOWN_ID})
+        Archipelago:Get({UNOWN_ID})
+        
+        TRADE_ID="pokemon_crystal_trades_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({TRADE_ID})
+        Archipelago:Get({TRADE_ID})
+    end
+
+    toggle_itemgrid()
+    
+    for _, code in ipairs(FLAG_STATIC_CODES) do
+        ScriptHost:AddWatchForCode(code, code, updatePokemon)
+    end
 end
 
--- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
-	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("called onItem: %s, %s, %s, %s, %s", index, item_id, item_name, player_number, CUR_INDEX))
-	end
-	if index <= CUR_INDEX then return	end
-	local is_local = player_number == Archipelago.PlayerNumber
-	CUR_INDEX = index
-	local mapping_entry = ITEM_MAPPING[item_id]
-	if not mapping_entry then
-		if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-			print(string.format("onItem: could not find item mapping for id %s", item_id))
-		end
-		return
-	end
-  if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-      print(string.format("onItem: code: %s, type %s", mapping_entry[1], mapping_entry[2]))
-  end
-	if not mapping_entry[1] then return	end
-    local obj = Tracker:FindObjectForCode(mapping_entry[1])
-    if obj then
-        if mapping_entry[2] == "toggle" then
-            obj.Active = true
-        elseif mapping_entry[2] == "progressive" then
-            if obj.Active then
-                obj.CurrentStage = obj.CurrentStage + 1
-            else
-                obj.Active = true
-            end
-        elseif mapping_entry[2] == "consumable" then
-            obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onItem: unknown item type %s for code %s", mapping_entry[2], mapping_entry[1]))
-        end
-    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onItem: could not find object for code %s", mapping_entry[1]))
+    if index <= CUR_INDEX then
+        return
     end
-	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
-		print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
-	end
+    CUR_INDEX = index;
+    local v = ITEM_MAPPING[item_id]
+    if not v then
+        --print(string.format("onItem: could not find item mapping for id %s", item_id))
+        return
+    end
+    
+    if v == "PROGRESSIVE_ROD" then
+        if has("GOOD_ROD") then
+            Tracker:FindObjectForCode("SUPER_ROD").Active = true
+        elseif has("OLD_ROD") then
+            Tracker:FindObjectForCode("GOOD_ROD").Active = true
+        else
+            Tracker:FindObjectForCode("OLD_ROD").Active = true
+        end
+        return
+    end
+    
+    local obj = Tracker:FindObjectForCode(v)
+    if obj then
+        if v == "BLUE_CARD_POINT" or v == "AERODACTYL_TILE" or v == "HO-OH_TILE" or v == "KABUTO_TILE" or v == "OMANYTE_TILE" then
+            obj.AcquiredCount = obj.AcquiredCount + 1
+        else
+            obj.Active = true
+        end
+    else
+        print(string.format("onItem: could not find object for code %s", v[1]))
+    end
 end
 
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-        print(string.format("called onLocation: %s, %s", location_id, location_name))
-    end
     local v = LOCATION_MAPPING[location_id]
-    if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+    if not v then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
     end
-    if not v[1] then
+    
+    local obj = Tracker:FindObjectForCode(v)
+    if obj then
+    	if v:sub(1, 1) == "@" then
+    		obj.AvailableChestCount = obj.AvailableChestCount - 1
+    	elseif obj.Type == "progressive" then
+    		obj.CurrentStage = obj.CurrentStage + 1
+    	else
+    		obj.Active = true
+    	end
+    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    	print(string.format("onLocation: could not find object for code %s", v[1]))
+    end
+    
+    local id_str = tostring(location_id)
+    if #id_str == 5 and id_str:sub(1, 2) == "20" then
+        updateRemainingDexcountsanityChecks()
+    end
+end
+
+function onNotify(key, value, old_value)
+    if value ~= nil and value ~= 0 then
+        if key == EVENT_ID then
+            updateEvents(value)
+        elseif key == EVENT2_ID then
+            updateEvents2(value)
+        elseif key == STATIC_ID then
+            updateStatics(value)
+        elseif key == KEY_ID then
+            updateVanillaKeyItems(value)
+        elseif key == CAUGHT_ID then
+            CAUGHT = value
+            updatePokemon()
+        elseif key == SEEN_ID then
+            SEEN = value
+            updatePokemon()
+        elseif key == ROCKETTRAP_ID then
+            updateRocketTraps(value)
+        elseif key == SIGN_ID then
+            CHECKED_SIGNS = value
+            Tracker:FindObjectForCode("dummy").Active = true
+            Tracker:FindObjectForCode("dummy").Active = false
+        elseif key == UNOWN_ID then
+            updateUnown(value)
+            Tracker:FindObjectForCode("dummy").Active = true
+            Tracker:FindObjectForCode("dummy").Active = false
+        elseif key == TRADE_ID then
+            updateTrades(value)
+        end
+    end
+end
+
+function onNotifyLaunch(key, value)
+    if value ~= nil and value ~= 0 then
+        if key == EVENT_ID then
+            updateEvents(value)
+        elseif key == EVENT2_ID then
+            updateEvents2(value)
+        elseif key == STATIC_ID then
+            updateStatics(value)
+        elseif key == KEY_ID then
+            updateVanillaKeyItems(value)
+        elseif key == CAUGHT_ID then
+            CAUGHT = value
+            updatePokemon()
+        elseif key == SEEN_ID then
+            SEEN = value
+            updatePokemon()
+        elseif key == ROCKETTRAP_ID then
+            updateRocketTraps(value)
+        elseif key == SIGN_ID then
+            CHECKED_SIGNS = value
+            Tracker:FindObjectForCode("dummy").Active = true
+            Tracker:FindObjectForCode("dummy").Active = false
+        elseif key == UNOWN_ID then
+            updateUnown(value)
+            Tracker:FindObjectForCode("dummy").Active = true
+            Tracker:FindObjectForCode("dummy").Active = false
+        elseif key == TRADE_ID then
+            updateTrades(value)
+        end
+    end
+end
+
+function updateEvents(value)
+    if value ~= nil then
+        for i, code in ipairs(FLAG_EVENT_CODES) do
+            local obj = Tracker:FindObjectForCode(code)
+            if obj ~= nil then
+                obj.Active = false
+            end
+            local bit = value >> (i - 1) & 1
+            if #code > 0 then
+                local obj = Tracker:FindObjectForCode(code)
+                obj.Active = obj.Active or bit == 1
+            end
+        end
+    end
+end
+
+function updateEvents2(value)
+    if value ~= nil then
+        for i, code in ipairs(FLAG_EVENT_2_CODES) do
+            local obj = Tracker:FindObjectForCode(code)
+            if obj ~= nil then
+                obj.Active = false
+            end
+            local bit = value >> (i - 1) & 1
+            if #code > 0 then
+                local obj = Tracker:FindObjectForCode(code)
+                obj.Active = obj.Active or bit == 1
+            end
+        end
+    end
+end
+
+function updateStatics(value)
+    if value ~= nil then
+        for i, code in ipairs(FLAG_STATIC_CODES) do
+            local obj = Tracker:FindObjectForCode(code)
+            if obj ~= nil then
+                obj.Active = false
+            end
+            local bit = value >> (i - 1) & 1
+            if #code > 0 then
+                Tracker:FindObjectForCode(code).Active = Tracker:FindObjectForCode(code).Active or bit
+            end
+            local is_active = tostring(Tracker:FindObjectForCode(code).Active)
+        end
+    end
+end
+
+function updateRocketTraps(value)
+    if value ~= nil then
+        local statusMap = {}
+
+        for i, code in ipairs(FLAG_ROCKETTRAPS_CODES) do
+            if #code > 0 then
+                local bit = (value >> (i - 1)) & 1
+                statusMap[code] = (statusMap[code] or 0) | bit
+            end
+        end
+
+        for code, _ in pairs(statusMap) do
+            local obj = Tracker:FindObjectForCode(code)
+            if obj ~= nil then
+                obj.Active = false
+            end
+        end
+
+        for code, bit in pairs(statusMap) do
+            if bit == 1 then
+                local obj = Tracker:FindObjectForCode(code)
+                if obj ~= nil then
+                    obj.Active = true
+                end
+            end
+        end
+    end
+end
+
+
+function updateTrades(value)
+    if value ~= nil then
+        for _, intVal in ipairs(value) do
+            local code = FLAG_TRADE_CODES[intVal + 1]
+            if code then
+                local obj = Tracker:FindObjectForCode(code)
+                if obj then
+                    obj.Active = true
+                end
+            end
+        end
+   end
+end
+
+
+function updateVanillaKeyItems(value)
+    if value ~= nil then
+        for i, obj in ipairs(FLAG_ITEM_CODES) do
+            local bit = value >> (i - 1) & 1
+            if obj.codes and (obj.option == nil or has(obj.option)) then
+                for i, code in ipairs(obj.codes) do
+                    Tracker:FindObjectForCode(code).Active = Tracker:FindObjectForCode(code).Active or bit
+                end
+            end
+        end
+    end
+end
+
+function updateUnown(value)
+    for i = 1, 26 do
+        if table_contains(value, i) then
+            Tracker:FindObjectForCode("UNOWN_"..i).Active = true
+        end
+    end
+end
+
+CAUGHT_COUNT = 0
+
+function updatePokemon()
+    CAUGHT_COUNT = 0
+    for dex_number, code in pairs(POKEMON_MAPPING) do
+        if table_contains(CAUGHT, dex_number) then
+            Tracker:FindObjectForCode(code).Active = true
+            CAUGHT_COUNT = CAUGHT_COUNT + 1
+        else
+            Tracker:FindObjectForCode(code).Active = false
+        end
+    end
+
+    if has("encounter_tracking_off") then
         return
     end
-    local obj = Tracker:FindObjectForCode(v[1])
-    if obj then
-        if v[1]:sub(1, 1) == "@" then
-            obj.AvailableChestCount = obj.AvailableChestCount - 1
-        else
-            obj.Active = true
+
+    if has("encounter_tracking_strict") or has("encounter_tracking_loose") then
+        resetEvolutionsanityData()
+        updateEvolutionInfo()
+        updateBreedingInfo()
+        
+        for region_key, location in pairs(ENCOUNTER_MAPPING) do
+            local object = Tracker:FindObjectForCode(location)
+            object.AvailableChestCount = #REGION_ENCOUNTERS[region_key]
         end
-    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-        print(string.format("onLocation: could not find object for code %s", v[1]))
+        
+        local dexcountsanity = Tracker:FindObjectForCode("@ZDexsanity/Dexcountsanity/Total")
+
+        for dex_number, locations in pairs(POKEMON_TO_LOCATIONS) do
+            local code = Tracker:FindObjectForCode(POKEMON_MAPPING[dex_number])
+            local dexcode = Tracker:FindObjectForCode("dexsanity_" .. dex_number)
+            local dexloc = Tracker:FindObjectForCode("dexsanity_"..POKEMON_MAPPING[dex_number])
+            
+            local is_caught = table_contains(CAUGHT, dex_number)
+            local is_seen = table_contains(SEEN, dex_number)
+
+            if has("all_pokemon_seen_true") then
+                is_seen = true
+            end
+            
+            local should_decrement = false
+
+            if is_caught then
+                should_decrement = true
+            elseif is_seen and (dexloc.Active or not dexcode.Active) and has("encounter_tracking_loose") then
+                should_decrement = true
+            end
+
+            if should_decrement then
+                for _, location in pairs(locations) do
+                    local object_name = ENCOUNTER_MAPPING[location]
+                    if object_name ~= nil then
+                        local object = Tracker:FindObjectForCode(object_name)
+                        if object then
+                            if string.sub(location, 1, 7):lower() == "static_" or string.sub(location, 1, 6):lower() == "TRADE_" then
+                                local event_code = Tracker:FindObjectForCode(location)
+                                if event_code and event_code.Active then
+                                    object.AvailableChestCount = object.AvailableChestCount - 1
+                                end
+                            else
+                                object.AvailableChestCount = object.AvailableChestCount - 1
+                            end
+                        end
+                    end
+                end
+            end
+        end
     end
 end
 
--- gets the data storage key for hints for the current player
--- returns nil when not connected to AP
-function getHintDataStorageKey()
-    if AutoTracker:GetConnectionState("AP") ~= 3 or Archipelago.TeamNumber == nil or Archipelago.TeamNumber == -1 or Archipelago.PlayerNumber == nil or Archipelago.PlayerNumber == -1 then
-        print("Tried to call getHintDataStorageKey while not connected to AP server")
-        return nil
+function resetEvolutionsanityData()
+    for _, evo_string in pairs(EVO_LOC_MAPPING) do
+        if  evo_string ~= "Nidorina"
+        and evo_string ~= "Nidoqueen"
+        and evo_string ~= "Ditto"
+        and evo_string ~= "Pichu"
+        and evo_string ~= "Cleffa"
+        and evo_string ~= "Igglybuff"
+        and evo_string ~= "Togepi"
+        and evo_string ~= "Unown"
+        and evo_string ~= "Tyrogue"
+        and evo_string ~= "Smoochum"
+        and evo_string ~= "Elekid"
+        and evo_string ~= "Magby"
+        then
+            local breed_loc = Tracker:FindObjectForCode("@Breeding/Breed " .. evo_string .. "/Breed " .. evo_string)
+            if breed_loc then
+                breed_loc.AvailableChestCount = 1
+            end
+        end
     end
-    return string.format("_read_hints_%s_%s", Archipelago.TeamNumber, Archipelago.PlayerNumber)
-end
-
--- called whenever Archipelago:Get returns data from the data storage or
--- whenever a subscribed to (via Archipelago:SetNotify) key in data storgae is updated
--- oldValue might be nil (always nil for "_read" prefixed keys and via retrieved handler (from Archipelago:Get))
-function onDataStorageUpdate(key, value, oldValue)
-	--if you plan to only use the hints key, you can remove this if
-	if key == getHintDataStorageKey() then
-		onHintsUpdate(value)
-	end
-end
-
--- called whenever the hints key in data storage updated
--- NOTE: this should correctly handle having multiple mapped locations in a section.
---       if you only map sections 1 to 1 you can simplify this. for an example see
---       https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/archipelago.lua
-function onHintsUpdate(hints)
-	-- Highlight is only supported since version 0.32.0
-	if PopVersion < "0.32.0" or not AUTOTRACKER_ENABLE_LOCATION_TRACKING then return end
-	local player_number = Archipelago.PlayerNumber
-	-- get all new highlight values per section
-	local sections_to_update = {}
-	for _, hint in ipairs(hints) do
-		-- we only care about hints in our world
-		if hint.finding_player == player_number then
-			updateHint(hint, sections_to_update)
-		end
-	end
-end
-
--- update section highlight based on the hint
-function updateHint(hint, sections_to_update)
-	-- get the highlight enum value for the hint status
-	local hint_status = hint.status
-	local highlight_code = nil
-	if hint_status then
-		highlight_code = HINT_STATUS_MAPPING[hint_status]
-	end
-	if not highlight_code then
-		if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-			print(string.format("updateHint: unknown hint status %s for hint on location id %s", hint.status,
-				hint.location))
-		end
-		-- try to "recover" by checking hint.found (older AP versions without hint.status)
-		if hint.found == true then
-			highlight_code = Highlight.None
-		elseif hint.found == false then
-			highlight_code = Highlight.Unspecified
-		else
-			return
-		end
-	end
-	-- get the location mapping for the location id
-	local mapping_entry = LOCATION_MAPPING[hint.location]
-	if not mapping_entry then
-		if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-			print(string.format("updateHint: could not find location mapping for id %s", hint.location))
-		end
-		return
-	end
-  for _, location_code in pairs(mapping_entry) do
-    -- skip hosted items, they don't support Highlight
-    if location_code and location_code:sub(1, 1) == "@" then
-      -- find the location object
-      local obj = Tracker:FindObjectForCode(location_code)
-      -- check if we got the location and if it supports Highlight
-      if obj and obj.Highlight then
-          obj.Highlight = highlight_code
-      elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-          print(string.format("updateHint: could update section %s (obj doesn't support Highlight)", location_code))
-      end
+    
+    for from_id, evolutions in pairs(EVOLUTION_DATA) do
+        local evo_string = EVO_LOC_MAPPING[tonumber(from_id)]
+        if evo_string then
+            for _, evo in ipairs(evolutions) do
+                if EVOLUTION_METHOD_MAP[evo.method] then
+                    local method_result = EVOLUTION_METHOD_MAP[evo.method](evo.condition)
+                    if method_result then
+                        local loc = Tracker:FindObjectForCode("@Evolving/Evolve " .. evo_string .. "/" .. method_result)
+                        if loc then
+                            loc.AvailableChestCount = 1
+                        end
+                    end
+                end
+            end
+        end
     end
-  end
 end
 
--- add AP callbacks
--- un-/comment as needed
+
+function updateEvolutionInfo()
+    for _, caught_id in pairs(CAUGHT) do
+        for from_id, evolutions in pairs(EVOLUTION_DATA) do
+            for _, evo in ipairs(evolutions) do
+                if evo.into == caught_id then
+                    local evo_string = EVO_LOC_MAPPING[tonumber(from_id)]
+                    if evo_string and EVOLUTION_METHOD_MAP[evo.method] then
+                        local method_result = EVOLUTION_METHOD_MAP[evo.method](evo.condition)
+                        if method_result then
+                            local loc = Tracker:FindObjectForCode("@Evolving/Evolve " .. evo_string .. "/" .. method_result)
+                            if loc then
+                                loc.AvailableChestCount = 0
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+function updateBreedingInfo()
+    for first_id, second_id in pairs(BREEDING_DATA) do
+        for _, caught_id in pairs(CAUGHT) do
+            if second_id == caught_id then
+                local evo_string = EVO_LOC_MAPPING[tonumber(first_id)]
+                if evo_string then
+                    local loc = Tracker:FindObjectForCode("@Breeding/Breed " .. evo_string .. "/Breed " .. evo_string)
+                    if loc then
+                        loc.AvailableChestCount = 0
+                    end
+                end
+            end
+        end
+    end
+end
+
+function update_gymcount()
+    local val = tonumber(gyms()) or 0
+    Tracker:FindObjectForCode("gym_digit1").CurrentStage = math.floor(val / 10)
+    Tracker:FindObjectForCode("gym_digit2").CurrentStage = val % 10
+end
+
+function calculateEvoLevel()
+    local yaml1 = Tracker:FindObjectForCode("yaml_digit1").CurrentStage or 0
+    local yaml2 = Tracker:FindObjectForCode("yaml_digit2").CurrentStage or 0
+    local gym1 = Tracker:FindObjectForCode("gym_digit1").CurrentStage or 0
+    local gym2 = Tracker:FindObjectForCode("gym_digit2").CurrentStage or 0
+
+    local yaml_value = yaml1 * 10 + yaml2
+    local gym_value = gym1 * 10 + gym2
+    local result = math.min(99, yaml_value * gym_value)
+
+    local result1 = math.floor(result / 10)
+    local result2 = result % 10
+
+    Tracker:FindObjectForCode("result_digit1").CurrentStage = result1
+    Tracker:FindObjectForCode("result_digit2").CurrentStage = result2
+end
+
+function snorlax_access()
+    if snorlax_code == true then
+        return Tracker:FindObjectForCode("@JohtoKanto/Vermilion City/City").AccessibilityLevel
+    else
+        return false
+    end
+end
+
+
+-- Store last map values
+last_map_group = nil
+last_map_number = nil
+
+function onMap(value)
+    if has("automap_on") and value ~= nil and value["data"] ~= nil then
+        local map_group = value["data"]["mapGroup"]
+        local map_number = value["data"]["mapNumber"]
+        
+        -- Detect map transition logic
+        if last_map_group == 15 and last_map_number == 1 and map_group == 15 and map_number == 3 then
+            Tracker:FindObjectForCode("ssaqua").CurrentStage = 1
+        elseif last_map_group == 15 and last_map_number == 2 and map_group == 15 and map_number == 3 then
+            Tracker:FindObjectForCode("ssaqua").CurrentStage = 2
+        end
+
+        -- Retrieve ssaqua and event state
+        local ssaqua = Tracker:FindObjectForCode("ssaqua")
+
+        -- Check and possibly modify map_group based on conditions
+        if map_group == 15 then
+            if ssaqua.CurrentStage == 1 then
+                map_group = 115
+            elseif ssaqua.CurrentStage == 2 then
+                map_group = 215
+            end
+        end
+
+        -- Access correct mapping and activate tabs
+        local tabs = MAP_MAPPING[map_group] and MAP_MAPPING[map_group][map_number]
+        
+        for i, tab in ipairs(tabs) do
+            Tracker:UiHint("ActivateTab", tab)
+        end
+        
+
+        -- Save last processed map
+        last_map_group = value["data"]["mapGroup"]
+        last_map_number = value["data"]["mapNumber"]
+    end
+end
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
-Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
-Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+Archipelago:AddBouncedHandler("map handler", onMap)
+
+for _, code in ipairs(FLAG_STATIC_CODES) do
+    ScriptHost:AddWatchForCode(code, code, updatePokemon)
+end
+ScriptHost:AddWatchForCode("encounter_tracking", "encounter_tracking", function() updatePokemon() end)

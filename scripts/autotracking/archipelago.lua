@@ -77,7 +77,6 @@ function onClear(slot_data)
         end
     end
     Tracker:FindObjectForCode("remains_moon").Active = false
-    Tracker:FindObjectForCode("bottles").CurrentStage = 0
 
     -- reset logic tricks
     --for _, logictrick in pairs(LOGIC_TRICK_MAPPING) do

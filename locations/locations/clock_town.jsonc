@@ -737,7 +737,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/East Clock Town Astral Observatory/East Clock Town Astral Observatory"],
+            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/Astral Observatory/Moon's Tear"],
             "visibility_rules": ["pot_sanity"]
           },
           {
@@ -1342,7 +1342,7 @@
             "name": "Notebook Event: Received Keaton Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [ "@Clock Town/Curiosity Shop Backroom/Laundry Pool Curiosity Shop Salesman #1 (Final Day, 1 PM - 9 PM)"]
+            "access_rules": [ "@Clock Town/Curiosity Shop Backroom/Laundry Pool Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)"]
           },
           {
             "name": "Laundry Pool Curiosity Shop Salesman #2 (Final Day 1 PM - 9 PM)",

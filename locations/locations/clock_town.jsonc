@@ -1166,7 +1166,7 @@
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": [
-              "$has_npc_soul|soul_toto_gorman, bombers_notebook"
+              "$has_npc_soul|soul_postman, bombers_notebook"
             ]
           },
           {

@@ -95,7 +95,7 @@
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": [
-              "$has_npc_soul|soul_bombers, $has_projectiles"
+              "$has_npc_soul|soul_gorman_brothers, $can_play_song|epona, bombers_notebook"
             ]
           },
           {

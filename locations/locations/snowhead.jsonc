@@ -286,14 +286,6 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Mountain Village Spring Rooftop Pot",
-            "chest_unopened_img": "images/icons/pot.png",
-            "item_count": 1,
-            "clear_as_group": false,
-            "access_rules": ["$clear_snowhead, $has_absurd_soul|soul_pots, $has_hard_projectiles"],
-            "visibility_rules": ["pot_sanity"]
-          },
-          {
             "name": "Mountain Village Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,

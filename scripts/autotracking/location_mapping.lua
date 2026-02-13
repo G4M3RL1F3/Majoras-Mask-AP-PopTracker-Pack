@@ -15,7 +15,7 @@ LOCATION_MAPPING = {
 
     -- Laundry Pool
     [0x346942001007F] = {"@Clock Town/Stray Fairy (Clock Town)/Stray Fairy (Clock Town)"},
-    [0x346942000008C] = {"@Clock Town/Laundry Pool Musician/Laundry Pool Musician (Night 1 - 2)"},
+    [0x346942000008C] = {"@Clock Town/Laundry Pool/Laundry Pool Musician (Night 1 - 2)"},
     [0x34694200000AB] = {"@Clock Town/Curiosity Shop Backroom/Laundry Pool Kafei's Request (Day 2, 4:30 PM)"},
     [0x3469420000080] = {"@Clock Town/Curiosity Shop Backroom/Laundry Pool Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)"},
     [0x34694200000A1] = {"@Clock Town/Curiosity Shop Backroom/Laundry Pool Curiosity Shop Salesman #2 (Final Day 1 PM - 9 PM)"},
@@ -1627,7 +1627,6 @@ LOCATION_MAPPING = {
     [0x3469420200021] = {"@Southern Swamp/Southern Swamp Witch Shop/Southern Swamp Post Dungeon Witch Pots"},
     [0x3469420200022] = {"@Southern Swamp/Southern Swamp Witch Shop/Southern Swamp Post Dungeon Witch Pots"},
     [0x3469420205000] = {"@Snowhead/Mountain Village/Mountain Village Rooftop Pot"},
-    [0x3469420205A00] = {"@Snowhead/Mountain Village/Mountain Village Spring Rooftop Pot"},
     [0x34694202050F0] = {"@Snowhead/Mountain Village/Mountain Village Pots"},
     [0x34694202050F1] = {"@Snowhead/Mountain Village/Mountain Village Pots"},
     [0x3469420202CF0] = {"@Snowhead/Mountain Village/Mountain Smithy Pots Inside at Night"},
@@ -2189,8 +2188,8 @@ LOCATION_MAPPING = {
     [0x3469420162744] = {"@Dungeons/Swamp Spider House/Invisible Rupees Above Giant Jars"},
 
     -- Freestanding Rupees
-    [0x34694201A0000] = {"@Termina Field/North Termina Field/6am Songwall"},
-    [0x34694201A0001] = {"@Termina Field/North Termina Field/6am Songwall"},
+    [0x34694201A0011] = {"@Termina Field/North Termina Field/6am Songwall"},
+    [0x34694201A0022] = {"@Termina Field/North Termina Field/6am Songwall"},
     [0x34694201A0002] = {"@Termina Field/North Termina Field/6am Songwall"},
     [0x34694201A00C0] = {"@Termina Field/North Termina Field/7am Songwall"},
     [0x34694201A00D1] = {"@Termina Field/North Termina Field/7am Songwall"},
@@ -2579,7 +2578,6 @@ LOCATION_MAPPING = {
     [0x3469420211C07] = {"@Snowhead/Path To Mountain Village/Large Snowballs"},
     [0x3469420211C08] = {"@Snowhead/Path To Mountain Village/Large Snowballs"},
     [0x3469420211C09] = {"@Snowhead/Path To Mountain Village/Large Snowballs"},
-    [0x3469420211C0D] = {"@Snowhead/Path To Mountain Village/Large Snowballs"},
     [0x3469420211C0E] = {"@Snowhead/Path To Mountain Village/Large Snowballs"},
     [0x3469420211C02] = {"@Snowhead/Path To Mountain Village/Large Snowballs"},
     [0x3469420211C0A] = {"@Snowhead/Path To Mountain Village/Lower Small Snowballs"},
@@ -3380,7 +3378,6 @@ LOCATION_MAPPING = {
     [0x346942031031E] = {"@Snowhead/Path to Snowhead/By Tree Cut the Sign"},
     [0x346942031031F] = {"@Snowhead/Path to Snowhead/Near Grotto Cut the Sign"},
     [0x3469420310320] = {"@Snowhead/Snowhead/Owl Statue Cut the Sign"},
-    [0x3469420310318] = {"@Snowhead/Mountain Village/Near Grave Pond Springtime Cut the Sign"},
     [0x3469420310316] = {"@Snowhead/Mountain Village/Twin Islands Entrance Springtime Cut the Sign"},
     [0x346942031031A] = {"@Snowhead/Twin Islands/Outside Goron Racetrack Springtime Cut the Sign"},
     [0x3469420310302] = {"@Romani Ranch/Mamamu Yan's Doggy Racetrack/Doggy Racetrack Cut the Sign"},

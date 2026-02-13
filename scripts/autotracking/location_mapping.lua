@@ -385,7 +385,7 @@ LOCATION_MAPPING = {
 
     -- Road to Ikana
     [0x3469420065300] = {"@Ikana/Road to Ikana Pillar Chest/Road to Ikana Pillar Chest"},
-    [0x3469420060716] = {"@Ikana/Road to Ikana Rock Grotto Chest/Road to Ikana Rock Grotto Chest"},
+    [0x3469420060716] = {"@Ikana/Road to Ikana Rock Grotto/Road to Ikana Rock Grotto Chest"},
     [0x346942000008B] = {"@Ikana/Road to Ikana Stone Soldier/Road to Ikana Stone Soldier"},
 
     -- Graveyard

@@ -242,7 +242,7 @@
             "visibility_rules": ["rupee_sanity"],
             "item_count": 7,
             "clear_as_group": false,
-            "access_rules": ["$has_enemy_soul|soul_stalchildren, captain"]
+            "access_rules": ["$has_npc_soul|soul_stalchildren, captain"]
           },
           {
             "name": "Day 2 Entrance Grave Pot",

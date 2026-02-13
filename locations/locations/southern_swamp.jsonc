@@ -247,7 +247,7 @@
             "item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "access_rules": ["$clear_woodfall, $has_absurd_soul|soul_deku_flowers, deku"],
             "visibility_rules": ["flower_sanity"]
           }
         ],
@@ -401,6 +401,13 @@
             ]
           },
           {
+            "name": "Shop Interior Rupee",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 1,
+            "clear_as_group": false
+          },
+          {
             "name": "Southern Swamp Grass Near Witch Shop Group 1",
             "item_count": 9,
             "clear_as_group": false,
@@ -531,14 +538,6 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Woos of Mystery Day 2 Deku Flowers",
-            "item_count": 11,
-            "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
-            "visibility_rules": ["flower_sanity"]
-          },
-          {
             "name": "Woods of Mystery Day 3 Unique Grass",
             "item_count": 2,
             "clear_as_group": false,
@@ -547,7 +546,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Woods of Mystery Days 1/3 Deku Flowers",
+            "name": "Woods of Mystery Days 1&3 Deku Flowers",
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -634,7 +633,7 @@
             "name": "Stump Rupee",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
-            "item_count": 1,
+            "item_count": 2,
             "clear_as_group": false
           },
           {
@@ -648,7 +647,7 @@
             ]
           },
           {
-            "name": "Swamp Log Cut the Sign",
+            "name": "Swamp Flower Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
             "access_rules": ["$has_absurd_soul|soul_signs, zora", "$has_absurd_soul|soul_signs, deku"],
             "visibility_rules": ["sign_sanity"]
@@ -782,7 +781,7 @@
           },
           {
             "name": "Deku Palace Bean Grotto Grass",
-            "item_count": 14,
+            "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
@@ -952,6 +951,13 @@
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
             "visibility_rules": ["pot_sanity"]
+          },
+          {
+            "name": "Stump Rupee",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 1,
+            "clear_as_group": false
           }
         ],
         "map_locations": [

@@ -184,17 +184,7 @@
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "bombwall_sanity"
-                  }
-                ]
-              },
-              {
-                "type": "group",
-                "content": [
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "painting_sanity"
+                    "item": "oneoffs"
                   }
                 ]
               }

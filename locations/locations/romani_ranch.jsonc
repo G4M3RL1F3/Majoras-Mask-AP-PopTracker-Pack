@@ -372,7 +372,7 @@
           {
             "name": "Epona's Stable Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "access_rules": ["$has_absurd_soul|soul_signs, $can_play_song|epona"],
             "visibility_rules": ["sign_sanity"]
           },
           {
@@ -393,7 +393,7 @@
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": [
-              "$has_npc_soul|soul_bombers, $has_projectiles"
+              "$has_npc_soul|soul_romani_cremia, $can_use_powder_keg, $has_projectiles"
             ]
           },
           {
@@ -421,7 +421,7 @@
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": [
-              "$has_npc_soul|soul_bombers, $has_projectiles"
+              "@Romani Ranch/Romani Ranch Outside/Aliens"
             ]
           },
           {
@@ -533,7 +533,7 @@
             "access_rules": ["$can_use_powder_keg, $bottleCount|1"]
           },
           {
-            "name": "Day 2/3 Soil",
+            "name": "Day 2&3 Soil",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
             "item_count": 3,

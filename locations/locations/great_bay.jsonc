@@ -236,12 +236,6 @@
             "access_rules": ["hookshot, $bottleCount|1"]
           },
           {
-            "name": "North Clock Town Cut the Sign",
-            "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"],
-            "visibility_rules": ["sign_sanity"]
-          },
-          {
             "name": "Ledge Grotto Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
@@ -502,7 +496,7 @@
             "name": "Grotto Boulder",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
-            "item_count": 8,
+            "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives", "goron"]
           },

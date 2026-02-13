@@ -82,6 +82,9 @@
         "sections": [
           {
           "ref": "Dungeons/Swamp Spider House/Totem Eye Hitspots"
+          },
+          {
+          "ref": "Dungeons/Swamp Spider House/Behind Totem Cut the Sign"
           }
         ],
         "map_locations": [

@@ -593,7 +593,7 @@
           {
             "name": "Snowhead Temple Main Room 2nd Floor Bridge Pots",
             "chest_unopened_img": "images/icons/pot.png",
-            "item_count": 6,
+            "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_pots, $can_use_fire_arrows",
@@ -662,7 +662,7 @@
             "name": "Frozen Block Room Bombable Wall",
             "chest_unopened_img": "images/icons/bombwall.png",
             "access_rules": ["$has_explosives"],
-            "visibility_rules": ["bombwall_sanity"]
+            "visibility_rules": ["oneoffs"]
           },
           {
             "name": "Frozen Block Ceiling Icicles",
@@ -2222,7 +2222,7 @@
             "name": "Entrance Bombable Wall",
             "chest_unopened_img": "images/icons/bombwall.png",
             "access_rules": ["$has_explosives"],
-            "visibility_rules": ["bombwall_sanity"]
+            "visibility_rules": ["oneoffs"]
           },
           {
             "name": "Ramp Upper Token",
@@ -2377,7 +2377,7 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, hookshot"],
-            "visibility_rules": ["painting_sanity"]
+            "visibility_rules": ["oneoffs"]
           },
           {
             "name": "Basement Near Staircase Web",
@@ -2508,7 +2508,7 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, hookshot"],
-            "visibility_rules": ["painting_sanity"]
+            "visibility_rules": ["oneoffs"]
           },
           {
             "name": "Storage Room Web Token",
@@ -2969,7 +2969,7 @@
         "sections": [
           {
             "name": "Ikana Castle Grass",
-            "item_count": 11,
+            "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
@@ -3130,7 +3130,7 @@
             "name": "Elegy Maze Bombable Wall",
             "chest_unopened_img": "images/icons/bombwall.png",
             "access_rules": ["$has_explosives"],
-            "visibility_rules": ["bombwall_sanity"]
+            "visibility_rules": ["oneoffs"]
           },
           {
             "name": "Elegy Maze Crates",
@@ -3186,8 +3186,8 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "$has_absurd_soul|soul_pots, $can_use_light_arrows",
-              "$has_absurd_soul|soul_pots, mirrorshield"
+              "$has_absurd_soul|soul_pots, $can_use_light_arrows, goron",
+              "$has_absurd_soul|soul_pots, mirrorshield, goron"
             ],
             "visibility_rules": ["pot_sanity"]
           },
@@ -3561,7 +3561,14 @@
             "name": "Pre Boss Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
-            "item_count": 11,
+            "item_count": 3,
+            "clear_as_group": false
+          },
+          {
+            "name": "Pre Boss Zora Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 8,
             "clear_as_group": false
           },
           {

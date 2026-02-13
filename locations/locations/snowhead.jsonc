@@ -150,7 +150,7 @@
             "visibility_rules": ["sign_sanity"]
           },
           {
-            "name": "Near Grave Pond Springtime Cut the Sign",
+            "name": "Near Grave Pond Spring Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
             "access_rules": ["$has_absurd_soul|soul_signs, $clear_snowhead"],
             "visibility_rules": ["sign_sanity"]
@@ -286,6 +286,14 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
+            "name": "Mountain Village Spring Rooftop Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$clear_snowhead, $has_absurd_soul|soul_pots, $has_hard_projectiles"],
+            "visibility_rules": ["pot_sanity"]
+          },
+          {
             "name": "Mountain Village Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
@@ -294,7 +302,7 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Mountain Smithy Pots Inide at Night",
+            "name": "Mountain Smithy Pots Inside at Night",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -321,7 +329,7 @@
             "name": "Spring Outside Darmani Grave Rocks",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
-            "item_count": 8,
+            "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks, $clear_snowhead"]
           },
@@ -420,7 +428,7 @@
             "access_rules": [
               "easy_logic, $baby_has_explosives, goron, hookshot",
               "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, goron",
-              "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, hookshot"
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, $has_npc_soul|soul_scarecrow, scarecrow_twin_islands_winter, hookshot"
             ]
           },
           {
@@ -436,7 +444,7 @@
             "visibility_rules": ["snow_sanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["goron", "$has_npc_soul|soul_scarecrow, twin_islands_ramp_winter, hookshot"]
+            "access_rules": ["goron", "$has_npc_soul|soul_scarecrow, scarecrow_twin_islands_winter, hookshot"]
           },
           {
             "name": "Twin Islands Grotto Grass",
@@ -445,7 +453,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives, goron",
-              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives, hookshot"
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives, $has_npc_soul|soul_scarecrow, scarecrow_twin_islands_winter, hookshot"
             ],
             "visibility_rules": ["grass_sanity"]
           },
@@ -551,7 +559,7 @@
             "visibility_rules": ["rock_sanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_rocks"]
+            "access_rules": ["$has_absurd_soul|soul_rocks, $clear_snowhead"]
           },
           {
             "name": "Spring Underwater Rupees",
@@ -742,7 +750,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 11,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_rocks, goron", "$has_absurd_soul|soul_pots, $has_npc_soul|soul_medigoron"],
+            "access_rules": ["$has_absurd_soul|soul_pots, goron", "$has_absurd_soul|soul_pots, $has_npc_soul|soul_medigoron"],
             "visibility_rules": ["pot_sanity"]
           },
           {
@@ -844,9 +852,9 @@
             "visibility_rules": ["sign_sanity"]
           },
           {
-            "name": "Tree Drops",
+            "name": "Lower Ledge Tree",
             "chest_unopened_img": "images/absurd/tree.png",
-            "item_count": 3,
+            "item_count": 1,
             "clear_as_group": false,
             "visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
@@ -876,9 +884,23 @@
             "access_rules": ["$snowhead, goron", "$snowhead, $has_explosives", "$snowhead, $can_use_fire_arrows"]
           },
           {
+            "name": "Near Grotto Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$has_absurd_soul|soul_trees_bushes, goron, magic",
+              "$has_absurd_soul|soul_trees_bushes, can_use_owl|owl_snowhead"
+            ]
+          },
+          {
             "name": "Near Grotto Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "access_rules": [
+              "$has_absurd_soul|soul_signs, goron, magic",
+              "$has_absurd_soul|soul_signs, $can_use_owl|owl_snowhead"
+            ],
             "visibility_rules": ["sign_sanity"]
           },
           {

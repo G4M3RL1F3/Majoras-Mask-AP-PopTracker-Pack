@@ -42,7 +42,7 @@
             "item_count": 24,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, $has_absurd_soul|soul_deku_flowers, deku"],
+            "access_rules": ["$has_absurd_soul|soul_grass, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_skull_kid, deku"],
             "visibility_rules": ["grass_sanity"]
           },
           {
@@ -50,7 +50,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass, $has_absurd_soul|soul_deku_flowers, deku"],
+            "access_rules": ["$has_absurd_soul|soul_grass, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_skull_kid, deku"],
             "visibility_rules": ["grass_sanity"]
           }
         ],
@@ -349,7 +349,7 @@
           {
             "name": "Playground Exterior Flowers",
             "item_count": 2,
-            "clear_as_group": false,
+            "clear_as_group": true,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
             "visibility_rules": ["flower_sanity"]
@@ -369,7 +369,7 @@
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
             "item_count": 6,
-            "clear_as_group": false,
+            "clear_as_group": true,
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
           },
           {
@@ -377,7 +377,7 @@
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
             "item_count": 6,
-            "clear_as_group": false,
+            "clear_as_group": true,
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
           },
           {
@@ -385,15 +385,15 @@
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
             "item_count": 6,
-            "clear_as_group": false,
+            "clear_as_group": true,
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
           },
           {
             "name": "Playground Deku Flowers",
             "item_count": 8,
-            "clear_as_group": false,
+            "clear_as_group": true,
             "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, deku"],
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"],
             "visibility_rules": ["flower_sanity"]
           },
           {
@@ -466,7 +466,7 @@
           {
             "name": "North Clock Town Keaton Grass",
             "item_count": 9,
-            "clear_as_group": false,
+            "clear_as_group": true,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
             "visibility_rules": ["grass_sanity"]
@@ -737,14 +737,14 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/Astral Observatory/Moon's Tear"],
+            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/East Clock Town Astral Observatory/Moon's Tear"],
             "visibility_rules": ["pot_sanity"]
           },
           {
             "name": "Bomber's Hideout Bombable Wall",
             "chest_unopened_img": "images/icons/bombwall.png",
             "access_rules": ["$has_hard_projectiles, $has_explosives"],
-            "visibility_rules": ["bombwall_sanity"]
+            "visibility_rules": ["oneoffs"]
           }
         ],
         "map_locations": [
@@ -1059,7 +1059,7 @@
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": [
-              "$has_npc_soul|soul_rosa_sisters, kamaro"
+              "$has_npc_soul|soul_rosa_sisters, bombers_notebook, kamaro"
             ]
           }
         ],

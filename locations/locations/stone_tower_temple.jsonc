@@ -772,6 +772,9 @@
           },
           {
             "ref": "Dungeons/Inverted Stone Tower Temple/Pre Boss Rupees"
+          },
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Pre Boss Zora Rupees"
           }
         ],
         "map_locations": [

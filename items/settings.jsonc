@@ -502,18 +502,11 @@
     "codes": "web_sanity"
   },
   {
-    "name": "Bombwall Sanity",
+    "name": "Oneoff Locations",
     "type": "toggle",
-    "img": "images/pack_settings/sanities/bombwall_sanity_on.png",
-    "disabled_img": "images/pack_settings/sanities/bombwall_sanity_off.png",
-    "codes": "bombwall_sanity"
-  },
-  {
-    "name": "Painting Sanity",
-    "type": "toggle",
-    "img": "images/pack_settings/sanities/painting_sanity_on.png",
-    "disabled_img": "images/pack_settings/sanities/painting_sanity_off.png",
-    "codes": "painting_sanity"
+    "img": "images/pack_settings/sanities/oneoffs_on.png",
+    "disabled_img": "images/pack_settings/sanities/oneoffs_off.png",
+    "codes": "oneoffs"
   },
 
   // Inventory

@@ -3082,7 +3082,7 @@ LOCATION_MAPPING = {
     [0x3469420FF0004] = {"@Clock Town/Laundry Pool/Laundry Pool Frog"},
 
     -- Treesanity
-    [0x34694202D6E00] = {"Clock Town/Deku Playground/North Clock Town West Tree"},
+    [0x34694202D6E00] = {"@Clock Town/Deku Playground/North Clock Town West Tree"},
     [0x34694202D6E01] = {"@Clock Town/North Clock Town Tree HP/North Clock Town East Tree"},
     [0x34694202C343F] = {"@Clock Town/Trading Post/Trading Post Bushes"},
     [0x34694202C348C] = {"@Clock Town/Trading Post/Trading Post Bushes"},

@@ -99,30 +99,30 @@ function onClear(slot_data)
 	Archipelago:Get(data_strorage_keys)
 
     -- applies shop prices from slot data on each shop item for display
-    if slot_data["shopsanity"] ~= 0 then
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print("Printing shop values given from slot data:")
-            for index, value in ipairs(slot_data["shop_prices_ints"]) do
-                print(index, value)
-            end
-        end
-
-        -- if shop prices are set to be free, set them to the price of 1
-        -- leaving the prices at 0 marks them as checked, which we don't want
-        for k, v in pairs(SHOP_NAMES) do
-            RANDOMIZED_PRICES[k] = {v[1], slot_data["shop_prices_ints"][k]}
-            if slot_data["shop_prices_ints"][k] == 0 then
-                RANDOMIZED_PRICES[k] = {v[1], 1}
-            end
-        end
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print("Printing RANDOMIZED_PRICES table:")
-        end
-        for key, value in pairs(RANDOMIZED_PRICES) do
-            print(key, value[1], value[2])
-        end
-    end
-    adjust_display_cost()
+    --if slot_data["shopsanity"] ~= 0 then
+    --    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    --        print("Printing shop values given from slot data:")
+    --        for index, value in ipairs(slot_data["shop_prices_ints"]) do
+    --            print(index, value)
+    --        end
+    --    end
+--
+    --    -- if shop prices are set to be free, set them to the price of 1
+    --    -- leaving the prices at 0 marks them as checked, which we don't want
+    --    for k, v in pairs(SHOP_NAMES) do
+    --        RANDOMIZED_PRICES[k] = {v[1], slot_data["shop_prices_ints"][k]}
+    --        if slot_data["shop_prices_ints"][k] == 0 then
+    --            RANDOMIZED_PRICES[k] = {v[1], 1}
+    --        end
+    --    end
+    --    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    --        print("Printing RANDOMIZED_PRICES table:")
+    --    end
+    --    for key, value in pairs(RANDOMIZED_PRICES) do
+    --        print(key, value[1], value[2])
+    --    end
+    --end
+    --adjust_display_cost()
 
     -- read YAML options
     local function setFromSlotData(slot_data_key, item_code)
@@ -280,6 +280,37 @@ function onItem(index, item_id, item_name, player_number)
 	end
 end
 
+
+SHOP_LOCATION_IDS = {
+    {0x3469420090002}, {0x3469420090001}, {0x3469420090000}, -- Swamp Witch Shop
+
+    -- Trading Post
+    {0x346942009000A},
+    {0x3469420090005},
+    {0x3469420090006},
+    {0x3469420090003},
+    {0x3469420090007},
+    {0x3469420090008},
+    {0x3469420090009},
+    {0x3469420090004},
+    {0x3469420090012},
+    {0x346942009000E},
+    {0x3469420090011},
+    {0x346942009000B},
+    {0x3469420090010},
+    {0x346942009000C},
+    {0x346942009000F},
+    {0x346942009000D},
+
+    {0x3469420090013}, {0x3469420090015}, -- Curiosity Shop
+
+    {0x346942009001A}, {0x3469420090019}, {0x3469420090017}, {0x3469420090018}, -- Bomb Shop
+
+    {0x346942009001B}, {0x346942009001C}, {0x346942009001D}, -- Zora Shop
+
+    {0x346942009001E}, {0x346942009001F}, {0x3469420090020}, -- Goron Shop Winter
+    {0x3469420090021}, {0x3469420090022}, {0x3469420090023}  -- Goron Shop Spring
+}
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
@@ -295,6 +326,12 @@ function onLocation(location_id, location_name)
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
         if v[1]:sub(1, 1) == "@" then
+            for _, value in pairs(SHOP_LOCATION_IDS) do
+                if location_id == value[1] then
+                    obj.AvailableChestCount = 0
+                    break
+                end
+            end
             obj.AvailableChestCount = obj.AvailableChestCount - 1
         else
             obj.Active = true

@@ -204,7 +204,7 @@
           },
           {
             "name": "Woodfall Temple Dragonfly Room Deku Flowers",
-            "item_count": 4,
+            "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": [

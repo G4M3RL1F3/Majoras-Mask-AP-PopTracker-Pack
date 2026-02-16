@@ -50,7 +50,7 @@
             "name": "Heart Piece Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|healing",
@@ -112,7 +112,7 @@
             "name": "Front Left Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|healing",
@@ -139,7 +139,7 @@
             "name": "Front Right Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|healing",
@@ -166,7 +166,7 @@
             "name": "Back Left Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|healing",
@@ -193,7 +193,7 @@
             "name": "Back Right Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|healing",
@@ -255,7 +255,7 @@
             "name": "Heart Piece Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -460,7 +460,7 @@
             "name": "Heart Piece Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
@@ -484,7 +484,7 @@
             "name": "LLL Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
@@ -508,7 +508,7 @@
             "name": "LRR Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
@@ -532,7 +532,7 @@
             "name": "RRL Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
@@ -556,7 +556,7 @@
             "name": "RRR Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
@@ -636,7 +636,7 @@
             "name": "Dinofols-Garo Master Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, $can_play_song|healing",
@@ -679,7 +679,7 @@
             "name": "Garo Master-Iron Knuckle Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, hookshot, $can_play_song|healing",
@@ -776,7 +776,7 @@
             "name": "Heart Piece Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_moon_kid, @Link Trial/Heart Piece Room/Heart Piece, $can_play_song|healing",

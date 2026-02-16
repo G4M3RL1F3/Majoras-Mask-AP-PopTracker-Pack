@@ -48,7 +48,7 @@
             "name": "Upper Small Snowball",
             "chest_unopened_img": "images/icons/snowball.png",
             "visibility_rules": ["snow_sanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_explosives",
@@ -84,7 +84,7 @@
             "name": "Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -218,7 +218,7 @@
             "name": "Spring Waterfall Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$clear_snowhead, $can_play_song|healing",
@@ -237,7 +237,7 @@
             "name": "Spring Ramp Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$clear_snowhead, $can_play_song|healing",
@@ -280,7 +280,7 @@
           {
             "name": "Mountain Village Rooftop Pot",
             "chest_unopened_img": "images/icons/pot.png",
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_hard_projectiles"],
             "visibility_rules": ["pot_sanity"]
@@ -337,7 +337,7 @@
             "name": "Spring Boulder Under Smithy Rupee",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$clear_snowhead"]
           },
@@ -353,7 +353,7 @@
             "name": "Village Spring Tree Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$clear_snowhead, $has_projectiles"
@@ -572,7 +572,7 @@
           {
             "name": "Ramp Tree",
             "chest_unopened_img": "images/absurd/tree.png",
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "visibility_rules": ["tree_sanity"],
             "access_rules": [
@@ -591,7 +591,7 @@
           {
             "name": "Spring Ramp Tree",
             "chest_unopened_img": "images/absurd/tree.png",
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "visibility_rules": ["tree_sanity"],
             "access_rules": [
@@ -775,7 +775,7 @@
           },
           {
             "name": "Business Scrub Deku Flower",
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, swampdeed"],
@@ -808,7 +808,7 @@
             "name": "Keg Goron Crate",
             "chest_unopened_img": "images/icons/crate.png",
             "visibility_rules": ["wood_sanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$can_use_fire_arrows"]
           },
@@ -816,7 +816,7 @@
             "name": "Keg Goron Spring Crate",
             "chest_unopened_img": "images/icons/crate.png",
             "visibility_rules": ["wood_sanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$clear_snowhead"]
           }
@@ -846,7 +846,7 @@
           {
             "name": "Lower Ledge Tree",
             "chest_unopened_img": "images/absurd/tree.png",
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]

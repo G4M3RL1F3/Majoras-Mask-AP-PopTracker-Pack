@@ -129,7 +129,7 @@
           },
           {
             "name": "Business Scrub Flower",
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, moontear, deku"],
@@ -1018,7 +1018,7 @@
           },
           {
             "name": "Deku Flower Near Chest Game",
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
@@ -1125,7 +1125,7 @@
           {
             "name": "Sword School Gong (Strike At Top Of Hour)",
             "chest_unopened_img": "images/icons/hitspot.png",
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "visibility_rules": ["hit_sanity"],
             "access_rules": [
@@ -1259,7 +1259,7 @@
             "name": "Laundry Pool Crate",
             "chest_unopened_img": "images/icons/crate.png",
             "visibility_rules": ["wood_sanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false
           },
           {

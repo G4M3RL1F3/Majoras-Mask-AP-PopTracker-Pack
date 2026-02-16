@@ -161,7 +161,7 @@
             "name": "Underwater Rock Near Like-Like (Bombchu Only)",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks, bombchu_bag, zora"]
           },
@@ -184,7 +184,7 @@
           {
             "name": "Fisherman Island Tree",
             "chest_unopened_img": "images/absurd/tree.png",
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "visibility_rules": ["tree_sanity"],
             "access_rules": ["$clear_greatbay, $has_absurd_soul|soul_trees_bushes"]
@@ -231,7 +231,7 @@
             "name": "Rock Wall Soil",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["hookshot, $bottleCount|1"]
           },
@@ -307,7 +307,7 @@
             "name": "Great Bay Grotto Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_grottos, hookshot"
@@ -341,7 +341,7 @@
             "name": "Underwater Rock Near Rock Wall (Bombchu Only)",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks, bombchu_bag, zora"]
           },
@@ -349,7 +349,7 @@
             "name": "Rock Wall Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -387,7 +387,7 @@
             "name": "Zora Cape Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -443,7 +443,7 @@
           },
           {
             "name": "Lower Wall Beaver's Deku Flower",
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, hookshot"],
@@ -496,7 +496,7 @@
             "name": "Grotto Boulder",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives", "goron"]
           },
@@ -607,7 +607,7 @@
           },
           {
             "name": "Business Scrub Deku Flower",
-            "item_count": 1,
+            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_business_scrub, deku, goron, zora, mountaindeed"],

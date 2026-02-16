@@ -116,10 +116,10 @@
         ]
       },
       {
-        "name": "Before Red Valve Room Chest",
+        "name": "Red-Green Pipe Room Chest",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Before Red Valve Room Chest"
+            "ref": "Dungeons/Great Bay Temple/Red-Green Pipe Room Chest"
           }
         ],
         "map_locations": [
@@ -131,10 +131,10 @@
         ]
       },
       {
-        "name": "Before Red Valve Room Pot SF",
+        "name": "Red-Green Pipe Room Pot SF",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Before Red Valve Room Pot SF"
+            "ref": "Dungeons/Great Bay Temple/Red-Green Pipe Room Pot SF"
           }
         ],
         "map_locations": [
@@ -157,6 +157,29 @@
             "map": "great_bay_temple",
             "x": 620,
             "y": 739
+          }
+        ]
+      },
+      {
+        "name": "1F Red Valve Room",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/1F Red Valve Room Crates"
+          },
+          {
+            "ref": "Dungeons/Great Bay Temple/1F Red Valve Room Barrels"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 575,
+            "y": 790
+          },
+          {
+            "map": "great_bay_temple",
+            "x": 665,
+            "y": 790
           }
         ]
       },
@@ -555,10 +578,10 @@
         ]
       },
       {
-        "name": "Red Valve Room Underwater Pots",
+        "name": "Underneath Boss Door Platform Pots",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Red Valve Underwater Pots"
+            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Underneath Boss Door Platform Pots"
           }
         ],
         "map_locations": [

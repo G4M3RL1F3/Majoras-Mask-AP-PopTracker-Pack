@@ -27,7 +27,6 @@
             "name": "Grotto Boulder",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["goron"]
           },
@@ -118,7 +117,6 @@
           {
             "name": "Road To Ikana Scarecrow Pillar Pot",
             "chest_unopened_img": "images/icons/pot.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $can_play_song|epona, $can_reach_scarecrow|scarecrow_road_to_ikana, hookshot"],
             "visibility_rules": ["pot_sanity"]
@@ -127,7 +125,6 @@
             "name": "Near Scarecrow Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_use_owl|owl_ikana_canyon, $can_play_song|healing",
@@ -247,7 +244,6 @@
           {
             "name": "Day 2 Entrance Grave Pot",
             "chest_unopened_img": "images/icons/pot.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_stalchildren, captain"],
             "visibility_rules": ["pot_sanity"]
@@ -350,7 +346,6 @@
             "name": "Near River Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -440,7 +435,6 @@
             "name": "Ocean Deed Trade Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing, @Ikana/Near Sakon's Hideout Entrance/Zora Trade Freestanding HP",
@@ -542,7 +536,6 @@
             "name": "Near Spirit House Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -602,7 +595,7 @@
             "name": "Stone Tower Climb Pots",
             "item_count": 2,
             "access_rules": [
-              "$has_absurd_soul|soul_pots, hookshot, goron, zora, elegy",
+              "$has_absurd_soul|soul_pots, hookshot, goron, zora, can_play_song|elegy",
               "$has_absurd_soul|soul_pots, $can_use_owl|owl_stone_tower"
             ],
             "visibility_rules": ["pot_sanity"]
@@ -612,7 +605,7 @@
             "chest_unopened_img": "images/characters/scarecrow.png",
             "access_rules": [
               "$has_npc_soul|soul_scarecrow, $can_play_song|elegy, goron, zora",
-              "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_stone_tower, $can_play_song|elegy"
+              "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_stone_tower"
             ],
             "visibility_rules": ["scarecrow_sanity"]
           },
@@ -620,7 +613,7 @@
             "name": "Stone Tower Lower Scarecrow Pots",
             "item_count": 12,
             "access_rules": [
-              "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, goron, zora, elegy",
+              "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, goron, zora, $can_play_song|elegy",
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, $can_use_owl|owl_stone_tower"
             ],
             "visibility_rules": ["pot_sanity"]
@@ -630,7 +623,7 @@
             "chest_unopened_img": "images/characters/scarecrow.png",
             "access_rules": [
               "$has_npc_soul|soul_scarecrow, $can_play_song|elegy, goron, zora",
-              "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_stone_tower, $can_play_song|elegy"
+              "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_stone_tower"
             ],
             "visibility_rules": ["scarecrow_sanity"]
           },
@@ -638,7 +631,7 @@
             "name": "Stone Tower Upper Scarecrow Pots",
             "item_count": 9,
             "access_rules": [
-              "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, goron, zora, elegy",
+              "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, goron, zora, $can_play_song|elegy",
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, $can_use_owl|owl_stone_tower"
             ],
             "visibility_rules": ["pot_sanity"]
@@ -689,7 +682,6 @@
             "name": "Inverted Lower Soil",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$bottleCount|1"]
           },
@@ -697,7 +689,6 @@
             "name": "Inverted Upper Soil",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$can_plant_beans, $bottleCount|1"]
           },

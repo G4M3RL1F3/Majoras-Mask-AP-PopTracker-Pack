@@ -57,7 +57,6 @@
             "name": "Milk Road Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -111,7 +110,6 @@
             "name": "Crate Behind Fence",
             "chest_unopened_img": "images/icons/crate.png",
             "visibility_rules": ["wood_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_bulldozer",
@@ -221,7 +219,6 @@
             "name": "Cucco Shack Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -240,7 +237,6 @@
           {
             "name": "Cucco Shack Tree",
             "chest_unopened_img": "images/absurd/tree.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "visibility_rules": ["tree_sanity"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
@@ -286,7 +282,6 @@
             "name": "Doggy Racetrack Soil",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$bottleCount|1"]
           },
@@ -294,7 +289,6 @@
             "name": "Doggy Racetrack Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -349,7 +343,6 @@
             "name": "Near Barn Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -400,7 +393,6 @@
             "name": "Crate Next To Romani",
             "chest_unopened_img": "images/icons/crate.png",
             "visibility_rules": ["wood_sanity"],
-            //"item_count": 1,
             "clear_as_group": false
           },
           {
@@ -457,7 +449,6 @@
             "name": "Entry Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -477,7 +468,6 @@
             "name": "Tree Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -528,7 +518,6 @@
             "name": "Day 1 Soil",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$can_use_powder_keg, $bottleCount|1"]
           },

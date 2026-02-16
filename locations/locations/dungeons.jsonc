@@ -14,7 +14,6 @@
           {
             "name": "Woodfall Temple Entrance Pot",
             "chest_unopened_img": "images/icons/pot.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
             "visibility_rules": ["pot_sanity"]
@@ -39,7 +38,6 @@
             "name": "Woodfall Temple Entrance Room Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_projectiles"
@@ -60,7 +58,6 @@
           },
           {
             "name": "Woodfall Temple Main Room Deku Flower",
-            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
@@ -330,7 +327,6 @@
             "name": "Woodfall Temple Bridge Room Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "smallkey_wf, $has_projectiles",
@@ -472,7 +468,6 @@
           },
           {
             "name": "Woodfall Temple Odolwa's Lair Deku Flower",
-            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": [
@@ -557,7 +552,6 @@
             "name": "Bridge Room Crate",
             "chest_unopened_img": "images/icons/crate.png",
             "visibility_rules": ["wood_sanity"],
-            //"item_count": 1,
             "clear_as_group": false
           },
           {
@@ -756,7 +750,6 @@
           },
           {
             "name": "Main Room Wall Chest Deku Flower",
-            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": [
@@ -1018,7 +1011,6 @@
           },
           {
             "name": "Outside Boss Door Deku Flower",
-            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": [
@@ -1174,7 +1166,7 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Before Red Valve Room Chest",
+            "name": "Red-Green Pipe Room Chest",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, zora, bow, hookshot, deku",
               "normal_logic, $can_use_ice_arrows",
@@ -1182,7 +1174,7 @@
             ]
           },
           {
-            "name": "Before Red Valve Room Pot SF",
+            "name": "Red-Green Pipe Room Pot SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
@@ -1193,7 +1185,7 @@
             ]
           },
           {
-            "name": "1F Red Valve Room Crate",
+            "name": "1F Red Valve Room Crates",
             "chest_unopened_img": "images/icons/crate.png",
             "visibility_rules": ["wood_sanity"],
             "item_count": 5,
@@ -1408,7 +1400,7 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, $can_use_ice_arrows, $can_use_fire_arrows, bombchu_bag",
-              "normal_logic, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
+              "normal_logic, $has_absurd_soul|soul_barrels, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
             ]
           },
           {
@@ -1451,7 +1443,7 @@
             "access_rules": ["@Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF"]
           },
           {
-            "name": "Great Bay Temple Pots Underneath Boss Door Platform",
+            "name": "Great Bay Temple Underneath Boss Door Platform Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,
@@ -1533,7 +1525,6 @@
             "name": "Fortress Exterior Balcony Barrel",
             "chest_unopened_img": "images/absurd/barrel.png",
             "visibility_rules": ["wood_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$pirates_fortress_interior, $has_absurd_soul|soul_barrels, hookshot"]
           },
@@ -1677,7 +1668,6 @@
             "name": "Interior Room Past Pink Guard Barrel",
             "chest_unopened_img": "images/absurd/barrel.png",
             "visibility_rules": ["wood_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$pirates_fortress_interior, $has_absurd_soul|soul_barrels, $has_enemy_soul|soul_coloured_pirates, hookshot"]
           },
@@ -1715,7 +1705,6 @@
             "name": "Guarded Bridge Barrel",
             "chest_unopened_img": "images/absurd/barrel.png",
             "visibility_rules": ["wood_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$pirates_fortress_interior, $has_absurd_soul|soul_barrels, hookshot"]
           },
@@ -1946,7 +1935,6 @@
             "name": "Monument Room Boulder",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["goron", "$has_explosives"]
           },
@@ -2001,7 +1989,6 @@
           },
           {
             "name": "Pottery Room Ledge Deku Flower",
-            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
@@ -2009,7 +1996,6 @@
           },
           {
             "name": "Pottery Room Sonata Deku Flower",
-            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, $can_play_song|sonata, deku"],
@@ -2061,7 +2047,6 @@
             "name": "Pottery Room Rock",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks"]
           },
@@ -2084,7 +2069,6 @@
             "name": "Gold Room Soil",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$bottleCount|1"]
           },
@@ -2193,7 +2177,6 @@
             "name": "Tree Room Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -2266,7 +2249,6 @@
           {
             "name": "Library Web",
             "chest_unopened_img": "images/icons/web.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
             "visibility_rules": ["web_sanity"]
@@ -2274,7 +2256,6 @@
           {
             "name": "1st Room Over Entrance Door Web",
             "chest_unopened_img": "images/icons/web.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
             "visibility_rules": ["web_sanity"]
@@ -2302,7 +2283,6 @@
           {
             "name": "1st Floor Pot Web",
             "chest_unopened_img": "images/icons/web.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
             "visibility_rules": ["web_sanity"]
@@ -2310,7 +2290,6 @@
           {
             "name": "1st Floor Near Staircase Web",
             "chest_unopened_img": "images/icons/web.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
             "visibility_rules": ["web_sanity"]
@@ -2382,7 +2361,6 @@
           {
             "name": "Basement Near Staircase Web",
             "chest_unopened_img": "images/icons/web.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
             "visibility_rules": ["web_sanity"]
@@ -2413,7 +2391,6 @@
           {
             "name": "Basement Covering Crates Web",
             "chest_unopened_img": "images/icons/web.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
             "visibility_rules": ["web_sanity"]
@@ -2426,7 +2403,6 @@
           {
             "name": "Basement Covering Hole Web",
             "chest_unopened_img": "images/icons/web.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
             "visibility_rules": ["web_sanity"]
@@ -2442,7 +2418,6 @@
           {
             "name": "Basement Covering Door Web",
             "chest_unopened_img": "images/icons/web.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
             "visibility_rules": ["web_sanity"]
@@ -2518,7 +2493,6 @@
           {
             "name": "Storage Room Ceiling Web",
             "chest_unopened_img": "images/icons/web.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
             "visibility_rules": ["web_sanity"]
@@ -2542,7 +2516,6 @@
           {
             "name": "Storage Room Crates Web",
             "chest_unopened_img": "images/icons/web.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
             "visibility_rules": ["web_sanity"]
@@ -2567,7 +2540,6 @@
             "name": "Storage Room Crate",
             "chest_unopened_img": "images/icons/crate.png",
             "visibility_rules": ["wood_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_explosives, hookshot"]
           },
@@ -2713,7 +2685,7 @@
             "item_count": 6,
             "clear_as_group": false,
             "chest_unopened_img": "images/icons/pot.png",
-            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "access_rules": ["$has_absurd_soul|soul_pots, $can_use_light_arrows"],
             "visibility_rules": ["pot_sanity"]
           }
         ],
@@ -2792,7 +2764,6 @@
           {
             "name": "Right Side Cow Tree",
             "chest_unopened_img": "images/absurd/tree.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "visibility_rules": ["tree_sanity"],
             "access_rules": [
@@ -2923,7 +2894,6 @@
           {
             "name": "Right Side Before Chest Room Web",
             "chest_unopened_img": "images/icons/web.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, bombs, $can_use_fire_arrows",
@@ -2978,7 +2948,6 @@
           {
             "name": "Exterior Corner Pot",
             "chest_unopened_img": "images/icons/pot.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
             "visibility_rules": ["pot_sanity"]
@@ -3308,7 +3277,6 @@
           },
           {
             "name": "Deku Updraft Deku Flower",
-            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": [

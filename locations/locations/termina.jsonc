@@ -42,7 +42,6 @@
             "name": "Stump Soil",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$bottleCount|1"]
           }
@@ -73,7 +72,6 @@
           {
             "name": "Termina Field Eastern Pillar Pot",
             "chest_unopened_img": "images/icons/pot.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_projectiles"],
             "visibility_rules": ["pot_sanity"]
@@ -82,14 +80,12 @@
             "name": "Eastern Pillar Rupee",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
-            //"item_count": 1,
             "clear_as_group": false
           },
           {
             "name": "Eastern Pillar Soil",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$bottleCount|1"]
           }
@@ -133,7 +129,6 @@
             "name": "East Corner Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -301,7 +296,6 @@
             "name": "Invisible Rupee Over Northern Ramp",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["invisi_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["goron, magic"]
           },
@@ -349,7 +343,6 @@
             "name": "Near Songwall Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -433,7 +426,6 @@
             "name": "Invisible Rupee Over Ramp Near Fountains",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["invisi_sanity"],
-            //"item_count": 1,
             "clear_as_group": false
           },
           {
@@ -482,7 +474,6 @@
             "name": "Rock Behind Coast Wall",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks, $can_play_song|epona"]
           }
@@ -503,7 +494,6 @@
             "name": "Bio Baba Boulder",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_explosives",
@@ -534,7 +524,6 @@
             "name": "Rock In Grotto",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_rocks, $has_explosives",
@@ -545,7 +534,6 @@
             "name": "Bio Baba Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_grottos, $has_explosives, zora",
@@ -599,7 +587,6 @@
             "name": "Observatory Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing, @Clock Town/Clock Town Hide-and-Seek/Clock Town Hide-and-Seek",
@@ -609,7 +596,6 @@
           },
           {
             "name": "Observatory Deku Flower",
-            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
@@ -643,7 +629,6 @@
           {
             "name": "Termina Field Deku Business Scrub Grotto Pot",
             "chest_unopened_img": "images/icons/pot.png",
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_pots"],
             "visibility_rules": ["pot_sanity"]
@@ -652,7 +637,6 @@
             "name": "Business Scrub Crate",
             "chest_unopened_img": "images/icons/crate.png",
             "visibility_rules": ["wood_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_grottos"]
           }
@@ -734,7 +718,6 @@
             "name": "Bombable Rock",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_explosives",
@@ -760,7 +743,6 @@
             "name": "Bombable Rock Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_grottos, $has_projectiles, $has_explosives",
@@ -771,7 +753,6 @@
             "name": "Gossip Stones HP Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_grottos, $can_play_song|healing",
@@ -794,7 +775,6 @@
             "name": "Near Bombable Rock Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -831,14 +811,12 @@
             "name": "Invisible Rupee Over Water",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["invisi_sanity"],
-            //"item_count": 1,
             "clear_as_group": false
           },
           {
             "name": "Takkuri Rupee",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_enemy_soul|soul_takkuri, $has_absurd_soul|soul_grass",
@@ -850,7 +828,6 @@
             "name": "Takkuri Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -896,7 +873,6 @@
             "name": "Invisible Rupee Over Log",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["invisi_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "goron, magic",
@@ -921,7 +897,6 @@
             "name": "Southern Tree Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -1032,7 +1007,6 @@
             "name": "Cow Grotto Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_grottos, $has_projectiles, $has_explosives"

@@ -136,7 +136,7 @@ function baby_clear_greatbay()
 end
 
 function clear_greatbay()
-    return great_bay_temple() and has("hookshot") and ((can_use_ice_arrows() and can_use_fire_arrows() and has("bosskey_gb")) or (has("gyorg") and has("boss_warps_with_remains")))
+    return great_bay_temple() and has("hookshot") and has("soul_gyorg") and ((can_use_ice_arrows() and can_use_fire_arrows() and has("bosskey_gb")) or (has("gyorg") and has("boss_warps_with_remains")))
 end
 
 

@@ -43,7 +43,7 @@ function can_plant_beans()
 end
 
 function can_use_powder_keg()
-    return has("keg") and has("goron") and has_npc_soul("soul_keg_goron") or (has_npc_soul("soul_medigoron") and can_use_fire_arrows() and has("adultswallet"))
+    return has("keg") and has("goron") and (has_npc_soul("soul_keg_goron") or (has_npc_soul("soul_medigoron") and can_use_fire_arrows() and has("adultswallet")))
 end
 
 function can_use_fire_arrows()

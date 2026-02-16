@@ -94,7 +94,6 @@
             "name": "Road to Swamp Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -236,7 +235,6 @@
           },
           {
             "name": "Business Scrub Deku Flower",
-            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, landdeed"],
@@ -244,7 +242,6 @@
           },
           {
             "name": "Post Dungeon Business Scrub Deku Flower",
-            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$clear_woodfall, $has_absurd_soul|soul_deku_flowers, deku"],
@@ -404,7 +401,6 @@
             "name": "Shop Interior Rupee",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
-            //"item_count": 1,
             "clear_as_group": false
           },
           {
@@ -475,7 +471,6 @@
             "name": "Witch Shop Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$can_play_song|healing",
@@ -487,7 +482,6 @@
             "name": "Post Dungeon Witch Shop Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$clear_woodfall, $can_play_song|healing",
@@ -531,7 +525,6 @@
           },
           {
             "name": "Woods of Mystery Day 2 Unique Grass",
-            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
@@ -640,7 +633,6 @@
             "name": "Near Frog Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
-            //"item_count": 1,
             "clear_as_group": false,
             "access_rules": [
               "$has_projectiles"
@@ -747,7 +739,6 @@
           },
           {
             "name": "Palace Deku Flower to Swamp Exit",
-            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
@@ -956,7 +947,6 @@
             "name": "Stump Rupee",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
-            //"item_count": 1,
             "clear_as_group": false
           }
         ],

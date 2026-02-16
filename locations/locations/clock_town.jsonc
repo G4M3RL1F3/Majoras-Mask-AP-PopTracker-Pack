@@ -365,7 +365,7 @@
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
           },
           {
-            "name": "Deku Playground Day 1 Rupees",
+            "name": "Day 1 Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
             "item_count": 6,
@@ -373,7 +373,7 @@
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
           },
           {
-            "name": "Deku Playground Day 2 Rupees",
+            "name": "Day 2 Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
             "item_count": 6,
@@ -381,7 +381,7 @@
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
           },
           {
-            "name": "Deku Playground Day 3 Rupees",
+            "name": "Day 3 Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
             "item_count": 6,

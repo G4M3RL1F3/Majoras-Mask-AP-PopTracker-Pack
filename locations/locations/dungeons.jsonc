@@ -59,8 +59,8 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Woodfall Temple Main Room Deku Flowers",
-            "item_count": 1,
+            "name": "Woodfall Temple Main Room Deku Flower",
+            //"item_count": 1,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],

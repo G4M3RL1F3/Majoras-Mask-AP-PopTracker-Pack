@@ -29,7 +29,7 @@
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "star_fox_moon"
+                    "item": "moon_star_fox"
                   },
                   {
                     "type": "item",
@@ -65,7 +65,7 @@
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "star_fox_majora"
+                    "item": "majora_star_fox"
                   },
                   {
                     "type": "item",
@@ -91,7 +91,7 @@
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "boss_warps_with_remains"
+                    "item": "remains_allow_boss_warps"
                   }
                 ]
               }

@@ -143,7 +143,7 @@
     "img": "images/pack_settings/boss_warps_with_remains_on.png",
     "disabled_img": "images/pack_settings/boss_warps_with_remains_off.png",
     "disabled_img_mods": "none",
-    "codes": "remains_allow_boss_warps"
+    "codes": "boss_warps_with_remains"
   },
 
   // Shuffles

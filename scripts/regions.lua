@@ -49,7 +49,7 @@ function baby_clear_woodfall()
     return baby_woodfall_temple() and has("bow") and baby_can_smack_hard() and has("bosskey_wf") and has("odolwa")
 end
 function clear_woodfall()
-    return woodfall_temple() and has("bow") and can_smack() and (has("bosskey_wf") or (has("odolwa") and has("remains_allow_boss_warps")))
+    return woodfall_temple() and has("bow") and can_smack() and (has("bosskey_wf") or (has("odolwa") and has("boss_warps_with_remains")))
 end
 
 
@@ -89,7 +89,7 @@ function baby_clear_snowhead()
     return baby_snowhead_temple() and can_use_fire_arrows() and baby_has_explosives()
 end
 function clear_snowhead()
-    return snowhead_temple() and can_use_fire_arrows() and ((has("smallkey_sh", 1) and has("bosskey_sh")) or (has("goht") and has("remains_allow_boss_warps")))
+    return snowhead_temple() and can_use_fire_arrows() and ((has("smallkey_sh", 1) and has("bosskey_sh")) or (has("goht") and has("boss_warps_with_remains")))
 end
 
 
@@ -136,7 +136,7 @@ function baby_clear_greatbay()
 end
 
 function clear_greatbay()
-    return great_bay_temple() and has("hookshot") and has("soul_gyorg") and ((can_use_ice_arrows() and can_use_fire_arrows() and has("bosskey_gb")) or (has("gyorg") and has("remains_allow_boss_warps")))
+    return great_bay_temple() and has("hookshot") and has("soul_gyorg") and ((can_use_ice_arrows() and can_use_fire_arrows() and has("bosskey_gb")) or (has("gyorg") and has("boss_warps_with_remains")))
 end
 
 

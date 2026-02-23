@@ -91,7 +91,7 @@
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "remains_allow_boss_warps"
+                    "item": "boss_warps_with_remains"
                   }
                 ]
               }

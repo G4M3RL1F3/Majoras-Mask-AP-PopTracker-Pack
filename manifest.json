@@ -1,12 +1,12 @@
 ﻿{
     "name": "Majora's Mask: Recompiled",
     "game_name": "The Legend of Zelda - Majoras Mask",
-    "package_version": "0.9.5.2",
+    "package_version": "0.9.5.3",
     "package_uid": "MM_AP",
     "platform": "Nintendo 64",
     "author": "Seto10987, G4M3R L1F3",
     "min_poptracker_version": "0.32.0",
-    "target_poptracker_version": "0.33.0",
+    "target_poptracker_version": "0.34.0",
     "variants": {
         "standard": {
             "display_name": "Maps and items",
@@ -22,5 +22,4 @@
         }
     },
 	"versions_url": "https://raw.githubusercontent.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/refs/heads/cube/versions.json"
-
 }

@@ -1,0 +1,97 @@
+[
+	{
+	  "name": "Zora Hall",
+		"children": [
+			{
+				"name": "Zora Shop",
+				"sections": [
+					{
+						"ref": "Great Bay/Zora Hall/Shop 1"
+					},
+					{
+						"ref": "Great Bay/Zora Hall/Shop 2"
+					},
+					{
+						"ref": "Great Bay/Zora Hall/Shop 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "zora_hall",
+						"x": 1076,
+						"y": 685
+					}
+				]
+			},
+      {
+        "name": "Lulu's Room",
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Deku Scrub Purchase"
+          },
+          {
+            "ref": "Great Bay/Zora Hall/Goron Scrub Trade"
+          },
+          {
+            "ref": "Great Bay/Zora Hall/Goron Scrub Trade Freestanding HP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 429,
+            "y": 114
+          }
+        ]
+      },
+      {
+        "name": "Evan's Room",
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Evan's Song"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 588,
+            "y": 30
+          }
+        ]
+      },
+      {
+        "name": "Hall Stage",
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Torches Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 668,
+            "y": 356
+          }
+        ]
+      },
+      {
+        "name": "Fan of Lulu",
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Good Picture of Lulu"
+          },
+          {
+            "ref": "Great Bay/Zora Hall/Bad Picture of Lulu"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 706,
+            "y": 656
+          }
+        ]
+      }
+		]
+	}
+]

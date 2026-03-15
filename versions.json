@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "package_version": "0.9.5.3",
+      "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/archive/refs/tags/v0.9.5.3.zip",
+      "sha256": "76200966df01ea01a7647bb0c425f4c0f542a9533797c4fae181559d5b70a463",
+      "changelog": [
+        "New Woods of Mystery and Zora Hall Maps",
+        "Count displays now have a background for better readability",
+        "Free shop items will display a cost of 1 rupee",
+        "Spring goron shop items will not incorrectly turn green",
+        "Woodfall Temple Turtle Chest is now displayed",
+        "Boss Warps with Remains will now update on connect"
+      ]
+    },
+    {
       "package_version": "0.9.5.2",
       "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/archive/refs/tags/v0.9.5.2.zip",
       "sha256": "8be1b5b9aedb5da38824bdf7b304f616857003291bf0e252353572c48fe20ba1",

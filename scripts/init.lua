@@ -1,4 +1,4 @@
-ENABLE_DEBUG_LOG = false -- Disable before any releases
+ENABLE_DEBUG_LOG = true -- Disable before any releases
 
 local variant = Tracker.ActiveVariantUID
 IS_STANDARD = variant:find("standard")

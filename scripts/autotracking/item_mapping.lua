@@ -268,14 +268,14 @@ ITEM_MAPPING = {
 [0x34694200E0043] = {"soul_gomess","toggle"},
 
 -- Absurd Souls
-[0x34694200E01D6] = {"soul_songwall","toggle"},
-[0x34694200E0041] = {"soul_trees_bushes","toggle"},
-[0x34694200E010B] = {"soul_grass","toggle"},
-[0x34694200E0055] = {"soul_grottos","toggle"},
-[0x34694200E0183] = {"soul_deku_flowers","toggle"},
-[0x34694200E022D] = {"soul_barrels","toggle"},
-[0x34694200E0287] = {"soul_bulldozer","toggle"},
-[0x34694200E0082] = {"soul_pots","toggle"},
-[0x34694200E00B0] = {"soul_rocks","toggle"},
-[0x34694200E00A8] = {"soul_signs","toggle"}
+[0x34694200F01D6] = {"soul_songwall","toggle"},
+[0x34694200F0041] = {"soul_trees_bushes","toggle"},
+[0x34694200F010B] = {"soul_grass","toggle"},
+[0x34694200F0055] = {"soul_grottos","toggle"},
+[0x34694200F0183] = {"soul_deku_flowers","toggle"},
+[0x34694200F022D] = {"soul_barrels","toggle"},
+[0x34694200F0287] = {"soul_bulldozer","toggle"},
+[0x34694200F0082] = {"soul_pots","toggle"},
+[0x34694200F00B0] = {"soul_rocks","toggle"},
+[0x34694200F00A8] = {"soul_signs","toggle"}
 }

@@ -627,7 +627,11 @@
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
             "item_count": 2,
-            "clear_as_group": false
+            "clear_as_group": false,
+            "access_rules": [
+              "deku",
+              "zora"
+            ]
           },
           {
             "name": "Near Frog Beehive",
@@ -635,7 +639,7 @@
             "visibility_rules": ["hive_sanity"],
             "clear_as_group": false,
             "access_rules": [
-              "$has_projectiles"
+              "deku, $has_projectiles"
             ]
           },
           {

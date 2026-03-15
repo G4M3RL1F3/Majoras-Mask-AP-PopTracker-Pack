@@ -504,8 +504,7 @@
             "chest_unopened_img": "images/items/gold_dust.png",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead, powderkeg",
-              "normal_logic, $clear_snowhead, powderkeg",
-              "normal_logic, $clear_snowhead, @Snowhead/Goron Village/Powder Keg Goron Reward"
+              "normal_logic, $clear_snowhead, $can_use_powder_keg"
             ]
           },
           {
@@ -514,8 +513,7 @@
             "item_count": 30,
             "clear_as_group": false,
             "access_rules": [
-              "$has_absurd_soul|soul_pots, goron, keg",
-              "$has_absurd_soul|soul_pots, goron, $can_use_fire_arrows"
+              "$has_absurd_soul|soul_pots, $can_use_powder_keg"
             ],
             "visibility_rules": ["pot_sanity"]
           },
@@ -526,8 +524,7 @@
             "clear_as_group": false,
             "visibility_rules": ["tree_sanity"],
             "access_rules": [
-              "$has_absurd_soul|soul_trees_bushes, goron, keg",
-              "$has_absurd_soul|soul_trees_bushes, goron, $can_use_fire_arrows"
+              "$has_absurd_soul|soul_trees_bushes, $can_use_powder_keg"
             ]
           },
           {
@@ -836,7 +833,10 @@
             "chest_unopened_img": "images/absurd/tree.png",
             "clear_as_group": false,
             "visibility_rules": ["tree_sanity"],
-            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
+            "access_rules": [
+              "$mountain_village, $has_absurd_soul|soul_trees_bushes",
+              "$can_use_owl|owl_snowhead, $has_absurd_soul|soul_trees_bushes, goron, magic"
+            ]
           },
           {
             "name": "Between Ramps Large Snowballs",
@@ -860,7 +860,11 @@
             "visibility_rules": ["snow_sanity"],
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$snowhead, goron", "$snowhead, $has_explosives", "$snowhead, $can_use_fire_arrows"]
+            "access_rules": [
+              "$snowhead, goron",
+              "$snowhead, $has_explosives",
+              "$snowhead, $can_use_fire_arrows"
+            ]
           },
           {
             "name": "Near Grotto Trees",
@@ -905,13 +909,18 @@
           {
             "name": "Path to Snowhead Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
-            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
+            "access_rules": [
+              "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_snowhead, $can_use_lens",
+              "$has_npc_soul|soul_scarecrow, ocarina, goron, $can_use_lens"
+            ],
             "visibility_rules": ["scarecrow_sanity"]
           },
           {
             "name": "Path to Snowhead (Spring) Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
-            "access_rules": ["$clear_snowhead, $has_npc_soul|soul_scarecrow, ocarina"],
+            "access_rules": [
+              "$clear_snowhead, $has_npc_soul|soul_scarecrow, $can_use_lens"
+            ],
             "visibility_rules": ["scarecrow_sanity"]
           }
         ]

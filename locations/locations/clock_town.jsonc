@@ -280,25 +280,19 @@
             "name": "Notebook Event: Meeting Bombers",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_toto_gorman, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_toto_gorman, bombers_notebook"]
           },
           {
             "name": "Notebook Event: Received Bomber's Notebook",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_bombers, $has_projectiles"
-            ]
+            "access_rules": ["$has_npc_soul|soul_bombers, $has_projectiles"]
           },
           {
             "name": "Notebook Event: Learned Secret Code",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_bombers, $has_projectiles"
-            ]
+            "access_rules": ["$has_npc_soul|soul_bombers, $has_projectiles"]
           }
         ],
         "map_locations": [
@@ -507,17 +501,13 @@
             "name": "Notebook Event: Meeting Bomb Granny",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_bomb_shop_lady, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_bomb_shop_lady, bombers_notebook"]
           },
           {
             "name": "Notebook Event: Received Blast Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "@Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM)"
-            ]
+            "access_rules": ["@Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM)"]
           }
         ],
         "map_locations": [
@@ -560,9 +550,7 @@
             "name": "Notebook Event: Meeting Africa (Toto)",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_toto_gorman, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_toto_gorman, bombers_notebook"]
           },
           {
             "name": "East Clock Town Mayor's Wife",
@@ -573,25 +561,19 @@
             "name": "Notebook Event: Meeting Madame Aroma",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_madame_aroma, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_madame_aroma, bombers_notebook"]
           },
           {
             "name": "Notebook Event: Received Kafei's Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_madame_aroma"
-            ]
+            "access_rules": ["$has_npc_soul|soul_madame_aroma"]
           },
           {
             "name": "Notebook Event: Meeting Mayor Dotour",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_council, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_council, bombers_notebook"]
           },
           {
             "name": "East Clock Town Couple's Mask on Mayor",
@@ -602,9 +584,7 @@
             "name": "Notebook Event: Received Mayor HP",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_council, couple"
-            ]
+            "access_rules": ["$has_npc_soul|soul_council, couple"]
           }
         ],
         "map_locations": [
@@ -771,17 +751,13 @@
             "name": "Notebook Event: Meeting Anju",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_anju, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_anju, bombers_notebook"]
           },
           {
             "name": "Notebook Event: Received Room Key",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_anju"
-            ]
+            "access_rules": ["$has_npc_soul|soul_anju"]
           },
           {
             "name": "Stock Pot Inn Employee Room Chest (Final Night)"
@@ -794,12 +770,10 @@
             "name": "Notebook Event: Promised Midnight Meeting",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_anju, kafeimask"
-            ]
+            "access_rules": ["$has_npc_soul|soul_anju, kafeimask"]
           },
           {
-            "name": "Stock Pot Inn Midnight Meeting (Night 1: 11:30 PM)",
+            "name": "Stock Pot Inn Midnight Meeting (Night 1: 12 to 6 AM)",
             "chest_unopened_img": "images/characters/anju.png",
             "access_rules": [
               "easy_logic, kafeimask, deku, roomkey",
@@ -811,33 +785,25 @@
             "name": "Notebook Event: Promised To Meet Kafei",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_bombers, $has_projectiles"
-            ]
+            "access_rules": ["$has_npc_soul|soul_bombers, $has_projectiles"]
           },
           {
             "name": "Notebook Event: Received Letter To Kafei",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "kafeimask, @Clock Town/Stock Pot Inn/Stock Pot Inn Midnight Meeting (Night 1: 11:30 PM)"
-            ]
+            "access_rules": ["kafeimask, @Clock Town/Stock Pot Inn/Stock Pot Inn Midnight Meeting (Night 1: 12 to 6 AM)"]
           },
           {
             "name": "Notebook Event: Delivered Pendant of Memories",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "@Clock Town/Stock Pot Inn/Stock Pot Inn Midnight Meeting (Night 1: 11:30 PM)"
-            ]
+            "access_rules": ["@Clock Town/Stock Pot Inn/Stock Pot Inn Midnight Meeting (Night 1: 12 to 6 AM)"]
           },
           {
             "name": "Notebook Event: Meeting Toilet Hand",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_toilet_hand, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_toilet_hand, bombers_notebook"]
           },
           {
             "name": "Stock Pot Inn Midnight Toilet Hand",
@@ -848,17 +814,13 @@
             "name": "Notebook Event: Received Toilet Hand HP",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_toilet_hand, $has_paper"
-            ]
+            "access_rules": ["$has_npc_soul|soul_toilet_hand, $has_paper"]
           },
           {
             "name": "Notebook Event: Meeting Anju's Grandmother",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_anjus_grandmother, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_anjus_grandmother, bombers_notebook"]
           },
           {
             "name": "Stock Pot Inn Granny Story #1",
@@ -869,9 +831,7 @@
             "name": "Notebook Event: Received Grandma Short Story HP",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_anjus_grandmother, allnightmask"
-            ]
+            "access_rules": ["$has_npc_soul|soul_anjus_grandmother, allnightmask"]
           },
           {
             "name": "Stock Pot Inn Granny Story #2",
@@ -882,9 +842,7 @@
             "name": "Notebook Event: Received Grandma Long Story HP",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_anjus_grandmother, allnightmask"
-            ]
+            "access_rules": ["$has_npc_soul|soul_anjus_grandmother, allnightmask"]
           },
           {
             "name": "Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)",
@@ -899,9 +857,7 @@
             "name": "Notebook Event: Received Couple's Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "@Clock Town/Stock Pot Inn/Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)"
-            ]
+            "access_rules": ["@Clock Town/Stock Pot Inn/Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)"]
           },
           {
             "name": "Mask Hitspot",
@@ -909,9 +865,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "visibility_rules": ["hit_sanity"],
-            "access_rules": [
-              "zora, magic"
-            ]
+            "access_rules": ["zora, magic"]
           }
         ],
         "map_locations": [
@@ -942,17 +896,13 @@
             "name": "Notebook Event: Meeting Gorman",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_toto_gorman, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_toto_gorman, bombers_notebook"]
           },
           {
             "name": "Notebook Event: Received Circus Leader's Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "@Clock Town/Milk Bar (10 PM - 6 AM)/Milk Bar Show (Night 1 - 2)"
-            ]
+            "access_rules": ["@Clock Town/Milk Bar (10 PM - 6 AM)/Milk Bar Show (Night 1 - 2)"]
           },
           {
             "name": "Priority Mail to Aroma (Final Night)",
@@ -963,9 +913,7 @@
             "name": "Notebook Event: Delivered Priority Mail",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_madame_aroma, romani, kafei, express"
-            ]
+            "access_rules": ["$has_npc_soul|soul_madame_aroma, romani, kafei, express"]
           },
           {
             "name": "Milk Purchase",
@@ -1043,9 +991,7 @@
             "name": "Notebook Event: Meeting Rosa Sisters",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_rosa_sisters, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_rosa_sisters, bombers_notebook"]
           },
           {
             "name": "West Clock Town Rosa Sisters (Night 1 - 2)",
@@ -1056,9 +1002,7 @@
             "name": "Notebook Event: Received Rosa Sister's HP",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_rosa_sisters, bombers_notebook, kamaro"
-            ]
+            "access_rules": ["$has_npc_soul|soul_rosa_sisters, bombers_notebook, kamaro"]
           }
         ],
         "map_locations": [
@@ -1162,9 +1106,7 @@
             "name": "Notebook Event: Meeting Postman",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_postman, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_postman, bombers_notebook"]
           },
           {
             "name": "West Clock Town Postman Counting (Day 1: 3 PM - Midnight, Day 2: 5 PM - Midnight)",
@@ -1175,9 +1117,7 @@
             "name": "Notebook Event: Received Postman HP",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_postman, bunnyhood"
-            ]
+            "access_rules": ["$has_npc_soul|soul_postman, bunnyhood"]
           },
           {
             "name": "West Clock Town Priority Mail to Postman (Final Night)",
@@ -1188,9 +1128,7 @@
             "name": "Notebook Event: Received Postman's Hat",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_postman, express"
-            ]
+            "access_rules": ["$has_npc_soul|soul_postman, express"]
           }
         ],
         "map_locations": [
@@ -1213,9 +1151,7 @@
             "name": "Notebook Event: Meeting Guru Guru",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_guru_guru, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_guru_guru, bombers_notebook"]
           },
           {
             "name": "Laundry Pool Musician (Night 1 - 2)",
@@ -1226,17 +1162,13 @@
             "name": "Notebook Event: Received Bremen Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_guru_guru"
-            ]
+            "access_rules": ["$has_npc_soul|soul_guru_guru"]
           },
           {
             "name": "Notebook Event: Meeting Kafei",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_toto_gorman, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_toto_gorman, bombers_notebook"]
           },
           {
             "name": "Laundry Pool Frog",
@@ -1696,9 +1628,7 @@
             "name": "Notebook Event: Meeting Curiosity Shop Man",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_curiosity_shop_man, bombers_notebook"
-            ]
+            "access_rules": ["$has_npc_soul|soul_curiosity_shop_man, bombers_notebook"]
           },
           {
             "name": "Curiosity Shop Night 3 (Stop Thief)",
@@ -1714,9 +1644,7 @@
             "name": "Notebook Event: Received All Night Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_curiosity_shop_man, @Clock Town/Bomb Shop/Item 3 (Stop Thief), $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)"
-            ]
+            "access_rules": ["$has_npc_soul|soul_curiosity_shop_man, @Clock Town/Bomb Shop/Item 3 (Stop Thief), $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)"]
           },
           {
             "name": "Curiosity Shop Night 3 Thief Stolen Item",

@@ -155,7 +155,7 @@ function onClear(slot_data)
         end
     end
 
-    setFromSlotData("logic_difficulty","logic_difficulty")
+    --setFromSlotData("logic_difficulty","logic_difficulty")
     setFromSlotData("majora_remains_required","majora_remains_required")
     setFromSlotData("moon_remains_required","moon_remains_required")
     setFromSlotData("remains_allow_boss_warps","boss_warps_with_remains")

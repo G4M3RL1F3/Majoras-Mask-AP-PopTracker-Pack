@@ -520,7 +520,7 @@
             "access_rules": ["roomkey"]
           },
           {
-            "name": "Stock Pot Inn Midnight Meeting (Night 1: 11:30 PM)",
+            "name": "Stock Pot Inn Midnight Meeting (Night 1: 12 to 6 AM)",
             "chest_unopened_img": "images/characters/anju.png",
             "access_rules": [
               "easy_logic, kafeimask, deku, roomkey",

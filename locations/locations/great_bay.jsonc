@@ -253,7 +253,7 @@
             "access_rules": ["$has_misc_soul|soul_butterfly"]
           },
           {
-            "name": "Great Bay Grotto Grass Group 1",
+            "name": "Cow Grotto Grass Group 1",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -261,7 +261,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Great Bay Grotto Grass Group 2",
+            "name": "Cow Grotto Grass Group 2",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -269,7 +269,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Great Bay Grotto Grass Group 3",
+            "name": "Cow Grotto Grass Group 3",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -277,7 +277,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Great Bay Grotto Grass Group 4",
+            "name": "Cow Grotto Grass Group 4",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -285,7 +285,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Great Bay Grotto Grass Group 5",
+            "name": "Cow Grotto Grass Group 5",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -293,7 +293,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Great Bay Grotto Grass Group 6",
+            "name": "Cow Grotto Grass Group 6",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",

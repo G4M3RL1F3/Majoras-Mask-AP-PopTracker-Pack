@@ -15,6 +15,13 @@
           "type": "tabbed",
           "tabs": [
             {
+              "title": "Termina Field",
+              "content": {
+                "type": "map",
+                "maps": ["termina_field"]
+              }
+            },
+            {
               "title": "Central",
               "content": {
                 "type": "tabbed",

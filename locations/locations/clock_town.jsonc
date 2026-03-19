@@ -1065,7 +1065,7 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Sword School Gong (Strike At Top/Bottom Of Hour)",
+            "name": "Sword School Gong (Strike At Top Or Bottom Of Hour)",
             "chest_unopened_img": "images/icons/hitspot.png",
             "clear_as_group": false,
             "visibility_rules": ["hit_sanity"],

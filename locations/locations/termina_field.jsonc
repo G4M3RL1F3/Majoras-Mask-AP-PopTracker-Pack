@@ -1,0 +1,1172 @@
+[
+  {
+    "name": "Termina Field",
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South East Termina Field/Termina Grass Chest"
+          },
+          {
+            "ref": "Termina Field/South East Termina Field/Termina Grass Grotto Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 620,
+            "y": 710,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South East Termina Field/Termina Stump Chest"
+          },
+          {
+            "ref": "Termina Field/South East Termina Field/Stump Soil"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 510,
+            "y": 695,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South East Termina Field/Termina Grass Grotto Chest"
+          },
+          {
+            "ref": "Termina Field/South East Termina Field/Termina Grass Grotto Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 560,
+            "y": 690,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South East Termina Field/Town Wall Soil"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 530,
+            "y": 550,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Ikana Pillars/Termina Ikana Pillar Grotto Chest"
+          },
+          {
+            "ref": "Termina Field/Termina Ikana Pillars/Termina Ikana Pillar Grotto Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 633,
+            "y": 442,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Ikana Pillars/Eastern Pillar Rupee"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 715,
+            "y": 400,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Ikana Pillars/Termina Field Eastern Pillar Pot"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 747,
+            "y": 392,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Ikana Pillars/Eastern Pillar Soil"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 633,
+            "y": 400,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/East Termina Field/Tree Rupees"
+          },
+          {
+            "ref": "Termina Field/East Termina Field/Observatory Trees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 695,
+            "y": 565,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/East Termina Field/East Corner Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 700,
+            "y": 300,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Trigger From Observatory Telescope",
+        "sections": [
+          {
+            "ref": "Termina Field/East Termina Field/Secret Guay Rupee"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 660,
+            "y": 440,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Western Water Ramp"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 235,
+            "y": 585,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Takkuri Gossip Tree"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 290,
+            "y": 625,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Southwest Above Rock Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 310,
+            "y": 560,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Western Fountains"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 320,
+            "y": 380,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Takkuri"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 325,
+            "y": 730,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Kamaro"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 400,
+            "y": 290,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Peahat Grotto"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 400,
+            "y": 700,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/In Front of Log"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 470,
+            "y": 660,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Northern Ramp"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 550,
+            "y": 290,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Grass Grotto"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 565,
+            "y": 650,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Below Southeast Hill Fence"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 580,
+            "y": 580,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Middle of Southeast Hill Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 655,
+            "y": 605,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Eastern Pillar Grotto"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 650,
+            "y": 490,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Eastern Pillars"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 610,
+            "y": 375,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Business Scrub Grotto"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 670,
+            "y": 570,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Takkuri"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 325,
+            "y": 730,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Bottom of Southeast Hill Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 605,
+            "y": 615,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Observatory Fence"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 730,
+            "y": 500,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Grass Patches/Near Eastern Gossip Grotto"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 770,
+            "y": 475,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Peahat Grotto",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Field Peahat Grotto/Defeat Peahat (Daytime Only)"
+          },
+          {
+            "ref": "Termina Field/Termina Field Peahat Grotto/Termina Field Peahat Grotto Grass"
+          },
+          {
+            "ref": "Termina Field/Termina Field Peahat Grotto/Butterfly Fairies"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 340,
+            "y": 680,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/North Termina Field/6am Songwall"
+          },
+          {
+            "ref": "Termina Field/North Termina Field/7am Songwall"
+          },
+          {
+            "ref": "Termina Field/North Termina Field/8am Songwall"
+          },
+          {
+            "ref": "Termina Field/North Termina Field/10am Songwall"
+          },
+          {
+            "ref": "Termina Field/North Termina Field/8pm Songwall"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 435,
+            "y": 225,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/North Termina Field/Near Songwall Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 490,
+            "y": 190,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/North Termina Field/Invisible Rupee Over Northern Ramp"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 465,
+            "y": 210,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Dodongo Grotto/Dodongo Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 340,
+            "y": 240,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Kamaro",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Healing Kamaro/Notebook Event: Meeting Kamaro"
+          },
+          {
+            "ref": "Termina Field/Termina Healing Kamaro/Termina Healing Kamaro (Midnight - 6 AM)"
+          },
+          {
+            "ref": "Termina Field/Termina Healing Kamaro/Kamaro Rock Circle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 330,
+            "y": 260,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/West Termina Field/Fountain Rupees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 275,
+            "y": 395,
+            "size": 10
+          },
+          {
+            "map": "termina_field",
+            "x": 275,
+            "y": 450,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/West Termina Field/Invisible Rupee Over Ramp Near Fountains"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 275,
+            "y": 425,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/West Termina Field/West Wall Hitspot"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 320,
+            "y": 400,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/West Termina Field/Above West Clock Town Entry Hitspot"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 320,
+            "y": 425,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Starts Here",
+        "sections": [
+          {
+            "ref": "Termina Field/West Termina Field/Song Guay Rupees"
+          },
+          {
+            "ref": "Termina Field/West Termina Field/Song Guay Goron Rupees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 310,
+            "y": 475,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/West Termina Field/Rock Behind Coast Wall"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 80,
+            "y": 410,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Bio Baba Grotto/Bio Baba Boulder"
+          },
+          {
+            "ref": "Termina Field/Termina Bio Baba Grotto/Bio Baba Grotto HP"
+          },
+          {
+            "ref": "Termina Field/Termina Bio Baba Grotto/Bio Baba Grotto Grass"
+          },
+          {
+            "ref": "Termina Field/Termina Bio Baba Grotto/Rock In Grotto"
+          },
+          {
+            "ref": "Termina Field/Termina Bio Baba Grotto/Bio Baba Beehive"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 165,
+            "y": 415,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Astral Observatory/Moon's Tear"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 720,
+            "y": 550,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Astral Observatory/Astral Observatory Pots"
+          },
+          {
+            "ref": "Termina Field/Astral Observatory/Observatory Scarecrow"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 750,
+            "y": 550,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Astral Observatory/Observatory Soil"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 740,
+            "y": 580,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Astral Observatory/Observatory Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 765,
+            "y": 530,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Astral Observatory/Observatory Deku Flower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 715,
+            "y": 600,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Business Scrub Grotto/Business Scrub Grotto HP"
+          },
+          {
+            "ref": "Termina Field/Business Scrub Grotto/Business Scrub Grotto Pot"
+          },
+          {
+            "ref": "Termina Field/Business Scrub Grotto/Business Scrub Grotto Crate"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 690,
+            "y": 545,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Gossip Stones/Termina Gossip Stones HP"
+          },
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Gossip Stones HP Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 390,
+            "y": 750,
+            "size": 10
+          },
+          {
+            "map": "termina_field",
+            "x": 500,
+            "y": 255,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Gossip Stones/Termina Gossip Stones HP"
+          },
+          {
+            "ref": "Termina Field/East Termina Gossip Stones HP/Eastern Gossip Grotto Grass"
+          },
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Gossip Stones HP Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 765,
+            "y": 510,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Bombable Rock Grotto",
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Bombable Rock"
+          },
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Termina Field Bombable Rock Grass"
+          },
+          {
+            "ref": "Termina Field/Termina Gossip Stones/Termina Gossip Stones HP"
+          },
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Gossip Stones HP Gossip Fairy"
+          },
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Bombable Rock Beehive"
+          },
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Butterfly Fairies"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 315,
+            "y": 345,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Near Bombable Rock Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 325,
+            "y": 320,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Rock Wall Behind Grotto"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 305,
+            "y": 325,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South West Termina Field/Termina Underwater Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 200,
+            "y": 570,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South West Termina Field/Invisible Rupee Over Water"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 235,
+            "y": 565,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South West Termina Field/Takkuri Rupee"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 300,
+            "y": 725,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South West Termina Field/Takkuri Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 310,
+            "y": 680,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South West Termina Field/Takkuri Cut the Sign"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 275,
+            "y": 710,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South West Termina Field/Rock Wall"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 300,
+            "y": 570,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South Termina Field/Invisible Rupees In Long Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 590,
+            "y": 700,
+            "size": 10
+          },
+          {
+            "map": "termina_field",
+            "x": 545,
+            "y": 740,
+            "size": 10
+          },
+          {
+            "map": "termina_field",
+            "x": 415,
+            "y": 740,
+            "size": 10
+          },
+          {
+            "map": "termina_field",
+            "x": 355,
+            "y": 690,
+            "size": 10
+          },
+          {
+            "map": "termina_field",
+            "x": 355,
+            "y": 655,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South Termina Field/Skull Kid Drawing Hitspot"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 465,
+            "y": 780,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South Termina Field/Around Log Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 475,
+            "y": 765,
+            "size": 10
+          },
+          {
+            "map": "termina_field",
+            "x": 480,
+            "y": 710,
+            "size": 10
+          },
+          {
+            "map": "termina_field",
+            "x": 450,
+            "y": 680,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Termina Field/South Termina Field/Southern Tree Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 555,
+            "y": 720,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Hollowed Log",
+        "sections": [
+          {
+            "ref": "Termina Field/South Termina Field/Invisible Rupee Over Log"
+          },
+          {
+            "ref": "Termina Field/Termina Log Bombable Grotto/Left Cow"
+          },
+          {
+            "ref": "Termina Field/Termina Log Bombable Grotto/Right Cow"
+          },
+          {
+            "ref": "Termina Field/Termina Log Bombable Grotto/Cow Grotto Grass Group 1"
+          },
+          {
+            "ref": "Termina Field/Termina Log Bombable Grotto/Cow Grotto Grass Group 2"
+          },
+          {
+            "ref": "Termina Field/Termina Log Bombable Grotto/Cow Grotto Grass Group 3"
+          },
+          {
+            "ref": "Termina Field/Termina Log Bombable Grotto/Cow Grotto Grass Group 4"
+          },
+          {
+            "ref": "Termina Field/Termina Log Bombable Grotto/Cow Grotto Grass Group 5"
+          },
+          {
+            "ref": "Termina Field/Termina Log Bombable Grotto/Cow Grotto Grass Group 6"
+          },
+          {
+            "ref": "Termina Field/Termina Log Bombable Grotto/Butterfly Fairies"
+          },
+          {
+            "ref": "Termina Field/Termina Log Bombable Grotto/Cow Grotto Beehive"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 465,
+            "y": 705,
+            "size": 10
+          }
+        ]
+      }
+    ]
+  }
+]

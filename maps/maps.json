@@ -6,6 +6,12 @@
         "img": "images/maps/overworld.png"
     },
     {
+        "name": "termina_field",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/termina_field.png"
+    },
+    {
         "name": "woodfall_temple",
         "location_size": 30,
         "location_border_thickness": 2,

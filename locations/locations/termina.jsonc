@@ -360,10 +360,10 @@
         ]
       },
       {
-        "name": "Termina Dodongo Grotto Chest",
+        "name": "Dodongo Grotto",
         "sections": [
           {
-            "name": "Termina Dodongo Grotto Chest",
+            "name": "Dodongo Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard",
               "normal_logic, $has_absurd_soul|soul_grottos, $has_enemy_soul|soul_dodongos"
@@ -501,7 +501,7 @@
             ]
           },
           {
-            "name": "Termina Bio Baba Grotto HP",
+            "name": "Bio Baba Grotto HP",
             "access_rules": [
               "easy_logic, $baby_has_explosives, goron, zora, $baby_has_projectiles",
               "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, zora",
@@ -509,7 +509,7 @@
             ]
           },
           {
-            "name": "Termina Field Bio Baba Grotto Grass",
+            "name": "Bio Baba Grotto Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": [
@@ -616,10 +616,10 @@
         ]
       },
       {
-        "name": "Termina Business Scrub Grotto",
+        "name": "Business Scrub Grotto",
         "sections": [
           {
-            "name": "Termina Business Scrub Grotto HP",
+            "name": "Business Scrub Grotto HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, wallet",
@@ -627,14 +627,14 @@
             ]
           },
           {
-            "name": "Termina Field Deku Business Scrub Grotto Pot",
+            "name": "Business Scrub Grotto Pot",
             "chest_unopened_img": "images/icons/pot.png",
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_pots"],
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Business Scrub Crate",
+            "name": "Business Scrub Grotto Crate",
             "chest_unopened_img": "images/icons/crate.png",
             "visibility_rules": ["wood_sanity"],
             "clear_as_group": false,
@@ -689,7 +689,7 @@
             "ref": "Termina Field/Termina Gossip Stones/Termina Gossip Stones HP"
           },
           {
-            "name": "Termina Field Eastern Gossip Grotto Grass",
+            "name": "Eastern Gossip Grotto Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
@@ -881,9 +881,10 @@
           },
           {
             "name": "Skull Kid Drawing Hitspot",
+            "chest_unopened_img": "images/icons/hitspot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "visibility_rules": ["hitsanity"]
+            "visibility_rules": ["hit_sanity"]
           },
           {
             "name": "Around Log Deku Flowers",
@@ -940,7 +941,7 @@
             "access_rules": ["$has_misc_soul|soul_cow, $can_play_song|epona"]
           },
           {
-            "name": "Termina Field Cow Grotto Grass Group 1",
+            "name": "Cow Grotto Grass Group 1",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
@@ -949,7 +950,7 @@
             "clear_as_group": false
           },
           {
-            "name": "Termina Field Cow Grotto Grass Group 2",
+            "name": "Cow Grotto Grass Group 2",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
@@ -958,7 +959,7 @@
             "clear_as_group": false
           },
           {
-            "name": "Termina Field Cow Grotto Grass Group 3",
+            "name": "Cow Grotto Grass Group 3",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
@@ -967,7 +968,7 @@
             "clear_as_group": false
           },
           {
-            "name": "Termina Field Cow Grotto Grass Group 4",
+            "name": "Cow Grotto Grass Group 4",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
@@ -976,7 +977,7 @@
             "clear_as_group": false
           },
           {
-            "name": "Termina Field Cow Grotto Grass Group 5",
+            "name": "Cow Grotto Grass Group 5",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
@@ -985,7 +986,7 @@
             "clear_as_group": false
           },
           {
-            "name": "Termina Field Cow Grotto Grass Group 6",
+            "name": "Cow Grotto Grass Group 6",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],

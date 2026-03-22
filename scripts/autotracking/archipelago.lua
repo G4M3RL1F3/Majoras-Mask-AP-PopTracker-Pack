@@ -1,6 +1,7 @@
 --ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_switching.lua")
 --ScriptHost:LoadScript("scripts/autotracking/mappings.lua")
 ScriptHost:LoadScript("scripts/autotracking/shop.lua")
 ScriptHost:LoadScript("scripts/autotracking/tables.lua")
@@ -282,34 +283,34 @@ end
 
 
 SHOP_LOCATION_IDS = {
-    {0x3469420090002}, {0x3469420090001}, {0x3469420090000}, -- Swamp Witch Shop
+    {0x090002}, {0x090001}, {0x090000}, -- Swamp Witch Shop
 
     -- Trading Post
-    {0x346942009000A},
-    {0x3469420090005},
-    {0x3469420090006},
-    {0x3469420090003},
-    {0x3469420090007},
-    {0x3469420090008},
-    {0x3469420090009},
-    {0x3469420090004},
-    {0x3469420090012},
-    {0x346942009000E},
-    {0x3469420090011},
-    {0x346942009000B},
-    {0x3469420090010},
-    {0x346942009000C},
-    {0x346942009000F},
-    {0x346942009000D},
+    {0x09000A},
+    {0x090005},
+    {0x090006},
+    {0x090003},
+    {0x090007},
+    {0x090008},
+    {0x090009},
+    {0x090004},
+    {0x090012},
+    {0x09000E},
+    {0x090011},
+    {0x09000B},
+    {0x090010},
+    {0x09000C},
+    {0x09000F},
+    {0x09000D},
 
-    {0x3469420090013}, {0x3469420090015}, -- Curiosity Shop
+    {0x090013}, {0x090015}, -- Curiosity Shop
 
-    {0x346942009001A}, {0x3469420090019}, {0x3469420090017}, {0x3469420090018}, -- Bomb Shop
+    {0x09001A}, {0x090019}, {0x090017}, {0x090018}, -- Bomb Shop
 
-    {0x346942009001B}, {0x346942009001C}, {0x346942009001D}, -- Zora Shop
+    {0x09001B}, {0x09001C}, {0x09001D}, -- Zora Shop
 
-    {0x346942009001E}, {0x346942009001F}, {0x3469420090020}, -- Goron Shop Winter
-    {0x3469420090021}, {0x3469420090022}, {0x3469420090023}  -- Goron Shop Spring
+    {0x09001E}, {0x09001F}, {0x090020}, -- Goron Shop Winter
+    {0x090021}, {0x090022}, {0x090023}  -- Goron Shop Spring
 }
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
@@ -424,12 +425,23 @@ function updateHint(hint, sections_to_update)
   end
 end
 
+function onChangedRegion(key, current_region, old_region)
+    print("onChangedRegion: changed region to %s", current_region)
+    if TABS_MAPPING[current_region] then
+        CURRENT_ROOM = TABS_MAPPING[current_region]
+    else
+        CURRENT_ROOM = "Termina"
+    end
+    Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
-Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
-Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
+-- Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
+-- Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
+Archipelago:AddSetReplyHandler("map switching", onChangedRegion)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)

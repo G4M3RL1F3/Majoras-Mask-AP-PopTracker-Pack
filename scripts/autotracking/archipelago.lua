@@ -235,6 +235,13 @@ function onClear(slot_data)
     --    Tracker:FindObjectForCode(LOGIC_TRICK_MAPPING[string.format("%s", trick)]).Active = true
     --end
 
+    map_key = "Majora's_Mask_Recompiled_"..Archipelago.TeamNumber.."_"..Archipelago.PlayerNumber.."_scene"
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("Data storage map key: '%s'", map_key))
+    end
+    Archipelago:SetNotify({map_key})
+    Archipelago:Get({map_key})
+
 	Tracker.BulkUpdate = false
 end
 
@@ -426,11 +433,29 @@ function updateHint(hint, sections_to_update)
 end
 
 function onChangedRegion(key, current_region, old_region)
-    print("onChangedRegion: changed region to %s", current_region)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("onChangedRegion: New scene ID: '%s'", current_region))
+    end
     if TABS_MAPPING[current_region] then
         CURRENT_ROOM = TABS_MAPPING[current_region]
     else
         CURRENT_ROOM = "Termina"
+    end
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("onChangedRegion: CURRENT_ROOM: '%s'", CURRENT_ROOM))
+    end
+    if CURRENT_ROOM == "Clock Town" or "Termina Field" then
+        Tracker:UiHint("ActivateTab", "Overworld")
+        Tracker:UiHint("ActivateTab", "Central")
+    elseif CURRENT_ROOM == "Woods of Mystery" then
+        Tracker:UiHint("ActivateTab", "Overworld")
+        Tracker:UiHint("ActivateTab", "Swamp")
+    elseif CURRENT_ROOM == "Woodfall Temple" or "Snowhead Temple" or "Great Bay Temple" or "Stone Tower Temple" then
+        Tracker:UiHint("ActivateTab", "Dungeons")
+        Tracker:UiHint("ActivateTab", "Main")
+    elseif CURRENT_ROOM == "Swamp Spider House" or "Ocean Spider House" or "Pirates' Fortress" or "Beneath the Well" or "Ikana Castle" or "Secret Shrine" or "Moon" then
+        Tracker:UiHint("ActivateTab", "Dungeons")
+        Tracker:UiHint("ActivateTab", "Other")
     end
     Tracker:UiHint("ActivateTab", CURRENT_ROOM)
 end
@@ -442,6 +467,6 @@ Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 -- Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
 -- Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
-Archipelago:AddSetReplyHandler("map switching", onChangedRegion)
+Archipelago:AddSetReplyHandler("map_key", onChangedRegion)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)

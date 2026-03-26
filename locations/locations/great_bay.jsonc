@@ -597,13 +597,6 @@
             ]
           },
           {
-            "name": "Business Scrub Deku Flower",
-            "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_business_scrub, deku, goron, zora, mountaindeed"],
-            "visibility_rules": ["flower_sanity"]
-          },
-          {
             "name": "Goron Scrub Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["$has_npc_soul|soul_business_scrub, goron, zora, mountaindeed"]
@@ -612,6 +605,13 @@
             "name": "Goron Scrub Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_business_scrub, deku, goron, zora, mountaindeed"]
+          },
+          {
+            "name": "Business Scrub Deku Flower",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_business_scrub, deku, goron, zora, mountaindeed"],
+            "visibility_rules": ["flower_sanity"]
           },
           {
             "name": "Evan's Song",
@@ -637,7 +637,7 @@
             "access_rules": ["$has_npc_soul|soul_potgame_hall_zora, $has_npc_soul|soul_lulu, zora, pictobox"]
           },
           {
-            "name": "Pervert Scarecrow",
+            "name": "Zora Hall Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
             "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
             "visibility_rules": ["scarecrow_sanity"]

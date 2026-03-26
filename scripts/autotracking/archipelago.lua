@@ -450,6 +450,9 @@ function onChangedRegion(key, current_region, old_region)
     elseif CURRENT_ROOM == "Woods of Mystery" then
         Tracker:UiHint("ActivateTab", "Overworld")
         Tracker:UiHint("ActivateTab", "Swamp")
+    elseif CURRENT_ROOM == "Zora Hall" then
+        Tracker:UiHint("ActivateTab", "Overworld")
+        Tracker:UiHint("ActivateTab", "Great Bay")
     elseif CURRENT_ROOM == "Woodfall Temple" or "Snowhead Temple" or "Great Bay Temple" or "Stone Tower Temple" then
         Tracker:UiHint("ActivateTab", "Dungeons")
         Tracker:UiHint("ActivateTab", "Main")

@@ -50,6 +50,21 @@
                   }
                 ]
               }
+            },
+            {
+              "title": "Great Bay",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Zora Hall",
+                    "content": {
+                      "type": "map",
+                      "maps": ["zora_hall"]
+                    }
+                  }
+                ]
+              }
             }
           ]
         }

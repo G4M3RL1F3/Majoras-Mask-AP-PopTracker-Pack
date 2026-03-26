@@ -88,5 +88,11 @@
         "location_size": 30,
         "location_border_thickness": 1,
         "img": "images/maps/woods_of_mystery.png"
+    },
+    {
+        "name": "zora_hall",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/zora_hall.png"
     }
 ]

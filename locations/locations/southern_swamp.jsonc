@@ -631,24 +631,19 @@
             "access_rules": ["dongero"]
           },
           {
-            "name": "Stump Rupee",
+            "name": "Flower Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": [
-              "deku",
-              "zora"
-            ]
+            "access_rules": ["deku", "zora"]
           },
           {
             "name": "Near Frog Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
             "clear_as_group": false,
-            "access_rules": [
-              "deku, $has_projectiles"
-            ]
+            "access_rules": ["deku, $has_projectiles"]
           },
           {
             "name": "Swamp Flower Cut the Sign",

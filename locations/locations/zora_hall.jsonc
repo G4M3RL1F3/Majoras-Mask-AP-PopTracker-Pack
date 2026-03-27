@@ -85,9 +85,6 @@
           },
           {
             "ref": "Great Bay/Zora Hall/Bad Picture of Lulu"
-          },
-          {
-            "ref": "Great Bay/Zora Hall/Zora Hall Scarecrow"
           }
         ],
         "map_locations": [
@@ -95,6 +92,21 @@
             "map": "zora_hall",
             "x": 706,
             "y": 656
+          }
+        ]
+      },
+      {
+        "name": "Scarecrow",
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Zora Hall Scarecrow"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 628,
+            "y": 627
           }
         ]
       }

@@ -129,13 +129,17 @@ function onClear(slot_data)
     local function setFromSlotData(slot_data_key, item_code)
         local v = slot_data[slot_data_key]
         if not v then
-            print(string.format("Could not find key '%s' in slot data", slot_data_key))
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("Could not find key '%s' in slot data", slot_data_key))
+            end
             return nil
         end
 
         local obj = Tracker:FindObjectForCode(item_code)
         if not obj then
-            print(string.format("Could not find item for code '%s'", item_code))
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("Could not find item for code '%s'", item_code))
+            end
             return nil
         end
 
@@ -150,7 +154,9 @@ function onClear(slot_data)
             obj.AcquiredCount = v
             return v
         else
-            print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
+            end
             return nil
         end
     end

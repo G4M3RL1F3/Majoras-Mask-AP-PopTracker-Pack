@@ -550,10 +550,13 @@
         "name": "Kamaro",
         "sections": [
           {
+            "ref": "Termina Field/Termina Healing Kamaro/Termina Healing Kamaro (Midnight - 6 AM)"
+          },
+          {
             "ref": "Termina Field/Termina Healing Kamaro/Notebook Event: Meeting Kamaro"
           },
           {
-            "ref": "Termina Field/Termina Healing Kamaro/Termina Healing Kamaro (Midnight - 6 AM)"
+            "ref": "Termina Field/Termina Healing Kamaro/Notebook Event: Received Kamaro Mask"
           },
           {
             "ref": "Termina Field/Termina Healing Kamaro/Kamaro Rock Circle"

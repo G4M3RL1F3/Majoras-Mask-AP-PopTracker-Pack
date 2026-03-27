@@ -266,42 +266,43 @@
           }
         ]
       },
-      // { These have an address, but unsure if implemented as they were not part of NormalRules
-      //   "name": "Goron Trial Chests",
-      //   "sections": [
-      //     {
-      //       "name": "Pathway Bumper Chests",
-      //       "chest_unopened_img": "images/icons/chest.png",
-      //       "item_count": 4,
-      //       "clear_as_group": false,
-      //       "access_rules": [
-      //         "$has_npc_soul|soul_moon_kid, @Inside the Moon/Goron Trial HP/Heart Piece"
-      //       ]
-      //     }
-      //   ],
-      //   "map_locations": [
-      //     {
-      //       "map": "moon",
-      //       "x": 705,
-      //       "y": 560
-      //     },
-      //     {
-      //       "map": "moon",
-      //       "x": 610,
-      //       "y": 560
-      //     },
-      //     {
-      //       "map": "moon",
-      //       "x": 610,
-      //       "y": 250
-      //     },
-      //     {
-      //       "map": "moon",
-      //       "x": 888,
-      //       "y": 135
-      //     }
-      //   ]
-      // },
+      {
+        "name": "Goron Trial Chests",
+        "sections": [
+          {
+            "name": "Pathway Bumper Chests",
+            "chest_unopened_img": "images/icons/chest.png",
+            "item_count": 4,
+            "clear_as_group": false
+            // No access rules because it's not implemented in NormalRules.py.
+            // "access_rules": [
+            //   "$has_npc_soul|soul_moon_kid, @Inside the Moon/Goron Trial HP/Heart Piece"
+            // ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 705,
+            "y": 560
+          },
+          {
+            "map": "moon",
+            "x": 610,
+            "y": 560
+          },
+          {
+            "map": "moon",
+            "x": 610,
+            "y": 250
+          },
+          {
+            "map": "moon",
+            "x": 888,
+            "y": 135
+          }
+        ]
+      },
       {
         "name": "Goron Trial Pots",
         "sections": [
@@ -689,19 +690,7 @@
           {
             "name": "Iron Knuckle Chest",
             "access_rules": ["@Inside the Moon/Garo Master Room/Garo Master Chest, $has_enemy_soul|soul_iron_knuckle"]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "moon",
-            "x": 1560,
-            "y": 338
-          }
-        ]
-      },
-      {
-        "name": "Iron Knuckle Room",
-        "sections": [
+          },
           {
             "name": "Bombable Wall",
             "chest_unopened_img": "images/icons/bombwall.png",
@@ -714,8 +703,8 @@
         "map_locations": [
           {
             "map": "moon",
-            "x": 1625,
-            "y": 345
+            "x": 1560,
+            "y": 338
           }
         ]
       },

@@ -382,17 +382,21 @@
         "name": "Termina Healing Kamaro",
         "sections": [
           {
-            "name": "Notebook Event: Meeting Kamaro",
-            "chest_unopened_img": "images/equipment/bombers_notebook.png",
-            "visibility_rules": ["notebook_sanity"],
-            "access_rules": [
-              "$has_npc_soul|soul_kamaro, bombers_notebook"
-            ]
-          },
-          {
             "name": "Termina Healing Kamaro (Midnight - 6 AM)",
             "chest_unopened_img": "images/characters/kamaro.png",
             "access_rules": ["$has_npc_soul|soul_kamaro, $can_play_song|healing"]
+          },
+          {
+            "name": "Notebook Event: Meeting Kamaro",
+            "chest_unopened_img": "images/equipment/bombers_notebook.png",
+            "visibility_rules": ["notebook_sanity"],
+            "access_rules": ["$has_npc_soul|soul_kamaro, $can_play_song|healing"]
+          },
+          {
+            "name": "Notebook Event: Received Kamaro Mask",
+            "chest_unopened_img": "images/equipment/bombers_notebook.png",
+            "visibility_rules": ["notebook_sanity"],
+            "access_rules": ["$has_npc_soul|soul_kamaro, bombers_notebook"]
           },
           {
             "name": "Kamaro Rock Circle",
@@ -566,7 +570,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, @Clock Town/"],
+            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/Astral Observatory/Moon's Tear"],
             "visibility_rules": ["pot_sanity"]
           },
           {

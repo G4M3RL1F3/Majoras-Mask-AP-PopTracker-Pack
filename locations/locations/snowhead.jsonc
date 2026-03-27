@@ -782,14 +782,15 @@
               "normal_logic, $has_npc_soul|soul_medigoron, $clear_snowhead",
               "normal_logic, $has_npc_soul|soul_medigoron, goron, $can_use_fire_arrows"
             ]
-          //},
-          //{
-          //  "name": "Freestanding HP (Spring)",
-          //  "visibility_rules": ["shopsanity_advanced"],
-          //  "access_rules": [
-          //    "easy_logic, $baby_clear_snowhead, deku, swampdeed",
-          //    "normal_logic, $has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, $clear_snowhead, deku, swampdeed"
-          //  ]
+          },
+          {
+            "name": "Freestanding HP (Spring)",
+            "visibility_rules": ["shopsanity_advanced"],
+            "access_rules": [
+              "easy_logic, $baby_clear_snowhead, deku, swampdeed",
+              //"normal_logic, $has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, $clear_snowhead, deku, swampdeed"
+              "normal_logic, $clear_snowhead, deku, swampdeed"
+            ]
           },
           {
             "name": "Keg Goron Crate",

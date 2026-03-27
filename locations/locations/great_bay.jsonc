@@ -372,6 +372,12 @@
             ]
           },
           {
+            "name": "Zora Cape Like Like Pool Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "visibility_rules": ["pot_sanity"],
+            "access_rules": ["$has_absurd_soul|soul_pots"]
+          },
+          {
             "name": "Waterfall Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
             "access_rules": ["$has_absurd_soul|soul_signs"],

@@ -716,7 +716,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/East Clock Town Astral Observatory/Moon's Tear"],
+            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/Astral Observatory/Moon's Tear"],
             "visibility_rules": ["pot_sanity"]
           },
           {

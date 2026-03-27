@@ -2,7 +2,6 @@ LOCATION_MAPPING = {
     -- South Clock Town
     [0x061A00] = {"@Clock Town/Before Clock Town/Chest"},
 
-    [0x000037] = {"@Clock Town/Spawn Area/Link's Inventory (Kokiri Sword)"},
     [0x056F0A] = {"@Clock Town/South Clock Town Clock Tower/Freestanding HP"},
     [0x040068] = {"@Clock Town/Clock Tower/Clock Tower Happy Mask Salesman #1"},
     [0x000078] = {"@Clock Town/Clock Tower/Clock Tower Happy Mask Salesman #2"},
@@ -3031,7 +3030,7 @@ LOCATION_MAPPING = {
     [0x0B0015] = {"@Clock Town/Stock Pot Inn/Notebook Event: Promised Midnight Meeting"},
     [0x0B0016] = {"@Clock Town/Stock Pot Inn/Notebook Event: Promised To Meet Kafei"},
     [0x0B0017] = {"@Clock Town/Stock Pot Inn/Notebook Event: Received Letter To Kafei"},
-    [0x0B0018] = {"@Clock Town/Clock Town Postbox/Notebook Event: Delivered Letter To Kafei"},
+    [0x0B0018] = {"@Clock Town/Clock Town Postbox/Notebook Event: Deposited Letter To Kafei"},
     [0x0B0019] = {"@Clock Town/Curiosity Shop Backroom/Notebook Event: Received Pendant of Memories"},
     [0x0B001A] = {"@Clock Town/Stock Pot Inn/Notebook Event: Delivered Pendant of Memories"},
     [0x0B001B] = {"@Ikana/Sakon's Hideout/Notebook Event: Escaped Sakon's Hideout"},

@@ -442,31 +442,12 @@ function onChangedRegion(key, current_region, old_region)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
         print(string.format("onChangedRegion: New scene ID: '%s'", current_region))
     end
-    if TABS_MAPPING[current_region] then
-        CURRENT_ROOM = TABS_MAPPING[current_region]
-    else
-        CURRENT_ROOM = "Termina"
+    for _, tab in ipairs(TABS_MAPPING[current_region]) do
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+            print(string.format("onChangedRegion: Activating tab: '%s'", tab))
+        end
+        Tracker:UiHint("ActivateTab", tab)
     end
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-        print(string.format("onChangedRegion: CURRENT_ROOM: '%s'", CURRENT_ROOM))
-    end
-    if CURRENT_ROOM == "Clock Town" or "Termina Field" then
-        Tracker:UiHint("ActivateTab", "Overworld")
-        Tracker:UiHint("ActivateTab", "Central")
-    elseif CURRENT_ROOM == "Woods of Mystery" then
-        Tracker:UiHint("ActivateTab", "Overworld")
-        Tracker:UiHint("ActivateTab", "Swamp")
-    elseif CURRENT_ROOM == "Zora Hall" then
-        Tracker:UiHint("ActivateTab", "Overworld")
-        Tracker:UiHint("ActivateTab", "Great Bay")
-    elseif CURRENT_ROOM == "Woodfall Temple" or "Snowhead Temple" or "Great Bay Temple" or "Stone Tower Temple" then
-        Tracker:UiHint("ActivateTab", "Dungeons")
-        Tracker:UiHint("ActivateTab", "Main")
-    elseif CURRENT_ROOM == "Swamp Spider House" or "Ocean Spider House" or "Pirates' Fortress" or "Beneath the Well" or "Ikana Castle" or "Secret Shrine" or "Moon" then
-        Tracker:UiHint("ActivateTab", "Dungeons")
-        Tracker:UiHint("ActivateTab", "Other")
-    end
-    Tracker:UiHint("ActivateTab", CURRENT_ROOM)
 end
 
 -- add AP callbacks

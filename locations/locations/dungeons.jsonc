@@ -1410,10 +1410,7 @@
           {
             "name": "Entrance Room Lower Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
-            "access_rules": [
-              "deku, $can_use_light_arrows, hookshot, $has|smallkey_st|4",
-              "deku, $can_use_light_arrows, $has_explosives, hookshot, $small_key_sanity_off"
-            ]
+            "access_rules": ["$has|smallkey_st|4, deku, $can_use_light_arrows"]
           },
           {
             "name": "Armos Room Back Chest",
@@ -1435,8 +1432,8 @@
             "name": "Armos Room Lava Chest",
             "access_rules": [
               "easy_logic, $can_use_light_arrows, mirrorshield, $baby_has_explosives, goron",
-              "normal_logic, $has_explosives, $can_use_light_arrows",
-              "normal_logic, $has_explosives, mirrorshield"
+              "normal_logic, $has_explosives, mirrorshield",
+              "normal_logic, $can_use_light_arrows"
             ]
           },
           {
@@ -1461,7 +1458,7 @@
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, $can_use_light_arrows, $can_use_ice_arrows, zora, deku",
-              "normal_logic, $can_use_light_arrows, zora"
+              "normal_logic, $can_use_light_arrows"
             ]
           },
           {
@@ -1479,7 +1476,9 @@
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, stonemask, $can_use_light_arrows, mirrorshield",
               "normal_logic, $has|smallkey_st|2, mirrorshield",
-              "normal_logic, $has|smallkey_st|1, $can_use_light_arrows"
+              "normal_logic, $small_key_sanity_off, mirrorshield, $has_explosives",
+              "normal_logic, $has|smallkey_st|1, $can_use_light_arrows",
+              "normal_logic, $small_key_sanity_off, $can_use_light_arrows"
             ]
           },
           {
@@ -1516,7 +1515,10 @@
             "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest",
-              "normal_logic, $can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest"
+              "normal_logic, $has|smallkey_st|2, mirrorshield, deku, $can_smack_hard",
+              "normal_logic, $small_key_sanity_off, mirrorshield, deku, $can_smack_hard",
+              "normal_logic, $can_use_light_arrows, $has|smallkey_st|1, $can_smack_hard",
+              "normal_logic, $can_use_light_arrows, $small_key_sanity_off, $can_smack_hard"
             ]
           },
           {
@@ -1529,7 +1531,7 @@
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Garo Master Chest, $baby_has_explosives, $baby_has_projectiles",
-              "normal_logic, @Dungeons/Stone Tower Temple/Garo Master Chest, hookshot"
+              "normal_logic, @Dungeons/Stone Tower Temple/Garo Master Chest"
             ]
           }
         ],
@@ -1606,7 +1608,7 @@
               "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, $boss_key_sanity_off, $baby_can_smack_hard, fiercedeity",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, magic, sword",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, bow",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, fiercedeity",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, giantmask, sword",
@@ -1623,7 +1625,7 @@
               "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, $boss_key_sanity_off, $baby_can_smack_hard, fiercedeity",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, magic, sword",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, bow",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, fiercedeity",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, giantmask, sword",
@@ -1640,7 +1642,7 @@
               "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, $boss_key_sanity_off, $baby_can_smack_hard, fiercedeity",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, magic, sword",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, bow",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, fiercedeity",
               "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, giantmask, sword",

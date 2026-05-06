@@ -6,13 +6,13 @@
     "access_rules": ["$moon"],
     "children": [
       {
-        "name": "Deku Trial",
+        "name": "Deku Trial (Odolwa Mask)",
         "sections": [
           {
-            "ref": "Inside the Moon/Deku Trial HP/Heart Piece"
+            "ref": "Inside the Moon/Deku Trial/Heart Piece"
           },
           {
-            "ref": "Inside the Moon/Deku Trial HP/Heart Piece Gossip Fairy"
+            "ref": "Inside the Moon/Deku Trial/Heart Piece Gossip Fairy"
           },
           {
             "ref": "Inside the Moon/Deku Trial Front Left/Front Left Gossip Fairy"
@@ -39,7 +39,7 @@
         ]
       },
       {
-        "name": "Deku Trial HP",
+        "name": "Deku Trial",
         "sections": [
           {
             "name": "Heart Piece",
@@ -209,10 +209,13 @@
         ]
       },
       {
-        "name": "Goron Trial",
+        "name": "Goron Trial (Goht Mask)",
         "sections": [
           {
-            "ref": "Inside the Moon/Goron Trial HP/Heart Piece"
+            "ref": "Inside the Moon/Goron Trial/Heart Piece"
+          },
+          {
+            "ref": "Inside the Moon/Goron Trial Chests/Pathway Bumper Chest"
           },
           {
             "ref": "Inside the Moon/Goron Trial Pots/Goron Trial Pots"
@@ -221,13 +224,13 @@
             "ref": "Inside the Moon/Goron Trial Icicles/Exit Icicles"
           },
           {
-            "ref": "Inside the Moon/Goron Trial HP/Heart Piece Gossip Fairy"
+            "ref": "Inside the Moon/Goron Trial/Heart Piece Gossip Fairy"
           },
           {
-            "ref": "Inside the Moon/Goron Trial First Gazebo/First Gossip Fairy"
+            "ref": "Inside the Moon/Goron Trial First Gazebo/Gossip Fairy"
           },
           {
-            "ref": "Inside the Moon/Goron Trial Second Gazebo/Second Gossip Fairy"
+            "ref": "Inside the Moon/Goron Trial Second Gazebo/Gossip Fairy"
           }
         ],
         "map_locations": [
@@ -239,7 +242,7 @@
         ]
       },
       {
-        "name": "Goron Trial HP",
+        "name": "Goron Trial",
         "sections": [
           {
             "name": "Heart Piece",
@@ -266,42 +269,43 @@
           }
         ]
       },
-      // { These have an address, but unsure if implemented as they were not part of NormalRules
-      //   "name": "Goron Trial Chests",
-      //   "sections": [
-      //     {
-      //       "name": "Pathway Bumper Chests",
-      //       "chest_unopened_img": "images/icons/chest.png",
-      //       "item_count": 4,
-      //       "clear_as_group": false,
-      //       "access_rules": [
-      //         "$has_npc_soul|soul_moon_kid, @Inside the Moon/Goron Trial HP/Heart Piece"
-      //       ]
-      //     }
-      //   ],
-      //   "map_locations": [
-      //     {
-      //       "map": "moon",
-      //       "x": 705,
-      //       "y": 560
-      //     },
-      //     {
-      //       "map": "moon",
-      //       "x": 610,
-      //       "y": 560
-      //     },
-      //     {
-      //       "map": "moon",
-      //       "x": 610,
-      //       "y": 250
-      //     },
-      //     {
-      //       "map": "moon",
-      //       "x": 888,
-      //       "y": 135
-      //     }
-      //   ]
-      // },
+      {
+        "name": "Goron Trial Chests",
+        "sections": [
+          {
+            "name": "Pathway Bumper Chests",
+            "chest_unopened_img": "images/icons/chest.png",
+            "item_count": 4,
+            "clear_as_group": false
+            // No access rules because it's not implemented in NormalRules.py.
+            // "access_rules": [
+            //   "$has_npc_soul|soul_moon_kid, @Inside the Moon/Goron Trial HP/Heart Piece"
+            // ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 705,
+            "y": 560
+          },
+          {
+            "map": "moon",
+            "x": 610,
+            "y": 560
+          },
+          {
+            "map": "moon",
+            "x": 610,
+            "y": 250
+          },
+          {
+            "map": "moon",
+            "x": 888,
+            "y": 135
+          }
+        ]
+      },
       {
         "name": "Goron Trial Pots",
         "sections": [
@@ -368,7 +372,7 @@
         "name": "Goron Trial First Gazebo",
         "sections": [
           {
-            "name": "First Gossip Fairy",
+            "name": "Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
             "item_count": 2,
@@ -392,7 +396,7 @@
         "name": "Goron Trial Second Gazebo",
         "sections": [
           {
-            "name": "Second Gossip Fairy",
+            "name": "Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
             "item_count": 2,
@@ -689,19 +693,7 @@
           {
             "name": "Iron Knuckle Chest",
             "access_rules": ["@Inside the Moon/Garo Master Room/Garo Master Chest, $has_enemy_soul|soul_iron_knuckle"]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "moon",
-            "x": 1560,
-            "y": 338
-          }
-        ]
-      },
-      {
-        "name": "Iron Knuckle Room",
-        "sections": [
+          },
           {
             "name": "Bombable Wall",
             "chest_unopened_img": "images/icons/bombwall.png",
@@ -714,8 +706,8 @@
         "map_locations": [
           {
             "map": "moon",
-            "x": 1625,
-            "y": 345
+            "x": 1560,
+            "y": 338
           }
         ]
       },
@@ -789,7 +781,7 @@
         "name": "The Moon",
         "sections": [
           {
-            "name": "Field Butterfly Fairies",
+            "name": "Butterfly Fairies",
             "chest_unopened_img": "images/icons/butterfly.png",
             "visibility_rules": ["real_fairysanity"],
             "item_count": 13,

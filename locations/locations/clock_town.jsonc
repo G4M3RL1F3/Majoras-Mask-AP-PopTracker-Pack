@@ -14,7 +14,7 @@
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"]
           },
           {
-            "name": "Before Clock Town Flowers",
+            "name": "Deku Flowers",
             "item_count": 11,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -22,7 +22,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Before Clock Town Keaton Grass",
+            "name": "Keaton Grass",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -30,7 +30,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Before Clock Town Skullkid Keaton Grass",
+            "name": "Skullkid Keaton Grass",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -70,14 +70,14 @@
         ]
       },
       {
-        "name": "South Clock Town Clock Tower",
+        "name": "Clock Tower",
         "sections": [
           {
-            "name": "Freestanding HP",
+            "name": "Freestanding Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png"
           },
           {
-            "name": "Targets Hitspots",
+            "name": "Clockface Hitspot",
             "chest_unopened_img": "images/icons/hitspot.png",
             "item_count": 3,
             "clear_as_group": false,
@@ -102,10 +102,10 @@
         ]
       },
       {
-        "name": "South Clock Town Owl",
+        "name": "South Clock Town",
         "sections": [
           {
-            "name": "Clock Town Owl Statue",
+            "name": "Owl Statue",
             "chest_unopened_img": "images/owl_statues/owl_ct_on.png",
             "visibility_rules": ["owl_sanity"],
             "access_rules": ["$can_smack"]
@@ -116,11 +116,16 @@
             "map": "overworld",
             "x": 95,
             "y": 105
+          },
+          {
+            "map": "clock_town",
+            "x": 490,
+            "y": 440
           }
         ]
       },
       {
-        "name": "South Clock Town Business Scrub",
+        "name": "Business Scrub",
         "sections": [
           {
             "name": "Moon's Tear Trade",
@@ -128,7 +133,7 @@
             "access_rules": ["$has_npc_soul|soul_business_scrub, moontear"]
           },
           {
-            "name": "Business Scrub Flower",
+            "name": "Deku Flower",
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, moontear, deku"],
@@ -149,10 +154,10 @@
         ]
       },
       {
-        "name": "South Clock Town Final Day Tower Chest (Final Day)",
+        "name": "South Clock Town",
         "sections": [
           {
-            "name": "South Clock Town Final Day Tower Chest",
+            "name": "Final Day Tower Chest",
             "access_rules": [
               "easy_logic, hookshot, deku, moontear",
               "normal_logic, hookshot",
@@ -174,10 +179,10 @@
         ]
       },
       {
-        "name": "South Clock Town Corner Chest",
+        "name": "South Clock Town",
         "sections": [
           {
-            "name": "South Clock Town Corner Chest",
+            "name": "Corner Chest",
             "access_rules": ["hookshot"]
           }
         ],
@@ -266,10 +271,10 @@
         ]
       },
       {
-        "name": "Clock Town Hide-and-Seek",
+        "name": "North Clock Town",
         "sections": [
           {
-            "name": "Clock Town Hide-and-Seek",
+            "name": "Hide-and-Seek",
             "chest_unopened_img": "images/characters/bombers.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
@@ -280,19 +285,19 @@
             "name": "Notebook Event: Meeting Bombers",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["$has_npc_soul|soul_toto_gorman, bombers_notebook"]
+            "access_rules": ["$has_npc_soul|soul_bombers, bombers_notebook"]
           },
           {
             "name": "Notebook Event: Received Bomber's Notebook",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["$has_npc_soul|soul_bombers, $has_projectiles"]
+            "access_rules": ["$has_npc_soul|soul_bombers, $has_projectiles, bombers_notebook"]
           },
           {
             "name": "Notebook Event: Learned Secret Code",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["$has_npc_soul|soul_bombers, $has_projectiles"]
+            "access_rules": ["$has_npc_soul|soul_bombers, $has_projectiles, bombers_notebook"]
           }
         ],
         "map_locations": [
@@ -309,15 +314,15 @@
         ]
       },
       {
-        "name": "North Clock Town Tree HP",
+        "name": "North Clock Town",
         "sections": [
           {
-            "name": "North Clock Town Tree HP",
+            "name": "Tree Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
           },
           {
-            "name": "North Clock Town East Tree",
+            "name": "East Tree",
             "chest_unopened_img": "images/absurd/tree.png",
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"],
             "visibility_rules": ["tree_sanity"]
@@ -337,6 +342,29 @@
         ]
       },
       {
+        "name": "North Clock Town",
+        "sections": [
+          {
+            "name": "West Tree",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"],
+            "visibility_rules": ["tree_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 80,
+            "y": 70
+          },
+          {
+            "map": "clock_town",
+            "x": 435,
+            "y": 275
+          }
+        ]
+      },
+      {
         "name": "Deku Playground",
         "sections": [
           {
@@ -348,12 +376,12 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "North Clock Town Deku Playground Any Day",
+            "name": "Win Any Day",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
           },
           {
-            "name": "North Clock Town Deku Playground All Days",
+            "name": "Win All Days",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
           },
@@ -390,7 +418,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "North Clock Town West Tree",
+            "name": "West Tree",
             "chest_unopened_img": "images/absurd/tree.png",
             "access_rules": ["$has_absurd_soul|soul_trees_bushes"],
             "visibility_rules": ["tree_sanity"]
@@ -410,8 +438,8 @@
           },
           {
             "map": "clock_town",
-            "x": 372,
-            "y": 311
+            "x": 385,
+            "y": 295
           }
         ]
       },
@@ -422,11 +450,11 @@
         "chest_unopened_img": "images/equipment/fairy_ct.png",
         "sections": [
           {
-            "name": "North Clock Town Great Fairy Reward",
+            "name": "Great Fairy Reward",
             "access_rules": ["$has_npc_soul|soul_great_fairy, fairy_ct"]
           },
           {
-            "name": "North Clock Town Great Fairy Reward (Transformation Mask)",
+            "name": "Great Fairy Reward (Transformation Mask)",
             "access_rules": [
               "easy_logic, fairy_ct, deku, goron, zora",
               "normal_logic, $has_npc_soul|soul_great_fairy, fairy_ct, deku",
@@ -457,7 +485,7 @@
             "chest_unopened_img": "images/masks/keaton.png"
           },
           {
-            "name": "North Clock Town Keaton Grass",
+            "name": "Keaton Grass",
             "item_count": 9,
             "clear_as_group": true,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -484,10 +512,10 @@
         ]
       },
       {
-        "name": "North Clock Town Save Old Lady",
+        "name": "North Clock Town",
         "sections": [
           {
-            "name": "North Clock Town Save Old Lady (Night 1 - 12 AM)",
+            "name": "Save Old Lady (Night 1 - 12:15 AM)",
             "chest_unopened_img": "images/characters/bomb_shop_lady.png",
             "access_rules": [
               "easy_logic, sword, fairysword",
@@ -501,13 +529,18 @@
             "name": "Notebook Event: Meeting Bomb Granny",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["$has_npc_soul|soul_bomb_shop_lady, bombers_notebook"]
+            "access_rules": ["$has_npc_soul|soul_bomb_shop_lady, $has_npc_soul|soul_sakon, bombers_notebook"]
           },
           {
             "name": "Notebook Event: Received Blast Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["@Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM)"]
+            "access_rules": [
+              "normal_logic, $has_npc_soul|soul_bomb_shop_lady, $has_npc_soul|soul_sakon, sword, bombers_notebook",
+              "normal_logic, $has_npc_soul|soul_bomb_shop_lady, $has_npc_soul|soul_sakon, fairysword, bombers_notebook",
+              "normal_logic, $has_npc_soul|soul_bomb_shop_lady, $has_npc_soul|soul_sakon, zora, bombers_notebook",
+              "normal_logic, $has_npc_soul|soul_bomb_shop_lady, $has_npc_soul|soul_sakon, goron, bombers_notebook"
+            ]
           }
         ],
         "map_locations": [
@@ -524,10 +557,10 @@
         ]
       },
       {
-        "name": "East Clock Town Archery Roof Chest",
+        "name": "East Clock Town",
         "sections": [
           {
-            "name": "Jumping section starts near Bomber's Hideout entrance"
+            "name": "Archery Roof Chest"
           }
         ],
         "map_locations": [
@@ -553,7 +586,7 @@
             "access_rules": ["$has_npc_soul|soul_toto_gorman, bombers_notebook"]
           },
           {
-            "name": "East Clock Town Mayor's Wife",
+            "name": "Mayor's Wife",
             "chest_unopened_img": "images/characters/madame_aroma.png",
             "access_rules": ["$has_npc_soul|soul_madame_aroma"]
           },
@@ -576,12 +609,12 @@
             "access_rules": ["$has_npc_soul|soul_council, bombers_notebook"]
           },
           {
-            "name": "East Clock Town Couple's Mask on Mayor",
+            "name": "Couple's Mask on Mayor",
             "chest_unopened_img": "images/characters/mayor_dotour.png",
             "access_rules": ["$has_npc_soul|soul_council, couple"]
           },
           {
-            "name": "Notebook Event: Received Mayor HP",
+            "name": "Notebook Event: Received Mayor Heart Piece",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": ["$has_npc_soul|soul_council, couple"]
@@ -605,7 +638,7 @@
         "chest_unopened_img": "images/characters/honey_darling.png",
         "sections": [
           {
-            "name": "East Clock Town Honey and Darling Any Day",
+            "name": "Win Any Day",
             "access_rules": [
               "easy_logic, bow, bombs, $baby_has_bombchus",
               "normal_logic, $has_npc_soul|soul_honey_darling, bow",
@@ -615,7 +648,7 @@
             ]
           },
           {
-            "name": "East Clock Town Honey and Darling All Days",
+            "name": "Win All Days",
             "access_rules": [
               "easy_logic, bow, bombs, $baby_has_bombchus",
               "normal_logic, $has_npc_soul|soul_honey_darling, bow, bombs, bombchu_bag"
@@ -647,11 +680,11 @@
         "chest_unopened_img": "images/icons/archery.png",
         "sections": [
           {
-            "name": "East Clock Town Shooting Gallery 40-49 Points",
+            "name": "Score 40-49 Points",
             "access_rules": ["$has_npc_soul|soul_archery_man, bow"]
           },
           {
-            "name": "East Clock Town Shooting Gallery Perfect 50 Points",
+            "name": "Score Perfect 50 Points",
             "access_rules": ["$has_npc_soul|soul_archery_man, bow"]
           }
         ],
@@ -672,19 +705,19 @@
         "name": "Treasure Game (6 AM - 10 PM)",
         "sections": [
           {
-            "name": "East Clock Town Treasure Game Chest (Human)",
+            "name": "Chest (Human)",
             "access_rules": ["$has_npc_soul|soul_treasure_game_lady"]
           },
           {
-            "name": "East Clock Town Treasure Game Chest (Deku)",
+            "name": "Chest (Deku)",
             "access_rules": ["$has_npc_soul|soul_treasure_game_lady, deku"]
           },
           {
-            "name": "East Clock Town Treasure Game Chest (Goron)",
+            "name": "Chest (Goron)",
             "access_rules": ["$has_npc_soul|soul_treasure_game_lady, goron"]
           },
           {
-            "name": "East Clock Town Treasure Game Chest (Zora)",
+            "name": "Chest (Zora)",
             "access_rules": ["$has_npc_soul|soul_treasure_game_lady, zora"]
           }
         ],
@@ -705,22 +738,22 @@
         "name": "Bomber's Secret Hideout",
         "sections": [
           {
-            "name": "Bomber's Hideout Chest",
+            "name": "Hidden Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $baby_has_projectiles",
               "normal_logic, $has_explosives, $has_projectiles"
             ]
           },
           {
-            "name": "Bomber's Hideout Pots",
+            "name": "Pots Before Observatory",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/East Clock Town Astral Observatory/Moon's Tear"],
+            "access_rules": ["$has_absurd_soul|soul_pots, @Clock Town/North Clock Town/Hide-and-Seek"],
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Bomber's Hideout Bombable Wall",
+            "name": "Bombable Wall",
             "chest_unopened_img": "images/icons/bombwall.png",
             "access_rules": ["$has_hard_projectiles, $has_explosives"],
             "visibility_rules": ["oneoffs"]
@@ -743,7 +776,7 @@
         "name": "Stock Pot Inn",
         "sections": [
           {
-            "name": "Stock Pot Inn Reservation (Day 1: from 1 PM to 4 PM)",
+            "name": "Reservation (Day 1: from 1 PM to 4 PM)",
             "chest_unopened_img": "images/characters/anju.png",
             "access_rules": ["$has_npc_soul|soul_anju"]
           },
@@ -760,10 +793,10 @@
             "access_rules": ["$has_npc_soul|soul_anju"]
           },
           {
-            "name": "Stock Pot Inn Employee Room Chest (Final Night)"
+            "name": "Employee Room Chest (Final Night)"
           },
           {
-            "name": "Stock Pot Inn Locked Room Chest",
+            "name": "Locked Room Chest",
             "access_rules": ["roomkey"]
           },
           {
@@ -773,7 +806,7 @@
             "access_rules": ["$has_npc_soul|soul_anju, kafeimask"]
           },
           {
-            "name": "Stock Pot Inn Midnight Meeting (Night 1: 12 to 6 AM)",
+            "name": "Midnight Meeting (Night 1: 12 AM to 6 AM)",
             "chest_unopened_img": "images/characters/anju.png",
             "access_rules": [
               "easy_logic, kafeimask, deku, roomkey",
@@ -785,19 +818,19 @@
             "name": "Notebook Event: Promised To Meet Kafei",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["$has_npc_soul|soul_bombers, $has_projectiles"]
+            "access_rules": ["$has_npc_soul|soul_bombers, $has_npc_soul|soul_kafei, bombers_notebook, kafeiletter"]
           },
           {
             "name": "Notebook Event: Received Letter To Kafei",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["kafeimask, @Clock Town/Stock Pot Inn/Stock Pot Inn Midnight Meeting (Night 1: 12 to 6 AM)"]
+            "access_rules": ["kafeimask, @Clock Town/Stock Pot Inn/Midnight Meeting (Night 1: 12 to 6 AM)"]
           },
           {
             "name": "Notebook Event: Delivered Pendant of Memories",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["@Clock Town/Stock Pot Inn/Stock Pot Inn Midnight Meeting (Night 1: 12 to 6 AM)"]
+            "access_rules": ["@Clock Town/Stock Pot Inn/Midnight Meeting (Night 1: 12 to 6 AM), pendant"]
           },
           {
             "name": "Notebook Event: Meeting Toilet Hand",
@@ -806,12 +839,12 @@
             "access_rules": ["$has_npc_soul|soul_toilet_hand, bombers_notebook"]
           },
           {
-            "name": "Stock Pot Inn Midnight Toilet Hand",
+            "name": "Midnight Toilet Hand",
             "chest_unopened_img": "images/characters/toilet_hand.png",
             "access_rules": ["$has_npc_soul|soul_toilet_hand, $has_paper"]
           },
           {
-            "name": "Notebook Event: Received Toilet Hand HP",
+            "name": "Notebook Event: Received Toilet Hand Heart Piece",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": ["$has_npc_soul|soul_toilet_hand, $has_paper"]
@@ -823,29 +856,29 @@
             "access_rules": ["$has_npc_soul|soul_anjus_grandmother, bombers_notebook"]
           },
           {
-            "name": "Stock Pot Inn Granny Story #1",
+            "name": "Granny Story #1",
             "chest_unopened_img": "images/characters/anjus_grandmother.png",
             "access_rules": ["$has_npc_soul|soul_anjus_grandmother, allnightmask"]
           },
           {
-            "name": "Notebook Event: Received Grandma Short Story HP",
+            "name": "Notebook Event: Received Grandma Short Story Heart Piece",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": ["$has_npc_soul|soul_anjus_grandmother, allnightmask"]
           },
           {
-            "name": "Stock Pot Inn Granny Story #2",
+            "name": "Granny Story #2",
             "chest_unopened_img": "images/characters/anjus_grandmother.png",
             "access_rules": ["$has_npc_soul|soul_anjus_grandmother, allnightmask"]
           },
           {
-            "name": "Notebook Event: Received Grandma Long Story HP",
+            "name": "Notebook Event: Received Grandma Long Story Heart Piece",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": ["$has_npc_soul|soul_anjus_grandmother, allnightmask"]
           },
           {
-            "name": "Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)",
+            "name": "Anju and Kafei (Final Night 4:30 AM)",
             "chest_unopened_img": "images/characters/anju_kafei.png",
             "access_rules": [
               "easy_logic, kafei, $can_play_song|epona, kafeiletter, pendant, hookshot, garo, gibdo",
@@ -857,7 +890,7 @@
             "name": "Notebook Event: Received Couple's Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["@Clock Town/Stock Pot Inn/Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)"]
+            "access_rules": ["@Clock Town/Stock Pot Inn/Anju and Kafei (Final Night 4:30 AM)"]
           },
           {
             "name": "Mask Hitspot",
@@ -885,7 +918,7 @@
         "name": "Milk Bar (10 PM - 6 AM)",
         "sections": [
           {
-            "name": "Milk Bar Show (Night 1 - 2)",
+            "name": "Milk Bar Show (Night 1 & 2)",
             "chest_unopened_img": "images/characters/toto.png",
             "access_rules": ["$has_npc_soul|soul_toto_gorman, romani, deku, goron, zora, ocarina"]
           },
@@ -902,7 +935,7 @@
             "name": "Notebook Event: Received Circus Leader's Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["@Clock Town/Milk Bar (10 PM - 6 AM)/Milk Bar Show (Night 1 - 2)"]
+            "access_rules": ["@Clock Town/Milk Bar (10 PM - 6 AM)/Milk Bar Show (Night 1 & 2), bombers_notebook"]
           },
           {
             "name": "Priority Mail to Aroma (Final Night)",
@@ -913,7 +946,7 @@
             "name": "Notebook Event: Delivered Priority Mail",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["$has_npc_soul|soul_madame_aroma, romani, kafei, express"]
+            "access_rules": ["$has_npc_soul|soul_madame_aroma, romani, kafei, express, bombers_notebook"]
           },
           {
             "name": "Milk Purchase",
@@ -954,7 +987,7 @@
         ]
       },
       {
-        "name": "East Clock Town Center",
+        "name": "East Clock Town",
         "sections": [
           {
             "name": "Juggler's Crates",
@@ -962,13 +995,6 @@
             "visibility_rules": ["wood_sanity"],
             "item_count": 2,
             "clear_as_group": false
-          },
-          {
-            "name": "Deku Flower Near Chest Game",
-            "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
-            "visibility_rules": ["flower_sanity"]
           }
         ],
         "map_locations": [
@@ -983,9 +1009,32 @@
             "y": 588
           }
         ]
+      },{
+        "name": "East Clock Town",
+        "sections": [
+          {
+            "name": "Deku Flower Near Chest Game",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 155,
+            "y": 150
+          },
+          {
+            "map": "clock_town",
+            "x": 700,
+            "y": 615
+          }
+        ]
       },
       {
-        "name": "West Clock Town Rosa Sisters",
+        "name": "Rosa Sisters",
         "sections": [
           {
             "name": "Notebook Event: Meeting Rosa Sisters",
@@ -994,12 +1043,12 @@
             "access_rules": ["$has_npc_soul|soul_rosa_sisters, bombers_notebook"]
           },
           {
-            "name": "West Clock Town Rosa Sisters (Night 1 - 2)",
+            "name": "Rosa Sisters (Night 1 - 2)",
             "chest_unopened_img": "images/characters/rosa_sisters.png",
             "access_rules": ["$has_npc_soul|soul_rosa_sisters, kamaro"]
           },
           {
-            "name": "Notebook Event: Received Rosa Sister's HP",
+            "name": "Notebook Event: Received Rosa Sister's Heart Piece",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": ["$has_npc_soul|soul_rosa_sisters, bombers_notebook, kamaro"]
@@ -1023,15 +1072,15 @@
         "chest_unopened_img": "images/icons/bank.png",
         "sections": [
           {
-            "name": "West Clock Town Bank 200 Rupees",
+            "name": "Deposit 200 Rupees",
             "access_rules": ["$has_npc_soul|soul_banker"]
           },
           {
-            "name": "West Clock Town Bank 500 Rupees",
+            "name": "Deposit 500 Rupees",
             "access_rules": ["$has_npc_soul|soul_banker, adultswallet"]
           },
           {
-            "name": "West Clock Town Bank 1000 Rupees",
+            "name": "Deposit 1000 Rupees",
             "access_rules": ["$has_npc_soul|soul_banker, giantswallet"]
           }
         ],
@@ -1049,15 +1098,15 @@
         ]
       },
       {
-        "name": "West Clock Town Swordsman School",
+        "name": "Swordsman School",
         "chest_unopened_img": "images/equipment/sword1.png",
         "sections": [
           {
-            "name": "West Clock Town Swordsman Expert Course",
+            "name": "Expert Course",
             "access_rules": ["$has_npc_soul|soul_swordsman, sword"]
           },
           {
-            "name": "Sword School Night 3 Midnight Pots",
+            "name": "Night 3 Midnight Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 5,
             "clear_as_group": false,
@@ -1065,7 +1114,7 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Sword School Gong (Strike At Top Or Bottom Of Hour)",
+            "name": "Gong (Strike At Top Or Bottom Of Hour)",
             "chest_unopened_img": "images/icons/hitspot.png",
             "clear_as_group": false,
             "visibility_rules": ["hit_sanity"],
@@ -1109,18 +1158,18 @@
             "access_rules": ["$has_npc_soul|soul_postman, bombers_notebook"]
           },
           {
-            "name": "West Clock Town Postman Counting (Day 1: 3 PM - Midnight, Day 2: 5 PM - Midnight)",
+            "name": "Postman Counting (Day 1: 3 PM - Midnight)",
             "chest_unopened_img": "images/characters/postman.png",
             "access_rules": ["$has_npc_soul|soul_postman, bunnyhood"]
           },
           {
-            "name": "Notebook Event: Received Postman HP",
+            "name": "Notebook Event: Received Postman Heart Piece",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": ["$has_npc_soul|soul_postman, bunnyhood"]
           },
           {
-            "name": "West Clock Town Priority Mail to Postman (Final Night)",
+            "name": "Priority Mail to Postman (Final Night)",
             "chest_unopened_img": "images/characters/postman.png",
             "access_rules": ["$has_npc_soul|soul_postman, express"]
           },
@@ -1154,7 +1203,7 @@
             "access_rules": ["$has_npc_soul|soul_guru_guru, bombers_notebook"]
           },
           {
-            "name": "Laundry Pool Musician (Night 1 - 2)",
+            "name": "Bremen Mask (Night 1-2)",
             "chest_unopened_img": "images/characters/guru_guru.png",
             "access_rules": ["$has_npc_soul|soul_guru_guru"]
           },
@@ -1171,13 +1220,13 @@
             "access_rules": ["$has_npc_soul|soul_toto_gorman, bombers_notebook"]
           },
           {
-            "name": "Laundry Pool Frog",
+            "name": "Frog",
             "chest_unopened_img": "images/frogs/frog_white.png",
             "visibility_rules": ["frogsanity"],
             "access_rules": ["dongero"]
           },
           {
-            "name": "Laundry Pool Grass",
+            "name": "Grass",
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -1185,13 +1234,13 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Laundry Pool Crate",
+            "name": "Crate",
             "chest_unopened_img": "images/icons/crate.png",
             "visibility_rules": ["wood_sanity"],
             "clear_as_group": false
           },
           {
-            "name": "Night 2 Rupees",
+            "name": "Night 2 Water Rupees",
             "chest_unopened_img": "images/icons/rupee.png",
             "visibility_rules": ["rupee_sanity"],
             "item_count": 3,
@@ -1248,7 +1297,7 @@
         "short_name": "Backroom",
         "sections": [
           {
-            "name": "Laundry Pool Kafei's Request (Day 2, 4:30 PM)",
+            "name": "Kafei's Request (Day 2, 4:30 PM)",
             "chest_unopened_img": "images/characters/kafei.png",
             "access_rules": ["$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, kafeiletter"]
           },
@@ -1262,7 +1311,7 @@
             "access_rules": ["$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, kafeiletter"]
           },
           {
-            "name": "Laundry Pool Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)",
+            "name": "Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)",
             "chest_unopened_img": "images/characters/curiosity_shop_man.png",
             "access_rules": ["$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, $has_npc_soul|soul_curiosity_shop_man, kafeiletter"]
           },
@@ -1270,10 +1319,10 @@
             "name": "Notebook Event: Received Keaton Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [ "@Clock Town/Curiosity Shop Backroom/Laundry Pool Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)"]
+            "access_rules": [ "@Clock Town/Curiosity Shop Backroom/Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)"]
           },
           {
-            "name": "Laundry Pool Curiosity Shop Salesman #2 (Final Day 1 PM - 9 PM)",
+            "name": "Curiosity Shop Salesman #2 (Final Day 1PM - 9PM)",
             "chest_unopened_img": "images/characters/curiosity_shop_man.png",
             "access_rules": ["$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, $has_npc_soul|soul_curiosity_shop_man, kafeiletter"]
           },
@@ -1281,7 +1330,7 @@
             "name": "Notebook Event: Received Priority Mail",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["$has_npc_soul|soul_bombers, $has_projectiles"]
+            "access_rules": ["$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, $has_npc_soul|soul_curiosity_shop_man, kafeiletter"]
           }
         ],
         "map_locations": [
@@ -1317,17 +1366,17 @@
             ]
           },
           {
-            "name": "Clock Tower Happy Mask Salesman #1",
+            "name": "Happy Mask Salesman #1",
             "chest_unopened_img": "images/characters/happy_mask_salesman.png",
             "access_rules": ["$has_npc_soul|soul_happy_mask_salesman, ocarina"]
           },
           {
-            "name": "Clock Tower Happy Mask Salesman #2",
+            "name": "Happy Mask Salesman #2",
             "chest_unopened_img": "images/characters/happy_mask_salesman.png",
             "access_rules": ["$has_npc_soul|soul_happy_mask_salesman, ocarina"]
           },
           {
-            "name": "Top of Clock Tower Pots",
+            "name": "Top of Tower Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
@@ -1519,19 +1568,19 @@
             "visibility_rules": ["shopsanity_advanced"]
           },
           {
-            "name": "Trading Post Pot",
+            "name": "Pot",
             "chest_unopened_img": "images/icons/pot.png",
             "access_rules": ["$has_absurd_soul|soul_pots"],
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Trading Post Scarecrow",
+            "name": "Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
             "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
             "visibility_rules": ["scarecrow_sanity"]
           },
           {
-            "name": "Trading Post Bushes",
+            "name": "Bushes",
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 4,
             "clear_as_group": false,
@@ -1631,10 +1680,10 @@
             "access_rules": ["$has_npc_soul|soul_curiosity_shop_man, bombers_notebook"]
           },
           {
-            "name": "Curiosity Shop Night 3 (Stop Thief)",
+            "name": "Night 3 (Stop Thief)",
             "item_count": 500,
             "clear_as_group": true,
-            "access_rules": ["$has_npc_soul|soul_curiosity_shop_man, @Clock Town/Bomb Shop/Item 3 (Stop Thief), $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)"],
+            "access_rules": ["$has_npc_soul|soul_curiosity_shop_man, @Clock Town/Bomb Shop/Item 3 (Stop Thief), $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 (Stop Thief)"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -1644,13 +1693,13 @@
             "name": "Notebook Event: Received All Night Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["$has_npc_soul|soul_curiosity_shop_man, @Clock Town/Bomb Shop/Item 3 (Stop Thief), $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)"]
+            "access_rules": ["$has_npc_soul|soul_curiosity_shop_man, @Clock Town/Bomb Shop/Item 3 (Stop Thief), $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 (Stop Thief)"]
           },
           {
-            "name": "Curiosity Shop Night 3 Thief Stolen Item",
+            "name": "Night 3 Thief Stolen Item",
             "item_count": 500,
             "clear_as_group": true,
-            "access_rules": ["$has_npc_soul|soul_curiosity_shop_man, $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 Thief Stolen Item"],
+            "access_rules": ["$has_npc_soul|soul_curiosity_shop_man, $can_afford|Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 Thief Stolen Item"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"

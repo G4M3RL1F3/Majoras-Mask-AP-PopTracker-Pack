@@ -29,16 +29,24 @@
             "visibility_rules": ["sign_sanity"]
           },
           {
-            "name": "Healing Zora",
+            "name": "Healing Mikau",
             "chest_unopened_img": "images/masks/zora.png",
             "access_rules": ["$can_play_song|healing"]
           },
           {
-            "name": "Fisherman's Grotto Chest",
+            "name": "Fisherman Grotto Chest",
             "access_rules": ["$has_absurd_soul|soul_grottos"]
           },
           {
-            "name": "Fisherman's Grass",
+            "name": "Fisherman Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
+          },
+          {
+            "name": "Fisherman Grass",
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -60,14 +68,6 @@
             "visibility_rules": ["sign_sanity"]
           },
           {
-            "name": "Fisherman's Grotto Grass",
-            "item_count": 14,
-            "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
-          },
-          {
             "ref": "Groups/Great Bay Map Purchase/Great Bay Map Purchase",
             "access_rules": ["bow", "hookshot"]
           },
@@ -76,7 +76,7 @@
             "access_rules": ["bow", "hookshot"]
           },
           {
-            "name": "Great Bay Coast Owl Statue",
+            "name": "Owl Statue",
             "visibility_rules": ["owl_sanity"],
             "chest_unopened_img": "images/owl_statues/owl_coast_on.png"
           },
@@ -120,7 +120,7 @@
             ]
           },
           {
-            "name": "Great Bay Fisherman Game",
+            "name": "Fisherman Game",
             "chest_unopened_img": "images/icons/torch.png",
             "access_rules": [
               "easy_logic, $baby_clear_greatbay",
@@ -128,7 +128,7 @@
             ]
           },
           {
-            "name": "Great Bay Coast Beside Pirates' Fortress Pots",
+            "name": "Beside Pirates' Fortress Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -142,7 +142,7 @@
             "visibility_rules": ["sign_sanity"]
           },
           {
-            "name": "Great Bay Coast Rock Pool Pots",
+            "name": "Rock Pool Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -165,7 +165,7 @@
             "access_rules": ["$has_absurd_soul|soul_rocks, bombchu_bag, zora"]
           },
           {
-            "name": "Great Bay Coast Behind Marine Lab Pots",
+            "name": "Behind Marine Lab Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
@@ -173,7 +173,7 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Great Bay Coast Trees",
+            "name": "Beach Trees",
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 3,
             "clear_as_group": false,
@@ -212,13 +212,13 @@
         ],
         "sections": [
           {
-            "name": "Rock Wall Scarecrow",
+            "name": "Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
             "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
             "visibility_rules": ["scarecrow_sanity"]
           },
           {
-            "name": "Scarecrow Ledge HP",
+            "name": "Scarecrow Ledge Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, hookshot, $baby_can_plant_beans",
@@ -226,20 +226,20 @@
             ]
           },
           {
-            "name": "Rock Wall Soil",
+            "name": "Soil Patch",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
             "clear_as_group": false,
             "access_rules": ["hookshot, $bottleCount|1"]
           },
           {
-            "name": "Ledge Grotto Left Cow",
+            "name": "Cow Grotto Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_misc_soul|soul_cow, hookshot, $can_play_song|epona"]
           },
           {
-            "name": "Ledge Grotto Right Cow",
+            "name": "Cow Grotto Right Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_misc_soul|soul_cow, hookshot, $can_play_song|epona"]
@@ -301,7 +301,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Great Bay Grotto Beehive",
+            "name": "Cow Grotto Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
             "clear_as_group": false,
@@ -310,7 +310,7 @@
             ]
           },
           {
-            "name": "Great Bay Coast Lower Rock Wall Pots",
+            "name": "Lower Rock Wall Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
@@ -318,7 +318,7 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Great Bay Coast Upper Rock Wall Pots",
+            "name": "Upper Rock Wall Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
@@ -341,7 +341,7 @@
             "access_rules": ["$has_absurd_soul|soul_rocks, bombchu_bag, zora"]
           },
           {
-            "name": "Rock Wall Gossip Fairy",
+            "name": "Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
             "clear_as_group": false,
@@ -364,12 +364,18 @@
         ],
         "sections": [
           {
-            "name": "Underwater Like-Like HP",
+            "name": "Underwater Like-Like Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, zora, magic, bow",
               "normal_logic, zora"
             ]
+          },
+          {
+            "name": "Like-Like Pool Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "visibility_rules": ["pot_sanity"],
+            "access_rules": ["$has_absurd_soul|soul_pots"]
           },
           {
             "name": "Waterfall Cut the Sign",
@@ -378,7 +384,7 @@
             "visibility_rules": ["sign_sanity"]
           },
           {
-            "name": "Zora Cape Gossip Fairy",
+            "name": "Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
             "clear_as_group": false,
@@ -393,12 +399,12 @@
             "access_rules": ["zora"]
           },
           {
-            "name": "Pot Game",
+            "name": "Zora Pot Game",
             "chest_unopened_img": "images/characters/zora.png",
             "access_rules": ["$has_npc_soul|soul_potgame_hall_zora, $has_absurd_soul|soul_pots, zora"]
           },
           {
-            "name": "Zora Cape Jar Game Pots",
+            "name": "Zora Game Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 5,
             "clear_as_group": false,
@@ -409,13 +415,13 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Jar Game Cut the Sign",
+            "name": "Zora Pot Game Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
             "access_rules": ["$has_absurd_soul|soul_signs"],
             "visibility_rules": ["sign_sanity"]
           },
           {
-            "name": "Jar Game Trees",
+            "name": "Zora Pot Game Trees",
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -474,7 +480,7 @@
             ]
           },
           {
-            "name": "Zora Cape Grotto Grass",
+            "name": "Grotto Grass",
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -508,7 +514,7 @@
             "access_rules": ["$has_absurd_soul|soul_trees_bushes, $has_explosives, hookshot"]
           },
           {
-            "name": "Great Bay Great Fairy Reward",
+            "name": "Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": ["$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_gb, hookshot"]
@@ -524,12 +530,12 @@
             "access_rules": ["hookshot, zora"]
           },
           {
-            "name": "Zora Cape Owl Statue",
+            "name": "Owl Statue",
             "visibility_rules": ["owl_sanity"],
             "chest_unopened_img": "images/owl_statues/owl_zora_cape_on.png"
           },
           {
-            "name": "Zora Cape Owl Pots",
+            "name": "Owl Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
@@ -560,6 +566,11 @@
             "map": "overworld",
             "x": 215,
             "y": 394
+          },
+          {
+            "map": "zora_cape",
+            "x": 230,
+            "y": 110
           }
         ],
         "sections": [
@@ -597,19 +608,19 @@
             ]
           },
           {
-            "name": "Business Scrub Deku Flower",
+            "name": "Deku Scrub Mountain Deed Trade (As Goron)",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "access_rules": ["$has_npc_soul|soul_business_scrub, goron, zora, mountaindeed"]
+          },
+          {
+            "name": "Deku Flower",
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_business_scrub, deku, goron, zora, mountaindeed"],
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Goron Scrub Trade",
-            "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": ["$has_npc_soul|soul_business_scrub, goron, zora, mountaindeed"]
-          },
-          {
-            "name": "Goron Scrub Trade Freestanding HP",
+            "name": "Goron Trade Freestanding Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_business_scrub, deku, goron, zora, mountaindeed"]
           },
@@ -637,7 +648,7 @@
             "access_rules": ["$has_npc_soul|soul_potgame_hall_zora, $has_npc_soul|soul_lulu, zora, pictobox"]
           },
           {
-            "name": "Pervert Scarecrow",
+            "name": "Scarecrow",
             "chest_unopened_img": "images/characters/scarecrow.png",
             "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
             "visibility_rules": ["scarecrow_sanity"]
@@ -651,6 +662,11 @@
             "map": "overworld",
             "x": 145,
             "y": 300
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 100,
+            "y": 325
           }
         ],
         "sections": [
@@ -683,6 +699,969 @@
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_fisherman, $can_reach_seahorse, $bottleCount|1, zora"],
             "visibility_rules": ["pot_sanity"]
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Coast Entrance Cut the Sign"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 845,
+            "y": 630
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Beachfront Cut the Sign"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 590,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Healing Mikau"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 610,
+            "y": 875
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Fisherman Grotto Chest"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast/Fisherman Grotto Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 810,
+            "y": 860
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Fisherman Grass"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast/Fisherman Butterfly Fairies"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 750,
+            "y": 830
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Fisherman Hut Cut the Sign"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 790,
+            "y": 830
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Groups/Great Bay Map Purchase/Great Bay Map Purchase"
+          },
+          {
+            "ref": "Groups/Stone Tower Map Purchase/Stone Tower Map Purchase"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 340,
+            "y": 775
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Owl Statue"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 340,
+            "y": 740
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Research Lab Cut the Sign"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast/Baby Zora Song"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast/Feeding Lab Fish"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 300,
+            "y": 760
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Behind Marine Lab Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 260,
+            "y": 760
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Scattered Beach Rocks"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 775,
+            "y": 660
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 645,
+            "y": 645
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 705,
+            "y": 855
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 640,
+            "y": 890
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 670,
+            "y": 920
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Underwater Beach Rocks (Bombchu Only)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 545,
+            "y": 850
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Beside Pirates' Fortress Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 540,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Fisherman Game"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast/Fisherman Island Tree"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 590,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Rock Pool Cut the Sign"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 525,
+            "y": 575
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Rock Pool Pots"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast/Fisherman Boat Cut the Sign"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 410,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Underwater Rocks Below Rock Pool (Bombchu Only)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 600,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Underwater Rock Near Like-Like (Bombchu Only)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 530,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Beach Trees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 675,
+            "y": 660
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 680,
+            "y": 765
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 620,
+            "y": 820
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast/Zora Cape Entrance Cut the Sign"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 600,
+            "y": 975
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Scarecrow Ledge Heart Piece"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Scarecrow"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 825,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Soil Patch"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 850,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Upper Rock Wall Pots"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Cow Grotto Left Cow"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Cow Grotto Right Cow"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Cow Grotto Butterfly Fairies"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Cow Grotto Beehive"
+          },
+          {
+            "ref":"Great Bay/Great Bay Coast Rock Wall/Cow Grotto Grass Group 1"
+          },
+          {
+            "ref":"Great Bay/Great Bay Coast Rock Wall/Cow Grotto Grass Group 2"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Cow Grotto Grass Group 3"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Cow Grotto Grass Group 4"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Cow Grotto Grass Group 5"
+          },
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Cow Grotto Grass Group 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 865,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Upper Rock Wall Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 875,
+            "y": 250
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 875,
+            "y": 325
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Lower Rock Wall Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 865,
+            "y": 275
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 875,
+            "y": 350
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 825,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Rock Wall Rocks"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 800,
+            "y": 460
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 855,
+            "y": 320
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 770,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Underwater Rock Near Rock Wall (Bombchu Only)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 675,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Great Bay Coast Rock Wall/Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 800,
+            "y": 125
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Dungeons/Pirates' Fortress/Entrance Bonk Boards"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_coast",
+            "x": 620,
+            "y": 110
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 640,
+            "y": 90
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 665,
+            "y": 95
+          },
+          {
+            "map": "great_bay_coast",
+            "x": 690,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Underwater Like-Like Heart Piece"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 1300,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Like-Like Pool Pots"
+          },
+          {
+            "ref": "Great Bay/Zora Cape/Waterfall Cut the Sign"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 1265,
+            "y": 680
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 1175,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Underwater Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 465,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Zora Pot Game"
+          },
+          {
+            "ref": "Great Bay/Zora Cape/Zora Game Pots"
+          },
+          {
+            "ref": "Great Bay/Zora Cape/Zora Pot Game Cut the Sign"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 1025,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Zora Pot Game Trees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 1000,
+            "y": 200
+          },
+          {
+            "map": "zora_cape",
+            "x": 1025,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Beach Rocks"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 850,
+            "y": 150
+          },
+          {
+            "map": "zora_cape",
+            "x": 950,
+            "y": 180
+          },
+          {
+            "map": "zora_cape",
+            "x": 1040,
+            "y": 265
+          },
+          {
+            "map": "zora_cape",
+            "x": 1100,
+            "y": 325
+          },
+          {
+            "map": "zora_cape",
+            "x": 1260,
+            "y": 480
+          },
+          {
+            "map": "zora_cape",
+            "x": 1230,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Deku Flower Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 1325,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Lower Wall Beaver's Deku Flower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 1345,
+            "y": 555
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Beaver's Scarecrow"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 1200,
+            "y": 510
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Scarecrow Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 1180,
+            "y": 625
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Island Scarecrow"
+          },
+          {
+            "ref": "Great Bay/Zora Cape/Island Trees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 560,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Island Trees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 450,
+            "y": 365
+          },
+          {
+            "map": "zora_cape",
+            "x": 460,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Island Rocks"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 485,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Grotto Boulder"
+          },
+          {
+            "ref": "Great Bay/Zora Cape/Grotto Grass"
+          },
+          {
+            "ref": "Great Bay/Zora Cape/Grotto Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 725,
+            "y": 375
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Great Fairy Boulders"
+          },
+          {
+            "ref": "Great Bay/Zora Cape/Great Fairy Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 525,
+            "y": 525
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Beaver Bros. Race 1"
+          },
+          {
+            "ref": "Great Bay/Zora Cape/Beaver Bros. Race 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 1300,
+            "y": 825
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Owl Statue"
+          },
+          {
+            "ref": "Great Bay/Zora Cape/Owl Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 200,
+            "y": 125
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Giant Turtle Cut the Sign"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 210,
+            "y": 85
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Cape/Giant Turtle Trees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_cape",
+            "x": 75,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Shop 1"
+          },
+          {
+            "ref": "Great Bay/Zora Hall/Shop 2"
+          },
+          {
+            "ref": "Great Bay/Zora Hall/Shop 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 1050,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Deku Scrub Purchase"
+          },
+          {
+            "ref": "Great Bay/Zora Hall/Deku Scrub Mountain Deed Trade (As Goron)"
+          },
+          {
+            "ref": "Great Bay/Zora Hall/Deku Flower"
+          },
+          {
+            "ref": "Great Bay/Zora Hall/Goron Trade Freestanding Heart Piece"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 470,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Evan's Song"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 610,
+            "y": 90
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Torches Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 675,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Good Picture of Lulu"
+          },
+          {
+            "ref": "Great Bay/Zora Hall/Bad Picture of Lulu"
+          },
+          {
+            "ref": "Great Bay/Zora Hall/Scarecrow"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 725,
+            "y": 625
           }
         ]
       }

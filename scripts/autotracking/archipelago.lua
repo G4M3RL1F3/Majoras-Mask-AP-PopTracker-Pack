@@ -129,13 +129,17 @@ function onClear(slot_data)
     local function setFromSlotData(slot_data_key, item_code)
         local v = slot_data[slot_data_key]
         if not v then
-            print(string.format("Could not find key '%s' in slot data", slot_data_key))
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("Could not find key '%s' in slot data", slot_data_key))
+            end
             return nil
         end
 
         local obj = Tracker:FindObjectForCode(item_code)
         if not obj then
-            print(string.format("Could not find item for code '%s'", item_code))
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("Could not find item for code '%s'", item_code))
+            end
             return nil
         end
 
@@ -150,7 +154,9 @@ function onClear(slot_data)
             obj.AcquiredCount = v
             return v
         else
-            print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
+            end
             return nil
         end
     end
@@ -234,6 +240,13 @@ function onClear(slot_data)
     --for _, trick in ipairs(slot_data["logic_tricks"]) do
     --    Tracker:FindObjectForCode(LOGIC_TRICK_MAPPING[string.format("%s", trick)]).Active = true
     --end
+
+    map_key = "Majora's_Mask_Recompiled_"..Archipelago.TeamNumber.."_"..Archipelago.PlayerNumber.."_scene"
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("Data storage map key: '%s'", map_key))
+    end
+    Archipelago:SetNotify({map_key})
+    Archipelago:Get({map_key})
 
 	Tracker.BulkUpdate = false
 end
@@ -426,13 +439,15 @@ function updateHint(hint, sections_to_update)
 end
 
 function onChangedRegion(key, current_region, old_region)
-    print("onChangedRegion: changed region to %s", current_region)
-    if TABS_MAPPING[current_region] then
-        CURRENT_ROOM = TABS_MAPPING[current_region]
-    else
-        CURRENT_ROOM = "Termina"
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("onChangedRegion: New scene ID: '%s'", current_region))
     end
-    Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+    for _, tab in ipairs(TABS_MAPPING[current_region]) do
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+            print(string.format("onChangedRegion: Activating tab: '%s'", tab))
+        end
+        Tracker:UiHint("ActivateTab", tab)
+    end
 end
 
 -- add AP callbacks
@@ -442,6 +457,6 @@ Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 -- Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
 -- Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
-Archipelago:AddSetReplyHandler("map switching", onChangedRegion)
+Archipelago:AddSetReplyHandler("map_key", onChangedRegion)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)

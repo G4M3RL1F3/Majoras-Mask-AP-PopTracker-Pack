@@ -480,7 +480,7 @@
             "name": "Notebook Event: Escaped Sakon's Hideout",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": ["$has_npc_soul|soul_kafei, $has_utility_soul|soul_postboxes, kafeiletter, $lower_ikana_canyon"]
+            "access_rules": ["$has_npc_soul|soul_kafei, $has_utility_soul|soul_postboxes, bombers_notebook, kafeiletter"]
           }
         ],
         "map_locations": [
@@ -522,8 +522,7 @@
             "chest_unopened_img": "images/characters/soulkeeper.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, shield, $baby_can_smack",
-              "normal_logic, $has_npc_soul|soul_spirit_house_owner, $can_use_ice_arrows, bow",
-              "normal_logic, $has_npc_soul|soul_spirit_house_owner, $can_use_ice_arrows, hookshot"
+              "normal_logic, $has_npc_soul|soul_spirit_house_owner, bow"
             ]
           },
           {

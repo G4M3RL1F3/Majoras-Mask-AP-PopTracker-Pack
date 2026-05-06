@@ -194,7 +194,7 @@ function baby_stone_tower_temple()
     return baby_ikana_canyon() and can_use_ice_arrows() and can_play_song("elegy") and has("goron") and has("zora") and has("smallkey_st", 4) and has("bosskey_st")
 end
 function stone_tower_temple()
-    return ((lower_ikana_canyon() and has_enemy_soul("soul_octoroks") and can_use_ice_arrows()) or ((can_use_owl("owl_ikana_canyon") and has("hookshot") and has("goron") and has("zora")) or can_use_owl("owl_stone_tower"))) and can_play_song("elegy")
+    return ((lower_ikana_canyon() and has_enemy_soul("soul_octoroks") and can_use_ice_arrows()) or ((can_use_owl("owl_ikana_canyon") and has("hookshot") and has("goron") and has("zora") and can_paly_song(elegy)) or can_use_owl("owl_stone_tower"))) and can_play_song("elegy")
 end
 
 -- Stone Tower -> Stone Tower (Inverted)

@@ -462,7 +462,7 @@
             "access_rules": [
               "$has_absurd_soul|soul_grass, bosskey_wf",
               "$has_absurd_soul|soul_grass, $boss_key_sanity_off",
-              "$has_absurd_soul|soul_grass, boss_warps_with_remains"
+              "$has_absurd_soul|soul_grass, odolwa, boss_warps_with_remains"
             ],
             "visibility_rules": ["grass_sanity"]
           },
@@ -472,7 +472,8 @@
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": [
               "$has_absurd_soul|soul_deku_flowers, deku, bosskey_wf",
-              "$has_absurd_soul|soul_deku_flowers, deku, boss_warps_with_remains"
+              "$has_absurd_soul|soul_grass, deku, $boss_key_sanity_off",
+              "$has_absurd_soul|soul_deku_flowers, odolwa, deku, boss_warps_with_remains"
             ],
             "visibility_rules": ["flower_sanity"]
           }
@@ -482,6 +483,11 @@
             "map": "overworld",
             "x": 542,
             "y": 478
+          },
+          {
+            "map": "woodfall",
+            "x": 490,
+            "y": 420
           }
         ]
       },
@@ -1087,6 +1093,11 @@
             "map": "overworld",
             "x": 489,
             "y": 38
+          },
+          {
+            "map": "snowhead",
+            "x": 775,
+            "y": 260
           }
         ]
       },
@@ -1503,7 +1514,7 @@
         "sections": [
           {
             "name": "Entrance Bonk Boards",
-            "chest_unopened_img": "images/icons/crate.png",
+            "chest_unopened_img": "images/icons/pirate_board.png",
             "visibility_rules": ["wood_sanity"],
             "item_count": 4,
             "clear_as_group": false,
@@ -1530,7 +1541,7 @@
           },
           {
             "name": "Sewers Bonk Boards",
-            "chest_unopened_img": "images/icons/crate.png",
+            "chest_unopened_img": "images/icons/pirate_board.png",
             "visibility_rules": ["wood_sanity"],
             "item_count": 3,
             "clear_as_group": false,
@@ -2190,6 +2201,12 @@
             "map": "overworld",
             "x": 498,
             "y": 502
+          },
+          {
+            "map": "southern_swamp",
+            "x": 700,
+            "y": 785,
+            "size": 15
           }
         ]
       },
@@ -2677,7 +2694,7 @@
             "name": "Completion Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $baby_has_projectiles, $baby_has_explosives, $can_use_light_arrows",
-              "normal_logic, $has_npc_soul|soul_spirit_house_owner, $can_smack_hard, $can_use_light_arrows"
+              "normal_logic, $has_npc_soul|soul_spirit_house_owner, $has_enemy_soul|soul_dinolfos, $has_enemy_soul|soul_wizrobe, $has_enemy_soul|soul_wart, $has_enemy_soul|soul_garo_master, $can_smack_hard, $can_use_light_arrows"
             ]
           },
           {
@@ -3121,8 +3138,8 @@
             "name": "Armos Room Back Chest",
             "access_rules": [
               "easy_logic, $can_use_light_arrows, mirrorshield, $baby_has_explosives",
-              "normal_logic, $has_explosives, $can_use_light_arrows",
-              "normal_logic, $has_explosives, mirrorshield"
+              "normal_logic, goron, $has_explosives, $can_use_light_arrows",
+              "normal_logic, goron, $has_explosives, mirrorshield"
             ]
           },
           {
@@ -3137,8 +3154,8 @@
             "name": "Armos Room Lava Chest",
             "access_rules": [
               "easy_logic, $can_use_light_arrows, mirrorshield, $baby_has_explosives, goron",
-              "normal_logic, $has_enemy_soul|soul_armos, $has_explosives, $can_use_light_arrows",
-              "normal_logic, $has_enemy_soul|soul_armos, $has_explosives, mirrorshield"
+              "normal_logic, $has_enemy_soul|soul_armos, goron, $has_explosives, $can_use_light_arrows",
+              "normal_logic, $has_enemy_soul|soul_armos, goron, $has_explosives, mirrorshield"
             ]
           },
           {

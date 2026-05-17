@@ -6,13 +6,13 @@
     "access_rules": ["$moon"],
     "children": [
       {
-        "name": "Deku Trial",
+        "name": "Deku Trial (Odolwa Mask)",
         "sections": [
           {
-            "ref": "Inside the Moon/Deku Trial HP/Heart Piece"
+            "ref": "Inside the Moon/Deku Trial/Heart Piece"
           },
           {
-            "ref": "Inside the Moon/Deku Trial HP/Heart Piece Gossip Fairy"
+            "ref": "Inside the Moon/Deku Trial/Heart Piece Gossip Fairy"
           },
           {
             "ref": "Inside the Moon/Deku Trial Front Left/Front Left Gossip Fairy"
@@ -39,7 +39,7 @@
         ]
       },
       {
-        "name": "Deku Trial HP",
+        "name": "Deku Trial",
         "sections": [
           {
             "name": "Heart Piece",
@@ -209,10 +209,13 @@
         ]
       },
       {
-        "name": "Goron Trial",
+        "name": "Goron Trial (Goht Mask)",
         "sections": [
           {
-            "ref": "Inside the Moon/Goron Trial HP/Heart Piece"
+            "ref": "Inside the Moon/Goron Trial/Heart Piece"
+          },
+          {
+            "ref": "Inside the Moon/Goron Trial Chests/Pathway Bumper Chest"
           },
           {
             "ref": "Inside the Moon/Goron Trial Pots/Goron Trial Pots"
@@ -221,13 +224,13 @@
             "ref": "Inside the Moon/Goron Trial Icicles/Exit Icicles"
           },
           {
-            "ref": "Inside the Moon/Goron Trial HP/Heart Piece Gossip Fairy"
+            "ref": "Inside the Moon/Goron Trial/Heart Piece Gossip Fairy"
           },
           {
-            "ref": "Inside the Moon/Goron Trial First Gazebo/First Gossip Fairy"
+            "ref": "Inside the Moon/Goron Trial First Gazebo/Gossip Fairy"
           },
           {
-            "ref": "Inside the Moon/Goron Trial Second Gazebo/Second Gossip Fairy"
+            "ref": "Inside the Moon/Goron Trial Second Gazebo/Gossip Fairy"
           }
         ],
         "map_locations": [
@@ -239,7 +242,7 @@
         ]
       },
       {
-        "name": "Goron Trial HP",
+        "name": "Goron Trial",
         "sections": [
           {
             "name": "Heart Piece",
@@ -369,7 +372,7 @@
         "name": "Goron Trial First Gazebo",
         "sections": [
           {
-            "name": "First Gossip Fairy",
+            "name": "Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
             "item_count": 2,
@@ -393,7 +396,7 @@
         "name": "Goron Trial Second Gazebo",
         "sections": [
           {
-            "name": "Second Gossip Fairy",
+            "name": "Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
             "item_count": 2,
@@ -778,7 +781,7 @@
         "name": "The Moon",
         "sections": [
           {
-            "name": "Field Butterfly Fairies",
+            "name": "Butterfly Fairies",
             "chest_unopened_img": "images/icons/butterfly.png",
             "visibility_rules": ["real_fairysanity"],
             "item_count": 13,

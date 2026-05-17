@@ -15,6 +15,13 @@
           "type": "tabbed",
           "tabs": [
             {
+              "title": "Termina Field",
+              "content": {
+                "type": "map",
+                "maps": ["termina_field"]
+              }
+            },
+            {
               "title": "Central",
               "content": {
                 "type": "tabbed",
@@ -24,13 +31,6 @@
                     "content": {
                       "type": "map",
                       "maps": ["clock_town"]
-                    }
-                  },
-                  {
-                    "title": "Termina Field",
-                    "content": {
-                      "type": "map",
-                      "maps": ["termina_field"]
                     }
                   }
                 ]
@@ -42,10 +42,152 @@
                 "type": "tabbed",
                 "tabs": [
                   {
+                    "title": "Road To Swamp",
+                    "content": {
+                      "type": "map",
+                      "maps": ["road_to_swamp"]
+                    }
+                  },
+                  {
+                    "title": "Southern Swamp",
+                    "content": {
+                      "type": "map",
+                      "maps": ["southern_swamp"]
+                    }
+                  },
+                  {
+                    "title": "Potion Shop",
+                    "content": {
+                      "type": "map",
+                      "maps": ["potion_shop"]
+                    }
+                  },
+                  {
                     "title": "Woods of Mystery",
                     "content": {
                       "type": "map",
                       "maps": ["woods_of_mystery"]
+                    }
+                  },
+                  {
+                    "title": "Deku Palace",
+                    "content": {
+                      "type": "map",
+                      "maps": ["deku_palace"]
+                    }
+                  },
+                  {
+                    "title": "Woodfall",
+                    "content": {
+                      "type": "map",
+                      "maps": ["woodfall"]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Snowhead",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Path To Mountain Village",
+                    "content": {
+                      "type": "map",
+                      "maps": ["path_to_mountain_village"]
+                    }
+                  },
+                  {
+                    "title": "Mountain Village (Winter)",
+                    "content": {
+                      "type": "map",
+                      "maps": ["mountain_village_winter"]
+                    }
+                  },
+                  {
+                    "title": "Mountain Village (Spring)",
+                    "content": {
+                      "type": "map",
+                      "maps": ["mountain_village_spring"]
+                    }
+                  },
+                  {
+                    "title": "Twin Islands (Winter)",
+                    "content": {
+                      "type": "map",
+                      "maps": ["twin_islands_winter"]
+                    }
+                  },
+                  {
+                    "title": "Twin Islands (Spring)",
+                    "content": {
+                      "type": "map",
+                      "maps": ["twin_islands_spring"]
+                    }
+                  },
+                  {
+                    "title": "Goron Village",
+                    "content": {
+                      "type": "map",
+                      "maps": ["goron_village"]
+                    }
+                  },
+                  {
+                    "title": "Goron Shrine",
+                    "content": {
+                      "type": "map",
+                      "maps": ["goron_shrine"]
+                    }
+                  },
+                  {
+                    "title": "Lens Cave",
+                    "content": {
+                      "type": "map",
+                      "maps": ["lens_cave"]
+                    }
+                  },
+                  {
+                    "title": "Path To Snowhead",
+                    "content": {
+                      "type": "map",
+                      "maps": ["path_to_snowhead"]
+                    }
+                  },
+                  {
+                    "title": "Snowhead",
+                    "content": {
+                      "type": "map",
+                      "maps": ["snowhead"]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Great Bay",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Great Bay Coast",
+                    "content": {
+                      "type": "map",
+                      "maps": ["great_bay_coast"]
+                    }
+                  },
+                  {
+                    "title": "Zora Cape",
+                    "content": {
+                      "type": "map",
+                      "maps": ["zora_cape"]
+                    }
+                  },
+                  {
+                    "title": "Zora Hall",
+                    "content": {
+                      "type": "map",
+                      "maps": ["zora_hall"]
                     }
                   }
                 ]

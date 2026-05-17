@@ -6,6 +6,30 @@
         "img": "images/maps/overworld.png"
     },
     {
+        "name": "termina_field",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/termina_field.png"
+    },
+    {
+        "name": "road_to_swamp",
+        "location_size": 30,
+        "location_border_thickness": 2,
+        "img": "images/maps/road_to_swamp.png"
+    },
+    {
+        "name": "southern_swamp",
+        "location_size": 30,
+        "location_border_thickness": 2,
+        "img": "images/maps/southern_swamp.png"
+    },
+    {
+        "name": "woodfall",
+        "location_size": 30,
+        "location_border_thickness": 2,
+        "img": "images/maps/woodfall.png"
+    },
+    {
         "name": "woodfall_temple",
         "location_size": 30,
         "location_border_thickness": 2,
@@ -78,16 +102,94 @@
         "img": "images/maps/clock_town.png"
     },
     {
-        "name": "termina_field",
-        "location_size": 24,
-        "location_border_thickness": 1,
-        "img": "images/maps/termina_field.png"
+        "name": "potion_shop",
+        "location_size": 30,
+        "location_border_thickness": 2,
+        "img": "images/maps/potion_shop.png"
+    },
+    {
+        "name": "deku_palace",
+        "location_size": 30,
+        "location_border_thickness": 2,
+        "img": "images/maps/deku_palace.png"
     },
     {
         "name": "woods_of_mystery",
         "location_size": 30,
         "location_border_thickness": 1,
         "img": "images/maps/woods_of_mystery.png"
+    },
+    {
+        "name": "path_to_mountain_village",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/path_to_mountain_village.png"
+    },
+    {
+        "name": "mountain_village_winter",
+        "location_size": 20,
+        "location_border_thickness": 1,
+        "img": "images/maps/mountain_village_winter.png"
+    },
+    {
+        "name": "mountain_village_spring",
+        "location_size": 20,
+        "location_border_thickness": 1,
+        "img": "images/maps/mountain_village_spring.png"
+    },
+    {
+        "name": "twin_islands_winter",
+        "location_size": 20,
+        "location_border_thickness": 1,
+        "img": "images/maps/twin_islands_winter.png"
+    },
+    {
+        "name": "twin_islands_spring",
+        "location_size": 20,
+        "location_border_thickness": 1,
+        "img": "images/maps/twin_islands_spring.png"
+    },
+    {
+        "name": "goron_village",
+        "location_size": 15,
+        "location_border_thickness": 1,
+        "img": "images/maps/goron_village.png"
+    },
+    {
+        "name": "goron_shrine",
+        "location_size": 20,
+        "location_border_thickness": 1,
+        "img": "images/maps/goron_shrine.png"
+    },
+    {
+        "name": "lens_cave",
+        "location_size": 20,
+        "location_border_thickness": 1,
+        "img": "images/maps/lens_cave.png"
+    },
+    {
+        "name": "path_to_snowhead",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/path_to_snowhead.png"
+    },
+    {
+        "name": "snowhead",
+        "location_size": 12,
+        "location_border_thickness": 1,
+        "img": "images/maps/snowhead.png"
+    },
+    {
+        "name": "great_bay_coast",
+        "location_size": 15,
+        "location_border_thickness": 1,
+        "img": "images/maps/great_bay_coast.png"
+    },
+    {
+        "name": "zora_cape",
+        "location_size": 15,
+        "location_border_thickness": 1,
+        "img": "images/maps/zora_cape.png"
     },
     {
         "name": "zora_hall",

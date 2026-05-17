@@ -15,13 +15,6 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Termina Field",
-              "content": {
-                "type": "map",
-                "maps": ["termina_field"]
-              }
-            },
-            {
               "title": "Central",
               "content": {
                 "type": "tabbed",
@@ -31,6 +24,13 @@
                     "content": {
                       "type": "map",
                       "maps": ["clock_town"]
+                    }
+                  },
+                  {
+                    "title": "Termina Field",
+                    "content": {
+                      "type": "map",
+                      "maps": ["termina_field"]
                     }
                   }
                 ]

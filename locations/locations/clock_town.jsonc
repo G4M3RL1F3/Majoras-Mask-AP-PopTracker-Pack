@@ -70,14 +70,14 @@
         ]
       },
       {
-        "name": "Clock Tower",
+        "name": "Clock Tower Platform",
         "sections": [
           {
             "name": "Freestanding Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png"
           },
           {
-            "name": "Clockface Hitspot",
+            "name": "Target Hitspots",
             "chest_unopened_img": "images/icons/hitspot.png",
             "item_count": 3,
             "clear_as_group": false,
@@ -1262,7 +1262,7 @@
       },
       {
         "name": "Stray Fairy (Clock Town)",
-        "visibility_rules": ["fairysanity"],
+        //"visibility_rules": ["fairysanity"],
         "sections": [
           {
             "name": "Stray Fairy (Clock Town)",

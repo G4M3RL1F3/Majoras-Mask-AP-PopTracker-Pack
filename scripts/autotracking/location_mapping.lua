@@ -3,7 +3,7 @@ LOCATION_MAPPING = {
     [0x061A00] = {"@Clock Town/Before Clock Town/Chest"},
 
     [0x000037] = {"@Clock Town/Spawn Area/Link's Inventory (Kokiri Sword)"},
-    [0x056F0A] = {"@Clock Town/Clock Tower/Freestanding Heart Piece"},
+    [0x056F0A] = {"@Clock Town/Clock Tower Platform/Freestanding Heart Piece"},
     [0x040068] = {"@Clock Town/Clock Tower/Happy Mask Salesman #1"},
     [0x000078] = {"@Clock Town/Clock Tower/Happy Mask Salesman #2"},
     [0x066F00] = {"@Clock Town/South Clock Town/Corner Chest"},
@@ -2089,9 +2089,9 @@ LOCATION_MAPPING = {
     [0x200B01] = {"@Inside the Moon/The Moon/Majora Lair Pots"},
 
     -- Hitspots
-    [0x156F00] = {"@Clock Town/Clock Tower/Clock Tower Hitspots"},
-    [0x156F01] = {"@Clock Town/Clock Tower/Clock Tower Hitspots"},
-    [0x156F02] = {"@Clock Town/Clock Tower/Clock Tower Hitspots"},
+    [0x156F00] = {"@Clock Town/Clock Tower Platform/Target Hitspots"},
+    [0x156F01] = {"@Clock Town/Clock Tower Platform/Target Hitspots"},
+    [0x156F02] = {"@Clock Town/Clock Tower Platform/Target Hitspots"},
     [0x156C00] = {"@Clock Town/Honey and Darling (6 AM - 10 PM)/Target & Basket Hitspots"},
     [0x156C01] = {"@Clock Town/Honey and Darling (6 AM - 10 PM)/Target & Basket Hitspots"},
     [0x156C02] = {"@Clock Town/Honey and Darling (6 AM - 10 PM)/Target & Basket Hitspots"},

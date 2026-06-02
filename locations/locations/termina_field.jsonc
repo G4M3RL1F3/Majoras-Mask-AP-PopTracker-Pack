@@ -547,13 +547,16 @@
         "name": "Kamaro",
         "sections": [
           {
-            "ref": "Termina Field/Kamaro/Kamaro Mask (Midnight - 6 AM)"
+            "ref": "Termina Field/Kamaro/Healing Kamaro (Midnight - 6 AM)"
           },
           {
             "ref": "Termina Field/Kamaro/Notebook Event: Meeting Kamaro"
           },
           {
-            "ref": "Termina Field/Kamaro/Rock Circle"
+            "ref": "Termina Field/Kamaro/Notebook Event: Received Kamaro Mask"
+          },
+          {
+            "ref": "Termina Field/Kamaro/Kamaro Rock Circle"
           }
         ],
         "map_locations": [

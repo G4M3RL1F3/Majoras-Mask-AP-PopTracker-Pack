@@ -379,10 +379,10 @@
         ]
       },
       {
-        "name": "Termina Healing Kamaro",
+        "name": "Kamaro",
         "sections": [
           {
-            "name": "Termina Healing Kamaro (Midnight - 6 AM)",
+            "name": "Healing Kamaro (Midnight - 6 AM)",
             "chest_unopened_img": "images/characters/kamaro.png",
             "access_rules": ["$has_npc_soul|soul_kamaro, $can_play_song|healing"]
           },

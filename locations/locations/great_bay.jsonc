@@ -34,7 +34,7 @@
             "access_rules": ["$can_play_song|healing"]
           },
           {
-            "name": "Fisherman Grotto Chest",
+            "name": "Fisherman's Grotto Chest",
             "access_rules": ["$has_absurd_soul|soul_grottos"]
           },
           {

@@ -22,7 +22,7 @@ LOCATION_MAPPING = {
 
     -- East Clock Town
     [0x066C0A] = {"@Clock Town/East Clock Town/Archery Roof Chest"},
-    [0x00008F] = {"@Clock Town/Mayor's Residence (10 AM - 10 PM)/Madame Aroma"},
+    [0x00008F] = {"@Clock Town/Mayor's Residence (10 AM - 10 PM)/Mayor's Wife"},
     [0x07026F] = {"@Clock Town/Mayor's Residence (10 AM - 10 PM)/Couple's Mask on Mayor"},
     [0x000023] = {"@Clock Town/Town Shooting Gallery (6 AM - 10 PM)/Score 40-49 Points"},
     [0x07011D] = {"@Clock Town/Town Shooting Gallery (6 AM - 10 PM)/Score Perfect 50 Points"},

@@ -1203,7 +1203,7 @@
             "access_rules": ["$has_npc_soul|soul_guru_guru, bombers_notebook"]
           },
           {
-            "name": "Bremen Mask (Night 1-2)",
+            "name": "Musician (Night 1 - 2)",
             "chest_unopened_img": "images/characters/guru_guru.png",
             "access_rules": ["$has_npc_soul|soul_guru_guru"]
           },

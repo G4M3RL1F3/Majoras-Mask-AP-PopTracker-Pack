@@ -51,11 +51,11 @@
         "name": "Road to Swamp Grotto",
         "sections": [
           {
-            "name": "Road to Swamp Grotto Chest",
+            "name": "Chest",
             "access_rules": ["$has_absurd_soul|soul_grottos"]
           },
           {
-            "name": "Road to Swamp Grotto Grass",
+            "name": "Grass",
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",

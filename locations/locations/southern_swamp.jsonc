@@ -178,7 +178,7 @@
         ]
       },
       {
-        "name": "Southern Swamp",
+        "name": "Southern Swamp Owl Statue",
         "sections": [
           {
             "name": "Owl Statue",
@@ -186,7 +186,7 @@
             "chest_unopened_img": "images/owl_statues/owl_swamp_on.png"
           },
           {
-            "name": "Owl Grass",
+            "name": "Grass",
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -194,7 +194,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Owl Post Dungeon Grass",
+            "name": "Post Dungeon Grass",
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",

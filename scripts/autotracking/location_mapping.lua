@@ -48,9 +48,9 @@ LOCATION_MAPPING = {
     [0x000091] = {"@Clock Town/Milk Bar (10 PM - 6 AM)/Chateau Romani Purchase"},
 
     -- North Clock Town
-    [0x056E0A] = {"@Clock Town/North Clock Town/Tree Heart Piece"},
-    [0x00008D] = {"@Clock Town/North Clock Town/Save Old Lady (Night 1 - 12:15 AM)"},
-    [0x000050] = {"@Clock Town/North Clock Town/Hide-and-Seek"},
+    [0x056E0A] = {"@Clock Town/North Clock Town - East Tree/Tree Heart Piece"},
+    [0x00008D] = {"@Clock Town/North Clock Town - Old Lady/Save Old Lady (Night 1 - 12:15 AM)"},
+    [0x000050] = {"@Clock Town/North Clock Town - Bombers/Hide-and-Seek"},
     [0x0801C9] = {"@Clock Town/Deku Playground/Win Any Day"},
     [0x0701C9] = {"@Clock Town/Deku Playground/Win All Days"},
     [0x07028C] = {"@Clock Town/Keaton/Keaton Quiz"},
@@ -3007,11 +3007,11 @@ LOCATION_MAPPING = {
     [0xBF670C] = {"@Inside the Moon/The Moon/Butterfly Fairies"},
 
     -- Notebook Entries
-    [0x0B0000] = {"@Clock Town/North Clock Town/Notebook Event: Meeting Bombers"},
+    [0x0B0000] = {"@Clock Town/North Clock Town - Bombers/Notebook Event: Meeting Bombers"},
     [0x0B0001] = {"@Clock Town/Stock Pot Inn/Notebook Event: Meeting Anju"},
     [0x0B0002] = {"@Clock Town/Laundry Pool/Notebook Event: Meeting Kafei"},
     [0x0B0003] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Notebook Event: Meeting Curiosity Shop Man"},
-    [0x0B0004] = {"@Clock Town/North Clock Town/Notebook Event: Meeting Bomb Granny"},
+    [0x0B0004] = {"@Clock Town/North Clock Town - Old Lady/Notebook Event: Meeting Bomb Granny"},
     [0x0B0005] = {"@Romani Ranch/Romani Ranch Outside/Notebook Event: Meeting Romani"},
     [0x0B0006] = {"@Romani Ranch/Romani Ranch Outside/Notebook Event: Meeting Cremia"},
     [0x0B0007] = {"@Clock Town/Mayor's Residence (10 AM - 10 PM)/Notebook Event: Meeting Mayor Dotour"},
@@ -3043,8 +3043,8 @@ LOCATION_MAPPING = {
     [0x0B0021] = {"@Clock Town/Curiosity Shop Backroom/Notebook Event: Received Keaton Mask"},
     [0x0B0022] = {"@Clock Town/Curiosity Shop Backroom/Notebook Event: Received Priority Mail"},
     [0x0B0023] = {"@Clock Town/Milk Bar (10 PM - 6 AM)/Notebook Event: Delivered Priority Mail"},
-    [0x0B0024] = {"@Clock Town/North Clock Town/Notebook Event: Learned Secret Code"},
-    [0x0B0025] = {"@Clock Town/North Clock Town/Notebook Event: Received Bomber's Notebook"},
+    [0x0B0024] = {"@Clock Town/North Clock Town - Bombers/Notebook Event: Learned Secret Code"},
+    [0x0B0025] = {"@Clock Town/North Clock Town - Bombers/Notebook Event: Received Bomber's Notebook"},
     [0x0B0026] = {"@Clock Town/Mayor's Residence (10 AM - 10 PM)/Notebook Event: Received Mayor Heart Piece"},
     [0x0B0027] = {"@Clock Town/West Clock Town Rosa Sisters/Notebook Event: Received Rosa Sister's Heart Piece"},
     [0x0B0028] = {"@Clock Town/Stock Pot Inn/Notebook Event: Received Toilet Hand Heart Piece"},
@@ -3058,7 +3058,7 @@ LOCATION_MAPPING = {
     [0x0B0030] = {"@Clock Town/Milk Bar (10 PM - 6 AM)/Notebook Event: Received Circus Leader's Mask"},
     [0x0B0031] = {"@Clock Town/Post Office/Notebook Event: Received Postman's Hat"},
     [0x0B0032] = {"@Clock Town/Stock Pot Inn/Notebook Event: Received Couple's Mask"},
-    [0x0B0033] = {"@Clock Town/North Clock Town Save Old Lady/Notebook Event: Received Blast Mask"},
+    [0x0B0033] = {"@Clock Town/North Clock Town - Old Lady/Notebook Event: Received Blast Mask"},
     [0x0B0034] = {"@Termina Field/Termina Healing Kamaro/Notebook Event: Received Kamaro Mask"},
     [0x0B0035] = {"@Ikana/Road to Ikana Stone Soldier/Notebook Event: Received Stone Mask"},
     [0x0B0036] = {"@Clock Town/Laundry Pool/Notebook Event: Received Bremen Mask"},
@@ -3082,8 +3082,8 @@ LOCATION_MAPPING = {
     [0xFF0004] = {"@Clock Town/Laundry Pool/Laundry Pool Frog"},
 
     -- Treesanity
-    [0x2D6E00] = {"@Clock Town/North Clock Town/West Tree"},
-    [0x2D6E01] = {"@Clock Town/North Clock Town/East Tree"},
+    [0x2D6E00] = {"@Clock Town/North Clock Town - West Tree/West Tree"},
+    [0x2D6E01] = {"@Clock Town/North Clock Town - East Tree/East Tree"},
     [0x2C343F] = {"@Clock Town/Trading Post/Bushes"},
     [0x2C348C] = {"@Clock Town/Trading Post/Bushes"},
     [0x2C34CA] = {"@Clock Town/Trading Post/Bushes"},

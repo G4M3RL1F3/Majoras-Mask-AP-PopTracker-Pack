@@ -458,13 +458,13 @@
         "name": "Peahat Grotto",
         "sections": [
           {
-            "ref": "Termina Field/Termina Field Peahat Grotto/Defeat Peahat (Daytime Only)"
+            "ref": "Termina Field/Peahat Grotto/Defeat Peahat (Daytime Only)"
           },
           {
-            "ref": "Termina Field/Termina Field Peahat Grotto/Grass"
+            "ref": "Termina Field/Peahat Grotto/Grass"
           },
           {
-            "ref": "Termina Field/Termina Field Peahat Grotto/Butterfly Fairies"
+            "ref": "Termina Field/Peahat Grotto/Butterfly Fairies"
           }
         ],
         "map_locations": [

@@ -29,7 +29,7 @@
             "visibility_rules": ["sign_sanity"]
           },
           {
-            "name": "Healing Mikau",
+            "name": "Healing Zora",
             "chest_unopened_img": "images/masks/zora.png",
             "access_rules": ["$can_play_song|healing"]
           },
@@ -738,7 +738,7 @@
       {
         "sections": [
           {
-            "ref": "Great Bay/Great Bay Coast/Healing Mikau"
+            "ref": "Great Bay/Great Bay Coast/Healing Zora"
           }
         ],
         "map_locations": [

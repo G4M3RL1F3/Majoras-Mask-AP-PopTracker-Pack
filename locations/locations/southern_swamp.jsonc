@@ -670,14 +670,6 @@
             "chest_unopened_img": "images/equipment/heart_piece.png"
           },
           {
-            "name": "Sonata Of Awakening",
-              "chest_unopened_img": "images/equipment/song_sonata_no_text.png",
-            "access_rules": [
-              "easy_logic, ocarina, $baby_can_plant_beans, deku, $baby_has_projectiles",
-              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_monkey, ocarina, $can_plant_beans, deku"
-            ]
-          },
-          {
             "name": "Right Side Upper Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
@@ -753,8 +745,35 @@
         ]
       },
       {
+        "name": "Deku King's Chamber",
+        "access_rules": [
+          "easy_logic, ocarina, $baby_can_plant_beans, deku, $baby_has_projectiles",
+          "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_monkey, ocarina, $can_plant_beans, deku"
+        ],
+        "sections": [
+          {
+            "name": "Monkey Song",
+            "chest_unopened_img": "images/equipment/song_sonata_no_text.png",
+            "access_rules": [
+              "easy_logic, ocarina, $baby_can_plant_beans, deku, $baby_has_projectiles",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_monkey, ocarina, $can_plant_beans, deku"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 497,
+            "y": 555
+          }
+        ]
+      },
+      {
         "name": "Deku Palace Bean Grotto",
-        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "access_rules": [
+          "easy_logic, $baby_deku_palace",
+          "normal_logic, $deku_palace"
+        ],
         "sections": [
           {
             "name": "Bean Grotto Chest",

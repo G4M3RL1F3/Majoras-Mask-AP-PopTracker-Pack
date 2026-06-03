@@ -776,7 +776,7 @@
         ],
         "sections": [
           {
-            "name": "Bean Grotto Chest",
+            "name": "Chest",
             "access_rules": [
               "easy_logic, $baby_can_plant_beans, hookshot",
               "normal_logic, $has_absurd_soul|soul_grottos, $can_plant_beans",
@@ -784,12 +784,12 @@
             ]
           },
           {
-            "name": "Deku Palace Bean Seller",
+            "name": "Bean Seller",
             "chest_unopened_img": "images/characters/bean_seller.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_npc_soul|soul_bean_seller, deku"]
           },
           {
-            "name": "Deku Palace Bean Grotto Grass",
+            "name": "Grass",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -797,7 +797,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Bean Seller Soil Patch",
+            "name": "Soil Patch",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
             "item_count": 3,
@@ -805,7 +805,7 @@
             "access_rules": ["$has_absurd_soul|soul_grottos, $bottleCount|1"]
           },
           {
-            "name": "Bean Seller Butterfly Fairies",
+            "name": "Butterfly Fairies",
             "chest_unopened_img": "images/icons/butterfly.png",
             "visibility_rules": ["real_fairysanity"],
             "item_count": 4,
@@ -813,7 +813,7 @@
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterfly"]
           },
           {
-            "name": "Bean Seller Cut the Sign",
+            "name": "Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_signs"],
             "visibility_rules": ["sign_sanity"]

@@ -414,7 +414,7 @@
             "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase"
           },
           {
-            "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase"
+            "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase "
           },
           {
             "name": "Ramp Scarecrow",
@@ -1686,7 +1686,7 @@
             "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase"
           },
           {
-            "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase"
+            "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase "
           }
         ],
         "map_locations": [

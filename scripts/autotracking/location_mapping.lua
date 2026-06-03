@@ -128,8 +128,8 @@ LOCATION_MAPPING = {
     -- Southern Swamp
     [0x054001] = {"@Southern Swamp/Road to Swamp/Tree Heart Piece"},
     [0x06071E] = {"@Southern Swamp/Road to Swamp Grotto/Chest"},
-    [0x000024] = {"@Southern Swamp/Swamp Shooting Gallery/Score 2120 Points (Perfect)"},
-    [0x08011D] = {"@Southern Swamp/Swamp Shooting Gallery/Score 2180 Points (Perfect + Time Bonus)"},
+    [0x000024] = {"@Southern Swamp/Swamp Shooting Gallery/Score 2120 Points"},
+    [0x08011D] = {"@Southern Swamp/Swamp Shooting Gallery/Score 2180 Points"},
     [0x0000B5] = {"@Southern Swamp/Tingle Southern Swamp/Woodfall Map Purchase"},
     [0x000098] = {"@Southern Swamp/Swamp Business Scrub/Deku Scrub Land Deed Trade (As Human)"},
     [0x090135] = {"@Southern Swamp/Swamp Business Scrub/Deku Scrub Purchase (As Deku)"},

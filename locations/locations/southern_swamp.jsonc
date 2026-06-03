@@ -115,11 +115,11 @@
         "chest_unopened_img": "images/icons/archery.png",
         "sections": [
           {
-            "name": "Swamp Shooting Gallery 2120 Points",
+            "name": "Score 2120 Points",
             "access_rules": ["$has_npc_soul|soul_archery_man, bow"]
           },
           {
-            "name": "Swamp Shooting Gallery 2180 Points",
+            "name": "Score 2180 Points",
             "access_rules": ["$has_npc_soul|soul_archery_man, bow"]
           },
           {
@@ -1195,10 +1195,10 @@
       {
         "sections": [
           {
-            "ref": "Southern Swamp/Swamp Shooting Gallery/Swamp Shooting Gallery 2120 Points"
+            "ref": "Southern Swamp/Swamp Shooting Gallery/Score 2120 Points"
           },
           {
-            "ref": "Southern Swamp/Swamp Shooting Gallery/Swamp Shooting Gallery 2180 Points"
+            "ref": "Southern Swamp/Swamp Shooting Gallery/Score 2180 Points"
           },
           {
             "ref": "Southern Swamp/Swamp Shooting Gallery/Outside Swamp Archery Pots"

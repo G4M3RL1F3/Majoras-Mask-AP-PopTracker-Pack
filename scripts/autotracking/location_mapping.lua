@@ -61,7 +61,7 @@ LOCATION_MAPPING = {
     -- West Clock Town
     [0x0701EF] = {"@Clock Town/Swordsman School/Expert Course"},
     [0x07017D] = {"@Clock Town/Post Office/Postman Counting (Day 1: 3 PM - Midnight"},
-    [0x000084] = {"@Clock Town/Post Office/West Clock Town Priority Mail to Postman (Final Night)"},
+    [0x000084] = {"@Clock Town/Post Office/Priority Mail to Postman (Final Night)"},
     [0x07027B] = {"@Clock Town/West Clock Town/Rosa Sisters (Night 1 - 2)"},
     [0x000008] = {"@Clock Town/Clock Town Bank/Deposit 200 Rupees"},
     [0x080177] = {"@Clock Town/Clock Town Bank/Deposit 500 Rupees"},

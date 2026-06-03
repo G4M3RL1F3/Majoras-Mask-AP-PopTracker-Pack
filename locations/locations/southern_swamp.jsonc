@@ -889,11 +889,11 @@
         "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
         "sections": [
           {
-            "name": "Southern Swamp Grotto Chest",
+            "name": "Chest",
             "access_rules": ["$has_absurd_soul|soul_grottos, deku"]
           },
           {
-            "name": "Southern Swamp Grotto Grass",
+            "name": "Grass",
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",

@@ -207,7 +207,7 @@
             "chest_unopened_img": "images/equipment/song_storms_no_text.png",
             "access_rules": [
               "easy_logic, captainhat, $baby_can_smack_hard, $can_use_fire_arrows",
-              "normal_logic, $has_npc_soul|soul_stalchildren, $has_enemy_soul|soul_iron_knuckle, captainhat, $can_smack_hard, $can_use_fire_arrows"
+              "normal_logic, $has_npc_soul|soul_stalchildren, $has_enemy_soul|soul_iron_knuckle, captainhat, $can_smack_hard"
             ]
           },
           {

@@ -654,11 +654,11 @@
         ]
       },
       {
-        "name": "Termina Gossip Stones",
+        "name": "North Gossip Stone Grotto",
         "chest_unopened_img": "images/icons/gossip_stone.png",
         "sections": [
           {
-            "name": "Termina Gossip Stones Heart Piece",
+            "name": "Gossip Stones Heart Piece",
             "access_rules": [
               "easy_logic, deku, $can_play_song|sonata, goron, $can_play_song|goronlullaby, zora, $can_play_song|bossanova",
               "normal_logic, $has_absurd_soul|soul_grottos, deku, $can_play_song|sonata, $has_explosives",
@@ -677,7 +677,21 @@
             "map": "overworld",
             "x": 548,
             "y": 273
+          }
+        ]
+      },
+      {
+        "name": "South Gossip Stone Grotto",
+        "chest_unopened_img": "images/icons/gossip_stone.png",
+        "sections": [
+          {
+            "ref": "Termina Field/North Gossip Stone Grotto/Gossip Stones Heart Piece"
           },
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Gossip Stones Heart Piece Gossip Fairy"
+          }
+        ],
+        "map_locations": [
           {
             "map": "overworld",
             "x": 515,
@@ -686,11 +700,11 @@
         ]
       },
       {
-        "name": "East Termina Gossip Stones Heart Piece",
+        "name": "East Gossip Stone Grotto",
         "chest_unopened_img": "images/icons/gossip_stone.png",
         "sections": [
           {
-            "ref": "Termina Field/Termina Gossip Stones/Termina Gossip Stones Heart Piece"
+            "ref": "Termina Field/North Gossip Stone Grotto/Gossip Stones Heart Piece"
           },
           {
             "name": "Eastern Gossip Grotto Grass",
@@ -729,7 +743,7 @@
             ]
           },
           {
-            "ref": "@Termina Field/Termina Gossip Stones/Termina Gossip Stones Heart Piece"
+            "ref": "Termina Field/North Gossip Stone Grotto/Gossip Stones Heart Piece"
           },
           {
             "name": "Bombable Rock Grass",

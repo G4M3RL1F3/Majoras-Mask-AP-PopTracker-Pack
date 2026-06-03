@@ -780,9 +780,28 @@
         ]
       },
       {
+        "name": "North Gossip Stone Grotto",
         "sections": [
           {
-            "ref": "Termina Field/Termina Gossip Stones/Heart Piece"
+            "ref": "Termina Field/North Gossip Stone Grotto/Gossip Stones Heart Piece"
+          },
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina_field",
+            "x": 500,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "South Gossip Stone Grotto",
+        "sections": [
+          {
+            "ref": "Termina Field/North Gossip Stone Grotto/Gossip Stones Heart Piece"
           },
           {
             "ref": "Termina Field/Termina Bombable Rock Grotto/Gossip Fairy"
@@ -793,21 +812,17 @@
             "map": "termina_field",
             "x": 390,
             "y": 750
-          },
-          {
-            "map": "termina_field",
-            "x": 500,
-            "y": 255
           }
         ]
       },
       {
+        "name": "East Gossip Stone Grotto",
         "sections": [
           {
-            "ref": "Termina Field/Gossip Stones Grotto/Heart Piece"
+            "ref": "Termina Field/North Gossip Stone Grotto/Gossip Stones Heart Piece"
           },
           {
-            "ref": "Termina Field/East Termina Gossip Stones Heart Piece/Grass"
+            "ref": "Termina Field/East Gossip Stone Grotto/Grass"
           },
           {
             "ref": "Termina Field/Termina Bombable Rock Grotto/Gossip Fairy"
@@ -831,7 +846,7 @@
             "ref": "Termina Field/Bombable Boulder Grotto/Grass"
           },
           {
-            "ref": "Termina Field/Gossip Stones Grotto/Heart Piece"
+            "ref": "Termina Field/North Gossip Stone Grotto/Gossip Stones Heart Piece"
           },
           {
             "ref": "Termina Field/Bombable Boulder Grotto/Gossip Fairy"

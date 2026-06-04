@@ -16,7 +16,7 @@ LOCATION_MAPPING = {
     -- Laundry Pool
     [0x01007F] = {"@Clock Town/Stray Fairy (Clock Town)/Stray Fairy (Clock Town)"},
     [0x00008C] = {"@Clock Town/Laundry Pool/Musician (Night 1 - 2)"},
-    [0x0000AB] = {"@Clock Town/Curiosity Shop Backroom/Laundry Pool Kafei's Request (Day 2, 4:30 PM)"},
+    [0x0000AB] = {"@Clock Town/Curiosity Shop Backroom/Kafei's Request (Day 2, 4:30 PM)"},
     [0x000080] = {"@Clock Town/Curiosity Shop Backroom/Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)"},
     [0x0000A1] = {"@Clock Town/Curiosity Shop Backroom/Curiosity Shop Salesman #2 (Final Day 1 PM - 9 PM)"},
 

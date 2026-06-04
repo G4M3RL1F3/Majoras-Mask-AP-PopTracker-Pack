@@ -1294,7 +1294,6 @@
       },
       {
         "name": "Curiosity Shop Backroom",
-        "short_name": "Backroom",
         "sections": [
           {
             "name": "Kafei's Request (Day 2, 4:30 PM)",
@@ -1319,10 +1318,10 @@
             "name": "Notebook Event: Received Keaton Mask",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
-            "access_rules": [ "@Clock Town/Curiosity Shop Backroom/Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)"]
+            "access_rules": ["@Clock Town/Curiosity Shop Backroom/Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)"]
           },
           {
-            "name": "Curiosity Shop Salesman #2 (Final Day 1PM - 9PM)",
+            "name": "Curiosity Shop Salesman #2 (Final Day 1 PM - 9 PM)",
             "chest_unopened_img": "images/characters/curiosity_shop_man.png",
             "access_rules": ["$has_misc_soul|soul_postboxes, $has_npc_soul|soul_kafei, $has_npc_soul|soul_curiosity_shop_man, kafeiletter"]
           },

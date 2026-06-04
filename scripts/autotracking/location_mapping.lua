@@ -187,7 +187,7 @@ LOCATION_MAPPING = {
     [0x062718] = {"@Dungeons/Swamp Spider House/Tree Room Tree #2 Token"},
     [0x06271D] = {"@Dungeons/Swamp Spider House/Tree Room Tree #3 Token"},
     [0x06271A] = {"@Dungeons/Swamp Spider House/Tree Room Beehive Token"},
-    [0x00008A] = {"@Dungeons/Swamp Spider House/Reward"},
+    [0x00008A] = {"@Dungeons/Swamp Spider House/Swamp Spider House Reward"},
 
     -- Woodfall Temple
     [0x061B18] = {"@Dungeons/Woodfall Temple/Entrance Chest SF"},

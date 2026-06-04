@@ -33,7 +33,7 @@ function baby_woodfall()
     return baby_south_swamp() and has("deku")
 end
 function woodfall()
-    return can_use_owl("owl_woodfall") or (south_swamp() and has("deku") and has("soul_deku_flowers"))
+    return south_swamp() and ((has("deku") and has_absurd_soul("soul_deku_flowers")) or can_use_owl("owl_woodfall"))
 end
 
 -- Woodfall -> Woodfall Temple

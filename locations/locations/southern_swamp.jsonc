@@ -665,7 +665,7 @@
         "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
         "sections": [
           {
-            "name": "Deku Palace Heart Piece",
+            "name": "Heart Piece",
             "access_rules": ["deku"],
             "chest_unopened_img": "images/equipment/heart_piece.png"
           },

@@ -6,7 +6,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Pot"
+            "ref": "Dungeons/Woodfall Temple/Entrance Pot"
           }
         ],
         "map_locations": [
@@ -21,7 +21,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Room Beehive"
+            "ref": "Dungeons/Woodfall Temple/Entrance Room Beehive"
           }
         ],
         "map_locations": [
@@ -36,10 +36,10 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Room Grass"
+            "ref": "Dungeons/Woodfall Temple/Entrance Room Grass"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Room Deku Flowers"
+            "ref": "Dungeons/Woodfall Temple/Entrance Room Deku Flowers"
           }
         ],
         "map_locations": [
@@ -54,7 +54,7 @@
         "name": "Entrance Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Chest SF"
+            "ref": "Dungeons/Woodfall Temple/Entrance Chest SF"
           }
         ],
         "map_locations": [
@@ -69,7 +69,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Main Room Pots"
+            "ref": "Dungeons/Woodfall Temple/Main Room Pots"
           }
         ],
         "map_locations": [
@@ -84,7 +84,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Main Room Grass"
+            "ref": "Dungeons/Woodfall Temple/Main Room Grass"
           }
         ],
         "map_locations": [
@@ -99,7 +99,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Main Room Deku Flowers"
+            "ref": "Dungeons/Woodfall Temple/Main Room Deku Flowers"
           }
         ],
         "map_locations": [
@@ -114,7 +114,7 @@
         "name": "Switch Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Switch Chest SF"
+            "ref": "Dungeons/Woodfall Temple/Switch Chest SF"
           }
         ],
         "map_locations": [
@@ -129,7 +129,7 @@
         "name": "Ledge Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Ledge Chest"
+            "ref": "Dungeons/Woodfall Temple/Ledge Chest"
           }
         ],
         "map_locations": [
@@ -144,7 +144,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Elevator Room Grass"
+            "ref": "Dungeons/Woodfall Temple/Elevator Room Grass"
           }
         ],
         "map_locations": [
@@ -159,7 +159,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Elevator Room Deku Flowers"
+            "ref": "Dungeons/Woodfall Temple/Elevator Room Deku Flowers"
           }
         ],
         "map_locations": [
@@ -174,7 +174,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Deku Elevator Pots"
+            "ref": "Dungeons/Woodfall Temple/Deku Elevator Pots"
           }
         ],
         "map_locations": [
@@ -189,13 +189,13 @@
         "name": "Turtle Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Turtle Chest"
+            "ref": "Dungeons/Woodfall Temple/Turtle Chest"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Turtle Room Grass"
+            "ref": "Dungeons/Woodfall Temple/Turtle Room Grass"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Turtle Room Deku Flowers"
+            "ref": "Dungeons/Woodfall Temple/Turtle Room Deku Flowers"
           }
         ],
         "map_locations": [
@@ -210,10 +210,10 @@
         "name": "Dinolfos Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dinolfos Chest"
+            "ref": "Dungeons/Woodfall Temple/Dinolfos Chest"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dinolfos Room Deku Flowers"
+            "ref": "Dungeons/Woodfall Temple/Dinolfos Room Deku Flowers"
           }
         ],
         "map_locations": [
@@ -228,10 +228,10 @@
         "name": "Boss Key Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Gekko Chest"
+            "ref": "Dungeons/Woodfall Temple/Gekko Chest"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Gekko Pots"
+            "ref": "Dungeons/Woodfall Temple/Gekko Pots"
           }
         ],
         "map_locations": [
@@ -246,10 +246,10 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Frog"
+            "ref": "Dungeons/Woodfall Temple/Frog"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Gekko Deku Flowers"
+            "ref": "Dungeons/Woodfall Temple/Gekko Deku Flowers"
           }
         ],
         "map_locations": [
@@ -264,13 +264,13 @@
         "name": "Dragonfly Chest Room",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dragonfly Chest"
+            "ref": "Dungeons/Woodfall Temple/Dragonfly Chest"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dragonfly Chest Room Grass"
+            "ref": "Dungeons/Woodfall Temple/Dragonfly Chest Room Grass"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dragonfly Room Deku Flowers"
+            "ref": "Dungeons/Woodfall Temple/Dragonfly Room Deku Flowers"
           }
         ],
         "map_locations": [
@@ -285,10 +285,10 @@
         "name": "Moving Deku Flower Platform Room",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple 2nd Floor Moving Flower Platform Room Grass"
+            "ref": "Dungeons/Woodfall Temple/2nd Floor Moving Flower Platform Room Grass"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple 2nd Floor Moving Deku Flowers"
+            "ref": "Dungeons/Woodfall Temple/2nd Floor Moving Deku Flowers"
           }
         ],
         "map_locations": [
@@ -303,7 +303,7 @@
         "name": "Black Boe Room Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dark Room Chest SF"
+            "ref": "Dungeons/Woodfall Temple/Dark Room Chest SF"
           }
         ],
         "map_locations": [
@@ -318,7 +318,7 @@
         "name": "Entrance Freestanding SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Freestanding SF"
+            "ref": "Dungeons/Woodfall Temple/Entrance Freestanding SF"
           }
         ],
         "map_locations": [
@@ -333,7 +333,7 @@
         "name": "Wooden Flower Deku Baba SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Deku Baba SF"
+            "ref": "Dungeons/Woodfall Temple/Deku Baba SF"
           }
         ],
         "map_locations": [
@@ -348,7 +348,7 @@
         "name": "Wooden Flower Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Main Room Bubble SF"
+            "ref": "Dungeons/Woodfall Temple/Main Room Bubble SF"
           }
         ],
         "map_locations": [
@@ -363,7 +363,7 @@
         "name": "Wooden Flower Pot SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pot SF"
+            "ref": "Dungeons/Woodfall Temple/Pot SF"
           }
         ],
         "map_locations": [
@@ -378,7 +378,7 @@
         "name": "Woodfall Temple Platform Hive SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Platform Hive SF"
+            "ref": "Dungeons/Woodfall Temple/Platform Hive SF"
           }
         ],
         "map_locations": [
@@ -393,7 +393,7 @@
         "name": "Woodfall Temple Skulltula SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Skulltula SF"
+            "ref": "Dungeons/Woodfall Temple/Skulltula SF"
           }
         ],
         "map_locations": [
@@ -408,7 +408,7 @@
         "name": "Bridge Room Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Bridge Room Bubble SF"
+            "ref": "Dungeons/Woodfall Temple/Bridge Room Bubble SF"
           }
         ],
         "map_locations": [
@@ -423,7 +423,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Left Side Bridge Pots"
+            "ref": "Dungeons/Woodfall Temple/Left Side Bridge Pots"
           }
         ],
         "map_locations": [
@@ -438,7 +438,7 @@
         "name": "Bridge Room Hive SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Bridge Room Hive SF"
+            "ref": "Dungeons/Woodfall Temple/Bridge Room Hive SF"
           }
         ],
         "map_locations": [
@@ -453,7 +453,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Bridge Room Web"
+            "ref": "Dungeons/Woodfall Temple/Bridge Room Web"
           }
         ],
         "map_locations": [
@@ -468,7 +468,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Bridge Room Beehive"
+            "ref": "Dungeons/Woodfall Temple/Bridge Room Beehive"
           }
         ],
         "map_locations": [
@@ -483,7 +483,7 @@
         "name": "Pre-Boss Upper Right Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Upper Right Bubble SF"
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Upper Right Bubble SF"
           }
         ],
         "map_locations": [
@@ -498,7 +498,7 @@
         "name": "Pre-Boss Lower Right Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Lower Right Bubble SF"
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Lower Right Bubble SF"
           }
         ],
         "map_locations": [
@@ -513,7 +513,7 @@
         "name": "Pre-Boss Room Grass",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Room Grass"
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Room Grass"
           }
         ],
         "map_locations": [
@@ -528,7 +528,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Deku Flowers"
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Deku Flowers"
           }
         ],
         "map_locations": [
@@ -543,7 +543,7 @@
         "name": "Pre-Boss Room Pots",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Pots"
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Pots"
           }
         ],
         "map_locations": [
@@ -593,7 +593,7 @@
         "name": "Pre-Boss Upper Left Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Upper Left Bubble SF"
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Upper Left Bubble SF"
           }
         ],
         "map_locations": [
@@ -608,7 +608,7 @@
         "name": "Pre-Boss Pillar Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Pillar Bubble SF"
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Pillar Bubble SF"
           }
         ],
         "map_locations": [
@@ -623,16 +623,16 @@
         "name": "Odolwa",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Heart Container"
+            "ref": "Dungeons/Woodfall Temple/Heart Container"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Remains"
+            "ref": "Dungeons/Woodfall Temple/Odolwa's Remains"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Lair Grass"
+            "ref": "Dungeons/Woodfall Temple/Odolwa's Lair Grass"
           },
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Lair Deku Flower"
+            "ref": "Dungeons/Woodfall Temple/Odolwa's Lair Deku Flower"
           },
           {
             "ref": "Dungeons/Woodfall Temple/Oath to Order"

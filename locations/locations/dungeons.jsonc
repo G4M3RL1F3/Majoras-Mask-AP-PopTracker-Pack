@@ -12,14 +12,14 @@
         ],
         "sections": [
           {
-            "name": "Woodfall Temple Entrance Pot",
+            "name": "Entrance Pot",
             "chest_unopened_img": "images/icons/pot.png",
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Woodfall Temple Entrance Room Grass",
+            "name": "Entrance Room Grass",
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -27,7 +27,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Woodfall Temple Entrance Room Deku Flowers",
+            "name": "Entrance Room Deku Flowers",
             "item_count": 4,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -35,7 +35,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Woodfall Temple Entrance Room Beehive",
+            "name": "Entrance Room Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
             "clear_as_group": false,
@@ -44,12 +44,12 @@
             ]
           },
           {
-            "name": "Woodfall Temple Entrance Chest SF",
+            "name": "Entrance Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": [""]
           },
           {
-            "name": "Woodfall Temple Main Room Grass",
+            "name": "Main Room Grass",
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -57,14 +57,14 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Woodfall Temple Main Room Deku Flower",
+            "name": "Main Room Deku Flower",
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Woodfall Temple Main Room Pots",
+            "name": "Main Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,
@@ -72,22 +72,22 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Woodfall Temple Bridge Room Web",
+            "name": "Bridge Room Web",
             "chest_unopened_img": "images/icons/web.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
             "visibility_rules": ["web_sanity"]
           },
           {
-            "name": "Woodfall Temple Switch Chest SF",
+            "name": "Switch Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": ["bow"]
           },
           {
-            "name": "Woodfall Temple Ledge Chest",
+            "name": "Ledge Chest",
             "access_rules": [""]
           },
           {
-            "name": "Woodfall Temple Elevator Room Grass",
+            "name": "Elevator Room Grass",
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -95,7 +95,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Woodfall Temple Elevator Room Deku Flowers",
+            "name": "Elevator Room Deku Flowers",
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -103,7 +103,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Woodfall Temple Deku Elevator Pots",
+            "name": "Deku Elevator Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
@@ -111,11 +111,11 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Woodfall Temple Turtle Chest",
+            "name": "Turtle Chest",
             "access_rules": ["$has_enemy_soul|soul_snappers"]
           },
           {
-            "name": "Woodfall Temple Turtle Room Grass",
+            "name": "Turtle Room Grass",
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -123,7 +123,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Woodfall Temple Turtle Room Deku Flowers",
+            "name": "Turtle Room Deku Flowers",
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -131,7 +131,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Woodfall Temple Dinolfos Chest",
+            "name": "Dinolfos Chest",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard",
               "normal_logic, $has_enemy_soul|soul_dinolfos, smallkey_wf, $can_smack",
@@ -140,7 +140,7 @@
             ]
           },
           {
-            "name": "Woodfall Temple Dinolfos Room Deku Flowers",
+            "name": "Dinolfos Room Deku Flowers",
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -151,14 +151,14 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Woodfall Temple Gekko Chest",
+            "name": "Gekko Chest",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, $baby_has_explosives, deku, goron",
               "normal_logic, $has_enemy_soul|soul_gekko, bow, $can_smack"
             ]
           },
           {
-            "name": "Woodfall Temple Gekko Deku Flowers",
+            "name": "Gekko Deku Flowers",
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -166,7 +166,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Woodfall Temple Gekko Pots",
+            "name": "Gekko Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
@@ -174,13 +174,13 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Woodfall Temple Frog",
+            "name": "Frog",
             "chest_unopened_img": "images/frogs/frog_cyan.png",
             "visibility_rules": ["frogsanity"],
             "access_rules": ["$has_enemy_soul|soul_gekko, $has_absurd_soul|soul_deku_flowers, deku, bow, $can_smack, dongero"]
           },
           {
-            "name": "Woodfall Temple Dragonfly Chest",
+            "name": "Dragonfly Chest",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles",
               "normal_logic, $has_enemy_soul|soul_dragonflies, smallkey_wf",
@@ -189,7 +189,7 @@
             ]
           },
           {
-            "name": "Woodfall Temple Dragonfly Chest Room Grass",
+            "name": "Dragonfly Chest Room Grass",
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -200,7 +200,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Woodfall Temple Dragonfly Room Deku Flowers",
+            "name": "Dragonfly Room Deku Flowers",
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -211,7 +211,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Woodfall Temple 2nd Floor Moving Flower Platform Room Grass",
+            "name": "2nd Floor Moving Flower Platform Room Grass",
             "item_count": 11,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -222,7 +222,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Woodfall Temple 2nd Floor Moving Deku Flowers",
+            "name": "2nd Floor Moving Deku Flowers",
             "item_count": 4,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -233,7 +233,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Woodfall Temple Dark Room Chest SF",
+            "name": "Dark Room Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_can_smack",
@@ -243,19 +243,19 @@
             ]
           },
           {
-            "name": "Woodfall Temple Entrance Freestanding SF",
+            "name": "Entrance Freestanding SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [""]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Deku Baba SF",
+            "name": "Deku Baba SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": ["$has_enemy_soul|soul_deku_baba"]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Main Room Bubble SF",
+            "name": "Main Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, fairymask",
@@ -264,13 +264,13 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pot SF",
+            "name": "Pot SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": ["$has_absurd_soul|soul_pots"]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Platform Hive SF",
+            "name": "Platform Hive SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, fairymask",
@@ -282,7 +282,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Skulltula SF",
+            "name": "Skulltula SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_can_smack_hard, $baby_has_projectiles",
@@ -293,7 +293,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Left Side Bridge Pots",
+            "name": "Left Side Bridge Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -301,7 +301,7 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Woodfall Temple Bridge Room Bubble SF",
+            "name": "Bridge Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
@@ -313,7 +313,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Bridge Room Hive SF",
+            "name": "Bridge Room Hive SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
@@ -324,7 +324,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Bridge Room Beehive",
+            "name": "Bridge Room Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
             "clear_as_group": false,
@@ -334,13 +334,13 @@
             ]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Upper Right Bubble SF",
+            "name": "Pre-Boss Upper Right Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": ["bow"]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Lower Right Bubble SF",
+            "name": "Pre-Boss Lower Right Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, ",
@@ -350,7 +350,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Upper Left Bubble SF",
+            "name": "Pre-Boss Upper Left Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, $can_use_fire_arrows",
@@ -360,7 +360,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Pillar Bubble SF",
+            "name": "Pre-Boss Pillar Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, fairymask, $can_use_fire_arrows",
@@ -370,7 +370,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Room Grass",
+            "name": "Pre-Boss Room Grass",
             "item_count": 5,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -381,7 +381,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Deku Flowers",
+            "name": "Pre-Boss Deku Flowers",
             "item_count": 10,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -392,7 +392,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Pots",
+            "name": "Pre-Boss Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -425,7 +425,7 @@
             ]
           },
           {
-            "name": "Woodfall Temple Heart Container",
+            "name": "Heart Container",
             "chest_unopened_img": "images/equipment/heart_container.png",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
@@ -435,7 +435,7 @@
             ]
           },
           {
-            "name": "Woodfall Temple Odolwa's Remains",
+            "name": "Odolwa's Remains",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
               "normal_logic, $has_boss_soul|soul_odolwa, bow, $can_smack, bosskey_wf",
@@ -455,7 +455,7 @@
             "hosted_item": "oath_wft"
           },
           {
-            "name": "Woodfall Temple Odolwa's Lair Grass",
+            "name": "Odolwa's Lair Grass",
             "item_count": 16,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -467,7 +467,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Woodfall Temple Odolwa's Lair Deku Flower",
+            "name": "Odolwa's Lair Deku Flower",
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": [

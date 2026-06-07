@@ -154,10 +154,10 @@
         ]
       },
       {
-        "name": "South Clock Town",
+        "name": "South Clock Town Tower",
         "sections": [
           {
-            "name": "Final Day Tower Chest",
+            "name": "Chest (Final Day)",
             "access_rules": [
               "easy_logic, hookshot, deku, moontear",
               "normal_logic, hookshot",
@@ -179,10 +179,10 @@
         ]
       },
       {
-        "name": "South Clock Town",
+        "name": "South Clock Town Corner",
         "sections": [
           {
-            "name": "Corner Chest",
+            "name": "Chest",
             "access_rules": ["hookshot"]
           }
         ],

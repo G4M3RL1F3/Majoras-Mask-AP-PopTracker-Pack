@@ -90,7 +90,7 @@
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest",
               "normal_logic, $has_npc_soul|soul_researcher, $bottleCount|1, $can_reach_seahorse",
-              "normal_logic, $has_npc_soul|soul_researcher, $bottleCount|1, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
+              "normal_logic, $has_npc_soul|soul_researcher, $bottleCount|1, @Dungeons/Pirates' Fortress/Leader's Room Chest, hookshot"
             ]
           },
           {

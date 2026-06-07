@@ -822,7 +822,7 @@
         "chest_unopened_img": "images/icons/chest.png",
         "sections": [
           {
-            "name": "Termina Underwater Chest",
+            "name": "Underwater Chest",
             "access_rules": ["zora"]
           },
           {

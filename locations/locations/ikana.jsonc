@@ -8,7 +8,7 @@
         "name": "Road to Ikana Pillar Chest",
         "sections": [
           {
-            "name": "Road to Ikana Pillar Chest",
+            "name": "Chest",
             "access_rules": ["hookshot"]
           }
         ],

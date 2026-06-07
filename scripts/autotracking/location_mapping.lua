@@ -384,7 +384,7 @@ LOCATION_MAPPING = {
     [0x000057] = {"@Dungeons/Great Bay Temple/Gyorg's Remains"},
 
     -- Road to Ikana
-    [0x065300] = {"@Ikana/Road to Ikana/Pillar Chest"},
+    [0x065300] = {"@Ikana/Road to Ikana Pillar Chest/Chest"},
     [0x060716] = {"@Ikana/Road to Ikana Rock Grotto/Chest"},
     [0x00008B] = {"@Ikana/Road to Ikana/Stone Soldier"},
 

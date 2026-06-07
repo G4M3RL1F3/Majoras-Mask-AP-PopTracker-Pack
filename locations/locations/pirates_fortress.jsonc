@@ -6,7 +6,7 @@
         "name": "Pirates' Fortress Exterior Underwater Log Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Log Chest"
+            "ref": "Dungeons/Pirates' Fortress/Exterior Underwater Log Chest"
           }
         ],
         "map_locations": [
@@ -21,7 +21,7 @@
         "name": "Pirates' Fortress Exterior Underwater Near Entrance Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Near Entrance Chest"
+            "ref": "Dungeons/Pirates' Fortress/Exterior Underwater Near Entrance Chest"
           }
         ],
         "map_locations": [
@@ -36,7 +36,7 @@
         "name": "Pirates' Fortress Exterior Underwater Corner Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Corner Chest"
+            "ref": "Dungeons/Pirates' Fortress/Exterior Underwater Corner Chest"
           }
         ],
         "map_locations": [
@@ -66,10 +66,10 @@
         "name": "Pirates' Fortress Sewers Cage HP",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Cage HP"
+            "ref": "Dungeons/Pirates' Fortress/Sewers Cage HP"
           },
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Cage Room Pots"
+            "ref": "Dungeons/Pirates' Fortress/Sewers Cage Room Pots"
           }
         ],
         "map_locations": [
@@ -102,7 +102,7 @@
         "name": "Pirates' Fortress Sewers Maze Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Maze Chest"
+            "ref": "Dungeons/Pirates' Fortress/Sewers Maze Chest"
           }
         ],
         "map_locations": [
@@ -117,7 +117,7 @@
         "name": "Pirates' Fortress Sewers Underwater Lower Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Underwater Lower Chest"
+            "ref": "Dungeons/Pirates' Fortress/Sewers Underwater Lower Chest"
           }
         ],
         "map_locations": [
@@ -132,7 +132,7 @@
         "name": "Pirates' Fortress Sewers Underwater Upper Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Underwater Upper Chest"
+            "ref": "Dungeons/Pirates' Fortress/Sewers Underwater Upper Chest"
           }
         ],
         "map_locations": [
@@ -147,7 +147,7 @@
         "name": "Sewers Ladder Pots",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers After Gate Hidden Ladder Pots"
+            "ref": "Dungeons/Pirates' Fortress/Sewers After Gate Hidden Ladder Pots"
           }
         ],
         "map_locations": [
@@ -162,7 +162,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Exit Pots"
+            "ref": "Dungeons/Pirates' Fortress/Sewers Exit Pots"
           },
           {
             "ref": "Dungeons/Pirates' Fortress/Sewers Exit Barrels"
@@ -221,10 +221,10 @@
         "name": "Pirates' Fortress Interior Tank Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Tank Chest"
+            "ref": "Dungeons/Pirates' Fortress/Interior Tank Chest"
           },
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Underwater Chest Room Pots"
+            "ref": "Dungeons/Pirates' Fortress/Interior Underwater Chest Room Pots"
           }
         ],
         "map_locations": [
@@ -239,7 +239,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Room Past Green Guard Pots"
+            "ref": "Dungeons/Pirates' Fortress/Interior Room Past Green Guard Pots"
           }
         ],
         "map_locations": [
@@ -254,7 +254,7 @@
         "name": "Pirates' Fortress Interior Guarded Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Guarded Chest"
+            "ref": "Dungeons/Pirates' Fortress/Interior Guarded Chest"
           }
         ],
         "map_locations": [
@@ -269,7 +269,7 @@
         "name": "",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Room Past Pink Guard Pots"
+            "ref": "Dungeons/Pirates' Fortress/Interior Room Past Pink Guard Pots"
           },
           {
             "ref": "Dungeons/Pirates' Fortress/Interior Room Past Pink Guard Barrel"
@@ -302,7 +302,7 @@
         "name": "Pirates' Fortress Hub Lower Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Hub Lower Chest"
+            "ref": "Dungeons/Pirates' Fortress/Hub Lower Chest"
           }
         ],
         "map_locations": [
@@ -317,7 +317,7 @@
         "name": "Pirates' Fortress Hub Upper Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Hub Upper Chest"
+            "ref": "Dungeons/Pirates' Fortress/Hub Upper Chest"
           }
         ],
         "map_locations": [
@@ -332,7 +332,7 @@
         "name": "Upper Leader's Room Pots",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Upper Beehive Room Pots"
+            "ref": "Dungeons/Pirates' Fortress/Interior Upper Beehive Room Pots"
           }
         ],
         "map_locations": [
@@ -377,7 +377,7 @@
         "name": "Pirates' Fortress Leader's Room Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
+            "ref": "Dungeons/Pirates' Fortress/Leader's Room Chest"
           }
         ],
         "map_locations": [

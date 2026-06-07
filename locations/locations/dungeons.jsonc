@@ -1521,19 +1521,19 @@
             "access_rules": ["$has_absurd_soul|soul_barrels, zora"]
           },
           {
-            "name": "Pirates' Fortress Exterior Underwater Log Chest",
+            "name": "Exterior Underwater Log Chest",
             "access_rules": ["zora"]
           },
           {
-            "name": "Pirates' Fortress Exterior Underwater Near Entrance Chest",
+            "name": "Exterior Underwater Near Entrance Chest",
             "access_rules": ["zora"]
           },
           {
-            "name": "Pirates' Fortress Exterior Underwater Corner Chest",
+            "name": "Exterior Underwater Corner Chest",
             "access_rules": ["zora"]
           },
           {
-            "name": "Fortress Exterior Balcony Barrel",
+            "name": "Exterior Balcony Barrel",
             "chest_unopened_img": "images/absurd/barrel.png",
             "visibility_rules": ["wood_sanity"],
             "clear_as_group": false,
@@ -1548,7 +1548,7 @@
             "access_rules": ["$has_absurd_soul|soul_barrels, zora"]
           },
           {
-            "name": "Pirates' Fortress Sewers Cage HP",
+            "name": "Sewers Cage HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, goron, bow",
@@ -1556,7 +1556,7 @@
             ]
           },
           {
-            "name": "Pirates' Fortress Sewers Cage Room Pots",
+            "name": "Sewers Cage Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -1580,7 +1580,7 @@
             "access_rules": ["goron, zora"]
           },
           {
-            "name": "Pirates' Fortress Sewers After Gate Hidden Ladder Pots",
+            "name": "Sewers After Gate Hidden Ladder Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -1591,19 +1591,19 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Pirates' Fortress Sewers Maze Chest",
+            "name": "Sewers Maze Chest",
             "access_rules": ["goron"]
           },
           {
-            "name": "Pirates' Fortress Sewers Underwater Lower Chest",
+            "name": "Sewers Underwater Lower Chest",
             "access_rules": ["goron"]
           },
           {
-            "name": "Pirates' Fortress Sewers Underwater Upper Chest",
+            "name": "Sewers Underwater Upper Chest",
             "access_rules": ["goron"]
           },
           {
-            "name": "Pirates' Fortress Sewers Exit Pots",
+            "name": "Sewers Exit Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
@@ -1646,14 +1646,14 @@
             "access_rules": ["$pirates_fortress_interior, hookshot"]
           },
           {
-            "name": "Pirates' Fortress Interior Tank Chest",
+            "name": "Interior Tank Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, hookshot, $baby_can_smack_hard, magic, stonemask",
               "normal_logic, $has_enemy_soul|soul_coloured_pirates, $pirates_fortress_interior, hookshot, $can_smack_hard"
             ]
           },
           {
-            "name": "Pirates' Fortress Interior Underwater Chest Room Pots",
+            "name": "Interior Underwater Chest Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
@@ -1661,14 +1661,14 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Pirates' Fortress Interior Guarded Chest",
+            "name": "Interior Guarded Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
               "normal_logic, $pirates_fortress_interior, hookshot"
             ]
           },
           {
-            "name": "Pirates' Fortress Interior Room Past Pink Guard Pots",
+            "name": "Interior Room Past Pink Guard Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -1683,7 +1683,7 @@
             "access_rules": ["$pirates_fortress_interior, $has_absurd_soul|soul_barrels, $has_enemy_soul|soul_coloured_pirates, hookshot"]
           },
           {
-            "name": "Pirates' Fortress Interior Room Past Green Guard Pots",
+            "name": "Interior Room Past Green Guard Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
@@ -1695,18 +1695,18 @@
             "chest_unopened_img": "images/icons/hitspot.png",
             "item_count": 6,
             "clear_as_group": false,
-            "access_rules": ["$has_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Hub Lower Chest"],
+            "access_rules": ["$has_projectiles, @Dungeons/Pirates' Fortress/Hub Lower Chest"],
             "visibility_rules": ["hit_sanity"]
           },
           {
-            "name": "Pirates' Fortress Hub Lower Chest",
+            "name": "Hub Lower Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, goron, hookshot, stonemask",
               "normal_logic, $pirates_fortress_interior"
             ]
           },
           {
-            "name": "Pirates' Fortress Hub Upper Chest",
+            "name": "Hub Upper Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, hookshot, stonemask",
               "normal_logic, $pirates_fortress_interior, hookshot"
@@ -1720,7 +1720,7 @@
             "access_rules": ["$pirates_fortress_interior, $has_absurd_soul|soul_barrels, hookshot"]
           },
           {
-            "name": "Pirates' Fortress Interior Upper Beehive Room Pots",
+            "name": "Interior Upper Beehive Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -1744,7 +1744,7 @@
             "visibility_rules": ["hit_sanity"]
           },
           {
-            "name": "Pirates' Fortress Leader's Room Chest",
+            "name": "Leader's Room Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
               "normal_logic, $pirates_fortress_interior, hookshot, bow",

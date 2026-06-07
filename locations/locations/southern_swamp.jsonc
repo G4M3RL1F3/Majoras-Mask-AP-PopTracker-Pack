@@ -214,12 +214,12 @@
         "name": "Swamp Business Scrub",
         "sections": [
           {
-            "name": "Southern Swamp Deku Trade",
+            "name": "Deku Trade (as Human)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["$has_npc_soul|soul_business_scrub, landdeed"]
           },
           {
-            "name": "Southern Swamp Deku Scrub Purchase",
+            "name": "Scrub Purchase (as Deku)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
@@ -229,19 +229,19 @@
             ]
           },
           {
-            "name": "Southern Swamp Freestanding Heart Piece",
+            "name": "Freestanding Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["$has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, deku, landdeed"]
           },
           {
-            "name": "Business Scrub Deku Flower",
+            "name": "Deku Flower",
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, landdeed"],
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Post Dungeon Business Scrub Deku Flower",
+            "name": "Post Dungeon Deku Flower",
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$clear_woodfall, $has_absurd_soul|soul_deku_flowers, deku"],

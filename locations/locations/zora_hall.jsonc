@@ -27,13 +27,13 @@
         "name": "Lulu's Room",
         "sections": [
           {
-            "ref": "Great Bay/Zora Hall/Deku Scrub Purchase"
+            "ref": "Great Bay/Zora Hall/Deku Scrub Purchase (as Zora)"
           },
           {
-            "ref": "Great Bay/Zora Hall/Goron Scrub Trade"
+            "ref": "Great Bay/Zora Hall/Deku Trade (as Goron)"
           },
           {
-            "ref": "Great Bay/Zora Hall/Goron Scrub Trade Freestanding HP"
+            "ref": "Great Bay/Zora Hall/Freestanding Heart Piece"
           },
           {
             "ref": "Great Bay/Zora Hall/Business Scrub Deku Flower"

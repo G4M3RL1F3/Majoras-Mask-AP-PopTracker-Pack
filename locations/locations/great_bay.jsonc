@@ -559,18 +559,6 @@
       {
         "name": "Zora Hall",
         "access_rules": ["zora"],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 215,
-            "y": 394
-          },
-          {
-            "map": "zora_cape",
-            "x": 230,
-            "y": 110
-          }
-        ],
         "sections": [
           {
             "name": "Shop 1",
@@ -597,7 +585,7 @@
             "access_rules": ["$has_npc_soul|soul_shop_owners, zora, $can_afford|Great Bay/Zora Hall/Shop 3"]
           },
           {
-            "name": "Deku Scrub Purchase",
+            "name": "Deku Scrub Purchase (as Zora)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
@@ -606,7 +594,7 @@
             ]
           },
           {
-            "name": "Deku Scrub Mountain Deed Trade (As Goron)",
+            "name": "Deku Trade (as Goron)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["$has_npc_soul|soul_business_scrub, goron, zora, mountaindeed"]
           },
@@ -618,7 +606,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Goron Trade Freestanding Heart Piece",
+            "name": "Freestanding Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_business_scrub, deku, goron, zora, mountaindeed"]
           },
@@ -657,6 +645,18 @@
             "chest_unopened_img": "images/characters/scarecrow.png",
             "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
             "visibility_rules": ["scarecrow_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 215,
+            "y": 394
+          },
+          {
+            "map": "zora_cape",
+            "x": 230,
+            "y": 110
           }
         ]
       },
@@ -1580,84 +1580,8 @@
         ]
       },
       {
+        "name": "Zora Hall Scarecrow",
         "sections": [
-          {
-            "ref": "Great Bay/Zora Hall/Shop 1"
-          },
-          {
-            "ref": "Great Bay/Zora Hall/Shop 2"
-          },
-          {
-            "ref": "Great Bay/Zora Hall/Shop 3"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "zora_hall",
-            "x": 1050,
-            "y": 650
-          }
-        ]
-      },
-      {
-        "sections": [
-          {
-            "ref": "Great Bay/Zora Hall/Deku Scrub Purchase"
-          },
-          {
-            "ref": "Great Bay/Zora Hall/Deku Scrub Mountain Deed Trade (As Goron)"
-          },
-          {
-            "ref": "Great Bay/Zora Hall/Deku Flower"
-          },
-          {
-            "ref": "Great Bay/Zora Hall/Goron Trade Freestanding Heart Piece"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "zora_hall",
-            "x": 470,
-            "y": 150
-          }
-        ]
-      },
-      {
-        "sections": [
-          {
-            "ref": "Great Bay/Zora Hall/Evan's Song"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "zora_hall",
-            "x": 610,
-            "y": 90
-          }
-        ]
-      },
-      {
-        "sections": [
-          {
-            "ref": "Great Bay/Zora Hall/Torches Reward"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "zora_hall",
-            "x": 675,
-            "y": 350
-          }
-        ]
-      },
-      {
-        "sections": [
-          {
-            "ref": "Great Bay/Zora Hall/Good Picture of Lulu"
-          },
-          {
-            "ref": "Great Bay/Zora Hall/Bad Picture of Lulu"
-          },
           {
             "ref": "Great Bay/Zora Hall/Scarecrow"
           }

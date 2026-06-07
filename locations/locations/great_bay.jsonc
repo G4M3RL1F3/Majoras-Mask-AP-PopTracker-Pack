@@ -594,7 +594,7 @@
             ]
           },
           {
-            "name": "Deku Trade (as Goron)",
+            "name": "Deed Trade (as Goron)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["$has_npc_soul|soul_business_scrub, goron, zora, mountaindeed"]
           },

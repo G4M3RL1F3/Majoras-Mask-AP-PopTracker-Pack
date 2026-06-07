@@ -214,7 +214,7 @@
         "name": "Swamp Business Scrub",
         "sections": [
           {
-            "name": "Deku Trade (as Human)",
+            "name": "Deed Trade (as Human)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["$has_npc_soul|soul_business_scrub, landdeed"]
           },
@@ -1285,7 +1285,7 @@
       {
         "sections": [
           {
-            "ref": "Southern Swamp/Swamp Business Scrub/Southern Swamp Deku Trade"
+            "ref": "Southern Swamp/Swamp Business Scrub/Deed Trade (as Human)"
           },
           {
             "ref": "Southern Swamp/Swamp Business Scrub/Southern Swamp Deku Scrub Purchase"

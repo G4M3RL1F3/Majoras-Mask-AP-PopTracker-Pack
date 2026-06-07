@@ -803,7 +803,7 @@
             ]
           },
           {
-            "name": "Deku Trade",
+            "name": "Deed Trade (as Deku)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["normal_logic, $has_npc_soul|soul_business_scrub, deku, swampdeed"]
           },
@@ -817,7 +817,7 @@
           {
             "name": "Freestanding Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["$has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, @Goron Village/Deku Trade"]
+            "access_rules": ["$has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, @Goron Village/Deed Trade (as Deku)"]
           },
           {
            "name": "Spring Freestanding Heart Piece",
@@ -2320,7 +2320,7 @@
             "ref": "Snowhead/Goron Village/Scrub Purchase"
           },
           {
-            "ref": "Snowhead/Goron Village/Deku Trade"
+            "ref": "Snowhead/Goron Village/Deed Trade (as Deku)"
           },
           {
             "ref": "Snowhead/Goron Village/Business Scrub Deku Flower"

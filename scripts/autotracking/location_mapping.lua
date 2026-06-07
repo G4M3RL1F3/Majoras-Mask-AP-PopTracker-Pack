@@ -356,7 +356,7 @@ LOCATION_MAPPING = {
     [0x062816] = {"@Dungeons/Ocean Spider House/Storage Room Crate Token"},
     [0x06280A] = {"@Dungeons/Ocean Spider House/Storage Room Hidden Hole Token"},
     [0x06281A] = {"@Dungeons/Ocean Spider House/Storage Room Ceiling Pot Token"},
-    [0x062800] = {"@Dungeons/Ocean Spider House/Coloured Mask Sequence Heart Piece"},
+    [0x062800] = {"@Dungeons/Ocean Spider House/Coloured Mask Sequence HP"},
     [0x000009] = {"@Dungeons/Ocean Spider House/Ocean Spider House Reward"},
 
     -- Great Bay Temple

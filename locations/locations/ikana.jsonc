@@ -65,7 +65,7 @@
             ]
           },
           {
-            "name": "Road to Ikana Stone Soldier",
+            "name": "Stone Soldier",
             "chest_unopened_img": "images/characters/shiro.png",
             "access_rules": [
               "easy_logic, $can_play_song|epona, $baby_has_bottle, $can_use_lens",
@@ -81,7 +81,7 @@
             ]
           },
           {
-            "name": "Shiro's Safety Rock Circle",
+            "name": "Rock Circle",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
             "item_count": 8,

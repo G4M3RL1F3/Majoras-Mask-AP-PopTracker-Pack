@@ -84,7 +84,7 @@
         "name": "Bridge Room Pots",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Blue Door Lava Bridge Pots"
+            "ref": "Dungeons/Snowhead Temple/Blue Door Lava Bridge Pots"
           }
         ],
         "map_locations": [
@@ -99,7 +99,7 @@
         "name": "Main Room Scarecrow Pots",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Main Room Scarecrow Pots"
+            "ref": "Dungeons/Snowhead Temple/Main Room Scarecrow Pots"
           },
           {
             "ref": "Dungeons/Snowhead Temple/Lower Scarecrow"
@@ -216,7 +216,7 @@
         "name": "Gray Door Wolfos Pots",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Locked Grey Door Wolfos Pots"
+            "ref": "Dungeons/Snowhead Temple/Locked Grey Door Wolfos Pots"
           }
         ],
         "map_locations": [
@@ -266,7 +266,7 @@
         "name": "Orange Door Pots",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Orange Door Push Block Pots"
+            "ref": "Dungeons/Snowhead Temple/Orange Door Push Block Pots"
           }
         ],
         "map_locations": [
@@ -301,7 +301,7 @@
         "name": "Frozen Green Door Pots (Lower)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Frozen Green Door Pots (Lower)"
+            "ref": "Dungeons/Snowhead Temple/Frozen Green Door Pots (Lower)"
           }
         ],
         "map_locations": [
@@ -321,7 +321,7 @@
         "name": "Frozen Green Door Pots (Upper)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Frozen Green Door Pots (Upper)"
+            "ref": "Dungeons/Snowhead Temple/Frozen Green Door Pots (Upper)"
           }
         ],
         "map_locations": [
@@ -361,7 +361,7 @@
         "name": "Main Room Basement Grass",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Basement Grass"
+            "ref": "Dungeons/Snowhead Temple/Basement Grass"
           }
         ],
         "map_locations": [
@@ -376,7 +376,7 @@
         "name": "Main Room Basement Pots",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Main Room Basement Pots"
+            "ref": "Dungeons/Snowhead Temple/Main Room Basement Pots"
           }
         ],
         "map_locations": [
@@ -553,7 +553,7 @@
         "name": "Goron Puzzle Room Pots",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Goron Pound Puzzle Pots"
+            "ref": "Dungeons/Snowhead Temple/Goron Pound Puzzle Pots"
           }
         ],
         "map_locations": [
@@ -568,7 +568,7 @@
         "name": "2nd Floor Bridge Pots",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Main Room 2nd Floor Bridge Pots"
+            "ref": "Dungeons/Snowhead Temple/Main Room 2nd Floor Bridge Pots"
           }
         ],
         "map_locations": [
@@ -699,7 +699,7 @@
         "name": "4th Floor Pots",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple Main Room 4th Floor Pots"
+            "ref": "Dungeons/Snowhead Temple/Main Room 4th Floor Pots"
           }
         ],
         "map_locations": [
@@ -744,7 +744,7 @@
         "name": "4th Floor Wizrobe Pots",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowhead Temple 4th Floor Wizrobe Pots"
+            "ref": "Dungeons/Snowhead Temple/4th Floor Wizrobe Pots"
           }
         ],
         "map_locations": [

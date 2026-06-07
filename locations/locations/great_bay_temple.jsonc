@@ -104,7 +104,7 @@
         "name": "Above Blender Pots",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Above Blender Pots"
+            "ref": "Dungeons/Great Bay Temple/Above Blender Pots"
           }
         ],
         "map_locations": [
@@ -149,7 +149,7 @@
         "name": "Red-Green Pipe Room Pots (3 Above/8 Below)",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Red Green Pipe Tunnel Room Pots"
+            "ref": "Dungeons/Great Bay Temple/Red Green Pipe Tunnel Room Pots"
           }
         ],
         "map_locations": [
@@ -235,7 +235,7 @@
             "ref": "Dungeons/Great Bay Temple/Jellied Gekko Room Crates"
           },
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Frog"
+            "ref": "Dungeons/Great Bay Temple/Frog"
           }
         ],
         "map_locations": [
@@ -283,7 +283,7 @@
         "name": "Caged Chest Room Pots",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Before Gekko Room Pots"
+            "ref": "Dungeons/Great Bay Temple/Before Gekko Room Pots"
           }
         ],
         "map_locations": [
@@ -313,7 +313,7 @@
         "name": "Red Valve Room Underwater Pots",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Red Valve Underwater Pots"
+            "ref": "Dungeons/Great Bay Temple/Red Valve Underwater Pots"
           }
         ],
         "map_locations": [
@@ -328,7 +328,7 @@
         "name": "Locked Door Pots",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Behind Locked Door Pots"
+            "ref": "Dungeons/Great Bay Temple/Behind Locked Door Pots"
           }
         ],
         "map_locations": [
@@ -346,7 +346,7 @@
             "ref": "Dungeons/Great Bay Temple/Behind Locked Door Chest"
           },
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Wart Room Pots"
+            "ref": "Dungeons/Great Bay Temple/Wart Room Pots"
           }
         ],
         "map_locations": [
@@ -376,7 +376,7 @@
         "name": "Behind Waterfall Pots (4 Corners Underwater)",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Room Behind 1F Waterfall Pots"
+            "ref": "Dungeons/Great Bay Temple/Room Behind 1F Waterfall Pots"
           }
         ],
         "map_locations": [
@@ -456,7 +456,7 @@
         "name": "Frozen Waterwheel Pots (All Underwater)",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Green Pipe Frozen Waterwheel Pots"
+            "ref": "Dungeons/Great Bay Temple/Green Pipe Frozen Waterwheel Pots"
           }
         ],
         "map_locations": [
@@ -501,7 +501,7 @@
         "name": "Seesaw Room Pots",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Seesaw Room Pots"
+            "ref": "Dungeons/Great Bay Temple/Seesaw Room Pots"
           }
         ],
         "map_locations": [
@@ -581,7 +581,7 @@
         "name": "Underneath Boss Door Platform Pots",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Underneath Boss Door Platform Pots"
+            "ref": "Dungeons/Great Bay Temple/Underneath Boss Door Platform Pots"
           }
         ],
         "map_locations": [
@@ -605,7 +605,7 @@
             "ref": "Dungeons/Great Bay Temple/Oath to Order"
           },
           {
-            "ref": "Dungeons/Great Bay Temple/Great Bay Temple Gyorg Pots"
+            "ref": "Dungeons/Great Bay Temple/Gyorg Pots"
           }
         ],
         "map_locations": [

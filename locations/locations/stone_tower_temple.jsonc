@@ -36,7 +36,7 @@
         "name": "Entrance Room Grass",
         "sections": [
           {
-            "ref": "Dungeons/Stone Tower Temple/Stone Tower Temple Entrance Room Grass"
+            "ref": "Dungeons/Stone Tower Temple/Entrance Room Grass"
           },
           {
             "ref": "Dungeons/Stone Tower Temple/Entrance Room Crates"
@@ -54,7 +54,7 @@
         "name": "Entrance Room Pots",
         "sections": [
           {
-            "ref": "Dungeons/Stone Tower Temple/Stone Tower Temple Entrance Pots"
+            "ref": "Dungeons/Stone Tower Temple/Entrance Pots"
           }
         ],
         "map_locations": [
@@ -84,7 +84,7 @@
         "name": "Elegy Maze Grass",
         "sections": [
           {
-            "ref": "Dungeons/Stone Tower Temple/Stone Tower Temple Elegy Maze Grass"
+            "ref": "Dungeons/Stone Tower Temple/Elegy Maze Grass"
           }
         ],
         "map_locations": [

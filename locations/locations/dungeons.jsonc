@@ -561,7 +561,7 @@
             "clear_as_group": false
           },
           {
-            "name": "Snowhead Temple Blue Door Lava Bridge Pots",
+            "name": "Blue Door Lava Bridge Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 7,
             "clear_as_group": false,
@@ -569,7 +569,7 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Snowhead Temple Main Room Basement Pots",
+            "name": "Main Room Basement Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -583,7 +583,7 @@
             "visibility_rules": ["scarecrow_sanity"]
           },
           {
-            "name": "Snowhead Temple Main Room Scarecrow Pots",
+            "name": "Main Room Scarecrow Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -591,7 +591,7 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Snowhead Temple Main Room 2nd Floor Bridge Pots",
+            "name": "Main Room 2nd Floor Bridge Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -613,7 +613,7 @@
             ]
           },
           {
-            "name": "Snowhead Temple Frozen Green Door Pots (Lower)",
+            "name": "Frozen Green Door Pots (Lower)",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 7,
             "clear_as_group": false,
@@ -621,7 +621,7 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Snowhead Temple Frozen Green Door Pots (Upper)",
+            "name": "Frozen Green Door Pots (Upper)",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 6,
             "clear_as_group": false,
@@ -675,7 +675,7 @@
             "visibility_rules": ["icicle_sanity"]
           },
           {
-            "name": "Snowhead Temple Locked Grey Door Wolfos Pots",
+            "name": "Locked Grey Door Wolfos Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 5,
             "clear_as_group": false,
@@ -697,7 +697,7 @@
             "access_rules": [""]
           },
           {
-            "name": "Snowhead Temple Orange Door Push Block Pots",
+            "name": "Orange Door Push Block Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
@@ -726,7 +726,7 @@
             "access_rules": [""]
           },
           {
-            "name": "Snowhead Temple Basement Grass",
+            "name": "Basement Grass",
             "item_count": 10,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -869,7 +869,7 @@
             "access_rules": ["$can_use_fire_arrows", "$has_explosives, $has|smallkey_sh|2"]
           },
           {
-            "name": "Snowhead Temple Goron Pound Puzzle Pots",
+            "name": "Goron Pound Puzzle Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -880,7 +880,7 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Snowhead Temple Main Room 2nd Floor Bridge Pots",
+            "name": "Main Room 2nd Floor Bridge Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -974,7 +974,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Snowhead Temple Main Room 4th Floor Pots",
+            "name": "Main Room 4th Floor Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -1005,7 +1005,7 @@
             ]
           },
           {
-            "name": "Snowhead Temple 4th Floor Wizrobe Pots",
+            "name": "4th Floor Wizrobe Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 5,
             "clear_as_group": false,
@@ -1169,7 +1169,7 @@
             ]
           },
           {
-            "name": "Great Bay Temple Above Blender Pots",
+            "name": "Above Blender Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -1212,7 +1212,7 @@
             "access_rules": ["$has_absurd_soul|soul_barrels, $can_use_ice_arrows"]
           },
           {
-            "name": "Great Bay Temple Red Green Pipe Tunnel Room Pots",
+            "name": "Red Green Pipe Tunnel Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 11,
             "clear_as_group": false,
@@ -1242,7 +1242,7 @@
             ]
           },
           {
-            "name": "Great Bay Temple Before Gekko Room Pots",
+            "name": "Before Gekko Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 7,
             "clear_as_group": false,
@@ -1268,7 +1268,7 @@
             ]
           },
           {
-            "name": "Great Bay Temple Frog",
+            "name": "Frog",
             "chest_unopened_img": "images/frogs/frog_pink.png",
             "visibility_rules": ["frogsanity"],
             "access_rules": ["$has_enemy_soul|soul_jellied_gekko, $can_use_ice_arrows, $can_use_fire_arrows, zora, dongero"]
@@ -1298,7 +1298,7 @@
             ]
           },
           {
-            "name": "Great Bay Temple Red Valve Underwater Pots",
+            "name": "Red Valve Underwater Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
@@ -1306,7 +1306,7 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Great Bay Temple Behind Locked Door Pots",
+            "name": "Behind Locked Door Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 12,
             "clear_as_group": false,
@@ -1329,7 +1329,7 @@
             ]
           },
           {
-            "name": "Great Bay Temple Wart Room Pots",
+            "name": "Wart Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,
@@ -1348,7 +1348,7 @@
             ]
           },
           {
-            "name": "Great Bay Temple Room Behind 1F Waterfall Pots",
+            "name": "Room Behind 1F Waterfall Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
@@ -1390,7 +1390,7 @@
             ]
           },
           {
-            "name": "Great Bay Temple Green Pipe Frozen Waterwheel Pots",
+            "name": "Green Pipe Frozen Waterwheel Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,
@@ -1415,7 +1415,7 @@
             ]
           },
           {
-            "name": "Great Bay Temple Seesaw Room Pots",
+            "name": "Seesaw Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 3,
             "clear_as_group": false,
@@ -1454,7 +1454,7 @@
             "access_rules": ["@Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF"]
           },
           {
-            "name": "Great Bay Temple Underneath Boss Door Platform Pots",
+            "name": "Underneath Boss Door Platform Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,
@@ -1492,7 +1492,7 @@
             "hosted_item": "oath_gbt"
           },
           {
-            "name": "Great Bay Temple Gyorg Pots",
+            "name": "Gyorg Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,
@@ -3089,7 +3089,7 @@
             "clear_as_group": false
           },
           {
-            "name": "Stone Tower Temple Entrance Room Grass",
+            "name": "Entrance Room Grass",
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -3105,7 +3105,7 @@
             ]
           },
           {
-            "name": "Stone Tower Temple Entrance Pots",
+            "name": "Entrance Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "access_rules": ["$has_absurd_soul|soul_pots"],
@@ -3126,7 +3126,7 @@
             "access_rules": ["$has_explosives"]
           },
           {
-            "name": "Stone Tower Temple Elegy Maze Grass",
+            "name": "Elegy Maze Grass",
             "item_count": 6,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",

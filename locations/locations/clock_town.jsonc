@@ -745,7 +745,7 @@
             ]
           },
           {
-            "name": "Pots Before Observatory",
+            "name": "Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,

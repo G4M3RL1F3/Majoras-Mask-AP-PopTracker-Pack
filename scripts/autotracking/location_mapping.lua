@@ -32,7 +32,7 @@ LOCATION_MAPPING = {
     [0x06172A] = {"@Clock Town/Treasure Game (6 AM - 10 PM)/Chest (Deku)"},
     [0x06170C] = {"@Clock Town/Treasure Game (6 AM - 10 PM)/Chest (Goron)"},
     [0x061704] = {"@Clock Town/Treasure Game (6 AM - 10 PM)/Chest (Zora)"},
-    [0x062900] = {"@Clock Town/Bomber's Secret Hideout/Bomber's Hideout Chest"},
+    [0x062900] = {"@Clock Town/Bomber's Secret Hideout/Hidden Chest"},
     [0x000096] = {"@Termina Field/Astral Observatory/Moon's Tear"},
     [0x0000A0] = {"@Clock Town/Stock Pot Inn/Reservation (Day 1: from 1 PM to 4 PM)"},
     [0x0000AA] = {"@Clock Town/Stock Pot Inn/Midnight Meeting (Night 1: 12 AM to 6 AM)"},
@@ -3434,7 +3434,7 @@ LOCATION_MAPPING = {
     [0x2F2833] = {"@Dungeons/Ocean Spider House/Dining Room Paintings"},
 
     -- Bombable Walls
-    [0x2F290F] = {"@Clock Town/Bomber's Secret Hideout/Bomber's Hideout Bombable Wall"},
+    [0x2F290F] = {"@Clock Town/Bomber's Secret Hideout/Bombable Wall"},
     [0x2F211F] = {"@Dungeons/Snowhead Temple/Frozen Block Room Bombable Wall"},
     [0x2F280F] = {"@Dungeons/Ocean Spider House/Entrance Bombable Wall"},
     [0x2F162F] = {"@Dungeons/Stone Tower Temple/Elegy Maze Bombable Wall"},

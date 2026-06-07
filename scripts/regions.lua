@@ -49,7 +49,7 @@ function baby_clear_woodfall()
     return baby_woodfall_temple() and has("bow") and baby_can_smack_hard() and has("bosskey_wf") and has("odolwa")
 end
 function clear_woodfall()
-    return woodfall_temple() and has("bow") and can_smack() and has("soul_odolwa") and (has("bosskey_wf") or (has("odolwa") and has("boss_warps_with_remains")))
+    return woodfall_temple() and has_boss_soul("soul_odolwa") and can_smack() and has("bow") and (has("bosskey_wf") or (has("odolwa") and has("boss_warps_with_remains")))
 end
 
 

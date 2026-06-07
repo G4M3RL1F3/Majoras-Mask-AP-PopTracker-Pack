@@ -406,9 +406,9 @@ LOCATION_MAPPING = {
 
     -- Ikana Canyon
     [0x060714] = {"@Ikana/Near Secret Shrine Entrance/Grotto Chest"},
-    [0x001307] = {"@Ikana/Near Sakon's Hideout Entrance/Deku Scrub Ocean Deed Trade (As Zora)"},
+    [0x001307] = {"@Ikana/Near Sakon's Hideout Entrance/Deed Trade (as Zora)"},
     [0x09015D] = {"@Ikana/Near Sakon's Hideout Entrance/Scrub Purchase"},
-    [0x05131E] = {"@Ikana/Near Sakon's Hideout Entrance/Zora Trade Freestanding Heart Piece"},
+    [0x05131E] = {"@Ikana/Near Sakon's Hideout Entrance/Zora Trade Freestanding HP"},
     [0x0000B9] = {"stone_tower_map_purchase_1"},
     [0x000087] = {"@Ikana/Ikana Canyon/Healing Pamela's Father"},
     [0x0701DE] = {"@Ikana/Ikana Canyon/Spirit House"},

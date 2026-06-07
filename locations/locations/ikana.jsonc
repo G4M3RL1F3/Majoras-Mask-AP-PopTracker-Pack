@@ -410,7 +410,7 @@
         ],
         "sections": [
           {
-            "name": "Zora Scrub Trade",
+            "name": "Deed Trade (as Zora)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, hookshot, gibdo, garo, zora, oceandeed",

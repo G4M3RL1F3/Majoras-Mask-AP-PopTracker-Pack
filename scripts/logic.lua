@@ -39,7 +39,7 @@ function can_get_cow_milk()
 end
 
 function can_plant_beans()
-    return can_get_magic_beans() and (bottleCount(1) or can_play_song("storms")) and has("beans")
+    return can_get_magic_beans() and (bottleCount(1) or can_play_song("storms"))
 end
 
 function can_use_powder_keg()

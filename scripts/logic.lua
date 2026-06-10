@@ -5,7 +5,7 @@ end
 -- Rules consistent between difficulties
 
 function can_get_magic_beans()
-    return has_npc_soul("soul_bean_seller") and has_absurd_soul("soul_grottos") and has("deku") and has("beans") and deku_palace()
+    return has_npc_soul("soul_bean_seller") and has_absurd_soul("soul_grottos") and has("deku") and deku_palace()
 end
 
 -- has_bombchus() unnecessary: any bombchu pickup is linked to one toggle "bombchu"
@@ -39,7 +39,7 @@ function can_get_cow_milk()
 end
 
 function can_plant_beans()
-    return can_get_magic_beans() and (bottleCount(1) or can_play_song("storms"))
+    return can_get_magic_beans() and (bottleCount(1) or can_play_song("storms")) and has("beans")
 end
 
 function can_use_powder_keg()

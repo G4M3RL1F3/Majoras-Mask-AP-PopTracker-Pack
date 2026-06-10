@@ -531,7 +531,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Woods of Mystery Days 1&3 Deku Flowers",
+            "name": "Days 1&3 Deku Flowers",
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -539,7 +539,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Woods of Mystery Day 2 Deku Flowers",
+            "name": "Day 2 Deku Flowers",
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -547,7 +547,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Woods of Mystery Day 3 Unique Grass",
+            "name": "Day 3 Unique Grass",
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -716,7 +716,7 @@
             "visibility_rules": ["sign_sanity"]
           },
           {
-            "name": "Palace Deku Flowers",
+            "name": "Deku Flowers",
             "item_count": 11,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -724,7 +724,7 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "Palace Deku Flower to Swamp Exit",
+            "name": "Deku Flower to Swamp Exit",
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/deku_flower.png",
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],

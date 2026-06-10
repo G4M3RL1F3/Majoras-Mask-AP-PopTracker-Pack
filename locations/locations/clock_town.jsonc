@@ -368,7 +368,7 @@
         "name": "Deku Playground",
         "sections": [
           {
-            "name": "Playground Exterior Flowers",
+            "name": "Exterior Flowers",
             "item_count": 2,
             "clear_as_group": true,
             "chest_unopened_img": "images/absurd/deku_flower.png",
@@ -410,7 +410,7 @@
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_deku_employee, deku"]
           },
           {
-            "name": "Playground Deku Flowers",
+            "name": "Deku Flowers",
             "item_count": 8,
             "clear_as_group": true,
             "chest_unopened_img": "images/absurd/deku_flower.png",

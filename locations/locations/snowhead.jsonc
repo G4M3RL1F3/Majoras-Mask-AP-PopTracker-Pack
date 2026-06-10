@@ -429,7 +429,7 @@
             "visibility_rules": ["scarecrow_sanity"]
           },
           {
-            "name": "Ramp Grotto Chest",
+            "name": "Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, goron, hookshot",
               "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, goron",
@@ -464,7 +464,7 @@
             "access_rules": ["goron", "$has_npc_soul|soul_scarecrow, scarecrow_twin_islands_winter, hookshot"]
           },
           {
-            "name": "Ramp Grotto Grass",
+            "name": "Grotto Grass",
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",

@@ -33,7 +33,7 @@
           "ref": "Clock Town/Keaton/Keaton Quiz"
           },
           {
-            "name": "Milk Road Keaton Grass",
+            "name": "Keaton Grass",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -41,12 +41,12 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Milk Road Owl Statue",
+            "name": "Owl Statue",
             "visibility_rules": ["owl_sanity"],
             "chest_unopened_img": "images/owl_statues/owl_milk_road_on.png"
           },
           {
-            "name": "Milk Road Owl Grass",
+            "name": "Owl Grass",
             "item_count": 3,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -54,7 +54,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Milk Road Gossip Fairy",
+            "name": "Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
             "clear_as_group": false,
@@ -123,7 +123,7 @@
             "visibility_rules": ["sign_sanity"]
           },
           {
-            "name": "Gorman Racetrack Grass Group 1",
+            "name": "Grass Group 1",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -134,7 +134,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Gorman Racetrack Grass Group 2",
+            "name": "Grass Group 2",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -145,7 +145,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Gorman Racetrack Tree Group 1",
+            "name": "Tree Group 1",
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 12,
             "clear_as_group": false,
@@ -156,7 +156,7 @@
             ]
           },
           {
-            "name": "Gorman Racetrack Tree Group 2",
+            "name": "Tree Group 2",
             "chest_unopened_img": "images/absurd/tree.png",
             "item_count": 12,
             "clear_as_group": false,

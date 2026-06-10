@@ -746,7 +746,7 @@
             "ref": "Termina Field/North Gossip Stone Grotto/Gossip Stones Heart Piece"
           },
           {
-            "name": "Bombable Rock Grass",
+            "name": "Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": [
@@ -758,7 +758,7 @@
             "clear_as_group": false
           },
           {
-            "name": "Bombable Rock Beehive",
+            "name": "Beehive",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
             "clear_as_group": false,

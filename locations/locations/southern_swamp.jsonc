@@ -123,7 +123,7 @@
             "access_rules": ["$has_npc_soul|soul_archery_man, bow"]
           },
           {
-            "name": "Outside Swamp Archery Grass",
+            "name": "Outside Archery Grass",
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -131,7 +131,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Outside Swamp Archery Pots",
+            "name": "Outside Archery Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
@@ -404,7 +404,7 @@
             "clear_as_group": false
           },
           {
-            "name": "Southern Swamp Grass Near Witch Shop Group 1",
+            "name": "Grass Near Witch Shop Group 1",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -412,7 +412,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Southern Swamp Grass Near Witch Shop Group 2",
+            "name": "Grass Near Witch Shop Group 2",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -420,7 +420,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Southern Swamp Near Gossip Stone Grass",
+            "name": "Near Gossip Stone Grass",
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -428,7 +428,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Southern Swamp Post Dungeon Grass Near Witch Shop Group 1",
+            "name": "Post Dungeon Grass Near Witch Shop Group 1",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -436,7 +436,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Southern Swamp Post Dungeon Grass Near Witch Shop Group 2",
+            "name": "Post Dungeon Grass Near Witch Shop Group 2",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -444,7 +444,7 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Southern Swamp Post Dungeon Near Gossip Stone Grass",
+            "name": "Post Dungeon Near Gossip Stone Grass",
             "item_count": 2,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",

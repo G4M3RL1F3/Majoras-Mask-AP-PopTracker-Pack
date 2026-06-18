@@ -306,9 +306,11 @@
         "name": "Boss Room",
         "sections": [
           {
+            "name": "Heart Container",
             "ref": "Dungeons/Great Bay Temple/Heart Container"
           },
           {
+            "name": "Gyorg's Remains",
             "ref": "Dungeons/Great Bay Temple/Gyorg's Remains"
           },
           {

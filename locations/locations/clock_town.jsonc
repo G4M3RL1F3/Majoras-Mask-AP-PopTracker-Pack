@@ -1166,6 +1166,7 @@
           //  ]
           //},
           {
+            "name": "Clock Town Map Purchase",
             "ref": "Groups/Clock Town Map Purchase/Clock Town Map Purchase"
           },
           {

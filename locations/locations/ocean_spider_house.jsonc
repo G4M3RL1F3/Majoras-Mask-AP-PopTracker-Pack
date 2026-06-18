@@ -6,9 +6,11 @@
         "name": "Ramp",
         "sections": [
           {
+            "name": "Ramp Upper Token",
             "ref": "Dungeons/Ocean Spider House/Ramp Upper Token"
           },
           {
+            "name": "Ramp Lower Token",
             "ref": "Dungeons/Ocean Spider House/Ramp Lower Token"
           }
         ],
@@ -324,12 +326,15 @@
         "name": "Dining Room Chandelier",
         "sections": [
           {
+            "name": "Chandelier Token #1",
             "ref": "Dungeons/Ocean Spider House/Dining Room Chandelier #1 Token"
           },
           {
+            "name": "Chandelier Token #2",
             "ref": "Dungeons/Ocean Spider House/Dining Room Chandelier #2 Token"
           },
           {
+            "name": "Chandelier Token #3",
             "ref": "Dungeons/Ocean Spider House/Dining Room Chandelier #3 Token"
           }
         ],

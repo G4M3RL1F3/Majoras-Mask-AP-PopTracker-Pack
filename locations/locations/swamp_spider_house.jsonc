@@ -411,13 +411,16 @@
         "name": "Tree Room Tree",
         "sections": [
           {
-          "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #1 Token"
+            "name": "Tree Token #1",
+            "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #1 Token"
           },
           {
-          "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #2 Token"
+            "name": "Tree Token #2",
+            "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #2 Token"
           },
           {
-          "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #3 Token"
+            "name": "Tree Token #3",
+            "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #3 Token"
           }
         ],
         "map_locations": [

@@ -336,9 +336,11 @@
         "name": "Goht",
         "sections": [
           {
+            "name": "Heart Container",
             "ref": "Dungeons/Snowhead Temple/Heart Container"
           },
           {
+            "name": "Goht's Remains",
             "ref": "Dungeons/Snowhead Temple/Goht's Remains"
           },
           {

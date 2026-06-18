@@ -371,9 +371,11 @@
         "name": "Boss Room",
         "sections": [
           {
+            "name": "Heart Container",
             "ref": "Dungeons/Inverted Stone Tower Temple/Heart Container"
           },
           {
+            "name": "Twinmold's Remains",
             "ref": "Dungeons/Inverted Stone Tower Temple/Twinmold's Remains"
           },
           {

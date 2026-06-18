@@ -326,9 +326,11 @@
         "name": "Odolwa",
         "sections": [
           {
+            "name": "Heart Container",
             "ref": "Dungeons/Woodfall Temple/Woodfall Temple Heart Container"
           },
           {
+            "name": "Odolwa's Remains",
             "ref": "Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Remains"
           },
           {

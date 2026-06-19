@@ -3,7 +3,7 @@
     "name": "Beneath the Well",
     "children": [
       {
-        "name": "",
+        "name": "Cow Room",
         "sections": [
           {
             "ref": "Dungeons/Beneath the Well/Cow"
@@ -18,7 +18,7 @@
         ]
       },
       {
-        "name": "",
+        "name": "Invisible Chest Room",
         "sections": [
           {
             "ref": "Dungeons/Beneath the Well/Invisible Chest"
@@ -33,7 +33,7 @@
         ]
       },
       {
-        "name": "",
+        "name": "Rightside Torch Room",
         "sections": [
           {
             "ref": "Dungeons/Beneath the Well/Rightside Torch Chest"
@@ -48,9 +48,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Final Chest",
         "sections": [
           {
+            "name": "Light the torches",
             "ref": "Dungeons/Beneath the Well/Final Chest"
           }
         ],

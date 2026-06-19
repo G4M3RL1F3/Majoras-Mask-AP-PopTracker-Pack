@@ -5,7 +5,7 @@
     "chest_opened_img": "images/icons/check_32.png",
     "children": [
       {
-        "name": "",
+        "name": "Pillar Freestanding HP",
         "sections": [
           {
             "ref": "Dungeons/Ikana Castle/Pillar Freestanding HP"
@@ -20,9 +20,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "King Song",
         "sections": [
           {
+            "name": "Defeat Igos",
             "ref": "Dungeons/Ikana Castle/King Song"
           }
         ],

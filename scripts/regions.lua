@@ -40,6 +40,8 @@ end
 function baby_woodfall_temple()
     return baby_woodfall() and can_play_song("sonata") and has("bosskey_wf") and has("smallkey_wf")
 end
+
+-- Checks if Woodfall Temple can be accessed.
 function woodfall_temple()
     return woodfall() and can_play_song("sonata") and has_absurd_soul("soul_deku_flowers")
 end
@@ -49,7 +51,7 @@ function baby_clear_woodfall()
     return baby_woodfall_temple() and has("bow") and baby_can_smack_hard() and has("bosskey_wf") and has("odolwa")
 end
 function clear_woodfall()
-    return woodfall_temple() and has_boss_soul("soul_odolwa") and can_smack() and has("bow") and (has("bosskey_wf") or (has("odolwa") and has("boss_warps_with_remains")))
+    return woodfall_temple() and (has_boss_soul("soul_odolwa") and can_smack() and has("bow") and (has("bosskey_wf") or boss_key_sanity_off() or (has("odolwa") and has("boss_warps_with_remains"))))
 end
 
 
@@ -88,6 +90,8 @@ end
 function baby_clear_snowhead()
     return baby_snowhead_temple() and can_use_fire_arrows() and baby_has_explosives()
 end
+
+-- Checks if Snowhead Temple can be cleared.
 function clear_snowhead()
     return snowhead_temple() and can_use_fire_arrows() and has_boss_soul("soul_goht") and ((has("smallkey_sh", 1) and has("bosskey_sh")) or (has("goht") and has("boss_warps_with_remains")))
 end
@@ -203,4 +207,9 @@ function baby_inverted_stone_tower()
 end
 function inverted_stone_tower()
     return stone_tower_temple() and can_use_light_arrows() and can_play_song("elegy")
+end
+
+-- What's needed to defeat Twinmold
+function clear_stone_tower_temple()
+    return inverted_stone_tower() and has_boss_soul("soul_twinmold") and (Tracker:FindObjectForCode("@Dungeons/Inverted Stone Tower Temple/Eyegore Chest") and (has("bosskey_st") and (has("bow") or has("fiercedeity") or (has("giantmask") and has("magic") and has("sword"))) or boss_key_sanity_off() and (has("bow") or has("fiercedeity") or (has("giantmask") and has("magic") and has("sword"))))) or (has("twinmold") and has("boss_warps_with_remains") and (has("bow") or has("fiercedeity") or (has("giantmask") and has("magic") and has("sword"))))
 end

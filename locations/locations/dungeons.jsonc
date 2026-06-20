@@ -438,19 +438,20 @@
             "name": "Odolwa's Remains",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
-              "normal_logic, $has_boss_soul|soul_odolwa, bow, $can_smack, bosskey_wf",
-              "normal_logic, $has_boss_soul|soul_odolwa, bow, $can_smack, $boss_key_sanity_off",
-              "normal_logic, $has_boss_soul|soul_odolwa, bow, $can_smack, odolwa, boss_warps_with_remains"
+              "normal_logic, $has_boss_soul|soul_odolwa, $can_smack, bow, bosskey_wf",
+              "normal_logic, $has_boss_soul|soul_odolwa, $can_smack, bow, $boss_key_sanity_off",
+              "normal_logic, $has_boss_soul|soul_odolwa, $can_smack, bow, odolwa, boss_warps_with_remains"
             ]
           },
           {
             "name": "Oath to Order",
             "chest_unopened_img": "images/equipment/song_oath_no_text.png",
             "access_rules": [
-              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
-              "normal_logic, $has_boss_soul|soul_odolwa, bow, $can_smack, bosskey_wf",
-              "normal_logic, $has_boss_soul|soul_odolwa, bow, $can_smack, $boss_key_sanity_off",
-              "normal_logic, $has_boss_soul|soul_odolwa, bow, $can_smack, odolwa, boss_warps_with_remains"
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, $clear_stone_tower_temple",
+              "normal_logic, $clear_woodfall",
+              "normal_logic, $clear_snowhead",
+              "normal_logic, $clear_greatbay",
+              "normal_logic, $clear_stone_tower_temple"
             ],
             "hosted_item": "oath_wft"
           },
@@ -1078,12 +1079,11 @@
             "name": "Oath to Order",
             "chest_unopened_img": "images/equipment/song_oath_no_text.png",
             "access_rules": [
-              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
-              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
-              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, $small_key_sanity_off, bosskey_sh",
-              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
-              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, $clear_stone_tower_temple",
+              "normal_logic, $clear_woodfall",
+              "normal_logic, $clear_snowhead",
+              "normal_logic, $clear_greatbay",
+              "normal_logic, $clear_stone_tower_temple"
             ],
             "hosted_item": "oath_sht"
           }
@@ -1484,10 +1484,11 @@
             "name": "Oath to Order",
             "chest_unopened_img": "images/equipment/song_oath_no_text.png",
             "access_rules": [
-              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
-              "normal_logic, $has_boss_soul|soul_gyorg, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, bosskey_gb",
-              "normal_logic, $has_boss_soul|soul_gyorg, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, $boss_key_sanity_off",
-              "normal_logic, $has_boss_soul|soul_gyorg, hookshot, gyorg, boss_warps_with_remains"
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, $clear_stone_tower_temple",
+              "normal_logic, $clear_woodfall",
+              "normal_logic, $clear_snowhead",
+              "normal_logic, $clear_greatbay",
+              "normal_logic, $clear_stone_tower_temple"
             ],
             "hosted_item": "oath_gbt"
           },
@@ -3580,10 +3581,10 @@
               "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, $boss_key_sanity_off, $baby_can_smack_hard, fiercedeity",
               "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
               "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
-              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, magic sword",
               "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, bow",
               "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, fiercedeity",
-              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, giantmask, sword",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, giantmask, magic sword",
               "normal_logic, $has_boss_soul|soul_twinmold, twinmold, boss_warps_with_remains, bow",
               "normal_logic, $has_boss_soul|soul_twinmold, twinmold, boss_warps_with_remains, fiercedeity",
               "normal_logic, $has_boss_soul|soul_twinmold, twinmold, boss_warps_with_remains, giantmask, magic, sword"
@@ -3593,17 +3594,11 @@
             "name": "Oath to Order",
             "chest_unopened_img": "images/equipment/song_oath_no_text.png",
             "access_rules": [
-              "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, bosskey_st, $baby_can_smack_hard, fiercedeity",
-              "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, $boss_key_sanity_off, $baby_can_smack_hard, fiercedeity",
-              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
-              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
-              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
-              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, bow",
-              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, fiercedeity",
-              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, giantmask, sword",
-              "normal_logic, $has_boss_soul|soul_twinmold, twinmold, boss_warps_with_remains, bow",
-              "normal_logic, $has_boss_soul|soul_twinmold, twinmold, boss_warps_with_remains, fiercedeity",
-              "normal_logic, $has_boss_soul|soul_twinmold, twinmold, boss_warps_with_remains, giantmask, magic, sword"
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, $clear_stone_tower_temple",
+              "normal_logic, $clear_woodfall",
+              "normal_logic, $clear_snowhead",
+              "normal_logic, $clear_greatbay",
+              "normal_logic, $clear_stone_tower_temple"
             ],
             "hosted_item": "oath_sht"
           }

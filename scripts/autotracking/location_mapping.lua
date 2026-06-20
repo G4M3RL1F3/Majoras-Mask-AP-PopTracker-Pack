@@ -290,7 +290,7 @@ LOCATION_MAPPING = {
     [0x063801] = {"@Great Bay/Zora Cape/Deku Flower Chest"},
     [0x063802] = {"@Great Bay/Zora Cape/Scarecrow Chest"},
     [0x060715] = {"@Great Bay/Zora Cape/Grotto Chest"},
-    [0x030003] = {"@Great Bay/Zora Cape/Great Bay Great Fairy Reward"},
+    [0x030003] = {"@Great Bay/Zora Cape/Great Fairy Reward"},
     [0x09018D] = {"@Great Bay/Zora Cape/Beaver Bros. Race 1"},
     [0x07018D] = {"@Great Bay/Zora Cape/Beaver Bros. Race 2"},
 

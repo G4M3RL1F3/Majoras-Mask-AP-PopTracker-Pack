@@ -543,7 +543,7 @@
             ]
           },
           {
-            "name": "Stone Tower Great Fairy Reward",
+            "name": "Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_st.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": ["$has_npc_soul|soul_great_fairy, $can_use_ice_arrows, $checkRequirements|required_stray_fairies|fairy_st"]

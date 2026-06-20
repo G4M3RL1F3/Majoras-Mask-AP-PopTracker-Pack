@@ -462,7 +462,7 @@ LOCATION_MAPPING = {
     -- Moon
     [0x052A01] = {"@Inside the Moon/Deku Trial/Heart Piece"},
     [0x053F01] = {"@Inside the Moon/Goron Trial/Heart Piece"},
-    [0x054701] = {"@Inside the Moon/Zora Trial/Heart Piece"},
+    [0x054701] = {"@Inside the Moon/Zora Trial HP/Heart Piece"},
     [0x066601] = {"@Inside the Moon/Garo Master Room/Garo Master Chest"},
     [0x066602] = {"@Inside the Moon/Iron Knuckle Room/Iron Knuckle Chest"},
     [0x056601] = {"@Inside the Moon/Heart Piece Room/Heart Piece"},

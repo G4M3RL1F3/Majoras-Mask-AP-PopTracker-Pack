@@ -276,11 +276,12 @@
             "name": "Pathway Bumper Chests",
             "chest_unopened_img": "images/icons/chest.png",
             "item_count": 4,
-            "clear_as_group": false
+            "clear_as_group": false,
             // No access rules because it's not implemented in NormalRules.py.
             // "access_rules": [
             //   "$has_npc_soul|soul_moon_kid, @Inside the Moon/Goron Trial HP/Heart Piece"
-            // ]
+            // ],
+            "visibility_rules": ["oneoffs"]
           }
         ],
         "map_locations": [

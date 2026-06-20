@@ -280,7 +280,7 @@ LOCATION_MAPPING = {
     [0x0701D9] = {"@Great Bay/Great Bay Coast/Feeding Lab Fish"},
     [0xBEEF16] = {"@Great Bay/Great Bay Coast Rock Wall/Cow Grotto Left Cow"},
     [0xBEEF15] = {"@Great Bay/Great Bay Coast Rock Wall/Cow Grotto Right Cow"},
-    [0x070292] = {"@Great Bay/Great Bay Coast/Great Bay Fisherman Game"},
+    [0x070292] = {"@Great Bay/Great Bay Coast/Fisherman Game"},
     [0x053705] = {"@Great Bay/Great Bay Coast Rock Wall/Scarecrow Ledge Heart Piece"},
 
     -- Zora Cape

@@ -266,7 +266,7 @@
             "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
               "easy_logic, dongeromask, $baby_clear_snowhead, $baby_woodfall_temple, $baby_can_smack_hard, $baby_has_explosives, deku, goron, $baby_great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows",
-              "normal_logic, $can_get_frog_choir_Heart Piece"
+              "normal_logic, $can_get_frog_choir_hp"
             ]
           },
           {

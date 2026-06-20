@@ -71,17 +71,14 @@ function can_reach_seahorse()
 end
 
 function can_get_frog_choir_hp()
-    if not has("dongero") then      -- If Don Gero Mask hasn't been obtained, then it's unobtainable.
-        return false
-    end
-    if not clear_snowhead() then    -- If Snowhead cannot be cleared, then it's unobtainable.
+    if not (has("dongero") and clear_snowhead()) then
         return false
     end
 
-    if has("frogsanity") then       -- If frogsanity is on, check for frog items. Otherwise, check for vanilla locations access rules.
+    if has("frogsanity") then
         return has("frog_yellow") and has("frog_white") and has("frog_cyan") and has("frog_blue") and has("frog_pink")
     else
-        return Tracker:FindObjectForCode("@Dungeons/Woodfall Temple/Woodfall Temple Gekko Chest") and great_bay_temple() and can_use_ice_arrows() and can_use_fire_arrows()
+        return (woodfall_temple() and Tracker:FindObjectForCode("@Dungeons/Woodfall Temple/Gekko Chest")) and great_bay_temple() and can_use_ice_arrows() and can_use_fire_arrows()
     end
 end
 

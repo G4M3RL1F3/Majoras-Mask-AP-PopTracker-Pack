@@ -215,7 +215,7 @@ LOCATION_MAPPING = {
 
     -- Snowhead
     [0x065A00] = {"@Snowhead/Mountain Village/Spring Waterfall Chest"},
-    [0x06071B] = {"@Snowhead/Mountain Village/Spring Ramp Grotto"},
+    [0x06071B] = {"@Snowhead/Mountain Village/Spring Ramp Grotto Chest"},
     [0x000079] = {"@Snowhead/Mountain Village/Healing Darmani"},
     [0x000088] = {"@Snowhead/Mountain Village/Hungry Goron"},
     [0x070022] = {"@Snowhead/Mountain Village/Spring Frog Choir Heart Piece"},

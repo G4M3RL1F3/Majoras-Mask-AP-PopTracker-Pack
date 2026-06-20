@@ -421,7 +421,7 @@ LOCATION_MAPPING = {
     [0x064B1B] = {"@Dungeons/Beneath the Well/Final Chest"},
 
     -- Ikana Castle
-    [0x051D0A] = {"@Dungeons/Ikana Castle/Pillar Freestanding Heart Piece"},
+    [0x051D0A] = {"@Dungeons/Ikana Castle/Pillar Freestanding HP"},
     [0x040064] = {"@Dungeons/Ikana Castle/King Song"},
 
     -- Inverted Stone Tower

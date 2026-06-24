@@ -102,7 +102,7 @@
         ]
       },
       {
-        "name": "South Clock Town",
+        "name": "South Clock Town Owl Statue",
         "sections": [
           {
             "name": "Owl Statue",
@@ -418,12 +418,6 @@
             "visibility_rules": ["flower_sanity"]
           },
           {
-            "name": "West Tree",
-            "chest_unopened_img": "images/absurd/tree.png",
-            "access_rules": ["$has_absurd_soul|soul_trees_bushes"],
-            "visibility_rules": ["tree_sanity"]
-          },
-          {
             "name": "Playground Exterior Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
             "access_rules": ["$has_absurd_soul|soul_signs"],
@@ -580,7 +574,7 @@
         "name": "Mayor's Residence (10 AM - 10 PM)",
         "sections": [
           {
-            "name": "Notebook Event: Meeting Africa (Toto)",
+            "name": "Notebook Event: Meeting Toto",
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": ["$has_npc_soul|soul_toto_gorman, bombers_notebook"]
@@ -923,7 +917,7 @@
             "access_rules": ["$has_npc_soul|soul_toto_gorman, romani, deku, goron, zora, ocarina"]
           },
           {
-            "ref": "@Clock Town/Mayor's Residence (10 AM - 10 PM)/Notebook Event: Meeting Africa (Toto)"
+            "ref": "@Clock Town/Mayor's Residence (10 AM - 10 PM)/Notebook Event: Meeting Toto"
           },
           {
             "name": "Notebook Event: Meeting Gorman",
@@ -1350,6 +1344,16 @@
         "name": "Clock Tower",
         "sections": [
           {
+            "name": "Happy Mask Salesman #1",
+            "chest_unopened_img": "images/characters/happy_mask_salesman.png",
+            "access_rules": ["$has_npc_soul|soul_happy_mask_salesman, ocarina"]
+          },
+          {
+            "name": "Happy Mask Salesman #2",
+            "chest_unopened_img": "images/characters/happy_mask_salesman.png",
+            "access_rules": ["$has_npc_soul|soul_happy_mask_salesman, ocarina"]
+          },
+          {
             "name": "Top of Clock Tower (Ocarina of Time)",
             "chest_unopened_img": "images/items/ocarina.png",
             "access_rules": [
@@ -1364,16 +1368,6 @@
               "easy_logic, $baby_has_projectiles",
               "normal_logic, $has_npc_soul|soul_skull_kid, $has_projectiles"
             ]
-          },
-          {
-            "name": "Happy Mask Salesman #1",
-            "chest_unopened_img": "images/characters/happy_mask_salesman.png",
-            "access_rules": ["$has_npc_soul|soul_happy_mask_salesman, ocarina"]
-          },
-          {
-            "name": "Happy Mask Salesman #2",
-            "chest_unopened_img": "images/characters/happy_mask_salesman.png",
-            "access_rules": ["$has_npc_soul|soul_happy_mask_salesman, ocarina"]
           },
           {
             "name": "Top of Tower Pots",
@@ -1794,6 +1788,722 @@
         "sections": [
           {
             "name": "Win Any Day"
+          }
+        ]
+      },
+      {
+        "name": "Before Clock Town ",
+        "sections": [
+          {
+            "name": "Chest",
+            "ref": "Clock Town/Before Clock Town/Chest"
+          },
+          {
+            "name": "Deku Flowers",
+            "ref": "Clock Town/Before Clock Town/Deku Flowers"
+          },
+          {
+            "name": "Keaton Grass",
+            "ref": "Clock Town/Before Clock Town/Keaton Grass"
+          },
+          {
+            "name": "Skullkid Keaton Grass",
+            "ref": "Clock Town/Before Clock Town/Skullkid Keaton Grass"
+          },
+          {
+            "name": "Lost Woods Grass",
+            "ref": "Clock Town/Before Clock Town/Lost Woods Grass"
+          },
+          {
+            "name": "Lost Woods Keaton Grass",
+            "ref": "Clock Town/Before Clock Town/Lost Woods Keaton Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 957,
+            "y": 561,
+            "shape": "trapezoid",
+            "size": 15
+          }
+        ]
+      },
+      {
+        "name": "South Clock Town",
+        "sections": [
+          {
+            "name": "Freestanding Heart Piece",
+            "ref": "Clock Town/Clock Tower Platform/Freestanding Heart Piece"
+          },
+          {
+            "name": "Clock Tower Target Hitspots",
+            "ref": "Clock Town/Clock Tower Platform/Target Hitspots"
+          },
+          {
+            "name": "Owl Statue",
+            "ref": "Clock Town/South Clock Town Owl Statue/Owl Statue"
+          },
+          {
+            "name": "Business Scrub Moon's Tear Trade",
+            "ref": "Clock Town/South Clock Town Business Scrub/Moon's Tear Trade"
+          },
+          {
+            "name": "Business Scrub Deku Flower",
+            "ref": "Clock Town/South Clock Town Business Scrub/Deku Flower"
+          },
+          {
+            "name": "Town Tower Chest (Final Day)",
+            "ref": "Clock Town/South Clock Town Tower/Chest (Final Day)"
+          },
+          {
+            "name": "Corner Chest",
+            "ref": "Clock Town/South Clock Town Corner/Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 957,
+            "y": 578,
+            "size": 15
+          }
+        ]
+      },
+      {
+        "name": "North Clock Town",
+        "sections": [
+          {
+            "name": "Bombers Hide-and-Seek",
+            "ref": "Clock Town/North Clock Town - Bombers/Hide-and-Seek"
+          },
+          {
+            "name": "Notebook Event: Meeting Bombers",
+            "ref": "Clock Town/North Clock Town - Bombers/Notebook Event: Meeting Bombers"
+          },
+          {
+            "name": "Notebook Event: Received Bomber's Notebook",
+            "ref": "Clock Town/North Clock Town - Bombers/Notebook Event: Received Bomber's Notebook"
+          },
+          {
+            "name": "Notebook Event: Learned Secret Code",
+            "ref": "Clock Town/North Clock Town - Bombers/Notebook Event: Learned Secret Code"
+          },
+          {
+            "name": "Tree Heart Piece",
+            "ref": "Clock Town/North Clock Town - East Tree/Tree Heart Piece"
+          },
+          {
+            "name": "East Tree",
+            "ref": "Clock Town/North Clock Town - East Tree/East Tree"
+          },
+          {
+            "name": "West Tree",
+            "ref": "Clock Town/North Clock Town - West Tree/West Tree"
+          },
+          {
+            "name": "Deku Flowers",
+            "ref": "Clock Town/Deku Playground/Exterior Flowers"
+          },
+          {
+            "name": "Deku Playground Win Any Day",
+            "ref": "Clock Town/Deku Playground/Win Any Day"
+          },
+          {
+            "name": "Deku Playground Win All Days",
+            "ref": "Clock Town/Deku Playground/Win All Days"
+          },
+          {
+            "name": "Deku Playground Day 1 Rupees",
+            "ref": "Clock Town/Deku Playground/Day 1 Rupees"
+          },
+          {
+            "name": "Deku Playground Day 2 Rupees",
+            "ref": "Clock Town/Deku Playground/Day 2 Rupees"
+          },
+          {
+            "name": "Deku Playground Day 3 Rupees",
+            "ref": "Clock Town/Deku Playground/Day 3 Rupees"
+          },
+          {
+            "name": "Deku Playground Deku Flowers",
+            "ref": "Clock Town/Deku Playground/Deku Flowers"
+          },
+          {
+            "name": "Deku Playground Surface Cut the Sign",
+            "ref": "Clock Town/Deku Playground/Playground Exterior Cut the Sign"
+          },
+          {
+            "name": "Clock Town Great Fairy Reward",
+            "ref": "Clock Town/Clock Town Great Fairy/Great Fairy Reward"
+          },
+          {
+            "name": "Clock Town Great Fairy Reward (Transformation Mask)",
+            "ref": "Clock Town/Clock Town Great Fairy/Great Fairy Reward (Transformation Mask)"
+          },
+          {
+            "name": "Keaton Quiz",
+            "ref": "Clock Town/Keaton/Keaton Quiz"
+          },
+          {
+            "name": "Keaton Grass",
+            "ref": "Clock Town/Keaton/Keaton Grass"
+          },
+          {
+            "name": "Save Old Lady",
+            "ref": "Clock Town/North Clock Town - Old Lady/Save Old Lady (Night 1 - 12:15 AM)"
+          },
+          {
+            "name": "Notebook Event: Meeting Bomb Granny",
+            "ref": "Clock Town/North Clock Town - Old Lady/Notebook Event: Meeting Bomb Granny"
+          },
+          {
+            "name": "Notebook Event: Received Blast Mask",
+            "ref": "Clock Town/North Clock Town - Old Lady/Notebook Event: Received Blast Mask"
+          },
+          {
+            "name": "Tingle Clock Town Map Purchase",
+            "ref": "Groups/Clock Town Map Purchase/Clock Town Map Purchase"
+          },
+          {
+            "name": "Tingle Woodfall Map Purchase",
+            "ref": "Groups/Clock Town Map Purchase/Woodfall Map Purchase"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 934,
+            "y": 513,
+            "size": 15
+          }
+        ]
+      },
+      {
+        "name": "East Clock Town",
+        "sections": [
+          {
+            "name": "Archery Roof Chest",
+            "ref": "Clock Town/Archery Roof/Chest"
+          },
+          {
+            "name": "Notebook Event: Meeting Toto",
+            "ref": "Clock Town/Mayor's Residence (10 AM - 10 PM)/Notebook Event: Meeting Toto"
+          },
+          {
+            "name": "Mayor's Wife",
+            "ref": "Clock Town/Mayor's Residence (10 AM - 10 PM)/Mayor's Wife"
+          },
+          {
+            "name": "Notebook Event: Meeting Madame Aroma",
+            "ref": "Clock Town/Mayor's Residence (10 AM - 10 PM)/Notebook Event: Meeting Madame Aroma"
+          },
+          {
+            "name": "Notebook Event: Received Kafei's Mask",
+            "ref": "Clock Town/Mayor's Residence (10 AM - 10 PM)/Notebook Event: Received Kafei's Mask"
+          },
+          {
+            "name": "Notebook Event: Meeting Mayor Dotour",
+            "ref": "Clock Town/Mayor's Residence (10 AM - 10 PM)/Notebook Event: Meeting Mayor Dotour"
+          },
+          {
+            "name": "Couple's Mask on Mayor",
+            "ref": "Clock Town/Mayor's Residence (10 AM - 10 PM)/Couple's Mask on Mayor"
+          },
+          {
+            "name": "Notebook Event: Received Mayor Heart Piece",
+            "ref": "Clock Town/Mayor's Residence (10 AM - 10 PM)/Notebook Event: Received Mayor Heart Piece"
+          },
+          {
+            "name": "Honey and Darling Win Any Day",
+            "ref": "Clock Town/Honey and Darling (6 AM - 10 PM)/Win Any Day"
+          },
+          {
+            "name": "Honey and Darling Win All Days",
+            "ref": "Clock Town/Honey and Darling (6 AM - 10 PM)/Win All Days"
+          },
+          {
+            "name": "Honey and Darling Target & Basket Hitspots",
+            "ref": "Clock Town/Honey and Darling (6 AM - 10 PM)/Target & Basket Hitspots"
+          },
+          {
+            "name": "Shooting Gallery Score 40-49 Points",
+            "ref": "Clock Town/Town Shooting Gallery (6 AM - 10 PM)/Score 40-49 Points"
+          },
+          {
+            "name": "Shooting Gallery Score 50 Points",
+            "ref": "Clock Town/Town Shooting Gallery (6 AM - 10 PM)/Score 50 Points"
+          },
+          {
+            "name": "Treasure Game (Human)",
+            "ref": "Clock Town/Treasure Game (6 AM - 10 PM)/Chest (Human)"
+          },
+          {
+            "name": "Treasure Game (Deku)",
+            "ref": "Clock Town/Treasure Game (6 AM - 10 PM)/Chest (Deku)"
+          },
+          {
+            "name": "Treasure Game (Goron)",
+            "ref": "Clock Town/Treasure Game (6 AM - 10 PM)/Chest (Goron)"
+          },
+          {
+            "name": "Treasure Game (Zora)",
+            "ref": "Clock Town/Treasure Game (6 AM - 10 PM)/Chest (Zora)"
+          },
+          {
+            "name": "Bomber's Hideout Chest",
+            "ref": "Clock Town/Bomber's Secret Hideout/Hidden Chest"
+          },
+          {
+            "name": "Bomber's Hideout Pots",
+            "ref": "Clock Town/Bomber's Secret Hideout/Pots"
+          },
+          {
+            "name": "Bomber's Hideout Bombable Wall",
+            "ref": "Clock Town/Bomber's Secret Hideout/Bombable Wall"
+          },
+          {
+            "name": "Stock Pot Inn Reservation",
+            "ref": "Clock Town/Stock Pot Inn/Reservation (Day 1: from 1 PM to 4 PM)"
+          },
+          {
+            "name": "Notebook Event: Meeting Anju",
+            "ref": "Clock Town/Stock Pot Inn/Notebook Event: Meeting Anju"
+          },
+          {
+            "name": "Notebook Event: Received Room Key",
+            "ref": "Clock Town/Stock Pot Inn/Notebook Event: Received Room Key"
+          },
+          {
+            "name": "Stock Pot Inn Final Night Chest",
+            "ref": "Clock Town/Stock Pot Inn/Employee Room Chest (Final Night)"
+          },
+          {
+            "name": "Stock Pot Inn Locked Room Chest",
+            "ref": "Clock Town/Stock Pot Inn/Locked Room Chest"
+          },
+          {
+            "name": "Notebook Event: Promised Midnight Meeting",
+            "ref": "Clock Town/Stock Pot Inn/Notebook Event: Promised Midnight Meeting"
+          },
+          {
+            "name": "Stock Pot Inn Midnight Meeting",
+            "ref": "Clock Town/Stock Pot Inn/Midnight Meeting (Night 1: 12 to 6 AM)"
+          },
+          {
+            "name": "Notebook Event: Promised To Meet Kafei",
+            "ref": "Clock Town/Stock Pot Inn/Notebook Event: Promised To Meet Kafei"
+          },
+          {
+            "name": "Notebook Event: Received Letter To Kafei",
+            "ref": "Clock Town/Stock Pot Inn/Notebook Event: Received Letter To Kafei"
+          },
+          {
+            "name": "Notebook Event: Delivered Pendant of Memories",
+            "ref": "Clock Town/Stock Pot Inn/Notebook Event: Delivered Pendant of Memories"
+          },
+          {
+            "name": "Notebook Event: Meeting Toilet Hand",
+            "ref": "Clock Town/Stock Pot Inn/Notebook Event: Meeting Toilet Hand"
+          },
+          {
+            "name": "Stock Pot Inn Toilet Hand",
+            "ref": "Clock Town/Stock Pot Inn/Midnight Toilet Hand"
+          },
+          {
+            "name": "Notebook Event: Received Toilet Hand Heart Piece",
+            "ref": "Clock Town/Stock Pot Inn/Notebook Event: Received Toilet Hand Heart Piece"
+          },
+          {
+            "name": "Notebook Event: Meeting Anju's Grandmother",
+            "ref": "Clock Town/Stock Pot Inn/Notebook Event: Meeting Anju's Grandmother"
+          },
+          {
+            "name": "Stock Pot Inn Granny Story #1",
+            "ref": "Clock Town/Stock Pot Inn/Granny Story #1"
+          },
+          {
+            "name": "Notebook Event: Received Grandma Short Story Heart Piece",
+            "ref": "Clock Town/Stock Pot Inn/Notebook Event: Received Grandma Short Story Heart Piece"
+          },
+          {
+            "name": "Stock Pot Inn Granny Story #2",
+            "ref": "Clock Town/Stock Pot Inn/Granny Story #2"
+          },
+          {
+            "name": "Notebook Event: Received Grandma Long Story Heart Piece",
+            "ref": "Clock Town/Stock Pot Inn/Notebook Event: Received Grandma Long Story Heart Piece"
+          },
+          {
+            "name": "Stock Pot Inn Anju and Kafei Quest Reward",
+            "ref": "Clock Town/Stock Pot Inn/Anju and Kafei (Final Night 4:30 AM)"
+          },
+          {
+            "name": "Notebook Event: Received Couple's Mask",
+            "ref": "Clock Town/Stock Pot Inn/Notebook Event: Received Couple's Mask"
+          },
+          {
+            "name": "Stock Pot Inn Mask Hitspots",
+            "ref": "Clock Town/Stock Pot Inn/Mask Hitspots"
+          },
+          {
+            "name": "Milk Bar Show",
+            "ref": "Clock Town/Milk Bar (10 PM - 6 AM)/Milk Bar Show (Night 1 & 2)"
+          },
+          {
+            "name": "Notebook Event: Meeting Gorman",
+            "ref": "Clock Town/Milk Bar (10 PM - 6 AM)/Notebook Event: Meeting Gorman"
+          },
+          {
+            "name": "Notebook Event: Received Circus Leader's Mask",
+            "ref": "Clock Town/Milk Bar (10 PM - 6 AM)/Notebook Event: Received Circus Leader's Mask"
+          },
+          {
+            "name": "Priority Mail to Aroma",
+            "ref": "Clock Town/Milk Bar (10 PM - 6 AM)/Priority Mail to Aroma (Final Night)"
+          },
+          {
+            "name": "Notebook Event: Delivered Priority Mail",
+            "ref": "Clock Town/Milk Bar (10 PM - 6 AM)/Notebook Event: Delivered Priority Mail"
+          },
+          {
+            "name": "Milk Bar Milk Purchase",
+            "ref": "Clock Town/Milk Bar (10 PM - 6 AM)/Milk Purchase"
+          },
+          {
+            "name": "Milk Bar Chateau Romani Purchase",
+            "ref": "Clock Town/Milk Bar (10 PM - 6 AM)/Chateau Romani Purchase"
+          },
+          {
+            "name": "Milk Bar Roof Cut the Sign",
+            "ref": "Clock Town/Milk Bar (10 PM - 6 AM)/Milk Bar Roof Cut the Sign"
+          },
+          {
+            "name": "Juggler's Crates",
+            "ref": "Clock Town/East Clock Town Center/Juggler's Crates"
+          },
+          {
+            "name": "Deku Flower",
+            "ref": "Clock Town/East Clock Town Deku Flower/Deku Flower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 999,
+            "y": 544,
+            "size": 15
+          }
+        ]
+      },
+      {
+        "name": "West Clock Town",
+        "sections": [
+          {
+            "name": "Notebook Event: Meeting Rosa Sisters",
+            "ref": "Clock Town/Rosa Sisters/Notebook Event: Meeting Rosa Sisters"
+          },
+          {
+            "name": "Rosa Sisters Reward",
+            "ref": "Clock Town/Rosa Sisters/Rosa Sisters (Night 1 - 2)"
+          },
+          {
+            "name": "Notebook Event: Received Rosa Sister's Heart Piece",
+            "ref": "Clock Town/Rosa Sisters/Notebook Event: Received Rosa Sister's Heart Piece"
+          },
+          {
+            "name": "Bank Deposit 200 Rupees",
+            "ref": "Clock Town/Clock Town Bank/Deposit 200 Rupees"
+          },
+          {
+            "name": "Bank Deposit 500 Rupees",
+            "ref": "Clock Town/Clock Town Bank/Deposit 500 Rupees"
+          },
+          {
+            "name": "Bank Deposit 1000 Rupees",
+            "ref": "Clock Town/Clock Town Bank/Deposit 1000 Rupees"
+          },
+          {
+            "name": "Swordsman School Expert Course",
+            "ref": "Clock Town/Swordsman School/Expert Course"
+          },
+          {
+            "name": "Swordsman School Night 3 Midnight Pots",
+            "ref": "Clock Town/Swordsman School/Night 3 Midnight Pots"
+          },
+          {
+            "name": "Swordsman School Gong",
+            "ref": "Clock Town/Swordsman School/Gong (Strike At Top Or Bottom Of Hour)"
+          },
+          {
+            "name": "Night 3 Midnight Cut the Sign",
+            "ref": "Clock Town/Swordsman School/Night 3 Midnight Cut the Sign"
+          },
+          {
+            "name": "Notebook Event: Meeting Postman",
+            "ref": "Clock Town/Post Office/Notebook Event: Meeting Postman"
+          },
+          {
+            "name": "Postman Counting",
+            "ref": "Clock Town/Post Office/Postman Counting (Day 1: 3 PM - Midnight)"
+          },
+          {
+            "name": "Notebook Event: Received Postman Heart Piece",
+            "ref": "Clock Town/Post Office/Notebook Event: Received Postman Heart Piece"
+          },
+          {
+            "name": "Priority Mail to Postman",
+            "ref": "Clock Town/Post Office/Priority Mail to Postman (Final Night)"
+          },
+          {
+            "name": "Notebook Event: Received Postman's Hat",
+            "ref": "Clock Town/Post Office/Notebook Event: Received Postman's Hat"
+          },
+          {
+            "name": "Trading Post Shop Item 1",
+            "ref": "Clock Town/Trading Post/Shop Item 1"
+          },
+          {
+            "name": "Trading Post Shop Item 2",
+            "ref": "Clock Town/Trading Post/Shop Item 2"
+          },
+          {
+            "name": "Trading Post Shop Item 3",
+            "ref": "Clock Town/Trading Post/Shop Item 3"
+          },
+          {
+            "name": "Trading Post Shop Item 4",
+            "ref": "Clock Town/Trading Post/Shop Item 4"
+          },
+          {
+            "name": "Trading Post Shop Item 5",
+            "ref": "Clock Town/Trading Post/Shop Item 5"
+          },
+          {
+            "name": "Trading Post Shop Item 6",
+            "ref": "Clock Town/Trading Post/Shop Item 6"
+          },
+          {
+            "name": "Trading Post Shop Item 7",
+            "ref": "Clock Town/Trading Post/Shop Item 7"
+          },
+          {
+            "name": "Trading Post Shop Item 8",
+            "ref": "Clock Town/Trading Post/Shop Item 8"
+          },
+          {
+            "name": "Trading Post Shop (Night) Item 1",
+            "ref": "Clock Town/Trading Post/Shop (Night) Item 1"
+          },
+          {
+            "name": "Trading Post Shop (Night) Item 2",
+            "ref": "Clock Town/Trading Post/Shop (Night) Item 2"
+          },
+          {
+            "name": "Trading Post Shop (Night) Item 3",
+            "ref": "Clock Town/Trading Post/Shop (Night) Item 3"
+          },
+          {
+            "name": "Trading Post Shop (Night) Item 4",
+            "ref": "Clock Town/Trading Post/Shop (Night) Item 4"
+          },
+          {
+            "name": "Trading Post Shop (Night) Item 5",
+            "ref": "Clock Town/Trading Post/Shop (Night) Item 5"
+          },
+          {
+            "name": "Trading Post Shop (Night) Item 6",
+            "ref": "Clock Town/Trading Post/Shop (Night) Item 6"
+          },
+          {
+            "name": "Trading Post Shop (Night) Item 7",
+            "ref": "Clock Town/Trading Post/Shop (Night) Item 7"
+          },
+          {
+            "name": "Trading Post Shop (Night) Item 8",
+            "ref": "Clock Town/Trading Post/Shop (Night) Item 8"
+          },
+          {
+            "name": "Trading Post Pot",
+            "ref": "Clock Town/Trading Post/Pot"
+          },
+          {
+            "name": "Trading Post Scarecrow",
+            "ref": "Clock Town/Trading Post/Scarecrow"
+          },
+          {
+            "name": "Trading Post Bushes",
+            "ref": "Clock Town/Trading Post/Bushes"
+          },
+          {
+            "name": "Bomb Shop Item 1",
+            "ref": "Clock Town/Bomb Shop/Item 1"
+          },
+          {
+            "name": "Bomb Shop Item 2",
+            "ref": "Clock Town/Bomb Shop/Item 2"
+          },
+          {
+            "name": "Bomb Shop Item 3",
+            "ref": "Clock Town/Bomb Shop/Item 3"
+          },
+          {
+            "name": "Bomb Shop Item 3 (Stop Thief)",
+            "ref": "Clock Town/Bomb Shop/Item 3 (Stop Thief)"
+          },
+          {
+            "name": "Bomb Shop Powder Keg Goron",
+            "ref": "Clock Town/Bomb Shop/Powder Keg Goron"
+          },
+          {
+            "name": "Notebook Event: Meeting Curiosity Shop Man",
+            "ref": "Clock Town/Curiosity Shop (10 PM - 6 AM)/Notebook Event: Meeting Curiosity Shop Man"
+          },
+          {
+            "name": "Curiosity Shop Night 3 (Stop Thief)",
+            "ref": "Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 (Stop Thief)"
+          },
+          {
+            "name": "Notebook Event: Received All Night Mask",
+            "ref": "Clock Town/Curiosity Shop (10 PM - 6 AM)/Notebook Event: Received All Night Mask"
+          },
+          {
+            "name": "Curiosity Shop Night 3 Thief Stolen Item",
+            "ref": "Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 Thief Stolen Item"
+          },
+          {
+            "name": "Blue Rupee Trade",
+            "ref": "Clock Town/Curiosity Shop (10 PM - 6 AM)/Blue Rupee Trade (Half Milk, Magic Mushroom)"
+          },
+          {
+            "name": "Red Rupee Trade",
+            "ref": "Clock Town/Curiosity Shop (10 PM - 6 AM)/Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg)"
+          },
+          {
+            "name": "Purple Rupee Trade",
+            "ref": "Clock Town/Curiosity Shop (10 PM - 6 AM)/Purple Rupee Trade (Poe)"
+          },
+          {
+            "name": "Gold Rupee Trade",
+            "ref": "Clock Town/Curiosity Shop (10 PM - 6 AM)/Gold Rupee Trade (Big Poe, Chateau, Gold Dust)"
+          },
+          {
+            "name": "Lottery Reward",
+            "ref": "Clock Town/West Clock Town Lottery/Win Any Day"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 910,
+            "y": 540,
+            "size": 15
+          }
+        ]
+      },
+      {
+        "name": "Laundry Pool ",
+        "sections": [
+          {
+            "name": "Notebook Event: Meeting Guru Guru",
+            "ref": "Clock Town/Laundry Pool/Notebook Event: Meeting Guru Guru"
+          },
+          {
+            "name": "Musician",
+            "ref": "Clock Town/Laundry Pool/Musician (Night 1 - 2)"
+          },
+          {
+            "name": "Notebook Event: Received Bremen Mask",
+            "ref": "Clock Town/Laundry Pool/Notebook Event: Received Bremen Mask"
+          },
+          {
+            "name": "Notebook Event: Meeting Kafei",
+            "ref": "Clock Town/Laundry Pool/Notebook Event: Meeting Kafei"
+          },
+          {
+            "name": "Frog",
+            "ref": "Clock Town/Laundry Pool/Frog"
+          },
+          {
+            "name": "Grass",
+            "ref": "Clock Town/Laundry Pool/Grass"
+          },
+          {
+            "name": "Crate",
+            "ref": "Clock Town/Laundry Pool/Crate"
+          },
+          {
+            "name": "Night 2 Water Rupees",
+            "ref": "Clock Town/Laundry Pool/Night 2 Water Rupees"
+          },
+          {
+            "name": "Stray Fairy",
+            "ref": "Clock Town/Stray Fairy (Clock Town)/Stray Fairy (Clock Town)"
+          },
+          {
+            "name": "Kafei's Request",
+            "ref": "Clock Town/Curiosity Shop Backroom/Kafei's Request (Day 2, 4:30 PM)"
+          },
+          {
+            "name": "Notebook Event: Received Pendant of Memories",
+            "ref": "Clock Town/Curiosity Shop Backroom/Notebook Event: Received Pendant of Memories"
+          },
+          {
+            "name": "Curiosity Shop Salesman #1",
+            "ref": "Clock Town/Curiosity Shop Backroom/Curiosity Shop Salesman #1 (Final Day 1 PM - 9 PM)"
+          },
+          {
+            "name": "Notebook Event: Received Keaton Mask",
+            "ref": "Clock Town/Curiosity Shop Backroom/Notebook Event: Received Keaton Mask"
+          },
+          {
+            "name": "Curiosity Shop Salesman #2",
+            "ref": "Clock Town/Curiosity Shop Backroom/Curiosity Shop Salesman #2 (Final Day 1 PM - 9 PM)"
+          },
+          {
+            "name": "Notebook Event: Received Keaton Mask",
+            "ref": "Clock Town/Curiosity Shop Backroom/Notebook Event: Received Keaton Mask"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 912,
+            "y": 571,
+            "size": 15
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower ",
+        "sections": [
+          {
+            "name": "Happy Mask Salesman #1",
+            "ref": "Clock Town/Clock Tower/Happy Mask Salesman #1"
+          },
+          {
+            "name": "Happy Mask Salesman #2",
+            "ref": "Clock Town/Clock Tower/Happy Mask Salesman #2"
+          },
+          {
+            "name": "Top of Clock Tower (Ocarina of Time)",
+            "ref": "Clock Town/Clock Tower/Top of Clock Tower (Ocarina of Time)"
+          },
+          {
+            "name": "Top of Clock Tower (Song of Time)",
+            "ref": "Clock Town/Clock Tower/Top of Clock Tower (Song of Time)"
+          },
+          {
+            "name": "Top of Tower Pots",
+            "ref": "Clock Town/Clock Tower/Top of Tower Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 957,
+            "y": 530,
+            "size": 15
           }
         ]
       }

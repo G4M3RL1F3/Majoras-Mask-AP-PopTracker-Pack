@@ -15,8 +15,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 620,
-            "y": 300
+            "x": 1161,
+            "y": 537
           }
         ]
       },
@@ -46,8 +46,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 647,
-            "y": 300
+            "x": 1196,
+            "y": 549
           }
         ]
       },
@@ -77,7 +77,7 @@
             "chest_unopened_img": "images/equipment/bombers_notebook.png",
             "visibility_rules": ["notebook_sanity"],
             "access_rules": [
-              "@Ikana/Road to Ikana Stone Soldier/Road to Ikana Stone Soldier"
+              "@Ikana/Road to Ikana Stone Soldier/Stone Soldier"
             ]
           },
           {
@@ -96,8 +96,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 681,
-            "y": 312
+            "x": 1220,
+            "y": 556
           }
         ]
       },
@@ -138,8 +138,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 670,
-            "y": 295
+            "x": 1212,
+            "y": 547
           }
         ]
       },
@@ -163,24 +163,24 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 725,
-            "y": 288
+            "x": 1256,
+            "y": 544
           }
         ]
       },
       {
-        "name": "Graveyard",
+        "name": "Upper Graveyard",
         "access_rules": ["$graveyard"],
         "sections": [
           {
-            "name": "Bombable Grotto Chest",
+            "name": "Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives",
               "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives"
             ]
           },
           {
-            "name": "Bombable Grotto Grass",
+            "name": "Grass",
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -188,13 +188,50 @@
             "visibility_rules": ["grass_sanity"]
           },
           {
-            "name": "Graveyard Rock Circle",
+            "name": "Rock Circle",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_rocks"]
           },
+          {
+            "name": "Upper Grass",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity"]
+          },
+          {
+            "name": "Captain Keeta Chest",
+            "chest_unopened_img": "images/masks/captains.png",
+            "access_rules": [
+              "easy_logic, $can_play_song|sonata, $baby_can_smack_hard, bow",
+              "normal_logic, $has_npc_soul|soul_stalchildren, $can_play_song|sonata, $can_smack_hard"
+            ]
+          },
+          {
+            "name": "Captain Keeta Rockwall",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $has_explosives, $can_play_song|sonata"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1264,
+            "y": 433
+          }
+        ]
+      },
+      {
+        "name": "Lower Graveyard",
+        "access_rules": ["$graveyard"],
+        "sections": [
           {
             "name": "Day 1 Bats Chest",
             "access_rules": [
@@ -287,32 +324,8 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Captain Keeta Chest",
-            "chest_unopened_img": "images/masks/captains.png",
-            "access_rules": [
-              "easy_logic, $can_play_song|sonata, $baby_can_smack_hard, bow",
-              "normal_logic, $has_npc_soul|soul_stalchildren, $can_play_song|sonata, $can_smack_hard"
-            ]
-          },
-          {
-            "name": "Captain Keeta Rockwall",
-            "chest_unopened_img": "images/absurd/rock.png",
-            "visibility_rules": ["rock_sanity"],
-            "item_count": 5,
-            "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_rocks, $has_explosives, $can_play_song|sonata"]
-          },
-          {
             "name": "Lower Grass",
             "item_count": 5,
-            "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
-          },
-          {
-            "name": "Upper Grass",
-            "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
@@ -330,8 +343,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 685,
-            "y": 257
+            "x": 1239,
+            "y": 479
           }
         ]
       },
@@ -363,8 +376,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 775,
-            "y": 269
+            "x": 1374,
+            "y": 542
           }
         ]
       },
@@ -397,8 +410,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 790,
-            "y": 246
+            "x": 1388,
+            "y": 485
           }
         ]
       },
@@ -460,8 +473,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 791,
-            "y": 312
+            "x": 1405,
+            "y": 637
           }
         ]
       },
@@ -473,7 +486,7 @@
             "name": "Hideout Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 5,
-            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_deku_baba, $has_enemy_soul|soul_wolfos, @Clock Town/Stock Pot Inn/Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)"],
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_deku_baba, $has_enemy_soul|soul_wolfos, @Clock Town/Stock Pot Inn/Anju and Kafei (Final Night 4:30 AM)"],
             "visibility_rules": ["pot_sanity"]
           },
           {
@@ -486,8 +499,192 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 766,
-            "y": 310
+            "x": 1372,
+            "y": 624
+          }
+        ]
+      },
+      {
+        "name": "Ikana Canyon Owl Statue",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $upper_ikana_canyon"
+        ],
+        "sections": [
+          {
+            "name": "Owl Statue",
+            "visibility_rules": ["owl_sanity"],
+            "chest_unopened_img": "images/owl_statues/owl_ikana_canyon_on.png"
+          },
+          {
+            "name": "Grass",
+            "item_count": 4,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $can_use_ice_arrows"],
+            "visibility_rules": ["grass_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1419,
+            "y": 511
+          }
+        ]
+      },
+      {
+        "name": "Tingle Ikana Canyon",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $upper_ikana_canyon"
+        ],
+        "sections": [
+          {
+            "name": "Clock Town Map Purchase",
+            "ref": "Groups/Clock Town Map Purchase/Clock Town Map Purchase "
+          },
+          {
+            "name": "Stone Tower Map Purchase",
+            "ref": "Groups/Stone Tower Map Purchase/Stone Tower Map Purchase"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1429,
+            "y": 495
+          }
+        ]
+      },
+      {
+        "name": "Spirit House",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $upper_ikana_canyon"
+        ],
+        "sections": [
+          {
+            "name": "Poe Sisters",
+            "chest_unopened_img": "images/characters/soulkeeper.png",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, shield, $baby_can_smack",
+              "normal_logic, $has_npc_soul|soul_spirit_house_owner, bow"
+            ]
+          },
+          {
+            "name": "Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona",
+              "$can_play_song|storms"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1504,
+            "y": 484
+          }
+        ]
+      },
+      {
+        "name": "Music Box",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $upper_ikana_canyon"
+        ],
+        "sections": [
+          {
+            "name": "Healing Pamela's Father",
+            "chest_unopened_img": "images/masks/gibdo.png",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $can_play_song|healing, $can_play_song|storms, $baby_has_explosives, stonemask",
+              "normal_logic, $has_npc_soul|soul_pamela_father, $has_npc_soul|soul_composer_poe, $can_use_ice_arrows, $can_play_song|healing, $can_play_song|storms"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1488,
+            "y": 511
+          }
+        ]
+      },
+      {
+        "name": "Great Fairy House",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $upper_ikana_canyon"
+        ],
+        "sections": [
+          {
+            "name": "Great Fairy Reward",
+            "chest_unopened_img": "images/equipment/fairy_st.png",
+            //"visibility_rules": ["shuffle_great_fairy_rewards"],
+            "access_rules": ["$has_npc_soul|soul_great_fairy, $can_use_ice_arrows, $checkRequirements|required_stray_fairies|fairy_st"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1515,
+            "y": 531
+          }
+        ]
+      },
+      {
+        "name": "Near Ikana Castle Gate",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $upper_ikana_canyon"
+        ],
+        "sections": [
+          {
+            "name": "Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1467,
+            "y": 538
+          }
+        ]
+      },
+      {
+        "name": "Outside Spring Cave",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $upper_ikana_canyon"
+        ],
+        "sections": [
+          {
+            "name": "Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1541,
+            "y": 507
           }
         ]
       },
@@ -499,91 +696,14 @@
         ],
         "sections": [
           {
-            "name": "Ikana Canyon Owl Statue",
-            "visibility_rules": ["owl_sanity"],
-            "chest_unopened_img": "images/owl_statues/owl_ikana_canyon_on.png"
-          },
-          {
-            "ref": "Groups/Clock Town Map Purchase/Clock Town Map Purchase "
-          },
-          {
-            "ref": "Groups/Stone Tower Map Purchase/Stone Tower Map Purchase"
-          },
-          {
-            "name": "Healing Pamela's Father",
-            "chest_unopened_img": "images/masks/gibdo.png",
-            "access_rules": [
-              "easy_logic, $can_use_ice_arrows, $can_play_song|healing, $can_play_song|storms, $baby_has_explosives, stonemask",
-              "normal_logic, $has_npc_soul|soul_pamela_father, $has_npc_soul|soul_composer_poe, $can_use_ice_arrows, $can_play_song|healing, $can_play_song|storms"
-            ]
-          },
-          {
-            "name": "Spirit House",
-            "chest_unopened_img": "images/characters/soulkeeper.png",
-            "access_rules": [
-              "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, shield, $baby_can_smack",
-              "normal_logic, $has_npc_soul|soul_spirit_house_owner, bow"
-            ]
-          },
-          {
-            "name": "Spirit House Cut the Sign",
-            "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"],
-            "visibility_rules": ["sign_sanity"]
-          },
-          {
-            "name": "Near Spirit House Gossip Fairy",
-            "chest_unopened_img": "images/icons/gossipfairy.png",
-            "visibility_rules": ["real_fairysanity"],
-            "clear_as_group": false,
-            "access_rules": [
-              "$can_play_song|healing",
-              "$can_play_song|epona",
-              "$can_play_song|storms"
-            ]
-          },
-          {
-            "name": "Great Fairy Reward",
-            "chest_unopened_img": "images/equipment/fairy_st.png",
-            //"visibility_rules": ["shuffle_great_fairy_rewards"],
-            "access_rules": ["$has_npc_soul|soul_great_fairy, $can_use_ice_arrows, $checkRequirements|required_stray_fairies|fairy_st"]
-          },
-          {
-            "name": "Ikana Canyon Grass",
-            "item_count": 4,
-            "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/grass.png",
-            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $can_use_ice_arrows"],
-            "visibility_rules": ["grass_sanity"]
-          },
-          {
             "name": "Outside Well Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
             "access_rules": ["$has_absurd_soul|soul_signs"],
             "visibility_rules": ["sign_sanity"]
-          },
-          {
-            "name": "Near Ikana Castle Gate Cut the Sign",
-            "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"],
-            "visibility_rules": ["sign_sanity"]
-          },
-          {
-            "name": "Outside Spring Cave Cut the Sign",
-            "chest_unopened_img": "images/absurd/sign.png",
-            "access_rules": ["$has_absurd_soul|soul_signs"],
-            "visibility_rules": ["sign_sanity"]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 847,
-            "y": 251
           }
         ]
       },
-            {
+      {
         "name": "Stone Tower",
         "chest_unopened_img": "images/icons/pot.png",
         "access_rules": [
@@ -657,8 +777,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 946,
-            "y": 216
+            "x": 1630,
+            "y": 500
           }
         ]
       },
@@ -724,8 +844,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 946,
-            "y": 230
+            "x": 1630,
+            "y": 525
           }
         ]
       }

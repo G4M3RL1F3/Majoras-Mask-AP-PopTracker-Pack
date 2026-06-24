@@ -6,6 +6,7 @@
         "name": "Entrance Torches Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Entrance Torches Chest SF"
           }
         ],
@@ -18,9 +19,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Entrance Barrels",
         "sections": [
           {
+            "name": "Barrels",
             "ref": "Dungeons/Great Bay Temple/Entrance Barrels"
           }
         ],
@@ -38,12 +40,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Waterwheel Room Skulltula",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Waterwheel Room Skulltula SF"
           },
           {
+            "name": "Rupees",
             "ref": "Dungeons/Great Bay Temple/Waterwheel Rupees"
           }
         ],
@@ -59,6 +63,7 @@
         "name": "Waterwheel Room Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Waterwheel Room Bubble SF"
           }
         ],
@@ -74,6 +79,7 @@
         "name": "Blender Room Barrel SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Blender Room Barrel SF"
           }
         ],
@@ -89,6 +95,7 @@
         "name": "Blender Pot SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Blender Pot SF"
           }
         ],
@@ -104,6 +111,7 @@
         "name": "Above Blender Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Great Bay Temple/Above Blender Pots"
           }
         ],
@@ -119,6 +127,7 @@
         "name": "Red-Green Pipe Room Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Red-Green Pipe Room Chest"
           }
         ],
@@ -134,6 +143,7 @@
         "name": "Red-Green Pipe Room Pot SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Red-Green Pipe Room Pot SF"
           }
         ],
@@ -149,6 +159,7 @@
         "name": "Red-Green Pipe Room Pots (3 Above/8 Below)",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Great Bay Temple/Red Green Pipe Tunnel Room Pots"
           }
         ],
@@ -164,9 +175,11 @@
         "name": "1F Red Valve Room",
         "sections": [
           {
+            "name": "Crates",
             "ref": "Dungeons/Great Bay Temple/1F Red Valve Room Crates"
           },
           {
+            "name": "Barrels",
             "ref": "Dungeons/Great Bay Temple/1F Red Valve Room Barrels"
           }
         ],
@@ -187,6 +200,7 @@
         "name": "Bio-Baba Hall Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Bio-Baba Hall Chest SF"
           }
         ],
@@ -202,6 +216,7 @@
         "name": "Caged Chest Room Upper Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Caged Chest Room Upper Chest"
           }
         ],
@@ -217,6 +232,7 @@
         "name": "Caged Chest Room Underwater Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Caged Chest Room Underwater Chest"
           }
         ],
@@ -229,12 +245,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Jellied Gekko Room",
         "sections": [
           {
+            "name": "Crates",
             "ref": "Dungeons/Great Bay Temple/Jellied Gekko Room Crates"
           },
           {
+            "name": "Frog",
             "ref": "Dungeons/Great Bay Temple/Frog"
           }
         ],
@@ -250,6 +268,7 @@
         "name": "Mad Jellied Gekko Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Mad Jellied Gekko Chest"
           }
         ],
@@ -262,12 +281,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Caged Chest Room Water Stream",
         "sections": [
           {
+            "name": "Pot Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Caged Chest Room Pot SF"
           },
           {
+            "name": "Rupees",
             "ref": "Dungeons/Great Bay Temple/Before Gekko Room Underwater Rupees"
           }
         ],
@@ -283,6 +304,7 @@
         "name": "Caged Chest Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Great Bay Temple/Before Gekko Room Pots"
           }
         ],
@@ -295,9 +317,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Outside Frog Miniboss Door Icicles",
         "sections": [
           {
+            "name": "Icicles",
             "ref": "Dungeons/Great Bay Temple/Outside Frog Miniboss Door Icicles"
           }
         ],
@@ -313,6 +336,7 @@
         "name": "Red Valve Room Underwater Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Great Bay Temple/Red Valve Underwater Pots"
           }
         ],
@@ -328,6 +352,7 @@
         "name": "Locked Door Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Great Bay Temple/Behind Locked Door Pots"
           }
         ],
@@ -343,9 +368,11 @@
         "name": "Wart's Room",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Behind Locked Door Chest"
           },
           {
+            "name": "Pots",
             "ref": "Dungeons/Great Bay Temple/Wart Room Pots"
           }
         ],
@@ -361,6 +388,7 @@
         "name": "Room Behind Waterfall Ceiling Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Room Behind Waterfall Ceiling Chest SF"
           }
         ],
@@ -376,6 +404,7 @@
         "name": "Behind Waterfall Pots (4 Corners Underwater)",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Great Bay Temple/Room Behind 1F Waterfall Pots"
           }
         ],
@@ -388,9 +417,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Behind 1F Waterfall Barrels",
         "sections": [
           {
+            "name": "Barrels",
             "ref": "Dungeons/Great Bay Temple/Behind 1F Waterfall Barrels"
           }
         ],
@@ -403,9 +433,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Behind Waterfall Ceiling Rupees",
         "sections": [
           {
+            "name": "Rupees",
             "ref": "Dungeons/Great Bay Temple/Behind Waterfall Ceiling Rupees"
           }
         ],
@@ -426,6 +457,7 @@
         "name": "Freezable Waterwheel Upper Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Freezable Waterwheel Upper Chest SF"
           }
         ],
@@ -441,6 +473,7 @@
         "name": "Freezable Waterwheel Lower Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Freezable Waterwheel Lower Chest SF"
           }
         ],
@@ -456,6 +489,7 @@
         "name": "Frozen Waterwheel Pots (All Underwater)",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Great Bay Temple/Green Pipe Frozen Waterwheel Pots"
           }
         ],
@@ -468,9 +502,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Frozen Waterwheel Room Barrels",
         "sections": [
           {
+            "name": "Barrels",
             "ref": "Dungeons/Great Bay Temple/Frozen Waterwheel Room Barrels"
           }
         ],
@@ -486,6 +521,7 @@
         "name": "Seesaw Room Underwater Barrel SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Seesaw Room Underwater Barrel SF"
           }
         ],
@@ -501,6 +537,7 @@
         "name": "Seesaw Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Great Bay Temple/Seesaw Room Pots"
           }
         ],
@@ -518,9 +555,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Seesaw Room Crates",
         "sections": [
           {
+            "name": "Crates",
             "ref": "Dungeons/Great Bay Temple/Seesaw Room Crates"
           }
         ],
@@ -536,6 +574,7 @@
         "name": "Seesaw Room Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Seesaw Room Chest SF"
           }
         ],
@@ -551,6 +590,7 @@
         "name": "Pre-Boss Room Platform Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF"
           }
         ],
@@ -566,6 +606,7 @@
         "name": "Pre-Boss Room Tunnel Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Pre-Boss Room Tunnel Bubble SF"
           }
         ],
@@ -581,6 +622,7 @@
         "name": "Underneath Boss Door Platform Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Great Bay Temple/Underneath Boss Door Platform Pots"
           }
         ],
@@ -596,15 +638,19 @@
         "name": "Boss Room",
         "sections": [
           {
+            "name": "Heart Container",
             "ref": "Dungeons/Great Bay Temple/Heart Container"
           },
           {
+            "name": "Gyorg's Remains",
             "ref": "Dungeons/Great Bay Temple/Gyorg's Remains"
           },
           {
+            "name": "Oath to Order",
             "ref": "Dungeons/Great Bay Temple/Oath to Order"
           },
           {
+            "name": "Pots",
             "ref": "Dungeons/Great Bay Temple/Gyorg Pots"
           }
         ],

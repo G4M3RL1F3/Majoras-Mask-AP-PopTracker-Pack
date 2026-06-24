@@ -482,8 +482,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 542,
-            "y": 478
+            "x": 1052,
+            "y": 784
           },
           {
             "map": "woodfall",
@@ -881,17 +881,6 @@
             "visibility_rules": ["pot_sanity"]
           },
           {
-            "name": "Main Room 2nd Floor Bridge Pots",
-            "chest_unopened_img": "images/icons/pot.png",
-            "item_count": 2,
-            "clear_as_group": false,
-            "access_rules": [
-              "normal_logic, $has_absurd_soul|soul_pots, $has_explosives, $has|smallkey_sh|2",
-              "normal_logic, $has_absurd_soul|soul_pots, $has_explosives, $can_use_fire_arrows"
-            ],
-            "visibility_rules": ["pot_sanity"]
-          },
-          {
             "name": "Lower Wizrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $baby_has_projectiles, $baby_can_smack_hard",
@@ -1091,8 +1080,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 489,
-            "y": 38
+            "x": 959,
+            "y": 136
           },
           {
             "map": "snowhead",
@@ -1505,13 +1494,13 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 58,
-            "y": 350
+            "x": 162,
+            "y": 639
           }
         ]
       },
       {
-        "name": "Pirates' Fortress",
+        "name": "Pirates' Fortress Moat",
         "access_rules": ["$pirates_fortress"],
         "sections": [
           {
@@ -1539,8 +1528,21 @@
             "chest_unopened_img": "images/absurd/barrel.png",
             "visibility_rules": ["wood_sanity"],
             "clear_as_group": false,
-            "access_rules": ["$pirates_fortress_interior, $has_absurd_soul|soul_barrels, hookshot"]
-          },
+            "access_rules": ["$has_absurd_soul|soul_barrels, hookshot"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 484,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Sewers",
+        "access_rules": ["$pirates_fortress_sewers"],
+        "sections": [
           {
             "name": "Sewers Bonk Boards",
             "chest_unopened_img": "images/icons/pirate_board.png",
@@ -1562,7 +1564,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots, soul_barrels, goron"],
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_souls|soul_barrels, goron"],
             "visibility_rules": ["pot_sanity"]
           },
           {
@@ -1630,14 +1632,26 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["goron, zora"]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 521,
+            "y": 423
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress",
+        "access_rules": ["$pirates_fortress_interior"],
+        "sections": [
           {
             "name": "Interior Courtyard Crates",
             "chest_unopened_img": "images/icons/crate.png",
             "visibility_rules": ["wood_sanity"],
             "item_count": 3,
-            "clear_as_group": false,
-            "access_rules": ["$pirates_fortress_interior"]
+            "clear_as_group": false
           },
           {
             "name": "Interior Ledge Recovery Hearts",
@@ -1645,13 +1659,13 @@
             "visibility_rules": ["rupee_sanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$pirates_fortress_interior, hookshot"]
+            "access_rules": ["hookshot"]
           },
           {
             "name": "Interior Tank Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, hookshot, $baby_can_smack_hard, magic, stonemask",
-              "normal_logic, $has_enemy_soul|soul_coloured_pirates, $pirates_fortress_interior, hookshot, $can_smack_hard"
+              "normal_logic, $has_enemy_soul|soul_coloured_pirates, hookshot, $can_smack_hard"
             ]
           },
           {
@@ -1666,7 +1680,7 @@
             "name": "Interior Guarded Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
-              "normal_logic, $pirates_fortress_interior, hookshot"
+              "normal_logic, hookshot"
             ]
           },
           {
@@ -1682,7 +1696,7 @@
             "chest_unopened_img": "images/absurd/barrel.png",
             "visibility_rules": ["wood_sanity"],
             "clear_as_group": false,
-            "access_rules": ["$pirates_fortress_interior, $has_absurd_soul|soul_barrels, $has_enemy_soul|soul_coloured_pirates, hookshot"]
+            "access_rules": ["$has_absurd_soul|soul_barrels, $has_enemy_soul|soul_coloured_pirates, hookshot"]
           },
           {
             "name": "Interior Room Past Green Guard Pots",
@@ -1701,32 +1715,25 @@
             "visibility_rules": ["hit_sanity"]
           },
           {
-            "name": "Hub Lower Chest",
-            "access_rules": [
-              "easy_logic, $baby_pirates_fortress_interior, goron, hookshot, stonemask",
-              "normal_logic, $pirates_fortress_interior"
-            ]
+            "name": "Hub Lower Chest"
           },
           {
             "name": "Hub Upper Chest",
-            "access_rules": [
-              "easy_logic, $baby_pirates_fortress_interior, hookshot, stonemask",
-              "normal_logic, $pirates_fortress_interior, hookshot"
-            ]
+            "access_rules": ["normal_logic, hookshot"]
           },
           {
             "name": "Guarded Bridge Barrel",
             "chest_unopened_img": "images/absurd/barrel.png",
             "visibility_rules": ["wood_sanity"],
             "clear_as_group": false,
-            "access_rules": ["$pirates_fortress_interior, $has_absurd_soul|soul_barrels, hookshot"]
+            "access_rules": ["$has_absurd_soul|soul_barrels, hookshot"]
           },
           {
             "name": "Interior Upper Beehive Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$pirates_fortress_interior, $has_absurd_soul|soul_pots, hookshot, $can_smack_hard"],
+            "access_rules": ["$has_absurd_soul|soul_pots, hookshot, $can_smack_hard"],
             "visibility_rules": ["pot_sanity"]
           },
           {
@@ -1735,32 +1742,32 @@
             "visibility_rules": ["wood_sanity"],
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["$pirates_fortress_interior, $has_absurd_soul|soul_barrels, bow"]
+            "access_rules": ["$has_absurd_soul|soul_barrels, bow"]
           },
           {
             "name": "Indoor Pirate Flag Eye Hitspots",
             "chest_unopened_img": "images/icons/hitspot.png",
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$pirates_fortress_interior, $has_projectiles"],
+            "access_rules": ["$has_projectiles"],
             "visibility_rules": ["hit_sanity"]
           },
           {
             "name": "Leader's Room Chest",
             "access_rules": [
-              "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
-              "normal_logic, $pirates_fortress_interior, hookshot, bow",
-              "normal_logic, $pirates_fortress_interior, hookshot, deku, magic",
-              "normal_logic, $pirates_fortress_interior, goron, bow",
-              "normal_logic, $pirates_fortress_interior, goron, deku, magic"
+              "easy_logic, $br, $baby_has_projectiles, stonemask, hookshot",
+              "normal_logic, hookshot, bow",
+              "normal_logic, hookshot, deku, magic",
+              "normal_logic, goron, bow",
+              "normal_logic, goron, deku, magic"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 310,
-            "y": 242
+            "x": 522,
+            "y": 376
           }
         ]
       },
@@ -1777,8 +1784,8 @@
             "chest_unopened_img": "images/masks/truth.png",
             "access_rules": [
               "$checkRequirements|required_skull_tokens|skull_ss, $has_npc_soul|soul_spider_man",
-              "skullsanity_0, $has_npc_soul|soul_spider_man, $can_smack, $bottleCount|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token",
-              "skullsanity_2, $has_npc_soul|soul_spider_man, $can_smack, $bottleCount|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token"
+              "skullsanity_0, $has_npc_soul|soul_spider_man, $can_smack, $bottleCount|1, $has_projectiles, @Dungeons/Swamp Spider House/First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Golden Room Against Far Wall Token",
+              "skullsanity_2, $has_npc_soul|soul_spider_man, $can_smack, $bottleCount|1, $has_projectiles, @Dungeons/Swamp Spider House/First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Golden Room Against Far Wall Token"
             ]
             //"visibility_rules": ["shuffle_swamphouse_reward"]
           },
@@ -2201,8 +2208,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 498,
-            "y": 502
+            "x": 921,
+            "y": 827
           },
           {
             "map": "southern_swamp",
@@ -2587,8 +2594,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 307,
-            "y": 347
+            "x": 554,
+            "y": 599
           }
         ]
       },
@@ -2710,8 +2717,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 787,
-            "y": 223
+            "x": 1387,
+            "y": 473
           }
         ]
       },
@@ -2723,6 +2730,9 @@
           "normal_logic, $well_back"
         ],
         "sections": [
+          {
+            "ref": "Ikana/Ikana Canyon/Outside Well Cut the Sign"
+          },
           {
             "name": "Cow",
             "chest_unopened_img": "images/icons/cow.png",
@@ -2943,8 +2953,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 816,
-            "y": 245
+            "x": 1443,
+            "y": 471
           }
         ]
       },
@@ -3066,8 +3076,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 829,
-            "y": 296
+            "x": 1472,
+            "y": 564
           }
         ]
       },
@@ -3326,7 +3336,7 @@
             "name": "Deku Updraft Goron Switch Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
-              "easy_logic, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest, goron",
+              "easy_logic, @Dungeons/Stone Tower Temple/Deku Updraft Side Chest, goron",
               "normal_logic, $has_absurd_soul|soul_deku_flowers, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest, goron"
             ]
           },
@@ -3341,8 +3351,8 @@
           {
             "name": "Garo Master Chest",
             "access_rules": [
-              "easy_logic, $baby_can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest",
-              "normal_logic, $has_enemy_soul|soul_garo_master, $has_absurd_soul|soul_deku_flowers, $can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest"
+              "easy_logic, $baby_can_smack, @Dungeons/Stone Tower Temple/Deku Updraft Side Chest",
+              "normal_logic, $has_enemy_soul|soul_garo_master, $has_absurd_soul|soul_deku_flowers, $can_smack, @Dungeons/Stone Tower Temple/Deku Updraft Side Chest"
             ]
           },
           {
@@ -3378,8 +3388,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 965,
-            "y": 216
+            "x": 1680,
+            "y": 500
           }
         ]
       },
@@ -3607,8 +3617,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 965,
-            "y": 230
+            "x": 1680,
+            "y": 525
           }
         ]
       }

@@ -30,9 +30,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Exterior Corner Pot",
         "sections": [
           {
+            "name": "Pot",
             "ref": "Dungeons/Ikana Castle/Exterior Corner Pot"
           }
         ],
@@ -45,9 +46,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Frozen Eyes Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Ikana Castle/Frozen Eyes Room Pots"
           }
         ],
@@ -60,9 +62,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Left Side Falling Ceiling Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Ikana Castle/Left Side Falling Ceiling Room Pots"
           }
         ],
@@ -75,9 +78,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Left Side Falling Ceiling Deku Flowers",
         "sections": [
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Ikana Castle/Left Side Falling Ceiling Deku Flowers"
           }
         ],
@@ -90,9 +94,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Left Side Broken Floor Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Ikana Castle/Left Side Broken Floor Room Pots"
           }
         ],
@@ -105,9 +110,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Left Side Broken Floor Deku Flowers",
         "sections": [
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Ikana Castle/Left Side Broken Floor Deku Flowers"
           }
         ],
@@ -120,9 +126,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Left Side Staircase Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Ikana Castle/Left Side Staircase Pots"
           }
         ],
@@ -135,9 +142,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Right Side Staircase Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Ikana Castle/Right Side Staircase Pots"
           }
         ],
@@ -150,9 +158,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Exterior Deku Flowers",
         "sections": [
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Ikana Castle/Exterior Deku Flowers"
           }
         ],
@@ -165,9 +174,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Pillar Freestanding HP",
         "sections": [
           {
+            "name": "Heart Piece",
             "ref": "Dungeons/Ikana Castle/Pillar Freestanding HP"
           }
         ],
@@ -180,12 +190,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Throne Room",
         "sections": [
           {
+            "name": "King Song",
             "ref": "Dungeons/Ikana Castle/King Song"
           },
           {
+            "name": "Pots",
             "ref": "Dungeons/Ikana Castle/Throne Room Pots"
           }
         ],

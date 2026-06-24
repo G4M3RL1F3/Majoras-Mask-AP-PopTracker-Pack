@@ -3,9 +3,10 @@
     "name": "Ocean Spider House",
     "children": [
       {
-        "name": "",
+        "name": "Entrance Bombable Wall",
         "sections": [
           {
+            "name": "Bombable Wall",
             "ref": "Dungeons/Ocean Spider House/Entrance Bombable Wall"
           }
         ],
@@ -21,9 +22,11 @@
         "name": "Ramp",
         "sections": [
           {
+            "name": "Upper Token",
             "ref": "Dungeons/Ocean Spider House/Ramp Upper Token"
           },
           {
+            "name": "Lower Token",
             "ref": "Dungeons/Ocean Spider House/Ramp Lower Token"
           }
         ],
@@ -39,6 +42,7 @@
         "name": "Bottom Entrance Ramp Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Ocean Spider House/Ocean Spiderhouse Bottom of Ramp Pots"
           }
         ],
@@ -51,9 +55,10 @@
         ]
       },
       {
-        "name": "Lobby",
+        "name": "Lobby Ceiling Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Lobby Ceiling Token"
           }
         ],
@@ -66,10 +71,10 @@
         ]
       },
       {
-        "name": "Lobby",
+        "name": "Lobby Ceiling Web",
         "sections": [
-          
           {
+            "name": "Web",
             "ref": "Dungeons/Ocean Spider House/Lobby Ceiling Web"
           }
         ],
@@ -85,6 +90,7 @@
         "name": "First Room Mask Hitspots",
         "sections": [
           {
+            "name": "Mask Hitspots",
             "ref": "Dungeons/Ocean Spider House/First Room Mask Hitspots"
           }
         ],
@@ -107,9 +113,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Library Web",
         "sections": [
           {
+            "name": "Web",
             "ref": "Dungeons/Ocean Spider House/Library Web"
           }
         ],
@@ -122,9 +129,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "1st Room Over Entrance Door Web",
         "sections": [
           {
+            "name": "Door Web",
             "ref": "Dungeons/Ocean Spider House/1st Room Over Entrance Door Web"
           }
         ],
@@ -140,6 +148,7 @@
         "name": "First Room Rafter Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/First Room Rafter Token"
           }
         ],
@@ -152,9 +161,10 @@
         ]
       },
       {
-        "name": "First Room Open Pot #1 Token",
+        "name": "First Room Open Pot #1",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/First Room Open Pot #1 Token"
           }
         ],
@@ -167,12 +177,14 @@
         ]
       },
       {
-        "name": "First Room Open Pot #2 Token",
+        "name": "First Room Open Pot #2",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/First Room Open Pot #2 Token"
           },
           {
+            "name": "Web",
             "ref": "Dungeons/Ocean Spider House/1st Floor Pot Web"
           }
         ],
@@ -188,6 +200,7 @@
         "name": "First Room Wall Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/First Room Wall Token"
           }
         ],
@@ -200,9 +213,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "1st Floor Near Staircase Web",
         "sections": [
           {
+            "name": "Web",
             "ref": "Dungeons/Ocean Spider House/1st Floor Near Staircase Web"
           }
         ],
@@ -218,6 +232,7 @@
         "name": "Library Top Bookcase Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Library Top Bookcase Token"
           }
         ],
@@ -233,6 +248,7 @@
         "name": "Library Passage Behind Bookcase Front Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Library Passage Behind Bookcase Front Token"
           }
         ],
@@ -248,6 +264,7 @@
         "name": "Library Passage Behind Bookcase Rear Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Library Passage Behind Bookcase Rear Token"
           }
         ],
@@ -260,12 +277,14 @@
         ]
       },
       {
-        "name": "Library Painting #1 Token",
+        "name": "Library Painting #1",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Library Painting #1 Token"
           },
           {
+            "name": "Paintings",
             "ref": "Dungeons/Ocean Spider House/Library Paintings"
           }
         ],
@@ -278,9 +297,10 @@
         ]
       },
       {
-        "name": "Library Painting #2 Token",
+        "name": "Library Painting #2",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Library Painting #2 Token"
           }
         ],
@@ -296,6 +316,7 @@
         "name": "Library Rafter Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Library Rafter Token"
           }
         ],
@@ -311,6 +332,7 @@
         "name": "Library Bookshelf Hole Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Library Bookshelf Hole Token"
           }
         ],
@@ -323,9 +345,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Library Painting",
         "sections": [
           {
+            "name": "Paintings",
             "ref": "Dungeons/Ocean Spider House/Library Paintings"
           }
         ],
@@ -348,9 +371,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Basement Near Staircase Web",
         "sections": [
           {
+            "name": "Web",
             "ref": "Dungeons/Ocean Spider House/Basement Near Staircase Web"
           }
         ],
@@ -366,6 +390,7 @@
         "name": "First Room Downstairs Rafter Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/First Room Downstairs Rafter Token"
           }
         ],
@@ -381,6 +406,7 @@
         "name": "First Room Downstairs Open Pot Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/First Room Downstairs Open Pot Token"
           }
         ],
@@ -396,6 +422,7 @@
         "name": "First Room Downstairs Behind Staircase Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/First Room Downstairs Behind Staircase Token"
           }
         ],
@@ -408,15 +435,18 @@
         ]
       },
       {
-        "name": "First Room Downstairs Breakable Pot Token",
+        "name": "First Room Downstairs Breakable Pots",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/First Room Downstairs Breakable Pot Token"
           },
           {
+            "name": "Lower Pots",
             "ref": "Dungeons/Ocean Spider House/Ocean Spiderhouse Main Room Lower Pots"
           },
           {
+            "name": "Web",
             "ref": "Dungeons/Ocean Spider House/Basement Covering Crates Web"
           }
         ],
@@ -429,9 +459,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Basement Covering Hole Web",
         "sections": [
           {
+            "name": "Web",
             "ref": "Dungeons/Ocean Spider House/Basement Covering Hole Web"
           }
         ],
@@ -447,6 +478,7 @@
         "name": "First Room Downstairs Wall Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/First Room Downstairs Wall Token"
           }
         ],
@@ -462,6 +494,7 @@
         "name": "First Room Downstairs Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Ocean Spider House/Ocean Spiderhouse Main Room Lower Pots"
           }
         ],
@@ -474,9 +507,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Basement Covering Door Web",
         "sections": [
           {
+            "name": "Door Web",
             "ref": "Dungeons/Ocean Spider House/Basement Covering Door Web"
           }
         ],
@@ -492,6 +526,7 @@
         "name": "Dining Room Open Pot Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Dining Room Open Pot Token"
           }
         ],
@@ -504,12 +539,14 @@
         ]
       },
       {
-        "name": "Dining Room Painting Token",
+        "name": "Dining Room Gold Skulltula Painting",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Dining Room Painting Token"
           },
           {
+            "name": "Paintings",
             "ref": "Dungeons/Ocean Spider House/Dining Room Paintings"
           }
         ],
@@ -525,6 +562,7 @@
         "name": "Dining Room Ceiling Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Dining Room Ceiling Token"
           }
         ],
@@ -540,12 +578,15 @@
         "name": "Dining Room Chandelier",
         "sections": [
           {
+            "name": "Token #1",
             "ref": "Dungeons/Ocean Spider House/Dining Room Chandelier #1 Token"
           },
           {
+            "name": "Token #2",
             "ref": "Dungeons/Ocean Spider House/Dining Room Chandelier #2 Token"
           },
           {
+            "name": "Token #3",
             "ref": "Dungeons/Ocean Spider House/Dining Room Chandelier #3 Token"
           }
         ],
@@ -561,6 +602,7 @@
         "name": "Dining Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Ocean Spider House/Ocean Spiderhouse Coloured Skulls Room Pots"
           }
         ],
@@ -573,9 +615,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Dining Room Ceiling Web",
         "sections": [
           {
+            "name": "Web",
             "ref": "Dungeons/Ocean Spider House/Dining Room Ceiling Web"
           }
         ],
@@ -593,9 +636,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Dining Room Paintings",
         "sections": [
           {
+            "name": "Paintings",
             "ref": "Dungeons/Ocean Spider House/Dining Room Paintings"
           }
         ],
@@ -621,9 +665,11 @@
         "name": "Storage Room Web Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Storage Room Web Token"
           },
           {
+            "name": "Web",
             "ref": "Dungeons/Ocean Spider House/Storage Room Ceiling Web"
           }
         ],
@@ -639,6 +685,7 @@
         "name": "Storage Room North Wall Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Storage Room North Wall Token"
           }
         ],
@@ -654,6 +701,7 @@
         "name": "Storage Room Crate Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Storage Room Crate Token"
           }
         ],
@@ -666,9 +714,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Storage Room Crates Web",
         "sections": [
           {
+            "name": "Web",
             "ref": "Dungeons/Ocean Spider House/Storage Room Crates Web"
           }
         ],
@@ -684,9 +733,11 @@
         "name": "Storage Room Hidden Hole Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Storage Room Hidden Hole Token"
           },
           {
+            "name": "Crate",
             "ref": "Dungeons/Ocean Spider House/Storage Room Crate"
           }
         ],
@@ -702,6 +753,7 @@
         "name": "Storage Room Ceiling Pot Token",
         "sections": [
           {
+            "name": "Token",
             "ref": "Dungeons/Ocean Spider House/Storage Room Ceiling Pot Token"
           }
         ],
@@ -717,6 +769,7 @@
         "name": "Storage Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Ocean Spider House/Ocean Spiderhouse Crate Room Pots"
           }
         ],
@@ -732,6 +785,7 @@
         "name": "Coloured Mask Sequence HP",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Ocean Spider House/Coloured Mask Sequence HP"
           }
         ],
@@ -747,6 +801,7 @@
         "name": "Ocean Spider House Reward",
         "sections": [
           {
+            "name": "Reward",
             "ref": "Dungeons/Ocean Spider House/Ocean Spider House Reward"
           }
         ],

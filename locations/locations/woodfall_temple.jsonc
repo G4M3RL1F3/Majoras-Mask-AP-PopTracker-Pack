@@ -3,9 +3,10 @@
     "name": "Woodfall Temple",
     "children": [
       {
-        "name": "",
+        "name": "Entrance Pot",
         "sections": [
           {
+            "name": "Pot",
             "ref": "Dungeons/Woodfall Temple/Entrance Pot"
           }
         ],
@@ -18,9 +19,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Entrance Room Beehive",
         "sections": [
           {
+            "name": "Beehive",
             "ref": "Dungeons/Woodfall Temple/Entrance Room Beehive"
           }
         ],
@@ -33,12 +35,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Entrance Room",
         "sections": [
           {
+            "name": "Grass",
             "ref": "Dungeons/Woodfall Temple/Entrance Room Grass"
           },
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Woodfall Temple/Entrance Room Deku Flowers"
           }
         ],
@@ -54,6 +58,7 @@
         "name": "Entrance Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Woodfall Temple/Entrance Chest SF"
           }
         ],
@@ -66,9 +71,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Main Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Woodfall Temple/Main Room Pots"
           }
         ],
@@ -81,9 +87,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Main Room Grass",
         "sections": [
           {
+            "name": "Grass",
             "ref": "Dungeons/Woodfall Temple/Main Room Grass"
           }
         ],
@@ -96,9 +103,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Main Room Deku Flowers",
         "sections": [
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Woodfall Temple/Main Room Deku Flowers"
           }
         ],
@@ -114,6 +122,7 @@
         "name": "Switch Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Woodfall Temple/Switch Chest SF"
           }
         ],
@@ -129,6 +138,7 @@
         "name": "Ledge Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Woodfall Temple/Ledge Chest"
           }
         ],
@@ -141,9 +151,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Elevator Room Grass",
         "sections": [
           {
+            "name": "Grass",
             "ref": "Dungeons/Woodfall Temple/Elevator Room Grass"
           }
         ],
@@ -156,9 +167,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Elevator Room Deku Flowers",
         "sections": [
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Woodfall Temple/Elevator Room Deku Flowers"
           }
         ],
@@ -171,9 +183,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Deku Elevator Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Woodfall Temple/Deku Elevator Pots"
           }
         ],
@@ -186,15 +199,18 @@
         ]
       },
       {
-        "name": "Turtle Chest",
+        "name": "Turtle Room",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Woodfall Temple/Turtle Chest"
           },
           {
+            "name": "Grass",
             "ref": "Dungeons/Woodfall Temple/Turtle Room Grass"
           },
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Woodfall Temple/Turtle Room Deku Flowers"
           }
         ],
@@ -207,12 +223,14 @@
         ]
       },
       {
-        "name": "Dinolfos Chest",
+        "name": "Dinolfos Room",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Woodfall Temple/Dinolfos Chest"
           },
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Woodfall Temple/Dinolfos Room Deku Flowers"
           }
         ],
@@ -225,12 +243,14 @@
         ]
       },
       {
-        "name": "Boss Key Chest",
+        "name": "Boss Key Chest Cubby",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Woodfall Temple/Gekko Chest"
           },
           {
+            "name": "Pots",
             "ref": "Dungeons/Woodfall Temple/Gekko Pots"
           }
         ],
@@ -243,12 +263,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Gekko Room",
         "sections": [
           {
+            "name": "Frog",
             "ref": "Dungeons/Woodfall Temple/Frog"
           },
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Woodfall Temple/Gekko Deku Flowers"
           }
         ],
@@ -261,15 +283,18 @@
         ]
       },
       {
-        "name": "Dragonfly Chest Room",
+        "name": "Dragonfly Room",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Woodfall Temple/Dragonfly Chest"
           },
           {
+            "name": "Grass",
             "ref": "Dungeons/Woodfall Temple/Dragonfly Chest Room Grass"
           },
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Woodfall Temple/Dragonfly Room Deku Flowers"
           }
         ],
@@ -285,9 +310,11 @@
         "name": "Moving Deku Flower Platform Room",
         "sections": [
           {
+            "name": "2nd Floor Moving Flower Platform Room Grass",
             "ref": "Dungeons/Woodfall Temple/2nd Floor Moving Flower Platform Room Grass"
           },
           {
+            "name": "2nd Floor Moving Deku Flowers",
             "ref": "Dungeons/Woodfall Temple/2nd Floor Moving Deku Flowers"
           }
         ],
@@ -303,6 +330,7 @@
         "name": "Black Boe Room Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Woodfall Temple/Dark Room Chest SF"
           }
         ],
@@ -318,6 +346,7 @@
         "name": "Entrance Freestanding SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Woodfall Temple/Entrance Freestanding SF"
           }
         ],
@@ -333,6 +362,7 @@
         "name": "Wooden Flower Deku Baba SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Woodfall Temple/Deku Baba SF"
           }
         ],
@@ -348,6 +378,7 @@
         "name": "Wooden Flower Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Woodfall Temple/Main Room Bubble SF"
           }
         ],
@@ -363,6 +394,7 @@
         "name": "Wooden Flower Pot SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Woodfall Temple/Pot SF"
           }
         ],
@@ -378,6 +410,7 @@
         "name": "Woodfall Temple Platform Hive SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Woodfall Temple/Platform Hive SF"
           }
         ],
@@ -393,6 +426,7 @@
         "name": "Woodfall Temple Skulltula SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Woodfall Temple/Skulltula SF"
           }
         ],
@@ -408,6 +442,7 @@
         "name": "Bridge Room Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Woodfall Temple/Bridge Room Bubble SF"
           }
         ],
@@ -420,9 +455,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Left Side Bridge Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Woodfall Temple/Left Side Bridge Pots"
           }
         ],
@@ -438,6 +474,7 @@
         "name": "Bridge Room Hive SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Woodfall Temple/Bridge Room Hive SF"
           }
         ],
@@ -450,9 +487,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Bridge Room Web",
         "sections": [
           {
+            "name": "Web",
             "ref": "Dungeons/Woodfall Temple/Bridge Room Web"
           }
         ],
@@ -465,9 +503,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Bridge Room Beehive",
         "sections": [
           {
+            "name": "Beehive",
             "ref": "Dungeons/Woodfall Temple/Bridge Room Beehive"
           }
         ],
@@ -483,6 +522,7 @@
         "name": "Pre-Boss Upper Right Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Woodfall Temple/Pre-Boss Upper Right Bubble SF"
           }
         ],
@@ -498,6 +538,7 @@
         "name": "Pre-Boss Lower Right Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Woodfall Temple/Pre-Boss Lower Right Bubble SF"
           }
         ],
@@ -513,6 +554,7 @@
         "name": "Pre-Boss Room Grass",
         "sections": [
           {
+            "name": "Grass",
             "ref": "Dungeons/Woodfall Temple/Pre-Boss Room Grass"
           }
         ],
@@ -525,9 +567,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Pre-Boss Deku Flowers",
         "sections": [
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Woodfall Temple/Pre-Boss Deku Flowers"
           }
         ],
@@ -543,6 +586,7 @@
         "name": "Pre-Boss Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Woodfall Temple/Pre-Boss Pots"
           }
         ],
@@ -558,6 +602,7 @@
         "name": "Pre-Boss Rupees",
         "sections": [
           {
+            "name": "Rupees",
             "ref": "Dungeons/Woodfall Temple/Pre-Boss Rupees"
           }
         ],
@@ -573,6 +618,7 @@
         "name": "Pre-Boss Zora Rupees",
         "sections": [
           {
+            "name": "Rupees",
             "ref": "Dungeons/Woodfall Temple/Pre-Boss Zora Rupees"
           }
         ],
@@ -593,6 +639,7 @@
         "name": "Pre-Boss Upper Left Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Woodfall Temple/Pre-Boss Upper Left Bubble SF"
           }
         ],
@@ -608,6 +655,7 @@
         "name": "Pre-Boss Pillar Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Woodfall Temple/Pre-Boss Pillar Bubble SF"
           }
         ],
@@ -620,21 +668,26 @@
         ]
       },
       {
-        "name": "Odolwa",
+        "name": "Boss Room",
         "sections": [
           {
+            "name": "Heart Container",
             "ref": "Dungeons/Woodfall Temple/Heart Container"
           },
           {
+            "name": "Odolwa's Remains",
             "ref": "Dungeons/Woodfall Temple/Odolwa's Remains"
           },
           {
+            "name": "Odolwa's Lair Grass",
             "ref": "Dungeons/Woodfall Temple/Odolwa's Lair Grass"
           },
           {
+            "name": "Odolwa's Lair Deku Flower",
             "ref": "Dungeons/Woodfall Temple/Odolwa's Lair Deku Flower"
           },
           {
+            "name": "Oath to Order",
             "ref": "Dungeons/Woodfall Temple/Oath to Order"
           }
         ],

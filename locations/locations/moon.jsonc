@@ -6,24 +6,30 @@
     "access_rules": ["$moon"],
     "children": [
       {
-        "name": "Deku Trial (Odolwa Mask)",
+        "name": "Deku Trial",
         "sections": [
           {
-            "ref": "Inside the Moon/Deku Trial/Heart Piece"
+            "name": "Heart Piece",
+            "ref": "Inside the Moon/Deku Trial HP Corner/Heart Piece"
           },
           {
-            "ref": "Inside the Moon/Deku Trial/Heart Piece Gossip Fairy"
+            "name": "Heart Piece Gossip Fairy",
+            "ref": "Inside the Moon/Deku Trial HP Corner/Gossip Fairy"
           },
           {
+            "name": "Front Left Gossip Fairy",
             "ref": "Inside the Moon/Deku Trial Front Left/Front Left Gossip Fairy"
           },
           {
+            "name": "Front Right Gossip Fairy",
             "ref": "Inside the Moon/Deku Trial Front Right/Front Right Gossip Fairy"
           },
           {
+            "name": "Back Left Gossip Fairy",
             "ref": "Inside the Moon/Deku Trial Back Left/Back Left Gossip Fairy"
           },
           {
+            "name": "Back Right Gossip Fairy",
             "ref": "Inside the Moon/Deku Trial Back Right/Back Right Gossip Fairy"
           },
           {
@@ -33,13 +39,13 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 111,
-            "y": 572
+            "x": 260,
+            "y": 240
           }
         ]
       },
       {
-        "name": "Deku Trial",
+        "name": "Deku Trial HP Corner",
         "sections": [
           {
             "name": "Heart Piece",
@@ -47,7 +53,7 @@
             "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku"]
           },
           {
-            "name": "Heart Piece Gossip Fairy",
+            "name": "Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
             "clear_as_group": false,
@@ -209,35 +215,42 @@
         ]
       },
       {
-        "name": "Goron Trial (Goht Mask)",
+        "name": "Goron Trial ",
         "sections": [
           {
+            "name": "Heart Piece",
             "ref": "Inside the Moon/Goron Trial/Heart Piece"
           },
           {
+            "name": "Pathway Bumper Chest",
             "ref": "Inside the Moon/Goron Trial Chests/Pathway Bumper Chest"
           },
           {
+            "name": "Goron Trial Pots",
             "ref": "Inside the Moon/Goron Trial Pots/Goron Trial Pots"
           },
           {
+            "name": "Exit Icicles",
             "ref": "Inside the Moon/Goron Trial Icicles/Exit Icicles"
           },
           {
+            "name": "Heart Piece Gossip Fairy",
             "ref": "Inside the Moon/Goron Trial/Heart Piece Gossip Fairy"
           },
           {
-            "ref": "Inside the Moon/Goron Trial First Gazebo/Gossip Fairy"
+            "name": "First Gazebo Gossip Fairy",
+            "ref": "Inside the Moon/Goron Trial/First Gazebo Gossip Fairy"
           },
           {
-            "ref": "Inside the Moon/Goron Trial Second Gazebo/Gossip Fairy"
+            "name": "Second Gazebo Gossip Fairy",
+            "ref": "Inside the Moon/Goron Trial/Second Gazebo Gossip Fairy"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 111,
-            "y": 532
+            "x": 260,
+            "y": 180
           }
         ]
       },
@@ -315,7 +328,7 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 15,
             "clear_as_group": false,
-            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_pots, @Inside the Moon/Goron Trial HP/Heart Piece"],
+            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_pots, @Inside the Moon/Goron Trial/Heart Piece"],
             "visibility_rules": ["pot_sanity"]
           }
         ],
@@ -357,7 +370,7 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "$has_npc_soul|soul_moon_kid, @Inside the Moon/Goron Trial HP/Heart Piece"
+              "$has_npc_soul|soul_moon_kid, @Inside the Moon/Goron Trial/Heart Piece"
             ]
           }
         ],
@@ -421,29 +434,35 @@
         "name": "Zora Trial",
         "sections": [
           {
+            "name": "Heart Piece",
             "ref": "Inside the Moon/Zora Trial HP/Heart Piece"
           },
           {
+            "name": "Heart Piece Gossip Fairy",
             "ref": "Inside the Moon/Zora Trial HP/Heart Piece Gossip Fairy"
           },
           {
+            "name": "LLL Gossip Fairy",
             "ref": "Inside the Moon/Zora Trial LLL/LLL Gossip Fairy"
           },
           {
+            "name": "LRR Gossip Fairy",
             "ref": "Inside the Moon/Zora Trial LRR/LRR Gossip Fairy"
           },
           {
+            "name": "RRL Gossip Fairy",
             "ref": "Inside the Moon/Zora Trial RRL/RRL Gossip Fairy"
           },
           {
+            "name": "RRR Gossip Fairy",
             "ref": "Inside the Moon/Zora Trial RRR/RRR Gossip Fairy"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 91,
-            "y": 552
+            "x": 230,
+            "y": 210
           }
         ]
       },
@@ -571,35 +590,43 @@
         "name": "Link Trial",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Inside the Moon/Link Trial Entrance/Link Trial Pots"
           },
           {
+            "name": "Dinolfos-Garo Master Gossip Fairy",
             "ref": "Inside the Moon/Link Trial Dinofols-Garo Master Midway Room/Dinofols-Garo Master Gossip Fairy"
           },
           {
+            "name": "Garo Master Chest",
             "ref": "Inside the Moon/Garo Master Room/Garo Master Chest"
           },
           {
+            "name": "Garo Master-Iron Knuckle Gossip Fairy",
             "ref": "Inside the Moon/Link Trial Garo Master-Iron Knuckle Midway Room/Garo Master-Iron Knuckle Gossip Fairy"
           },
           {
+            "name": "Iron Knuckle Chest",
             "ref": "Inside the Moon/Iron Knuckle Room/Iron Knuckle Chest"
           },
           {
+            "name": "Iron Knuckle Gossip Fairy",
             "ref": "Inside the Moon/Link Trial Iron Knuckle Ledge/Iron Knuckle Gossip Fairy"
           },
           {
-            "ref": "Inside the Moon/Heart Piece Room/Heart Piece"
+            "name": "Heart Piece",
+            "ref": "Inside the Moon/Link Trial Heart Piece Room/Heart Piece"
           },
           {
-            "ref": "Inside the Moon/Heart Piece Room/Heart Piece Gossip Fairy"
+            "name": "Heart Piece Gossip Fairy",
+            "ref": "Inside the Moon/Link Trial Heart Piece Room/Heart Piece Gossip Fairy"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 131,
-            "y": 552
+            "x": 290,
+            "y": 210
           }
         ]
       },
@@ -742,7 +769,7 @@
         ]
       },
       {
-        "name": "Heart Piece Room",
+        "name": "Link Trial Heart Piece Room",
         "sections": [
           {
             "name": "Heart Piece",
@@ -758,15 +785,15 @@
             "visibility_rules": ["real_fairysanity"],
             "clear_as_group": false,
             "access_rules": [
-              "$has_npc_soul|soul_moon_kid, @Link Trial/Heart Piece Room/Heart Piece, $can_play_song|healing",
-              "$has_npc_soul|soul_moon_kid, @Link Trial/Heart Piece Room/Heart Piece, $can_play_song|epona",
-              "$has_npc_soul|soul_moon_kid, @Link Trial/Heart Piece Room/Heart Piece, $can_play_song|storms"
+              "$has_npc_soul|soul_moon_kid, @Link Trial/Link Trial Heart Piece Room/Heart Piece, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, @Link Trial/Link Trial Heart Piece Room/Heart Piece, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, @Link Trial/Link Trial Heart Piece Room/Heart Piece, $can_play_song|storms"
             ]
           },
           {
             "name": "Bombable Ceiling",
             "chest_unopened_img": "images/icons/bombwall.png",
-            "access_rules": ["@Inside the Moon/Iron Kuckle Room Room/Iron Knuckle Chest, $has_bombchus"],
+            "access_rules": ["@Inside the Moon/Iron Knuckle Room/Iron Knuckle Chest, $has_bombchus"],
             "visibility_rules": ["bombwall_sanity"]
           }
         ],
@@ -794,7 +821,7 @@
           {
             "name": "Trade All Masks",
             "chest_unopened_img": "images/masks/fierce_deity.png",
-            "access_rules": ["$has_npc_soul|soul_moon_kid, postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Link Trial/Heart Piece, $can_use_fire_arrows"]
+            "access_rules": ["$has_npc_soul|soul_moon_kid, postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Inside the Moon/Link Trial Heart Piece Room/Heart Piece, $can_use_fire_arrows"]
           },
           {
             "name": "Majora Lair Pots",
@@ -814,8 +841,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 111,
-            "y": 552
+            "x": 260,
+            "y": 210
           },
           {
             "map": "moon",

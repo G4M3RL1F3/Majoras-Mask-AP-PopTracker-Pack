@@ -113,17 +113,18 @@ function ocean_spider_house()
 end
 
 -- Great Bay -> Pirates' Fortress
--- Easy and normal
 function pirates_fortress()
     return great_bay() and has("zora")
 end
 
--- Pirates' Fortress -> Pirates' Fortress (Interior)
-function baby_pirates_fortress_interior()
-    return pirates_fortress() and has("goron") and has("hookshot")
+-- Pirates' Fortress -> Pirates' Fortress Sewers
+function pirates_fortress_sewers()
+    return pirates_fortress and has_absurd_soul("soul_barrels") and has("goron")
 end
+
+-- Pirates' Fortress -> Pirates' Fortress (Interior)
 function pirates_fortress_interior()
-    return pirates_fortress() and (has("goron") or has("hookshot"))
+    return (pirates_fortress() and has("hookshot")) or (pirates_fortress_sewers() and has("zora"))
 end
 
 -- Zora Cape -> Great Bay Temple

@@ -3,10 +3,11 @@
     "name": "Pirates' Fortress",
     "children": [
       {
-        "name": "Pirates' Fortress Exterior Underwater Log Chest",
+        "name": "Exterior Underwater Log Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Exterior Underwater Log Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress Moat/Exterior Underwater Log Chest"
           }
         ],
         "map_locations": [
@@ -18,10 +19,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Exterior Underwater Near Entrance Chest",
+        "name": "Exterior Underwater Near Entrance Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Exterior Underwater Near Entrance Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress Moat/Exterior Underwater Near Entrance Chest"
           }
         ],
         "map_locations": [
@@ -33,10 +35,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Exterior Underwater Corner Chest",
+        "name": "Exterior Underwater Corner Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Exterior Underwater Corner Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress Moat/Exterior Underwater Corner Chest"
           }
         ],
         "map_locations": [
@@ -48,10 +51,11 @@
         ]
       },
       {
-        "name": "",
+        "name": "Exterior Balcony Barrel",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Fortress Exterior Balcony Barrel"
+            "name": "Barrel",
+            "ref": "Dungeons/Pirates' Fortress Moat/Fortress Exterior Balcony Barrel"
           }
         ],
         "map_locations": [
@@ -63,13 +67,23 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Sewers Cage HP",
+        "name": "Sewers Cage",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Sewers Cage HP"
+            "name": "Heart Piece",
+            "ref": "Dungeons/Pirates' Fortress Sewers/Sewers Cage HP"
           },
           {
-            "ref": "Dungeons/Pirates' Fortress/Sewers Cage Room Pots"
+            "name": "Pots",
+            "ref": "Dungeons/Pirates' Fortress Sewers/Sewers Cage Room Pots"
+          },
+          {
+            "name": "Barrels",
+            "ref": "Dungeons/Pirates' Fortress Sewers/Sewers Cage Room Barrels"
+          },
+          {
+            "name": "Rupees Under Barrels",
+            "ref": "Dungeons/Pirates' Fortress Sewers/Sewers Rupees Under Barrels"
           }
         ],
         "map_locations": [
@@ -81,28 +95,11 @@
         ]
       },
       {
-        "name": "",
+        "name": "Sewers Maze Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Sewers Cage Room Barrels"
-          },
-          {
-            "ref": "Dungeons/Pirates' Fortress/Sewers Rupees Under Barrels"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pirates_fortress",
-            "x": 1750,
-            "y": 150
-          }
-        ]
-      },
-      {
-        "name": "Pirates' Fortress Sewers Maze Chest",
-        "sections": [
-          {
-            "ref": "Dungeons/Pirates' Fortress/Sewers Maze Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress Sewers/Sewers Maze Chest"
           }
         ],
         "map_locations": [
@@ -114,10 +111,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Sewers Underwater Lower Chest",
+        "name": "Sewers Underwater Lower Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Sewers Underwater Lower Chest"
+            "name": "Lower Chest",
+            "ref": "Dungeons/Pirates' Fortress Sewers/Sewers Underwater Lower Chest"
           }
         ],
         "map_locations": [
@@ -129,10 +127,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Sewers Underwater Upper Chest",
+        "name": "Sewers Underwater Upper Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Sewers Underwater Upper Chest"
+            "name": "Upper Chest",
+            "ref": "Dungeons/Pirates' Fortress Sewers/Sewers Underwater Upper Chest"
           }
         ],
         "map_locations": [
@@ -147,7 +146,8 @@
         "name": "Sewers Ladder Pots",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Sewers After Gate Hidden Ladder Pots"
+            "name": "Pots",
+            "ref": "Dungeons/Pirates' Fortress Sewers/Sewers After Gate Hidden Ladder Pots"
           }
         ],
         "map_locations": [
@@ -159,16 +159,19 @@
         ]
       },
       {
-        "name": "",
+        "name": "Sewers Exit",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Sewers Exit Pots"
+            "name": "Pots",
+            "ref": "Dungeons/Pirates' Fortress Sewers/Sewers Exit Pots"
           },
           {
-            "ref": "Dungeons/Pirates' Fortress/Sewers Exit Barrels"
+            "name": "Barrels",
+            "ref": "Dungeons/Pirates' Fortress Sewers/Sewers Exit Barrels"
           },
           {
-            "ref": "Dungeons/Pirates' Fortress/Sewers Exit Rupees Under Barrels"
+            "name": "Rupees Under Barrels",
+            "ref": "Dungeons/Pirates' Fortress Sewers/Sewers Exit Rupees Under Barrels"
           }
         ],
         "map_locations": [
@@ -180,9 +183,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Interior Courtyard Crates",
         "sections": [
           {
+            "name": "Crates",
             "ref": "Dungeons/Pirates' Fortress/Interior Courtyard Crates"
           }
         ],
@@ -200,12 +204,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Pirates' Fortress Bridge",
         "sections": [
           {
+            "name": "Interior Ledge Recovery Hearts",
             "ref": "Dungeons/Pirates' Fortress/Interior Ledge Recovery Hearts"
           },
           {
+            "name": "Guarded Bridge Barrel",
             "ref": "Dungeons/Pirates' Fortress/Guarded Bridge Barrel"
           }
         ],
@@ -218,12 +224,14 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Interior Tank Chest",
+        "name": "Interior Tank Room",
         "sections": [
           {
+            "name": "Water Tank Chest",
             "ref": "Dungeons/Pirates' Fortress/Interior Tank Chest"
           },
           {
+            "name": "Pots",
             "ref": "Dungeons/Pirates' Fortress/Interior Underwater Chest Room Pots"
           }
         ],
@@ -236,9 +244,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Interior Room Past Green Guard Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Pirates' Fortress/Interior Room Past Green Guard Pots"
           }
         ],
@@ -251,9 +260,10 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Interior Guarded Chest",
+        "name": "Interior Guarded Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Pirates' Fortress/Interior Guarded Chest"
           }
         ],
@@ -266,12 +276,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Interior Room Past Pink Guard",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Pirates' Fortress/Interior Room Past Pink Guard Pots"
           },
           {
+            "name": "Barrel",
             "ref": "Dungeons/Pirates' Fortress/Interior Room Past Pink Guard Barrel"
           }
         ],
@@ -287,6 +299,7 @@
         "name": "Outdoor Pirate Flag Eye Hitspots",
         "sections": [
           {
+            "name": "Hitspots",
             "ref": "Dungeons/Pirates' Fortress/Outdoor Pirate Flag Eye Hitspots"
           }
         ],
@@ -302,6 +315,7 @@
         "name": "Pirates' Fortress Hub Lower Chest",
         "sections": [
           {
+            "name": "Lower Chest",
             "ref": "Dungeons/Pirates' Fortress/Hub Lower Chest"
           }
         ],
@@ -317,6 +331,7 @@
         "name": "Pirates' Fortress Hub Upper Chest",
         "sections": [
           {
+            "name": "Upper Chest",
             "ref": "Dungeons/Pirates' Fortress/Hub Upper Chest"
           }
         ],
@@ -332,6 +347,7 @@
         "name": "Upper Leader's Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Pirates' Fortress/Interior Upper Beehive Room Pots"
           }
         ],
@@ -347,6 +363,7 @@
         "name": "Indoor Pirate Flag Eye Hitspots",
         "sections": [
           {
+            "name": "Hitspots",
             "ref": "Dungeons/Pirates' Fortress/Indoor Pirate Flag Eye Hitspots"
           }
         ],
@@ -359,9 +376,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Leader's Room Barrels",
         "sections": [
           {
+            "name": "Barrels",
             "ref": "Dungeons/Pirates' Fortress/Leader's Room Barrels"
           }
         ],
@@ -374,9 +392,10 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Leader's Room Chest",
+        "name": "Leader's Room Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Pirates' Fortress/Leader's Room Chest"
           }
         ],

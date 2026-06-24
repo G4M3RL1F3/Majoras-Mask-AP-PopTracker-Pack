@@ -3,9 +3,10 @@
     "name": "Snowhead Temple",
     "children": [
       {
-        "name": "",
+        "name": "Entry Block Icicles",
         "sections": [
           {
+            "name": "Icicles",
             "ref": "Dungeons/Snowhead Temple/Entry Block Icicles"
           }
         ],
@@ -18,12 +19,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Grey Door Icicles",
         "sections": [
           {
+            "name": "Icicles",
             "ref": "Dungeons/Snowhead Temple/Grey Door Icicles"
           },
           {
+            "name": "Ceiling Icicles",
             "ref": "Dungeons/Snowhead Temple/Grey Door Ceiling Icicles"
           }
         ],
@@ -36,9 +39,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Entrance Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/Entrance Pots"
           }
         ],
@@ -54,6 +58,7 @@
         "name": "Bridge Room Freezard Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Bridge Room Freezard Chest"
           }
         ],
@@ -69,6 +74,7 @@
         "name": "Bridge Room Under Platform Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Bridge Room Under Platform Bubble SF"
           }
         ],
@@ -84,6 +90,7 @@
         "name": "Bridge Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/Blue Door Lava Bridge Pots"
           }
         ],
@@ -99,9 +106,11 @@
         "name": "Main Room Scarecrow Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/Main Room Scarecrow Pots"
           },
           {
+            "name": "Scarecrow",
             "ref": "Dungeons/Snowhead Temple/Lower Scarecrow"
           }
         ],
@@ -117,6 +126,7 @@
         "name": "Bridge Room Pillar Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Bridge Room Pillar Bubble SF"
           }
         ],
@@ -129,9 +139,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Bridge Room Crate",
         "sections": [
           {
+            "name": "Crate",
             "ref": "Dungeons/Snowhead Temple/Bridge Room Crate"
           }
         ],
@@ -144,9 +155,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Bridge Room Snowballs",
         "sections": [
           {
+            "name": "Snowballs",
             "ref": "Dungeons/Snowhead Temple/Bridge Room Snowballs"
           }
         ],
@@ -162,9 +174,11 @@
         "name": "Frozen Block Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Frozen Block Chest"
           },
           {
+            "name": "Ceiling Icicles",
             "ref": "Dungeons/Snowhead Temple/Frozen Block Ceiling Icicles"
           }
         ],
@@ -180,9 +194,11 @@
         "name": "Frozen Block Upper Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Frozen Block Upper Chest SF"
           },
           {
+            "name": "Ceiling Icicles",
             "ref": "Dungeons/Snowhead Temple/Frozen Block Ceiling Icicles"
           }
         ],
@@ -198,9 +214,11 @@
         "name": "Bombable Stairs Crate SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Bombable Stairs Crate SF"
           },
           {
+            "name": "Bombable Wall",
             "ref": "Dungeons/Snowhead Temple/Frozen Block Room Bombable Wall"
           }
         ],
@@ -216,6 +234,7 @@
         "name": "Gray Door Wolfos Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/Locked Grey Door Wolfos Pots"
           }
         ],
@@ -236,6 +255,7 @@
         "name": "Stacked Block Upper Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Stacked Block Upper Chest SF"
           }
         ],
@@ -251,6 +271,7 @@
         "name": "Behind Stacked Block Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Behind Stacked Block Chest"
           }
         ],
@@ -266,6 +287,7 @@
         "name": "Orange Door Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/Orange Door Push Block Pots"
           }
         ],
@@ -286,6 +308,7 @@
         "name": "Freezard Torch Room Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Freezard Torch Room Chest SF"
           }
         ],
@@ -301,6 +324,7 @@
         "name": "Frozen Green Door Pots (Lower)",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/Frozen Green Door Pots (Lower)"
           }
         ],
@@ -321,6 +345,7 @@
         "name": "Frozen Green Door Pots (Upper)",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/Frozen Green Door Pots (Upper)"
           }
         ],
@@ -346,6 +371,7 @@
         "name": "Basement Switch Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Basement Switch Chest SF"
           }
         ],
@@ -361,6 +387,7 @@
         "name": "Main Room Basement Grass",
         "sections": [
           {
+            "name": "Grass",
             "ref": "Dungeons/Snowhead Temple/Basement Grass"
           }
         ],
@@ -376,6 +403,7 @@
         "name": "Main Room Basement Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/Main Room Basement Pots"
           }
         ],
@@ -391,12 +419,15 @@
         "name": "Main Room Wall Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Main Room Wall Chest SF"
           },
           {
+            "name": "Scarecrow",
             "ref": "Dungeons/Snowhead Temple/Hidden Alcove Scarecrow"
           },
           {
+            "name": "Deku Flower",
             "ref": "Dungeons/Snowhead Temple/Main Room Wall Chest Deku Flower"
           }
         ],
@@ -412,6 +443,7 @@
         "name": "Elevator Room Lower Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Elevator Room Lower Chest"
           }
         ],
@@ -427,6 +459,7 @@
         "name": "Elevator Room Invisible Platform Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Elevator Room Invisible Platform Chest SF"
           }
         ],
@@ -442,6 +475,7 @@
         "name": "Elevator Freestanding SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Elevator Freestanding SF"
           }
         ],
@@ -454,9 +488,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Elevator Room Crates",
         "sections": [
           {
+            "name": "Crates",
             "ref": "Dungeons/Snowhead Temple/Elevator Room Crates"
           }
         ],
@@ -469,12 +504,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Icicle Room Snowballs",
         "sections": [
           {
+            "name": "Snowball Chest",
             "ref": "Dungeons/Snowhead Temple/Icicle Room Snowball Chest"
           },
           {
+            "name": "Snowballs",
             "ref": "Dungeons/Snowhead Temple/Icicle Room Snowballs"
           }
         ],
@@ -490,6 +527,7 @@
         "name": "Icicle Room Hidden Chest SF",
         "sections": [
           {
+            "name": "Hidden Chest",
             "ref": "Dungeons/Snowhead Temple/Icicle Room Hidden Chest SF"
           }
         ],
@@ -502,12 +540,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Icicle Room Icicles",
         "sections": [
           {
+            "name": "Rupees",
             "ref": "Dungeons/Snowhead Temple/Icicle Rupees"
           },
           {
+            "name": "Ceiling Icicles",
             "ref": "Dungeons/Snowhead Temple/Icicle Room Ceiling Icicles"
           }
         ],
@@ -523,6 +563,7 @@
         "name": "Timed Switch Room Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Timed Switch Room Bubble SF"
           }
         ],
@@ -535,9 +576,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Time Switch Room Crates",
         "sections": [
           {
+            "name": "Crates",
             "ref": "Dungeons/Snowhead Temple/Timed Switch Room Crates"
           }
         ],
@@ -553,6 +595,7 @@
         "name": "Goron Puzzle Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/Goron Pound Puzzle Pots"
           }
         ],
@@ -568,6 +611,7 @@
         "name": "2nd Floor Bridge Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/Main Room 2nd Floor Bridge Pots"
           }
         ],
@@ -580,9 +624,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Main Room 2nd Floor Snowballs",
         "sections": [
           {
+            "name": "Snowballs",
             "ref": "Dungeons/Snowhead Temple/Main Room 2nd Floor Snowballs"
           }
         ],
@@ -603,6 +648,7 @@
         "name": "Lower Wizrobe Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Lower Wizrobe Chest"
           }
         ],
@@ -615,9 +661,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "3rd Floor Bridge Snowballs",
         "sections": [
           {
+            "name": "Snowballs",
             "ref": "Dungeons/Snowhead Temple/3rd Floor Bridge Snowballs"
           }
         ],
@@ -633,6 +680,7 @@
         "name": "Snowmen Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Snowmen Bubble SF"
           }
         ],
@@ -645,15 +693,18 @@
         ]
       },
       {
-        "name": "",
+        "name": "3rd Floor locked Door",
         "sections": [
           {
+            "name": "Snowballs",
             "ref": "Dungeons/Snowhead Temple/3rd Floor Locked Door Snowballs"
           },
           {
+            "name": "Icicles",
             "ref": "Dungeons/Snowhead Temple/3rd Floor Locked Door Icicles"
           },
           {
+            "name": "Ceiling Icicles",
             "ref": "Dungeons/Snowhead Temple/3rd Floor Locked Door Ceiling Icicles"
           }
         ],
@@ -669,6 +720,7 @@
         "name": "Dinolfos Room First SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Dinolfos Room First SF"
           }
         ],
@@ -684,6 +736,7 @@
         "name": "Dinolfos Room Second SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Dinolfos Room Second SF"
           }
         ],
@@ -699,6 +752,7 @@
         "name": "4th Floor Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/Main Room 4th Floor Pots"
           }
         ],
@@ -711,9 +765,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "4th Floor Outside Wizrobe Icicles",
         "sections": [
           {
+            "name": "Icicles",
             "ref": "Dungeons/Snowhead Temple/4th Floor Outside Wizrobe Icicles"
           }
         ],
@@ -729,6 +784,7 @@
         "name": "Upper Wizrobe Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Upper Wizrobe Chest"
           }
         ],
@@ -744,6 +800,7 @@
         "name": "4th Floor Wizrobe Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/4th Floor Wizrobe Pots"
           }
         ],
@@ -756,25 +813,43 @@
         ]
       },
       {
-        "name": "Goht",
+        "name": "Pre-Boss Bridge",
         "sections": [
           {
+            "name": "Deku Flower",
+            "ref": "Dungeons/Snowhead Temple/Outside Boss Door Deku Flower"
+          },
+          {
+            "name": "Icicles",
+            "ref": "Dungeons/Snowhead Temple/Outside Boss Door Icicles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1052,
+            "y": 1049
+          }
+        ]
+      },
+      {
+        "name": "Boss Room",
+        "sections": [
+          {
+            "name": "Heart Container",
             "ref": "Dungeons/Snowhead Temple/Heart Container"
           },
           {
+            "name": "Goht's Remains",
             "ref": "Dungeons/Snowhead Temple/Goht's Remains"
           },
           {
+            "name": "Pots",
             "ref": "Dungeons/Snowhead Temple/Goht Boss Room Pots"
           },
           {
+            "name": "Oath to Order",
             "ref": "Dungeons/Snowhead Temple/Oath to Order"
-          },
-          {
-            "ref": "Dungeons/Snowhead/Outside Boss Door Deku Flower"
-          },
-          {
-            "ref": "Dungeons/Snowhead Temple/Outside Boss Door Icicles"
           }
         ],
         "map_locations": [

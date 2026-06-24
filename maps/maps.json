@@ -1,9 +1,9 @@
 [
     {
         "name": "overworld",
-        "location_size": 12,
+        "location_size": 20,
         "location_border_thickness": 1,
-        "img": "images/maps/overworld.png"
+        "img": "images/maps/termina_nerrel.png"
     },
     {
         "name": "termina_field",

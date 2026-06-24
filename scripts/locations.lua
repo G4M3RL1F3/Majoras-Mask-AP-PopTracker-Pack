@@ -18,7 +18,7 @@ Tracker:AddLocations("locations/locations/southern_swamp.jsonc")
 Tracker:AddLocations("locations/locations/stone_tower_temple.jsonc")
 Tracker:AddLocations("locations/locations/swamp_spider_house.jsonc")
 Tracker:AddLocations("locations/locations/termina.jsonc")
-Tracker:AddLocations("locations/locations/termina_field.jsonc")
+--Tracker:AddLocations("locations/locations/termina_field.jsonc")
 Tracker:AddLocations("locations/locations/woodfall_temple.jsonc")
 Tracker:AddLocations("locations/locations/zora_hall.jsonc")
 

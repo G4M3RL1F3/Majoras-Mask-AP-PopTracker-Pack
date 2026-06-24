@@ -6,6 +6,7 @@
         "name": "Entrance Room Eye Switch Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Entrance Room Eye Switch Chest"
           }
         ],
@@ -21,6 +22,7 @@
         "name": "Entrance Room Lower Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Entrance Room Lower Chest"
           }
         ],
@@ -33,12 +35,14 @@
         ]
       },
       {
-        "name": "Entrance Room Grass",
+        "name": "Entrance Room",
         "sections": [
           {
+            "name": "Grass",
             "ref": "Dungeons/Stone Tower Temple/Entrance Room Grass"
           },
           {
+            "name": "Crates",
             "ref": "Dungeons/Stone Tower Temple/Entrance Room Crates"
           }
         ],
@@ -54,6 +58,7 @@
         "name": "Entrance Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Stone Tower Temple/Entrance Pots"
           }
         ],
@@ -66,9 +71,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Elegy Maze Crates",
         "sections": [
           {
+            "name": "Crates",
             "ref": "Dungeons/Stone Tower Temple/Elegy Maze Crates"
           }
         ],
@@ -84,6 +90,7 @@
         "name": "Elegy Maze Grass",
         "sections": [
           {
+            "name": "Grass",
             "ref": "Dungeons/Stone Tower Temple/Elegy Maze Grass"
           }
         ],
@@ -99,6 +106,7 @@
         "name": "Armos Room Back Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Armos Room Back Chest"
           }
         ],
@@ -114,6 +122,7 @@
         "name": "Armos Room Upper Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Armos Room Upper Chest"
           }
         ],
@@ -129,6 +138,7 @@
         "name": "Armos Room Lava Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Armos Room Lava Chest"
           }
         ],
@@ -141,9 +151,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Lower Basement Armos Pots (Front)",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Stone Tower Temple/Lower Basement Armos Pots (Front)"
           }
         ],
@@ -156,9 +167,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Lower Basement Armos Pots (Back)",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Stone Tower Temple/Lower Basement Armos Pots (Back)"
           }
         ],
@@ -174,6 +186,7 @@
         "name": "Eyegore Room Switch Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Eyegore Room Switch Chest"
           }
         ],
@@ -186,9 +199,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Eyegore Room Light Block Rupees",
         "sections": [
           {
+            "name": "Rupees",
             "ref": "Dungeons/Stone Tower Temple/Eyegore Room Light Block Rupees"
           }
         ],
@@ -201,9 +215,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Eyegore Room Crates",
         "sections": [
           {
+            "name": "Crates",
             "ref": "Dungeons/Stone Tower Temple/Eyegore Room Crates"
           }
         ],
@@ -219,6 +234,7 @@
         "name": "Eyegore Room Dexi Hand Ledge Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest"
           }
         ],
@@ -234,6 +250,7 @@
         "name": "Eastern Water Room Underwater Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Eastern Water Room Underwater Chest"
           }
         ],
@@ -249,6 +266,7 @@
         "name": "Eastern Water Room Sun Block Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Eastern Water Room Sun Block Chest"
           }
         ],
@@ -261,9 +279,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Right Side Near Locked Door Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Stone Tower Temple/Right Side Near Locked Door Pots"
           }
         ],
@@ -276,9 +295,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Right Side Underwater Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Stone Tower Temple/Right Side Underwater Pots"
           }
         ],
@@ -299,6 +319,7 @@
         "name": "Mirror Room Sun Block Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest"
           }
         ],
@@ -314,6 +335,7 @@
         "name": "Mirror Room Sun Face Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Mirror Room Sun Face Chest"
           }
         ],
@@ -326,9 +348,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Mirror Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Stone Tower Temple/Mirror Room Pots"
           }
         ],
@@ -341,9 +364,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Mirror Room Crates",
         "sections": [
           {
+            "name": "Crates",
             "ref": "Dungeons/Stone Tower Temple/Mirror Room Crates"
           }
         ],
@@ -356,9 +380,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Deku Updraft Deku Flower",
         "sections": [
           {
+            "name": "Deku Flower",
             "ref": "Dungeons/Stone Tower Temple/Deku Updraft Deku Flower"
           }
         ],
@@ -371,12 +396,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Deku Updraft Side Platform",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Deku Updraft Side Chest"
           },
           {
+            "name": "Rupees",
             "ref": "Dungeons/Stone Tower Temple/Deku Updraft Rupees"
           }
         ],
@@ -392,6 +419,7 @@
         "name": "Deku Updraft Goron Switch Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Deku Updraft Goron Switch Chest"
           }
         ],
@@ -404,9 +432,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Deku Updraft Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Stone Tower Temple/Deku Updraft Pots"
           }
         ],
@@ -422,6 +451,7 @@
         "name": "Garo Master Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Garo Master Chest"
           }
         ],
@@ -437,6 +467,7 @@
         "name": "After Garo Upside Down Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/After Garo Upside Down Chest"
           }
         ],
@@ -449,12 +480,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Bridge Room",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Stone Tower Temple/Lower Spike Roller Pots"
           },
           {
+            "name": "Rupees",
             "ref": "Dungeons/Stone Tower Temple/Bridge Room Rupees"
           }
         ],
@@ -470,6 +503,7 @@
         "name": "Eyegore Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Eyegore Chest"
           }
         ],
@@ -487,9 +521,10 @@
     "name": "Inverted Stone Tower Temple",
     "children": [
       {
-        "name": "",
+        "name": "Entrance Room Crates",
         "sections": [
           {
+            "name": "Crates",
             "ref": "Dungeons/Inverted Stone Tower Temple/Entrance Room Crates"
           }
         ],
@@ -510,6 +545,7 @@
         "name": "Entrance Room Sun Face Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Entrance Room Sun Face Chest"
           }
         ],
@@ -522,9 +558,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Eastern Air Gust Room Deku Flowers",
         "sections": [
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Deku Flowers"
           }
         ],
@@ -540,6 +577,7 @@
         "name": "Eastern Air Gust Room Fire Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Fire Chest"
           }
         ],
@@ -555,6 +593,7 @@
         "name": "Eastern Air Gust Room Frozen Switch Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Frozen Switch Chest"
           }
         ],
@@ -567,9 +606,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Right Side Light Block Rupees",
         "sections": [
           {
+            "name": "Rupees",
             "ref": "Dungeons/Inverted Stone Tower Temple/Right Side Light Block Rupees"
           }
         ],
@@ -582,13 +622,11 @@
         ]
       },
       {
-        "name": "",
+        "name": "Eastern Air Gust Switch Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Switch Chest"
-          },
-          {
-            "ref": "Dungeons/Inverted Stone Tower Temple/Updraft Pots"
           }
         ],
         "map_locations": [
@@ -600,9 +638,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Updraft Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Inverted Stone Tower Temple/Updraft Pots"
           }
         ],
@@ -615,9 +654,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Dexihand Rupees",
         "sections": [
           {
+            "name": "Rupees",
             "ref": "Dungeons/Inverted Stone Tower Temple/Dexihand Rupees"
           }
         ],
@@ -630,9 +670,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Small Poe Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Inverted Stone Tower Temple/Small Poe Room Pots"
           }
         ],
@@ -645,9 +686,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Lower Bridge Room Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Inverted Stone Tower Temple/Lower Bridge Room Pots"
           }
         ],
@@ -663,6 +705,7 @@
         "name": "Wizrobe Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Wizrobe Chest"
           }
         ],
@@ -675,9 +718,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Wizzrobe Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Inverted Stone Tower Temple/Wizrobe Pots"
           }
         ],
@@ -693,6 +737,7 @@
         "name": "Death Armos Maze Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest"
           }
         ],
@@ -705,9 +750,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Gomess Hallway Crates",
         "sections": [
           {
+            "name": "Crates",
             "ref": "Dungeons/Inverted Stone Tower Temple/Gomess Hallway Crates"
           }
         ],
@@ -723,6 +769,7 @@
         "name": "Gomess Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Gomess Chest"
           }
         ],
@@ -735,9 +782,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Gomess Pots",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Inverted Stone Tower Temple/Gomess Pots"
           }
         ],
@@ -753,6 +801,7 @@
         "name": "Eyegore Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Eyegore Chest"
           }
         ],
@@ -765,15 +814,18 @@
         ]
       },
       {
-        "name": "",
+        "name": "Pre-Boss Room",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Inverted Stone Tower Temple/Pre Boss Pots"
           },
           {
+            "name": "Rupees",
             "ref": "Dungeons/Inverted Stone Tower Temple/Pre Boss Rupees"
           },
           {
+            "name": "Zora Rupees",
             "ref": "Dungeons/Inverted Stone Tower Temple/Pre Boss Zora Rupees"
           }
         ],
@@ -789,12 +841,15 @@
         "name": "Boss Room",
         "sections": [
           {
+            "name": "Heart Container",
             "ref": "Dungeons/Inverted Stone Tower Temple/Heart Container"
           },
           {
+            "name": "Twinmold's Remains",
             "ref": "Dungeons/Inverted Stone Tower Temple/Twinmold's Remains"
           },
           {
+            "name": "Oath to Order",
             "ref": "Dungeons/Inverted Stone Tower Temple/Oath to Order"
           }
         ],

@@ -6,12 +6,15 @@
 				"name": "Zora Shop",
 				"sections": [
 					{
+            "name": "Shop Item 1",
 						"ref": "Great Bay/Zora Hall/Shop 1"
 					},
 					{
+            "name": "Shop Item 2",
 						"ref": "Great Bay/Zora Hall/Shop 2"
 					},
 					{
+            "name": "Shop Item 3",
 						"ref": "Great Bay/Zora Hall/Shop 3"
 					}
 				],
@@ -27,12 +30,15 @@
         "name": "Lulu's Room",
         "sections": [
           {
+            "name": "Deku Scrub Purchase (as Zora)",
             "ref": "Great Bay/Zora Hall/Deku Scrub Purchase (as Zora)"
           },
           {
+            "name": "Deku Trade (as Goron)",
             "ref": "Great Bay/Zora Hall/Deku Trade (as Goron)"
           },
           {
+            "name": "Freestanding Heart Piece",
             "ref": "Great Bay/Zora Hall/Freestanding Heart Piece"
           },
           {
@@ -81,6 +87,7 @@
         "name": "Fan of Lulu",
         "sections": [
           {
+            "name": "Good Picture of Lulu",
             "ref": "Great Bay/Zora Hall/Good Picture of Lulu"
           },
           {

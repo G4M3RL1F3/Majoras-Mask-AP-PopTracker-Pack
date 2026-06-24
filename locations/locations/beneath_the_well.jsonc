@@ -3,18 +3,22 @@
     "name": "Beneath the Well",
     "children": [
       {
-        "name": "",
+        "name": "Cow Room",
         "sections": [
           {
+            "name": "Cow",
             "ref": "Dungeons/Beneath the Well/Cow"
           },
           {
+            "name": "Grass",
             "ref": "Dungeons/Beneath the Well/Beneath the Well Right Side Cow Grass"
           },
           {
+            "name": "Bushes",
             "ref": "Dungeons/Beneath the Well/Right Side Cow Bushes"
           },
           {
+            "name": "Tree",
             "ref": "Dungeons/Beneath the Well/Right Side Cow Tree"
           }
         ],
@@ -27,9 +31,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Right Side Before Big Poe and Cow Grass",
         "sections": [
           {
+            "name": "Grass",
             "ref": "Dungeons/Beneath the Well/Beneath the Well Right Side Before Big Poe and Cow Grass"
           }
         ],
@@ -42,9 +47,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Left Side Deku Flowers",
         "sections": [
           {
+            "name": "Deku Flowers",
             "ref": "Dungeons/Beneath the Well/Beneath the Well Left Side Deku Flowers"
           }
         ],
@@ -57,9 +63,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Invisible Chest Room",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Beneath the Well/Invisible Chest"
           }
         ],
@@ -72,12 +79,14 @@
         ]
       },
       {
-        "name": "",
+        "name": "Right Side Back Room",
         "sections": [
           {
+            "name": "Grass",
             "ref": "Dungeons/Beneath the Well/Beneath the Well Right Side Back Room Grass"
           },
           {
+            "name": "Web",
             "ref": "Dungeons/Beneath the Well/Right Side Before Chest Room Web"
           }
         ],
@@ -90,9 +99,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Left Side Back Room Left Web",
         "sections": [
           {
+            "name": "Grass",
             "ref": "Dungeons/Beneath the Well/Beneath the Well Left Side Back Room Grass"
           }
         ],
@@ -105,9 +115,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Left Side Back Room Right Web",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Beneath the Well/Left Side Back Room Pots"
           }
         ],
@@ -120,9 +131,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Fairy Fountain",
         "sections": [
           {
+            "name": "Fairies",
             "ref": "Dungeons/Beneath the Well/Fairy Fountain Fairies"
           }
         ],
@@ -135,9 +147,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Freezard Room",
         "sections": [
           {
+            "name": "Icicles",
             "ref": "Dungeons/Beneath the Well/Freezard Room Icicles"
           }
         ],
@@ -150,9 +163,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Right Side Before Chest Room",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Beneath the Well/Right Side Before Chest Room Pots"
           }
         ],
@@ -165,9 +179,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Big Poe Room",
         "sections": [
           {
+            "name": "Pots",
             "ref": "Dungeons/Beneath the Well/Big Poe Pots"
           }
         ],
@@ -180,9 +195,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Rightside Torch Room",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Beneath the Well/Rightside Torch Chest"
           }
         ],
@@ -195,9 +211,10 @@
         ]
       },
       {
-        "name": "",
+        "name": "Final Room",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Beneath the Well/Final Chest"
           }
         ],

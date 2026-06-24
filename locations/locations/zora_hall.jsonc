@@ -35,7 +35,7 @@
           },
           {
             "name": "Deku Trade (as Goron)",
-            "ref": "Great Bay/Zora Hall/Deku Trade (as Goron)"
+            "ref": "Great Bay/Zora Hall/Deed Trade (as Goron)"
           },
           {
             "name": "Freestanding Heart Piece",
@@ -106,7 +106,7 @@
         "name": "Scarecrow",
         "sections": [
           {
-            "ref": "Great Bay/Zora Hall/Zora Hall Scarecrow"
+            "ref": "Great Bay/Zora Hall/Scarecrow"
           }
         ],
         "map_locations": [

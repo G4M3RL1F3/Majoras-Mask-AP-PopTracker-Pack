@@ -14,7 +14,8 @@
           {
             "map": "woodfall_temple",
             "x": 730,
-            "y": 1160
+            "y": 1160,
+            "shape": "diamond"
           }
         ]
       },
@@ -30,7 +31,8 @@
           {
             "map": "woodfall_temple",
             "x": 725,
-            "y": 1050
+            "y": 1050,
+            "shape": "diamond"
           }
         ]
       },
@@ -50,7 +52,8 @@
           {
             "map": "woodfall_temple",
             "x": 730,
-            "y": 1088
+            "y": 1088,
+            "shape": "diamond"
           }
         ]
       },
@@ -82,7 +85,8 @@
           {
             "map": "woodfall_temple",
             "x": 830,
-            "y": 815
+            "y": 815,
+            "shape": "diamond"
           }
         ]
       },
@@ -98,7 +102,8 @@
           {
             "map": "woodfall_temple",
             "x": 592,
-            "y": 720
+            "y": 720,
+            "shape": "diamond"
           }
         ]
       },
@@ -114,7 +119,8 @@
           {
             "map": "woodfall_temple",
             "x": 724,
-            "y": 669
+            "y": 669,
+            "shape": "diamond"
           }
         ]
       },
@@ -162,7 +168,8 @@
           {
             "map": "woodfall_temple",
             "x": 1042,
-            "y": 736
+            "y": 736,
+            "shape": "diamond"
           }
         ]
       },
@@ -178,7 +185,8 @@
           {
             "map": "woodfall_temple",
             "x": 975,
-            "y": 736
+            "y": 736,
+            "shape": "diamond"
           }
         ]
       },
@@ -194,7 +202,8 @@
           {
             "map": "woodfall_temple",
             "x": 975,
-            "y": 864
+            "y": 864,
+            "shape": "diamond"
           }
         ]
       },
@@ -278,7 +287,8 @@
           {
             "map": "woodfall_temple",
             "x": 966,
-            "y": 475
+            "y": 475,
+            "shape": "diamond"
           }
         ]
       },
@@ -322,7 +332,8 @@
           {
             "map": "woodfall_temple",
             "x": 298,
-            "y": 207
+            "y": 207,
+            "shape": "diamond"
           }
         ]
       },
@@ -466,7 +477,8 @@
           {
             "map": "woodfall_temple",
             "x": 565,
-            "y": 736
+            "y": 736,
+            "shape": "diamond"
           }
         ]
       },
@@ -498,7 +510,8 @@
           {
             "map": "woodfall_temple",
             "x": 304,
-            "y": 625
+            "y": 625,
+            "shape": "diamond"
           }
         ]
       },
@@ -514,7 +527,8 @@
           {
             "map": "woodfall_temple",
             "x": 304,
-            "y": 666
+            "y": 666,
+            "shape": "diamond"
           }
         ]
       },
@@ -562,7 +576,8 @@
           {
             "map": "woodfall_temple",
             "x": 725,
-            "y": 500
+            "y": 500,
+            "shape": "diamond"
           }
         ]
       },
@@ -578,7 +593,8 @@
           {
             "map": "woodfall_temple",
             "x": 725,
-            "y": 444
+            "y": 444,
+            "shape": "diamond"
           }
         ]
       },
@@ -594,7 +610,8 @@
           {
             "map": "woodfall_temple",
             "x": 725,
-            "y": 295
+            "y": 295,
+            "shape": "diamond"
           }
         ]
       },
@@ -610,7 +627,8 @@
           {
             "map": "woodfall_temple",
             "x": 725,
-            "y": 400
+            "y": 400,
+            "shape": "diamond"
           }
         ]
       },
@@ -626,12 +644,14 @@
           {
             "map": "woodfall_temple",
             "x": 645,
-            "y": 340
+            "y": 340,
+            "shape": "diamond"
           },
           {
             "map": "woodfall_temple",
             "x": 790,
-            "y": 340
+            "y": 340,
+            "shape": "diamond"
           }
         ]
       },

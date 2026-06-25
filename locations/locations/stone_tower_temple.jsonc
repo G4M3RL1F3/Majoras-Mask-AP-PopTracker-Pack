@@ -50,7 +50,8 @@
           {
             "map": "stone_tower_temple",
             "x": 402,
-            "y": 766
+            "y": 766,
+            "shape": "diamond"
           }
         ]
       },
@@ -66,7 +67,8 @@
           {
             "map": "stone_tower_temple",
             "x": 306,
-            "y": 766
+            "y": 766,
+            "shape": "diamond"
           }
         ]
       },
@@ -82,7 +84,8 @@
           {
             "map": "stone_tower_temple",
             "x": 45,
-            "y": 825
+            "y": 825,
+            "shape": "diamond"
           }
         ]
       },
@@ -98,7 +101,8 @@
           {
             "map": "stone_tower_temple",
             "x": 138,
-            "y": 630
+            "y": 630,
+            "shape": "diamond"
           }
         ]
       },
@@ -162,7 +166,8 @@
           {
             "map": "stone_tower_temple",
             "x": 58,
-            "y": 1396
+            "y": 1396,
+            "shape": "diamond"
           }
         ]
       },
@@ -178,7 +183,8 @@
           {
             "map": "stone_tower_temple",
             "x": 58,
-            "y": 1501
+            "y": 1501,
+            "shape": "diamond"
           }
         ]
       },
@@ -210,7 +216,8 @@
           {
             "map": "stone_tower_temple",
             "x": 334,
-            "y": 564
+            "y": 564,
+            "shape": "diamond"
           }
         ]
       },
@@ -226,7 +233,8 @@
           {
             "map": "stone_tower_temple",
             "x": 409,
-            "y": 715
+            "y": 715,
+            "shape": "diamond"
           }
         ]
       },
@@ -290,7 +298,8 @@
           {
             "map": "stone_tower_temple",
             "x": 545,
-            "y": 619
+            "y": 619,
+            "shape": "diamond"
           }
         ]
       },
@@ -306,12 +315,14 @@
           {
             "map": "stone_tower_temple",
             "x": 450,
-            "y": 641
+            "y": 641,
+            "shape": "diamond"
           },
           {
             "map": "stone_tower_temple",
             "x": 638,
-            "y": 728
+            "y": 728,
+            "shape": "diamond"
           }
         ]
       },
@@ -359,7 +370,8 @@
           {
             "map": "stone_tower_temple",
             "x": 545,
-            "y": 569
+            "y": 569,
+            "shape": "diamond"
           }
         ]
       },
@@ -375,7 +387,8 @@
           {
             "map": "stone_tower_temple",
             "x": 540,
-            "y": 350
+            "y": 350,
+            "shape": "diamond"
           }
         ]
       },
@@ -391,7 +404,8 @@
           {
             "map": "stone_tower_temple",
             "x": 550,
-            "y": 250
+            "y": 250,
+            "shape": "diamond"
           }
         ]
       },
@@ -443,7 +457,8 @@
           {
             "map": "stone_tower_temple",
             "x": 417,
-            "y": 253
+            "y": 253,
+            "shape": "diamond"
           }
         ]
       },
@@ -495,7 +510,8 @@
           {
             "map": "stone_tower_temple",
             "x": 305,
-            "y": 451
+            "y": 451,
+            "shape": "diamond"
           }
         ]
       },
@@ -532,12 +548,14 @@
           {
             "map": "stone_tower_temple",
             "x": 1025,
-            "y": 848
+            "y": 848,
+            "shape": "diamond"
           },
           {
             "map": "stone_tower_temple",
             "x": 1185,
-            "y": 780
+            "y": 780,
+            "shape": "diamond"
           }
         ]
       },
@@ -569,7 +587,8 @@
           {
             "map": "stone_tower_temple",
             "x": 1420,
-            "y": 711
+            "y": 711,
+            "shape": "diamond"
           }
         ]
       },
@@ -617,7 +636,8 @@
           {
             "map": "stone_tower_temple",
             "x": 1285,
-            "y": 808
+            "y": 808,
+            "shape": "diamond"
           }
         ]
       },
@@ -649,7 +669,8 @@
           {
             "map": "stone_tower_temple",
             "x": 1250,
-            "y": 1415
+            "y": 1415,
+            "shape": "diamond"
           }
         ]
       },
@@ -665,7 +686,8 @@
           {
             "map": "stone_tower_temple",
             "x": 1200,
-            "y": 598
+            "y": 598,
+            "shape": "diamond"
           }
         ]
       },
@@ -681,7 +703,8 @@
           {
             "map": "stone_tower_temple",
             "x": 875,
-            "y": 644
+            "y": 644,
+            "shape": "diamond"
           }
         ]
       },
@@ -697,7 +720,8 @@
           {
             "map": "stone_tower_temple",
             "x": 1103,
-            "y": 600
+            "y": 600,
+            "shape": "diamond"
           }
         ]
       },
@@ -729,7 +753,8 @@
           {
             "map": "stone_tower_temple",
             "x": 855,
-            "y": 1540
+            "y": 1540,
+            "shape": "diamond"
           }
         ]
       },
@@ -761,7 +786,8 @@
           {
             "map": "stone_tower_temple",
             "x": 1420,
-            "y": 650
+            "y": 650,
+            "shape": "diamond"
           }
         ]
       },
@@ -793,7 +819,8 @@
           {
             "map": "stone_tower_temple",
             "x": 1550,
-            "y": 650
+            "y": 650,
+            "shape": "diamond"
           }
         ]
       },
@@ -833,7 +860,8 @@
           {
             "map": "stone_tower_temple",
             "x": 1099,
-            "y": 415
+            "y": 415,
+            "shape": "diamond"
           }
         ]
       },

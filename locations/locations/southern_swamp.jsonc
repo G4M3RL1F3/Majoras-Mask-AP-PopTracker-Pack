@@ -67,7 +67,8 @@
           {
             "map": "overworld",
             "x": 954,
-            "y": 707
+            "y": 707,
+            "shape": "trapezoid"
           }
         ]
       },
@@ -106,7 +107,8 @@
           {
             "map": "overworld",
             "x": 1007,
-            "y": 690
+            "y": 690,
+            "shape": "diamond"
           }
         ]
       },
@@ -204,7 +206,8 @@
           {
             "map": "overworld",
             "x": 950,
-            "y": 737
+            "y": 737,
+            "shape": "diamond"
           }
         ]
       },
@@ -394,7 +397,8 @@
           {
             "map": "overworld",
             "x": 1177,
-            "y": 751
+            "y": 751,
+            "shape": "diamond"
           }
         ]
       },
@@ -504,7 +508,8 @@
           {
             "map": "overworld",
             "x": 1141,
-            "y": 754
+            "y": 754,
+            "shape": "diamond"
           }
         ]
       },
@@ -601,12 +606,14 @@
           {
             "map": "overworld",
             "x": 1172,
-            "y": 717
+            "y": 717,
+            "shape": "diamond"
           },
           {
             "map": "woods_of_mystery",
             "x": 285,
-            "y": 285
+            "y": 285,
+            "shape": "diamond"
           }
         ]
       },
@@ -630,7 +637,8 @@
           {
             "map": "woods_of_mystery",
             "x": 461,
-            "y": 461
+            "y": 461,
+            "shape": "trapezoid"
           }
         ]
       },
@@ -669,7 +677,8 @@
           {
             "map": "overworld",
             "x": 1125,
-            "y": 917
+            "y": 917,
+            "shape": "diamond"
           }
         ]
       },
@@ -713,12 +722,14 @@
           {
             "map": "overworld",
             "x": 876,
-            "y": 950
+            "y": 950,
+            "shape": "diamond"
           },
           {
             "map": "southern_swamp",
             "x": 1000,
-            "y": 560
+            "y": 560,
+            "shape": "diamond"
           }
         ]
       },
@@ -779,7 +790,8 @@
           {
             "map": "overworld",
             "x": 859,
-            "y": 935
+            "y": 935,
+            "shape": "diamond"
           }
         ]
       },
@@ -859,12 +871,14 @@
           {
             "map": "overworld",
             "x": 831,
-            "y": 943
+            "y": 943,
+            "shape": "trapezoid"
           },
           {
             "map": "deku_palace",
             "x": 760,
-            "y": 130
+            "y": 130,
+            "shape": "trapezoid"
           }
         ]
       },
@@ -941,12 +955,14 @@
           {
             "map": "overworld",
             "x": 889,
-            "y": 814
+            "y": 814,
+            "shape": "trapezoid"
           },
           {
             "map": "southern_swamp",
             "x": 760,
-            "y": 895
+            "y": 895,
+            "shape": "trapezoid"
           }
         ]
       },
@@ -1096,7 +1112,8 @@
 //          {
 //            "map": "road_to_swamp",
 //            "x": 735,
-//            "y": 815
+//            "y": 815,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1110,7 +1127,8 @@
 //          {
 //            "map": "road_to_swamp",
 //            "x": 795,
-//            "y": 860
+//            "y": 860,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1124,7 +1142,8 @@
 //          {
 //            "map": "road_to_swamp",
 //            "x": 820,
-//            "y": 620
+//            "y": 620,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1141,7 +1160,8 @@
 //          {
 //            "map": "road_to_swamp",
 //            "x": 895,
-//            "y": 850
+//            "y": 850,
+//            "shape": "trapezoid"
 //          }
 //        ]
 //      },
@@ -1155,32 +1175,38 @@
 //          {
 //            "map": "road_to_swamp",
 //            "x": 810,
-//            "y": 540
+//            "y": 540,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "road_to_swamp",
 //            "x": 855,
-//            "y": 475
+//            "y": 475,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "road_to_swamp",
 //            "x": 830,
-//            "y": 430
+//            "y": 430,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "road_to_swamp",
 //            "x": 880,
-//            "y": 355
+//            "y": 355,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "road_to_swamp",
 //            "x": 850,
-//            "y": 295
+//            "y": 295,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "road_to_swamp",
 //            "x": 875,
-//            "y": 250
+//            "y": 250,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1194,42 +1220,50 @@
 //          {
 //            "map": "road_to_swamp",
 //            "x": 435,
-//            "y": 915
+//            "y": 915,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "road_to_swamp",
 //            "x": 620,
-//            "y": 820
+//            "y": 820,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "road_to_swamp",
 //            "x": 710,
-//            "y": 710
+//            "y": 710,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "road_to_swamp",
 //            "x": 850,
-//            "y": 560
+//            "y": 560,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "road_to_swamp",
 //            "x": 875,
-//            "y": 435
+//            "y": 435,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "road_to_swamp",
 //            "x": 885,
-//            "y": 285
+//            "y": 285,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "road_to_swamp",
 //            "x": 970,
-//            "y": 700
+//            "y": 700,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "road_to_swamp",
 //            "x": 1185,
-//            "y": 640
+//            "y": 640,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1243,7 +1277,8 @@
 //          {
 //            "map": "road_to_swamp",
 //            "x": 825,
-//            "y": 375
+//            "y": 375,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1277,7 +1312,8 @@
 //          {
 //            "map": "road_to_swamp",
 //            "x": 1040,
-//            "y": 100
+//            "y": 100,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1314,7 +1350,8 @@
 //          {
 //            "map": "southern_swamp",
 //            "x": 400,
-//            "y": 975
+//            "y": 975,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1389,7 +1426,8 @@
 //          {
 //            "map": "potion_shop",
 //            "x": 420,
-//            "y": 190
+//            "y": 190,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1412,7 +1450,8 @@
 //          {
 //            "map": "potion_shop",
 //            "x": 400,
-//            "y": 210
+//            "y": 210,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1429,7 +1468,8 @@
 //          {
 //            "map": "potion_shop",
 //            "x": 610,
-//            "y": 405
+//            "y": 405,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1446,7 +1486,8 @@
 //          {
 //            "map": "potion_shop",
 //            "x": 525,
-//            "y": 490
+//            "y": 490,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1466,7 +1507,8 @@
 //          {
 //            "map": "potion_shop",
 //            "x": 190,
-//            "y": 280
+//            "y": 280,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1483,7 +1525,8 @@
 //          {
 //            "map": "potion_shop",
 //            "x": 460,
-//            "y": 205
+//            "y": 205,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1541,7 +1584,8 @@
 //          {
 //            "map": "southern_swamp",
 //            "x": 600,
-//            "y": 205
+//            "y": 205,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1555,12 +1599,14 @@
 //          {
 //            "map": "southern_swamp",
 //            "x": 700,
-//            "y": 255
+//            "y": 255,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "southern_swamp",
 //            "x": 740,
-//            "y": 255
+//            "y": 255,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1574,7 +1620,8 @@
 //          {
 //            "map": "southern_swamp",
 //            "x": 420,
-//            "y": 295
+//            "y": 295,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1588,7 +1635,8 @@
 //          {
 //            "map": "southern_swamp",
 //            "x": 460,
-//            "y": 230
+//            "y": 230,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1625,7 +1673,8 @@
 //          {
 //            "map": "southern_swamp",
 //            "x": 790,
-//            "y": 475
+//            "y": 475,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1639,22 +1688,26 @@
 //          {
 //            "map": "southern_swamp",
 //            "x": 880,
-//            "y": 640
+//            "y": 640,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "southern_swamp",
 //            "x": 780,
-//            "y": 770
+//            "y": 770,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "southern_swamp",
 //            "x": 820,
-//            "y": 845
+//            "y": 845,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "southern_swamp",
 //            "x": 710,
-//            "y": 890
+//            "y": 890,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1674,7 +1727,8 @@
 //          {
 //            "map": "southern_swamp",
 //            "x": 720,
-//            "y": 785
+//            "y": 785,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1688,17 +1742,20 @@
 //          {
 //            "map": "deku_palace",
 //            "x": 470,
-//            "y": 290
+//            "y": 290,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 510,
-//            "y": 230
+//            "y": 230,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 510,
-//            "y": 290
+//            "y": 290,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1726,7 +1783,8 @@
 //          {
 //            "map": "deku_palace",
 //            "x": 570,
-//            "y": 360
+//            "y": 360,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1740,22 +1798,26 @@
 //          {
 //            "map": "deku_palace",
 //            "x": 590,
-//            "y": 200
+//            "y": 200,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 690,
-//            "y": 140
+//            "y": 140,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 705,
-//            "y": 150
+//            "y": 150,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 760,
-//            "y": 150
+//            "y": 150,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1769,22 +1831,26 @@
 //          {
 //            "map": "deku_palace",
 //            "x": 430,
-//            "y": 200
+//            "y": 200,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 430,
-//            "y": 240
+//            "y": 240,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 315,
-//            "y": 320
+//            "y": 320,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 245,
-//            "y": 120
+//            "y": 120,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1798,57 +1864,68 @@
 //          {
 //            "map": "deku_palace",
 //            "x": 430,
-//            "y": 85
+//            "y": 85,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 305,
-//            "y": 155
+//            "y": 155,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 310,
-//            "y": 205
+//            "y": 205,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 370,
-//            "y": 275
+//            "y": 275,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 430,
-//            "y": 330
+//            "y": 330,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 600,
-//            "y": 330
+//            "y": 330,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 655,
-//            "y": 300
+//            "y": 300,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 650,
-//            "y": 225
+//            "y": 225,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 645,
-//            "y": 140
+//            "y": 140,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 650,
-//            "y": 90
+//            "y": 90,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 790,
-//            "y": 105
+//            "y": 105,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1862,17 +1939,20 @@
 //          {
 //            "map": "deku_palace",
 //            "x": 640,
-//            "y": 255
+//            "y": 255,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 720,
-//            "y": 285
+//            "y": 285,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "deku_palace",
 //            "x": 650,
-//            "y": 75
+//            "y": 75,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1886,7 +1966,8 @@
 //          {
 //            "map": "deku_palace",
 //            "x": 870,
-//            "y": 135
+//            "y": 135,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1914,7 +1995,8 @@
 //          {
 //            "map": "deku_palace",
 //            "x": 675,
-//            "y": 535
+//            "y": 535,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1993,7 +2075,8 @@
 //          {
 //            "map": "woodfall",
 //            "x": 490,
-//            "y": 235
+//            "y": 235,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2007,37 +2090,44 @@
 //          {
 //            "map": "woodfall",
 //            "x": 275,
-//            "y": 425
+//            "y": 425,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "woodfall",
 //            "x": 310,
-//            "y": 300
+//            "y": 300,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "woodfall",
 //            "x": 325,
-//            "y": 500
+//            "y": 500,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "woodfall",
 //            "x": 380,
-//            "y": 230
+//            "y": 230,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "woodfall",
 //            "x": 600,
-//            "y": 220
+//            "y": 220,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "woodfall",
 //            "x": 750,
-//            "y": 300
+//            "y": 300,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "woodfall",
 //            "x": 725,
-//            "y": 400
+//            "y": 400,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2051,7 +2141,8 @@
 //          {
 //            "map": "woodfall",
 //            "x": 660,
-//            "y": 490
+//            "y": 490,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2065,7 +2156,8 @@
 //          {
 //            "map": "woodfall",
 //            "x": 500,
-//            "y": 700
+//            "y": 700,
+//            "shape": "diamond"
 //          }
 //        ]
 //      }

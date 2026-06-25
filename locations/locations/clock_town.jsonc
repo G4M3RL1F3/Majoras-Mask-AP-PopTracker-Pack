@@ -120,7 +120,8 @@
           {
             "map": "clock_town",
             "x": 490,
-            "y": 440
+            "y": 440,
+            "shape": "diamond"
           }
         ]
       },
@@ -337,7 +338,8 @@
           {
             "map": "clock_town",
             "x": 593,
-            "y": 151
+            "y": 151,
+            "shape": "diamond"
           }
         ]
       },
@@ -360,7 +362,8 @@
           {
             "map": "clock_town",
             "x": 435,
-            "y": 275
+            "y": 275,
+            "shape": "diamond"
           }
         ]
       },
@@ -433,7 +436,8 @@
           {
             "map": "clock_town",
             "x": 385,
-            "y": 295
+            "y": 295,
+            "shape": "trapezoid"
           }
         ]
       },
@@ -1000,7 +1004,8 @@
           {
             "map": "clock_town",
             "x": 852,
-            "y": 588
+            "y": 588,
+            "shape": "diamond"
           }
         ]
       },
@@ -1024,7 +1029,8 @@
           {
             "map": "clock_town",
             "x": 700,
-            "y": 615
+            "y": 615,
+            "shape": "diamond"
           }
         ]
       },
@@ -1405,7 +1411,8 @@
           {
             "map": "clock_town",
             "x": 186,
-            "y": 683
+            "y": 683,
+            "shape": "diamond"
           }
         ],
         "sections": [
@@ -1595,7 +1602,8 @@
           {
             "map": "clock_town",
             "x": 122,
-            "y": 600
+            "y": 600,
+            "shape": "diamond"
           }
         ],
         "sections": [
@@ -1663,7 +1671,8 @@
           {
             "map": "clock_town",
             "x": 255,
-            "y": 725
+            "y": 725,
+            "shape": "diamond"
           }
         ],
         "sections": [

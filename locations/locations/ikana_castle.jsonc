@@ -15,17 +15,20 @@
           {
             "map": "ikana_castle",
             "x": 793,
-            "y": 94
+            "y": 94,
+            "shape": "diamond"
           },
           {
             "map": "ikana_castle",
             "x": 450,
-            "y": 456
+            "y": 456,
+            "shape": "diamond"
           },
           {
             "map": "ikana_castle",
             "x": 620,
-            "y": 607
+            "y": 607,
+            "shape": "diamond"
           }
         ]
       },
@@ -41,7 +44,8 @@
           {
             "map": "ikana_castle",
             "x": 792,
-            "y": 607
+            "y": 607,
+            "shape": "diamond"
           }
         ]
       },
@@ -57,7 +61,8 @@
           {
             "map": "ikana_castle",
             "x": 1250,
-            "y": 365
+            "y": 365,
+            "shape": "diamond"
           }
         ]
       },
@@ -73,7 +78,8 @@
           {
             "map": "ikana_castle",
             "x": 1330,
-            "y": 249
+            "y": 249,
+            "shape": "diamond"
           }
         ]
       },
@@ -89,7 +95,8 @@
           {
             "map": "ikana_castle",
             "x": 1490,
-            "y": 205
+            "y": 205,
+            "shape": "diamond"
           }
         ]
       },
@@ -105,7 +112,8 @@
           {
             "map": "ikana_castle",
             "x": 1700,
-            "y": 249
+            "y": 249,
+            "shape": "diamond"
           }
         ]
       },
@@ -121,7 +129,8 @@
           {
             "map": "ikana_castle",
             "x": 1630,
-            "y": 175
+            "y": 175,
+            "shape": "diamond"
           }
         ]
       },
@@ -137,7 +146,8 @@
           {
             "map": "ikana_castle",
             "x": 1950,
-            "y": 185
+            "y": 185,
+            "shape": "diamond"
           }
         ]
       },
@@ -153,7 +163,8 @@
           {
             "map": "ikana_castle",
             "x": 1950,
-            "y": 545
+            "y": 545,
+            "shape": "diamond"
           }
         ]
       },
@@ -169,7 +180,8 @@
           {
             "map": "ikana_castle",
             "x": 515,
-            "y": 215
+            "y": 215,
+            "shape": "diamond"
           }
         ]
       },

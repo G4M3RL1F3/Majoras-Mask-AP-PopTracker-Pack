@@ -22,7 +22,8 @@
 					{
 						"map": "zora_hall",
 						"x": 1076,
-						"y": 685
+						"y": 685,
+            "shape": "diamond"
 					}
 				]
 			},
@@ -113,7 +114,8 @@
           {
             "map": "zora_hall",
             "x": 628,
-            "y": 627
+            "y": 627,
+            "shape": "diamond"
           }
         ]
       }

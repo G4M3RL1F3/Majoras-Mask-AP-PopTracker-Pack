@@ -30,12 +30,14 @@
           {
             "map": "great_bay_temple",
             "x": 285,
-            "y": 1030
+            "y": 1030,
+            "shape": "diamond"
           },
           {
             "map": "great_bay_temple",
             "x": 460,
-            "y": 1030
+            "y": 1030,
+            "shape": "diamond"
           }
         ]
       },
@@ -119,7 +121,8 @@
           {
             "map": "great_bay_temple",
             "x": 471,
-            "y": 476
+            "y": 476,
+            "shape": "diamond"
           }
         ]
       },
@@ -167,7 +170,8 @@
           {
             "map": "great_bay_temple",
             "x": 620,
-            "y": 739
+            "y": 739,
+            "shape": "diamond"
           }
         ]
       },
@@ -187,12 +191,14 @@
           {
             "map": "great_bay_temple",
             "x": 575,
-            "y": 790
+            "y": 790,
+            "shape": "diamond"
           },
           {
             "map": "great_bay_temple",
             "x": 665,
-            "y": 790
+            "y": 790,
+            "shape": "diamond"
           }
         ]
       },
@@ -260,7 +266,8 @@
           {
             "map": "great_bay_temple",
             "x": 585,
-            "y": 80
+            "y": 80,
+            "shape": "diamond"
           }
         ]
       },
@@ -312,7 +319,8 @@
           {
             "map": "great_bay_temple",
             "x": 586,
-            "y": 312
+            "y": 312,
+            "shape": "diamond"
           }
         ]
       },
@@ -328,7 +336,8 @@
           {
             "map": "great_bay_temple",
             "x": 570,
-            "y": 183
+            "y": 183,
+            "shape": "diamond"
           }
         ]
       },
@@ -344,7 +353,8 @@
           {
             "map": "great_bay_temple",
             "x": 81,
-            "y": 500
+            "y": 500,
+            "shape": "diamond"
           }
         ]
       },
@@ -360,7 +370,8 @@
           {
             "map": "great_bay_temple",
             "x": 81,
-            "y": 250
+            "y": 250,
+            "shape": "diamond"
           }
         ]
       },
@@ -412,7 +423,8 @@
           {
             "map": "great_bay_temple",
             "x": 371,
-            "y": 277
+            "y": 277,
+            "shape": "diamond"
           }
         ]
       },
@@ -428,7 +440,8 @@
           {
             "map": "great_bay_temple",
             "x": 324,
-            "y": 237
+            "y": 237,
+            "shape": "diamond"
           }
         ]
       },
@@ -444,12 +457,14 @@
           {
             "map": "great_bay_temple",
             "x": 325,
-            "y": 157
+            "y": 157,
+            "shape": "diamond"
           },
           {
             "map": "great_bay_temple",
             "x": 417,
-            "y": 157
+            "y": 157,
+            "shape": "diamond"
           }
         ]
       },
@@ -497,7 +512,8 @@
           {
             "map": "great_bay_temple",
             "x": 875,
-            "y": 316
+            "y": 316,
+            "shape": "diamond"
           }
         ]
       },
@@ -513,7 +529,8 @@
           {
             "map": "great_bay_temple",
             "x": 794,
-            "y": 271
+            "y": 271,
+            "shape": "diamond"
           }
         ]
       },
@@ -545,12 +562,14 @@
           {
             "map": "great_bay_temple",
             "x": 833,
-            "y": 612
+            "y": 612,
+            "shape": "diamond"
           },
           {
             "map": "great_bay_temple",
             "x": 761,
-            "y": 497
+            "y": 497,
+            "shape": "diamond"
           }
         ]
       },
@@ -566,7 +585,8 @@
           {
             "map": "great_bay_temple",
             "x": 766,
-            "y": 545
+            "y": 545,
+            "shape": "diamond"
           }
         ]
       },
@@ -630,7 +650,8 @@
           {
             "map": "great_bay_temple",
             "x": 1045,
-            "y": 1172
+            "y": 1172,
+            "shape": "diamond"
           }
         ]
       },

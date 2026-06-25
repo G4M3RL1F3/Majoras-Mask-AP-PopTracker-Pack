@@ -14,7 +14,8 @@
           {
             "map": "snowhead_temple",
             "x": 387,
-            "y": 544
+            "y": 544,
+            "shape": "diamond"
           }
         ]
       },
@@ -34,7 +35,8 @@
           {
             "map": "snowhead_temple",
             "x": 353,
-            "y": 477
+            "y": 477,
+            "shape": "diamond"
           }
         ]
       },
@@ -50,7 +52,8 @@
           {
             "map": "snowhead_temple",
             "x": 413,
-            "y": 477
+            "y": 477,
+            "shape": "diamond"
           }
         ]
       },
@@ -98,7 +101,8 @@
           {
             "map": "snowhead_temple",
             "x": 548,
-            "y": 480
+            "y": 480,
+            "shape": "diamond"
           }
         ]
       },
@@ -118,7 +122,8 @@
           {
             "map": "snowhead_temple",
             "x": 1136,
-            "y": 340
+            "y": 340,
+            "shape": "diamond"
           }
         ]
       },
@@ -150,7 +155,8 @@
           {
             "map": "snowhead_temple",
             "x": 591,
-            "y": 307
+            "y": 307,
+            "shape": "diamond"
           }
         ]
       },
@@ -166,7 +172,8 @@
           {
             "map": "snowhead_temple",
             "x": 507,
-            "y": 524
+            "y": 524,
+            "shape": "diamond"
           }
         ]
       },
@@ -242,12 +249,14 @@
           {
             "map": "snowhead_temple",
             "x": 112,
-            "y": 407
+            "y": 407,
+            "shape": "diamond"
           },
           {
             "map": "snowhead_temple",
             "x": 305,
-            "y": 500
+            "y": 500,
+            "shape": "diamond"
           }
         ]
       },
@@ -295,12 +304,14 @@
           {
             "map": "snowhead_temple",
             "x": 197,
-            "y": 352
+            "y": 352,
+            "shape": "diamond"
           },
           {
             "map": "snowhead_temple",
             "x": 124,
-            "y": 250
+            "y": 250,
+            "shape": "diamond"
           }
         ]
       },
@@ -332,12 +343,14 @@
           {
             "map": "snowhead_temple",
             "x": 120,
-            "y": 155
+            "y": 155,
+            "shape": "diamond"
           },
           {
             "map": "snowhead_temple",
             "x": 295,
-            "y": 125
+            "y": 125,
+            "shape": "diamond"
           }
         ]
       },
@@ -353,17 +366,20 @@
           {
             "map": "snowhead_temple",
             "x": 217,
-            "y": 259
+            "y": 259,
+            "shape": "diamond"
           },
           {
             "map": "snowhead_temple",
             "x": 146,
-            "y": 36
+            "y": 36,
+            "shape": "diamond"
           },
           {
             "map": "snowhead_temple",
             "x": 369,
-            "y": 125
+            "y": 125,
+            "shape": "diamond"
           }
         ]
       },
@@ -395,7 +411,8 @@
           {
             "map": "snowhead_temple",
             "x": 479,
-            "y": 923
+            "y": 923,
+            "shape": "diamond"
           }
         ]
       },
@@ -411,7 +428,8 @@
           {
             "map": "snowhead_temple",
             "x": 298,
-            "y": 908
+            "y": 908,
+            "shape": "diamond"
           }
         ]
       },
@@ -435,7 +453,8 @@
           {
             "map": "snowhead_temple",
             "x": 947,
-            "y": 153
+            "y": 153,
+            "shape": "diamond"
           }
         ]
       },
@@ -499,7 +518,8 @@
           {
             "map": "snowhead_temple",
             "x": 1262,
-            "y": 325
+            "y": 325,
+            "shape": "diamond"
           }
         ]
       },
@@ -555,7 +575,8 @@
           {
             "map": "snowhead_temple",
             "x": 855,
-            "y": 433
+            "y": 433,
+            "shape": "diamond"
           }
         ]
       },
@@ -587,7 +608,8 @@
           {
             "map": "snowhead_temple",
             "x": 1088,
-            "y": 473
+            "y": 473,
+            "shape": "diamond"
           }
         ]
       },
@@ -603,7 +625,8 @@
           {
             "map": "snowhead_temple",
             "x": 920,
-            "y": 430
+            "y": 430,
+            "shape": "diamond"
           }
         ]
       },
@@ -619,7 +642,8 @@
           {
             "map": "snowhead_temple",
             "x": 1134,
-            "y": 245
+            "y": 245,
+            "shape": "diamond"
           }
         ]
       },
@@ -635,12 +659,14 @@
           {
             "map": "snowhead_temple",
             "x": 1164,
-            "y": 245
+            "y": 245,
+            "shape": "diamond"
           },
           {
             "map": "snowhead_temple",
             "x": 925,
-            "y": 245
+            "y": 245,
+            "shape": "diamond"
           }
         ]
       },
@@ -672,7 +698,8 @@
           {
             "map": "snowhead_temple",
             "x": 1044,
-            "y": 835
+            "y": 835,
+            "shape": "diamond"
           }
         ]
       },
@@ -712,7 +739,8 @@
           {
             "map": "snowhead_temple",
             "x": 820,
-            "y": 707
+            "y": 707,
+            "shape": "diamond"
           }
         ]
       },
@@ -760,7 +788,8 @@
           {
             "map": "snowhead_temple",
             "x": 1134,
-            "y": 1048
+            "y": 1048,
+            "shape": "diamond"
           }
         ]
       },
@@ -776,7 +805,8 @@
           {
             "map": "snowhead_temple",
             "x": 1163,
-            "y": 1148
+            "y": 1148,
+            "shape": "diamond"
           }
         ]
       },
@@ -808,7 +838,8 @@
           {
             "map": "snowhead_temple",
             "x": 1324,
-            "y": 1008
+            "y": 1008,
+            "shape": "diamond"
           }
         ]
       },
@@ -828,7 +859,8 @@
           {
             "map": "snowhead_temple",
             "x": 1052,
-            "y": 1049
+            "y": 1049,
+            "shape": "diamond"
           }
         ]
       },

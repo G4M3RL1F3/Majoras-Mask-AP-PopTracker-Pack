@@ -88,7 +88,8 @@
           {
             "map": "overworld",
             "x": 950,
-            "y": 415
+            "y": 415,
+            "shape": "diamond"
           }
         ]
       },
@@ -124,7 +125,8 @@
           {
             "map": "overworld",
             "x": 954,
-            "y": 318
+            "y": 318,
+            "shape": "diamond"
           }
         ]
       },
@@ -597,7 +599,8 @@
           {
             "map": "overworld",
             "x": 1228,
-            "y": 246
+            "y": 246,
+            "shape": "trapezoid"
           }
         ]
       },
@@ -1198,7 +1201,8 @@
           {
             "map": "overworld",
             "x": 937,
-            "y": 237
+            "y": 237,
+            "shape": "diamond"
           }
         ]
       }
@@ -1214,32 +1218,38 @@
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 425,
-//            "y": 350
+//            "y": 350,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 250,
-//            "y": 680
+//            "y": 680,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 220,
-//            "y": 880
+//            "y": 880,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 375,
-//            "y": 900
+//            "y": 900,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 650,
-//            "y": 990
+//            "y": 990,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 750,
-//            "y": 950
+//            "y": 950,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1255,17 +1265,20 @@
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 700,
-//            "y": 900
+//            "y": 900,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 350,
-//            "y": 825
+//            "y": 825,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 300,
-//            "y": 920
+//            "y": 920,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1281,7 +1294,8 @@
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 320,
-//            "y": 400
+//            "y": 400,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1297,12 +1311,14 @@
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 620,
-//            "y": 975
+//            "y": 975,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 310,
-//            "y": 810
+//            "y": 810,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1318,12 +1334,14 @@
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 280,
-//            "y": 340
+//            "y": 340,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 225,
-//            "y": 550
+//            "y": 550,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1339,7 +1357,8 @@
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 225,
-//            "y": 375
+//            "y": 375,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1355,7 +1374,8 @@
 //          {
 //            "map": "path_to_mountain_village",
 //            "x": 250,
-//            "y": 1025
+//            "y": 1025,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1371,27 +1391,32 @@
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 310,
-//            "y": 675
+//            "y": 675,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 330,
-//            "y": 525
+//            "y": 525,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 490,
-//            "y": 460
+//            "y": 460,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 915,
-//            "y": 635
+//            "y": 635,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 825,
-//            "y": 665
+//            "y": 665,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1407,27 +1432,32 @@
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 360,
-//            "y": 510
+//            "y": 510,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 460,
-//            "y": 460
+//            "y": 460,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 725,
-//            "y": 460
+//            "y": 460,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 650,
-//            "y": 660
+//            "y": 660,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 850,
-//            "y": 600
+//            "y": 600,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1459,7 +1489,8 @@
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 590,
-//            "y": 125
+//            "y": 125,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1489,7 +1520,8 @@
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 450,
-//            "y": 565
+//            "y": 565,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1503,7 +1535,8 @@
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 400,
-//            "y": 460
+//            "y": 460,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1517,7 +1550,8 @@
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 330,
-//            "y": 480
+//            "y": 480,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1560,7 +1594,8 @@
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 625,
-//            "y": 625
+//            "y": 625,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1574,7 +1609,8 @@
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 600,
-//            "y": 440
+//            "y": 440,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1588,7 +1624,8 @@
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 350,
-//            "y": 540
+//            "y": 540,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1602,7 +1639,8 @@
 //          {
 //            "map": "mountain_village_winter",
 //            "x": 890,
-//            "y": 685
+//            "y": 685,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1616,7 +1654,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 250,
-//            "y": 430
+//            "y": 430,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1630,7 +1669,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 515,
-//            "y": 400
+//            "y": 400,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1647,7 +1687,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 550,
-//            "y": 575
+//            "y": 575,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1675,7 +1716,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 280,
-//            "y": 700
+//            "y": 700,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1692,7 +1734,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 950,
-//            "y": 135
+//            "y": 135,
+//            "shape": "trapezoid"
 //          }
 //        ]
 //      },
@@ -1706,7 +1749,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 1200,
-//            "y": 200
+//            "y": 200,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1734,7 +1778,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 600,
-//            "y": 675
+//            "y": 675,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1751,7 +1796,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 500,
-//            "y": 480
+//            "y": 480,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1768,7 +1814,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 385,
-//            "y": 700
+//            "y": 700,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1788,7 +1835,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 450,
-//            "y": 600
+//            "y": 600,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1802,12 +1850,14 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 280,
-//            "y": 475
+//            "y": 475,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 360,
-//            "y": 425
+//            "y": 425,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1821,7 +1871,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 650,
-//            "y": 575
+//            "y": 575,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1835,7 +1886,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 480,
-//            "y": 90
+//            "y": 90,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1849,7 +1901,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 575,
-//            "y": 625
+//            "y": 625,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1863,7 +1916,8 @@
 //          {
 //            "map": "mountain_village_spring",
 //            "x": 800,
-//            "y": 635
+//            "y": 635,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1900,7 +1954,8 @@
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 225,
-//            "y": 400
+//            "y": 400,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1923,7 +1978,8 @@
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 275,
-//            "y": 685
+//            "y": 685,
+//            "shape": "trapezoid"
 //          }
 //        ]
 //      },
@@ -1938,7 +1994,8 @@
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 225,
-//            "y": 400
+//            "y": 400,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1952,17 +2009,20 @@
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 450,
-//            "y": 350
+//            "y": 350,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 475,
-//            "y": 950
+//            "y": 950,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 410,
-//            "y": 810
+//            "y": 810,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1976,62 +2036,74 @@
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 290,
-//            "y": 315
+//            "y": 315,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 290,
-//            "y": 440
+//            "y": 440,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 305,
-//            "y": 610
+//            "y": 610,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 380,
-//            "y": 330
+//            "y": 330,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 435,
-//            "y": 670
+//            "y": 670,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 440,
-//            "y": 250
+//            "y": 250,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 485,
-//            "y": 400
+//            "y": 400,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 555,
-//            "y": 605
+//            "y": 605,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 565,
-//            "y": 465
+//            "y": 465,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 695,
-//            "y": 230
+//            "y": 230,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 700,
-//            "y": 475
+//            "y": 475,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 750,
-//            "y": 370
+//            "y": 370,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2062,12 +2134,14 @@
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 420,
-//            "y": 505
+//            "y": 505,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 585,
-//            "y": 250
+//            "y": 250,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2081,7 +2155,8 @@
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 120,
-//            "y": 500
+//            "y": 500,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2098,7 +2173,8 @@
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 150,
-//            "y": 360
+//            "y": 360,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2115,12 +2191,14 @@
 //          {
 //            "map": "twin_islands_winter",
 //            "x": 600,
-//            "y": 300
+//            "y": 300,
+//            "shape": "trapezoid"
 //          },
 //          {
 //            "map": "twin_islands_spring",
 //            "x": 730,
-//            "y": 320
+//            "y": 320,
+//            "shape": "trapezoid"
 //          }
 //        ]
 //      },
@@ -2154,7 +2232,8 @@
 //          {
 //            "map": "twin_islands_spring",
 //            "x": 195,
-//            "y": 580
+//            "y": 580,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2168,7 +2247,8 @@
 //          {
 //            "map": "twin_islands_spring",
 //            "x": 600,
-//            "y": 975
+//            "y": 975,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2191,7 +2271,8 @@
 //          {
 //            "map": "twin_islands_spring",
 //            "x": 390,
-//            "y": 765
+//            "y": 765,
+//            "shape": "trapezoid"
 //          }
 //        ]
 //      },
@@ -2206,7 +2287,8 @@
 //          {
 //            "map": "twin_islands_spring",
 //            "x": 300,
-//            "y": 475
+//            "y": 475,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2248,12 +2330,14 @@
 //          {
 //            "map": "twin_islands_spring",
 //            "x": 540,
-//            "y": 555
+//            "y": 555,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_spring",
 //            "x": 700,
-//            "y": 260
+//            "y": 260,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2267,22 +2351,26 @@
 //          {
 //            "map": "twin_islands_spring",
 //            "x": 440,
-//            "y": 430
+//            "y": 430,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_spring",
 //            "x": 565,
-//            "y": 230
+//            "y": 230,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_spring",
 //            "x": 780,
-//            "y": 180
+//            "y": 180,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "twin_islands_spring",
 //            "x": 890,
-//            "y": 475
+//            "y": 475,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2341,12 +2429,14 @@
 //          {
 //            "map": "lens_cave",
 //            "x": 800,
-//            "y": 300
+//            "y": 300,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "lens_cave",
 //            "x": 850,
-//            "y": 575
+//            "y": 575,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2360,7 +2450,8 @@
 //          {
 //            "map": "lens_cave",
 //            "x": 675,
-//            "y": 525
+//            "y": 525,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2374,7 +2465,8 @@
 //          {
 //            "map": "lens_cave",
 //            "x": 500,
-//            "y": 350
+//            "y": 350,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2388,62 +2480,74 @@
 //          {
 //            "map": "goron_village",
 //            "x": 145,
-//            "y": 410
+//            "y": 410,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 150,
-//            "y": 450
+//            "y": 450,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 155,
-//            "y": 215
+//            "y": 215,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 200,
-//            "y": 245
+//            "y": 245,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 350,
-//            "y": 160
+//            "y": 160,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 415,
-//            "y": 310
+//            "y": 310,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 405,
-//            "y": 600
+//            "y": 600,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 460,
-//            "y": 400
+//            "y": 400,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 530,
-//            "y": 550
+//            "y": 550,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 590,
-//            "y": 190
+//            "y": 190,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 620,
-//            "y": 460
+//            "y": 460,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 675,
-//            "y": 355
+//            "y": 355,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2457,47 +2561,56 @@
 //          {
 //            "map": "goron_village",
 //            "x": 80,
-//            "y": 425
+//            "y": 425,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 145,
-//            "y": 255
+//            "y": 255,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 205,
-//            "y": 575
+//            "y": 575,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 265,
-//            "y": 200
+//            "y": 200,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 335,
-//            "y": 225
+//            "y": 225,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 370,
-//            "y": 595
+//            "y": 595,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 455,
-//            "y": 175
+//            "y": 175,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 495,
-//            "y": 500
+//            "y": 500,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_village",
 //            "x": 665,
-//            "y": 470
+//            "y": 470,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2571,7 +2684,8 @@
 //          {
 //            "map": "goron_village",
 //            "x": 680,
-//            "y": 240
+//            "y": 240,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2641,7 +2755,8 @@
 //          {
 //            "map": "goron_shrine",
 //            "x": 240,
-//            "y": 460
+//            "y": 460,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2655,17 +2770,20 @@
 //          {
 //            "map": "goron_shrine",
 //            "x": 350,
-//            "y": 650
+//            "y": 650,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_shrine",
 //            "x": 700,
-//            "y": 520
+//            "y": 520,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_shrine",
 //            "x": 925,
-//            "y": 180
+//            "y": 180,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2679,42 +2797,50 @@
 //          {
 //            "map": "goron_shrine",
 //            "x": 190,
-//            "y": 410
+//            "y": 410,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_shrine",
 //            "x": 200,
-//            "y": 600
+//            "y": 600,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_shrine",
 //            "x": 260,
-//            "y": 740
+//            "y": 740,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_shrine",
 //            "x": 455,
-//            "y": 350
+//            "y": 350,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_shrine",
 //            "x": 560,
-//            "y": 200
+//            "y": 200,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_shrine",
 //            "x": 590,
-//            "y": 525
+//            "y": 525,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_shrine",
 //            "x": 670,
-//            "y": 430
+//            "y": 430,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "goron_shrine",
 //            "x": 750,
-//            "y": 340
+//            "y": 340,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2742,7 +2868,8 @@
 //          {
 //            "map": "path_to_snowhead",
 //            "x": 40,
-//            "y": 125
+//            "y": 125,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2756,7 +2883,8 @@
 //          {
 //            "map": "path_to_snowhead",
 //            "x": 60,
-//            "y": 135
+//            "y": 135,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2770,12 +2898,14 @@
 //          {
 //            "map": "path_to_snowhead",
 //            "x": 155,
-//            "y": 125
+//            "y": 125,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_snowhead",
 //            "x": 525,
-//            "y": 80
+//            "y": 80,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2795,7 +2925,8 @@
 //          {
 //            "map": "path_to_snowhead",
 //            "x": 620,
-//            "y": 125
+//            "y": 125,
+//            "shape": "trapezoid"
 //          }
 //        ]
 //      },
@@ -2809,12 +2940,14 @@
 //          {
 //            "map": "path_to_snowhead",
 //            "x": 650,
-//            "y": 85
+//            "y": 85,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_snowhead",
 //            "x": 725,
-//            "y": 85
+//            "y": 85,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2828,17 +2961,20 @@
 //          {
 //            "map": "path_to_snowhead",
 //            "x": 655,
-//            "y": 100
+//            "y": 100,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_snowhead",
 //            "x": 720,
-//            "y": 70
+//            "y": 70,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "path_to_snowhead",
 //            "x": 785,
-//            "y": 60
+//            "y": 60,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2875,7 +3011,8 @@
 //          {
 //            "map": "snowhead",
 //            "x": 30,
-//            "y": 550
+//            "y": 550,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2892,7 +3029,8 @@
 //          {
 //            "map": "snowhead",
 //            "x": 45,
-//            "y": 520
+//            "y": 520,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2906,12 +3044,14 @@
 //          {
 //            "map": "snowhead",
 //            "x": 65,
-//            "y": 540
+//            "y": 540,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "snowhead",
 //            "x": 75,
-//            "y": 520
+//            "y": 520,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -2925,32 +3065,38 @@
 //          {
 //            "map": "snowhead",
 //            "x": 730,
-//            "y": 260
+//            "y": 260,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "snowhead",
 //            "x": 690,
-//            "y": 260
+//            "y": 260,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "snowhead",
 //            "x": 700,
-//            "y": 350
+//            "y": 350,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "snowhead",
 //            "x": 820,
-//            "y": 425
+//            "y": 425,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "snowhead",
 //            "x": 915,
-//            "y": 415
+//            "y": 415,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "snowhead",
 //            "x": 1000,
-//            "y": 350
+//            "y": 350,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },

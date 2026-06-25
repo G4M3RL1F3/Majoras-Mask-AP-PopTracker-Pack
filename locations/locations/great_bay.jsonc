@@ -210,7 +210,8 @@
           {
             "map": "overworld",
             "x": 471,
-            "y": 462
+            "y": 462,
+            "shape": "diamond"
           }
         ]
       },
@@ -257,7 +258,8 @@
           {
             "map": "overworld",
             "x": 431,
-            "y": 531
+            "y": 531,
+            "shape": "diamond"
           }
         ]
       },
@@ -464,7 +466,8 @@
           {
             "map": "overworld",
             "x": 615,
-            "y": 704
+            "y": 704,
+            "shape": "diamond"
           }
         ]
       },
@@ -542,7 +545,8 @@
           {
             "map": "overworld",
             "x": 540,
-            "y": 714
+            "y": 714,
+            "shape": "diamond"
           }
         ]
       },
@@ -577,7 +581,8 @@
           {
             "map": "overworld",
             "x": 680,
-            "y": 713
+            "y": 713,
+            "shape": "diamond"
           }
         ]
       },
@@ -595,7 +600,8 @@
           {
             "map": "overworld",
             "x": 630,
-            "y": 718
+            "y": 718,
+            "shape": "diamond"
           }
         ]
       },
@@ -683,7 +689,8 @@
           {
             "map": "overworld",
             "x": 513,
-            "y": 759
+            "y": 759,
+            "shape": "trapezoid"
           }
         ]
       },
@@ -770,7 +777,8 @@
           {
             "map": "overworld",
             "x": 308,
-            "y": 773
+            "y": 773,
+            "shape": "diamond"
           }
         ]
       },
@@ -937,7 +945,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 845,
-//            "y": 630
+//            "y": 630,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -951,7 +960,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 590,
-//            "y": 750
+//            "y": 750,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -982,7 +992,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 810,
-//            "y": 860
+//            "y": 860,
+//            "shape": "trapezoid"
 //          }
 //        ]
 //      },
@@ -999,7 +1010,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 750,
-//            "y": 830
+//            "y": 830,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1013,7 +1025,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 790,
-//            "y": 830
+//            "y": 830,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1044,7 +1057,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 340,
-//            "y": 740
+//            "y": 740,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1078,7 +1092,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 260,
-//            "y": 760
+//            "y": 760,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1092,27 +1107,32 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 775,
-//            "y": 660
+//            "y": 660,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 645,
-//            "y": 645
+//            "y": 645,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 705,
-//            "y": 855
+//            "y": 855,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 640,
-//            "y": 890
+//            "y": 890,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 670,
-//            "y": 920
+//            "y": 920,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1126,7 +1146,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 545,
-//            "y": 850
+//            "y": 850,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1140,7 +1161,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 540,
-//            "y": 100
+//            "y": 100,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1171,7 +1193,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 525,
-//            "y": 575
+//            "y": 575,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1188,7 +1211,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 410,
-//            "y": 410
+//            "y": 410,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1202,7 +1226,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 600,
-//            "y": 460
+//            "y": 460,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1216,7 +1241,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 530,
-//            "y": 490
+//            "y": 490,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1230,17 +1256,20 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 675,
-//            "y": 660
+//            "y": 660,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 680,
-//            "y": 765
+//            "y": 765,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 620,
-//            "y": 820
+//            "y": 820,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1254,7 +1283,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 600,
-//            "y": 975
+//            "y": 975,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1285,7 +1315,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 850,
-//            "y": 180
+//            "y": 180,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1329,7 +1360,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 865,
-//            "y": 300
+//            "y": 300,
+//            "shape": "trapezoid"
 //          }
 //        ]
 //      },
@@ -1343,12 +1375,14 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 875,
-//            "y": 250
+//            "y": 250,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 875,
-//            "y": 325
+//            "y": 325,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1362,17 +1396,20 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 865,
-//            "y": 275
+//            "y": 275,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 875,
-//            "y": 350
+//            "y": 350,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 825,
-//            "y": 150
+//            "y": 150,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1386,17 +1423,20 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 800,
-//            "y": 460
+//            "y": 460,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 855,
-//            "y": 320
+//            "y": 320,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 770,
-//            "y": 115
+//            "y": 115,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1410,7 +1450,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 675,
-//            "y": 225
+//            "y": 225,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1424,7 +1465,8 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 800,
-//            "y": 125
+//            "y": 125,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1438,22 +1480,26 @@
 //          {
 //            "map": "great_bay_coast",
 //            "x": 620,
-//            "y": 110
+//            "y": 110,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 640,
-//            "y": 90
+//            "y": 90,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 665,
-//            "y": 95
+//            "y": 95,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "great_bay_coast",
 //            "x": 690,
-//            "y": 100
+//            "y": 100,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1484,7 +1530,8 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 1265,
-//            "y": 680
+//            "y": 680,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1498,7 +1545,8 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 1175,
-//            "y": 415
+//            "y": 415,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1546,12 +1594,14 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 1000,
-//            "y": 200
+//            "y": 200,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "zora_cape",
 //            "x": 1025,
-//            "y": 250
+//            "y": 250,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1565,32 +1615,38 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 850,
-//            "y": 150
+//            "y": 150,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "zora_cape",
 //            "x": 950,
-//            "y": 180
+//            "y": 180,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "zora_cape",
 //            "x": 1040,
-//            "y": 265
+//            "y": 265,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "zora_cape",
 //            "x": 1100,
-//            "y": 325
+//            "y": 325,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "zora_cape",
 //            "x": 1260,
-//            "y": 480
+//            "y": 480,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "zora_cape",
 //            "x": 1230,
-//            "y": 520
+//            "y": 520,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1618,7 +1674,8 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 1345,
-//            "y": 555
+//            "y": 555,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1632,7 +1689,8 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 1200,
-//            "y": 510
+//            "y": 510,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1663,7 +1721,8 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 560,
-//            "y": 360
+//            "y": 360,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1677,12 +1736,14 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 450,
-//            "y": 365
+//            "y": 365,
+//            "shape": "diamond"
 //          },
 //          {
 //            "map": "zora_cape",
 //            "x": 460,
-//            "y": 450
+//            "y": 450,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1696,7 +1757,8 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 485,
-//            "y": 450
+//            "y": 450,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1716,7 +1778,8 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 725,
-//            "y": 375
+//            "y": 375,
+//            "shape": "trapezoid"
 //          }
 //        ]
 //      },
@@ -1767,7 +1830,8 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 200,
-//            "y": 125
+//            "y": 125,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1781,7 +1845,8 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 210,
-//            "y": 85
+//            "y": 85,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1795,7 +1860,8 @@
 //          {
 //            "map": "zora_cape",
 //            "x": 75,
-//            "y": 70
+//            "y": 70,
+//            "shape": "diamond"
 //          }
 //        ]
 //      },
@@ -1810,7 +1876,8 @@
 //          {
 //            "map": "zora_hall",
 //            "x": 725,
-//            "y": 625
+//            "y": 625,
+//            "shape": "diamond"
 //          }
 //        ]
 //      }

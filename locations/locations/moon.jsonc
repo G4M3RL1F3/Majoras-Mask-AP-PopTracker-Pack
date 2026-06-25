@@ -91,22 +91,26 @@
           {
             "map": "moon",
             "x": 255,
-            "y": 640
+            "y": 640,
+            "shape": "diamond"
           },
           {
             "map": "moon",
             "x": 255,
-            "y": 500
+            "y": 500,
+            "shape": "diamond"
           },
           {
             "map": "moon",
             "x": 255,
-            "y": 330
+            "y": 330,
+            "shape": "diamond"
           },
           {
             "map": "moon",
             "x": 135,
-            "y": 140
+            "y": 140,
+            "shape": "diamond"
           }
         ]
       },
@@ -132,7 +136,8 @@
           {
             "map": "moon",
             "x": 135,
-            "y": 620
+            "y": 620,
+            "shape": "diamond"
           }
         ]
       },
@@ -158,7 +163,8 @@
           {
             "map": "moon",
             "x": 375,
-            "y": 615
+            "y": 615,
+            "shape": "diamond"
           }
         ]
       },
@@ -184,7 +190,8 @@
           {
             "map": "moon",
             "x": 135,
-            "y": 435
+            "y": 435,
+            "shape": "diamond"
           }
         ]
       },
@@ -210,7 +217,8 @@
           {
             "map": "moon",
             "x": 396,
-            "y": 396
+            "y": 396,
+            "shape": "diamond"
           }
         ]
       },
@@ -301,22 +309,26 @@
           {
             "map": "moon",
             "x": 705,
-            "y": 560
+            "y": 560,
+            "shape": "diamond"
           },
           {
             "map": "moon",
             "x": 610,
-            "y": 560
+            "y": 560,
+            "shape": "diamond"
           },
           {
             "map": "moon",
             "x": 610,
-            "y": 250
+            "y": 250,
+            "shape": "diamond"
           },
           {
             "map": "moon",
             "x": 888,
-            "y": 135
+            "y": 135,
+            "shape": "diamond"
           }
         ]
       },
@@ -336,27 +348,32 @@
           {
             "map": "moon",
             "x": 705,
-            "y": 92
+            "y": 92,
+            "shape": "diamond"
           },
           {
             "map": "moon",
             "x": 705,
-            "y": 775
+            "y": 775,
+            "shape": "diamond"
           },
           {
             "map": "moon",
             "x": 705,
-            "y": 332
+            "y": 332,
+            "shape": "diamond"
           },
           {
             "map": "moon",
             "x": 787,
-            "y": 250
+            "y": 250,
+            "shape": "diamond"
           },
           {
             "map": "moon",
             "x": 822,
-            "y": 557
+            "y": 557,
+            "shape": "diamond"
           }
         ]
       },
@@ -378,7 +395,8 @@
           {
             "map": "moon",
             "x": 1000,
-            "y": 325
+            "y": 325,
+            "shape": "diamond"
           }
         ]
       },
@@ -402,7 +420,8 @@
           {
             "map": "moon",
             "x": 800,
-            "y": 330
+            "y": 330,
+            "shape": "diamond"
           }
         ]
       },
@@ -426,7 +445,8 @@
           {
             "map": "moon",
             "x": 820,
-            "y": 500
+            "y": 500,
+            "shape": "diamond"
           }
         ]
       },
@@ -513,7 +533,8 @@
           {
             "map": "moon",
             "x": 1175,
-            "y": 207
+            "y": 207,
+            "shape": "diamond"
           }
         ]
       },
@@ -536,7 +557,8 @@
           {
             "map": "moon",
             "x": 1295,
-            "y": 207
+            "y": 207,
+            "shape": "diamond"
           }
         ]
       },
@@ -559,7 +581,8 @@
           {
             "map": "moon",
             "x": 1335,
-            "y": 207
+            "y": 207,
+            "shape": "diamond"
           }
         ]
       },
@@ -582,7 +605,8 @@
           {
             "map": "moon",
             "x": 1370,
-            "y": 207
+            "y": 207,
+            "shape": "diamond"
           }
         ]
       },
@@ -646,7 +670,8 @@
           {
             "map": "moon",
             "x": 1560,
-            "y": 800
+            "y": 800,
+            "shape": "diamond"
           }
         ]
       },
@@ -669,7 +694,8 @@
           {
             "map": "moon",
             "x": 1560,
-            "y": 620
+            "y": 620,
+            "shape": "diamond"
           }
         ]
       },
@@ -711,7 +737,8 @@
           {
             "map": "moon",
             "x": 1560,
-            "y": 418
+            "y": 418,
+            "shape": "diamond"
           }
         ]
       },
@@ -759,12 +786,14 @@
           {
             "map": "moon",
             "x": 1525,
-            "y": 275
+            "y": 275,
+            "shape": "diamond"
           },
           {
             "map": "moon",
             "x": 1595,
-            "y": 275
+            "y": 275,
+            "shape": "diamond"
           }
         ]
       },

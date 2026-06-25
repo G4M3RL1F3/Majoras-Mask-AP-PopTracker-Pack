@@ -83,7 +83,8 @@
           {
             "map": "overworld",
             "x": 839,
-            "y": 665
+            "y": 665,
+            "shape": "diamond"
           }
         ]
       },
@@ -375,7 +376,8 @@
           {
             "map": "overworld",
             "x": 747,
-            "y": 625
+            "y": 625,
+            "shape": "diamond"
           }
         ]
       },

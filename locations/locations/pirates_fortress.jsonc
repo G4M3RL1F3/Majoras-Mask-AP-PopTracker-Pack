@@ -62,7 +62,8 @@
           {
             "map": "pirates_fortress",
             "x": 623,
-            "y": 692
+            "y": 692,
+            "shape": "diamond"
           }
         ]
       },
@@ -111,6 +112,35 @@
         ]
       },
       {
+        "name": "Sewers Maze Bonk Boards",
+        "sections": [
+          {
+            "name": "Bonk Board",
+            "ref": "Dungeons/Pirates' Fortress Sewers/Sewers Bonk Boards"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pirates_fortress",
+            "x": 1611,
+            "y": 842,
+            "shape": "diamond"
+          },
+          {
+            "map": "pirates_fortress",
+            "x": 1520,
+            "y": 825,
+            "shape": "diamond"
+          },
+          {
+            "map": "pirates_fortress",
+            "x": 1487,
+            "y": 782,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Sewers Underwater Lower Chest",
         "sections": [
           {
@@ -154,7 +184,8 @@
           {
             "map": "pirates_fortress",
             "x": 1760,
-            "y": 400
+            "y": 400,
+            "shape": "diamond"
           }
         ]
       },
@@ -178,7 +209,8 @@
           {
             "map": "pirates_fortress",
             "x": 1889,
-            "y": 615
+            "y": 615,
+            "shape": "diamond"
           }
         ]
       },
@@ -194,12 +226,14 @@
           {
             "map": "pirates_fortress",
             "x": 925,
-            "y": 507
+            "y": 507,
+            "shape": "diamond"
           },
           {
             "map": "pirates_fortress",
             "x": 911,
-            "y": 288
+            "y": 288,
+            "shape": "diamond"
           }
         ]
       },
@@ -219,7 +253,8 @@
           {
             "map": "pirates_fortress",
             "x": 1170,
-            "y": 255
+            "y": 255,
+            "shape": "diamond"
           }
         ]
       },
@@ -255,7 +290,8 @@
           {
             "map": "pirates_fortress",
             "x": 1707,
-            "y": 1094
+            "y": 1094,
+            "shape": "diamond"
           }
         ]
       },
@@ -291,7 +327,8 @@
           {
             "map": "pirates_fortress",
             "x": 1408,
-            "y": 1265
+            "y": 1265,
+            "shape": "diamond"
           }
         ]
       },
@@ -307,7 +344,8 @@
           {
             "map": "pirates_fortress",
             "x": 1077,
-            "y": 463
+            "y": 463,
+            "shape": "diamond"
           }
         ]
       },
@@ -355,7 +393,8 @@
           {
             "map": "pirates_fortress",
             "x": 319,
-            "y": 1064
+            "y": 1064,
+            "shape": "diamond"
           }
         ]
       },
@@ -371,7 +410,8 @@
           {
             "map": "pirates_fortress",
             "x": 225,
-            "y": 1106
+            "y": 1106,
+            "shape": "diamond"
           }
         ]
       },
@@ -387,7 +427,8 @@
           {
             "map": "pirates_fortress",
             "x": 271,
-            "y": 1233
+            "y": 1233,
+            "shape": "diamond"
           }
         ]
       },

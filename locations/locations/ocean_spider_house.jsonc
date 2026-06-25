@@ -14,7 +14,8 @@
           {
             "map": "ocean_spider_house",
             "x": 468,
-            "y": 740
+            "y": 740,
+            "shape": "diamond"
           }
         ]
       },
@@ -50,7 +51,8 @@
           {
             "map": "ocean_spider_house",
             "x": 468,
-            "y": 387
+            "y": 387,
+            "shape": "diamond"
           }
         ]
       },
@@ -82,7 +84,8 @@
           {
             "map": "ocean_spider_house",
             "x": 466,
-            "y": 338
+            "y": 338,
+            "shape": "diamond"
           }
         ]
       },
@@ -98,17 +101,20 @@
           {
             "map": "ocean_spider_house",
             "x": 491,
-            "y": 145
+            "y": 145,
+            "shape": "diamond"
           },
           {
             "map": "ocean_spider_house",
             "x": 363,
-            "y": 110
+            "y": 110,
+            "shape": "diamond"
           },
           {
             "map": "ocean_spider_house",
             "x": 1046,
-            "y": 425
+            "y": 425,
+            "shape": "diamond"
           }
         ]
       },
@@ -124,7 +130,8 @@
           {
             "map": "ocean_spider_house",
             "x": 382,
-            "y": 240
+            "y": 240,
+            "shape": "diamond"
           }
         ]
       },
@@ -140,7 +147,8 @@
           {
             "map": "ocean_spider_house",
             "x": 480,
-            "y": 275
+            "y": 275,
+            "shape": "diamond"
           }
         ]
       },
@@ -172,7 +180,8 @@
           {
             "map": "ocean_spider_house",
             "x": 491,
-            "y": 91
+            "y": 91,
+            "shape": "diamond"
           }
         ]
       },
@@ -224,7 +233,8 @@
           {
             "map": "ocean_spider_house",
             "x": 363,
-            "y": 23
+            "y": 23,
+            "shape": "diamond"
           }
         ]
       },
@@ -292,7 +302,8 @@
           {
             "map": "ocean_spider_house",
             "x": 97,
-            "y": 169
+            "y": 169,
+            "shape": "diamond"
           }
         ]
       },
@@ -308,7 +319,8 @@
           {
             "map": "ocean_spider_house",
             "x": 156,
-            "y": 538
+            "y": 538,
+            "shape": "diamond"
           }
         ]
       },
@@ -356,17 +368,20 @@
           {
             "map": "ocean_spider_house",
             "x": 97,
-            "y": 285
+            "y": 285,
+            "shape": "diamond"
           },
           {
             "map": "ocean_spider_house",
             "x": 156,
-            "y": 428
+            "y": 428,
+            "shape": "diamond"
           },
           {
             "map": "ocean_spider_house",
             "x": 280,
-            "y": 428
+            "y": 428,
+            "shape": "diamond"
           }
         ]
       },
@@ -382,7 +397,8 @@
           {
             "map": "ocean_spider_house",
             "x": 917,
-            "y": 600
+            "y": 600,
+            "shape": "diamond"
           }
         ]
       },
@@ -470,7 +486,8 @@
           {
             "map": "ocean_spider_house",
             "x": 1000,
-            "y": 339
+            "y": 339,
+            "shape": "diamond"
           }
         ]
       },
@@ -502,7 +519,8 @@
           {
             "map": "ocean_spider_house",
             "x": 1047,
-            "y": 600
+            "y": 600,
+            "shape": "diamond"
           }
         ]
       },
@@ -518,7 +536,8 @@
           {
             "map": "ocean_spider_house",
             "x": 915,
-            "y": 360
+            "y": 360,
+            "shape": "diamond"
           }
         ]
       },
@@ -610,7 +629,8 @@
           {
             "map": "ocean_spider_house",
             "x": 1090,
-            "y": 470
+            "y": 470,
+            "shape": "diamond"
           }
         ]
       },
@@ -626,12 +646,14 @@
           {
             "map": "ocean_spider_house",
             "x": 1090,
-            "y": 600
+            "y": 600,
+            "shape": "diamond"
           },
           {
             "map": "ocean_spider_house",
             "x": 1090,
-            "y": 450
+            "y": 450,
+            "shape": "diamond"
           }
         ]
       },
@@ -647,17 +669,20 @@
           {
             "map": "ocean_spider_house",
             "x": 1145,
-            "y": 417
+            "y": 417,
+            "shape": "diamond"
           },
           {
             "map": "ocean_spider_house",
             "x": 1145,
-            "y": 615
+            "y": 615,
+            "shape": "diamond"
           },
           {
             "map": "ocean_spider_house",
             "x": 1222,
-            "y": 615
+            "y": 615,
+            "shape": "diamond"
           }
         ]
       },
@@ -725,7 +750,8 @@
           {
             "map": "ocean_spider_house",
             "x": 860,
-            "y": 279
+            "y": 279,
+            "shape": "diamond"
           }
         ]
       },
@@ -777,7 +803,8 @@
           {
             "map": "ocean_spider_house",
             "x": 775,
-            "y": 375
+            "y": 375,
+            "shape": "diamond"
           }
         ]
       },

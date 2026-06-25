@@ -29,7 +29,8 @@
           {
             "map": "swamp_spider_house",
             "x": 400,
-            "y": 1035
+            "y": 1035,
+            "shape": "diamond"
           }
         ]
       },
@@ -45,7 +46,8 @@
           {
             "map": "swamp_spider_house",
             "x": 335,
-            "y": 820
+            "y": 820,
+            "shape": "diamond"
           }
         ]
       },
@@ -95,7 +97,8 @@
           {
             "map": "swamp_spider_house",
             "x": 342,
-            "y": 704
+            "y": 704,
+            "shape": "diamond"
           }
         ]
       },
@@ -111,17 +114,20 @@
           {
             "map": "swamp_spider_house",
             "x": 1060,
-            "y": 700
+            "y": 700,
+            "shape": "diamond"
           },
           {
             "map": "swamp_spider_house",
             "x": 955,
-            "y": 780
+            "y": 780,
+            "shape": "diamond"
           },
           {
             "map": "swamp_spider_house",
             "x": 1175,
-            "y": 780
+            "y": 780,
+            "shape": "diamond"
           }
         ]
       },
@@ -233,7 +239,8 @@
           {
             "map": "swamp_spider_house",
             "x": 737,
-            "y": 720
+            "y": 720,
+            "shape": "diamond"
           }
         ]
       },
@@ -281,7 +288,8 @@
           {
             "map": "swamp_spider_house",
             "x": 20,
-            "y": 775
+            "y": 775,
+            "shape": "diamond"
           }
         ]
       },
@@ -349,7 +357,8 @@
           {
             "map": "swamp_spider_house",
             "x": 151,
-            "y": 742
+            "y": 742,
+            "shape": "diamond"
           }
         ]
       },
@@ -365,12 +374,14 @@
           {
             "map": "swamp_spider_house",
             "x": 1255,
-            "y": 854
+            "y": 854,
+            "shape": "diamond"
           },
           {
             "map": "swamp_spider_house",
             "x": 1230,
-            "y": 570
+            "y": 570,
+            "shape": "diamond"
           }
         ]
       },
@@ -386,27 +397,32 @@
           {
             "map": "swamp_spider_house",
             "x": 1305,
-            "y": 815
+            "y": 815,
+            "shape": "diamond"
           },
           {
             "map": "swamp_spider_house",
             "x": 1330,
-            "y": 770
+            "y": 770,
+            "shape": "diamond"
           },
           {
             "map": "swamp_spider_house",
             "x": 1330,
-            "y": 727
+            "y": 727,
+            "shape": "diamond"
           },
           {
             "map": "swamp_spider_house",
             "x": 1330,
-            "y": 681
+            "y": 681,
+            "shape": "diamond"
           },
           {
             "map": "swamp_spider_house",
             "x": 1330,
-            "y": 632
+            "y": 632,
+            "shape": "diamond"
           }
         ]
       },
@@ -422,7 +438,8 @@
           {
             "map": "swamp_spider_house",
             "x": 1275,
-            "y": 555
+            "y": 555,
+            "shape": "diamond"
           }
         ]
       },
@@ -470,7 +487,8 @@
           {
             "map": "swamp_spider_house",
             "x": 1280,
-            "y": 715
+            "y": 715,
+            "shape": "diamond"
           }
         ]
       },
@@ -486,7 +504,8 @@
           {
             "map": "swamp_spider_house",
             "x": 1250,
-            "y": 780
+            "y": 780,
+            "shape": "diamond"
           }
         ]
       },
@@ -502,7 +521,8 @@
           {
             "map": "swamp_spider_house",
             "x": 1250,
-            "y": 615
+            "y": 615,
+            "shape": "diamond"
           }
         ]
       },
@@ -598,7 +618,8 @@
           {
             "map": "swamp_spider_house",
             "x": 1185,
-            "y": 440
+            "y": 440,
+            "shape": "diamond"
           }
         ]
       },
@@ -614,7 +635,8 @@
           {
             "map": "swamp_spider_house",
             "x": 951,
-            "y": 545
+            "y": 545,
+            "shape": "diamond"
           }
         ]
       },
@@ -630,7 +652,8 @@
           {
             "map": "swamp_spider_house",
             "x": 951,
-            "y": 440
+            "y": 440,
+            "shape": "diamond"
           }
         ]
       },

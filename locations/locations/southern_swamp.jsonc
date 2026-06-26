@@ -606,14 +606,12 @@
           {
             "map": "overworld",
             "x": 1172,
-            "y": 717,
-            "shape": "diamond"
+            "y": 717
           },
           {
             "map": "woods_of_mystery",
             "x": 285,
-            "y": 285,
-            "shape": "diamond"
+            "y": 285
           }
         ]
       },

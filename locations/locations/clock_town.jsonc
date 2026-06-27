@@ -754,7 +754,7 @@
             "name": "Hidden Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $baby_has_projectiles",
-              "normal_logic, $has_explosives, $has_projectiles"
+              "normal_logic, $has_explosives, @Clock Town/North Clock Town - Bombers/Hide-and-Seek"
             ]
           },
           {

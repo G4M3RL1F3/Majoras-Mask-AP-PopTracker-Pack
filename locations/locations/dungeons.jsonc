@@ -2652,7 +2652,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Ocean Spiderhouse Coloured Skulls Room Pots",
+            "name": "Coloured Skulls Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "clear_as_group": false,

@@ -44,7 +44,7 @@
         "sections": [
           {
             "name": "Pots",
-            "ref": "Dungeons/Ocean Spider House/Ocean Spiderhouse Bottom of Ramp Pots"
+            "ref": "Dungeons/Ocean Spider House/Bottom of Ramp Pots"
           }
         ],
         "map_locations": [
@@ -796,7 +796,7 @@
         "sections": [
           {
             "name": "Pots",
-            "ref": "Dungeons/Ocean Spider House/Ocean Spiderhouse Crate Room Pots"
+            "ref": "Dungeons/Ocean Spider House/Crate Room Pots"
           }
         ],
         "map_locations": [

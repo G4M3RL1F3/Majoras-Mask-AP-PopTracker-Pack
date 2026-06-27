@@ -2402,7 +2402,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Ocean Spiderhouse Bottom of Ramp Pots",
+            "name": "Bottom of Ramp Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
@@ -2737,7 +2737,7 @@
             "access_rules": ["$has_explosives, hookshot"]
           },
           {
-            "name": "Ocean Spiderhouse Crate Room Pots",
+            "name": "Crate Room Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,

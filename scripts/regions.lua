@@ -119,7 +119,7 @@ end
 
 -- Pirates' Fortress -> Pirates' Fortress Sewers
 function pirates_fortress_sewers()
-    return pirates_fortress and has_absurd_soul("soul_barrels") and has("goron")
+    return pirates_fortress() and has_absurd_soul("soul_barrels") and has("goron")
 end
 
 -- Pirates' Fortress -> Pirates' Fortress (Interior)

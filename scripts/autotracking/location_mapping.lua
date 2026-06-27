@@ -2891,7 +2891,7 @@ LOCATION_MAPPING = {
     [0x233F03] = {"@Inside the Moon/Goron Trial Icicles/Exit Icicles"},
 
     -- Hivesanity
-    [0x248000] = {"@Termina Field/Termina Bombable Rock Grotto/Bombable Rock Beehive"},
+    [0x248000] = {"@Termina Field/Termina Bombable Rock Grotto/Beehive"},
     [0x248BB1] = {"@Termina Field/Termina Bio Baba Grotto/Bio Baba Beehive"},
     [0x248BB2] = {"@Termina Field/Termina Bio Baba Grotto/Bio Baba Beehive"},
     [0x24ADA0] = {"@Termina Field/Hollowed Log Bombable Grotto/Beehive"},

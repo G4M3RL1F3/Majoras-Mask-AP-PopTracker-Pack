@@ -105,7 +105,11 @@ end
 
 function has_absurd_soul(soul)
   if Tracker:FindObjectForCode("absurd_souls").Active == false then
-    return true
+    if soul == "soul_bulldozer" then  -- Need to make an exception for bulldozer because it opens up Gorman Ranch
+      return false
+    else
+      return true
+    end
   else
     return has(soul)
   end

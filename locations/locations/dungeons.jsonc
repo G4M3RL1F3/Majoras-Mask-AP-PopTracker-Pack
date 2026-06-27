@@ -2595,7 +2595,7 @@
             "visibility_rules": ["web_sanity"]
           },
           {
-            "name": "Ocean Spiderhouse Main Room Lower Pots",
+            "name": "Main Room Lower Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 5,
             "clear_as_group": false,

@@ -1121,7 +1121,7 @@
         ]
       },
       {
-        "name": "East Gossip Stone Grotto",
+        "name": "Eastern Gossip Stones Grotto",
         "chest_unopened_img": "images/icons/gossip_stone.png",
         "sections": [
           {
@@ -1129,7 +1129,7 @@
             "ref": "Termina Field/North Gossip Stone Grotto/Gossip Stones Heart Piece"
           },
           {
-            "name": "Eastern Gossip Grotto Grass",
+            "name": "Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],

@@ -239,7 +239,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Cucco Shack Hitspots",
@@ -309,7 +312,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Doggy Racetrack Soil",

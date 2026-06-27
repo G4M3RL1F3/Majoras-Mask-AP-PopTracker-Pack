@@ -163,7 +163,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           }
         ],
         "map_locations": [
@@ -210,7 +213,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           }
         ],
         "map_locations": [
@@ -237,7 +243,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Underwater Rocks Below Rock Pool (Bombchu Only)",
@@ -401,7 +410,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Upper Rock Wall Pots",
@@ -409,7 +421,10 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, hookshot"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Rock Wall Rocks",
@@ -460,14 +475,20 @@
           {
             "name": "Pool Pots",
             "chest_unopened_img": "images/icons/pot.png",
-            "visibility_rules": ["pot_sanity"],
-            "access_rules": ["$has_absurd_soul|soul_pots"]
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
             "access_rules": ["$has_absurd_soul|soul_signs"],
-            "visibility_rules": ["sign_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           }
         ],
         "map_locations": [
@@ -535,7 +556,10 @@
               "$has_npc_soul|soul_potgame_hall_zora, $has_absurd_soul|soul_pots, zora",
               "$has_npc_soul|soul_potgame_hall_zora, $has_absurd_soul|soul_pots, goron, keg"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Cut the Sign",
@@ -791,7 +815,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Cut the Sign",
@@ -952,7 +979,10 @@
             "item_count": 11,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_fisherman, $can_reach_seahorse, $bottleCount|1, zora"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           }
         ],
         "map_locations": [

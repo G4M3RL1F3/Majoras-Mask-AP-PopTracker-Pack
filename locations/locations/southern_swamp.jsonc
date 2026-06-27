@@ -151,7 +151,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           }
         ],
         "map_locations": [
@@ -514,7 +517,10 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Post Dungeon Witch Shop Pots",
@@ -522,7 +528,10 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $clear_woodfall"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Witch Shop Gossip Fairy",
@@ -822,7 +831,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, deku, $can_plant_beans"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Right Side Rupees",
@@ -1083,7 +1095,10 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Stump Rupee",
@@ -1124,7 +1139,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $clear_woodfall"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Deku Butler Race Rupees",

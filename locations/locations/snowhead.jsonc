@@ -203,7 +203,10 @@
             "chest_unopened_img": "images/icons/pot.png",
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecorw, scarecrow_mtn_village_winter, hookshot"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Outside Cut the Sign",
@@ -217,7 +220,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Nighttime Indoor Pots",
@@ -225,7 +231,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Spring Boulders Under Smithy",
@@ -392,7 +401,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $clear_snowhead"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Spring Rooftop Pot",
@@ -400,7 +412,10 @@
             "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $clear_snowhead"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Spring Rock Triangle",
@@ -735,7 +750,10 @@
             "access_rules": [
               "$has_absurd_soul|soul_pots, $can_use_powder_keg"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Trees",
@@ -1021,7 +1039,10 @@
             "item_count": 11,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, goron", "$has_absurd_soul|soul_pots, $has_npc_soul|soul_medigoron"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Rocks",

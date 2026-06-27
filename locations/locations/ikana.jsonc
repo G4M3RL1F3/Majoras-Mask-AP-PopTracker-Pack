@@ -123,7 +123,10 @@
             "chest_unopened_img": "images/icons/pot.png",
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $can_play_song|epona, $can_reach_scarecrow|scarecrow_road_to_ikana, hookshot"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Near Scarecrow Gossip Fairy",
@@ -266,7 +269,10 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_stalchildren, captain"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Day 2 Dampe Bats",
@@ -296,7 +302,10 @@
             "chest_unopened_img": "images/icons/pot.png",
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_stalchildren, captain"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Day 2 Invisible Path Entryway Pots",
@@ -304,7 +313,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_stalchildren, captain"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Day 2 Invisible Path Pots",
@@ -312,7 +324,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_stalchildren, captain, lens"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Day 2 Grave Bombable Wall",
@@ -334,7 +349,10 @@
             "item_count": 10,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_stalchildren, captain"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Lower Grass",
@@ -509,7 +527,10 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 5,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_deku_baba, $has_enemy_soul|soul_wolfos, @Clock Town/Stock Pot Inn/Anju and Kafei (Final Night 4:30 AM)"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Notebook Event: Escaped Sakon's Hideout",
@@ -746,7 +767,10 @@
               "$has_absurd_soul|soul_pots, hookshot, goron, zora, can_play_song|elegy",
               "$has_absurd_soul|soul_pots, $can_use_owl|owl_stone_tower"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Lower Scarecrow",
@@ -764,7 +788,10 @@
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, goron, zora, $can_play_song|elegy",
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, $can_use_owl|owl_stone_tower"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Upper Scarecrow",
@@ -782,7 +809,10 @@
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, goron, zora, $can_play_song|elegy",
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, $can_use_owl|owl_stone_tower"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Stone Tower Owl Statue",
@@ -800,7 +830,10 @@
               "$has_absurd_soul|soul_pots, hookshot, goron, zora, elegy",
               "$has_absurd_soul|soul_pots, $can_use_owl|owl_stone_tower"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           }
         ],
         "map_locations": [
@@ -868,7 +901,10 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $can_plant_beans"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           }
         ],
         "map_locations": [

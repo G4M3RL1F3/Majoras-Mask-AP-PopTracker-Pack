@@ -341,7 +341,10 @@
             "item_count": 15,
             "clear_as_group": false,
             "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_pots, @Inside the Moon/Goron Trial/Heart Piece"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           }
         ],
         "map_locations": [
@@ -663,7 +666,10 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           }
         ],
         "map_locations": [
@@ -858,7 +864,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$remainCount|majora, $maskCount|majora, $starFox|majora, $has_npc_soul|soul_moon_kid, $has_boss_soul|soul_majora, $has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "100% Completion Goal",

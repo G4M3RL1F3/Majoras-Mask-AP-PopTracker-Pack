@@ -417,10 +417,37 @@
   },
   {
     "name": "Pot Sanity",
-    "type": "toggle",
-    "img": "images/pack_settings/sanities/pot_sanity_on.png",
-    "disabled_img": "images/pack_settings/sanities/pot_sanity_off.png",
-    "codes": "pot_sanity"
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "pot_sanity",
+    "stages": [
+      {
+        "name": "Disabled",
+        "img": "images/pack_settings/sanities/pot_sanity_disabled.png",
+        "img_mods": "@disabled",
+        "codes": "pot_sanity_disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "All",
+        "img": "images/pack_settings/sanities/pot_sanity_all.png",
+        "codes": "pot_sanity_all",
+        "inherit_codes": false
+      },
+      {
+        "name": "Overworld Only",
+        "img": "images/pack_settings/sanities/pot_sanity_overworld_only.png",
+        "codes": "pot_sanity_overworld_only",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dungeons Only",
+        "img": "images/pack_settings/sanities/pot_sanity_dungeons_only.png",
+        "codes": "pot_sanity_dungeons_only",
+        "inherit_codes": false
+      }
+    ]
   },
   {
     "name": "Flower Sanity",

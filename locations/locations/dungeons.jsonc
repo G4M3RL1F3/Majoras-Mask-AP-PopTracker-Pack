@@ -16,7 +16,10 @@
             "chest_unopened_img": "images/icons/pot.png",
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Entrance Room Grass",
@@ -77,7 +80,10 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Bridge Room Web",
@@ -120,7 +126,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Turtle Chest",
@@ -187,7 +196,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_gekko, bow, $can_smack"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Frog",
@@ -322,7 +334,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Bridge Room Bubble SF",
@@ -428,7 +443,10 @@
               "$has_absurd_soul|soul_pots, bow, smallkey_wf",
               "$has_absurd_soul|soul_pots, bow, hookshot"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Pre-Boss Rupees",
@@ -555,7 +573,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Bridge Room Freezard Chest",
@@ -599,7 +620,10 @@
             "item_count": 7,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Main Room Basement Pots",
@@ -607,7 +631,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Lower Scarecrow",
@@ -621,7 +648,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$can_reach_scarecrow|scarecrow_sht_lower, $has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, hookshot"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Main Room 2nd Floor Bridge Pots",
@@ -632,7 +662,10 @@
               "$has_absurd_soul|soul_pots, $can_use_fire_arrows",
               "$has_absurd_soul|soul_pots, $has|smallkey_sh|2"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Main Room 2nd Floor Snowballs",
@@ -651,7 +684,10 @@
             "item_count": 7,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Frozen Green Door Pots (Upper)",
@@ -659,7 +695,10 @@
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $can_use_fire_arrows"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Frozen Block Chest",
@@ -713,7 +752,10 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has|smallkey_sh|2"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Stacked Block Upper Chest SF",
@@ -738,7 +780,10 @@
               "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|1",
               "$has_absurd_soul|soul_pots, $can_use_fire_arrows, hookshot"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Freezard Torch Room Chest SF",
@@ -914,7 +959,10 @@
               "normal_logic, $has_absurd_soul|soul_pots, $has_explosives, $has|smallkey_sh|2",
               "normal_logic, $has_absurd_soul|soul_pots, $has_explosives, $can_use_fire_arrows"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Lower Wizrobe Chest",
@@ -1008,7 +1056,10 @@
               "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|3",
               "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow|scarecrow_sht_lower"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "4th Floor Outside Wizrobe Icicles",
@@ -1039,7 +1090,10 @@
               "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|3",
               "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow|scarecrow_sht_lower"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Outside Boss Door Deku Flower",
@@ -1098,7 +1152,10 @@
               "$has_absurd_soul|soul_pots, $has_boss_soul|soul_goht, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
               "$has_absurd_soul|soul_pots, $has_boss_soul|soul_goht, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Oath to Order",
@@ -1199,7 +1256,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Red-Green Pipe Room Chest",
@@ -1242,7 +1302,10 @@
             "item_count": 11,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $can_use_ice_arrows"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Bio-Baba Hall Chest SF",
@@ -1272,7 +1335,10 @@
             "item_count": 7,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Before Gekko Room Underwater Rupees",
@@ -1328,7 +1394,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Behind Locked Door Pots",
@@ -1339,7 +1408,10 @@
               "$has_absurd_soul|soul_pots, smallkey_gb",
               "$has_absurd_soul|soul_pots, $small_key_sanity_off"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Behind Locked Door Chest",
@@ -1362,7 +1434,10 @@
               "$has_absurd_soul|soul_pots, smallkey_gb",
               "$has_absurd_soul|soul_pots, $small_key_sanity_off"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Room Behind Waterfall Ceiling Chest SF",
@@ -1380,7 +1455,10 @@
             "access_rules": [
               "$has_absurd_soul|soul_pots, $can_use_ice_arrows, zora"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Behind 1F Waterfall Barrels",
@@ -1420,7 +1498,10 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Frozen Waterwheel Room Barrels",
@@ -1445,7 +1526,10 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Seesaw Room Crates",
@@ -1483,8 +1567,11 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,
-            "visibility_rules": ["pot_sanity"],
-            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"]
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Heart Container",
@@ -1524,7 +1611,10 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           }
         ],
         "map_locations": [
@@ -1601,7 +1691,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_souls|soul_barrels, goron"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Sewers Cage Room Barrels",
@@ -1628,7 +1721,10 @@
               "$has_absurd_soul|soul_pots, hookshot, goron",
               "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_barrels, goron"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Sewers Maze Chest",
@@ -1651,7 +1747,10 @@
               "$has_absurd_soul|soul_pots, hookshot, goron",
               "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_barrels, goron"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Sewers Exit Barrels",
@@ -1710,7 +1809,10 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, hookshot, $can_smack_hard"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Interior Guarded Chest",
@@ -1725,7 +1827,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $pirates_fortress_interior, hookshot"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Interior Room Past Pink Guard Barrel",
@@ -1740,7 +1845,10 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_coloured_pirates, hookshot, $can_smack_hard"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Outdoor Pirate Flag Eye Hitspots",
@@ -1770,7 +1878,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, hookshot, $can_smack_hard"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Leader's Room Barrels",
@@ -1839,7 +1950,10 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Totem Eye Hitspots",
@@ -1935,7 +2049,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Monument Room Left Crate Token",
@@ -2008,7 +2125,10 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Invisible Rupees Above Giant Jars",
@@ -2112,7 +2232,10 @@
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Gold Room Crates",
@@ -2284,7 +2407,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_explosives"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Lobby Ceiling Token",
@@ -2474,7 +2600,10 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, hookshot, $has_explosives"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Basement Covering Door Web",
@@ -2528,7 +2657,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, hookshot, $has_explosives"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Dining Room Ceiling Web",
@@ -2610,7 +2742,10 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, hookshot, $has_explosives"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Coloured Mask Sequence HP",
@@ -2648,7 +2783,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/icons/pot.png",
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Secret Shrine Entrance Soil",
@@ -2772,7 +2910,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/icons/pot.png",
             "access_rules": ["$has_absurd_soul|soul_pots, $can_use_light_arrows"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           }
         ],
         "map_locations": [
@@ -2927,7 +3068,10 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, maskofscents"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Left Side Before Fairy Fountain Web",
@@ -2994,7 +3138,10 @@
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Right Side Before Chest Room Web",
@@ -3015,7 +3162,10 @@
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, bombs, $bottleCount|1, $can_plant_beans",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, bombs, $can_use_light_arrows"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Final Chest",
@@ -3058,7 +3208,10 @@
             "chest_unopened_img": "images/icons/pot.png",
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Frozen Eyes Room Pots",
@@ -3069,7 +3222,10 @@
               "$has_absurd_soul|soul_pots, $can_use_light_arrows",
               "$has_absurd_soul|soul_pots, mirrorshield"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Left Side Falling Ceiling Room Pots",
@@ -3077,7 +3233,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $can_use_fire_arrows"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Left Side Falling Ceiling Deku Flowers",
@@ -3093,7 +3252,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, $can_use_fire_arrows, deku"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Left Side Broken Floor Deku Flowers",
@@ -3109,7 +3271,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, $can_use_fire_arrows, deku"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Right Side Staircase Pots",
@@ -3117,7 +3282,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_wizrobe, $can_use_fire_arrows, deku"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Throne Room Pots",
@@ -3128,7 +3296,10 @@
               "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, $can_use_light_arrows",
               "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, mirrorshield, deku, lens, $can_use_fire_arrows, goron, keg"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Exterior Deku Flowers",
@@ -3205,7 +3376,10 @@
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 2,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Elegy Maze Bombable Wall",
@@ -3263,7 +3437,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Lower Basement Armos Pots (Back)",
@@ -3274,7 +3451,10 @@
               "$has_absurd_soul|soul_pots, $can_use_light_arrows, goron",
               "$has_absurd_soul|soul_pots, mirrorshield, goron"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Eyegore Room Switch Chest",
@@ -3339,7 +3519,10 @@
               "$has_absurd_soul|soul_pots, $can_use_light_arrows",
               "$has_absurd_soul|soul_pots, $has|smallkey_st|1"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Right Side Underwater Pots",
@@ -3350,7 +3533,10 @@
               "$has_absurd_soul|soul_pots,  $can_use_light_arrows, zora",
               "$has_absurd_soul|soul_pots, $has|smallkey_st|1, zora"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Mirror Room Sun Block Chest",
@@ -3381,7 +3567,10 @@
               "$has_absurd_soul|soul_pots,  $can_use_light_arrows, $has|smallkey_st|1",
               "$has_absurd_soul|soul_pots, goron, zora, mirrorshield, $has|smallkey_st|2"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Mirror Room Crates",
@@ -3434,7 +3623,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, soul_deku_flowers, deku, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Garo Master Chest",
@@ -3454,7 +3646,10 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, @Dungeons/Stone Tower Temple/Garo Master Chest"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Bridge Room Rupees",
@@ -3545,7 +3740,10 @@
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, deku, @Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Fire Chest"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Wizrobe Chest",
@@ -3564,7 +3762,10 @@
               "easy_logic, deku, $can_use_light_arrows",
               "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_absurd_soul|soul_pots, deku, hookshot, $can_use_light_arrows, @Dungeons/Inverted Stone Tower Temple/Gomess Chest"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Death Armos Maze Chest",
@@ -3584,7 +3785,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Lower Bridge Room Pots",
@@ -3592,7 +3796,10 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Lower Bridge Room Deku Flowers",
@@ -3623,7 +3830,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$can_use_light_arrows, $has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, deku, hookshot, $has|smallkey_st|3"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Eyegore Chest",
@@ -3639,7 +3849,10 @@
             "item_count": 12,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, @Dungeons/Stone Tower Temple/Eyegore Chest"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Pre Boss Rupees",

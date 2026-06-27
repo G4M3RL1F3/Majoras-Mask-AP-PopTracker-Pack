@@ -763,7 +763,10 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/Astral Observatory/Moon's Tear"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Bombable Wall",
@@ -1127,7 +1130,10 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, sword"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Gong (Strike At Top Or Bottom Of Hour)",
@@ -1402,7 +1408,10 @@
               "$has_absurd_soul|soul_pots, $can_warp_out",
               "$has_absurd_soul|soul_pots, $can_play_song|time"
             ],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           }
         ],
         "map_locations": [
@@ -1590,7 +1599,10 @@
             "name": "Pot",
             "chest_unopened_img": "images/icons/pot.png",
             "access_rules": ["$has_absurd_soul|soul_pots"],
-            "visibility_rules": ["pot_sanity"]
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           },
           {
             "name": "Scarecrow",

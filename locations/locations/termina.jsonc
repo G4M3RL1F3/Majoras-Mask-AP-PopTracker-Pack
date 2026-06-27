@@ -99,7 +99,7 @@
         "name": "Pillar Grotto",
         "sections": [
           {
-            "name": "Grotto Chest",
+            "name": "Chest",
             "access_rules": ["$has_absurd_soul|soul_grottos"]
           },
           {

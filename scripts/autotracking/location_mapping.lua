@@ -2690,7 +2690,7 @@ LOCATION_MAPPING = {
     [0x215A04] = {"@Snowhead/Mountain Village/Village Spring Snowballs"},
 
     -- Crates/Barrels
-    [0x257000] = {"@Clock Town/Laundry Pool/Laundry Pool Crate"},
+    [0x257000] = {"@Clock Town/Laundry Pool/Crate"},
     [0x256C00] = {"@Clock Town/East Clock Town Center/Juggler's Crates"},
     [0x256C01] = {"@Clock Town/East Clock Town Center/Juggler's Crates"},
     [0x270790] = {"@Termina Field/Business Scrub Grotto/Crate"},

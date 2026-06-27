@@ -40,7 +40,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, goron"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           }
         ],
         "map_locations": [
@@ -182,12 +186,16 @@
             ]
           },
           {
-            "name": "Grass",
+            "name": "Grotto Grass",
             "item_count": 14,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Rock Circle",
@@ -203,7 +211,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Captain Keeta Chest",
@@ -331,7 +342,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Lantern Hitspots",
@@ -401,7 +415,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Outside Shrine Cut the Sign",
@@ -527,7 +545,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $can_use_ice_arrows"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           }
         ],
         "map_locations": [

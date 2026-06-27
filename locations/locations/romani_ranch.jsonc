@@ -40,7 +40,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Gossip Fairy",
@@ -76,7 +79,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           }
         ],
         "map_locations": [
@@ -146,7 +152,10 @@
               "$has_absurd_soul|soul_grass, $can_play_song|time, @Romani Ranch/Romani Ranch Outside/Helping Cremia",
               "$has_absurd_soul|soul_grass, $has_absurd_soul|soul_bulldozer"
             ],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Grass Group 2",
@@ -157,7 +166,10 @@
               "$has_absurd_soul|soul_grass, $can_play_song|time, @Romani Ranch/Romani Ranch Outside/Helping Cremia",
               "$has_absurd_soul|soul_grass, $has_absurd_soul|soul_bulldozer"
             ],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Tree Group 1",
@@ -484,7 +496,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Tree Gossip Fairy",
@@ -503,7 +518,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Romani Ranch Grass Near Entrance",
@@ -511,7 +529,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Romani Ranch Grass Between Entrance and Barn",
@@ -519,7 +540,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Romani Ranch Grass Behind Barn",
@@ -527,7 +551,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Invisible Fence Rupees",

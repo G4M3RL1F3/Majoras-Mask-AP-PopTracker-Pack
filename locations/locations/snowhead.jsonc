@@ -339,7 +339,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $clear_snowhead"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Spring Ramp Gossip Fairy",
@@ -366,7 +370,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Spring Grass",
@@ -374,7 +381,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Spring Pots",
@@ -495,7 +505,11 @@
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives, goron",
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives, $has_npc_soul|soul_scarecrow, scarecrow_twin_islands_winter, hookshot"
             ],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Ramp Scarecrow",
@@ -660,7 +674,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Spring Underwater Rupees",
@@ -767,7 +784,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Grass Group 2",
@@ -775,7 +796,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Boulders",
@@ -1104,7 +1129,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $has_absurd_soul|soul_grottos, goron, magic, $has_explosives"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Scarecrow Pillar Heart Piece",

@@ -22,7 +22,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Grass Group 2",
@@ -30,7 +33,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Entrance Cut the Sign",
@@ -60,7 +66,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           }
         ],
         "map_locations": [
@@ -130,7 +140,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Outside Archery Pots",
@@ -191,7 +204,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Post Dungeon Grass",
@@ -199,7 +215,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           }
         ],
         "map_locations": [
@@ -303,7 +322,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Post Dungeon Grass Near Tourist Centre",
@@ -311,7 +333,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Tourist Centre Cut the Sign",
@@ -423,7 +448,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Grass Group 2",
@@ -431,7 +459,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Near Gossip Stone Grass",
@@ -439,7 +470,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Post Dungeon Grass Near Witch Shop Group 1",
@@ -447,7 +481,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Post Dungeon Grass Near Witch Shop Group 2",
@@ -455,7 +492,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Post Dungeon Near Gossip Stone Grass",
@@ -463,7 +503,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Witch Shop Pots",
@@ -536,7 +579,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Any Day Deku Flowers",
@@ -551,7 +597,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Days 1&3 Deku Flowers",
@@ -575,7 +624,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Day 1 End Cut the Sign",
@@ -628,7 +680,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           }
         ],
         "map_locations": [
@@ -840,7 +896,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Soil Patch",
@@ -946,7 +1006,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, deku"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           }
         ],
         "map_locations": [
@@ -1003,7 +1067,7 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": ["grass_sanity_normal"]
           },
           {
             "name": "Deku Flowers",

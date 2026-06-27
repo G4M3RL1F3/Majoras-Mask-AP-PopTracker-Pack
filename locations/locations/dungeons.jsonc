@@ -24,7 +24,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Entrance Room Deku Flowers",
@@ -54,7 +58,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Main Room Deku Flower",
@@ -92,7 +100,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Elevator Room Deku Flowers",
@@ -120,7 +132,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Turtle Room Deku Flowers",
@@ -197,7 +213,11 @@
               "$has_absurd_soul|soul_grass, smallkey_wf",
               "$has_absurd_soul|soul_grass, hookshot"
             ],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Dragonfly Room Deku Flowers",
@@ -219,7 +239,11 @@
               "$has_absurd_soul|soul_grass, smallkey_wf",
               "$has_absurd_soul|soul_grass, $small_key_sanity_off"
             ],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "2nd Floor Moving Deku Flowers",
@@ -378,7 +402,11 @@
               "$has_absurd_soul|soul_grass, bow, smallkey_wf",
               "$has_absurd_soul|soul_grass, bow, hookshot"
             ],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Pre-Boss Deku Flowers",
@@ -465,7 +493,11 @@
               "$has_absurd_soul|soul_grass, $boss_key_sanity_off",
               "$has_absurd_soul|soul_grass, odolwa, boss_warps_with_remains"
             ],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Odolwa's Lair Deku Flower",
@@ -732,7 +764,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Hidden Alcove Scarecrow",
@@ -2636,7 +2672,12 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Dinolfos Chest",
@@ -2651,7 +2692,12 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Wizrobe Chest",
@@ -2666,7 +2712,12 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Wart Chest",
@@ -2681,7 +2732,12 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Garo Master Chest",
@@ -2696,7 +2752,12 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Completion Chest",
@@ -2768,7 +2829,11 @@
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, $can_play_song|soaring, $can_use_lens, goron",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
             ],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Right Side Cow Bushes",
@@ -2816,7 +2881,11 @@
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $can_plant_beans",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $can_use_light_arrows"
             ],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Invisible Chest",
@@ -2846,7 +2915,11 @@
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, adultswallet",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, maskofscents"
             ],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Left Side Back Room Pots",
@@ -2906,7 +2979,11 @@
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, bombs",
               "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, captainhat, bow"
             ],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Right Side Before Chest Room Pots",
@@ -2971,7 +3048,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Exterior Corner Pot",
@@ -3106,7 +3186,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Entrance Room Lower Chest",
@@ -3143,7 +3227,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Armos Room Back Chest",

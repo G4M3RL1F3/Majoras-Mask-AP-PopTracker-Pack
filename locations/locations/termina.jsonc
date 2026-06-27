@@ -57,7 +57,10 @@
             "name": "Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
             "item_count": 14,
             "clear_as_group": false
           }
@@ -103,7 +106,10 @@
             "name": "Grass",
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
             "item_count": 14,
             "clear_as_group": false
           }
@@ -217,7 +223,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -239,7 +245,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -261,7 +267,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -283,7 +289,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -305,7 +311,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -327,7 +333,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -349,7 +355,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -371,7 +377,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -393,7 +399,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -415,7 +421,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -437,7 +443,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -459,7 +465,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -481,7 +487,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -503,7 +509,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -525,7 +531,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -547,7 +553,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           },
@@ -577,7 +583,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           },
@@ -627,7 +633,7 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": ["grass_sanity_normal"],
             "item_count": 12,
             "clear_as_group": true
           }
@@ -656,7 +662,10 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
             "item_count": 12,
             "clear_as_group": false
           },
@@ -914,7 +923,10 @@
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives",
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, goron"
             ],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
             "item_count": 2,
             "clear_as_group": false
           },
@@ -1112,7 +1124,10 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
             "item_count": 5,
             "clear_as_group": false
           },
@@ -1156,7 +1171,10 @@
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives",
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, goron"
             ],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
             "item_count": 5,
             "clear_as_group": false
           },
@@ -1325,7 +1343,10 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
             "item_count": 12,
             "clear_as_group": false
           },
@@ -1334,7 +1355,10 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
             "item_count": 12,
             "clear_as_group": false
           },
@@ -1343,7 +1367,10 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
             "item_count": 12,
             "clear_as_group": false
           },
@@ -1352,7 +1379,10 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
             "item_count": 12,
             "clear_as_group": false
           },
@@ -1361,7 +1391,10 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
             "item_count": 12,
             "clear_as_group": false
           },
@@ -1370,7 +1403,10 @@
             "chest_unopened_img": "images/absurd/grass.png",
             "chest_opened_img": "images/icons/check_32.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
             "item_count": 12,
             "clear_as_group": false
           },

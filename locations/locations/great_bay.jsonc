@@ -78,7 +78,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Exterior Grass",
@@ -86,7 +90,10 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grass"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
           },
           {
             "name": "Butterfly Fairies",
@@ -313,7 +320,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Cow Grotto Grass Group 2",
@@ -321,7 +332,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Cow Grotto Grass Group 3",
@@ -329,7 +344,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Cow Grotto Grass Group 4",
@@ -337,7 +356,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Cow Grotto Grass Group 5",
@@ -345,7 +368,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Cow Grotto Grass Group 6",
@@ -353,7 +380,11 @@
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, hookshot"],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Cow Grotto Beehive",
@@ -675,7 +706,11 @@
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, goron",
               "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives"
             ],
-            "visibility_rules": ["grass_sanity"]
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           },
           {
             "name": "Boulder",

@@ -803,6 +803,7 @@
       },
       {
         "name": "Outside Zora Hall",
+        "access_rules": ["zora"],
         "sections": [
           {
             "name": "Owl Statue",

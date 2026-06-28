@@ -1232,7 +1232,7 @@
         "name": "Snowhead Owl Statue",
         "access_rules": [
           "easy_logic, $baby_mountain_village",
-          "normal_logic, $mountain_village"
+          "normal_logic, $snowhead"
         ],
         "sections": [
           {

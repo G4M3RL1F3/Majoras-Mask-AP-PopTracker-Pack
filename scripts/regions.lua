@@ -75,7 +75,7 @@ function baby_snowhead()
     return baby_mountain_village() and has("goron") and can_play_song("goronlullaby") and has("magic") and has("bosskey_sh") and has("smallkey_sh", 3)
 end
 function snowhead()
-    return (mountain_village() and has("goron") and can_play_song("goronlullaby") and has("magic")) or (can_use_owl("owl_snowhead"))
+    return (mountain_village() and has("goron") and can_play_song("goronlullaby") and has("magic")) or (can_use_owl("owl_snowhead") and can_warp_out())
 end
 
 -- Snowhead -> Snowhead Temple
@@ -125,6 +125,11 @@ end
 -- Pirates' Fortress -> Pirates' Fortress (Interior)
 function pirates_fortress_interior()
     return (pirates_fortress() and has("hookshot")) or (pirates_fortress_sewers() and has("zora"))
+end
+
+-- Zora Cape -> Zora Hall
+function zora_hall()
+    return great_bay() and (has("zora") or (has("owl_sanity") and can_warp_out()))
 end
 
 -- Zora Cape -> Great Bay Temple

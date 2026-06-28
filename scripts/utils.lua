@@ -87,6 +87,10 @@ function can_use_owl(owl)
   return can_play_song("soaring") and has(owl)
 end
 
+function can_warp_out()
+  return can_play_song("soaring") and (has("owl_ct") or has("owl_milk_road") or has("owl_swamp") or has("owl_ikana_canyon") or has("owl_stone_tower"))
+end
+
 function can_reach_scarecrow(scarecrow)
   if Tracker:FindObjectForCode("scarecrow_sanity").Active == false then
     return true

@@ -803,19 +803,20 @@
       },
       {
         "name": "Outside Zora Hall",
-        "access_rules": ["zora"],
+        "access_rules": ["$great_bay"],
         "sections": [
           {
             "name": "Owl Statue",
-            "visibility_rules": ["owl_sanity"],
-            "chest_unopened_img": "images/owl_statues/owl_zora_cape_on.png"
+            "chest_unopened_img": "images/owl_statues/owl_zora_cape_on.png",
+            "access_rules": ["$zora_hall"],
+            "visibility_rules": ["owl_sanity"]
           },
           {
             "name": "Owl Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
-            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "access_rules": ["$zora_hall, $has_absurd_soul|soul_pots"],
             "visibility_rules": [
               "pot_sanity_all",
               "pot_sanity_overworld_only"
@@ -847,7 +848,7 @@
       },
       {
         "name": "Zora Hall",
-        "access_rules": ["zora"],
+        "access_rules": ["$zora_hall"],
         "sections": [
           {
             "name": "Shop 1",

@@ -615,9 +615,20 @@
             "clear_as_group": false
           },
           {
-            "name": "Blue Door Lava Bridge Pots",
+            "name": "Blue Door Lava Bridge Pots (Upper)",
             "chest_unopened_img": "images/icons/pot.png",
-            "item_count": 7,
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Blue Door Lava Bridge Pots (Lower)",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots"],
             "visibility_rules": [
@@ -668,10 +679,21 @@
             ]
           },
           {
-            "name": "Main Room 2nd Floor Snowballs",
+            "name": "Main Room 2nd Floor East Snowballs",
             "chest_unopened_img": "images/icons/snowball.png",
             "visibility_rules": ["snow_sanity"],
-            "item_count": 6,
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              //"$has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_sht_lower, $can_use_fire_arrows",
+              "$can_use_fire_arrows, $has|smallkey_sh|2"
+            ]
+          },
+          {
+            "name": "Main Room 2nd Floor West Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
               //"$has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_sht_lower, $can_use_fire_arrows",

@@ -94,14 +94,31 @@
         "sections": [
           {
             "name": "Pots",
-            "ref": "Dungeons/Snowhead Temple/Blue Door Lava Bridge Pots"
+            "ref": "Dungeons/Snowhead Temple/Blue Door Lava Bridge Pots (Upper)"
           }
         ],
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 548,
-            "y": 480,
+            "x": 530,
+            "y": 275,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Bridge Room Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Blue Door Lava Bridge Pots (Lower)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 575,
+            "y": 1230,
             "shape": "diamond"
           }
         ]
@@ -138,8 +155,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 571,
-            "y": 368
+            "x": 600,
+            "y": 1100
           }
         ]
       },
@@ -332,6 +349,29 @@
         ]
       },
       {
+        "name": "Frozen Green Door Deku Flowers",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Frozen Green Door Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 175,
+            "y": 900,
+            "shape": "diamond"
+          },
+          {
+            "map": "snowhead_temple",
+            "x": 205,
+            "y": 850,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Frozen Green Door Pots (Lower)",
         "sections": [
           {
@@ -342,14 +382,14 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 120,
-            "y": 155,
+            "x": 160,
+            "y": 875,
             "shape": "diamond"
           },
           {
             "map": "snowhead_temple",
-            "x": 295,
-            "y": 125,
+            "x": 320,
+            "y": 850,
             "shape": "diamond"
           }
         ]
@@ -648,23 +688,34 @@
         ]
       },
       {
-        "name": "Main Room 2nd Floor Snowballs",
+        "name": "Main Room 2nd Floor West Snowballs",
         "sections": [
           {
             "name": "Snowballs",
-            "ref": "Dungeons/Snowhead Temple/Main Room 2nd Floor Snowballs"
+            "ref": "Dungeons/Snowhead Temple/Main Room 2nd Floor West Snowballs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 925,
+            "y": 245,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Main Room 2nd Floor East Snowballs",
+        "sections": [
+          {
+            "name": "Snowballs",
+            "ref": "Dungeons/Snowhead Temple/Main Room 2nd Floor East Snowballs"
           }
         ],
         "map_locations": [
           {
             "map": "snowhead_temple",
             "x": 1164,
-            "y": 245,
-            "shape": "diamond"
-          },
-          {
-            "map": "snowhead_temple",
-            "x": 925,
             "y": 245,
             "shape": "diamond"
           }

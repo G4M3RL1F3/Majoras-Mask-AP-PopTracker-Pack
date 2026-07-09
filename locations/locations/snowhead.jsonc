@@ -902,7 +902,7 @@
             "access_rules": ["$has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, @Snowhead/Goron Village/Deed Trade (as Deku)"]
           },
           {
-           "name": "Spring Freestanding Heart Piece",
+           "name": "Freestanding Heart Piece (Spring)",
            "chest_unopened_img": "images/equipment/heart_piece.png",
            "visibility_rules": ["shopsanity_advanced"],
            "access_rules": [

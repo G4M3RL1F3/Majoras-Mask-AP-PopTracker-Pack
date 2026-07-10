@@ -427,7 +427,7 @@
             ]
           },
           {
-            "name": "Rock Wall Rocks",
+            "name": "Rocks",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
             "item_count": 3,
@@ -901,13 +901,6 @@
             "access_rules": ["$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_business_scrub, deku, goron, zora, mountaindeed"]
           },
           {
-            "name": "Business Scrub Deku Flower",
-            "clear_as_group": false,
-            "chest_unopened_img": "images/absurd/deku_flower.png",
-            "access_rules": ["$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_business_scrub, deku, goron, zora, mountaindeed"],
-            "visibility_rules": ["flower_sanity"]
-          },
-          {
             "name": "Evan's Song",
             "chest_unopened_img": "images/characters/zora_piano.png",
             "access_rules": [
@@ -976,7 +969,7 @@
             ]
           },
           {
-            "name": "Pinnacle Rock Pots",
+            "name": "Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 11,
             "clear_as_group": false,

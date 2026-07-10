@@ -235,7 +235,7 @@
           },
           {
             "name": "Goron Trial Pots",
-            "ref": "Inside the Moon/Goron Trial Pots/Goron Trial Pots"
+            "ref": "Inside the Moon/Goron Trial Pots/Pots"
           },
           {
             "name": "Exit Icicles",
@@ -336,7 +336,7 @@
         "name": "Goron Trial Pots",
         "sections": [
           {
-            "name": "Goron Trial Pots",
+            "name": "Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 15,
             "clear_as_group": false,
@@ -618,7 +618,7 @@
         "sections": [
           {
             "name": "Pots",
-            "ref": "Inside the Moon/Link Trial Entrance/Link Trial Pots"
+            "ref": "Inside the Moon/Link Trial Entrance/Pots"
           },
           {
             "name": "Dinolfos-Garo Master Gossip Fairy",
@@ -661,7 +661,7 @@
         "name": "Link Trial Entrance",
         "sections": [
           {
-            "name": "Link Trial Pots",
+            "name": "Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 8,
             "clear_as_group": false,

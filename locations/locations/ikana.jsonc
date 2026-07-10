@@ -119,7 +119,7 @@
             "visibility_rules": ["scarecrow_sanity"]
           },
           {
-            "name": "Road To Ikana Scarecrow Pillar Pot",
+            "name": "Scarecrow Pillar Pot",
             "chest_unopened_img": "images/icons/pot.png",
             "clear_as_group": false,
             "access_rules": ["$has_absurd_soul|soul_pots, $can_play_song|epona, $can_reach_scarecrow|scarecrow_road_to_ikana, hookshot"],
@@ -761,7 +761,7 @@
         ],
         "sections": [
           {
-            "name": "Stone Tower Climb Pots",
+            "name": "Climb Pots",
             "item_count": 2,
             "access_rules": [
               "$has_absurd_soul|soul_pots, hookshot, goron, zora, can_play_song|elegy",
@@ -782,7 +782,7 @@
             "visibility_rules": ["scarecrow_sanity"]
           },
           {
-            "name": "Stone Tower Lower Scarecrow Pots",
+            "name": "Lower Scarecrow Pots",
             "item_count": 12,
             "access_rules": [
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_lower, hookshot, goron, zora, $can_play_song|elegy",
@@ -803,7 +803,7 @@
             "visibility_rules": ["scarecrow_sanity"]
           },
           {
-            "name": "Stone Tower Upper Scarecrow Pots",
+            "name": "Upper Scarecrow Pots",
             "item_count": 9,
             "access_rules": [
               "$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_stone_tower_upper, hookshot, goron, zora, $can_play_song|elegy",
@@ -815,7 +815,7 @@
             ]
           },
           {
-            "name": "Stone Tower Owl Statue",
+            "name": "Owl Statue",
             "visibility_rules": ["owl_sanity"],
             "chest_unopened_img": "images/owl_statues/owl_stone_tower_on.png",
             "access_rules": [
@@ -824,7 +824,7 @@
             ]
           },
           {
-            "name": "Stone Tower Owl Pots",
+            "name": "Owl Pots",
             "item_count": 4,
             "access_rules": [
               "$has_absurd_soul|soul_pots, hookshot, goron, zora, elegy",
@@ -853,7 +853,7 @@
         ],
         "sections": [
           {
-            "name": "Inverted Tower Rocks",
+            "name": "Rocks",
             "chest_unopened_img": "images/absurd/rock.png",
             "visibility_rules": ["rock_sanity"],
             "item_count": 2,
@@ -861,14 +861,14 @@
             "access_rules": ["$has_absurd_soul|soul_rocks"]
           },
           {
-            "name": "Inverted Lower Soil",
+            "name": "Lower Soil",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
             "clear_as_group": false,
             "access_rules": ["$bottleCount|1"]
           },
           {
-            "name": "Inverted Upper Soil",
+            "name": "Upper Soil",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
             "clear_as_group": false,

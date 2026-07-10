@@ -944,9 +944,10 @@
             ]
           },
           {
-            "name": "Left Beehive",
+            "name": "Left Beehives",
             "chest_unopened_img": "images/icons/beehive.png",
             "visibility_rules": ["hive_sanity"],
+            "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
               "$has_absurd_soul|soul_grottos, $has_explosives, zora",
@@ -1155,7 +1156,7 @@
         ]
       },
       {
-        "name": "Termina Bombable Rock Grotto",
+        "name": "Bombable Rock Grotto",
         "chest_unopened_img": "images/icons/gossip_stone.png",
         "chest_opened_img": "images/icons/check_32.png",
         "sections": [

@@ -307,7 +307,7 @@
             ]
           },
           {
-            "name": "Doggy Racetrack Pots",
+            "name": "Pots",
             "chest_unopened_img": "images/icons/pot.png",
             "item_count": 4,
             "clear_as_group": false,
@@ -318,14 +318,14 @@
             ]
           },
           {
-            "name": "Doggy Racetrack Soil",
+            "name": "Soil",
             "chest_unopened_img": "images/icons/soil.png",
             "visibility_rules": ["soil_sanity"],
             "clear_as_group": false,
             "access_rules": ["$bottleCount|1"]
           },
           {
-            "name": "Doggy Racetrack Gossip Fairy",
+            "name": "Gossip Fairy",
             "chest_unopened_img": "images/icons/gossipfairy.png",
             "visibility_rules": ["real_fairysanity"],
             "clear_as_group": false,
@@ -336,7 +336,7 @@
             ]
           },
           {
-            "name": "Doggy Racetrack Cut the Sign",
+            "name": "Cut the Sign",
             "chest_unopened_img": "images/absurd/sign.png",
             "access_rules": ["$has_absurd_soul|soul_signs"],
             "visibility_rules": ["sign_sanity"]
@@ -497,7 +497,7 @@
             ]
           },
           {
-            "name": "Romani Ranch Grass In Front of Gossip Tree",
+            "name": "Grass In Front of Gossip Tree",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -519,7 +519,7 @@
             ]
           },
           {
-            "name": "Romani Ranch Grass Behind Gossip Tree",
+            "name": "Grass Behind Gossip Tree",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -530,7 +530,7 @@
             ]
           },
           {
-            "name": "Romani Ranch Grass Near Entrance",
+            "name": "Grass Near Entrance",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -541,7 +541,7 @@
             ]
           },
           {
-            "name": "Romani Ranch Grass Between Entrance and Barn",
+            "name": "Grass Between Entrance and Barn",
             "item_count": 12,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",
@@ -552,7 +552,7 @@
             ]
           },
           {
-            "name": "Romani Ranch Grass Behind Barn",
+            "name": "Grass Behind Barn",
             "item_count": 9,
             "clear_as_group": false,
             "chest_unopened_img": "images/absurd/grass.png",

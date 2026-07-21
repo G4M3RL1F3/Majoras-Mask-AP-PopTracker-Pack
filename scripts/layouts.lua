@@ -8,9 +8,14 @@ Tracker:AddLayouts("layouts/horizontal_trades.jsonc")
 --Tracker:AddLayouts("layouts/logic_tricks_tab.jsonc")
 Tracker:AddLayouts("layouts/settings_popup.jsonc")
 Tracker:AddLayouts("layouts/settings.jsonc")
-Tracker:AddLayouts("layouts/tracker.jsonc")
-Tracker:AddLayouts("layouts/vertical_collectibles.jsonc")
-Tracker:AddLayouts("layouts/vertical_dungeons.jsonc")
-Tracker:AddLayouts("layouts/vertical_equipment.jsonc")
-Tracker:AddLayouts("layouts/vertical_items.jsonc")
-Tracker:AddLayouts("layouts/vertical_masks.jsonc")
+
+if IS_ITEMS_ONLY then
+    Tracker:AddLayouts("layouts/items_only.jsonc")
+else
+    Tracker:AddLayouts("layouts/tracker.jsonc")
+    Tracker:AddLayouts("layouts/vertical_collectibles.jsonc")
+    Tracker:AddLayouts("layouts/vertical_dungeons.jsonc")
+    Tracker:AddLayouts("layouts/vertical_equipment.jsonc")
+    Tracker:AddLayouts("layouts/vertical_items.jsonc")
+    Tracker:AddLayouts("layouts/vertical_masks.jsonc")
+end

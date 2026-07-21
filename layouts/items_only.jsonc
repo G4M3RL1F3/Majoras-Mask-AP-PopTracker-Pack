@@ -1,0 +1,51 @@
+{
+    "tracker_horizontal": {
+        "type": "array",
+        "background": "#00000000",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "layout",
+                                "key": "horizontal_item_grid"
+                            },
+                            {
+                                "type": "layout",
+                                "key": "horizontal_masks_grid"
+                            },
+                            {
+                                "type": "layout",
+                                "key": "horizontal_equipment_grid"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "22,0",
+                        "content": [
+                            {
+                                "type": "layout",
+                                "key": "horizontal_trades_grid"
+                            },
+                            {
+                                "type": "layout",
+                                "key": "horizontal_dungeon_grid"
+                            },
+                            {
+                                "type": "layout",
+                                "key": "horizontal_collectibles_grid"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

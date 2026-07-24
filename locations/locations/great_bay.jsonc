@@ -321,7 +321,7 @@
             "visibility_rules": ["real_fairysanity"],
             "item_count": 3,
             "clear_as_group": false,
-            "access_rules": ["$has_misc_soul|soul_butterfly"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterfly, hookshot"]
           },
           {
             "name": "Cow Grotto Grass Group 1",

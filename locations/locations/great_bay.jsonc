@@ -905,7 +905,7 @@
             "chest_unopened_img": "images/characters/zora_piano.png",
             "access_rules": [
               "easy_logic, zora, hookshot",
-              "normal_logic, zora"
+              "normal_logic, zora, $has_npc_soul|soul_potgame_hall_zora"
             ]
           },
           {

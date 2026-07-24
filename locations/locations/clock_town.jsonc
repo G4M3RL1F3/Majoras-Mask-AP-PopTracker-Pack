@@ -404,8 +404,9 @@
           {
             "name": "East Clock Town Honey and Darling All Days",
             "access_rules": [
-              "easy_logic, bow, bombs, $baby_has_bombchus",
-              "normal_logic, bow, bombs, bombchu_bag"
+              "easy_logic, bow, bombs",
+              "normal_logic, bow, bombs",
+              "normal_logic, deku, magic, bombs"
             ]
           }
         ],

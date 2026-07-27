@@ -878,6 +878,12 @@
     "img": "images/characters/lulu.png",
     "codes": "soul_lulu"
   },
+  // {
+  //   "name": "Soul of Evan",
+  //   "type": "toggle",
+  //   "img": "images/characters/evan.png",
+  //   "codes": "soul_evan"
+  // },
   {
     "name": "Soul of Shiro",
     "type": "toggle",

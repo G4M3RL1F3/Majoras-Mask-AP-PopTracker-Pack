@@ -491,7 +491,7 @@
         "sections": [
           {
             "name": "Keaton Quiz",
-            "access_rules": ["$has_misc_soul|soul_keaton, keaton"],
+            "access_rules": ["$has_misc_soul|soul_keaton, $has_absurd_soul|soul_grass, keaton"],
             "chest_unopened_img": "images/masks/keaton.png"
           },
           {

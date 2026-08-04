@@ -12,72 +12,286 @@
         ],
         "sections": [
           {
-            "name": "Woodfall Temple Entrance Chest SF",
+            "name": "Entrance Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Entrance Room Grass",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Entrance Room Deku Flowers",
+            "item_count": 4,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Entrance Room Beehive",
+            "chest_unopened_img": "images/icons/beehive.png",
+            "visibility_rules": ["hive_sanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_projectiles"
+            ]
+          },
+          {
+            "name": "Entrance Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": [""]
           },
           {
-            "name": "Woodfall Temple Switch Chest SF",
+            "name": "Main Room Grass",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Main Room Deku Flower",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Main Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Bridge Room Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["web_sanity"]
+          },
+          {
+            "name": "Switch Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": ["bow"]
           },
           {
-            "name": "Woodfall Temple Ledge Chest",
+            "name": "Ledge Chest",
             "access_rules": [""]
           },
           {
-            "name": "Woodfall Temple Turtle Chest",
-            "access_rules": [""]
+            "name": "Elevator Room Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
           },
           {
-            "name": "Woodfall Temple Dinolfos Chest",
+            "name": "Elevator Room Deku Flowers",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Deku Elevator Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Turtle Chest",
+            "access_rules": ["$has_enemy_soul|soul_snappers"]
+          },
+          {
+            "name": "Turtle Room Grass",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Turtle Room Deku Flowers",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Dinolfos Chest",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard",
-              "normal_logic, smallkey_wf, $can_smack",
-              "normal_logic, small_key_sanity_off, $can_smack",
-              "normal_logic, bow"
+              "normal_logic, $has_enemy_soul|soul_dinolfos, smallkey_wf, $can_smack",
+              "normal_logic, $has_enemy_soul|soul_dinolfos, $small_key_sanity_off, $can_smack",
+              "normal_logic, $has_enemy_soul|soul_dinolfos, bow"
             ]
           },
           {
-            "name": "Woodfall Temple Gekko Chest",
+            "name": "Dinolfos Room Deku Flowers",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_deku_flowers, deku, smallkey_wf",
+              "$has_absurd_soul|soul_deku_flowers, deku, hookshot"
+            ],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Gekko Chest",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, $baby_has_explosives, deku, goron",
-              "normal_logic, bow, $can_smack"
+              "normal_logic, $has_enemy_soul|soul_gekko, bow, $can_smack"
             ]
           },
           {
-            "name": "Woodfall Temple Dragonfly Chest",
+            "name": "Gekko Deku Flowers",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, bow"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Gekko Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_gekko, bow, $can_smack"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Frog",
+            "chest_unopened_img": "images/frogs/frog_cyan.png",
+            "visibility_rules": ["frogsanity"],
+            "access_rules": ["$has_enemy_soul|soul_gekko, $has_absurd_soul|soul_deku_flowers, deku, bow, $can_smack, dongero"]
+          },
+          {
+            "name": "Dragonfly Chest",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles",
-              "normal_logic, smallkey_wf",
-              "normal_logic, small_key_sanity_off",
-              "normal_logic, bow"
+              "normal_logic, $has_enemy_soul|soul_dragonflies, smallkey_wf",
+              "normal_logic, $has_enemy_soul|soul_dragonflies, hookshot",
+              "normal_logic, $has_enemy_soul|soul_dragonflies, bow"
             ]
           },
           {
-            "name": "Woodfall Temple Dark Room Chest SF",
+            "name": "Dragonfly Chest Room Grass",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_grass, smallkey_wf",
+              "$has_absurd_soul|soul_grass, hookshot"
+            ],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Dragonfly Room Deku Flowers",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_deku_flowers, deku, smallkey_wf",
+              "$has_absurd_soul|soul_deku_flowers, deku, hookshot"
+            ],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "2nd Floor Moving Flower Platform Room Grass",
+            "item_count": 11,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_grass, smallkey_wf",
+              "$has_absurd_soul|soul_grass, $small_key_sanity_off"
+            ],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "2nd Floor Moving Deku Flowers",
+            "item_count": 4,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_deku_flowers, deku, smallkey_wf",
+              "$has_absurd_soul|soul_deku_flowers, deku, hookshot"
+            ],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Dark Room Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_can_smack",
-              "normal_logic, smallkey_wf",
-              "normal_logic, small_key_sanity_off",
-              "normal_logic, bow"
+              "normal_logic, $has_enemy_soul|soul_boes, smallkey_wf",
+              "normal_logic, $has_enemy_soul|soul_boes, $small_key_sanity_off",
+              "normal_logic, $has_enemy_soul|soul_boes, bow"
             ]
           },
           {
-            "name": "Woodfall Temple Entrance Freestanding SF",
+            "name": "Entrance Freestanding SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [""]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Deku Baba SF",
+            "name": "Deku Baba SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
-            "access_rules": [""]
+            "access_rules": ["$has_enemy_soul|soul_deku_baba"]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Main Room Bubble SF",
+            "name": "Main Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, fairymask",
@@ -86,13 +300,13 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pot SF",
+            "name": "Pot SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
-            "access_rules": [""]
+            "access_rules": ["$has_absurd_soul|soul_pots"]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Platform Hive SF",
+            "name": "Platform Hive SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, fairymask",
@@ -104,67 +318,88 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Skulltula SF",
+            "name": "Skulltula SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_can_smack_hard, $baby_has_projectiles",
-              "normal_logic, smallkey_wf, $can_smack",
-              "normal_logic, small_key_sanity_off, $can_smack",
-              "normal_logic, bow"
+              "normal_logic, $has_enemy_soul|soul_hanging_skulltula, smallkey_wf, $can_smack",
+              "normal_logic, $has_enemy_soul|soul_hanging_skulltula, $small_key_sanity_off, $can_smack",
+              "normal_logic, $has_enemy_soul|soul_hanging_skulltula, bow"
             ]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Bridge Room Bubble SF",
+            "name": "Left Side Bridge Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Bridge Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
               "normal_logic, smallkey_wf, $has_projectiles, fairymask",
-              "normal_logic, small_key_sanity_off, $has_projectiles, fairymask",
+              "normal_logic, $small_key_sanity_off, $has_projectiles, fairymask",
               "normal_logic, bow, fairymask",
               "normal_logic, bow, zora"
             ]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Bridge Room Hive SF",
+            "name": "Bridge Room Hive SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
               "normal_logic, smallkey_wf, $has_projectiles, fairymask",
-              "normal_logic, small_key_sanity_off, $has_projectiles, fairymask",
+              "normal_logic, $small_key_sanity_off, $has_projectiles, fairymask",
               "normal_logic, bow"
             ]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Upper Right Bubble SF",
+            "name": "Bridge Room Beehive",
+            "chest_unopened_img": "images/icons/beehive.png",
+            "visibility_rules": ["hive_sanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "smallkey_wf, $has_projectiles",
+              "bow"
+            ]
+          },
+          {
+            "name": "Pre-Boss Upper Right Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": ["bow"]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Lower Right Bubble SF",
+            "name": "Pre-Boss Lower Right Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
-              "easy_logic, bow, $can_use_fire_arrows",
-              "normal_logic,bow",
+              "easy_logic, bow, ",
+              "normal_logic, bow",
               "normal_logic, $can_use_fire_arrows"
             ]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Upper Left Bubble SF",
+            "name": "Pre-Boss Upper Left Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, $can_use_fire_arrows",
-              "normal_logic,bow",
+              "normal_logic, bow",
               "normal_logic, $can_use_fire_arrows"
             ]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Pillar Bubble SF",
+            "name": "Pre-Boss Pillar Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, fairymask, $can_use_fire_arrows",
@@ -174,41 +409,136 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Heart Container",
-            "chest_unopened_img": "images/equipment/heart_container.png",
+            "name": "Pre-Boss Room Grass",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
             "access_rules": [
-              "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
-              "normal_logic, bow, $can_smack, bosskey_wf",
-              "normal_logic, bow, $can_smack, boss_key_sanity_off",
-              "normal_logic, bow, $can_smack, odolwa, boss_warps_with_remains"
+              "$has_absurd_soul|soul_grass, bow, smallkey_wf",
+              "$has_absurd_soul|soul_grass, bow, hookshot"
+            ],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
             ]
           },
           {
-            "name": "Woodfall Temple Odolwa's Remains",
+            "name": "Pre-Boss Deku Flowers",
+            "item_count": 10,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_deku_flowers, deku, bow, smallkey_wf",
+              "$has_absurd_soul|soul_deku_flowers, deku, bow, hookshot"
+            ],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Pre-Boss Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, bow, smallkey_wf",
+              "$has_absurd_soul|soul_pots, bow, hookshot"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Pre-Boss Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "bow, smallkey_wf",
+              "bow, hookshot"
+            ]
+          },
+          {
+            "name": "Pre-Boss Zora Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "bow, smallkey_wf, zora",
+              "bow, hookshot, zora"
+            ]
+          },
+          {
+            "name": "Heart Container",
+            "chest_unopened_img": "images/equipment/heart_container.png",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
-              "normal_logic, bow, $can_smack, bosskey_wf",
-              "normal_logic, bow, $can_smack, boss_key_sanity_off",
-              "normal_logic, bow, $can_smack, odolwa, boss_warps_with_remains"
+              "normal_logic, $has_boss_soul|soul_odolwa, bow, $can_smack, bosskey_wf",
+              "normal_logic, $has_boss_soul|soul_odolwa, bow, $can_smack, $boss_key_sanity_off",
+              "normal_logic, $has_boss_soul|soul_odolwa, bow, $can_smack, odolwa, boss_warps_with_remains"
+            ]
+          },
+          {
+            "name": "Odolwa's Remains",
+            "access_rules": [
+              "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
+              "normal_logic, $has_boss_soul|soul_odolwa, $can_smack, bow, bosskey_wf",
+              "normal_logic, $has_boss_soul|soul_odolwa, $can_smack, bow, $boss_key_sanity_off",
+              "normal_logic, $has_boss_soul|soul_odolwa, $can_smack, bow, odolwa, boss_warps_with_remains"
             ]
           },
           {
             "name": "Oath to Order",
             "chest_unopened_img": "images/equipment/song_oath_no_text.png",
             "access_rules": [
-              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
-              "normal_logic, bow, $can_smack, bosskey_wf",
-              "normal_logic, bow, $can_smack, boss_key_sanity_off",
-              "normal_logic, bow, $can_smack, odolwa, boss_warps_with_remains"
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, $clear_stone_tower_temple",
+              "normal_logic, $clear_woodfall",
+              "normal_logic, $clear_snowhead",
+              "normal_logic, $clear_greatbay",
+              "normal_logic, $clear_stone_tower_temple"
             ],
             "hosted_item": "oath_wft"
+          },
+          {
+            "name": "Odolwa's Lair Grass",
+            "item_count": 16,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_grass, bosskey_wf",
+              "$has_absurd_soul|soul_grass, $boss_key_sanity_off",
+              "$has_absurd_soul|soul_grass, odolwa, boss_warps_with_remains"
+            ],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Odolwa's Lair Deku Flower",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_deku_flowers, deku, bosskey_wf",
+              "$has_absurd_soul|soul_grass, deku, $boss_key_sanity_off",
+              "$has_absurd_soul|soul_deku_flowers, odolwa, deku, boss_warps_with_remains"
+            ],
+            "visibility_rules": ["flower_sanity"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 542,
-            "y": 478
+            "x": 1052,
+            "y": 784
+          },
+          {
+            "map": "woodfall",
+            "x": 490,
+            "y": 420
           }
         ]
       },
@@ -220,12 +550,48 @@
         ],
         "sections": [
           {
+            "name": "Entry Block Icicles",
+            "chest_unopened_img": "images/icons/icicle.png",
+            "item_count": 5,
+            "visibility_rules": ["icicle_sanity"]
+          },
+          {
+            "name": "Grey Door Icicles",
+            "chest_unopened_img": "images/icons/icicle.png",
+            "item_count": 2,
+            "visibility_rules": ["icicle_sanity"]
+          },
+          {
+            "name": "Grey Door Ceiling Icicles",
+            "chest_unopened_img": "images/icons/icicle.png",
+            "item_count": 2,
+            "visibility_rules": ["icicle_sanity"]
+          },
+          {
+            "name": "Entrance Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
             "name": "Bridge Room Freezard Chest",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, hookshot",
-              "normal_logic, $can_use_fire_arrows",
-              "normal_logic, hookshot"
+              "normal_logic, $has_enemy_soul|soul_freezard, $can_use_fire_arrows",
+              "normal_logic, $has_enemy_soul|soul_freezard, hookshot"
             ]
+          },
+          {
+            "name": "Bridge Room Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 2,
+            "clear_as_group": false
           },
           {
             "name": "Bridge Room Under Platform Bubble SF",
@@ -243,11 +609,125 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
+            "name": "Bridge Room Crate",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "clear_as_group": false
+          },
+          {
+            "name": "Blue Door Lava Bridge Pots (Upper)",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Blue Door Lava Bridge Pots (Lower)",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Main Room Basement Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Lower Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
+            "visibility_rules": ["scarecrow_sanity"]
+          },
+          {
+            "name": "Main Room Scarecrow Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$can_reach_scarecrow|scarecrow_sht_lower, $has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecrow, hookshot"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Main Room 2nd Floor Bridge Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_pots, $has|smallkey_sh|2"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Main Room 2nd Floor East Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              //"$has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_sht_lower, $can_use_fire_arrows",
+              "$can_use_fire_arrows, $has|smallkey_sh|2"
+            ]
+          },
+          {
+            "name": "Main Room 2nd Floor West Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              //"$has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_sht_lower, $can_use_fire_arrows",
+              "$can_use_fire_arrows, $has|smallkey_sh|2"
+            ]
+          },
+          {
+            "name": "Frozen Green Door Pots (Lower)",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Frozen Green Door Pots (Upper)",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $can_use_fire_arrows"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
             "name": "Frozen Block Chest",
             "access_rules": [
               "easy_logic",
               "normal_logic, $has|smallkey_sh|1",
-              "normal_logic, small_key_sanity_off",
+              "normal_logic, $small_key_sanity_off",
               "normal_logic, hookshot"
             ]
           },
@@ -257,7 +737,7 @@
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, hookshot",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows",
-              "normal_logic, small_key_sanity_off, $can_use_fire_arrows",
+              "normal_logic, $small_key_sanity_off, $can_use_fire_arrows",
               "normal_logic, hookshot, $can_use_fire_arrows"
             ]
           },
@@ -267,10 +747,37 @@
             "access_rules": [
               "easy_logic, fairymask, $baby_has_explosives",
               "normal_logic, $has|smallkey_sh|1, fairymask, $has_explosives",
-              "normal_logic, small_key_sanity_off, fairymask, $has_explosives",
+              "normal_logic, $small_key_sanity_off, fairymask, $has_explosives",
               "normal_logic, hookshot, @Dungeons/Snowhead Temple/Bridge Room Under Platform Bubble SF"
             ]
             //"visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Frozen Block Room Bombable Wall",
+            "chest_unopened_img": "images/icons/bombwall.png",
+            "access_rules": ["$has_explosives"],
+            "visibility_rules": ["oneoffs"]
+          },
+          {
+            "name": "Frozen Block Ceiling Icicles",
+            "chest_unopened_img": "images/icons/icicle.png",
+            "item_count": 5,
+            "access_rules": [
+              "$can_use_fire_arrows, hookshot",
+              "$can_use_fire_arrows, $has|smallkey_sh|1"
+            ],
+            "visibility_rules": ["icicle_sanity"]
+          },
+          {
+            "name": "Locked Grey Door Wolfos Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has|smallkey_sh|2"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Stacked Block Upper Chest SF",
@@ -278,7 +785,7 @@
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows",
-              "normal_logic, small_key_sanity_off, $can_use_fire_arrows",
+              "normal_logic, $small_key_sanity_off, $can_use_fire_arrows",
               "normal_logic, hookshot"
             ]
           },
@@ -287,9 +794,31 @@
             "access_rules": [""]
           },
           {
+            "name": "Orange Door Push Block Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|1",
+              "$has_absurd_soul|soul_pots, $can_use_fire_arrows, hookshot"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
             "name": "Freezard Torch Room Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_sh.png",
-            "access_rules": ["$can_use_fire_arrows"]
+            "access_rules": ["$has_enemy_soul|soul_freezard, $can_use_fire_arrows"]
+          },
+          {
+            "name": "Frozen Green Door Deku Flowers",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_fire_arrows"],
+            "visibility_rules": ["flower_sanity"]
           },
           {
             "name": "Basement Switch Chest SF",
@@ -297,14 +826,48 @@
             "access_rules": [""]
           },
           {
+            "name": "Basement Grass",
+            "item_count": 10,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Hidden Alcove Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": [
+              "$has_npc_soul|soul_scarecrow, ocarina, $can_use_fire_arrows",
+              "$has_npc_soul|soul_scarecrow, ocarina, $has_explosives, $has|smallkey_sh|1",
+              "$has_npc_soul|soul_scarecrow, ocarina, $can_reach_scarecrow|scarecrow_sht_lower, hookshot"
+            ],
+            "visibility_rules": ["scarecrow_sanity"]
+          },
+          {
             "name": "Main Room Wall Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_sh.png",
             "access_rules": [
               "easy_logic, $can_use_lens, $baby_has_explosives, hookshot, deku, $can_use_fire_arrows",
-              "normal_logic, $can_use_lens, $can_use_fire_arrows, $has|smallkey_sh|3, $has_explosives, deku",
-              "normal_logic, $can_use_lens, $can_use_fire_arrows, small_key_sanity_off, $has_explosives, deku",
-              "normal_logic, $can_use_lens, $can_use_fire_arrows, hookshot"
+              "normal_logic, $can_use_lens, $can_use_fire_arrows, $has|smallkey_sh|2, $has_explosives, hookshot, deku",
+              "normal_logic, $can_use_lens, $can_use_fire_arrows, $small_key_sanity_off, $has_explosives, hookshot, deku",
+              "normal_logic, $can_use_lens, $can_use_fire_arrows, hookshot",
+              "$can_use_lens, $can_reach_scarecrow|scarecrow_sht_lower, hookshot"
             ]
+          },
+          {
+            "name": "Main Room Wall Chest Deku Flower",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_deku_flowers, deku, $can_reach_scarecrow|scarecrow_sht_hidden_alcove, $can_use_lens, hookshot, #has_explosives, $has|smallkey_sh|2",
+              "$has_absurd_soul|soul_deku_flowers, deku, $can_reach_scarecrow|scarecrow_sht_hidden_alcove, $can_use_lens, hookshot, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_deku_flowers, deku, $can_reach_scarecrow|scarecrow_sht_hidden_alcove, $can_use_lens, hookshot, $can_reach_scarecrow|scarecrow_sht_lower"
+            ],
+            "visibility_rules": ["flower_sanity"]
           },
           {
             "name": "Elevator Room Lower Chest",
@@ -316,7 +879,7 @@
             "access_rules": [
               "easy_logic, $can_use_lens, $can_use_fire_arrows, $baby_has_explosives, hookshot",
               "normal_logic, $can_use_lens, $has|smallkey_sh|2, $has_explosives",
-              "normal_logic, $can_use_lens, small_key_sanity_off, $has_explosives",
+              "normal_logic, $can_use_lens, $small_key_sanity_off, $has_explosives",
               "normal_logic, $can_use_lens, $can_use_fire_arrows",
               "normal_logic, $can_use_lens, hookshot"
             ]
@@ -328,11 +891,30 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
+            "name": "Elevator Room Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 5,
+            "clear_as_group": false
+          },
+          {
+            "name": "Icicle Room Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives, hookshot",
+              "$has_explosives, $has|smallkey_sh|1",
+              "$has_npc_soul|soul_scarecrow, scarecrow_sht_lower, $has|smallkey_sh|1, hookshot"
+            ]
+          },
+          {
             "name": "Icicle Room Snowball Chest",
             "access_rules": [
               "easy_logic, bow, $baby_has_explosives",
               "normal_logic, $has_explosives, bow, $has|smallkey_sh|1",
-              "normal_logic, $has_explosives, bow, small_key_sanity_off",
+              "normal_logic, $has_explosives, bow, $small_key_sanity_off",
               "normal_logic, $has_explosives, hookshot"
             ]
           },
@@ -342,8 +924,32 @@
             "access_rules": [
               "easy_logic, $can_use_lens, $baby_has_explosives, bow",
               "normal_logic, $can_use_lens, $has_explosives, bow, $has|smallkey_sh|1",
-              "normal_logic, $can_use_lens, $has_explosives, bow, small_key_sanity_off",
+              "normal_logic, $can_use_lens, $has_explosives, bow, $small_key_sanity_off",
               "normal_logic, $can_use_lens, $has_explosives, bow, hookshot"
+            ]
+          },
+          {
+            "name": "Icicle Room Ceiling Icicles",
+            "chest_unopened_img": "images/icons/icicle.png",
+            "visibility_rules": ["icicle_sanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives, $has|smallkey_sh|1",
+              "$has_explosives, hookshot",
+              "$has_npc_soul|soul_scarecrow, scarecrow_sht_lower, $has|smallkey_sh|1, hookshot"
+            ]
+          },
+          {
+            "name": "Icicle Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives, $has|smallkey_sh|1",
+              "$has_explosives, hookshot",
+              "$has_npc_soul|soul_scarecrow, scarecrow_sht_lower, $has|smallkey_sh|1, hookshot"
             ]
           },
           {
@@ -352,19 +958,85 @@
             "access_rules": [
               "easy_logic, fairymask, bow, $can_use_lens, $baby_has_explosives",
               "normal_logic, $has|smallkey_sh|2, fairymask, bow, $can_use_lens, $has_explosives",
-              "normal_logic, small_key_sanity_off, fairymask, bow, $can_use_lens, $has_explosives",
+              "normal_logic, $small_key_sanity_off, fairymask, bow, $can_use_lens, $has_explosives",
               "normal_logic, hookshot, fairymask, bow, $can_use_lens",
               "normal_logic, $can_use_fire_arrows, fairymask, $can_use_lens"
             ]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Lower Wizzrobe Chest",
+            "name": "Timed Switch Room Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$can_use_fire_arrows", "$has_explosives, $has|smallkey_sh|2"]
+          },
+          {
+            "name": "Goron Pound Puzzle Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "normal_logic, $has_absurd_soul|soul_pots, $has_explosives, $has|smallkey_sh|2",
+              "normal_logic, $has_absurd_soul|soul_pots, $has_explosives, $can_use_fire_arrows"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Lower Wizrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $baby_has_projectiles, $baby_can_smack_hard",
-              "normal_logic, $has|smallkey_sh|2, $has_explosives",
-              "normal_logic, small_key_sanity_off, $has_explosives",
-              "normal_logic, $can_use_fire_arrows"
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $has|smallkey_sh|2, $has_explosives",
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $small_key_sanity_off, $has_explosives",
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "3rd Floor Bridge Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              //"$has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_sht_lower, $can_use_fire_arrows",
+              "$can_use_fire_arrows, $has|smallkey_sh|2"
+            ]
+          },
+          {
+            "name": "3rd Floor Locked Door Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              //"$has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_sht_lower, $can_use_fire_arrows, $has|smallkey_sh|1",
+              "$can_use_fire_arrows, $has|smallkey_sh|2"
+            ]
+          },
+          {
+            "name": "3rd Floor Locked Door Icicles",
+            "chest_unopened_img": "images/icons/icicle.png",
+            "visibility_rules": ["icicle_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              //"$has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_sht_lower, $can_use_fire_arrows, $has|smallkey_sh|1",
+              "$can_use_fire_arrows, $has|smallkey_sh|2"
+            ]
+          },
+          {
+            "name": "3rd Floor Locked Door Ceiling Icicles",
+            "chest_unopened_img": "images/icons/icicle.png",
+            "visibility_rules": ["icicle_sanity"],
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              //"$has_npc_soul|soul_scarecrow, $can_reach_scarecrow|scarecrow_sht_lower, $can_use_fire_arrows, $has|smallkey_sh|1",
+              "$can_use_fire_arrows, $has|smallkey_sh|2"
             ]
           },
           {
@@ -373,7 +1045,7 @@
             "access_rules": [
               "easy_logic, fairymask, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows, fairymask",
-              "normal_logic, small_key_sanity_off, $can_use_fire_arrows, fairymask"
+              "normal_logic, $small_key_sanity_off, $can_use_fire_arrows, fairymask"
             ]
             //"visibility_rules": ["fairysanity"]
           },
@@ -382,8 +1054,8 @@
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows",
-              "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows",
-              "normal_logic, small_key_sanity_off, $can_use_fire_arrows"
+              "normal_logic, $has_enemy_soul|soul_dinolfos, $has|smallkey_sh|1, $can_use_fire_arrows",
+              "normal_logic, $has_enemy_soul|soul_dinolfos, $small_key_sanity_off, $can_use_fire_arrows"
             ]
             //"visibility_rules": ["fairysanity"]
           },
@@ -392,19 +1064,78 @@
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows",
-              "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows",
-              "normal_logic, small_key_sanity_off, $can_use_fire_arrows"
+              "normal_logic, $has_enemy_soul|soul_dinolfos, $has|smallkey_sh|1, $can_use_fire_arrows",
+              "normal_logic, $has_enemy_soul|soul_dinolfos, $small_key_sanity_off, $can_use_fire_arrows"
             ]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Upper Wizzrobe Chest",
+            "name": "Main Room 4th Floor Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|3",
+              "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow|scarecrow_sht_lower"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "4th Floor Outside Wizrobe Icicles",
+            "chest_unopened_img": "images/icons/icicle.png",
+            "visibility_rules": ["icicle_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_use_fire_arrows, $has|smallkey_sh|3, deku"
+            ]
+          },
+          {
+            "name": "Upper Wizrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $baby_can_smack_hard",
-              "normal_logic, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, small_key_sanity_off, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows, deku",
-              "normal_logic, small_key_sanity_off, $can_use_fire_arrows, deku"
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $small_key_sanity_off, $can_use_fire_arrows, $has_explosives",
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $has|smallkey_sh|1, $can_use_fire_arrows, deku",
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $small_key_sanity_off, $can_use_fire_arrows, deku"
+            ]
+          },
+          {
+            "name": "4th Floor Wizrobe Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|3",
+              "$has_absurd_soul|soul_pots, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow|scarecrow_sht_lower"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Outside Boss Door Deku Flower",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": [
+              //"$has_absurd_soul|soul_deku_flowers, deku, $can_use_fire_arrows, $has|smallkey_sh|1" (Suggested edit in  PR to apworld logic. Below is current logic.)
+              "$has_absurd_soul|soul_deku_flowers, deku, $can_use_fire_arrows, $has|smallkey_sh|3",
+              "$has_absurd_soul|soul_deku_flowers, deku, $can_use_fire_arrows, $has|smallkey_sh|2, hookshot, $can_reach_scarecrow|scarecrow_sht_lower"
+            ],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Outside Boss Door Icicles",
+            "chest_unopened_img": "images/icons/icicle.png",
+            "visibility_rules": ["icicle_sanity"],
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_use_fire_arrows, $has|smallkey_sh|3"
             ]
           },
           {
@@ -412,11 +1143,11 @@
             "chest_unopened_img": "images/equipment/heart_container.png",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, $baby_has_explosives",
-              "normal_logic, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, $can_use_fire_arrows, $has|smallkey_sh|1, boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
-              "normal_logic, $can_use_fire_arrows, small_key_sanity_off, bosskey_sh",
-              "normal_logic, $can_use_fire_arrows, small_key_sanity_off, boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
-              "normal_logic, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
+              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
+              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
+              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, $small_key_sanity_off, bosskey_sh",
+              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
+              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
             ]
           },
           {
@@ -424,23 +1155,39 @@
             "chest_unopened_img": "images/equipment/goht.png",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, $baby_has_explosives",
-              "normal_logic, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, $can_use_fire_arrows, $has|smallkey_sh|1, boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
-              "normal_logic, $can_use_fire_arrows, small_key_sanity_off, bosskey_sh",
-              "normal_logic, $can_use_fire_arrows, small_key_sanity_off, boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
-              "normal_logic, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
+              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
+              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
+              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, $small_key_sanity_off, bosskey_sh",
+              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
+              "normal_logic, $has_boss_soul|soul_goht, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
+            ]
+          },
+          {
+            "name": "Goht Boss Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 14,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, $has_boss_soul|soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
+              "$has_absurd_soul|soul_pots, $has_boss_soul|soul_goht, $can_use_fire_arrows, $has|smallkey_sh|1, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
+              "$has_absurd_soul|soul_pots, $has_boss_soul|soul_goht, $can_use_fire_arrows, $small_key_sanity_off, bosskey_sh",
+              "$has_absurd_soul|soul_pots, $has_boss_soul|soul_goht, $can_use_fire_arrows, $small_key_sanity_off, $boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizrobe Chest",
+              "$has_absurd_soul|soul_pots, $has_boss_soul|soul_goht, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
             "name": "Oath to Order",
             "chest_unopened_img": "images/equipment/song_oath_no_text.png",
             "access_rules": [
-              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
-              "normal_logic, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, $can_use_fire_arrows, $has|smallkey_sh|1, boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
-              "normal_logic, $can_use_fire_arrows, small_key_sanity_off, bosskey_sh",
-              "normal_logic, $can_use_fire_arrows, small_key_sanity_off, boss_key_sanity_off, @Dungeons/Snowhead Temple/Upper Wizzrobe Chest",
-              "normal_logic, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, $clear_stone_tower_temple",
+              "normal_logic, $clear_woodfall",
+              "normal_logic, $clear_snowhead",
+              "normal_logic, $clear_greatbay",
+              "normal_logic, $clear_stone_tower_temple"
             ],
             "hosted_item": "oath_sht"
           }
@@ -448,8 +1195,13 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 489,
-            "y": 38
+            "x": 959,
+            "y": 136
+          },
+          {
+            "map": "snowhead",
+            "x": 775,
+            "y": 260
           }
         ]
       },
@@ -469,13 +1221,28 @@
             ]
           },
           {
+            "name": "Entrance Barrels",
+            "chest_unopened_img": "images/absurd/barrel.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_barrels"]
+          },
+          {
             "name": "Waterwheel Room Skulltula SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, bow, fairymask",
-              "normal_logic, $can_smack_hard"
+              "normal_logic, $has_enemy_soul|soul_hanging_skulltula, $can_smack_hard"
             ]
+          },
+          {
+            "name": "Waterwheel Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 5,
+            "clear_as_group": false
           },
           {
             "name": "Waterwheel Room Bubble SF",
@@ -493,7 +1260,7 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
-              "normal_logic"
+              "normal_logic, $has_absurd_soul|soul_barrels"
             ]
           },
           {
@@ -502,11 +1269,22 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
-              "normal_logic"
+              "normal_logic, $has_absurd_soul|soul_pots"
             ]
           },
           {
-            "name": "Before Red Valve Room Chest",
+            "name": "Above Blender Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Red-Green Pipe Room Chest",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, zora, bow, hookshot, deku",
               "normal_logic, $can_use_ice_arrows",
@@ -514,14 +1292,41 @@
             ]
           },
           {
-            "name": "Before Red Valve Room Pot SF",
+            "name": "Red-Green Pipe Room Pot SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, zora, bow, fairymask, deku",
-              "normal_logic, $can_use_ice_arrows",
-              "normal_logic, $has_projectiles, fairymask",
-              "normal_logic, deku"
+              "normal_logic, $has_absurd_soul|soul_pots, $can_use_ice_arrows",
+              "normal_logic, $has_absurd_soul|soul_pots, $has_projectiles, fairymask",
+              "normal_logic, $has_absurd_soul|soul_pots, deku"
+            ]
+          },
+          {
+            "name": "1F Red Valve Room Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$can_use_ice_arrows"]
+          },
+          {
+            "name": "1F Red Valve Room Barrels",
+            "chest_unopened_img": "images/absurd/barrel.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_barrels, $can_use_ice_arrows"]
+          },
+          {
+            "name": "Red Green Pipe Tunnel Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 11,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $can_use_ice_arrows"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
@@ -529,7 +1334,7 @@
             "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, zora, bow, hookshot",
-              "normal_logic"
+              "normal_logic, $has_enemy_soul|soul_deku_baba"
             ]
           },
           {
@@ -547,10 +1352,53 @@
             ]
           },
           {
+            "name": "Before Gekko Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Before Gekko Room Underwater Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$clear_snowhead"]
+          },
+          {
+            "name": "Outside Frog Miniboss Door Icicles",
+            "chest_unopened_img": "images/icons/icicle.png",
+            "visibility_rules": ["icicle_sanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_use_ice_arrows"
+            ]
+          },
+          {
+            "name": "Frog",
+            "chest_unopened_img": "images/frogs/frog_pink.png",
+            "visibility_rules": ["frogsanity"],
+            "access_rules": ["$has_enemy_soul|soul_jellied_gekko, $can_use_ice_arrows, $can_use_fire_arrows, zora, dongero"]
+          },
+          {
+            "name": "Jellied Gekko Room Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 16,
+            "clear_as_group": false,
+            "access_rules": ["$can_use_ice_arrows, $can_use_fire_arrows"]
+          },
+          {
             "name": "Mad Jellied Gekko Chest",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, zora",
-              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
+              "normal_logic, $has_enemy_soul|soul_jellied_gekko, $can_use_ice_arrows, $can_use_fire_arrows"
             ]
           },
           {
@@ -559,19 +1407,58 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
-              "normal_logic"
+              "normal_logic, $has_absurd_soul|soul_pots"
+            ]
+          },
+          {
+            "name": "Red Valve Underwater Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Behind Locked Door Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 12,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, smallkey_gb",
+              "$has_absurd_soul|soul_pots, $small_key_sanity_off"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
             "name": "Behind Locked Door Chest",
             "access_rules": [
               "easy_logic, smallkey_gb, bow, $baby_has_explosives, fairysword, mirrorshield, zora",
-              "normal_logic, smallkey_gb, $can_smack_hard",
-              "normal_logic, smallkey_gb, $has_explosives",
-              "normal_logic, smallkey_gb, bow",
-              "normal_logic, small_key_sanity_off, $can_smack_hard",
-              "normal_logic, small_key_sanity_off, $has_explosives",
-              "normal_logic, small_key_sanity_off, bow"
+              "normal_logic, $has_enemy_soul|soul_wart, smallkey_gb, $can_smack_hard",
+              "normal_logic, $has_enemy_soul|soul_wart, smallkey_gb, $has_explosives",
+              "normal_logic, $has_enemy_soul|soul_wart, smallkey_gb, bow",
+              "normal_logic, $has_enemy_soul|soul_wart, $small_key_sanity_off, $can_smack_hard",
+              "normal_logic, $has_enemy_soul|soul_wart, $small_key_sanity_off, $has_explosives",
+              "normal_logic, $has_enemy_soul|soul_wart, $small_key_sanity_off, bow"
+            ]
+          },
+          {
+            "name": "Wart Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, smallkey_gb",
+              "$has_absurd_soul|soul_pots, $small_key_sanity_off"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
@@ -583,11 +1470,40 @@
             ]
           },
           {
+            "name": "Room Behind 1F Waterfall Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, $can_use_ice_arrows, zora"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Behind 1F Waterfall Barrels",
+            "chest_unopened_img": "images/absurd/barrel.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_barrels, $can_use_ice_arrows"]
+          },
+          {
+            "name": "Behind Waterfall Ceiling Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$can_use_ice_arrows"]
+          },
+          {
             "name": "Freezable Waterwheel Upper Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
-              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
+              "normal_logic, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
             ]
           },
           {
@@ -595,8 +1511,27 @@
             "chest_unopened_img": "images/icons/chest_fairy_gb.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
-              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
+              "normal_logic, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
             ]
+          },
+          {
+            "name": "Green Pipe Frozen Waterwheel Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Frozen Waterwheel Room Barrels",
+            "chest_unopened_img": "images/absurd/barrel.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_barrels, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"]
           },
           {
             "name": "Seesaw Room Underwater Barrel SF",
@@ -604,8 +1539,27 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, $can_use_ice_arrows, $can_use_fire_arrows, bombchu_bag",
-              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
+              "normal_logic, $has_absurd_soul|soul_barrels, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
             ]
+          },
+          {
+            "name": "Seesaw Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Seesaw Room Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 7,
+            "clear_as_group": false,
+            "access_rules": ["$has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"]
           },
           {
             "name": "Seesaw Room Chest SF",
@@ -621,7 +1575,7 @@
             //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, fairymask, $can_use_ice_arrows, $can_use_fire_arrows",
-              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
+              "normal_logic, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"
             ]
           },
           {
@@ -631,13 +1585,24 @@
             "access_rules": ["@Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF"]
           },
           {
+            "name": "Underneath Boss Door Platform Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
             "name": "Heart Container",
             "chest_unopened_img": "images/equipment/heart_container.png",
             "access_rules": [
               "easy_logic, zora, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
-              "normal_logic, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, bosskey_gb",
-              "normal_logic, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, boss_key_sanity_off",
-              "normal_logic, hookshot, gyorg, boss_warps_with_remains"
+              "normal_logic, $has_boss_soul|soul_gyorg, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, bosskey_gb",
+              "normal_logic, $has_boss_soul|soul_gyorg, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, $boss_key_sanity_off",
+              "normal_logic, $has_boss_soul|soul_gyorg, hookshot, gyorg, boss_warps_with_remains"
             ]
           },
           {
@@ -645,49 +1610,97 @@
             "chest_unopened_img": "images/equipment/gyorg.png",
             "access_rules": [
               "easy_logic, zora, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
-              "normal_logic, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, bosskey_gb",
-              "normal_logic, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, boss_key_sanity_off",
-              "normal_logic, hookshot, gyorg, boss_warps_with_remains"
+              "normal_logic, $has_boss_soul|soul_gyorg, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, bosskey_gb",
+              "normal_logic, $has_boss_soul|soul_gyorg, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, $boss_key_sanity_off",
+              "normal_logic, $has_boss_soul|soul_gyorg, hookshot, gyorg, boss_warps_with_remains"
             ]
           },
           {
             "name": "Oath to Order",
             "chest_unopened_img": "images/equipment/song_oath_no_text.png",
             "access_rules": [
-              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains",
-              "normal_logic, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, bosskey_gb",
-              "normal_logic, hookshot, @Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF, boss_key_sanity_off",
-              "normal_logic, hookshot, gyorg, boss_warps_with_remains"
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, $clear_stone_tower_temple",
+              "normal_logic, $clear_woodfall",
+              "normal_logic, $clear_snowhead",
+              "normal_logic, $clear_greatbay",
+              "normal_logic, $clear_stone_tower_temple"
             ],
             "hosted_item": "oath_gbt"
+          },
+          {
+            "name": "Gyorg Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_octoroks, $has_enemy_soul|soul_chu_jelly, $can_use_ice_arrows, $can_use_fire_arrows"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 58,
-            "y": 350
+            "x": 162,
+            "y": 639
           }
         ]
       },
       {
-        "name": "Pirates' Fortress",
+        "name": "Pirates' Fortress Moat",
         "access_rules": ["$pirates_fortress"],
         "sections": [
           {
-            "name": "Pirates' Fortress Exterior Underwater Log Chest",
+            "name": "Entrance Bonk Boards",
+            "chest_unopened_img": "images/icons/pirate_board.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_barrels, zora"]
+          },
+          {
+            "name": "Exterior Underwater Log Chest",
             "access_rules": ["zora"]
           },
           {
-            "name": "Pirates' Fortress Exterior Underwater Near Entrance Chest",
+            "name": "Exterior Underwater Near Entrance Chest",
             "access_rules": ["zora"]
           },
           {
-            "name": "Pirates' Fortress Exterior Underwater Corner Chest",
+            "name": "Exterior Underwater Corner Chest",
             "access_rules": ["zora"]
           },
           {
-            "name": "Pirates' Fortress Sewers Cage HP",
+            "name": "Exterior Balcony Barrel",
+            "chest_unopened_img": "images/absurd/barrel.png",
+            "visibility_rules": ["wood_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_barrels, hookshot"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 484,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Sewers",
+        "access_rules": ["$pirates_fortress_sewers"],
+        "sections": [
+          {
+            "name": "Sewers Bonk Boards",
+            "chest_unopened_img": "images/icons/pirate_board.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_barrels, zora"]
+          },
+          {
+            "name": "Sewers Cage HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, goron, bow",
@@ -695,61 +1708,235 @@
             ]
           },
           {
-            "name": "Pirates' Fortress Sewers Maze Chest",
+            "name": "Sewers Cage Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_souls|soul_barrels, goron"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Sewers Cage Room Barrels",
+            "chest_unopened_img": "images/absurd/barrel.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 16,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_barrels, goron"]
+          },
+          {
+            "name": "Sewers Rupees Under Barrels",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["goron, zora"]
+          },
+          {
+            "name": "Sewers After Gate Hidden Ladder Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, hookshot, goron",
+              "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_barrels, goron"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Sewers Maze Chest",
             "access_rules": ["goron"]
           },
           {
-            "name": "Pirates' Fortress Sewers Underwater Lower Chest",
+            "name": "Sewers Underwater Lower Chest",
             "access_rules": ["goron"]
           },
           {
-            "name": "Pirates' Fortress Sewers Underwater Upper Chest",
+            "name": "Sewers Underwater Upper Chest",
             "access_rules": ["goron"]
           },
           {
-            "name": "Pirates' Fortress Interior Tank Chest",
+            "name": "Sewers Exit Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, hookshot, goron",
+              "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_barrels, goron"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Sewers Exit Barrels",
+            "chest_unopened_img": "images/absurd/barrel.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_barrels, goron", "$has_absurd_soul|soul_barrels, hookshot"]
+          },
+          {
+            "name": "Sewers Exit Rupees Under Barrels",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["goron, zora"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 521,
+            "y": 423
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress",
+        "access_rules": ["$pirates_fortress_interior"],
+        "sections": [
+          {
+            "name": "Interior Courtyard Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 3,
+            "clear_as_group": false
+          },
+          {
+            "name": "Interior Ledge Recovery Hearts",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["hookshot"]
+          },
+          {
+            "name": "Interior Tank Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, hookshot, $baby_can_smack_hard, magic, stonemask",
-              "normal_logic, $pirates_fortress_interior, hookshot, $can_smack_hard"
+              "normal_logic, $has_enemy_soul|soul_coloured_pirates, hookshot, $can_smack_hard"
             ]
           },
           {
-            "name": "Pirates' Fortress Interior Guarded Chest",
+            "name": "Interior Underwater Chest Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, hookshot, $can_smack_hard"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Interior Guarded Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
-              "normal_logic, $pirates_fortress_interior, hookshot"
+              "normal_logic, hookshot"
             ]
           },
           {
-            "name": "Pirates' Fortress Hub Lower Chest",
-            "access_rules": [
-              "easy_logic, $baby_pirates_fortress_interior, goron, hookshot, stonemask",
-              "normal_logic, $pirates_fortress_interior"
+            "name": "Interior Room Past Pink Guard Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $pirates_fortress_interior, hookshot"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
-            "name": "Pirates' Fortress Hub Upper Chest",
-            "access_rules": [
-              "easy_logic, $baby_pirates_fortress_interior, hookshot, stonemask",
-              "normal_logic, $pirates_fortress_interior, hookshot"
+            "name": "Interior Room Past Pink Guard Barrel",
+            "chest_unopened_img": "images/absurd/barrel.png",
+            "visibility_rules": ["wood_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_barrels, $has_enemy_soul|soul_coloured_pirates, hookshot"]
+          },
+          {
+            "name": "Interior Room Past Green Guard Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_enemy_soul|soul_coloured_pirates, hookshot, $can_smack_hard"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
-            "name": "Pirates' Fortress Leader's Room Chest",
+            "name": "Outdoor Pirate Flag Eye Hitspots",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["$has_projectiles, @Dungeons/Pirates' Fortress/Hub Lower Chest"],
+            "visibility_rules": ["hit_sanity"]
+          },
+          {
+            "name": "Hub Lower Chest"
+          },
+          {
+            "name": "Hub Upper Chest",
+            "access_rules": ["normal_logic, hookshot"]
+          },
+          {
+            "name": "Guarded Bridge Barrel",
+            "chest_unopened_img": "images/absurd/barrel.png",
+            "visibility_rules": ["wood_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_barrels, hookshot"]
+          },
+          {
+            "name": "Interior Upper Beehive Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, hookshot, $can_smack_hard"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Leader's Room Barrels",
+            "chest_unopened_img": "images/absurd/barrel.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_barrels, bow"]
+          },
+          {
+            "name": "Indoor Pirate Flag Eye Hitspots",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_projectiles"],
+            "visibility_rules": ["hit_sanity"]
+          },
+          {
+            "name": "Leader's Room Chest",
             "access_rules": [
-              "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
-              "normal_logic, $pirates_fortress_interior, hookshot, bow",
-              "normal_logic, $pirates_fortress_interior, hookshot, deku, magic",
-              "normal_logic, $pirates_fortress_interior, goron, bow",
-              "normal_logic, $pirates_fortress_interior, goron, deku, magic"
+              "easy_logic, $br, $baby_has_projectiles, stonemask, hookshot",
+              "normal_logic, hookshot, bow",
+              "normal_logic, hookshot, deku, magic",
+              "normal_logic, goron, bow",
+              "normal_logic, goron, deku, magic"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 310,
-            "y": 242
+            "x": 522,
+            "y": 376
           }
         ]
       },
@@ -765,266 +1952,450 @@
             "name": "Swamp Spider House Reward",
             "chest_unopened_img": "images/masks/truth.png",
             "access_rules": [
-              "$checkRequirements|required_skull_tokens|skull_ss",
-              "skullsanity_0, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token",
-              "skullsanity_2, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token"
+              "$checkRequirements|required_skull_tokens|skull_ss, $has_npc_soul|soul_spider_man",
+              "skullsanity_0, $has_npc_soul|soul_spider_man, $can_smack, $bottleCount|1, $has_projectiles, @Dungeons/Swamp Spider House/First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Golden Room Against Far Wall Token",
+              "skullsanity_2, $has_npc_soul|soul_spider_man, $can_smack, $bottleCount|1, $has_projectiles, @Dungeons/Swamp Spider House/First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Golden Room Against Far Wall Token"
             ]
             //"visibility_rules": ["shuffle_swamphouse_reward"]
           },
           {
-            "name": "Swamphouse First Room Pot Near Entrance Token",
+            "name": "Entry Rocks",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks"]
+          },
+          {
+            "name": "Main Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Totem Eye Hitspots",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 12,
+            "clear_as_group": false,
+            "visibility_rules": ["hit_sanity"],
+            "access_rules": ["$has_projectiles"]
+          },
+          {
+            "name": "Behind Totem Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Main Room Deku Flowers",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "First Room Pot Near Entrance Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
-              "normal_logic, $can_smack"
+              "normal_logic, $has_absurd_soul|soul_pots, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Crawling In Water Token",
+            "name": "First Room Crawling In Water Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
-              "normal_logic, $can_smack"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Crawling Right Column Token",
+            "name": "First Room Crawling Right Column Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_has_projectiles",
-              "normal_logic, $can_smack"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Crawling Left Column Token",
+            "name": "First Room Crawling Left Column Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_has_projectiles",
-              "normal_logic, $can_smack"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Against Far Wall Token",
+            "name": "First Room Against Far Wall Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_has_projectiles, $baby_can_plant_beans",
-              "normal_logic, $can_bring_to_player, $has_projectiles",
-              "normal_logic, deku, magic",
-              "normal_logic, deku, bow"
+              "normal_logic, $has_misc_soul|soul_gs, $can_bring_to_player, $has_projectiles",
+              "normal_logic, $has_misc_soul|soul_gs, deku, magic",
+              "normal_logic, $has_misc_soul|soul_gs, deku, bow"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Left Bugpatch Token",
+            "name": "First Room Left Bugpatch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_bottle",
-              "normal_logic, $can_smack, $has|bottles|1"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $bottleCount|1"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Right Bugpatch Token",
+            "name": "First Room Right Bugpatch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_bottle",
-              "normal_logic, $can_smack, $has|bottles|1"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $bottleCount|1"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Upper Right Bugpatch Token",
+            "name": "First Room Upper Right Bugpatch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_bottle",
-              "normal_logic, $can_smack, $has|bottles|1"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $bottleCount|1"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Monument Room Left Crate Token",
+            "name": "Monument Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Monument Room Left Crate Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
-              "normal_logic, $can_smack"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Monument Room Right Crate Token",
+            "name": "Monument Room Right Crate Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
-              "normal_logic, $can_smack"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Monument Room Crawling Wall Token",
+            "name": "Monument Room Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 6,
+            "clear_as_group": false
+          },
+          {
+            "name": "Monument Room Crawling Wall Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_can_plant_beans, $baby_has_projectiles",
-              "normal_logic, $can_bring_to_player",
-              "normal_logic, $can_smack, $can_plant_beans, $has_explosives",
-              "normal_logic, $can_smack, $can_plant_beans, goron"
+              "normal_logic, $has_misc_soul|soul_gs, $can_bring_to_player",
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $can_plant_beans, $has_explosives",
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $can_plant_beans, goron"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Monument Room Crawling On Monument Token",
+            "name": "Monument Room Crawling On Monument Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_can_plant_beans, $baby_has_projectiles",
-              "normal_logic, $can_smack",
-              "normal_logic, $has_projectiles"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack",
+              "normal_logic, $has_misc_soul|soul_gs, $has_projectiles"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Monument Room Behind Torch Token",
+            "name": "Monument Room Behind Torch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
-              "normal_logic, $can_smack"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Beehive #1 Token",
+            "name": "Monument Room Boulder",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["goron", "$has_explosives"]
+          },
+          {
+            "name": "Monument Room Soil Under Boulder",
+            "chest_unopened_img": "images/icons/soil.png",
+            "visibility_rules": ["soil_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$bottleCount|1"]
+          },
+          {
+            "name": "Giant Jar Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Invisible Rupees Above Giant Jars",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["invisi_sanity"],
+            "item_count": 5,
+            "clear_as_group": false
+          },
+          {
+            "name": "Pottery Room Beehive #1 Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_projectiles",
-              "normal_logic, $can_smack, $has_projectiles"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $has_projectiles"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Beehive #2 Token",
+            "name": "Pottery Room Beehive #2 Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_projectiles",
-              "normal_logic, $can_smack, $has_projectiles"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $has_projectiles"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Small Pot Token",
+            "name": "Pottery Room Beehives",
+            "chest_unopened_img": "images/icons/beehive.png",
+            "visibility_rules": ["hive_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_projectiles"
+            ]
+          },
+          {
+            "name": "Pottery Room Ledge Deku Flower",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Pottery Room Sonata Deku Flower",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, $can_play_song|sonata, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Pottery Room Small Pot Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
-              "normal_logic, $can_smack"
+              "normal_logic, $has_absurd_soul|soul_pots, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Left Large Pot Token",
+            "name": "Pottery Room Left Large Pot Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
-              "normal_logic, $can_smack"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Right Large Pot Token",
+            "name": "Pottery Room Right Large Pot Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
-              "normal_logic, $can_smack"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Behind Vines Token",
+            "name": "Pottery Room Behind Vines Token",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard",
-              "normal_logic, sword",
-              "normal_logic, fairysword",
-              "normal_logic, fiercedeity"
+              "normal_logic, $has_misc_soul|soul_gs, sword",
+              "normal_logic, $has_misc_soul|soul_gs, fairysword",
+              "normal_logic, $has_misc_soul|soul_gs, fiercedeity"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Upper Wall Token",
+            "name": "Pottery Room Upper Wall Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku, $baby_can_bring_to_player",
-              "normal_logic, $can_smack" //need to revisit
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku, $baby_can_bring_to_player",
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Golden Room Crawling Left Wall Token",
+            "name": "Pottery Room Rock",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks"]
+          },
+          {
+            "name": "Gold Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Gold Room Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 2,
+            "clear_as_group": false
+          },
+          {
+            "name": "Gold Room Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            "visibility_rules": ["soil_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$bottleCount|1"]
+          },
+          {
+            "name": "Golden Room Crawling Left Wall Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku, $can_bring_to_player",
-              "normal_logic, $can_smack" //need to revisit
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku, $baby_can_bring_to_player",
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Golden Room Crawling Right Column Token",
+            "name": "Golden Room Crawling Right Column Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player",
-              "normal_logic, $can_smack"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Golden Room Against Far Wall Token",
+            "name": "Golden Room Against Far Wall Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_can_plant_beans",
-              "normal_logic, $can_smack, $can_bring_to_player",
-              "normal_logic, $can_smack, $can_plant_beans"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $can_bring_to_player",
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $can_plant_beans"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Golden Room Beehive Token",
+            "name": "Golden Room Beehive Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_projectiles",
-              "normal_logic, $can_smack, $has_projectiles"
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $has_projectiles"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Tree Room Tall Grass #1 Token",
+            "name": "Gold Room Beehives",
+            "chest_unopened_img": "images/icons/beehive.png",
+            "visibility_rules": ["hive_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku",
-              "normal_logic, $can_smack"
+              "$has_projectiles"
+            ]
+          },
+          {
+            "name": "Tree Room Tall Grass #1 Token",
+            "access_rules": [
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku",
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Tree Room Tall Grass #2 Token",
+            "name": "Tree Room Tall Grass #2 Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku",
-              "normal_logic, $can_smack"
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku",
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Tree Room Tree #1 Token",
+            "name": "Tree Room Tree #1 Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku",
-              "normal_logic, $can_smack"
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku",
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Tree Room Tree #2 Token",
+            "name": "Tree Room Tree #2 Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku",
-              "normal_logic, $can_smack"
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku",
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Tree Room Tree #3 Token",
+            "name": "Tree Room Tree #3 Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $can_play_sonata, deku",
-              "normal_logic, $can_smack"
+              "easy_logic, $baby_can_smack, $can_play_song|sonata, deku",
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Tree Room Beehive Token",
+            "name": "Tree Room Beehive Token",
             "access_rules": [
-              "easy_logic, $baby_can_smack, $baby_has_projectiles, $can_play_sonata, deku",
-              "normal_logic, $can_smack, $has_projectiles"
+              "easy_logic, $baby_can_smack, $baby_has_projectiles, $can_play_song|sonata, deku",
+              "normal_logic, $has_misc_soul|soul_gs, $can_smack, $has_projectiles"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Tree Room Beehives",
+            "chest_unopened_img": "images/icons/beehive.png",
+            "visibility_rules": ["hive_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_projectiles"
+            ]
+          },
+          {
+            "name": "Tree Room Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona",
+              "$can_play_song|storms"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 498,
-            "y": 502
+            "x": 921,
+            "y": 827
+          },
+          {
+            "map": "southern_swamp",
+            "x": 700,
+            "y": 785
           }
         ]
       },
@@ -1037,45 +2408,106 @@
         ],
         "sections": [
           {
+            "name": "Entrance Bombable Wall",
+            "chest_unopened_img": "images/icons/bombwall.png",
+            "access_rules": ["$has_explosives"],
+            "visibility_rules": ["oneoffs"]
+          },
+          {
             "name": "Ramp Upper Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Ramp Lower Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Bottom of Ramp Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_explosives"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
           },
           {
             "name": "Lobby Ceiling Token",
-            "access_rules": ["hookshot, $can_use_fire_arrows, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $can_use_fire_arrows, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
+            "name": "Lobby Ceiling Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": ["web_sanity"]
+          },
+          {
+            "name": "First Room Mask Hitspots",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 9,
+            "clear_as_group": false,
+            "visibility_rules": ["hit_sanity"],
+            "access_rules": ["hookshot, $has_explosives"]
+          },
+          {
+            "name": "Library Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": ["web_sanity"]
+          },
+          {
+            "name": "1st Room Over Entrance Door Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": ["web_sanity"]
+          },
+          {
             "name": "First Room Rafter Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Open Pot #1 Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Open Pot #2 Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Wall Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "1st Floor Pot Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": ["web_sanity"]
+          },
+          {
+            "name": "1st Floor Near Staircase Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": ["web_sanity"]
           },
           {
             "name": "Library Top Bookcase Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1083,7 +2515,7 @@
             "name": "Library Passage Behind Bookcase Front Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1091,7 +2523,7 @@
             "name": "Library Passage Behind Bookcase Rear Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1099,7 +2531,7 @@
             "name": "Library Painting #1 Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1107,7 +2539,7 @@
             "name": "Library Painting #2 Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1115,7 +2547,7 @@
             "name": "Library Rafter Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1123,58 +2555,105 @@
             "name": "Library Bookshelf Hole Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
+            "name": "Library Paintings",
+            "chest_unopened_img": "images/icons/painting.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, hookshot"],
+            "visibility_rules": ["oneoffs"]
+          },
+          {
+            "name": "Basement Near Staircase Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": ["web_sanity"]
+          },
+          {
             "name": "First Room Downstairs Rafter Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Downstairs Open Pot Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Downstairs Behind Staircase Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "First Room Downstairs Breakable Pot Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, $has_absurd_soul|soul_pots, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Basement Covering Crates Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": ["web_sanity"]
           },
           {
             "name": "First Room Downstairs Wall Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
+            "name": "Basement Covering Hole Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": ["web_sanity"]
+          },
+          {
+            "name": "Main Room Lower Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, hookshot, $has_explosives"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Basement Covering Door Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": ["web_sanity"]
+          },
+          {
             "name": "Dining Room Open Pot Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Dining Room Painting Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Dining Room Ceiling Token",
-            "access_rules": ["hookshot, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
             "name": "Dining Room Chandelier #1 Token",
             "access_rules": [
               "easy_logic, hookshot, goron, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1182,7 +2661,7 @@
             "name": "Dining Room Chandelier #2 Token",
             "access_rules": [
               "easy_logic, hookshot, goron, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1190,20 +2669,54 @@
             "name": "Dining Room Chandelier #3 Token",
             "access_rules": [
               "easy_logic, hookshot, goron, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
+            "name": "Coloured Skulls Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, hookshot, $has_explosives"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Dining Room Ceiling Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": ["web_sanity"]
+          },
+          {
+            "name": "Dining Room Paintings",
+            "chest_unopened_img": "images/icons/painting.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, hookshot"],
+            "visibility_rules": ["oneoffs"]
+          },
+          {
             "name": "Storage Room Web Token",
-            "access_rules": ["hookshot, $can_use_fire_arrows, $has_explosives"],
+            "access_rules": ["$has_misc_soul|soul_gs, hookshot, $can_use_fire_arrows, $has_explosives"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Storage Room Ceiling Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": ["web_sanity"]
           },
           {
             "name": "Storage Room North Wall Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1211,15 +2724,22 @@
             "name": "Storage Room Crate Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Storage Room Crates Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, $can_use_fire_arrows, hookshot"],
+            "visibility_rules": ["web_sanity"]
           },
           {
             "name": "Storage Room Hidden Hole Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1227,30 +2747,48 @@
             "name": "Storage Room Ceiling Pot Token",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, hookshot, $has_explosives"
+              "normal_logic, $has_absurd_soul|soul_pots, $has_misc_soul|soul_gs, hookshot, $has_explosives"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
+            "name": "Storage Room Crate",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives, hookshot"]
+          },
+          {
+            "name": "Crate Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, hookshot, $has_explosives"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
             "name": "Coloured Mask Sequence HP",
             "chest_unopened_img": "images/icons/chest.png",
-            "access_rules": ["hookshot, captainhat, bow, $has_explosives"]
+            "access_rules": ["$has_npc_soul|soul_stalchildren, hookshot, captainhat, bow, $has_explosives"]
           },
           {
             "name": "Ocean Spider House Reward",
             "chest_unopened_img": "images/equipment/wallet2.png",
             "access_rules": [
-              "$checkRequirements|required_skull_tokens|skull_gb",
-              "skullsanity_0, hookshot, $can_use_fire_arrows",
-              "skullsanity_2, hookshot, $can_use_fire_arrows"
+              "$checkRequirements|required_skull_tokens|skull_gb, $has_npc_soul|soul_spider_man",
+              "skullsanity_0, $has_npc_soul|soul_spider_man, $has_misc_soul|soul_gs, hookshot, $can_use_fire_arrows",
+              "skullsanity_2, $has_npc_soul|soul_spider_man, $has_misc_soul|soul_gs, hookshot, $can_use_fire_arrows"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 307,
-            "y": 347
+            "x": 554,
+            "y": 599
           }
         ]
       },
@@ -1262,46 +2800,149 @@
         ],
         "sections": [
           {
-            "name": "Dinolfos Chest",
-            "access_rules": [
-              "easy_logic, $baby_can_smack_hard, $can_use_light_arrows",
-              "normal_logic, $can_smack_hard, $can_use_light_arrows"
+            "name": "Entrance Pots",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/icons/pot.png",
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
-            "name": "Wizzrobe Chest",
+            "name": "Entrance Soil",
+            "chest_unopened_img": "images/icons/soil.png",
+            "visibility_rules": ["soil_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$bottleCount|1"]
+          },
+          {
+            "name": "Entrance Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 17,
+            "clear_as_group": false,
+            "access_rules": ["zora", "$can_plant_beans"]
+          },
+          {
+            "name": "Entrance Grass",
+            "item_count": 6,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Dinolfos Chest",
+            "access_rules": [
+              "easy_logic, $baby_can_smack_hard, $can_use_light_arrows",
+              "normal_logic, $has_enemy_soul|soul_dinolfos, $can_smack_hard, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Dinolfos Grass",
+            "item_count": 4,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Wizrobe Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $baby_has_projectiles, $can_use_light_arrows",
-              "normal_logic, $can_smack_hard, $can_use_light_arrows"
+              "normal_logic, $has_enemy_soul|soul_wizrobe, $can_smack_hard, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Wizrobe Grass",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves",
+              "grass_sanity_dungeons_only"
             ]
           },
           {
             "name": "Wart Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $baby_has_projectiles, $baby_has_explosives, $can_use_light_arrows",
-              "normal_logic, $can_smack_hard, $can_use_light_arrows"
+              "normal_logic, $has_enemy_soul|soul_wart, $can_smack_hard, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Wart Grass",
+            "item_count": 8,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves",
+              "grass_sanity_dungeons_only"
             ]
           },
           {
             "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $can_use_light_arrows",
-              "normal_logic, $can_smack_hard, $can_use_light_arrows"
+              "normal_logic, $has_enemy_soul|soul_garo_master, $can_smack_hard, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Garo Master Grass",
+            "item_count": 6,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $can_use_light_arrows"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves",
+              "grass_sanity_dungeons_only"
             ]
           },
           {
             "name": "Completion Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard, $baby_has_projectiles, $baby_has_explosives, $can_use_light_arrows",
-              "normal_logic, $can_smack_hard, $can_use_light_arrows"
+              "normal_logic, $has_npc_soul|soul_spirit_house_owner, $has_enemy_soul|soul_dinolfos, $has_enemy_soul|soul_wizrobe, $has_enemy_soul|soul_wart, $has_enemy_soul|soul_garo_master, $can_smack_hard, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Underwater Pots",
+            "item_count": 6,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/icons/pot.png",
+            "access_rules": ["$has_absurd_soul|soul_pots, $can_use_light_arrows"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 787,
-            "y": 223
+            "x": 1387,
+            "y": 473
           }
         ]
       },
@@ -1314,45 +2955,246 @@
         ],
         "sections": [
           {
+            "ref": "Ikana/Ikana Canyon/Outside Well Cut the Sign"
+          },
+          {
             "name": "Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
             "access_rules": [
-              "easy_logic, gibdo, $baby_has_bottle, $can_play_eponas, $baby_can_plant_beans, $can_use_light_arrows, maskofscents, adultswallet, zora",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, maskofscents",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, adultswallet",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $can_play_soaring, $can_use_lens, goron",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, maskofscents",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, adultswallet",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, $can_use_lens, goron",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
+              "easy_logic, gibdo, $baby_has_bottle, $can_play_song|epona, $baby_can_plant_beans, $can_use_light_arrows, maskofscents, adultswallet, zora",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_plant_beans, maskofscents",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_plant_beans, adultswallet",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_plant_beans, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_plant_beans, $can_play_song|soaring, $can_use_lens, goron",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_use_light_arrows, maskofscents",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_use_light_arrows, adultswallet",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_use_light_arrows, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_use_light_arrows, $can_play_song|soaring, $can_use_lens, goron",
+              "normal_logic, $has_misc_soul|soul_cow, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_play_song|epona, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
+            ]
+          },
+          {
+            "name": "Right Side Cow Grass",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, maskofscents",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, adultswallet",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, $can_play_song|soaring, $can_use_lens, goron",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, maskofscents",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, adultswallet",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, $can_play_song|soaring, $can_use_lens, goron",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
+            ],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Right Side Cow Bushes",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, maskofscents",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, adultswallet",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, $can_play_song|soaring, $can_use_lens, goron",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, maskofscents",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, adultswallet",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, $can_play_song|soaring, $can_use_lens, goron",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
+            ]
+          },
+          {
+            "name": "Right Side Cow Tree",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, maskofscents",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, adultswallet",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, $can_play_song|soaring, $can_use_lens, goron",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, maskofscents",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, adultswallet",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, $can_play_song|soaring, $mountain_village, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, $can_play_song|soaring, $can_use_lens, goron",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
+            ]
+          },
+          {
+            "name": "Right Side Before Big Poe and Cow Grass",
+            "item_count": 4,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $can_plant_beans",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $can_use_light_arrows"
+            ],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
             ]
           },
           {
             "name": "Invisible Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, adultswallet, maskofscents, $can_use_fire_arrows, $can_use_lens",
-              "normal_logic, gibdo, $has|bottles|1, adultswallet",
-              "normal_logic, gibdo, $has|bottles|1, maskofscents"
+              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, adultswallet",
+              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, maskofscents"
+            ]
+          },
+          {
+            "name": "Left Side Deku Flowers",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_gibdos, deku, gibdo, $bottleCount|1, $has_npc_soul|soul_business_scrub, adultswallet",
+              "$has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_gibdos, deku, gibdo, $bottleCount|1, maskofscents, $has_npc_soul|soul_kotake"
+            ],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Left Side Back Room Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, adultswallet",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, maskofscents"
+            ],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Left Side Back Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, maskofscents"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Left Side Before Fairy Fountain Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_gibdos, $has_absurd_soul|soul_deku_flowers, deku, gibdo, $bottleCount|1, $has_npc_soul|soul_business_scrub, adultswallet, $can_use_fire_arrows",
+              "$has_npc_soul|soul_gibdos, $has_absurd_soul|soul_deku_flowers, deku, gibdo, $bottleCount|1 scents, $has_npc_soul|soul_kotake, $can_use_fire_arrows"
+            ],
+            "visibility_rules": ["web_sanity"]
+          },
+          {
+            "name": "Fairy Fountain Fairies",
+            "chest_unopened_img": "images/icons/fairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_gibdos, $has_npc_soul|soul_kotake, $bottleCount|1, gibdo, scents",
+              "$has_npc_soul|soul_gibdos, $has_npc_soul|soul_business_scrub, $bottleCount|1, gibdo, @Ikana/Near Sakon's Hideout Entrance/Scrub Purchase"
+            ]
+          },
+          {
+            "name": "Freezard Room Icicles",
+            "chest_unopened_img": "images/icons/icicle.png",
+            "visibility_rules": ["icicle_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_use_light_arrows",
+              "$has_npc_soul|soul_gibdos, $can_plant_beans, gibdo"
             ]
           },
           {
             "name": "Rightside Torch Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, $baby_can_plant_beans, $can_use_light_arrows",
-              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans",
-              "normal_logic, gibdo, $has|bottles|1, $can_use_light_arrows"
+              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans",
+              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Right Side Back Room Grass",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, bombs",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, captainhat, bow"
+            ],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Right Side Before Chest Room Pots",
+            "item_count": 10,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/icons/pot.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_use_light_arrows"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Right Side Before Chest Room Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, bombs, $can_use_fire_arrows",
+              "$can_use_light_arrows, $can_use_fire_arrows"
+            ],
+            "visibility_rules": ["web_sanity"]
+          },
+          {
+            "name": "Big Poe Pots",
+            "item_count": 4,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/icons/pot.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, bombs, $bottleCount|1, $can_plant_beans",
+              "$has_absurd_soul|soul_grass, $has_npc_soul|soul_gibdos, gibdo, bombs, $can_use_light_arrows"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
             "name": "Final Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, $baby_can_plant_beans, $can_use_light_arrows, bombs, captainhat, bow",
-              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, bombs",
-              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow",
+              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, bombs",
+              "normal_logic, $has_npc_soul|soul_gibdos, gibdo, $bottleCount|1, $can_plant_beans, captainhat, bow",
               "normal_logic, $can_use_light_arrows, $can_use_fire_arrows"
             ]
           }
@@ -1360,8 +3202,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 816,
-            "y": 245
+            "x": 1443,
+            "y": 471
           }
         ]
       },
@@ -1373,25 +3215,142 @@
         ],
         "sections": [
           {
+            "name": "Exterior Grass",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Exterior Corner Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Frozen Eyes Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, $can_use_light_arrows",
+              "$has_absurd_soul|soul_pots, mirrorshield"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Left Side Falling Ceiling Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $can_use_fire_arrows"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Left Side Falling Ceiling Deku Flowers",
+            "item_count": 5,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_fire_arrows"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Left Side Broken Floor Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, $can_use_fire_arrows, deku"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Left Side Broken Floor Deku Flowers",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_fire_arrows"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Left Side Staircase Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, $can_use_fire_arrows, deku"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Right Side Staircase Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_wizrobe, $can_use_fire_arrows, deku"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Throne Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, $can_use_light_arrows",
+              "$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, mirrorshield, deku, lens, $can_use_fire_arrows, goron, keg"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Exterior Deku Flowers",
+            "item_count": 4,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_fire_arrows"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
             "name": "Pillar Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["deku, $can_use_lens, $can_use_fire_arrows"]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_lens, $can_use_fire_arrows"]
           },
           {
             "name": "King Song",
             "chest_unopened_img": "images/equipment/song_elegy_no_text.png",
             "access_rules": [
               "easy_logic, deku, $can_use_lens, $can_use_fire_arrows, goron, powderkeg, mirrorshield, $baby_can_smack_hard, $can_use_light_arrows",
-              "normal_logic, deku, $can_use_lens, $can_use_fire_arrows, goron, powderkeg, mirrorshield",
-              "normal_logic, $can_use_fire_arrows, mirrorshield, $can_use_light_arrows"
+              "normal_logic, $has_enemy_soul|soul_igos, deku, $can_use_lens, $can_use_fire_arrows, goron, powderkeg, mirrorshield",
+              "normal_logic, $has_enemy_soul|soul_igos, $can_use_fire_arrows, mirrorshield, $can_use_light_arrows"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 829,
-            "y": 296
+            "x": 1472,
+            "y": 564
           }
         ]
       },
@@ -1408,19 +3367,74 @@
             "access_rules": ["bow"]
           },
           {
+            "name": "Entrance Room Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 2,
+            "clear_as_group": false
+          },
+          {
+            "name": "Entrance Room Grass",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
+            ]
+          },
+          {
             "name": "Entrance Room Lower Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
-              "deku, $can_use_light_arrows, hookshot, $has|smallkey_st|4",
-              "deku, $can_use_light_arrows, $has_explosives, hookshot, small_key_sanity_off"
+              "deku, $has_absurd_soul|soul_deku_flowers, $can_use_light_arrows, hookshot, $has|smallkey_st|4",
+              "deku, $has_absurd_soul|soul_deku_flowers, $can_use_light_arrows, $has_explosives, hookshot, $small_key_sanity_off"
+            ]
+          },
+          {
+            "name": "Entrance Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Elegy Maze Bombable Wall",
+            "chest_unopened_img": "images/icons/bombwall.png",
+            "access_rules": ["$has_explosives"],
+            "visibility_rules": ["oneoffs"]
+          },
+          {
+            "name": "Elegy Maze Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 7,
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives"]
+          },
+          {
+            "name": "Elegy Maze Grass",
+            "item_count": 6,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_dungeons_only"
             ]
           },
           {
             "name": "Armos Room Back Chest",
             "access_rules": [
               "easy_logic, $can_use_light_arrows, mirrorshield, $baby_has_explosives",
-              "normal_logic, $has_explosives, $can_use_light_arrows",
-              "normal_logic, $has_explosives, mirrorshield"
+              "normal_logic, goron, $has_explosives, $can_use_light_arrows",
+              "normal_logic, goron, $has_explosives, mirrorshield"
             ]
           },
           {
@@ -1435,8 +3449,33 @@
             "name": "Armos Room Lava Chest",
             "access_rules": [
               "easy_logic, $can_use_light_arrows, mirrorshield, $baby_has_explosives, goron",
-              "normal_logic, $has_explosives, $can_use_light_arrows",
-              "normal_logic, $has_explosives, mirrorshield"
+              "normal_logic, $has_enemy_soul|soul_armos, goron, $has_explosives, $can_use_light_arrows",
+              "normal_logic, $has_enemy_soul|soul_armos, goron, $has_explosives, mirrorshield"
+            ]
+          },
+          {
+            "name": "Lower Basement Armos Pots (Front)",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Lower Basement Armos Pots (Back)",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, $can_use_light_arrows, goron",
+              "$has_absurd_soul|soul_pots, mirrorshield, goron"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
@@ -1448,12 +3487,32 @@
             ]
           },
           {
+            "name": "Eyegore Room Light Block Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$can_use_light_arrows, zora"]
+          },
+          {
+            "name": "Eyegore Room Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "zora, goron, $has|smallkey_st|1",
+              "zora, goron, $small_key_sanity_off",
+              "zora, $can_use_light_arrows"
+            ]
+          },
+          {
             "name": "Eyegore Room Dexi Hand Ledge Chest",
             "access_rules": [
               "easy_logic, zora, @Dungeons/Stone Tower Temple/Armos Room Lava Chest, $can_use_light_arrows",
               "normal_logic, $has|smallkey_st|1",
               "normal_logic, $can_use_light_arrows",
-              "normal_logic, $has_explosives, mirrorshield, small_key_sanity_off"
+              "normal_logic, $has_explosives, mirrorshield, $small_key_sanity_off"
             ]
           },
           {
@@ -1470,7 +3529,35 @@
               "easy_logic, @Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, $can_use_light_arrows, mirrorshield",
               "normal_logic, $can_use_light_arrows",
               "normal_logic, $has|smallkey_st|1, mirrorshield",
-              "normal_logic, $has_explosives, mirrorshield, small_key_sanity_off"
+              "normal_logic, $has_explosives, mirrorshield, $small_key_sanity_off"
+            ]
+          },
+          {
+            "name": "Right Side Near Locked Door Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, $can_use_light_arrows",
+              "$has_absurd_soul|soul_pots, $has|smallkey_st|1"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Right Side Underwater Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots,  $can_use_light_arrows, zora",
+              "$has_absurd_soul|soul_pots, $has|smallkey_st|1, zora"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
@@ -1488,56 +3575,126 @@
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, stonemask, $can_use_light_arrows, mirrorshield",
               "normal_logic, $has|smallkey_st|2, mirrorshield",
-              "normal_logic, small_key_sanity_off, mirrorshield, $has_explosives",
+              "normal_logic, $small_key_sanity_off, mirrorshield, $has_explosives",
               "normal_logic, $has|smallkey_st|1, $can_use_light_arrows",
-              "normal_logic, small_key_sanity_off, $can_use_light_arrows"
+              "normal_logic, $small_key_sanity_off, $can_use_light_arrows"
             ]
           },
           {
-            "name": "Air Gust Room Side Chest",
+            "name": "Mirror Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots,  $can_use_light_arrows, $has|smallkey_st|1",
+              "$has_absurd_soul|soul_pots, goron, zora, mirrorshield, $has|smallkey_st|2"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Mirror Room Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["@Dungeons/Stone Tower Temple/Mirror Room Sun Face Chest"]
+          },
+          {
+            "name": "Deku Updraft Deku Flower",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_deku_flowers, deku, goron, zora, mirrorshield, $has|smallkey_st|2",
+              "$has_absurd_soul|soul_deku_flowers, deku, $can_use_light_arrows, $has|smallkey_st|1"
+            ],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Deku Updraft Side Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Mirror Room Sun Face Chest, deku",
-              "normal_logic, $has|smallkey_st|2, mirrorshield, deku",
-              "normal_logic, small_key_sanity_off, mirrorshield, deku, $has_explosives",
-              "normal_logic, $has|smallkey_st|1, deku, $can_use_light_arrows",
-              "normal_logic, small_key_sanity_off, deku, $can_use_light_arrows"
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has|smallkey_st|2, mirrorshield, deku",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $small_key_sanity_off, mirrorshield, deku, $has_explosives",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has|smallkey_st|1, deku, $can_use_light_arrows",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $small_key_sanity_off, deku, $can_use_light_arrows"
             ]
           },
           {
-            "name": "Air Gust Room Goron Switch Chest",
+            "name": "Deku Updraft Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, @Dungeons/Stone Tower Temple/Mirror Room Sun Face Chest"]
+          },
+          {
+            "name": "Deku Updraft Goron Switch Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
-              "easy_logic, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest, goron",
-              "normal_logic, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest, goron"
+              "easy_logic, @Dungeons/Stone Tower Temple/Deku Updraft Side Chest, goron",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest, goron"
+            ]
+          },
+          {
+            "name": "Deku Updraft Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, soul_deku_flowers, deku, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
             "name": "Garo Master Chest",
             "access_rules": [
-              "easy_logic, $baby_can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest",
-              "normal_logic, $can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest"
+              "easy_logic, $baby_can_smack, @Dungeons/Stone Tower Temple/Deku Updraft Side Chest",
+              "normal_logic, $has_enemy_soul|soul_garo_master, $has_absurd_soul|soul_deku_flowers, $can_smack, @Dungeons/Stone Tower Temple/Deku Updraft Side Chest"
             ]
           },
           {
             "name": "After Garo Upside Down Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
-            "access_rules": ["@Dungeons/Inverted Stone Tower Temple/Eyegore Chest"]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest"]
+          },
+          {
+            "name": "Lower Spike Roller Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, @Dungeons/Stone Tower Temple/Garo Master Chest"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Bridge Room Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["hookshot, @Dungeons/Stone Tower Temple/Garo Master Chest"]
           },
           {
             "name": "Eyegore Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Garo Master Chest, $baby_has_explosives, $baby_has_projectiles",
-              "normal_logic, @Dungeons/Stone Tower Temple/Garo Master Chest, hookshot"
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, @Dungeons/Stone Tower Temple/Garo Master Chest, hookshot"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 965,
-            "y": 216
+            "x": 1680,
+            "y": 500
           }
         ]
       },
@@ -1549,70 +3706,205 @@
         ],
         "sections": [
           {
+            "name": "Entrance Room Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 5,
+            "clear_as_group": false
+          },
+          {
             "name": "Entrance Room Sun Face Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": ["$can_use_light_arrows"]
+          },
+          {
+            "name": "Right Side Light Block Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 2,
+            "clear_as_group": false
+          },
+          {
+            "name": "Eastern Air Gust Room Deku Flowers",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
           },
           {
             "name": "Eastern Air Gust Room Fire Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, deku, $can_use_light_arrows",
-              "normal_logic, $can_use_light_arrows, deku"
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $can_use_light_arrows, deku"
             ]
           },
           {
             "name": "Eastern Air Gust Room Frozen Switch Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
-            "access_rules": ["deku, $can_use_fire_arrows, $can_use_light_arrows"]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_fire_arrows, $can_use_light_arrows"]
           },
           {
             "name": "Eastern Air Gust Room Switch Chest",
-            "access_rules": ["deku, $can_use_light_arrows"]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $can_use_light_arrows"]
           },
           {
-            "name": "Wizzrobe Chest",
+            "name": "Dexihand Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 3,
+            "clear_as_group": false
+          },
+          {
+            "name": "Updraft Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, deku, @Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Fire Chest"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Wizrobe Chest",
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, deku, $can_use_light_arrows",
-              "normal_logic, deku, $can_use_light_arrows, $has|smallkey_st|3",
-              "normal_logic, deku, $can_use_light_arrows, small_key_sanity_off, $has_explosives"
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_wizrobe, deku, $can_use_light_arrows, $has|smallkey_st|3, hookshot",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_wizrobe, deku, $can_use_light_arrows, $small_key_sanity_off, $has_explosives"
+            ]
+          },
+          {
+            "name": "Wizrobe Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 5,
+            "access_rules": [
+              "easy_logic, deku, $can_use_light_arrows",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_absurd_soul|soul_pots, deku, hookshot, $can_use_light_arrows, @Dungeons/Inverted Stone Tower Temple/Gomess Chest"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
             "name": "Death Armos Maze Chest",
-            "access_rules": ["@Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest"]
+            "access_rules": ["@Dungeons/Inverted Stone Tower Temple/Wizrobe Chest"]
+          },
+          {
+            "name": "Small Poe Room Deku Flowers",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Small Poe Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Lower Bridge Room Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Lower Bridge Room Deku Flowers",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Gomess Hallway Crates",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["@Dungeons/Inverted Stone Tower Temple/Gomess Chest"]
           },
           {
             "name": "Gomess Chest",
             "access_rules": [
               "easy_logic, deku, $can_use_light_arrows, fairysword, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $can_use_light_arrows, $can_smack_hard"
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_gomess, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $can_use_light_arrows, $can_smack_hard"
+            ]
+          },
+          {
+            "name": "Gomess Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$can_use_light_arrows, $has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, deku, hookshot, $has|smallkey_st|3"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
             ]
           },
           {
             "name": "Eyegore Chest",
             "access_rules": [
-              "easy_logic, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $baby_has_explosives, $baby_has_projectiles",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, $has|smallkey_st|4",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest, small_key_sanity_off"
+              "easy_logic, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $baby_has_explosives, $baby_has_projectiles",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $has|smallkey_st|4",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_enemy_soul|soul_eyegore, @Dungeons/Inverted Stone Tower Temple/Wizrobe Chest, $small_key_sanity_off"
             ]
+          },
+          {
+            "name": "Pre Boss Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 12,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, @Dungeons/Stone Tower Temple/Eyegore Chest"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "Pre Boss Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 3,
+            "clear_as_group": false
+          },
+          {
+            "name": "Pre Boss Zora Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 8,
+            "clear_as_group": false
           },
           {
             "name": "Heart Container",
             "chest_unopened_img": "images/equipment/heart_container.png",
             "access_rules": [
               "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, bosskey_st, $baby_can_smack_hard, fiercedeity",
-              "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, boss_key_sanity_off, $baby_can_smack_hard, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, boss_key_sanity_off, bow",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, boss_key_sanity_off, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, boss_key_sanity_off, giantmask, sword",
-              "normal_logic, twinmold, boss_warps_with_remains, bow",
-              "normal_logic, twinmold, boss_warps_with_remains, fiercedeity",
-              "normal_logic, twinmold, boss_warps_with_remains, giantmask, magic, sword"
+              "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, $boss_key_sanity_off, $baby_can_smack_hard, fiercedeity",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, bow",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, fiercedeity",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, giantmask, sword",
+              "normal_logic, $has_boss_soul|soul_twinmold, twinmold, boss_warps_with_remains, bow",
+              "normal_logic, $has_boss_soul|soul_twinmold, twinmold, boss_warps_with_remains, fiercedeity",
+              "normal_logic, $has_boss_soul|soul_twinmold, twinmold, boss_warps_with_remains, giantmask, magic, sword"
             ]
           },
           {
@@ -1620,33 +3912,27 @@
             "chest_unopened_img": "images/equipment/twinmold.png",
             "access_rules": [
               "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, bosskey_st, $baby_can_smack_hard, fiercedeity",
-              "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, boss_key_sanity_off, $baby_can_smack_hard, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, boss_key_sanity_off, bow",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, boss_key_sanity_off, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, boss_key_sanity_off, giantmask, sword",
-              "normal_logic, twinmold, boss_warps_with_remains, bow",
-              "normal_logic, twinmold, boss_warps_with_remains, fiercedeity",
-              "normal_logic, twinmold, boss_warps_with_remains, giantmask, magic, sword"
+              "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, $boss_key_sanity_off, $baby_can_smack_hard, fiercedeity",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, magic sword",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, bow",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, fiercedeity",
+              "normal_logic, $has_boss_soul|soul_twinmold, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, giantmask, magic sword",
+              "normal_logic, $has_boss_soul|soul_twinmold, twinmold, boss_warps_with_remains, bow",
+              "normal_logic, $has_boss_soul|soul_twinmold, twinmold, boss_warps_with_remains, fiercedeity",
+              "normal_logic, $has_boss_soul|soul_twinmold, twinmold, boss_warps_with_remains, giantmask, magic, sword"
             ]
           },
           {
             "name": "Oath to Order",
             "chest_unopened_img": "images/equipment/song_oath_no_text.png",
             "access_rules": [
-              "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, bosskey_st, $baby_can_smack_hard, fiercedeity",
-              "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, boss_key_sanity_off, $baby_can_smack_hard, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, boss_key_sanity_off, bow",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, boss_key_sanity_off, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, boss_key_sanity_off, giantmask, sword",
-              "normal_logic, twinmold, boss_warps_with_remains, bow",
-              "normal_logic, twinmold, boss_warps_with_remains, fiercedeity",
-              "normal_logic, twinmold, boss_warps_with_remains, giantmask, magic, sword"
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, $clear_stone_tower_temple",
+              "normal_logic, $clear_woodfall",
+              "normal_logic, $clear_snowhead",
+              "normal_logic, $clear_greatbay",
+              "normal_logic, $clear_stone_tower_temple"
             ],
             "hosted_item": "oath_sht"
           }
@@ -1654,8 +3940,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 965,
-            "y": 230
+            "x": 1680,
+            "y": 525
           }
         ]
       }

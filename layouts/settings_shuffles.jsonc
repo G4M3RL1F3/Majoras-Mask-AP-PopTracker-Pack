@@ -1,0 +1,67 @@
+{
+  "settings_shuffles": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": 5,
+    "content": [
+      {
+        "type": "array",
+				"orientation": "vertical",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"content": [
+              {
+                "type": "group",
+                "header": "Shuffles",
+                "content": [
+                  //{
+                  //  "type": "item",
+                  //  "max_width": 260,
+                  //  "item": "swordless"
+                  //},
+                  //{
+                  //  "type": "item",
+                  //  "max_width": 260,
+                  //  "item": "shieldless"
+                  //},
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "shuffle_regional_maps"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "curiosity_shop_trades"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "intro_checks"
+                  },
+                  //{
+                  //  "type": "item",
+                  //  "max_width": 260,
+                  //  "item": "shuffle_boss_remains"
+                  //},
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "shuffle_spiderhouse_reward"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "shuffle_great_fairy_rewards"
+                  }
+                ]
+              }
+						]
+					}
+				]
+      }
+    ]
+  }
+}

@@ -212,6 +212,39 @@
                               "v_alignment": "center",
                               "key": "scarecrows_layouts"
                             }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Souls",
+                    "content": [
+                      {
+                        "type": "dock",
+                        "dock": "left",
+                        "content": [
+                          {
+                            "type": "group",
+                            "header": "NPC Souls",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "npc_souls_layout"
+                            }
+                          },
+                          {
+                            "type": "group",
+                            "header": "Enemy Souls",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "enemy_souls_layout"
+                            }
                           },
                           {
                             "type": "group",
@@ -226,28 +259,6 @@
                           },
                           {
                             "type": "group",
-                            "header": "Misc. Souls",
-                            "dock": "left",
-                            "content": {
-                              "type": "layout",
-                              "h_alignment": "center",
-                              "v_alignment": "center",
-                              "key": "misc_souls_layout"
-                            }
-                          },
-                          {
-                            "type": "group",
-                            "header": "NPC Souls",
-                            "dock": "left",
-                            "content": {
-                              "type": "layout",
-                              "h_alignment": "center",
-                              "v_alignment": "center",
-                              "key": "npc_souls_layout"
-                            }
-                          },
-                          {
-                            "type": "group",
                             "header": "Absurd Souls",
                             "dock": "left",
                             "content": {
@@ -255,6 +266,17 @@
                               "h_alignment": "center",
                               "v_alignment": "center",
                               "key": "absurd_souls_layout"
+                            }
+                          },
+                          {
+                            "type": "group",
+                            "header": "Misc. Souls",
+                            "dock": "left",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "misc_souls_layout"
                             }
                           }
                         ]

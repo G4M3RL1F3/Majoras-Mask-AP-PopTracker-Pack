@@ -23,9 +23,9 @@
             "soul_gorman_brothers",
             "soul_monkey",
             "soul_hungry_goron",
-            "soul_hall_zora",
-            "soul_stalchildren",
-            "soul_gibdos"
+            "soul_potgame_hall_zora",
+            "soul_dampe",
+            "soul_spirit_house_owner"
           ],
           [
             "soul_anjus_grandmother",
@@ -40,9 +40,9 @@
             "soul_swamp_guide",
             "soul_bean_seller",
             "soul_smithy",
-            "soul_pot_game",
-            "soul_dampe",
-            "soul_spirit_house_owner"
+            "soul_lulu",
+            "soul_composer_poe",
+            "soul_moon_kid"
           ],
           [
             "soul_kafei",
@@ -57,9 +57,9 @@
             "soul_kotake",
             "soul_goron_elder",
             "soul_fisherman",
-            "soul_lulu",
-            "soul_composer_poe",
-            "soul_moon_kid"
+            //"soul_evan",
+            "soul_shiro",
+            "soul_pamela_father"
           ],
           [
             "soul_toilet_hand",
@@ -74,8 +74,8 @@
             "soul_koume",
             "soul_medigoron",
             "soul_researcher",
-            "soul_shiro",
-            "soul_pamela_father",
+            "soul_stalchildren",
+            "soul_gibdos",
             ""
           ]
         ]

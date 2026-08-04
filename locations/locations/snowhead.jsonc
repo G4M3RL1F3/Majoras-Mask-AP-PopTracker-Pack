@@ -7,72 +7,629 @@
     "access_rules": ["$path_mountain"],
     "children": [
       {
-        "name": "Mountain Village",
-        "access_rules": [
-          "easy_logic, $baby_mountain_village",
-          "normal_logic, $mountain_village"
+        "name": "Path To Mountain Village",
+        "access_rules": ["bow", "$mountain_village"],
+        "sections": [
+          {
+            "name": "Large Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 11,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives",
+              "goron",
+              "$can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "Lower Small Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 3,
+            "clear_as_group": false
+          },
+          {
+            "name": "Lower Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
+          },
+          {
+            "name": "Upper Small Snowball",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives",
+              "goron",
+              "$can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "Upper Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$has_absurd_soul|soul_trees_bushes, goron",
+              "$has_absurd_soul|soul_tress_bushes, $has_explosives",
+              "$has_absurd_soul|soul_trees_bushes, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_trees_bushes, $can_use_owl|owl_mountain"
+            ]
+          },
+          {
+            "name": "Mountain Path Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_signs, goron",
+              "$has_absurd_soul|soul_signs, $has_explosives",
+              "$has_absurd_soul|soul_signs, $can_use_fire_arrows",
+              "$has_absurd_soul|soul_signs, $can_use_owl|owl_mountain"
+            ],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona",
+              "$can_play_song|storms"
+            ]
+          }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 528,
-            "y": 159
+            "x": 950,
+            "y": 415,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Mountain Village Owl Statue",
+        "access_rules": ["$mountain_village"],
+        "sections": [
+          {
+            "name": "Owl Statue",
+            "visibility_rules": ["owl_sanity"],
+            "chest_unopened_img": "images/owl_statues/owl_mountain_on.png"
+          },
+          {
+            "name": "Owl Statue Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Spring Owl Statue Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs, $clear_snowhead"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Bridge Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           }
         ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 954,
+            "y": 318,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Darmani Graveyard",
+        "access_rules": ["$mountain_village"],
         "sections": [
           {
             "name": "Healing Darmani",
             "chest_unopened_img": "images/masks/goron.png",
-            "access_rules": ["$can_use_lens, $can_play_healing"]
+            "access_rules": ["$can_use_lens, $can_play_song|healing"]
           },
+          {
+            "name": "Outside Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["lens, magic"]
+          },
+          {
+            "name": "Spring Outside Rocks",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $clear_snowhead"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 991,
+            "y": 256
+          }
+        ]
+      },
+      {
+        "name": "Mountain Village Smithy",
+        "access_rules": ["$mountain_village"],
+        "sections": [
+          {
+            "name": "Upgrade",
+            "chest_unopened_img": "images/equipment/sword2.png",
+            "access_rules": [
+              "easy_logic, adultswallet, $baby_clear_snowhead, $baby_has_bottle, @Snowhead/Darmani Graveyard/Healing Darmani, $can_use_fire_arrows",
+              "normal_logic, $has_npc_soul|soul_smithy, adultswallet, $can_use_fire_arrows",
+              "normal_logic, $has_npc_soul|soul_smithy, adultswallet, @Snowhead/Twin Islands Hot Spring Water Grotto/Chest",
+              "normal_logic, $has_npc_soul|soul_smithy, adultswallet, $clear_snowhead"
+            ]
+          },
+          {
+            "name": "Gold Dust Upgrade",
+            "chest_unopened_img": "images/equipment/sword3.png",
+            "access_rules": [
+              "easy_logic, @Snowhead/Mountain Village Smithy/Upgrade, @Snowhead/Goron Racetrack/Race Prize",
+              "normal_logic, $has_npc_soul|soul_smithy, @Snowhead/Mountain Village Smithy/Upgrade, @Snowhead/Goron Racetrack/Race Prize, $bottleCount|1"
+            ]
+          },
+          {
+            "name": "Winter Rooftop Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
+            "visibility_rules": ["scarecrow_sanity"]
+          },
+          {
+            "name": "Spring Rooftop Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$clear_snowhead, $has_npc_soul|soul_scarecrow, ocarina"],
+            "visibility_rules": ["scarecrow_sanity"]
+          },
+          {
+            "name": "Winter Rooftop Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_npc_soul|soul_scarecorw, scarecrow_mtn_village_winter, hookshot"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Outside Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Outdoor Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Nighttime Indoor Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Spring Boulders Under Smithy",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$clear_snowhead"]
+          },
+          {
+            "name": "Spring Rupee Under Smithy",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$clear_snowhead"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 983,
+            "y": 332
+          }
+        ]
+      },
+      {
+        "name": "Hungry Goron",
+        "access_rules": ["$mountain_village"],
+        "sections": [
           {
             "name": "Hungry Goron",
             "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
-              "easy_logic, $can_play_lullaby, $can_use_fire_arrows",
-              "normal_logic, goron, magic, $can_play_lullaby",
-              "normal_logic, goron, $can_use_fire_arrows"
+              "easy_logic, $can_play_song|goronlullaby, $can_use_fire_arrows",
+              "normal_logic, $has_npc_soul|soul_hungry_goron, goron, magic, $can_play_song|goronlullaby",
+              "normal_logic, $has_npc_soul|soul_hungry_goron, goron, $can_use_fire_arrows"
             ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 934,
+            "y": 326
+          }
+        ]
+      },
+      {
+        "name": "Mountain Village",
+        "access_rules": ["$mountain_village"],
+        "sections": [
+          {
+            "name": "Near Grave Pond Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
-            "name": "Smithy Upgrade",
-            "chest_unopened_img": "images/equipment/sword2.png",
-            "access_rules": [
-              "easy_logic, adultswallet, $baby_clear_snowhead, $baby_has_bottle, @Mountain Village/Invisible Ladder Cave Healing Invisible Goron, $can_use_fire_arrows",
-              "normal_logic, adultswallet, $can_use_fire_arrows",
-              "normal_logic, adultswallet, @Twin Islands/Hot Water Grotto Chest",
-              "normal_logic, adultswallet, $clear_snowhead"
-            ]
+            "name": "Near Grave Pond Spring Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs, $clear_snowhead"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
-            "name": "Smithy Gold Dust Upgrade",
-            "chest_unopened_img": "images/equipment/sword3.png",
+            "name": "Large Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
             "access_rules": [
-              "easy_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize",
-              "normal_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize, $has|bottles|1"
-            ]
+              "$path_mountain, goron",
+              "$path_mountain, $has_explosives",
+              "$path_mountain, $can_use_fire_arrows"
+            ],
+            "item_count": 5,
+            "clear_as_group": false
+          },
+          {
+            "name": "Small Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 9,
+            "clear_as_group": false
           },
           {
             "name": "Spring Waterfall Chest",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead",
-              "normal_logic, $clear_snowhead"
+              "normal_logic, $clear_snowhead, lens"
             ]
           },
           {
-            "name": "Spring Ramp Grotto",
+            "name": "Spring Waterfall Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$clear_snowhead, $can_play_song|healing",
+              "$clear_snowhead, $can_play_song|epona",
+              "$clear_snowhead, $can_play_song|storms"
+            ]
+          },
+          {
+            "name": "Spring Ramp Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead",
-              "normal_logic, $clear_snowhead"
+              "normal_logic, $has_absurd_soul|soul_grottos, $clear_snowhead"
             ]
           },
           {
-            "name": "Spring Frog Choir HP",
+            "name": "Spring Ramp Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $clear_snowhead"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
+          },
+          {
+            "name": "Spring Ramp Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$clear_snowhead, $can_play_song|healing",
+              "$clear_snowhead, $can_play_song|epona",
+              "$clear_snowhead, $can_play_song|storms"
+            ]
+          },
+          {
+            "name": "Spring Frog Choir Heart Piece",
             "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
               "easy_logic, dongeromask, $baby_clear_snowhead, $baby_woodfall_temple, $baby_can_smack_hard, $baby_has_explosives, deku, goron, $baby_great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows",
-              "normal_logic, dongeromask, $clear_snowhead, @Dungeons/Woodfall Temple/Woodfall Temple Gekko Chest, $great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows"
+              "normal_logic, $can_get_frog_choir_hp"
             ]
+          },
+          {
+            "name": "Spring Keaton Grass",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Spring Grass",
+            "item_count": 30,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Spring Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $clear_snowhead"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Spring Rooftop Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 1,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $clear_snowhead"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Spring Rock Triangle",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $clear_snowhead"]
+          },
+          {
+            "name": "Spring Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$clear_snowhead"]
+          },
+          {
+            "name": "Spring Tree Beehive",
+            "chest_unopened_img": "images/icons/beehive.png",
+            "visibility_rules": ["hive_sanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$clear_snowhead, $has_projectiles"
+            ]
+          },
+          {
+            "name": "Spring Butterfly Fairies",
+            "chest_unopened_img": "images/icons/butterfly.png",
+            "visibility_rules": ["real_fairysanity"],
+            "item_count": 9,
+            "clear_as_group": false,
+            "access_rules": [
+              "$clear_snowhead, $has_misc_soul|soul_butterfly"
+            ]
+          },
+          {
+            "name": "Twin Islands Entrance Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Twin Islands Entrance Spring Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs, $clear_snowhead"],
+            "visibility_rules": ["sign_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 962,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Tingle Twin Islands",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
+          {
+            "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase"
+          },
+          {
+            "name": "Romani Ranch Map Purchase",
+            "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase "
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1206,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "Twin Islands Ramp",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
+          {
+            "name": "Ramp Grotto Chest",
+            "access_rules": [
+              "easy_logic, $baby_has_explosives, goron, hookshot",
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, goron",
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, $has_npc_soul|soul_scarecrow, scarecrow_twin_islands_winter, hookshot"
+            ]
+          },
+          {
+            "name": "Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives, goron",
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives, $has_npc_soul|soul_scarecrow, scarecrow_twin_islands_winter, hookshot"
+            ],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
+          },
+          {
+            "name": "Ramp Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina"],
+            "visibility_rules": ["scarecrow_sanity"]
+          },
+          {
+            "name": "Ramp Spring Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$clear_snowhead, $has_npc_soul|soul_scarecrow, ocarina"],
+            "visibility_rules": ["scarecrow_sanity"]
+          },
+          {
+            "name": "Near Grotto Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["goron", "$has_npc_soul|soul_scarecrow, scarecrow_twin_islands_winter, hookshot"]
+          },
+          {
+            "name": "Spring Rocks Above Grotto",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $clear_snowhead"]
+          },
+          {
+            "name": "Tree",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$has_absurd_soul|soul_trees_bushes, goron",
+              "$has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_scarecrow, scarecrow_twin_islands_winter, hookshot"
+            ]
+          },
+          {
+            "name": "Spring Tree",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$clear_snowhead, $has_absurd_soul|soul_trees_bushes, goron",
+              "$clear_snowhead, $has_absurd_soul|soul_trees_bushes, $has_npc_soul|soul_scarecrow, scarecrow_twin_islands_spring, hookshot"
+            ]
+          },
+          {
+            "name": "Outside Goron Racetrack Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_signs, goron",
+              "$has_absurd_soul|soul_signs, $has_npc_soul|soul_scarecrow, hookshot, scarecrow_twin_islands_winter"
+            ],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Outside Goron Racetrack Spring Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs, $clear_snowhead"],
+            "visibility_rules": ["sign_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1181,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Twin Islands Hot Spring Water Grotto",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": [
+              "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $can_use_lens, $can_play_song|healing, $baby_clear_snowhead",
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, $can_use_fire_arrows",
+              "normal_logic, $has_absurd_soul|soul_grottos, $can_use_lens, goron, $bottleCount|1, $has_explosives",
+              "normal_logic, $has_absurd_soul|soul_grottos, $clear_snowhead",
+              "normal_logic, $has_absurd_soul|soul_grottos, @Dungeons/Beneath the Well/Invisible Chest, $can_play_song|soaring, owl_mountain"
+            ]
+          },
+          {
+            "name": "Boulders",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["@Snowhead/Twin Islands Hot Spring Water Grotto/Chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1228,
+            "y": 246,
+            "shape": "trapezoid"
           }
         ]
       },
@@ -82,46 +639,34 @@
           "easy_logic, $baby_mountain_village",
           "normal_logic, $mountain_village"
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 587,
-            "y": 148
-          }
-        ],
         "sections": [
           {
-            "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase"
+            "name": "Small Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 3,
+            "clear_as_group": false
           },
           {
-            "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase "
-          },
-          {
-            "name": "Ramp Grotto Chest",
+            "name": "Large Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
             "access_rules": [
-              "easy_logic, $baby_has_explosives, goron, hookshot",
-              "normal_logic, $has_explosives, goron",
-              "normal_logic, $has_explosives, hookshot"
-            ]
+              "$mountain_village, goron",
+              "$mountain_village, $has_explosives",
+              "$mountain_village, $can_use_fire_arrows"
+            ],
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 13,
+            "clear_as_group": false
           },
           {
             "name": "Goron Elder Request",
             "chest_unopened_img": "images/characters/elder_goron.png",
             "access_rules": [
-              "easy_logic, goron, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_has_bottle",
-              "normal_logic, goron, $can_use_fire_arrows",
-              "normal_logic, goron, $has|bottles|1, $can_use_lens",
-              "normal_logic, goron, $has|bottles|1, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring"
-            ]
-          },
-          {
-            "name": "Hot Water Grotto Chest",
-            "access_rules": [
-              "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_clear_snowhead",
-              "normal_logic, $has_explosives, $can_use_fire_arrows",
-              "normal_logic, $can_use_lens, goron, $has|bottles|1, $has_explosives",
-              "normal_logic, $clear_snowhead",
-              "normal_logic, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, $can_play_soaring"
+              "easy_logic, goron, $can_use_fire_arrows, $can_use_lens, $can_play_song|healing, $baby_has_bottle",
+              "normal_logic, $has_npc_soul|soul_goron_elder, goron, $can_use_fire_arrows",
+              "normal_logic, $has_npc_soul|soul_goron_elder, goron, $bottleCount|1, $can_use_lens",
+              "normal_logic, $has_npc_soul|soul_goron_elder, goron, $bottleCount|1, @Dungeons/Beneath the Well/Invisible Chest, $can_play_song|soaring, owl_mountain"
             ]
           },
           {
@@ -139,13 +684,93 @@
             ]
           },
           {
-            "name": "Goron Racetrack Prize",
+            "name": "Spring Grass",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_snowhead"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Spring Underwater Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$clear_snowhead"]
+          },
+          {
+            "name": "Bridge Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
+          },
+          {
+            "name": "Spring Bridge Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": ["$clear_snowhead, $has_absurd_soul|soul_trees_bushes"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1212,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "Goron Racetrack",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
+          {
+            "name": "Race Prize",
             "chest_unopened_img": "images/items/gold_dust.png",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead, powderkeg",
-              "normal_logic, $clear_snowhead, powderkeg",
-              "normal_logic, $clear_snowhead, @Snowhead/Goron Village/Powder Keg Goron Reward"
+              "normal_logic, $clear_snowhead, $can_use_powder_keg"
             ]
+          },
+          {
+            "name": "Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 30,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_pots, $can_use_powder_keg"
+            ],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 10,
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$has_absurd_soul|soul_trees_bushes, $can_use_powder_keg"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1157,
+            "y": 215
           }
         ]
       },
@@ -154,13 +779,6 @@
         "access_rules": [
           "easy_logic, $baby_mountain_village",
           "normal_logic, $mountain_village"
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 677,
-            "y": 59
-          }
         ],
         "sections": [
           {
@@ -177,6 +795,50 @@
               "easy_logic, $baby_has_explosives, $can_use_lens",
               "normal_logic, $has_explosives"
             ]
+          },
+          {
+            "name": "Grass Group 1",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
+          },
+          {
+            "name": "Grass Group 2",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
+          },
+          {
+            "name": "Boulders",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_explosives"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1511,
+            "y": 169
+          },
+          {
+            "map": "goron_village",
+            "x": 850,
+            "y": 80
           }
         ]
       },
@@ -186,63 +848,31 @@
           "easy_logic, $baby_mountain_village",
           "normal_logic, $mountain_village"
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 641,
-            "y": 121
-          }
-        ],
         "sections": [
           {
-            "name": "Baby Goron Lullaby",
-            "chest_unopened_img": "images/equipment/song_lullaby_no_text.png",
+            "name": "Small Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 12,
+            "clear_as_group": false
+          },
+          {
+            "name": "Large Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
             "access_rules": [
-              "easy_logic, goron, $can_play_lullaby, $can_use_lens, $can_play_healing, $can_use_fire_arrows, $baby_has_bottle",
-              "normal_logic, goron, $can_play_lullaby"
-            ]
+              "$mountain_village, goron",
+              "$mountain_village, $has_explosives",
+              "$mountain_village, $can_use_fire_arrows"
+            ],
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 9,
+            "clear_as_group": false
           },
           {
-            "name": "Shop Item 1",
-            "chest_unopened_img": "images/characters/goron_shop.png",
-            "item_count": 500,
-            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["$can_afford|Snowhead/Goron Village/Shop Item 1"]
-          },
-          {
-            "name": "Shop Item 2",
-            "item_count": 500,
-            "chest_unopened_img": "images/characters/goron_shop.png",
-            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["$can_afford|Snowhead/Goron Village/Shop Item 2"]
-          },
-          {
-            "name": "Shop Item 3",
-            "item_count": 500,
-            "chest_unopened_img": "images/characters/goron_shop.png",
-            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["$can_afford|Snowhead/Goron Village/Shop Item 3"]
-          },
-          {
-            "name": "Shop (Spring) Item 1",
-            "item_count": 500,
-            "chest_unopened_img": "images/characters/goron_shop.png",
-            "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": ["$clear_snowhead, $can_afford|Snowhead/Goron Village/Shop (Spring) Item 1"]
-          },
-          {
-            "name": "Shop (Spring) Item 2",
-            "item_count": 500,
-            "chest_unopened_img": "images/characters/goron_shop.png",
-            "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": ["$clear_snowhead, $can_afford|Snowhead/Goron Village/Shop (Spring) Item 2"]
-          },
-          {
-            "name": "Shop (Spring) Item 3",
-            "item_count": 500,
-            "chest_unopened_img": "images/characters/goron_shop.png",
-            "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": ["$clear_snowhead, $can_afford|Snowhead/Goron Village/Shop (Spring) Item 3"]
+            "name": "Outside Goron Shrine Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           },
           {
             "name": "Scrub Purchase",
@@ -250,36 +880,184 @@
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, goron, adultswallet",
-              "normal_logic, goron, adultswallet",
-              "normal_logic, @Snowhead/Goron Village/Freestanding HP, @Southern Swamp/Swamp Business Scrub/Southern Swamp Freestanding HP, moontear, adultswallet"
+              "normal_logic, $has_npc_soul|soul_business_scrub, goron, adultswallet",
+              "normal_logic, $has_npc_soul|soul_business_scrub, @Snowhead/Goron Village/Freestanding Heart Piece, @Southern Swamp/Swamp Business Scrub/Freestanding Heart Piece, moontear, adultswallet"
             ]
           },
           {
-            "name": "Deku Trade",
+            "name": "Deed Trade (as Deku)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": ["deku, swampdeed"]
+            "access_rules": ["normal_logic, $has_npc_soul|soul_business_scrub, deku, swampdeed"]
           },
           {
-            "name": "Freestanding HP",
-            "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["@Goron Village/Deku Trade"]
+            "name": "Business Scrub Deku Flower",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, swampdeed"],
+            "visibility_rules": ["flower_sanity"]
           },
+          {
+            "name": "Freestanding Heart Piece",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": ["$has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, @Snowhead/Goron Village/Deed Trade (as Deku)"]
+          },
+          {
+           "name": "Freestanding Heart Piece (Spring)",
+           "chest_unopened_img": "images/equipment/heart_piece.png",
+           "visibility_rules": ["shopsanity_advanced"],
+           "access_rules": [
+             "easy_logic, $baby_clear_snowhead, deku, swampdeed",
+            "normal_logic, $has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, $clear_snowhead, deku, swampdeed"
+           ]
+          },
+          {
+            "name": "Outside Lens Cave Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1390,
+            "y": 161
+          }
+        ]
+      },
+      {
+        "name": "Keg Goron",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
           {
             "name": "Powder Keg Goron Reward",
             "chest_unopened_img": "images/items/keg.png",
             "access_rules": [
               "easy_logic, powderkeg, $baby_clear_snowhead, $can_use_fire_arrows",
-              "normal_logic, $clear_snowhead",
-              "normal_logic, goron, $can_use_fire_arrows"
+              "normal_logic, $has_npc_soul|soul_medigoron, $clear_snowhead",
+              "normal_logic, $has_npc_soul|soul_medigoron, goron, $can_use_fire_arrows"
             ]
-          //},
-          //{
-          //  "name": "Freestanding HP (Spring)",
-          //  "visibility_rules": ["shopsanity_advanced"],
-          //  "access_rules": [
-          //    "easy_logic, $baby_clear_snowhead, deku, swampdeed",
-          //    "normal_logic, $clear_snowhead, deku, swampdeed"
-          //  ]
+          },
+          {
+            "name": "Outside Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Crate",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$can_use_fire_arrows"]
+          },
+          {
+            "name": "Spring Crate",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$clear_snowhead"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1342,
+            "y": 121
+          }
+        ]
+      },
+      {
+        "name": "Goron Shrine",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
+          {
+            "name": "Baby Goron Lullaby",
+            "chest_unopened_img": "images/equipment/song_lullaby_no_text.png",
+            "access_rules": [
+              "easy_logic, goron, $can_play_song|goronlullaby, $can_use_lens, $can_play_song|healing, $can_use_fire_arrows, $baby_has_bottle",
+              "normal_logic, goron, $can_play_song|goronlullaby"
+            ]
+          },
+          {
+            "name": "Shop Item 1",
+            "chest_unopened_img": "images/characters/goron_shop.png",
+            "item_count": 500,
+            "clear_as_group": true,
+            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
+            "access_rules": ["$has_npc_soul|soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 1"]
+          },
+          {
+            "name": "Shop Item 2",
+            "item_count": 500,
+            "clear_as_group": true,
+            "chest_unopened_img": "images/characters/goron_shop.png",
+            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
+            "access_rules": ["$has_npc_soul|soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 2"]
+          },
+          {
+            "name": "Shop Item 3",
+            "item_count": 500,
+            "clear_as_group": true,
+            "chest_unopened_img": "images/characters/goron_shop.png",
+            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
+            "access_rules": ["$has_npc_soul|soul_shop_owners, $can_afford|Snowhead/Goron Village/Shop Item 3"]
+          },
+          {
+            "name": "Shop (Spring) Item 1",
+            "item_count": 500,
+            "clear_as_group": true,
+            "chest_unopened_img": "images/characters/goron_shop.png",
+            "visibility_rules": ["shopsanity_advanced"],
+            "access_rules": ["$has_npc_soul|soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 1"]
+          },
+          {
+            "name": "Shop (Spring) Item 2",
+            "item_count": 500,
+            "clear_as_group": true,
+            "chest_unopened_img": "images/characters/goron_shop.png",
+            "visibility_rules": ["shopsanity_advanced"],
+            "access_rules": ["$has_npc_soul|soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 2"]
+          },
+          {
+            "name": "Shop (Spring) Item 3",
+            "item_count": 500,
+            "clear_as_group": true,
+            "chest_unopened_img": "images/characters/goron_shop.png",
+            "visibility_rules": ["shopsanity_advanced"],
+            "access_rules": ["$has_npc_soul|soul_shop_owners, $can_afford, $clear_snowhead|Snowhead/Goron Village/Shop (Spring) Item 3"]
+          },
+          {
+            "name": "Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 11,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, goron", "$has_absurd_soul|soul_pots, $has_npc_soul|soul_medigoron"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Rocks",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 16,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, goron", "$has_absurd_soul|soul_rocks, $has_npc_soul|soul_medigoron"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1333,
+            "y": 164
           }
         ]
       },
@@ -287,27 +1065,125 @@
         "name": "Path to Snowhead",
         "access_rules": [
           "easy_logic, $baby_mountain_village",
-          "normal_logic, $mountain_village"
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 499,
-            "y": 149
-          }
+          "normal_logic, $mountain_village",
+          "$snowhead"
         ],
         "sections": [
+          {
+            "name": "By Lower Tree Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Lower Ledge Tree",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$mountain_village, $has_absurd_soul|soul_trees_bushes",
+              "$can_use_owl|owl_snowhead, $has_absurd_soul|soul_trees_bushes, goron, magic"
+            ]
+          },
+          {
+            "name": "Between Ramps Large Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["goron, magic"]
+          },
+          {
+            "name": "Near Grotto Small Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$mountain_village, goron, magic",
+              "$snowhead"
+            ]
+          },
+          {
+            "name": "Near Grotto Large Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$mountain_village, goron, magic",
+              "$snowhead, goron",
+              "$snowhead, $has_explosives",
+              "$snowhead, $can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "Near Grotto Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": [
+              "$has_absurd_soul|soul_trees_bushes, goron, magic",
+              "$has_absurd_soul|soul_trees_bushes, can_use_owl|owl_snowhead"
+            ]
+          },
+          {
+            "name": "Near Grotto Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_signs, goron, magic",
+              "$has_absurd_soul|soul_signs, $can_use_owl|owl_snowhead"
+            ],
+            "visibility_rules": ["sign_sanity"]
+          },
           {
             "name": "Grotto Chest",
             "access_rules": [
               "easy_logic, goron, magic, $baby_has_explosives",
-              "normal_logic, goron, magic, $has_explosives"
+              "normal_logic, $has_absurd_soul|soul_grottos, goron, magic, $has_explosives"
             ]
           },
           {
-            "name": "Scarecrow Pillar HP",
+            "name": "Grotto Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $has_absurd_soul|soul_grottos, goron, magic, $has_explosives"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
+          },
+          {
+            "name": "Scarecrow Pillar Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["goron, $can_use_lens, hookshot"]
+            "access_rules": ["$can_reach_scarecrow|scarecrow_path_snowhead_winter, $has_npc_soul|soul_scarecrow, goron, $can_use_lens, hookshot"]
+          },
+          {
+            "name": "Pillar Winter Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": [
+              "$has_npc_soul|soul_scarecrow, $can_use_owl|owl_snowhead, $can_use_lens",
+              "$has_npc_soul|soul_scarecrow, ocarina, goron, $can_use_lens"
+            ],
+            "visibility_rules": ["scarecrow_sanity"]
+          },
+          {
+            "name": "Pillar Spring Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": [
+              "$clear_snowhead, $has_npc_soul|soul_scarecrow, $can_use_lens"
+            ],
+            "visibility_rules": ["scarecrow_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 931,
+            "y": 259
           }
         ]
       },
@@ -315,27 +1191,1979 @@
         "name": "Snowhead",
         "access_rules": [
           "easy_logic, $baby_mountain_village, goron, magic",
-          "normal_logic, $mountain_village, goron, magic"
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 491,
-            "y": 73
-          }
+          "normal_logic, $mountain_village, goron, magic",
+          "$can_use_owl|owl_snowhead"
         ],
         "sections": [
           {
-            "name": "Snowhead Great Fairy Reward",
+            "name": "Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": [
               "easy_logic, $baby_snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh",
-              "normal_logic, $snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh"
+              "normal_logic, $has_npc_soul|soul_great_fairy, $snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh"
             ]
+          },
+          {
+            "name": "Outside Snowhead Temple Small Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 4,
+            "clear_as_group": false
+          },
+          {
+            "name": "Outside Snowhead Temple Large Snowballs",
+            "chest_unopened_img": "images/icons/snowball.png",
+            "visibility_rules": ["snow_sanity"],
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": ["$snowhead_temple"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 956,
+            "y": 167
+          }
+        ]
+      },
+      {
+        "name": "Snowhead Owl Statue",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $snowhead"
+        ],
+        "sections": [
+          {
+            "name": "Owl Statue",
+            "visibility_rules": ["owl_sanity"],
+            "chest_unopened_img": "images/owl_statues/owl_snowhead_on.png"
+          },
+          {
+            "name": "Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 937,
+            "y": 237,
+            "shape": "diamond"
           }
         ]
       }
+//      {
+//        "name": "Path to Mountain Village Large Snowballs",
+//        "sections": [
+//          {
+//            "name": "Large Snowballs",
+//            "ref": "Snowhead/Path To Mountain Village/Large Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 425,
+//            "y": 350,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 250,
+//            "y": 680,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 220,
+//            "y": 880,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 375,
+//            "y": 900,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 650,
+//            "y": 990,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 750,
+//            "y": 950,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Path to Mountain Village Lower Small Snowballs",
+//        "sections": [
+//          {
+//            "name": "Lower Small Snowballs",
+//            "ref": "Snowhead/Path To Mountain Village/Lower Small Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 700,
+//            "y": 900,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 350,
+//            "y": 825,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 300,
+//            "y": 920,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Path to Mountain Village Upper Small Snowball",
+//        "sections": [
+//          {
+//            "name": "Snowball",
+//            "ref": "Snowhead/Path To Mountain Village/Upper Small Snowball"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 320,
+//            "y": 400,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Path to Mountain Village Lower Trees",
+//        "sections": [
+//          {
+//            "name": "Lower Trees",
+//            "ref": "Snowhead/Path To Mountain Village/Lower Trees"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 620,
+//            "y": 975,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 310,
+//            "y": 810,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Path to Mountain Village Upper Trees",
+//        "sections": [
+//          {
+//            "name": "Upper Trees",
+//            "ref": "Snowhead/Path To Mountain Village/Upper Trees"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 280,
+//            "y": 340,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 225,
+//            "y": 550,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Path to Montain Village Cut the Sign",
+//        "sections": [
+//          {
+//            "name": "Cut the Sign",
+//            "ref": "Snowhead/Path To Mountain Village/Mountain Path Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 225,
+//            "y": 375,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Path to Mountain Village Gossip Fairy",
+//        "sections": [
+//          {
+//            "name": "Gossip Fairy",
+//            "ref": "Snowhead/Path To Mountain Village/Gossip Fairy"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_mountain_village",
+//            "x": 250,
+//            "y": 1025,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Mountain Village Large Snowballs",
+//        "sections": [
+//          {
+//            "name": "Large Snowballs",
+//            "ref": "Snowhead/Mountain Village/Large Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 310,
+//            "y": 675,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 330,
+//            "y": 525,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 490,
+//            "y": 460,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 915,
+//            "y": 635,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 825,
+//            "y": 665,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Mountain Village Small Snowballs",
+//        "sections": [
+//          {
+//            "name": "Small Snowballs",
+//            "ref": "Snowhead/Mountain Village/Small Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 360,
+//            "y": 510,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 460,
+//            "y": 460,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 725,
+//            "y": 460,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 650,
+//            "y": 660,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 850,
+//            "y": 600,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Goron Graveyard Healing Darmani",
+//        "sections": [
+//          {
+//            "name": "Healing Darmani",
+//            "ref": "Snowhead/Mountain Village/Healing Darmani"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 610,
+//            "y": 75
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Outside Goron Graveyard Snowballs",
+//        "sections": [
+//          {
+//            "name": "Snowballs",
+//            "ref": "Snowhead/Mountain Village/Outside Darmani Graveyard Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 590,
+//            "y": 125,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Mountain Village Hungry Goron",
+//        "sections": [
+//          {
+//            "name": "Hungry Goron",
+//            "ref": "Snowhead/Mountain Village/Hungry Goron"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 285,
+//            "y": 580
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Bridge Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 450,
+//            "y": 565,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Owl Statue"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 400,
+//            "y": 460,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Owl Statue Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 330,
+//            "y": 480,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Smithy Upgrade"
+//          },
+//          {
+//            "ref": "Snowhead/Mountain Village/Smithy Gold Dust Upgrade"
+//          },
+//          {
+//            "ref": "Snowhead/Mountain Village/Outside Smithy Cut the Sign"
+//          },
+//          {
+//            "ref": "Snowhead/Mountain Village/Smithy Outdoor Pots"
+//          },
+//          {
+//            "ref": "Snowhead/Mountain Village/Smithy Nighttime Indoor Pots"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 550,
+//            "y": 650
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Winter Rooftop Pot"
+//          },
+//          {
+//            "ref": "Snowhead/Mountain Village/Winter Rooftop Scarecrow"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 625,
+//            "y": 625,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Near Grave Pond Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 600,
+//            "y": 440,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Small Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 350,
+//            "y": 540,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Twin Islands Entrance Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_winter",
+//            "x": 890,
+//            "y": 685,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Owl Statue Spring Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 250,
+//            "y": 430,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Near Grave Pond Spring Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 515,
+//            "y": 400,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Rooftop Scarecrow"
+//          },
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Rooftop Pot"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 550,
+//            "y": 575,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Waterfall Chest"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 200,
+//            "y": 500
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Waterfall Gossip Fairy"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 280,
+//            "y": 700,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Ramp Grotto Chest"
+//          },
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Ramp Grotto Grass"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 950,
+//            "y": 135,
+//            "shape": "trapezoid"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Ramp Gossip Fairy"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 1200,
+//            "y": 200,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Frog Choir Heart Piece"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 300,
+//            "y": 625
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Keaton Grass"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 600,
+//            "y": 675,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Grass"
+//          },
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Butterfly Fairies"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 500,
+//            "y": 480,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Grass"
+//          },
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Butterfly Fairies"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 385,
+//            "y": 700,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Pots"
+//          },
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Boulders Under Smithy"
+//          },
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Rupee Under Smithy"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 450,
+//            "y": 600,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 280,
+//            "y": 475,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 360,
+//            "y": 425,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Tree Beehive"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 650,
+//            "y": 575,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Outside Darmani Grave Rocks"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 480,
+//            "y": 90,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Spring Rock Triangle"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 575,
+//            "y": 625,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Mountain Village/Twin Islands Entrance Spring Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "mountain_village_spring",
+//            "x": 800,
+//            "y": 635,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase"
+//          },
+//          {
+//            "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase "
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 445,
+//            "y": 325
+//          },
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 545,
+//            "y": 345
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Trigger From First Island",
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Ramp Scarecrow"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 225,
+//            "y": 400,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Ramp Grotto Chest"
+//          },
+//          {
+//            "ref": "Snowhead/Twin Islands/Ramp Grotto Grass"
+//          },
+//          {
+//            "ref": "Snowhead/Twin Islands/Near Grotto Snowballs"
+//          },
+//          {
+//            "ref": "Snowhead/Twin Islands/Ramp Tree"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 275,
+//            "y": 685,
+//            "shape": "trapezoid"
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Trigger From First Island",
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Ramp Scarecrow"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 225,
+//            "y": 400,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Small Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 450,
+//            "y": 350,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 475,
+//            "y": 950,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 410,
+//            "y": 810,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Large Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 290,
+//            "y": 315,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 290,
+//            "y": 440,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 305,
+//            "y": 610,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 380,
+//            "y": 330,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 435,
+//            "y": 670,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 440,
+//            "y": 250,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 485,
+//            "y": 400,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 555,
+//            "y": 605,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 565,
+//            "y": 465,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 695,
+//            "y": 230,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 700,
+//            "y": 475,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 750,
+//            "y": 370,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Goron Elder Request"
+//          },
+//          {
+//            "ref": "Snowhead/Twin Islands/Large Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 565,
+//            "y": 180
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Bridge Trees"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 420,
+//            "y": 505,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 585,
+//            "y": 250,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Outside Goron Racetrack Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 120,
+//            "y": 500,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Goron Racetrack Pots"
+//          },
+//          {
+//            "ref": "Snowhead/Twin Islands/Goron Racetrack Trees"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 150,
+//            "y": 360,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Hot Water Grotto Chest"
+//          },
+//          {
+//            "ref": "Snowhead/Twin Islands/Hot Water Grotto Boulders"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_winter",
+//            "x": 600,
+//            "y": 300,
+//            "shape": "trapezoid"
+//          },
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 730,
+//            "y": 320,
+//            "shape": "trapezoid"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Goron Racetrack Prize"
+//          },
+//          {
+//            "ref": "Snowhead/Twin Islands/Goron Racetrack Pots"
+//          },
+//          {
+//            "ref": "Snowhead/Twin Islands/Goron Racetrack Trees"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 200,
+//            "y": 425
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Outside Goron Racetrack Spring Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 195,
+//            "y": 580,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Spring Grass"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 600,
+//            "y": 975,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Ramp Grotto Chest"
+//          },
+//          {
+//            "ref": "Snowhead/Twin Islands/Ramp Grotto Grass"
+//          },
+//          {
+//            "ref": "Snowhead/Twin Islands/Spring Rocks Above Grotto"
+//          },
+//          {
+//            "ref": "Snowhead/Twin Islands/Spring Ramp Tree"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 390,
+//            "y": 765,
+//            "shape": "trapezoid"
+//          }
+//        ]
+//      },
+//      {
+//        "name": "Trigger From First Island",
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Ramp Spring Scarecrow"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 300,
+//            "y": 475,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Spring Underwater Ramp Chest"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 775,
+//            "y": 635
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Spring Underwater Cave Chest"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 400,
+//            "y": 300
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Spring Bridge Trees"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 540,
+//            "y": 555,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 700,
+//            "y": 260,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Twin Islands/Spring Underwater Rupees"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 440,
+//            "y": 430,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 565,
+//            "y": 230,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 780,
+//            "y": 180,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "twin_islands_spring",
+//            "x": 890,
+//            "y": 475,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Lens Cave/Center Chest"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "lens_cave",
+//            "x": 600,
+//            "y": 400
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Lens Cave/Invisible Chest"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "lens_cave",
+//            "x": 625,
+//            "y": 250
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Lens Cave/Rock Chest"
+//          },
+//          {
+//            "ref": "Snowhead/Lens Cave/Boulders"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "lens_cave",
+//            "x": 250,
+//            "y": 500
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Lens Cave/Boulders"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "lens_cave",
+//            "x": 800,
+//            "y": 300,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "lens_cave",
+//            "x": 850,
+//            "y": 575,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Lens Cave/Grass Group 1"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "lens_cave",
+//            "x": 675,
+//            "y": 525,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Lens Cave/Grass Group 2"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "lens_cave",
+//            "x": 500,
+//            "y": 350,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Goron Village/Small Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "goron_village",
+//            "x": 145,
+//            "y": 410,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 150,
+//            "y": 450,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 155,
+//            "y": 215,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 200,
+//            "y": 245,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 350,
+//            "y": 160,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 415,
+//            "y": 310,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 405,
+//            "y": 600,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 460,
+//            "y": 400,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 530,
+//            "y": 550,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 590,
+//            "y": 190,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 620,
+//            "y": 460,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 675,
+//            "y": 355,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Goron Village/Large Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "goron_village",
+//            "x": 80,
+//            "y": 425,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 145,
+//            "y": 255,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 205,
+//            "y": 575,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 265,
+//            "y": 200,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 335,
+//            "y": 225,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 370,
+//            "y": 595,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 455,
+//            "y": 175,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 495,
+//            "y": 500,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_village",
+//            "x": 665,
+//            "y": 470,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Goron Village/Scrub Purchase"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Deed Trade (as Deku)"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Business Scrub Deku Flower"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "goron_village",
+//            "x": 615,
+//            "y": 530
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Goron Village/Freestanding Heart Piece"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Spring Freestanding Heart Piece"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "goron_village",
+//            "x": 665,
+//            "y": 545
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Goron Village/Powder Keg Goron Reward"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Outside Keg Goron Cut the Sign"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Keg Goron Crate"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Spring Keg Goron Crate"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "goron_village",
+//            "x": 180,
+//            "y": 160
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Goron Village/Outside Lens Cave Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "goron_village",
+//            "x": 680,
+//            "y": 240,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Goron Village/Outside Goron Shrine Cut the Sign"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Baby Goron Lullaby"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Shop Item 1"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Shop Item 2"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Shop Item 3"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Shop (Spring) Item 1"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Shop (Spring) Item 2"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Shop (Spring) Item 3"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Goron Shrine Pots"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Goron Shrine Rocks"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "goron_village",
+//            "x": 375,
+//            "y": 510
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Goron Village/Shop Item 1"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Shop Item 2"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Shop Item 3"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Shop (Spring) Item 1"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Shop (Spring) Item 2"
+//          },
+//          {
+//            "ref": "Snowhead/Goron Village/Shop (Spring) Item 3"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "goron_shrine",
+//            "x": 240,
+//            "y": 460,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Goron Village/Goron Shrine Pots"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "goron_shrine",
+//            "x": 350,
+//            "y": 650,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_shrine",
+//            "x": 700,
+//            "y": 520,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_shrine",
+//            "x": 925,
+//            "y": 180,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Goron Village/Goron Shrine Rocks"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "goron_shrine",
+//            "x": 190,
+//            "y": 410,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_shrine",
+//            "x": 200,
+//            "y": 600,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_shrine",
+//            "x": 260,
+//            "y": 740,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_shrine",
+//            "x": 455,
+//            "y": 350,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_shrine",
+//            "x": 560,
+//            "y": 200,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_shrine",
+//            "x": 590,
+//            "y": 525,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_shrine",
+//            "x": 670,
+//            "y": 430,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "goron_shrine",
+//            "x": 750,
+//            "y": 340,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Goron Village/Baby Goron Lullaby"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "goron_shrine",
+//            "x": 930,
+//            "y": 100
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Path to Snowhead/By Lower Tree Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_snowhead",
+//            "x": 40,
+//            "y": 125,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Path to Snowhead/Lower Ledge Tree"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_snowhead",
+//            "x": 60,
+//            "y": 135,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Path to Snowhead/Between Ramps Large Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_snowhead",
+//            "x": 155,
+//            "y": 125,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_snowhead",
+//            "x": 525,
+//            "y": 80,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Path to Snowhead/Grotto Chest"
+//          },
+//          {
+//            "ref": "Snowhead/Path to Snowhead/Grotto Grass"
+//          },
+//          {
+//            "ref": "Snowhead/Path to Snowhead/Near Grotto Small Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_snowhead",
+//            "x": 620,
+//            "y": 125,
+//            "shape": "trapezoid"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Path to Snowhead/Near Grotto Large Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_snowhead",
+//            "x": 650,
+//            "y": 85,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_snowhead",
+//            "x": 725,
+//            "y": 85,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Path to Snowhead/Near Grotto Trees"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_snowhead",
+//            "x": 655,
+//            "y": 100,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_snowhead",
+//            "x": 720,
+//            "y": 70,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "path_to_snowhead",
+//            "x": 785,
+//            "y": 60,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Path to Snowhead/Scarecrow Pillar Heart Piece"
+//          },
+//          {
+//            "ref": "Snowhead/Path to Snowhead/Pillar Winter Scarecrow"
+//          },
+//          {
+//            "ref": "Snowhead/Path to Snowhead/Pillar Spring Scarecrow"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "path_to_snowhead",
+//            "x": 355,
+//            "y": 240
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Snowhead/Owl Statue"
+//          },
+//          {
+//            "ref": "Snowhead/Snowhead/Outside Snowhead Temple Small Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "snowhead",
+//            "x": 30,
+//            "y": 550,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Snowhead/Owl Statue Cut the Sign"
+//          },
+//          {
+//            "ref": "Snowhead/Snowhead/Outside Snowhead Temple Small Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "snowhead",
+//            "x": 45,
+//            "y": 520,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Snowhead/Outside Snowhead Temple Small Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "snowhead",
+//            "x": 65,
+//            "y": 540,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "snowhead",
+//            "x": 75,
+//            "y": 520,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Snowhead/Outside Snowhead Temple Large Snowballs"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "snowhead",
+//            "x": 730,
+//            "y": 260,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "snowhead",
+//            "x": 690,
+//            "y": 260,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "snowhead",
+//            "x": 700,
+//            "y": 350,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "snowhead",
+//            "x": 820,
+//            "y": 425,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "snowhead",
+//            "x": 915,
+//            "y": 415,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "snowhead",
+//            "x": 1000,
+//            "y": 350,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Snowhead/Snowhead/Great Fairy Reward"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "snowhead",
+//            "x": 870,
+//            "y": 400
+//          }
+//        ]
+//      }
     ]
   }
 ]

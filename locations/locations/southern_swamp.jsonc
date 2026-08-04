@@ -6,58 +6,162 @@
     "overlay_background": "#000000",
     "children": [
       {
-        "name": "Road to Swamp Tree HP",
+        "name": "Road to Swamp",
         "sections": [
           {
-            "name": "Road to Swamp Tree HP",
+            "name": "Tree Heart Piece",
               "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
               "normal_logic, $has_projectiles"
+            ]
+          },
+          {
+            "name": "Grass Group 1",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Grass Group 2",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Entrance Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 976,
+            "y": 695
+          }
+        ]
+      },
+      {
+        "name": "Road to Swamp Grotto",
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": ["$has_absurd_soul|soul_grottos"]
+          },
+          {
+            "name": "Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 537,
-            "y": 389
+            "x": 954,
+            "y": 707,
+            "shape": "trapezoid"
           }
         ]
       },
-
       {
-        "name": "Road to Swamp Grotto Chest",
+        "name": "Path to Shooting Gallery",
         "sections": [
           {
-            "name": "Road to Swamp Grotto Chest"
+            "name": "Road to Swamp Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
+          },
+          {
+            "name": "Road to Swamp Deku Flowers",
+            "item_count": 8,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Road to Swamp Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona",
+              "$can_play_song|storms"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 525,
-            "y": 389
+            "x": 1007,
+            "y": 690,
+            "shape": "diamond"
           }
         ]
       },
       {
         "name": "Swamp Shooting Gallery",
-        "access_rules": ["bow"],
         "chest_unopened_img": "images/icons/archery.png",
         "sections": [
           {
-            "name": "Swamp Shooting Gallery 2120 Points"
+            "name": "Score 2120 Points",
+            "access_rules": ["$has_npc_soul|soul_archery_man, bow"]
           },
           {
-            "name": "Swamp Shooting Gallery 2180 Points"
+            "name": "Score 2180 Points",
+            "access_rules": ["$has_npc_soul|soul_archery_man, bow"]
+          },
+          {
+            "name": "Outside Archery Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Outside Archery Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 571,
-            "y": 390
+            "x": 1068,
+            "y": 702
           }
         ]
       },
@@ -73,18 +177,59 @@
             "chest_unopened_img": "images/equipment/rmap_woodfall.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles"
+              "normal_logic, $has_npc_soul|soul_tingle, $has_projectiles"
             ]
           },
           {
+            "name": "Snowhead Map Purchase",
             "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase "
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 545,
-            "y": 419
+            "x": 977,
+            "y": 711
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Owl Statue",
+        "sections": [
+          {
+            "name": "Owl Statue",
+            "visibility_rules": ["owl_sanity"],
+            "chest_unopened_img": "images/owl_statues/owl_swamp_on.png"
+          },
+          {
+            "name": "Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Post Dungeon Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 950,
+            "y": 737,
+            "shape": "diamond"
           }
         ]
       },
@@ -92,31 +237,45 @@
         "name": "Swamp Business Scrub",
         "sections": [
           {
-            "name": "Southern Swamp Deku Trade",
+            "name": "Deed Trade (as Human)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": ["landdeed"]
+            "access_rules": ["$has_npc_soul|soul_business_scrub, landdeed"]
           },
           {
-            "name": "Southern Swamp Deku Scrub Purchase",
+            "name": "Scrub Purchase (as Deku)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, deku, $can_plant_beans",
-              "normal_logic, deku, $can_plant_beans",
-              "normal_logic, landdeed, moontear, can_plant_beans"
+              "normal_logic, $has_npc_soul|soul_business_scrub, deku, $can_plant_beans",
+              "normal_logic, $has_npc_soul|soul_business_scrub, landdeed, moontear, $can_plant_beans"
             ]
           },
           {
-            "name": "Southern Swamp Freestanding HP",
+            "name": "Freestanding Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["deku, landdeed"]
+            "access_rules": ["$has_npc_soul|soul_business_scrub, $has_absurd_soul|soul_deku_flowers, deku, landdeed"]
+          },
+          {
+            "name": "Deku Flower",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, landdeed"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Post Dungeon Deku Flower",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$clear_woodfall, $has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 565,
-            "y": 438
+            "x": 998,
+            "y": 762
           }
         ]
       },
@@ -124,16 +283,16 @@
         "name": "Swamp Tourist Center",
         "sections": [
           {
-            "name": "Southern Swamp Healing Koume",
+            "name": "Healing Koume",
             "chest_unopened_img": "images/items/pictobox.png",
-            "access_rules": ["normal_logic, $has|bottles|1"]
+            "access_rules": ["$has_npc_soul|soul_koume, $bottleCount|1"]
           },
           {
-            "name": "Southern Swamp Boat Archery",
+            "name": "Boat Archery",
             "chest_unopened_img": "images/icons/archery.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, redpotion, chateau, bow",
-              "normal_logic, $clear_woodfall, $has|bottles|1, bow"
+              "normal_logic, $has_npc_soul|soul_koume, $clear_woodfall, $bottleCount|1, bow"
             ]
           },
           {
@@ -141,7 +300,7 @@
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
               "easy_logic, $baby_deku_palace, pictobox",
-              "normal_logic, pictobox"
+              "normal_logic, $has_npc_soul|soul_tingle, $has_npc_soul|soul_swamp_guide, pictobox"
             ]
           },
           {
@@ -149,7 +308,7 @@
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
               "easy_logic, $baby_deku_palace, pictobox",
-              "normal_logic, pictobox"
+              "normal_logic, $has_npc_soul|soul_swamp_guide, pictobox"
             ]
           },
           {
@@ -157,31 +316,60 @@
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": [
               "easy_logic, $baby_deku_palace, pictobox",
-              "normal_logic, pictobox"
+              "normal_logic, $has_npc_soul|soul_swamp_guide, pictobox"
             ]
+          },
+          {
+            "name": "Grass Near Tourist Center",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Post Dungeon Grass Near Tourist Center",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Tourist Centre Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 553,
-            "y": 438
+            "x": 979,
+            "y": 771
           }
         ]
       },
       {
-        "name": "Southern Swamp Kotake Item",
+        "name": "Kotake Item",
         "sections": [
           {
-            "name": "Southern Swamp Kotake Item",
-            "chest_unopened_img": "images/items/red_potion.png"
+            "name": "Give red or blue potion to Koume",
+            "chest_unopened_img": "images/items/red_potion.png",
+            "access_rules": ["$has_npc_soul|soul_koume"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 645,
-            "y": 423
+            "x": 1213,
+            "y": 723
           },
           {
             "map": "woods_of_mystery",
@@ -191,13 +379,14 @@
         ]
       },
       {
-        "name": "Southern Swamp Witch Shop",
+        "name": "Witch Shop",
         "sections": [
           {
             "name": "Item 1",
             "chest_unopened_img": "images/items/blue_potion.png",
             "item_count": 500,
-            "access_rules": ["maskofscents, $has|bottles|1, $can_afford|$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 1"],
+            "clear_as_group": true,
+            "access_rules": ["$has_npc_soul|soul_kotake, maskofscents, $bottleCount|1, $can_afford|$can_afford|Southern Swamp/Witch Shop/Item 1"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -207,7 +396,8 @@
             "name": "Item 2",
             "chest_unopened_img": "images/items/green_potion.png",
             "item_count": 500,
-            "access_rules": ["$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 2"],
+            "clear_as_group": true,
+            "access_rules": ["$has_npc_soul|soul_kotake, $can_afford|Southern Swamp/Witch Shop/Item 2"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -217,138 +407,631 @@
             "name": "Item 3",
             "chest_unopened_img": "images/items/red_potion.png",
             "item_count": 500,
-            "access_rules": ["$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 3"],
+            "clear_as_group": true,
+            "access_rules": ["$has_npc_soul|soul_kotake, $can_afford|Southern Swamp/Witch Shop/Item 3"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
             ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 580,
-            "y": 454
-          }
-        ]
-      },
-      {
-        "name": "Southern Swamp Day 2 Grotto Chest",
-        "sections": [
-          {
-            "name": "Southern Swamp Day 2 Grotto Chest"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 650,
-            "y": 440
           },
           {
-            "map": "woods_of_mystery",
-            "x": 461,
-            "y": 461
+            "name": "Shop Interior Rupee",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "clear_as_group": false
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1177,
+            "y": 751,
+            "shape": "diamond"
           }
         ]
       },
       {
-        "name": "Deku Palace Monkey Song",
-        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "name": "Outside Witch Shop",
         "sections": [
           {
-            "name": "Deku Palace Monkey Song",
-              "chest_unopened_img": "images/equipment/song_sonata_no_text.png",
+            "name": "Exterior Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          // {
+          //   "name": "Post Dungeon Exterior Cut the Sign",
+          //   "chest_unopened_img": "images/absurd/sign.png",
+          //   "access_rules": ["$has_absurd_soul|soul_signs"],
+          //   "visibility_rules": ["sign_sanity"]
+          // },
+          {
+            "name": "Grass Group 1",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Grass Group 2",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Near Gossip Stone Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Post Dungeon Grass Near Witch Shop Group 1",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Post Dungeon Grass Near Witch Shop Group 2",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Post Dungeon Near Gossip Stone Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass, $clear_woodfall"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Witch Shop Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Post Dungeon Witch Shop Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $clear_woodfall"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Witch Shop Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
             "access_rules": [
-              "easy_logic, ocarina, $baby_can_plant_beans, deku, $baby_has_projectiles",
-              "normal_logic, ocarina, $can_plant_beans, deku"
+              "$can_play_song|healing",
+              "$can_play_song|epona",
+              "$can_play_song|storms"
+            ]
+          },
+          {
+            "name": "Post Dungeon Witch Shop Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$clear_woodfall, $can_play_song|healing",
+              "$clear_woodfall, $can_play_song|epona",
+              "$clear_woodfall, $can_play_song|storms"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 497,
-            "y": 555
+            "x": 1141,
+            "y": 754,
+            "shape": "diamond"
           }
         ]
       },
       {
-        "name": "Deku Palace HP",
-        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "name": "Woods of Mystery",
         "sections": [
           {
-            "name": "Deku Palace HP",
-            "access_rules": ["deku"],
-            "chest_unopened_img": "images/equipment/heart_piece.png"
+            "name": "Day 2 Grotto Chest",
+            "ref": "Southern Swamp/Woods of Mystery Day 2 Grotto/Chest"
+          },
+          {
+            "name": "Day 2 Grotto Grass",
+            "ref": "Southern Swamp/Woods of Mystery Day 2 Grotto/Grass"
+          },
+          {
+            "name": "Outside Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Grass",
+            "item_count": 20,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Any Day Deku Flowers",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Day 2 Unique Grass",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Days 1&3 Deku Flowers",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Day 2 Deku Flowers",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Day 3 Unique Grass",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field"
+            ]
+          },
+          {
+            "name": "Day 1 End Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Day 2 End Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Day 3 End Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 514,
-            "y": 558
+            "x": 1172,
+            "y": 717
+          }
+        ]
+      },
+      {
+        "name": "Woods of Mystery Day 2 Grotto",
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": ["$has_absurd_soul|soul_grottos"]
+          },
+          {
+            "name": "Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woods_of_mystery",
+            "x": 461,
+            "y": 461,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Beyond Potion Shop",
+        "sections": [
+          {
+            "name": "Southern Swamp Frog",
+            "chest_unopened_img": "images/frogs/frog_blue.png",
+            "visibility_rules": ["frogsanity"],
+            "access_rules": ["dongero"]
+          },
+          {
+            "name": "Flower Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["deku", "zora"]
+          },
+          {
+            "name": "Near Frog Beehive",
+            "chest_unopened_img": "images/icons/beehive.png",
+            "visibility_rules": ["hive_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["deku, $has_projectiles"]
+          },
+          {
+            "name": "Swamp Flower Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs, zora", "$has_absurd_soul|soul_signs, deku"],
+            "visibility_rules": ["sign_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1125,
+            "y": 917,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Deku Palace",
+        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "sections": [
+          {
+            "name": "Palace Exterior Soil Patch",
+            "chest_unopened_img": "images/icons/soil.png",
+            "visibility_rules": ["soil_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$bottleCount|1"]
+          },
+          {
+            "name": "Behind Guards Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Deku Flowers",
+            "item_count": 11,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, $can_plant_beans, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Deku Flower to Swamp Exit",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 876,
+            "y": 950,
+            "shape": "diamond"
+          },
+          {
+            "map": "southern_swamp",
+            "x": 1000,
+            "y": 560,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Left Inner Palace Garden",
+        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "sections": [
+          {
+            "name": "Heart Piece",
+            "access_rules": ["deku"],
+            "chest_unopened_img": "images/equipment/heart_piece.png"
+          },
+          {
+            "name": "Left Side Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 11,
+            "clear_as_group": false
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 879,
+            "y": 982
+          }
+        ]
+      },
+      {
+        "name": "Right Inner Palace Garden",
+        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "sections": [
+          {
+            "name": "Right Side Upper Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_absurd_soul|soul_deku_flowers, deku, $can_plant_beans"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Right Side Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 13,
+            "clear_as_group": false
+          },
+          {
+            "name": "Guarded Boulders",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["goron"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 859,
+            "y": 935,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Deku King's Chamber",
+        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "sections": [
+          {
+            "name": "Monkey Song",
+            "chest_unopened_img": "images/equipment/song_sonata_no_text.png",
+            "access_rules": [
+              "easy_logic, ocarina, $baby_can_plant_beans, deku, $baby_has_projectiles",
+              "normal_logic, $has_absurd_soul|soul_deku_flowers, $has_npc_soul|soul_monkey, ocarina, $can_plant_beans, deku"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 850,
+            "y": 967
           }
         ]
       },
       {
         "name": "Deku Palace Bean Grotto",
-        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "access_rules": [
+          "easy_logic, $baby_deku_palace",
+          "normal_logic, $deku_palace"
+        ],
         "sections": [
           {
-            "name": "Deku Palace Bean Grotto Chest",
+            "name": "Chest",
             "access_rules": [
               "easy_logic, $baby_can_plant_beans, hookshot",
-              "normal_logic, $can_plant_beans",
-              "normal_logic, hookshot"
+              "normal_logic, $has_absurd_soul|soul_grottos, $can_plant_beans",
+              "normal_logic, $has_absurd_soul|soul_grottos, hookshot"
             ]
           },
           {
-            "name": "Deku Palace Bean Seller",
+            "name": "Bean Seller",
             "chest_unopened_img": "images/characters/bean_seller.png",
-            "access_rules": ["deku"]
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_npc_soul|soul_bean_seller, deku"]
+          },
+          {
+            "name": "Grass",
+            "item_count": 12,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
+          },
+          {
+            "name": "Soil Patch",
+            "chest_unopened_img": "images/icons/soil.png",
+            "visibility_rules": ["soil_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_grottos, $bottleCount|1"]
+          },
+          {
+            "name": "Butterfly Fairies",
+            "chest_unopened_img": "images/icons/butterfly.png",
+            "visibility_rules": ["real_fairysanity"],
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterfly"]
+          },
+          {
+            "name": "Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 481,
-            "y": 537
+            "x": 831,
+            "y": 943,
+            "shape": "trapezoid"
+          },
+          {
+            "map": "deku_palace",
+            "x": 760,
+            "y": 130,
+            "shape": "trapezoid"
           }
         ]
       },
       {
-        "name": "Southern Swamp Song Tablet",
+        "name": "Southern Swamp After Big Octo",
         "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
         "sections": [
           {
-            "name": "Southern Swamp Song Tablet",
+            "name": "Song of Soaring Tablet",
               "chest_unopened_img": "images/equipment/song_soaring_no_text.png",
-            "access_rules": ["deku"]
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"]
+          },
+          {
+            "name": "Path to Woodfall Deku Flowers",
+            "item_count": 6,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Post Dungeon Deku Flowers (By Soaring Tablet)",
+            "item_count": 2,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku, $clear_woodfall"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Outside Spider House Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          },
+          {
+            "name": "Swamp Spider House Entrance Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "access_rules": ["$swamp_skull_house"],
+            "visibility_rules": ["web_sanity"]
+          },
+          {
+            "name": "Post Dungeon Swamp Spider House Entrance Web",
+            "chest_unopened_img": "images/icons/web.png",
+            "access_rules": ["$clear_woodfall, $swamp_skull_house"],
+            "visibility_rules": ["web_sanity"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 534,
-            "y": 504
+            "x": 952,
+            "y": 877
           }
         ]
       },
       {
-        "name": "Southern Swamp Grotto Chest",
+        "name": "Southern Swamp Grotto",
         "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
         "sections": [
           {
-            "name": "Southern Swamp Grotto Chest",
-            "access_rules": ["deku"]
+            "name": "Chest",
+            "access_rules": ["$has_absurd_soul|soul_grottos, deku"]
+          },
+          {
+            "name": "Grass",
+            "item_count": 14,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, deku"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_no_termina_field",
+              "grass_sanity_grotto_caves"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 482,
-            "y": 506
+            "x": 889,
+            "y": 814,
+            "shape": "trapezoid"
+          },
+          {
+            "map": "southern_swamp",
+            "x": 760,
+            "y": 895,
+            "shape": "trapezoid"
           }
         ]
       },
@@ -357,26 +1040,78 @@
         "access_rules": ["easy_logic, $baby_woodfall", "normal_logic, $woodfall"],
         "sections": [
           {
-            "name": "Woodfall Owl Statue Chest"
+            "name": "Owl Statue Chest",
+            "access_rules": [
+              "$can_use_owl|owl_woodfall, hookshot",
+              "$has_absurd_soul|soul_deku_flowers, deku"
+            ]
           },
           {
-            "name": "Woodfall Bridge Chest"
+            "name": "Bridge Chest",
+            "access_rules": [
+              "$has_absurd_soul|soul_deku_flowers, deku",
+              "$woodfall, hookshot"
+            ]
           },
           {
-            "name": "Woodfall Entrance Chest"
+            "name": "Entrance Chest",
+            "access_rules": ["deku"]
           },
           {
-            "name": "Woodfall Great Fairy Reward",
+            "name": "Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
-            "access_rules": ["$checkRequirements|required_stray_fairies|fairy_wf"]
+            "access_rules": ["$has_npc_soul|soul_great_fairy, $checkRequirements|required_stray_fairies|fairy_wf"]
             //"visibility_rules": ["shuffle_great_fairy_rewards"]
+          },
+          {
+            "name": "Owl Statue",
+            "visibility_rules": ["owl_sanity"],
+            "chest_unopened_img": "images/owl_statues/owl_woodfall_on.png"
+          },
+          {
+            "name": "Grass",
+            "item_count": 6,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"]
+          },
+          {
+            "name": "Deku Flowers",
+            "item_count": 9,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Owl Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Stump Rupee",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "clear_as_group": false
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 542,
-            "y": 466
+            "x": 1022,
+            "y": 784
+          },
+          {
+            "map": "southern_swamp",
+            "x": 765,
+            "y": 440
           }
         ]
       },
@@ -384,24 +1119,1123 @@
         "name": "Deku Shrine",
         "sections": [
           {
-            "name": "Deku Palace Butler Race",
+            "name": "Deku Butler Race",
             "chest_unopened_img": "images/characters/butler.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, $baby_has_bottle",
-              "normal_logic, $clear_woodfall, $has|bottles|1, sword",
-              "normal_logic, $clear_woodfall, $has|bottles|1, fairysword",
-              "normal_logic, $clear_woodfall, $has|bottles|1, fiercedeity"
+              "normal_logic, $clear_woodfall, $bottleCount|1, sword",
+              "normal_logic, $clear_woodfall, $bottleCount|1, fairysword",
+              "normal_logic, $clear_woodfall, $bottleCount|1, fiercedeity"
+            ]
+          },
+          {
+            "name": "Deku Butler Race Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $clear_woodfall"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Deku Butler Race Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 30,
+            "clear_as_group": false,
+            "access_rules": [
+              "$clear_woodfall, sword, $bottleCount|1"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 526,
-            "y": 556
+            "x": 885,
+            "y": 1018
+          },
+          {
+            "map": "deku_palace",
+            "x": 90,
+            "y": 65
           }
         ]
       }
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Road to Swamp/Tree Heart Piece"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "road_to_swamp",
+//            "x": 855,
+//            "y": 775
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Road to Swamp/Grass Group 1"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "road_to_swamp",
+//            "x": 735,
+//            "y": 815,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Road to Swamp/Grass Group 2"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "road_to_swamp",
+//            "x": 795,
+//            "y": 860,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Road to Swamp/Entrance Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "road_to_swamp",
+//            "x": 820,
+//            "y": 620,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Road to Swamp Grotto/Road to Swamp Grotto Chest"
+//          },
+//          {
+//            "ref":"Southern Swamp/Road to Swamp Grotto/Road to Swamp Grotto Grass"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "road_to_swamp",
+//            "x": 895,
+//            "y": 850,
+//            "shape": "trapezoid"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Path to Shooting Gallery/Road to Swamp Trees"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "road_to_swamp",
+//            "x": 810,
+//            "y": 540,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "road_to_swamp",
+//            "x": 855,
+//            "y": 475,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "road_to_swamp",
+//            "x": 830,
+//            "y": 430,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "road_to_swamp",
+//            "x": 880,
+//            "y": 355,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "road_to_swamp",
+//            "x": 850,
+//            "y": 295,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "road_to_swamp",
+//            "x": 875,
+//            "y": 250,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Path to Shooting Gallery/Road to Swamp Deku Flowers"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "road_to_swamp",
+//            "x": 435,
+//            "y": 915,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "road_to_swamp",
+//            "x": 620,
+//            "y": 820,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "road_to_swamp",
+//            "x": 710,
+//            "y": 710,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "road_to_swamp",
+//            "x": 850,
+//            "y": 560,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "road_to_swamp",
+//            "x": 875,
+//            "y": 435,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "road_to_swamp",
+//            "x": 885,
+//            "y": 285,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "road_to_swamp",
+//            "x": 970,
+//            "y": 700,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "road_to_swamp",
+//            "x": 1185,
+//            "y": 640,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Path to Shooting Gallery/Road to Swamp Gossip Fairy"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "road_to_swamp",
+//            "x": 825,
+//            "y": 375,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Swamp Shooting Gallery/Score 2120 Points"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Shooting Gallery/Score 2180 Points"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Shooting Gallery/Outside Swamp Archery Pots"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "road_to_swamp",
+//            "x": 1000,
+//            "y": 55
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Swamp Shooting Gallery/Outside Swamp Archery Grass"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "road_to_swamp",
+//            "x": 1040,
+//            "y": 100,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Tingle Southern Swamp/Woodfall Map Purchase"
+//          },
+//          {
+//            "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase "
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "road_to_swamp",
+//            "x": 1160,
+//            "y": 635
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Southern Swamp Owl/Southern Swamp Owl Statue"
+//          },
+//          {
+//            "ref": "Southern Swamp/Southern Swamp Owl/Southern Swamp Owl Grass"
+//          },
+//          {
+//            "ref": "Southern Swamp/Southern Swamp Owl/Southern Swamp Owl Post Dungeon Grass"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "southern_swamp",
+//            "x": 400,
+//            "y": 975,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Swamp Business Scrub/Deed Trade (as Human)"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Business Scrub/Southern Swamp Deku Scrub Purchase"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Business Scrub/Business Scrub Deku Flower"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Business Scrub/Post Dungeon Business Scrub Deku Flower"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "southern_swamp",
+//            "x": 340,
+//            "y": 765
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Swamp Business Scrub/Southern Swamp Freestanding Heart Piece"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Tourist Center/Southern Swamp Healing Koume"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Tourist Center/Boat Archery"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Tourist Center/Winning Picture (Tingle or Deku King)"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Tourist Center/Good Picture (Big Octo)"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Tourist Center/Okay Picture (Anything Else)"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Tourist Center/Southern Swamp Grass Near Tourist Centre"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Tourist Center/Southern Swamp Post Dungeon Grass Near Tourist Centre"
+//          },
+//          {
+//            "ref": "Southern Swamp/Swamp Tourist Center/Tourist Centre Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "southern_swamp",
+//            "x": 385,
+//            "y": 790
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Exterior Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "potion_shop",
+//            "x": 420,
+//            "y": 190,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Item 1"
+//          },
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Item 2"
+//          },
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Item 3"
+//          },
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Shop Interior Rupee"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "potion_shop",
+//            "x": 400,
+//            "y": 210,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Southern Swamp Grass Near Witch Shop Group 1"
+//          },
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Southern Swamp Post Dungeon Grass Near Witch Shop Group 1"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "potion_shop",
+//            "x": 610,
+//            "y": 405,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Southern Swamp Grass Near Witch Shop Group 2"
+//          },
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Southern Swamp Post Dungeon Grass Near Witch Shop Group 2"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "potion_shop",
+//            "x": 525,
+//            "y": 490,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Southern Swamp Near Gossip Stone Grass"
+//          },
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Southern Swamp Post Dungeon Near Gossip Stone Grass"
+//          },
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Witch Shop Gossip Fairy"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "potion_shop",
+//            "x": 190,
+//            "y": 280,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Witch Shop Pots"
+//          },
+//          {
+//            "ref": "Southern Swamp/Witch Shop/Southern Swamp Post Dungeon Witch Shop Pots"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "potion_shop",
+//            "x": 460,
+//            "y": 205,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Woods of Mystery/Outside Cut the Sign"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woods of Mystery/Grass"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woods of Mystery/Any Day Deku Flowers"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woods of Mystery/Day 2 Unique Grass"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woods of Mystery/Day 3 Unique Grass"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woods of Mystery/Days 1&3 Deku Flowers"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woods of Mystery/Day 1 End Cut the Sign"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woods of Mystery/Day 2 End Cut the Sign"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woods of Mystery/Day 3 End Cut the Sign"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woods of Mystery Day 2 Grotto/Chest"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woods of Mystery Day 2 Grotto/Grass"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "potion_shop",
+//            "x": 190,
+//            "y": 420
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Beyond Potion Shop/Southern Swamp Frog"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "southern_swamp",
+//            "x": 600,
+//            "y": 205,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Beyond Potion Shop/Stump Rupee"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "southern_swamp",
+//            "x": 700,
+//            "y": 255,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "southern_swamp",
+//            "x": 740,
+//            "y": 255,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Beyond Potion Shop/Near Frog Beehive"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "southern_swamp",
+//            "x": 420,
+//            "y": 295,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Beyond Potion Shop/Swamp Flower Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "southern_swamp",
+//            "x": 460,
+//            "y": 230,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Southern Swamp After Big Octo/Song of Soaring Tablet"
+//          },
+//          {
+//            "ref": "Southern Swamp/Southern Swamp After Big Octo/Path to Woodfall Deku Flowers"
+//          },
+//          {
+//            "ref": "Southern Swamp/Southern Swamp After Big Octo/Post Dungeon Deku Flowers (By Soaring Tablet)"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "southern_swamp",
+//            "x": 790,
+//            "y": 585
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Southern Swamp After Big Octo/Path to Woodfall Deku Flowers"
+//          },
+//          {
+//            "ref": "Southern Swamp/Southern Swamp After Big Octo/Post Dungeon Deku Flowers (By Soaring Tablet)"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "southern_swamp",
+//            "x": 790,
+//            "y": 475,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Southern Swamp After Big Octo/Path to Woodfall Deku Flowers"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "southern_swamp",
+//            "x": 880,
+//            "y": 640,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "southern_swamp",
+//            "x": 780,
+//            "y": 770,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "southern_swamp",
+//            "x": 820,
+//            "y": 845,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "southern_swamp",
+//            "x": 710,
+//            "y": 890,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Southern Swamp After Big Octo/Outside Spider House Cut the Sign"
+//          },
+//          {
+//            "ref": "Southern Swamp/Southern Swamp After Big Octo/Swamp Spider House Entrance Web"
+//          },
+//          {
+//            "ref": "Southern Swamp/Southern Swamp After Big Octo/Post Dungeon Swamp Spider House Entrance Web"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "southern_swamp",
+//            "x": 720,
+//            "y": 785,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Deku Palace/Behind Guards Cut the Sign"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "deku_palace",
+//            "x": 470,
+//            "y": 290,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 510,
+//            "y": 230,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 510,
+//            "y": 290,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Deku Palace/Deku Palace Heart Piece"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "deku_palace",
+//            "x": 255,
+//            "y": 170
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Deku Palace/Deku Palace Right Side Upper Pots"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "deku_palace",
+//            "x": 570,
+//            "y": 360,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Deku Palace/Right Side Rupees"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "deku_palace",
+//            "x": 590,
+//            "y": 200,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 690,
+//            "y": 140,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 705,
+//            "y": 150,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 760,
+//            "y": 150,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Deku Palace/Left Side Rupees"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "deku_palace",
+//            "x": 430,
+//            "y": 200,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 430,
+//            "y": 240,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 315,
+//            "y": 320,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 245,
+//            "y": 120,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Deku Palace/Palace Deku Flowers"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "deku_palace",
+//            "x": 430,
+//            "y": 85,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 305,
+//            "y": 155,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 310,
+//            "y": 205,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 370,
+//            "y": 275,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 430,
+//            "y": 330,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 600,
+//            "y": 330,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 655,
+//            "y": 300,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 650,
+//            "y": 225,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 645,
+//            "y": 140,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 650,
+//            "y": 90,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 790,
+//            "y": 105,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Deku Palace/Guarded Boulders"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "deku_palace",
+//            "x": 640,
+//            "y": 255,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 720,
+//            "y": 285,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "deku_palace",
+//            "x": 650,
+//            "y": 75,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Deku Palace/Palace Exterior Soil Patch"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "deku_palace",
+//            "x": 870,
+//            "y": 135,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Deku Palace/Sonata Of Awakening"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "deku_palace",
+//            "x": 450,
+//            "y": 85
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Deku Palace/Palace Deku Flower to Swamp Exit"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "deku_palace",
+//            "x": 675,
+//            "y": 535,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Woodfall/Owl Statue Chest"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "woodfall",
+//            "x": 490,
+//            "y": 150
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Woodfall/Bridge Chest"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woodfall/Deku Flowers"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "woodfall",
+//            "x": 250,
+//            "y": 615
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Woodfall/Entrance Chest"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "woodfall",
+//            "x": 375,
+//            "y": 685
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Woodfall/Great Fairy Reward"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "woodfall",
+//            "x": 300,
+//            "y": 150
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Woodfall/Owl Statue"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woodfall/Owl Pots"
+//          },
+//          {
+//            "ref": "Southern Swamp/Woodfall/Deku Flowers"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "woodfall",
+//            "x": 490,
+//            "y": 235,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Woodfall/Deku Flowers"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "woodfall",
+//            "x": 275,
+//            "y": 425,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "woodfall",
+//            "x": 310,
+//            "y": 300,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "woodfall",
+//            "x": 325,
+//            "y": 500,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "woodfall",
+//            "x": 380,
+//            "y": 230,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "woodfall",
+//            "x": 600,
+//            "y": 220,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "woodfall",
+//            "x": 750,
+//            "y": 300,
+//            "shape": "diamond"
+//          },
+//          {
+//            "map": "woodfall",
+//            "x": 725,
+//            "y": 400,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Woodfall/Stump Rupee"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "woodfall",
+//            "x": 660,
+//            "y": 490,
+//            "shape": "diamond"
+//          }
+//        ]
+//      },
+//      {
+//        "sections": [
+//          {
+//            "ref": "Southern Swamp/Woodfall/Grass"
+//          }
+//        ],
+//        "map_locations": [
+//          {
+//            "map": "woodfall",
+//            "x": 500,
+//            "y": 700,
+//            "shape": "diamond"
+//          }
+//        ]
+//      }
     ]      
   }
 ]

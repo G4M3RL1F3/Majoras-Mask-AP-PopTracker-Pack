@@ -1,0 +1,124 @@
+[
+	{
+	  "name": "Zora Hall",
+		"children": [
+			{
+				"name": "Zora Shop",
+				"sections": [
+					{
+            "name": "Shop Item 1",
+						"ref": "Great Bay/Zora Hall/Shop 1"
+					},
+					{
+            "name": "Shop Item 2",
+						"ref": "Great Bay/Zora Hall/Shop 2"
+					},
+					{
+            "name": "Shop Item 3",
+						"ref": "Great Bay/Zora Hall/Shop 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "zora_hall",
+						"x": 1076,
+						"y": 685,
+            "shape": "diamond"
+					}
+				]
+			},
+      {
+        "name": "Lulu's Room",
+        "sections": [
+          {
+            "name": "Deku Scrub Purchase (as Zora)",
+            "ref": "Great Bay/Zora Hall/Deku Scrub Purchase (as Zora)"
+          },
+          {
+            "name": "Deku Trade (as Goron)",
+            "ref": "Great Bay/Zora Hall/Deed Trade (as Goron)"
+          },
+          {
+            "name": "Freestanding Heart Piece",
+            "ref": "Great Bay/Zora Hall/Freestanding Heart Piece"
+          },
+          {
+            "ref": "Great Bay/Zora Hall/Business Scrub Deku Flower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 429,
+            "y": 114
+          }
+        ]
+      },
+      {
+        "name": "Evan's Room",
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Evan's Song"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 588,
+            "y": 30
+          }
+        ]
+      },
+      {
+        "name": "Hall Stage",
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Torches Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 668,
+            "y": 356
+          }
+        ]
+      },
+      {
+        "name": "Fan of Lulu",
+        "sections": [
+          {
+            "name": "Good Picture of Lulu",
+            "ref": "Great Bay/Zora Hall/Good Picture of Lulu"
+          },
+          {
+            "ref": "Great Bay/Zora Hall/Bad Picture of Lulu"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 706,
+            "y": 656
+          }
+        ]
+      },
+      {
+        "name": "Scarecrow",
+        "sections": [
+          {
+            "ref": "Great Bay/Zora Hall/Scarecrow"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "zora_hall",
+            "x": 628,
+            "y": 627,
+            "shape": "diamond"
+          }
+        ]
+      }
+		]
+	}
+]

@@ -5,13 +5,25 @@
     "chest_opened_img": "images/icons/check_32.png",
     "children": [
       {
-        "name": "South East Termina Field",
+        "name": "Termina Field Grass Chest",
         "sections": [
           {
-            "name": "Termina Grass Chest"
-          },
+            "name": "Grass Chest"
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Termina Stump Chest",
+            "map": "overworld",
+            "x": 1065,
+            "y": 653
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Stump",
+        "sections": [
+          {
+            "name": "Stump Chest",
             "access_rules": [
               "easy_logic, $baby_can_plant_beans, hookshot",
               "normal_logic, $can_plant_beans",
@@ -19,220 +31,1421 @@
             ]
           },
           {
-            "name": "Termina Grass Grotto Chest"
+            "name": "Stump Soil Patch",
+            "chest_unopened_img": "images/icons/soil.png",
+            "visibility_rules": ["soil_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$bottleCount|1"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 563,
-            "y": 352
+            "x": 988,
+            "y": 639
           }
         ]
       },
       {
-        "name": "Termina Ikana Pillar Grotto Chest",
+        "name": "Grass Grotto",
         "sections": [
           {
-            "name": "Termina Ikana Pillar Grotto Chest"
+            "name": "Chest",
+            "access_rules": ["$has_absurd_soul|soul_grottos"]
+          },
+          {
+            "name": "Grass",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
+            "item_count": 14,
+            "clear_as_group": false
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 582,
-            "y": 302
+            "x": 1025,
+            "y": 635,
+            "shape": "trapezoid"
           }
         ]
       },
       {
-        "name": "Termina Underwater Chest",
+        "name": "Town Wall Soil Patch",
         "sections": [
           {
-            "name": "Termina Underwater Chest",
-            "access_rules": ["zora"]
+            "name": "Soil Patch",
+            "chest_unopened_img": "images/icons/soil.png",
+            "visibility_rules": ["soil_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$bottleCount|1"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 478,
-            "y": 329
+            "x": 994,
+            "y": 596,
+            "shape": "diamond"
           }
         ]
       },
       {
-        "name": "Termina Field Peahat Grotto",
+        "name": "Pillar Grotto",
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": ["$has_absurd_soul|soul_grottos"]
+          },
+          {
+            "name": "Grass",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
+            "item_count": 14,
+            "clear_as_group": false
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1052,
+            "y": 548,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Pillars",
+        "sections": [
+          {
+            "name": "Pillar Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, $has_projectiles"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Pillar Rupee",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "clear_as_group": false
+          },
+          {
+            "name": "Pillar Soil Patch",
+            "chest_unopened_img": "images/icons/soil.png",
+            "visibility_rules": ["soil_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$bottleCount|1"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1091,
+            "y": 544
+          }
+        ]
+      },
+      {
+        "name": "Eastern Corner",
+        "sections": [
+          {
+            "name": "Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona",
+              "$can_play_song|storms"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1073,
+            "y": 505,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "East Termina Field",
+        "sections": [
+          {
+            "name": "Observatory Trees",
+            "chest_unopened_img": "images/absurd/tree.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "visibility_rules": ["tree_sanity"],
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
+          },
+          {
+            "name": "Tree Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_trees_bushes"]
+          },
+          {
+            "name": "Secret Guay Rupee",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$has_npc_soul|soul_astral_man, @Termina Field/Astral Observatory/Moon's Tear"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1089,
+            "y": 605
+          }
+        ]
+      },
+      {
+        "name": "In Front of Log",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 955,
+            "y": 638,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Grass Grotto",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1004,
+            "y": 628,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Bottom of Southeast Hill",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1037,
+            "y": 611,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Middle of Southeast Hill",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1067,
+            "y": 618,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Business Scrub Grotto",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1070,
+            "y": 601,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Observatory Fence",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1094,
+            "y": 569,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Eastern Gossip Grotto",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1115,
+            "y": 560,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Eastern Pillar Grotto",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1056,
+            "y": 571,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Below Southeast Hill Fence",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1028,
+            "y": 596,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Eastern Pillars",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1027,
+            "y": 517,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Northern Ramp",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 995,
+            "y": 500,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Kamaro",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 908,
+            "y": 504,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Western Fountains",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 878,
+            "y": 524,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Southwest Above Rock Ledge",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 879,
+            "y": 607,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Western Water Ramp",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 820,
+            "y": 618,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Takkuri Gossip Tree",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Rock Wall",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $has_explosives"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 842,
+            "y": 617,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Takkuri",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          },
+          {
+            "name": "Takkuri Rupee",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_enemy_soul|soul_takkuri, $has_absurd_soul|soul_grass",
+              "$has_enemy_soul_takkuri, $has_projectiles",
+              "$has_enemy_soul|soul_takkuri, $can_smack"
+            ]
+          },
+          {
+            "name": "Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona",
+              "$can_play_song|storms"
+            ]
+          },
+          {
+            "name": "Cut the Sign",
+            "chest_unopened_img": "images/absurd/sign.png",
+            "access_rules": ["$has_absurd_soul|soul_signs"],
+            "visibility_rules": ["sign_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 849,
+            "y": 644,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Near Peahat Grotto",
+        "sections": [
+          {
+            "name": "Grass Patch",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": ["grass_sanity_normal"],
+            "item_count": 12,
+            "clear_as_group": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 892,
+            "y": 635,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Peahat Grotto",
         "sections": [
           {
             "name": "Defeat Peahat (Daytime Only)",
-            "access_rules": ["$baby_can_smack_hard", "normal_logic"]
+            "access_rules": [
+              "easy_logic, $baby_can_smack_hard",
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_enemy_soul|soul_peahats"
+            ]
+          },
+          {
+            "name": "Grass",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
+            "item_count": 12,
+            "clear_as_group": false
+          },
+          {
+            "name": "Butterfly Fairies",
+            "chest_unopened_img": "images/icons/butterfly.png",
+            "visibility_rules": ["real_fairysanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_misc_soul|soul_butterfly"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 513,
-            "y": 332
+            "x": 857,
+            "y": 629,
+            "shape": "trapezoid"
           }
         ]
       },
       {
-        "name": "Termina Dodongo Grotto Chest",
+        "name": "North Termina Field",
         "sections": [
           {
-            "name": "Termina Dodongo Grotto Chest",
-            "access_rules": ["$baby_can_smack_hard", "normal_logic"]
+            "name": "Invisible Rupee Over Northern Ramp",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["invisi_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["goron, magic"]
+          },
+          {
+            "name": "6am Songwall",
+            "chest_unopened_img": "images/absurd/song_wall.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_songwall, ocarina"]
+          },
+          {
+            "name": "7am Songwall",
+            "chest_unopened_img": "images/absurd/song_wall.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_songwall, ocarina"]
+          },
+          {
+            "name": "8am Songwall",
+            "chest_unopened_img": "images/absurd/song_wall.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_songwall, ocarina"]
+          },
+          {
+            "name": "10am Songwall",
+            "chest_unopened_img": "images/absurd/song_wall.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_songwall, ocarina"]
+          },
+          {
+            "name": "8pm Songwall",
+            "chest_unopened_img": "images/absurd/song_wall.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_songwall, ocarina"]
+          },
+          {
+            "name": "Near Songwall Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona",
+              "$can_play_song|storms"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 525,
-            "y": 260
+            "x": 941,
+            "y": 485,
+            "shape": "diamond"
           }
         ]
       },
       {
-        "name": "Termina Healing Kamaro",
+        "name": "Dodongo Grotto",
         "sections": [
           {
-            "name": "Termina Healing Kamaro (Midnight - 6 AM)",
+            "name": "Dodongo Chest",
+            "access_rules": [
+              "easy_logic, $baby_can_smack_hard",
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_enemy_soul|soul_dodongos"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 879,
+            "y": 509,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Kamaro",
+        "sections": [
+          {
+            "name": "Healing Kamaro (Midnight - 6 AM)",
             "chest_unopened_img": "images/characters/kamaro.png",
-            "access_rules": ["$can_play_healing"]
+            "access_rules": ["$has_npc_soul|soul_kamaro, $can_play_song|healing"]
+          },
+          {
+            "name": "Notebook Event: Meeting Kamaro",
+            "chest_unopened_img": "images/equipment/bombers_notebook.png",
+            "visibility_rules": ["notebook_sanity"],
+            "access_rules": ["$has_npc_soul|soul_kamaro, $can_play_song|healing"]
+          },
+          {
+            "name": "Notebook Event: Received Kamaro Mask",
+            "chest_unopened_img": "images/equipment/bombers_notebook.png",
+            "visibility_rules": ["notebook_sanity"],
+            "access_rules": ["$has_npc_soul|soul_kamaro, bombers_notebook"]
+          },
+          {
+            "name": "Kamaro Rock Circle",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 513,
-            "y": 260
+            "x": 892,
+            "y": 497
           }
         ]
       },
       {
-        "name": "Termina Bio Baba Grotto HP",
+        "name": "West Termina Field",
+        "chest_unopened_img": "images/icons/hitspot.png",
+        "sections": [
+          {
+            "name": "Fountain Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["invisi_sanity"],
+            "item_count": 2,
+            "clear_as_group": false
+          },
+          {
+            "name": "Invisible Rupee Over Ramp Near Fountains",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["invisi_sanity"],
+            "clear_as_group": false
+          },
+          {
+            "name": "West Wall Hitspot",
+            "item_count": 3,
+            "clear_as_group": false,
+            "visibility_rules": ["hit_sanity"]
+          },
+          {
+            "name": "Above West Clock Town Entry Hitspot",
+            "item_count": 3,
+            "clear_as_group": false,
+            "visibility_rules": ["hit_sanity"],
+            "access_rules": [
+              "$has_projectiles"
+            ]
+          },
+          {
+            "name": "Song Guay Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 20,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|sonata",
+              "$can_play_song|goronlullaby",
+              "$can_play_song|bossanova"
+            ]
+          },
+          {
+            "name": "Song Guay Goron Rupees",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["rupee_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|sonata, $can_play_song|epona",
+              "$can_play_song|goronlullaby, $can_play_song|epona",
+              "$can_play_song|bossanova, $can_play_song|epona",
+              "$can_play_song|sonata, goron",
+              "$can_play_song|goronlullaby, goron",
+              "$can_play_song|bossanova, goron"
+            ]
+          },
+          {
+            "name": "Rock Behind Coast Wall",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $can_play_song|epona"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 870,
+            "y": 552,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Bio Baba Grotto",
         "chest_unopened_img": "images/equipment/heart_piece.png",
         "sections": [
           {
-            "name": "Termina Bio Baba Grotto HP",
+            "name": "Boulder",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives",
+              "goron"
+            ]
+          },
+          {
+            "name": "Right Beehive Heart Piece",
             "access_rules": [
               "easy_logic, $baby_has_explosives, goron, zora, $baby_has_projectiles",
-              "normal_logic, $has_explosives, zora",
-              "normal_logic, goron, zora"
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives, zora",
+              "normal_logic, $has_absurd_soul|soul_grottos, goron, zora"
+            ]
+          },
+          {
+            "name": "Grass",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives",
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, goron"
+            ],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
+            "item_count": 2,
+            "clear_as_group": false
+          },
+          {
+            "name": "Rock In Grotto",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_rocks, $has_explosives",
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_rocks, goron"
+            ]
+          },
+          {
+            "name": "Left Beehives",
+            "chest_unopened_img": "images/icons/beehive.png",
+            "visibility_rules": ["hive_sanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_explosives, zora",
+              "$has_absurd_soul|soul_grottos, goron, zora"
             ]
           }
         ],
         "map_locations":[
           {
             "map": "overworld",
-            "x": 475,
-            "y": 309
+            "x": 800,
+            "y": 553,
+            "shape": "trapezoid"
           }
         ]
       },
       {
-        "name": "East Clock Town Astral Observatory",
+        "name": "Astral Observatory",
         "sections": [
           {
-            "name": "East Clock Town Astral Observatory",
+            "name": "Moon's Tear",
             "chest_unopened_img": "images/items/moon_tear.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles",
-              "normal_logic, deku"
+              "normal_logic, $has_npc_soul|soul_astral_man, $has_npc_soul|soul_skull_kid, $has_projectiles",
+              "normal_logic, $has_npc_soul|soul_astral_man, $has_npc_soul|soul_skull_kid, $has_absurd_soul|soul_deku_flowers, deku"
             ]
+          },
+          {
+            "name": "Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_pots, @Termina Field/Astral Observatory/Moon's Tear"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Observatory Scarecrow",
+            "chest_unopened_img": "images/characters/scarecrow.png",
+            "access_rules": ["$has_npc_soul|soul_scarecrow, ocarina, @Clock Town/North Clock Town - Bombers/Hide-and-Seek"],
+            "visibility_rules": ["scarecrow_sanity"]
+          },
+          {
+            "name": "Outdoor Soil Patch",
+            "chest_unopened_img": "images/icons/soil.png",
+            "visibility_rules": ["soil_sanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": ["$bottleCount|1, @Clock Town/North Clock Town - Bombers/Hide-and-Seek"]
+          },
+          {
+            "name": "Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing, @Clock Town/North Clock Town - Bombers/Hide-and-Seek",
+              "$can_play_song|epona, @Clock Town/North Clock Town - Bombers/Hide-and-Seek",
+              "$can_play_song|storms, @Clock Town/North Clock Town - Bombers/Hide-and-Seek"
+            ]
+          },
+          {
+            "name": "Observatory Deku Flower",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 590,
-            "y": 347
+            "x": 1117,
+            "y": 594
+          },
+          {
+            "map": "clock_town",
+            "x": 1124,
+            "y": 290
           }
         ]
       },
       {
-        "name": "Termina Business Scrub Grotto",
+        "name": "Business Scrub Grotto",
         "sections": [
           {
-            "name": "Termina Business Scrub Grotto HP",
+            "name": "Purchase Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, wallet",
-              "normal_logic, $has_projectiles, wallet"
+              "normal_logic, $has_absurd_soul|soul_grottos, $has_npc_soul|soul_business_scrub, $has_npc_soul|soul_astral_man, $has_projectiles, adultswallet"
             ]
+          },
+          {
+            "name": "Pot",
+            "chest_unopened_img": "images/icons/pot.png",
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_overworld_only"
+            ]
+          },
+          {
+            "name": "Crate",
+            "chest_unopened_img": "images/icons/crate.png",
+            "visibility_rules": ["wood_sanity"],
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_grottos"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 583,
-            "y": 328
+            "x": 1080,
+            "y": 590,
+            "shape": "trapezoid"
           }
         ]
       },
       {
-        "name": "Termina Gossip Stones HP",
+        "name": "North Gossip Stone Grotto",
         "chest_unopened_img": "images/icons/gossip_stone.png",
         "sections": [
           {
-            "name": "Termina Gossip Stones HP",
+            "name": "Gossip Stones Heart Piece",
             "access_rules": [
-              "easy_logic, deku, $can_play_sonata, goron, $can_play_lullaby, zora, $can_play_bossa_nova",
-              "normal_logic, deku, $can_play_sonata, $has_explosives",
-              "normal_logic, deku, $can_play_sonata, goron",
-              "normal_logic, goron, $can_play_lullaby",
-              "normal_logic, zora, $can_play_bossa_nova, $has_explosives",
-              "normal_logic, zora, $can_play_bossa_nova, goron"
+              "easy_logic, deku, $can_play_song|sonata, goron, $can_play_song|goronlullaby, zora, $can_play_song|bossanova",
+              "normal_logic, $has_absurd_soul|soul_grottos, deku, $can_play_song|sonata, $has_explosives",
+              "normal_logic, $has_absurd_soul|soul_grottos, deku, $can_play_song|sonata, goron",
+              "normal_logic, $has_absurd_soul|soul_grottos, goron, $can_play_song|goronlullaby",
+              "normal_logic, $has_absurd_soul|soul_grottos, zora, $can_play_song|bossanova, $has_explosives",
+              "normal_logic, $has_absurd_soul|soul_grottos, zora, $can_play_song|bossanova, goron"
+            ]
+          },
+          {
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Gossip Stones Heart Piece Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 982,
+            "y": 494,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "South Gossip Stone Grotto",
+        "chest_unopened_img": "images/icons/gossip_stone.png",
+        "sections": [
+          {
+            "name": "Gossip Stones Heart Piece",
+            "ref": "Termina Field/North Gossip Stone Grotto/Gossip Stones Heart Piece"
+          },
+          {
+            "name": "Gossip Stones HP Gossip Fairy",
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Gossip Stones Heart Piece Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 904,
+            "y": 647,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Gossip Stones Grotto",
+        "chest_unopened_img": "images/icons/gossip_stone.png",
+        "sections": [
+          {
+            "name": "Gossip Stones Heart Piece",
+            "ref": "Termina Field/North Gossip Stone Grotto/Gossip Stones Heart Piece"
+          },
+          {
+            "name": "Grass",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
+            "item_count": 5,
+            "clear_as_group": false
+          },
+          {
+            "name": "Gossip Stones HP Gossip Fairy",
+            "ref": "Termina Field/Termina Bombable Rock Grotto/Gossip Stones Heart Piece Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1121,
+            "y": 578,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Bombable Rock Grotto",
+        "chest_unopened_img": "images/icons/gossip_stone.png",
+        "chest_opened_img": "images/icons/check_32.png",
+        "sections": [
+          {
+            "name": "Bombable Rock",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_explosives",
+              "goron"
+            ]
+          },
+          {
+            "ref": "Termina Field/North Gossip Stone Grotto/Gossip Stones Heart Piece"
+          },
+          {
+            "name": "Grass",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, $has_explosives",
+              "$has_absurd_soul|soul_grottos, $has_absurd_soul|soul_grass, goron"
+            ],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
+            "item_count": 5,
+            "clear_as_group": false
+          },
+          {
+            "name": "Beehive",
+            "chest_unopened_img": "images/icons/beehive.png",
+            "visibility_rules": ["hive_sanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_projectiles, $has_explosives",
+              "$has_absurd_soul|soul_grottos, $has_projectiles, goron"
+            ]
+          },
+          {
+            "name": "Gossip Stones Heart Piece Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $can_play_song|healing",
+              "$has_absurd_soul|soul_grottos, $can_play_song|epona",
+              "$has_absurd_soul|soul_grottos, $can_play_song|storms"
+            ]
+          },
+          {
+            "name": "Butterfly Fairies",
+            "chest_unopened_img": "images/icons/butterfly.png",
+            "visibility_rules": ["real_fairysanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterfly, $has_explosives",
+              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterfly, goron"
+            ]
+          },
+          {
+            "name": "Near Bombable Rock Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona",
+              "$can_play_song|storms"
+            ]
+          },
+          {
+            "name": "Rock Wall Behind Grotto",
+            "chest_unopened_img": "images/absurd/rock.png",
+            "visibility_rules": ["rock_sanity"],
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": ["$has_absurd_soul|soul_rocks, $has_explosives"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 866,
+            "y": 529,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Pond",
+        "chest_unopened_img": "images/icons/chest.png",
+        "sections": [
+          {
+            "name": "Underwater Chest",
+            "access_rules": ["zora"]
+          },
+          {
+            "name": "Invisible Rupee Over Water",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["invisi_sanity"],
+            "clear_as_group": false
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 808,
+            "y": 606
+          }
+        ]
+      },
+      {
+        "name": "South Termina Field",
+        "chest_unopened_img": "images/icons/hitspot.png",
+        "sections": [
+          {
+            "name": "Invisible Rupees In Long Grass",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["invisi_sanity"],
+            "item_count": 5,
+            "clear_as_group": false
+          },
+          {
+            "name": "Invisible Rupee Over Log",
+            "chest_unopened_img": "images/icons/rupee.png",
+            "visibility_rules": ["invisi_sanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "goron, magic",
+              "$has_absurd_soul|soul_deku_flowers, deku"
+            ]
+          },
+          {
+            "name": "Skull Kid Drawing Hitspot",
+            "chest_unopened_img": "images/icons/hitspot.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "visibility_rules": ["hit_sanity"]
+          },
+          {
+            "name": "Around Log Deku Flowers",
+            "item_count": 3,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          },
+          {
+            "name": "Tree Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona",
+              "$can_play_song|storms"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 548,
-            "y": 273
-          },
-          {
-            "map": "overworld",
-            "x": 599,
-            "y": 320
-          },
-          {
-            "map": "overworld",
-            "x": 498,
-            "y": 299
-          },
-          {
-            "map": "overworld",
-            "x": 515,
-            "y": 345
+            "x": 974,
+            "y": 660,
+            "shape": "diamond"
           }
         ]
       },
       {
-        "name": "Termina Log Bombable Grotto",
-        "access_rules": ["easy_logic, $baby_has_explosives", "normal_logic, $has_explosives"],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 539,
-            "y": 348
-          }
+        "name": "Hollowed Log Bombable Grotto",
+        "access_rules": [
+          "easy_logic, $baby_has_explosives",
+          "normal_logic, $has_absurd_soul|soul_grottos, $has_explosives"
         ],
         "sections": [
           {
             "name": "Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$can_play_eponas"]
+            "access_rules": ["$has_misc_soul|soul_cow, $can_play_song|epona"]
           },
           {
             "name": "Right Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$can_play_eponas"]
+            "access_rules": ["$has_misc_soul|soul_cow, $can_play_song|epona"]
+          },
+          {
+            "name": "Grass Group 1",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
+            "item_count": 12,
+            "clear_as_group": false
+          },
+          {
+            "name": "Grass Group 2",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
+            "item_count": 12,
+            "clear_as_group": false
+          },
+          {
+            "name": "Grass Group 3",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
+            "item_count": 12,
+            "clear_as_group": false
+          },
+          {
+            "name": "Grass Group 4",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
+            "item_count": 12,
+            "clear_as_group": false
+          },
+          {
+            "name": "Grass Group 5",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
+            "item_count": 12,
+            "clear_as_group": false
+          },
+          {
+            "name": "Grass Group 6",
+            "chest_unopened_img": "images/absurd/grass.png",
+            "chest_opened_img": "images/icons/check_32.png",
+            "access_rules": ["$has_absurd_soul|soul_grass"],
+            "visibility_rules": [
+              "grass_sanity_normal",
+              "grass_sanity_grotto_caves"
+            ],
+            "item_count": 12,
+            "clear_as_group": false
+          },
+          {
+            "name": "Butterfly Fairies",
+            "chest_unopened_img": "images/icons/butterfly.png",
+            "visibility_rules": ["real_fairysanity"],
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_misc_soul|soul_butterfly, $has_explosives"
+            ]
+          },
+          {
+            "name": "Beehive",
+            "chest_unopened_img": "images/icons/beehive.png",
+            "visibility_rules": ["hive_sanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_absurd_soul|soul_grottos, $has_projectiles, $has_explosives"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 956,
+            "y": 655,
+            "shape": "trapezoid"
           }
         ]
       }

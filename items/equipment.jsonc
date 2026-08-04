@@ -194,15 +194,6 @@
     "codes": "twinmoldremains,twinmold"
   },
   {
-    "name": "Remains Count",
-    "type": "consumable",
-    "img": "images/equipment/twinmold.png",
-    "codes": "remains_count",
-    "min_quantity": 0,
-    "max_quantity": 4,
-    "initial_quantity": 0
-  },
-  {
     "name": "Remains Moon",
     "type": "toggle",
     "codes": "remains_moon"

@@ -1,0 +1,52 @@
+{
+  "settings_souls": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": 5,
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "group",
+                "header": "Souls",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "boss_souls"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "absurd_souls"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "misc_souls"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "npc_souls"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "enemy_souls"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

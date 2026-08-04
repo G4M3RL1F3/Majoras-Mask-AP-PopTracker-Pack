@@ -8,6 +8,188 @@
         "name": "",
         "sections": [
           {
+            "ref": "Dungeons/Ikana Castle/Ikana Castle Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 793,
+            "y": 94,
+            "shape": "diamond"
+          },
+          {
+            "map": "ikana_castle",
+            "x": 450,
+            "y": 456,
+            "shape": "diamond"
+          },
+          {
+            "map": "ikana_castle",
+            "x": 620,
+            "y": 607,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Exterior Corner Pot",
+        "sections": [
+          {
+            "name": "Pot",
+            "ref": "Dungeons/Ikana Castle/Exterior Corner Pot"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 792,
+            "y": 607,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Frozen Eyes Room Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Ikana Castle/Frozen Eyes Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1250,
+            "y": 365,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Left Side Falling Ceiling Room Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Ikana Castle/Left Side Falling Ceiling Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1330,
+            "y": 249,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Left Side Falling Ceiling Deku Flowers",
+        "sections": [
+          {
+            "name": "Deku Flowers",
+            "ref": "Dungeons/Ikana Castle/Left Side Falling Ceiling Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1490,
+            "y": 205,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Left Side Broken Floor Room Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Ikana Castle/Left Side Broken Floor Room Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1700,
+            "y": 249,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Left Side Broken Floor Deku Flowers",
+        "sections": [
+          {
+            "name": "Deku Flowers",
+            "ref": "Dungeons/Ikana Castle/Left Side Broken Floor Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1630,
+            "y": 175,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Left Side Staircase Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Ikana Castle/Left Side Staircase Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1950,
+            "y": 185,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Right Side Staircase Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Ikana Castle/Right Side Staircase Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 1950,
+            "y": 545,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Exterior Deku Flowers",
+        "sections": [
+          {
+            "name": "Deku Flowers",
+            "ref": "Dungeons/Ikana Castle/Exterior Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ikana_castle",
+            "x": 515,
+            "y": 215,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Pillar Freestanding HP",
+        "sections": [
+          {
+            "name": "Heart Piece",
             "ref": "Dungeons/Ikana Castle/Pillar Freestanding HP"
           }
         ],
@@ -20,10 +202,15 @@
         ]
       },
       {
-        "name": "",
+        "name": "Throne Room",
         "sections": [
           {
+            "name": "King Song",
             "ref": "Dungeons/Ikana Castle/King Song"
+          },
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Ikana Castle/Throne Room Pots"
           }
         ],
         "map_locations": [

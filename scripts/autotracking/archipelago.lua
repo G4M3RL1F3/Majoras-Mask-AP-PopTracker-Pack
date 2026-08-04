@@ -1,6 +1,7 @@
 --ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_switching.lua")
 --ScriptHost:LoadScript("scripts/autotracking/mappings.lua")
 ScriptHost:LoadScript("scripts/autotracking/shop.lua")
 ScriptHost:LoadScript("scripts/autotracking/tables.lua")
@@ -77,7 +78,6 @@ function onClear(slot_data)
         end
     end
     Tracker:FindObjectForCode("remains_moon").Active = false
-    Tracker:FindObjectForCode("bottles").CurrentStage = 0
 
     -- reset logic tricks
     --for _, logictrick in pairs(LOGIC_TRICK_MAPPING) do
@@ -100,42 +100,46 @@ function onClear(slot_data)
 	Archipelago:Get(data_strorage_keys)
 
     -- applies shop prices from slot data on each shop item for display
-    if slot_data["shopsanity"] ~= 0 then
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print("Printing shop values given from slot data:")
-            for index, value in ipairs(slot_data["shop_prices_ints"]) do
-                print(index, value)
-            end
-        end
-
-        -- if shop prices are set to be free, set them to the price of 1
-        -- leaving the prices at 0 marks them as checked, which we don't want
-        for k, v in pairs(SHOP_NAMES) do
-            RANDOMIZED_PRICES[k] = {v[1], slot_data["shop_prices_ints"][k]}
-            if slot_data["shop_prices_ints"][k] == 0 then
-                RANDOMIZED_PRICES[k] = {v[1], 1}
-            end
-        end
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print("Printing RANDOMIZED_PRICES table:")
-        end
-        for key, value in pairs(RANDOMIZED_PRICES) do
-            print(key, value[1], value[2])
-        end
-    end
-    adjust_display_cost()
+    --if slot_data["shopsanity"] ~= 0 then
+    --    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    --        print("Printing shop values given from slot data:")
+    --        for index, value in ipairs(slot_data["shop_prices_ints"]) do
+    --            print(index, value)
+    --        end
+    --    end
+--
+    --    -- if shop prices are set to be free, set them to the price of 1
+    --    -- leaving the prices at 0 marks them as checked, which we don't want
+    --    for k, v in pairs(SHOP_NAMES) do
+    --        RANDOMIZED_PRICES[k] = {v[1], slot_data["shop_prices_ints"][k]}
+    --        if slot_data["shop_prices_ints"][k] == 0 then
+    --            RANDOMIZED_PRICES[k] = {v[1], 1}
+    --        end
+    --    end
+    --    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    --        print("Printing RANDOMIZED_PRICES table:")
+    --    end
+    --    for key, value in pairs(RANDOMIZED_PRICES) do
+    --        print(key, value[1], value[2])
+    --    end
+    --end
+    --adjust_display_cost()
 
     -- read YAML options
     local function setFromSlotData(slot_data_key, item_code)
         local v = slot_data[slot_data_key]
         if not v then
-            print(string.format("Could not find key '%s' in slot data", slot_data_key))
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("Could not find key '%s' in slot data", slot_data_key))
+            end
             return nil
         end
 
         local obj = Tracker:FindObjectForCode(item_code)
         if not obj then
-            print(string.format("Could not find item for code '%s'", item_code))
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("Could not find item for code '%s'", item_code))
+            end
             return nil
         end
 
@@ -150,46 +154,99 @@ function onClear(slot_data)
             obj.AcquiredCount = v
             return v
         else
-            print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
+            end
             return nil
         end
     end
 
-    setFromSlotData("logic_difficulty","logic_difficulty")
-    setFromSlotData("majora_remains_required","majora_remains_required")
-    setFromSlotData("moon_remains_required","moon_remains_required")
-    setFromSlotData("remains_allow_boss_warps","remains_allow_boss_warps")
-    setFromSlotData("camc","camc")
-    --setFromSlotData("swordless","swordless")
-    --setFromSlotData("shieldless","shieldless")
-    setFromSlotData("start_with_soaring","start_with_soaring")
-    --setFromSlotData("starting_hearts","starting_hearts")
-    --setFromSlotData("starting_hearts_are_containers_or_pieces","starting_hearts_are_containers_or_pieces")
-    setFromSlotData("shuffle_regional_maps","shuffle_regional_maps")
-    setFromSlotData("shuffle_boss_remains","shuffle_boss_remains")
-    setFromSlotData("shuffle_spiderhouse_reward","shuffle_spiderhouse_reward")
-    setFromSlotData("skullsanity","skullsanity")
-    setFromSlotData("required_skull_tokens","required_skull_tokens")
-    setFromSlotData("shopsanity","shopsanity")
-    setFromSlotData("scrubsanity","scrubsanity")
-    setFromSlotData("cowsanity","cowsanity")
-    setFromSlotData("keysanity","small_key_sanity")
+    setFromSlotData("absurd_souls","absurd_souls")
+    setFromSlotData("boss_souls","boss_souls")
     setFromSlotData("bosskeysanity","boss_key_sanity")
-    setFromSlotData("intro_checks","intro_checks")
-    setFromSlotData("curiostity_shop_trades","curiosity_shop_trades") --spelling mistake in apworld
-    setFromSlotData("shuffle_great_fairy_rewards","shuffle_great_fairy_rewards")
-    setFromSlotData("fairysanity","fairysanity")
-    setFromSlotData("required_stray_fairies","required_stray_fairies")
-    setFromSlotData("start_with_consumables","start_with_consumables")
-    setFromSlotData("permanent_chateau_romani","permanent_chateau_romani")
-    setFromSlotData("start_with_inverted_time","start_with_inverted_time")
-    setFromSlotData("receive_filled_wallets","receive_filled_wallets")
+    setFromSlotData("camc","camc")
+    setFromSlotData("completion_goal","completion_goal")
+    setFromSlotData("cowsanity","cowsanity")
+    setFromSlotData("curiostity_shop_trades","curiosity_shop_trades")
     setFromSlotData("damage_multiplier","damage_multiplier")
     setFromSlotData("death_behavior","death_behavior")
-    --setFromSlotData("death_link","death_link")
+    setFromSlotData("death_link","death_link")
+    setFromSlotData("enemy_souls","enemy_souls")
+    setFromSlotData("fairysanity","fairysanity")
+    setFromSlotData("flowersanity","flower_sanity")
+    setFromSlotData("frogsanity","frogsanity")
+    setFromSlotData("grasssanity","grass_sanity")
+    setFromSlotData("hitsanity","hit_sanity")
+    setFromSlotData("hivesanity","hive_sanity")
+    setFromSlotData("iciclesanity","icicle_sanity")
+    setFromSlotData("intro_checks","intro_checks")
+    setFromSlotData("invisisanity","invisi_sanity")
+    setFromSlotData("keysanity","small_key_sanity")
+    setFromSlotData("logic_difficulty","logic_difficulty")
+    setFromSlotData("magic_is_a_trap","magic_is_a_trap")
+    setFromSlotData("majora_remains_required","majora_remains_required")
+    setFromSlotData("majora_masks_required","majora_masks_required")
+    setFromSlotData("majora_star_fox","majora_star_fox")
+    setFromSlotData("majora_owls_required","majora_owls_required")
+    setFromSlotData("majora_scarecrows_required","majora_scarecrows_required")
+    setFromSlotData("majora_frogs_required","majora_frogs_required")
+    setFromSlotData("majora_items_required","majora_items_required")
+    setFromSlotData("misc_souls","misc_souls")
+    setFromSlotData("moon_remains_required","moon_remains_required")
+    setFromSlotData("moon_masks_required","moon_masks_required")
+    setFromSlotData("moon_star_fox","moon_star_fox")
+    setFromSlotData("moon_owls_required","moon_owls_required")
+    setFromSlotData("moon_scarecrows_required","moon_scarecrows_required")
+    setFromSlotData("moon_frogs_required","moon_frogs_required")
+    setFromSlotData("moon_items_required","moon_items_required")
+    setFromSlotData("notebooksanity","notebook_sanity")
+    setFromSlotData("npc_souls","npc_souls")
+    setFromSlotData("ocarinaless","ocarinaless")
+    setFromSlotData("oneoffs","oneoffs")
+    setFromSlotData("owlsanity","owl_sanity")
+    setFromSlotData("permanent_chateau_romani","permanent_chateau_romani")
+    setFromSlotData("potsanity","pot_sanity")
+    setFromSlotData("realfairysanity","real_fairysanity")
+    setFromSlotData("receive_filled_wallets","receive_filled_wallets")
+    setFromSlotData("remains_allow_boss_warps","boss_warps_with_remains")
+    setFromSlotData("required_stray_fairies","required_stray_fairies")
+    setFromSlotData("required_skull_tokens","required_skull_tokens")
+    setFromSlotData("rocksanity","rock_sanity")
+    setFromSlotData("rupeesanity","rupee_sanity")
+    setFromSlotData("scarecrowsanity","scarecrow_sanity")
+    setFromSlotData("scrubsanity","scrubsanity")
+    setFromSlotData("shieldless","shieldless")
+    setFromSlotData("shop_prices","shop_prices")
+    setFromSlotData("shopsanity","shopsanity")
+    setFromSlotData("shuffle_boss_remains","shuffle_boss_remains")
+    setFromSlotData("shuffle_great_fairy_rewards","shuffle_great_fairy_rewards")
+    setFromSlotData("shuffle_regional_maps","shuffle_regional_maps")
+    setFromSlotData("shuffle_spiderhouse_reward","shuffle_spiderhouse_reward")
+    setFromSlotData("signsanity","sign_sanity")
+    setFromSlotData("skullsanity","skullsanity")
+    setFromSlotData("snowsanity","snow_sanity")
+    setFromSlotData("soilsanity","soil_sanity")
+    setFromSlotData("start_with_consumables","start_with_consumables")
+    setFromSlotData("start_with_inverted_time","start_with_inverted_time")
+    setFromSlotData("start_with_soaring","start_with_soaring")
+    setFromSlotData("starting_hearts","starting_hearts")
+    setFromSlotData("starting_hearts_are_containers_or_pieces","starting_hearts_containers_pieces")
+    setFromSlotData("swordless","swordless")
+    setFromSlotData("timeless","timeless")
+    setFromSlotData("treesanity","tree_sanity")
+    setFromSlotData("utility_souls","utility_souls")
+    setFromSlotData("websanity","web_sanity")
+    setFromSlotData("woodsanity","wood_sanity")
     --for _, trick in ipairs(slot_data["logic_tricks"]) do
     --    Tracker:FindObjectForCode(LOGIC_TRICK_MAPPING[string.format("%s", trick)]).Active = true
     --end
+
+    map_key = "Majora's_Mask_Recompiled_"..Archipelago.TeamNumber.."_"..Archipelago.PlayerNumber.."_scene"
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("Data storage map key: '%s'", map_key))
+    end
+    Archipelago:SetNotify({map_key})
+    Archipelago:Get({map_key})
 
 	Tracker.BulkUpdate = false
 end
@@ -237,6 +294,37 @@ function onItem(index, item_id, item_name, player_number)
 	end
 end
 
+
+SHOP_LOCATION_IDS = {
+    {0x090002}, {0x090001}, {0x090000}, -- Swamp Witch Shop
+
+    -- Trading Post
+    {0x09000A},
+    {0x090005},
+    {0x090006},
+    {0x090003},
+    {0x090007},
+    {0x090008},
+    {0x090009},
+    {0x090004},
+    {0x090012},
+    {0x09000E},
+    {0x090011},
+    {0x09000B},
+    {0x090010},
+    {0x09000C},
+    {0x09000F},
+    {0x09000D},
+
+    {0x090013}, {0x090015}, -- Curiosity Shop
+
+    {0x09001A}, {0x090019}, {0x090017}, {0x090018}, -- Bomb Shop
+
+    {0x09001B}, {0x09001C}, {0x09001D}, -- Zora Shop
+
+    {0x09001E}, {0x09001F}, {0x090020}, -- Goron Shop Winter
+    {0x090021}, {0x090022}, {0x090023}  -- Goron Shop Spring
+}
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
@@ -252,7 +340,13 @@ function onLocation(location_id, location_name)
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
         if v[1]:sub(1, 1) == "@" then
-            obj.AvailableChestCount = 0
+            for _, value in pairs(SHOP_LOCATION_IDS) do
+                if location_id == value[1] then
+                    obj.AvailableChestCount = 0
+                    break
+                end
+            end
+            obj.AvailableChestCount = obj.AvailableChestCount - 1
         else
             obj.Active = true
         end
@@ -344,12 +438,25 @@ function updateHint(hint, sections_to_update)
   end
 end
 
+function onChangedRegion(key, current_region, old_region)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("onChangedRegion: New scene ID: '%s'", current_region))
+    end
+    for _, tab in ipairs(TABS_MAPPING[current_region]) do
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+            print(string.format("onChangedRegion: Activating tab: '%s'", tab))
+        end
+        Tracker:UiHint("ActivateTab", tab)
+    end
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
-Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
-Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
+-- Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
+-- Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
+Archipelago:AddSetReplyHandler("map_key", onChangedRegion)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)

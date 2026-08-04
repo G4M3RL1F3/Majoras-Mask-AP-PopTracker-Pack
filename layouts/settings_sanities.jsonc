@@ -1,0 +1,197 @@
+{
+  "settings_sanities": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": 5,
+    "content": [
+      {
+        "type": "array",
+				"orientation": "vertical",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"content": [
+              {
+                "type": "group",
+                "header": "Sanities",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "small_key_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "boss_key_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "skullsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "required_skull_tokens"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "fairysanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "required_stray_fairies"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "shopsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "scrubsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "cowsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "scarecrow_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "frogsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "grass_sanity"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "pot_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "flower_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "wood_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "sign_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "owl_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "hit_sanity"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "notebook_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "tree_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "rock_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "rupee_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "invisi_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "soil_sanity"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "snow_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "icicle_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "real_fairysanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "hive_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "web_sanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "oneoffs"
+                  }
+                ]
+              }
+						]
+					}
+				]
+      }
+    ]
+  }
+}

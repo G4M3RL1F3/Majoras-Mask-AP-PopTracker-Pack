@@ -1,75 +1,32 @@
--- Can reach specific locations (there's probably a better way to do this)
-function canReachHealingInvisibleGoron()
-    return can_use_lens() and can_play_healing()
+function can_warp_out()
+    return can_play_song("soaring") and (can_use_owl("owl_ct") or can_use_owl("owl_milk_road") or can_use_owl("owl_swamp") or can_use_owl("owl_ikana_canyon") or can_use_owl("owl_stone_tower"))
 end
-
-function canReachIkanaWellInvisibleChest()
-    return has("gibdo") and has("bottles", 1) and (has("adultswallet") or has("maskofscents"))
-end
-
-function canReachHotWaterGrottoChest()
-    return (has_explosives() and can_use_fire_arrows()) or (can_use_lens() and has("bottles", 1) and has("goron") and has_explosives) or clear_snowhead() or (canReachIkanaWellInvisibleChest() and can_play_soaring())
-end
-
--- Songs
-function can_play_healing() -- was "play_healing"
-    return has("healing") and has("ocarina")
-end
-
-function can_play_eponas()
-    return has("epona") and has("ocarina")
-end
-
-function can_play_soaring()
-    return has("soaring") and has("ocarina")
-end
-
-function can_play_storms()
-    return has("storms") and has("ocarina")
-end
-
-function can_play_sonata() -- was "play_sonata"
-    return has("sonata") and has("ocarina")
-end
-
-function can_play_lullaby()
-    return has("goronlullaby") and has("ocarina")
-end
-
-function can_play_bossa_nova()
-    return has("bossanova") and has("ocarina")
-end
-
-function can_play_elegy()
-    return has("elegy") and has("ocarina")
-end
-
 
 -- Rules consistent between difficulties
 
-function can_get_magic_beans() -- was "get_beans"
-    return has("beans") and has("deku") and deku_palace()
+function can_get_magic_beans()
+    return has_npc_soul("soul_bean_seller") and has_absurd_soul("soul_grottos") and has("deku") and deku_palace()
 end
 
 -- has_bombchus() unnecessary: any bombchu pickup is linked to one toggle "bombchu"
 
-function has_explosives() -- was "explosives"
+function has_explosives()
     return has("bombs") or has("bombchu_bag") or has("blast")
 end
 
-function has_hard_projectiles() -- was "has_hard_projectiles"
+function has_hard_projectiles()
     return has("bow") or has("zora") or has("hookshot")
 end
 
-function has_projectiles() -- was "projectiles"
+function has_projectiles()
     return (has("deku") and has("magic")) or has_hard_projectiles()
 end
 
-function can_smack_hard() -- was "smack_hard"
-    return has("sword") or has("fiercedeity") or has("fairysword") or has("goron")
+function can_smack_hard()
+    return has("sword") or has("fiercedeity") or has("fairysword") or has("goron") or has("zora")
 end
 
-function can_smack() -- was "smack"
+function can_smack()
     return can_smack_hard() or has("deku")
 end
 
@@ -78,30 +35,30 @@ function has_paper()
 end
 
 function can_get_cow_milk()
-    return has("bottles", 1) and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("gibdo") and has("bottles",1) and can_plant_beans() and canReachHotWaterGrottoChest() or can_use_light_arrows() and (canReachHotWaterGrottoChest() or (has("goron") and can_use_lens()) or canReachIkanaWellInvisibleChest())))
+    return has_misc_soul("soul_cow") and has_absurd_soul("soul_grottos") and bottleCount(1) and can_play_song("epona") and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has_npc_soul("soul_barten") and has("romani")) or (has("gibdo") and has_npc_soul("soul_gibdos") and bottleCount(1) and can_plant_beans() and Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") or can_use_light_arrows() and (Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") or (has("goron") and can_use_lens()) or Tracker:FindObjectForCode("@Dungeons/Beneath the Well/Invisible Chest"))))
 end
 
-function can_plant_beans() -- was "plant_beans"
-    return can_get_magic_beans() and (has("bottles", 1) or can_play_storms())
+function can_plant_beans()
+    return can_get_magic_beans() and (bottleCount(1) or can_play_song("storms"))
 end
 
-function can_use_powder_keg() -- was "use_keg"
-    return has("keg") and has("goron")
+function can_use_powder_keg()
+    return has("keg") and has("goron") and (has_npc_soul("soul_keg_goron") or (has_npc_soul("soul_medigoron") and can_use_fire_arrows() and has("adultswallet")))
 end
 
-function can_use_fire_arrows() -- was "use_fire_arrows"
+function can_use_fire_arrows()
     return has("bow") and has("magic") and has("firearrow")
 end
 
-function can_use_ice_arrows() -- was "use_ice_arrows"
+function can_use_ice_arrows()
     return has("bow") and has("magic") and has("icearrow")
 end
 
-function can_use_light_arrows() -- was "use_light_arrows"
+function can_use_light_arrows()
     return has("bow") and has("magic") and has("lightarrow")
 end
 
-function can_use_lens() -- was "use_lens"
+function can_use_lens()
     return has("lens") and has("magic")
 end
 
@@ -110,9 +67,20 @@ function can_bring_to_player()
 end
 
 function can_reach_seahorse()
-    return great_bay() and has("zora") and has("pictobox") and (has("hookshot") or has("goron"))
+    return great_bay() and has_npc_soul("soul_fisherman") and has_enemy_soul("soul_pirate_guards") and has("zora") and has("pictobox") and (has("hookshot") or has("goron"))
 end
 
+function can_get_frog_choir_hp()
+    if not (has("dongero") and clear_snowhead()) then
+        return false
+    end
+
+    if has("frogsanity") then
+        return has("frog_yellow") and has("frog_white") and has("frog_cyan") and has("frog_blue") and has("frog_pink")
+    else
+        return (woodfall_temple() and Tracker:FindObjectForCode("@Dungeons/Woodfall Temple/Gekko Chest")) and great_bay_temple() and can_use_ice_arrows() and can_use_fire_arrows()
+    end
+end
 
 -- Easy difficulty rules
 function baby_has_bombchus()
@@ -148,7 +116,7 @@ function baby_has_bottle()
 end
 
 function baby_can_plant_beans()
-    return can_get_magic_beans() and baby_has_bottle() and can_play_storms()
+    return can_get_magic_beans() and baby_has_bottle() and can_play_song("storms")
 end
 
 function baby_can_bring_to_player()
@@ -156,113 +124,335 @@ function baby_can_bring_to_player()
 end
 
 function baby_can_reach_seahorse()
-    return great_bay() and has("zora") and has("hookshot") and has("goron") and has("pictobox")
+    return great_bay() and has("soul_fisherman") and has("zora") and has("pictobox") and (has("hookshot") or has("goron"))
 end
 
 function baby_can_get_cow_milk()
-    return baby_has_bottle() and can_play_eponas() and baby_has_explosives() and can_use_powder_keg() and has("hookshot") and has("gibdo") and baby_can_plant_beans() and can_use_light_arrows() and canReachHotWaterGrottoChest() and has("goron") and canReachHealingInvisibleGoron() and canReachIkanaWellInvisibleChest()
-end
-
------
-
-function smallKeySanity()
-    if Tracker:FindObjectForCode("small_key_sanity").Active == false then
-        Tracker:FindObjectForCode("small_key_sanity_off").Active = true
-    else
-        Tracker:FindObjectForCode("small_key_sanity_off").Active = false
-    end
-end
-function bossKeySanity()
-    if Tracker:FindObjectForCode("boss_key_sanity").Active == false then
-        Tracker:FindObjectForCode("boss_key_sanity_off").Active = true
-    else
-        Tracker:FindObjectForCode("boss_key_sanity_off").Active = false
-    end
+    return baby_has_bottle() and can_play_song("epona") and baby_has_explosives() and can_use_powder_keg() and has("hookshot") and has("gibdo") and baby_can_plant_beans() and can_use_light_arrows() and Tracker:FindObjectForCode("@Snowhead/Twin Islands/Hot Water Grotto Chest") and has("goron") and Tracker:FindObjectForCode("@Snowhead/Mountain Village/Healing Darmani") and Tracker:FindObjectForCode("@Dungeons/Beneath the Well/Invisible Chest")
 end
 
 -- This function's purpose is for counting how many bottles have been acquired.
 -- Currently used to check if the player has any bottle so that it can be accounted for logic.
-function bottleCount()
-    local bottle_count = Tracker:FindObjectForCode("bottles")
-    bottle_count.AcquiredCount = bottle_count.MinCount
+function bottleCount(bottles_needed)
+    local current_bottle_count
+    current_bottle_count = 0
+    bottles_needed = tonumber(bottles_needed)
     if Tracker:FindObjectForCode("milk").Active then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
+        current_bottle_count = current_bottle_count + 1
     end
     if Tracker:FindObjectForCode("chateau").Active then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
+        current_bottle_count = current_bottle_count + 1
     end
     if Tracker:FindObjectForCode("redpotion").Active then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
-    end
-    if Tracker:FindObjectForCode("gold_dust").Active then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
+        current_bottle_count = current_bottle_count + 1
     end
     if Tracker:FindObjectForCode("empty_bottle").AcquiredCount == 1 then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
+        current_bottle_count = current_bottle_count + 1
     elseif Tracker:FindObjectForCode("empty_bottle").AcquiredCount == 2 then
-        if (bottle_count.AcquiredCount + bottle_count.Increment + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
+        current_bottle_count = current_bottle_count + 2
+    elseif Tracker:FindObjectForCode("empty_bottle").AcquiredCount == 3 then
+        current_bottle_count = current_bottle_count + 3
+    end
+    if current_bottle_count >= bottles_needed then
+        return true
+    else
+        return false
+    end
+end
+
+function remainCount(check)
+    local remains_count
+    remains_count = 0
+    if Tracker:FindObjectForCode("odolwa").Active then
+        remains_count = remains_count + 1
+    end
+    if Tracker:FindObjectForCode("goht").Active then
+        remains_count = remains_count + 1
+    end
+    if Tracker:FindObjectForCode("gyorg").Active then
+        remains_count = remains_count + 1
+    end
+    if Tracker:FindObjectForCode("twinmold").Active then
+        remains_count = remains_count + 1
+    end
+    if check == "moon" then
+        if remains_count >= Tracker:FindObjectForCode("moon_remains_required").AcquiredCount then
+            return true
         else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment + bottle_count.Increment
+            return false
+        end
+    elseif check == "majora" then
+        if remains_count >= Tracker:FindObjectForCode("majora_remains_required").AcquiredCount then
+            return true
+        else
+            return false
         end
     end
 end
 
-function remainCount()
-    local remains_count = Tracker:FindObjectForCode("remains_count")
-    remains_count.AcquiredCount = remains_count.MinCount
-    if Tracker:FindObjectForCode("odolwa").Active then
-        if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
-            remains_count.AcquiredCount = remains_count.MaxCount
+
+function maskCount(check)
+    local masks_count
+    masks_count = 0
+    if Tracker:FindObjectForCode("captain").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("allnight").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("bunnyhood").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("keaton").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("garo").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("romani").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("circus").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("postman").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("couple").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("fairymask").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("gibdo").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("dongero").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("kamaro").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("truth").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("stone").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("bremen").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("blast").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("scents").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("kafei").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("giant").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("deku").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("goron").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("zora").Active then
+        masks_count = masks_count + 1
+    end
+    if Tracker:FindObjectForCode("fiercedeitymask").Active then
+        masks_count = masks_count + 1
+    end
+    if check == "moon" then
+        if masks_count >= Tracker:FindObjectForCode("moon_masks_required").AcquiredCount then
+            return true
         else
-            remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
+            return false
+        end
+    elseif check == "majora" then
+        if masks_count >= Tracker:FindObjectForCode("majora_masks_required").AcquiredCount then
+            return true
+        else
+            return false
         end
     end
-    if Tracker:FindObjectForCode("goht").Active then
-        if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
-            remains_count.AcquiredCount = remains_count.MaxCount
+end
+
+function starFox(check)
+    local star_fox
+    star_fox = 0
+    if Tracker:FindObjectForCode("bunnyhood").Active then
+        star_fox = star_fox + 1
+    end
+    if Tracker:FindObjectForCode("keaton").Active then
+        star_fox = star_fox + 1
+    end
+    if Tracker:FindObjectForCode("dongero").Active then
+        star_fox = star_fox + 1
+    end
+    if Tracker:FindObjectForCode("bremen").Active then
+        star_fox = star_fox + 1
+    end
+    if Tracker:FindObjectForCode("scents").Active then
+        star_fox = star_fox + 1
+    end
+    if check == "moon" then
+        if star_fox >= Tracker:FindObjectForCode("moon_masks_required").AcquiredCount then
+            return true
         else
-            remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
+            return false
+        end
+    elseif check == "majora" then
+        if star_fox >= Tracker:FindObjectForCode("majora_masks_required").AcquiredCount then
+            return true
+        else
+            return false
         end
     end
-    if Tracker:FindObjectForCode("gyorg").Active then
-        if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
-            remains_count.AcquiredCount = remains_count.MaxCount
+end
+
+function owlCount(check)
+    local owl_count
+    owl_count = 0
+    if Tracker:FindObjectForCode("owl_ct").Active then
+        owl_count = owl_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_milk_road").Active then
+        owl_count = owl_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_swamp").Active then
+        owl_count = owl_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_woodfall").Active then
+        owl_count = owl_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_mountain").Active then
+        owl_count = owl_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_snowhead").Active then
+        owl_count = owl_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_coast").Active then
+        owl_count = owl_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_zora_cape").Active then
+        owl_count = owl_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_ikana_canyon").Active then
+        owl_count = owl_count + 1
+    end
+    if Tracker:FindObjectForCode("owl_stone_tower").Active then
+        owl_count = owl_count + 1
+    end
+    if check == "moon" then
+        if owl_count >= Tracker:FindObjectForCode("moon_owls_required").AcquiredCount then
+            return true
         else
-            remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
+            return false
+        end
+    elseif check == "majora" then
+        if owl_count >= Tracker:FindObjectForCode("majora_owls_required").AcquiredCount then
+            return true
+        else
+            return false
         end
     end
-    if Tracker:FindObjectForCode("twinmold").Active then
-        if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
-            remains_count.AcquiredCount = remains_count.MaxCount
+end
+
+function frogCount(check)
+    local frog_count
+    frog_count = 0
+    if Tracker:FindObjectForCode("frog_yellow").Active then
+        frog_count = frog_count + 1
+    end
+    if Tracker:FindObjectForCode("frog_white").Active then
+        frog_count = frog_count + 1
+    end
+    if Tracker:FindObjectForCode("frog_pink").Active then
+        frog_count = frog_count + 1
+    end
+    if Tracker:FindObjectForCode("frog_blue").Active then
+        frog_count = frog_count + 1
+    end
+    if Tracker:FindObjectForCode("frog_cyan").Active then
+        frog_count = frog_count + 1
+    end
+    if check == "moon" then
+        if frog_count >= Tracker:FindObjectForCode("moon_frogs_required").AcquiredCount then
+            return true
         else
-            remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
+            return false
+        end
+    elseif check == "majora" then
+        if frog_count >= Tracker:FindObjectForCode("majora_frogs_required").AcquiredCount then
+            return true
+        else
+            return false
         end
     end
-    if remains_count.AcquiredCount >= Tracker:FindObjectForCode("moon_remains_required").AcquiredCount then
-        Tracker:FindObjectForCode("remains_moon").Active = true
-    else
-        Tracker:FindObjectForCode("remains_moon").Active = false
+end
+
+function scarecrowCount(check)
+    local scarecrow_count
+    scarecrow_count = 0
+    if Tracker:FindObjectForCode("scarecrow_mtn_village_winter").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_mtn_village_spring").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_path_snowhead_winter").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_path_snowhead_spring").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_twin_islands_winter").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_twin_islands_spring").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_sht_lower").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_sht_hidden_alcove").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_gb_coast_rock_wall").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_zora_cape_beavers").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+        if Tracker:FindObjectForCode("scarecrow_zora_cape_island").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_road_to_ikana").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_stone_tower_lower").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+    if Tracker:FindObjectForCode("scarecrow_stone_tower_upper").Active then
+        scarecrow_count = scarecrow_count + 1
+    end
+
+    if check == "moon" then
+        if scarecrow_count >= Tracker:FindObjectForCode("moon_scarecrows_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
+    elseif check == "majora" then
+        if scarecrow_count >= Tracker:FindObjectForCode("majora_scarecrows_required").AcquiredCount then
+            return true
+        else
+            return false
+        end
     end
 end
 
@@ -289,6 +479,15 @@ function clear_wft()
     end
     if Tracker:FindObjectForCode("boss_odolwa_hosted").Active == false then
         Tracker:FindObjectForCode("wftreward").Active = false
+    end
+end
+
+function clear_sht()
+    if Tracker:FindObjectForCode("boss_goht_hosted").Active then
+        Tracker:FindObjectForCode("shtreward").Active = true
+    end
+    if Tracker:FindObjectForCode("boss_goht_hosted").Active == false then
+        Tracker:FindObjectForCode("shtreward").Active = false
     end
 end
 
@@ -412,19 +611,8 @@ function oath_to_order_stt()
     end
 end
 
-ScriptHost:AddWatchForCode("Small Key Sanity Off", "small_key_sanity", smallKeySanity)
-ScriptHost:AddWatchForCode("Boss Key Sanity Off", "boss_key_sanity", bossKeySanity)
 ScriptHost:AddWatchForCode("OdolwaDefeated", "boss_odolwa_hosted", clear_wft)
-ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottleCount)
-ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", bottleCount)
-ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", bottleCount)
-ScriptHost:AddWatchForCode("bottlecounter_gold", "gold_dust", bottleCount)
-ScriptHost:AddWatchForCode("bottlecounter_empty_bottle", "empty_bottle", bottleCount)
-ScriptHost:AddWatchForCode("OdolwaObtained", "odolwa", remainCount)
-ScriptHost:AddWatchForCode("GohtObtained", "goht", remainCount)
-ScriptHost:AddWatchForCode("GyorgObtained", "gyorg", remainCount)
-ScriptHost:AddWatchForCode("TwinmoldObtained", "twinmold", remainCount)
-ScriptHost:AddWatchForCode("MoonRemainsCountUpdated", "moon_remains_required", remainCount)
+ScriptHost:AddWatchForCode("GohtDefeated", "boss_goht_hosted", clear_sht)
 ScriptHost:AddWatchForCode("ClockTownMapPurchased1", "clock_town_map_purchase_1", clock_town_map_purchased_1)
 ScriptHost:AddWatchForCode("ClockTownMapPurchased2", "clock_town_map_purchase_2", clock_town_map_purchased_2)
 ScriptHost:AddWatchForCode("SnowheadMapPurchased1", "snowhead_map_purchase_1", snowhead_map_purchased_1)

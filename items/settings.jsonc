@@ -1,6 +1,6 @@
-//Create items to display them in pack settings. Codes are used in /layouts/settings.jsonc for linking.
+// Create items to display them in pack settings. Codes are used in /layouts/settings.jsonc for linking.
 [
-  //Game Options
+  // Goal Options
   {
     "name": "Logic Difficulty",
     "type": "progressive",
@@ -44,6 +44,100 @@
     "overlay_font_size": 40
   },
   {
+    "name": "Star Fox for Moon",
+    "type": "toggle",
+    "img": "images/pack_settings/star_fox_moon_on.png",
+    "disabled_img": "images/pack_settings/star_fox_moon_off.png",
+    "codes": "moon_star_fox"
+  },
+  {
+    "name": "Star Fox for Majora",
+    "type": "toggle",
+    "img": "images/pack_settings/star_fox_majora_on.png",
+    "disabled_img": "images/pack_settings/star_fox_majora_off.png",
+    "codes": "majora_star_fox"
+  },
+  {
+    "name": "Masks for Moon",
+    "type": "consumable",
+    "img": "images/pack_settings/masks_for_moon.png",
+    "codes": "moon_masks_required",
+    "min_quantity": 0,
+    "max_quantity": 24,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Masks for Majora",
+    "type": "consumable",
+    "img": "images/pack_settings/masks_for_majora.png",
+    "codes": "majora_masks_required",
+    "min_quantity": 0,
+    "max_quantity": 24,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Owls for Moon",
+    "type": "consumable",
+    "img": "images/pack_settings/owls_for_moon.png",
+    "codes": "moon_owls_required",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Owls for Majora",
+    "type": "consumable",
+    "img": "images/pack_settings/owls_for_majora.png",
+    "codes": "majora_owls_required",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Scarecrows for Moon",
+    "type": "consumable",
+    "img": "images/pack_settings/scarecrows_for_moon.png",
+    "codes": "moon_scarecrows_required",
+    "min_quantity": 0,
+    "max_quantity": 14,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Scarecrows for Majora",
+    "type": "consumable",
+    "img": "images/pack_settings/scarecrows_for_majora.png",
+    "codes": "majora_scarecrows_required",
+    "min_quantity": 0,
+    "max_quantity": 14,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Frogs for Moon",
+    "type": "consumable",
+    "img": "images/pack_settings/frogs_for_moon.png",
+    "codes": "moon_frogs_required",
+    "min_quantity": 0,
+    "max_quantity": 5,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Frogs for Majora",
+    "type": "consumable",
+    "img": "images/pack_settings/frogs_for_majora.png",
+    "codes": "majora_frogs_required",
+    "min_quantity": 0,
+    "max_quantity": 5,
+    "initial_quantity": 0,
+    "overlay_font_size": 40
+  },
+  {
     "name": "Boss Warps With Remains",
     "type": "toggle",
     "img": "images/pack_settings/boss_warps_with_remains_on.png",
@@ -52,7 +146,7 @@
     "codes": "boss_warps_with_remains"
   },
 
-  //Shuffles
+  // Shuffles
   {
     "name": "Swordless",
     "type": "toggle",
@@ -152,7 +246,7 @@
     "codes": "shuffle_great_fairy_rewards"
   },
 
-  //Sanities
+  // Sanities
   {
     "name": "Small Key Sanity",
     "type": "toggle",
@@ -161,23 +255,11 @@
     "codes": "small_key_sanity"
   },
   {
-    "name": "Small Key Sanity Off",
-    "type": "toggle",
-    "codes": "small_key_sanity_off",
-    "initial_active_state": true
-  },
-  {
     "name": "Boss Key Sanity",
     "type": "toggle",
     "img": "images/pack_settings/sanities/boss_key_sanity_on.png",
     "disabled_img": "images/pack_settings/sanities/boss_key_sanity_off.png",
     "codes": "boss_key_sanity"
-  },
-  {
-    "name": "Boss Key Sanity Off",
-    "type": "toggle",
-    "codes": "boss_key_sanity_off",
-    "initial_active_state": true
   },
   {
     "name": "Skullsanity",
@@ -279,8 +361,215 @@
     "initial_quantity": 15,
     "overlay_font_size": 40
   },
+  {
+    "name": "Scarecrow Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/scarecrow_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/scarecrow_sanity_off.png",
+    "codes": "scarecrow_sanity"
+  },
+  {
+    "name": "Frog Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/frogsanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/frogsanity_off.png",
+    "codes": "frogsanity"
+  },
+  {
+    "name": "Grass Sanity",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "grass_sanity",
+    "stages": [
+      {
+        "name": "Disabled",
+        "img": "images/pack_settings/sanities/grass_sanity_disabled.png",
+        "img_mods": "@disabled",
+        "codes": "grass_sanity_disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Normal",
+        "img": "images/pack_settings/sanities/grass_sanity_normal.png",
+        "codes": "grass_sanity_normal",
+        "inherit_codes": false
+      },
+      {
+        "name": "No Termina Field",
+        "img": "images/pack_settings/sanities/grass_sanity_no_termina_field.png",
+        "codes": "grass_sanity_no_termina_field",
+        "inherit_codes": false
+      },
+      {
+        "name": "Grotto and Caves Only",
+        "img": "images/pack_settings/sanities/grass_sanity_grotto_caves.png",
+        "codes": "grass_sanity_grotto_caves",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dungeons Only",
+        "img": "images/pack_settings/sanities/grass_sanity_dungeons_only.png",
+        "codes": "grass_sanity_dungeons_only",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Pot Sanity",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "pot_sanity",
+    "stages": [
+      {
+        "name": "Disabled",
+        "img": "images/pack_settings/sanities/pot_sanity_disabled.png",
+        "img_mods": "@disabled",
+        "codes": "pot_sanity_disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "All",
+        "img": "images/pack_settings/sanities/pot_sanity_all.png",
+        "codes": "pot_sanity_all",
+        "inherit_codes": false
+      },
+      {
+        "name": "Overworld Only",
+        "img": "images/pack_settings/sanities/pot_sanity_overworld_only.png",
+        "codes": "pot_sanity_overworld_only",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dungeons Only",
+        "img": "images/pack_settings/sanities/pot_sanity_dungeons_only.png",
+        "codes": "pot_sanity_dungeons_only",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Flower Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/flower_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/flower_sanity_off.png",
+    "codes": "flower_sanity"
+  },
+  {
+    "name": "Wood Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/wood_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/wood_sanity_off.png",
+    "codes": "wood_sanity"
+  },
+  {
+    "name": "Sign Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/sign_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/sign_sanity_off.png",
+    "codes": "sign_sanity"
+  },
+  {
+    "name": "Owl Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/owl_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/owl_sanity_off.png",
+    "codes": "owl_sanity"
+  },
+  {
+    "name": "Hit Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/hit_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/hit_sanity_off.png",
+    "codes": "hit_sanity"
+  },
+  {
+    "name": "Notebook Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/notebook_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/notebook_sanity_off.png",
+    "codes": "notebook_sanity"
+  },
+  {
+    "name": "Tree/Bush Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/tree_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/tree_sanity_off.png",
+    "codes": "tree_sanity"
+  },
+  {
+    "name": "Rock Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/rock_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/rock_sanity_off.png",
+    "codes": "rock_sanity"
+  },
+  {
+    "name": "Rupee Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/rupee_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/rupee_sanity_off.png",
+    "codes": "rupee_sanity"
+  },
+  {
+    "name": "Invisible Rupee Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/invisi_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/invisi_sanity_off.png",
+    "codes": "invisi_sanity"
+  },
+  {
+    "name": "Soil Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/soil_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/soil_sanity_off.png",
+    "codes": "soil_sanity"
+  },
+  {
+    "name": "Snowball Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/snow_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/snow_sanity_off.png",
+    "codes": "snow_sanity"
+  },
+  {
+    "name": "Icicle Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/icicle_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/icicle_sanity_off.png",
+    "codes": "icicle_sanity"
+  },
+  {
+    "name": "Real Fairy Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/real_fairysanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/real_fairysanity_off.png",
+    "codes": "real_fairysanity"
+  },
+  {
+    "name": "Hive Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/hive_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/hive_sanity_off.png",
+    "codes": "hive_sanity"
+  },
+  {
+    "name": "Web Sanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/web_sanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/web_sanity_off.png",
+    "codes": "web_sanity"
+  },
+  {
+    "name": "Oneoff Locations",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/oneoffs_on.png",
+    "disabled_img": "images/pack_settings/sanities/oneoffs_off.png",
+    "codes": "oneoffs"
+  },
 
-  //Inventory
+  // Inventory
   {
     "name": "Start with Song of Soaring",
     "type": "toggle",
@@ -356,7 +645,7 @@
     "codes": "receive_filled_wallets"
   },
 
-  //Miscellaneous
+  // Miscellaneous
   {
     "name": "Chest Appearance Matches Content",
     "type": "toggle",
@@ -446,5 +735,42 @@
         "inherit_codes": false
       }
     ]
+  },
+
+  // Souls
+  {
+    "name": "Boss Souls",
+    "type": "toggle",
+    "img": "images/pack_settings/souls/boss_souls_on.png",
+    "disabled_img": "images/pack_settings/souls/boss_souls_off.png",
+    "codes": "boss_souls"
+  },
+  {
+    "name": "Absurd Souls",
+    "type": "toggle",
+    "img": "images/pack_settings/souls/absurd_souls_on.png",
+    "disabled_img": "images/pack_settings/souls/absurd_souls_off.png",
+    "codes": "absurd_souls"
+  },
+  {
+    "name": "Misc. Souls",
+    "type": "toggle",
+    "img": "images/pack_settings/souls/misc_souls_on.png",
+    "disabled_img": "images/pack_settings/souls/misc_souls_off.png",
+    "codes": "misc_souls"
+  },
+  {
+    "name": "NPC Souls",
+    "type": "toggle",
+    "img": "images/pack_settings/souls/npc_souls_on.png",
+    "disabled_img": "images/pack_settings/souls/npc_souls_off.png",
+    "codes": "npc_souls"
+  },
+  {
+    "name": "Enemy Souls",
+    "type": "toggle",
+    "img": "images/pack_settings/souls/enemy_souls_on.png",
+    "disabled_img": "images/pack_settings/souls/enemy_souls_off.png",
+    "codes": "enemy_souls"
   }
 ]

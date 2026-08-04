@@ -78,3 +78,67 @@ function toggle_hosted_item(code)
     end
   end
 end
+
+function can_play_song(song)
+  return has("ocarina") and has(song)
+end
+
+function can_use_owl(owl)
+  return can_play_song("soaring") and has(owl)
+end
+
+function can_warp_out()
+  return can_play_song("soaring") and (has("owl_ct") or has("owl_milk_road") or has("owl_swamp") or has("owl_ikana_canyon") or has("owl_stone_tower"))
+end
+
+function can_reach_scarecrow(scarecrow)
+  if Tracker:FindObjectForCode("scarecrow_sanity").Active == false then
+    return true
+  else
+    return has("soul_scarecrow") and has("ocarina") and has(scarecrow)
+  end
+end
+
+function has_npc_soul(soul)
+  if Tracker:FindObjectForCode("npc_souls").Active == false then
+    return true
+  else
+    return has(soul)
+  end
+end
+
+function has_absurd_soul(soul)
+  if Tracker:FindObjectForCode("absurd_souls").Active == false then
+    if soul == "soul_bulldozer" then  -- Need to make an exception for bulldozer because it opens up Gorman Ranch
+      return false
+    else
+      return true
+    end
+  else
+    return has(soul)
+  end
+end
+
+function has_misc_soul(soul)
+  if Tracker:FindObjectForCode("misc_souls").Active == false then
+    return true
+  else
+    return has(soul)
+  end
+end
+
+function has_enemy_soul(soul)
+  if Tracker:FindObjectForCode("enemy_souls").Active == false then
+    return true
+  else
+    return has(soul)
+  end
+end
+
+function has_boss_soul(soul)
+  if Tracker:FindObjectForCode("boss_souls").Active == false then
+    return true
+  else
+    return has(soul)
+  end
+end

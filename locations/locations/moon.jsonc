@@ -10,20 +10,255 @@
         "sections": [
           {
             "name": "Heart Piece",
-            "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["deku"]
+            "ref": "Inside the Moon/Deku Trial HP Corner/Heart Piece"
+          },
+          {
+            "name": "Heart Piece Gossip Fairy",
+            "ref": "Inside the Moon/Deku Trial HP Corner/Gossip Fairy"
+          },
+          {
+            "name": "Front Left Gossip Fairy",
+            "ref": "Inside the Moon/Deku Trial Front Left/Front Left Gossip Fairy"
+          },
+          {
+            "name": "Front Right Gossip Fairy",
+            "ref": "Inside the Moon/Deku Trial Front Right/Front Right Gossip Fairy"
+          },
+          {
+            "name": "Back Left Gossip Fairy",
+            "ref": "Inside the Moon/Deku Trial Back Left/Back Left Gossip Fairy"
+          },
+          {
+            "name": "Back Right Gossip Fairy",
+            "ref": "Inside the Moon/Deku Trial Back Right/Back Right Gossip Fairy"
+          },
+          {
+            "ref": "Inside the Moon/Deku Trial Flowers/Deku Flowers"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 111,
-            "y": 572
+            "x": 260,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Deku Trial HP Corner",
+        "sections": [
+          {
+            "name": "Heart Piece",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku"]
           },
+          {
+            "name": "Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|storms"
+            ]
+          },
+          {
+            "ref": "Inside the Moon/Deku Trial Flowers/Deku Flowers"
+          }
+        ],
+        "map_locations": [
           {
             "map": "moon",
             "x": 415,
             "y": 139
+          }
+        ]
+      },
+      {
+        "name": "Deku Trial Flowers",
+        "sections": [
+          {
+            "name": "Deku Flowers",
+            "item_count": 11,
+            "clear_as_group": false,
+            "chest_unopened_img": "images/absurd/deku_flower.png",
+            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku"],
+            "visibility_rules": ["flower_sanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 255,
+            "y": 640,
+            "shape": "diamond"
+          },
+          {
+            "map": "moon",
+            "x": 255,
+            "y": 500,
+            "shape": "diamond"
+          },
+          {
+            "map": "moon",
+            "x": 255,
+            "y": 330,
+            "shape": "diamond"
+          },
+          {
+            "map": "moon",
+            "x": 135,
+            "y": 140,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Deku Trial Front Left",
+        "sections": [
+          {
+            "name": "Front Left Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|storms"
+            ]
+          },
+          {
+            "ref": "Inside the Moon/Deku Trial Flowers/Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 135,
+            "y": 620,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Deku Trial Front Right",
+        "sections": [
+          {
+            "name": "Front Right Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|storms"
+            ]
+          },
+          {
+            "ref": "Inside the Moon/Deku Trial Flowers/Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 375,
+            "y": 615,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Deku Trial Back Left",
+        "sections": [
+          {
+            "name": "Back Left Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|storms"
+            ]
+          },
+          {
+            "ref": "Inside the Moon/Deku Trial Flowers/Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 135,
+            "y": 435,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Deku Trial Back Right",
+        "sections": [
+          {
+            "name": "Back Right Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_deku_flowers, deku, $can_play_song|storms"
+            ]
+          },
+          {
+            "ref": "Inside the Moon/Deku Trial Flowers/Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 396,
+            "y": 396,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Goron Trial ",
+        "sections": [
+          {
+            "name": "Heart Piece",
+            "ref": "Inside the Moon/Goron Trial/Heart Piece"
+          },
+          {
+            "name": "Pathway Bumper Chest",
+            "ref": "Inside the Moon/Goron Trial Chests/Pathway Bumper Chest"
+          },
+          {
+            "name": "Goron Trial Pots",
+            "ref": "Inside the Moon/Goron Trial Pots/Pots"
+          },
+          {
+            "name": "Exit Icicles",
+            "ref": "Inside the Moon/Goron Trial Icicles/Exit Icicles"
+          },
+          {
+            "name": "Heart Piece Gossip Fairy",
+            "ref": "Inside the Moon/Goron Trial/Heart Piece Gossip Fairy"
+          },
+          {
+            "name": "First Gazebo Gossip Fairy",
+            "ref": "Inside the Moon/Goron Trial/First Gazebo Gossip Fairy"
+          },
+          {
+            "name": "Second Gazebo Gossip Fairy",
+            "ref": "Inside the Moon/Goron Trial/Second Gazebo Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 260,
+            "y": 180
           }
         ]
       },
@@ -33,15 +268,21 @@
           {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["goron, magic"]
+            "access_rules": ["$has_npc_soul|soul_moon_kid, goron, magic"]
+          },
+          {
+            "name": "Heart Piece Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$can_play_song|healing",
+              "$can_play_song|epona",
+              "$can_play_song|storms"
+            ]
           }
         ],
         "map_locations": [
-          {
-            "map": "overworld",
-            "x": 111,
-            "y": 532
-          },
           {
             "map": "moon",
             "x": 646,
@@ -50,20 +291,225 @@
         ]
       },
       {
+        "name": "Goron Trial Chests",
+        "sections": [
+          {
+            "name": "Pathway Bumper Chests",
+            "chest_unopened_img": "images/icons/chest.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            // No access rules because it's not implemented in NormalRules.py.
+            // "access_rules": [
+            //   "$has_npc_soul|soul_moon_kid, @Inside the Moon/Goron Trial HP/Heart Piece"
+            // ],
+            "visibility_rules": ["oneoffs"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 705,
+            "y": 560,
+            "shape": "diamond"
+          },
+          {
+            "map": "moon",
+            "x": 610,
+            "y": 560,
+            "shape": "diamond"
+          },
+          {
+            "map": "moon",
+            "x": 610,
+            "y": 250,
+            "shape": "diamond"
+          },
+          {
+            "map": "moon",
+            "x": 888,
+            "y": 135,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Goron Trial Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 15,
+            "clear_as_group": false,
+            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_pots, @Inside the Moon/Goron Trial/Heart Piece"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 705,
+            "y": 92,
+            "shape": "diamond"
+          },
+          {
+            "map": "moon",
+            "x": 705,
+            "y": 775,
+            "shape": "diamond"
+          },
+          {
+            "map": "moon",
+            "x": 705,
+            "y": 332,
+            "shape": "diamond"
+          },
+          {
+            "map": "moon",
+            "x": 787,
+            "y": 250,
+            "shape": "diamond"
+          },
+          {
+            "map": "moon",
+            "x": 822,
+            "y": 557,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Goron Trial Icicles",
+        "sections": [
+          {
+            "name": "Exit Icicles",
+            "chest_unopened_img": "images/icons/icicle.png",
+            "visibility_rules": ["icicle_sanity"],
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, @Inside the Moon/Goron Trial/Heart Piece"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 1000,
+            "y": 325,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Goron Trial First Gazebo",
+        "sections": [
+          {
+            "name": "Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, goron, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, goron, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, goron, $can_play_song|storms"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 800,
+            "y": 330,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Goron Trial Second Gazebo",
+        "sections": [
+          {
+            "name": "Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, goron, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, goron, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, goron, $can_play_song|storms"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 820,
+            "y": 500,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Zora Trial",
         "sections": [
           {
             "name": "Heart Piece",
-            "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["zora"]
+            "ref": "Inside the Moon/Zora Trial HP/Heart Piece"
+          },
+          {
+            "name": "Heart Piece Gossip Fairy",
+            "ref": "Inside the Moon/Zora Trial HP/Heart Piece Gossip Fairy"
+          },
+          {
+            "name": "LLL Gossip Fairy",
+            "ref": "Inside the Moon/Zora Trial LLL/LLL Gossip Fairy"
+          },
+          {
+            "name": "LRR Gossip Fairy",
+            "ref": "Inside the Moon/Zora Trial LRR/LRR Gossip Fairy"
+          },
+          {
+            "name": "RRL Gossip Fairy",
+            "ref": "Inside the Moon/Zora Trial RRL/RRL Gossip Fairy"
+          },
+          {
+            "name": "RRR Gossip Fairy",
+            "ref": "Inside the Moon/Zora Trial RRR/RRR Gossip Fairy"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 91,
-            "y": 552
+            "x": 230,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Zora Trial HP",
+        "sections": [
+          {
+            "name": "Heart Piece",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": ["$has_npc_soul|soul_moon_kid, zora"]
           },
+          {
+            "name": "Heart Piece Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|storms"
+            ]
+          }
+        ],
+        "map_locations": [
           {
             "map": "moon",
             "x": 1221,
@@ -72,33 +518,190 @@
         ]
       },
       {
-        "name": "Link Trial",
+        "name": "Zora Trial LLL",
         "sections": [
           {
-            "name": "Garo Master Chest",
+            "name": "LLL Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
             "access_rules": [
-              "easy_logic, fiercedeity, magic, fairysword, gildedsword, bow, hookshot",
-              "normal_logic, $can_smack_hard, hookshot"
-            ]
-          },
-          {
-            "name": "Iron Knuckle Chest",
-            "access_rules": ["@Link Trial/Garo Master Chest"]
-          },
-          {
-            "name": "Heart Piece",
-            "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "easy_logic, @Link Trial/Garo Master Chest, $baby_has_explosives, $can_play_healing, $can_play_eponas",
-              "normal_logic, @Link Trial/Garo Master Chest, bombchu_bag, bow"
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|storms"
             ]
           }
         ],
         "map_locations": [
           {
+            "map": "moon",
+            "x": 1175,
+            "y": 207,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Zora Trial LRR",
+        "sections": [
+          {
+            "name": "LRR Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|storms"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 1295,
+            "y": 207,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Zora Trial RRL",
+        "sections": [
+          {
+            "name": "RRL Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|storms"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 1335,
+            "y": 207,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Zora Trial RRR",
+        "sections": [
+          {
+            "name": "RRR Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, zora, $can_play_song|storms"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 1370,
+            "y": 207,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Link Trial",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Inside the Moon/Link Trial Entrance/Pots"
+          },
+          {
+            "name": "Dinolfos-Garo Master Gossip Fairy",
+            "ref": "Inside the Moon/Link Trial Dinofols-Garo Master Midway Room/Dinofols-Garo Master Gossip Fairy"
+          },
+          {
+            "name": "Garo Master Chest",
+            "ref": "Inside the Moon/Garo Master Room/Garo Master Chest"
+          },
+          {
+            "name": "Garo Master-Iron Knuckle Gossip Fairy",
+            "ref": "Inside the Moon/Link Trial Garo Master-Iron Knuckle Midway Room/Garo Master-Iron Knuckle Gossip Fairy"
+          },
+          {
+            "name": "Iron Knuckle Chest",
+            "ref": "Inside the Moon/Iron Knuckle Room/Iron Knuckle Chest"
+          },
+          {
+            "name": "Iron Knuckle Gossip Fairy",
+            "ref": "Inside the Moon/Link Trial Iron Knuckle Ledge/Iron Knuckle Gossip Fairy"
+          },
+          {
+            "name": "Heart Piece",
+            "ref": "Inside the Moon/Link Trial Heart Piece Room/Heart Piece"
+          },
+          {
+            "name": "Heart Piece Gossip Fairy",
+            "ref": "Inside the Moon/Link Trial Heart Piece Room/Heart Piece Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+          {
             "map": "overworld",
-            "x": 131,
-            "y": 552
+            "x": 290,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Link Trial Entrance",
+        "sections": [
+          {
+            "name": "Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "access_rules": ["$has_npc_soul|soul_moon_kid, $has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 1560,
+            "y": 800,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Link Trial Dinofols-Garo Master Midway Room",
+        "sections": [
+          {
+            "name": "Dinofols-Garo Master Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, $can_play_song|storms"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 1560,
+            "y": 620,
+            "shape": "diamond"
           }
         ]
       },
@@ -106,7 +709,11 @@
         "name": "Garo Master Room",
         "sections": [
           {
-            "ref": "Inside the Moon/Link Trial/Garo Master Chest"
+            "name": "Garo Master Chest",
+            "access_rules": [
+              "easy_logic, fiercedeity, magic, fairysword, gildedsword, bow, hookshot",
+              "normal_logic, $has_npc_soul|soul_moon_kid, $has_enemy_soul|soul_garo_master, $can_smack_hard, hookshot"
+            ]
           }
         ],
         "map_locations": [
@@ -118,10 +725,43 @@
         ]
       },
       {
+        "name": "Link Trial Garo Master-Iron Knuckle Midway Room",
+        "sections": [
+          {
+            "name": "Garo Master-Iron Knuckle Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, hookshot, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, hookshot, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, hookshot, $can_play_song|storms"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 1560,
+            "y": 418,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Iron Knuckle Room",
         "sections": [
           {
-            "ref": "Inside the Moon/Link Trial/Iron Knuckle Chest"
+            "name": "Iron Knuckle Chest",
+            "access_rules": ["@Inside the Moon/Garo Master Room/Garo Master Chest, $has_enemy_soul|soul_iron_knuckle"]
+          },
+          {
+            "name": "Bombable Wall",
+            "chest_unopened_img": "images/icons/bombwall.png",
+            "visibility_rules": ["bombwall_sanity"],
+            "access_rules": [
+              "@Inside the Moon/Garo Master Room/Garo Master Chest, $has_bombchus"
+            ]
           }
         ],
         "map_locations": [
@@ -133,10 +773,63 @@
         ]
       },
       {
-        "name": "Heart Piece Room",
+        "name": "Link Trial Iron Knuckle Ledge",
         "sections": [
           {
-            "ref": "Inside the Moon/Link Trial/Heart Piece"
+            "name": "Iron Knuckle Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, hookshot, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, hookshot, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, hookshot, $can_play_song|storms"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "moon",
+            "x": 1525,
+            "y": 275,
+            "shape": "diamond"
+          },
+          {
+            "map": "moon",
+            "x": 1595,
+            "y": 275,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Link Trial Heart Piece Room",
+        "sections": [
+          {
+            "name": "Heart Piece",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": [
+              "easy_logic, @Inside the Moon/Garo Master Room/Garo Master Chest, $baby_has_explosives, $can_play_song|healing, $can_play_song|epona",
+              "normal_logic, $has_enemy_soul|soul_iron_knuckle, @Inside the Moon/Garo Master Room/Garo Master Chest, bombchu_bag, bow"
+            ]
+          },
+          {
+            "name": "Heart Piece Gossip Fairy",
+            "chest_unopened_img": "images/icons/gossipfairy.png",
+            "visibility_rules": ["real_fairysanity"],
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_npc_soul|soul_moon_kid, @Link Trial/Link Trial Heart Piece Room/Heart Piece, $can_play_song|healing",
+              "$has_npc_soul|soul_moon_kid, @Link Trial/Link Trial Heart Piece Room/Heart Piece, $can_play_song|epona",
+              "$has_npc_soul|soul_moon_kid, @Link Trial/Link Trial Heart Piece Room/Heart Piece, $can_play_song|storms"
+            ]
+          },
+          {
+            "name": "Bombable Ceiling",
+            "chest_unopened_img": "images/icons/bombwall.png",
+            "access_rules": ["@Inside the Moon/Iron Knuckle Room/Iron Knuckle Chest, $has_bombchus"],
+            "visibility_rules": ["bombwall_sanity"]
           }
         ],
         "map_locations": [
@@ -151,16 +844,43 @@
         "name": "The Moon",
         "sections": [
           {
+            "name": "Butterfly Fairies",
+            "chest_unopened_img": "images/icons/butterfly.png",
+            "visibility_rules": ["real_fairysanity"],
+            "item_count": 13,
+            "clear_as_group": false,
+            "access_rules": [
+              "$has_misc_soul|soul_butterfly"
+            ]
+          },
+          {
             "name": "Trade All Masks",
             "chest_unopened_img": "images/masks/fierce_deity.png",
-            "access_rules": ["postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Link Trial/Heart Piece, $can_use_fire_arrows"]
+            "access_rules": ["$has_npc_soul|soul_moon_kid, postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Inside the Moon/Link Trial Heart Piece Room/Heart Piece, $can_use_fire_arrows"]
+          },
+          {
+            "name": "Majora Lair Pots",
+            "chest_unopened_img": "images/icons/pot.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": ["$remainCount|majora, $maskCount|majora, $starFox|majora, $has_npc_soul|soul_moon_kid, $has_boss_soul|soul_majora, $has_absurd_soul|soul_pots"],
+            "visibility_rules": [
+              "pot_sanity_all",
+              "pot_sanity_dungeons_only"
+            ]
+          },
+          {
+            "name": "100% Completion Goal",
+            "chest_unopened_img": "images/icons/majoras_mask.png",
+            "access_rules": ["$remainCount|4, $maskCount|24, $owlCount|10, $scarecrowCount|14, $frogCount|5, $tradeitemCount|8, $has|fairy_wf|15, $has|fairy_sh|15, $has|fairy_gb|15, $has|fairy_st|15, fairy_ct, $has|skull_ss|30, $has|skull_gb|30"]
+            //"visibility_rules": ["completion_goal"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 111,
-            "y": 552
+            "x": 260,
+            "y": 210
           },
           {
             "map": "moon",

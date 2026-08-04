@@ -1,0 +1,21 @@
+{
+  "enemy_souls_layout": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "1,1",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "1,1",
+        "rows": [
+          ["soul_takkuri",   "soul_peahats",     "soul_boes",              "soul_freezard",         "soul_wart",          "soul_bad_bats",    "soul_igos"],
+          ["soul_wolfos",    "soul_dodongos",    "soul_hanging_skulltula", "soul_wizrobe",          "soul_octoroks",      "soul_garo_master", "soul_gomess"],
+          ["soul_chu_jelly", "soul_dragonflies", "soul_dinolfos",          "soul_pirate_guards",    "soul_jellied_gekko", "soul_armos",       ""],
+          ["soul_deku_baba", "soul_gekko",       "soul_snappers",          "soul_coloured_pirates", "soul_iron_knuckle",  "soul_eyegore",     ""]
+        ]
+      }
+    ]
+  }
+}

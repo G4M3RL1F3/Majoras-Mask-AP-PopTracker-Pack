@@ -3,9 +3,65 @@
     "name": "Snowhead Temple",
     "children": [
       {
+        "name": "Entry Block Icicles",
+        "sections": [
+          {
+            "name": "Icicles",
+            "ref": "Dungeons/Snowhead Temple/Entry Block Icicles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 387,
+            "y": 544,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Grey Door Icicles",
+        "sections": [
+          {
+            "name": "Icicles",
+            "ref": "Dungeons/Snowhead Temple/Grey Door Icicles"
+          },
+          {
+            "name": "Ceiling Icicles",
+            "ref": "Dungeons/Snowhead Temple/Grey Door Ceiling Icicles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 353,
+            "y": 477,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Entrance Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Entrance Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 413,
+            "y": 477,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Bridge Room Freezard Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Bridge Room Freezard Chest"
           }
         ],
@@ -21,6 +77,7 @@
         "name": "Bridge Room Under Platform Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Bridge Room Under Platform Bubble SF"
           }
         ],
@@ -33,17 +90,107 @@
         ]
       },
       {
+        "name": "Bridge Room Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Blue Door Lava Bridge Pots (Upper)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 530,
+            "y": 275,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Bridge Room Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Blue Door Lava Bridge Pots (Lower)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 575,
+            "y": 1230,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Main Room Scarecrow Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Main Room Scarecrow Pots"
+          },
+          {
+            "name": "Scarecrow",
+            "ref": "Dungeons/Snowhead Temple/Lower Scarecrow"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1136,
+            "y": 340,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Bridge Room Pillar Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Bridge Room Pillar Bubble SF"
           }
         ],
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 571,
-            "y": 368
+            "x": 600,
+            "y": 1100
+          }
+        ]
+      },
+      {
+        "name": "Bridge Room Crate",
+        "sections": [
+          {
+            "name": "Crate",
+            "ref": "Dungeons/Snowhead Temple/Bridge Room Crate"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 591,
+            "y": 307,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Bridge Room Snowballs",
+        "sections": [
+          {
+            "name": "Snowballs",
+            "ref": "Dungeons/Snowhead Temple/Bridge Room Snowballs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 507,
+            "y": 524,
+            "shape": "diamond"
           }
         ]
       },
@@ -51,7 +198,12 @@
         "name": "Frozen Block Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Frozen Block Chest"
+          },
+          {
+            "name": "Ceiling Icicles",
+            "ref": "Dungeons/Snowhead Temple/Frozen Block Ceiling Icicles"
           }
         ],
         "map_locations": [
@@ -66,7 +218,12 @@
         "name": "Frozen Block Upper Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Frozen Block Upper Chest SF"
+          },
+          {
+            "name": "Ceiling Icicles",
+            "ref": "Dungeons/Snowhead Temple/Frozen Block Ceiling Icicles"
           }
         ],
         "map_locations": [
@@ -81,7 +238,12 @@
         "name": "Bombable Stairs Crate SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Bombable Stairs Crate SF"
+          },
+          {
+            "name": "Bombable Wall",
+            "ref": "Dungeons/Snowhead Temple/Frozen Block Room Bombable Wall"
           }
         ],
         "map_locations": [
@@ -93,9 +255,33 @@
         ]
       },
       {
+        "name": "Gray Door Wolfos Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Locked Grey Door Wolfos Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 112,
+            "y": 407,
+            "shape": "diamond"
+          },
+          {
+            "map": "snowhead_temple",
+            "x": 305,
+            "y": 500,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Stacked Block Upper Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Stacked Block Upper Chest SF"
           }
         ],
@@ -111,6 +297,7 @@
         "name": "Behind Stacked Block Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Behind Stacked Block Chest"
           }
         ],
@@ -123,9 +310,33 @@
         ]
       },
       {
+        "name": "Orange Door Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Orange Door Push Block Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 197,
+            "y": 352,
+            "shape": "diamond"
+          },
+          {
+            "map": "snowhead_temple",
+            "x": 124,
+            "y": 250,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Freezard Torch Room Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Freezard Torch Room Chest SF"
           }
         ],
@@ -138,9 +349,85 @@
         ]
       },
       {
+        "name": "Frozen Green Door Deku Flowers",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Frozen Green Door Deku Flowers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 175,
+            "y": 900,
+            "shape": "diamond"
+          },
+          {
+            "map": "snowhead_temple",
+            "x": 205,
+            "y": 850,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Frozen Green Door Pots (Lower)",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Frozen Green Door Pots (Lower)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 160,
+            "y": 875,
+            "shape": "diamond"
+          },
+          {
+            "map": "snowhead_temple",
+            "x": 320,
+            "y": 850,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Frozen Green Door Pots (Upper)",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Frozen Green Door Pots (Upper)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 217,
+            "y": 259,
+            "shape": "diamond"
+          },
+          {
+            "map": "snowhead_temple",
+            "x": 146,
+            "y": 36,
+            "shape": "diamond"
+          },
+          {
+            "map": "snowhead_temple",
+            "x": 369,
+            "y": 125,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Basement Switch Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Basement Switch Chest SF"
           }
         ],
@@ -153,17 +440,61 @@
         ]
       },
       {
+        "name": "Main Room Basement Grass",
+        "sections": [
+          {
+            "name": "Grass",
+            "ref": "Dungeons/Snowhead Temple/Basement Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 479,
+            "y": 923,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Main Room Basement Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Main Room Basement Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 298,
+            "y": 908,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Main Room Wall Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Main Room Wall Chest SF"
+          },
+          {
+            "name": "Scarecrow",
+            "ref": "Dungeons/Snowhead Temple/Hidden Alcove Scarecrow"
+          },
+          {
+            "name": "Deku Flower",
+            "ref": "Dungeons/Snowhead Temple/Main Room Wall Chest Deku Flower"
           }
         ],
         "map_locations": [
           {
             "map": "snowhead_temple",
             "x": 947,
-            "y": 153
+            "y": 153,
+            "shape": "diamond"
           }
         ]
       },
@@ -171,6 +502,7 @@
         "name": "Elevator Room Lower Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Elevator Room Lower Chest"
           }
         ],
@@ -186,6 +518,7 @@
         "name": "Elevator Room Invisible Platform Chest SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Elevator Room Invisible Platform Chest SF"
           }
         ],
@@ -201,6 +534,7 @@
         "name": "Elevator Freestanding SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Elevator Freestanding SF"
           }
         ],
@@ -213,10 +547,32 @@
         ]
       },
       {
-        "name": "Icicle Room Snowball Chest",
+        "name": "Elevator Room Crates",
         "sections": [
           {
+            "name": "Crates",
+            "ref": "Dungeons/Snowhead Temple/Elevator Room Crates"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1262,
+            "y": 325,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Icicle Room Snowballs",
+        "sections": [
+          {
+            "name": "Snowball Chest",
             "ref": "Dungeons/Snowhead Temple/Icicle Room Snowball Chest"
+          },
+          {
+            "name": "Snowballs",
+            "ref": "Dungeons/Snowhead Temple/Icicle Room Snowballs"
           }
         ],
         "map_locations": [
@@ -231,6 +587,7 @@
         "name": "Icicle Room Hidden Chest SF",
         "sections": [
           {
+            "name": "Hidden Chest",
             "ref": "Dungeons/Snowhead Temple/Icicle Room Hidden Chest SF"
           }
         ],
@@ -243,9 +600,31 @@
         ]
       },
       {
+        "name": "Icicle Room Icicles",
+        "sections": [
+          {
+            "name": "Rupees",
+            "ref": "Dungeons/Snowhead Temple/Icicle Rupees"
+          },
+          {
+            "name": "Ceiling Icicles",
+            "ref": "Dungeons/Snowhead Temple/Icicle Room Ceiling Icicles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 855,
+            "y": 433,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Timed Switch Room Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Timed Switch Room Bubble SF"
           }
         ],
@@ -258,10 +637,96 @@
         ]
       },
       {
-        "name": "Lower Wizzrobe Chest",
+        "name": "Time Switch Room Crates",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Lower Wizzrobe Chest"
+            "name": "Crates",
+            "ref": "Dungeons/Snowhead Temple/Timed Switch Room Crates"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1088,
+            "y": 473,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Goron Puzzle Room Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Goron Pound Puzzle Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 920,
+            "y": 430,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "2nd Floor Bridge Pots",
+        "sections": [
+          {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Main Room 2nd Floor Bridge Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1134,
+            "y": 245,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Main Room 2nd Floor West Snowballs",
+        "sections": [
+          {
+            "name": "Snowballs",
+            "ref": "Dungeons/Snowhead Temple/Main Room 2nd Floor West Snowballs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 925,
+            "y": 245,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Main Room 2nd Floor East Snowballs",
+        "sections": [
+          {
+            "name": "Snowballs",
+            "ref": "Dungeons/Snowhead Temple/Main Room 2nd Floor East Snowballs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1164,
+            "y": 245,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Lower Wizrobe Chest",
+        "sections": [
+          {
+            "name": "Chest",
+            "ref": "Dungeons/Snowhead Temple/Lower Wizrobe Chest"
           }
         ],
         "map_locations": [
@@ -273,9 +738,27 @@
         ]
       },
       {
+        "name": "3rd Floor Bridge Snowballs",
+        "sections": [
+          {
+            "name": "Snowballs",
+            "ref": "Dungeons/Snowhead Temple/3rd Floor Bridge Snowballs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1044,
+            "y": 835,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Snowmen Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Snowmen Bubble SF"
           }
         ],
@@ -288,9 +771,35 @@
         ]
       },
       {
+        "name": "3rd Floor locked Door",
+        "sections": [
+          {
+            "name": "Snowballs",
+            "ref": "Dungeons/Snowhead Temple/3rd Floor Locked Door Snowballs"
+          },
+          {
+            "name": "Icicles",
+            "ref": "Dungeons/Snowhead Temple/3rd Floor Locked Door Icicles"
+          },
+          {
+            "name": "Ceiling Icicles",
+            "ref": "Dungeons/Snowhead Temple/3rd Floor Locked Door Ceiling Icicles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 820,
+            "y": 707,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Dinolfos Room First SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Dinolfos Room First SF"
           }
         ],
@@ -306,6 +815,7 @@
         "name": "Dinolfos Room Second SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Dinolfos Room Second SF"
           }
         ],
@@ -318,10 +828,45 @@
         ]
       },
       {
-        "name": "Upper Wizzrobe Chest",
+        "name": "4th Floor Pots",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Upper Wizzrobe Chest"
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Main Room 4th Floor Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1134,
+            "y": 1048,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "4th Floor Outside Wizrobe Icicles",
+        "sections": [
+          {
+            "name": "Icicles",
+            "ref": "Dungeons/Snowhead Temple/4th Floor Outside Wizrobe Icicles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1163,
+            "y": 1148,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Upper Wizrobe Chest",
+        "sections": [
+          {
+            "name": "Chest",
+            "ref": "Dungeons/Snowhead Temple/Upper Wizrobe Chest"
           }
         ],
         "map_locations": [
@@ -333,15 +878,60 @@
         ]
       },
       {
-        "name": "Goht",
+        "name": "4th Floor Wizrobe Pots",
         "sections": [
           {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/4th Floor Wizrobe Pots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1324,
+            "y": 1008,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Pre-Boss Bridge",
+        "sections": [
+          {
+            "name": "Deku Flower",
+            "ref": "Dungeons/Snowhead Temple/Outside Boss Door Deku Flower"
+          },
+          {
+            "name": "Icicles",
+            "ref": "Dungeons/Snowhead Temple/Outside Boss Door Icicles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1052,
+            "y": 1049,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Boss Room",
+        "sections": [
+          {
+            "name": "Heart Container",
             "ref": "Dungeons/Snowhead Temple/Heart Container"
           },
           {
+            "name": "Goht's Remains",
             "ref": "Dungeons/Snowhead Temple/Goht's Remains"
           },
           {
+            "name": "Pots",
+            "ref": "Dungeons/Snowhead Temple/Goht Boss Room Pots"
+          },
+          {
+            "name": "Oath to Order",
             "ref": "Dungeons/Snowhead Temple/Oath to Order"
           }
         ],

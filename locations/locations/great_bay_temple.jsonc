@@ -6,6 +6,7 @@
         "name": "Entrance Torches Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Entrance Torches Chest SF"
           }
         ],
@@ -21,6 +22,7 @@
         "name": "Waterwheel Room Skulltula SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Waterwheel Room Skulltula SF"
           }
         ],
@@ -36,6 +38,7 @@
         "name": "Waterwheel Room Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Waterwheel Room Bubble SF"
           }
         ],
@@ -51,6 +54,7 @@
         "name": "Blender Room Barrel SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Blender Room Barrel SF"
           }
         ],
@@ -66,6 +70,7 @@
         "name": "Blender Pot SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Blender Pot SF"
           }
         ],
@@ -81,6 +86,7 @@
         "name": "Before Red Valve Room Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Before Red Valve Room Chest"
           }
         ],
@@ -96,6 +102,7 @@
         "name": "Before Red Valve Room Pot SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Before Red Valve Room Pot SF"
           }
         ],
@@ -111,6 +118,7 @@
         "name": "Bio-Baba Hall Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Bio-Baba Hall Chest SF"
           }
         ],
@@ -126,6 +134,7 @@
         "name": "Caged Chest Room Upper Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Caged Chest Room Upper Chest"
           }
         ],
@@ -141,6 +150,7 @@
         "name": "Caged Chest Room Underwater Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Caged Chest Room Underwater Chest"
           }
         ],
@@ -156,6 +166,7 @@
         "name": "Mad Jellied Gekko Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Mad Jellied Gekko Chest"
           }
         ],
@@ -171,6 +182,7 @@
         "name": "Caged Chest Room Pot SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Caged Chest Room Pot SF"
           }
         ],
@@ -186,6 +198,7 @@
         "name": "Behind Locked Door Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Behind Locked Door Chest"
           }
         ],
@@ -201,6 +214,7 @@
         "name": "Room Behind Waterfall Ceiling Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Room Behind Waterfall Ceiling Chest SF"
           }
         ],
@@ -216,6 +230,7 @@
         "name": "Freezable Waterwheel Upper Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Freezable Waterwheel Upper Chest SF"
           }
         ],
@@ -231,6 +246,7 @@
         "name": "Freezable Waterwheel Lower Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Freezable Waterwheel Lower Chest SF"
           }
         ],
@@ -246,6 +262,7 @@
         "name": "Seesaw Room Underwater Barrel SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Seesaw Room Underwater Barrel SF"
           }
         ],
@@ -261,6 +278,7 @@
         "name": "Seesaw Room Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Great Bay Temple/Seesaw Room Chest SF"
           }
         ],
@@ -276,6 +294,7 @@
         "name": "Pre-Boss Room Platform Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF"
           }
         ],
@@ -291,6 +310,7 @@
         "name": "Pre-Boss Room Tunnel Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Great Bay Temple/Pre-Boss Room Tunnel Bubble SF"
           }
         ],
@@ -314,6 +334,7 @@
             "ref": "Dungeons/Great Bay Temple/Gyorg's Remains"
           },
           {
+            "name": "Oath to Order",
             "ref": "Dungeons/Great Bay Temple/Oath to Order"
           }
         ],

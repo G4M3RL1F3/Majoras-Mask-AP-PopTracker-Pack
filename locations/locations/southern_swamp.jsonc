@@ -6,10 +6,10 @@
     "overlay_background": "#000000",
     "children": [
       {
-        "name": "Road to Swamp Tree HP",
+        "name": "Road to Swamp",
         "sections": [
           {
-            "name": "Road to Swamp Tree HP",
+            "name": "Tree HP",
               "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
@@ -20,24 +20,23 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 537,
-            "y": 389
+            "x": 976,
+            "y": 695
           }
         ]
       },
-
       {
-        "name": "Road to Swamp Grotto Chest",
+        "name": "Road to Swamp Grotto",
         "sections": [
           {
-            "name": "Road to Swamp Grotto Chest"
+            "name": "Chest"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 525,
-            "y": 389
+            "x": 954,
+            "y": 707
           }
         ]
       },
@@ -47,17 +46,17 @@
         "chest_unopened_img": "images/icons/archery.png",
         "sections": [
           {
-            "name": "Swamp Shooting Gallery 2120 Points"
+            "name": "Score 2120 Points"
           },
           {
-            "name": "Swamp Shooting Gallery 2180 Points"
+            "name": "Score 2180 Points"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 571,
-            "y": 390
+            "x": 1068,
+            "y": 702
           }
         ]
       },
@@ -77,14 +76,15 @@
             ]
           },
           {
+            "name": "Snowhead Map Purchase",
             "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase "
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 545,
-            "y": 419
+            "x": 977,
+            "y": 711
           }
         ]
       },
@@ -92,12 +92,12 @@
         "name": "Swamp Business Scrub",
         "sections": [
           {
-            "name": "Southern Swamp Deku Trade",
+            "name": "Deed Trade (as Human)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["landdeed"]
           },
           {
-            "name": "Southern Swamp Deku Scrub Purchase",
+            "name": "Deku Scrub Purchase",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
@@ -107,7 +107,7 @@
             ]
           },
           {
-            "name": "Southern Swamp Freestanding HP",
+            "name": "Freestanding Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["deku, landdeed"]
           }
@@ -115,8 +115,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 565,
-            "y": 438
+            "x": 998,
+            "y": 762
           }
         ]
       },
@@ -124,12 +124,12 @@
         "name": "Swamp Tourist Center",
         "sections": [
           {
-            "name": "Southern Swamp Healing Koume",
+            "name": "Healing Koume",
             "chest_unopened_img": "images/items/pictobox.png",
             "access_rules": ["normal_logic, $has|bottles|1"]
           },
           {
-            "name": "Southern Swamp Boat Archery",
+            "name": "Boat Archery",
             "chest_unopened_img": "images/icons/archery.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, redpotion, chateau, bow",
@@ -164,24 +164,24 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 553,
-            "y": 438
+            "x": 979,
+            "y": 771
           }
         ]
       },
       {
-        "name": "Southern Swamp Kotake Item",
+        "name": "Kotake Item",
         "sections": [
           {
-            "name": "Southern Swamp Kotake Item",
+            "name": "Kotake Item",
             "chest_unopened_img": "images/items/red_potion.png"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 645,
-            "y": 423
+            "x": 1213,
+            "y": 723
           },
           {
             "map": "woods_of_mystery",
@@ -191,7 +191,7 @@
         ]
       },
       {
-        "name": "Southern Swamp Witch Shop",
+        "name": "Witch Shop",
         "sections": [
           {
             "name": "Item 1",
@@ -233,17 +233,17 @@
         ]
       },
       {
-        "name": "Southern Swamp Day 2 Grotto Chest",
+        "name": "Woods of Mystery Day 2 Grotto",
         "sections": [
           {
-            "name": "Southern Swamp Day 2 Grotto Chest"
+            "name": "Chest"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 650,
-            "y": 440
+            "x": 1172,
+            "y": 717
           },
           {
             "map": "woods_of_mystery",
@@ -253,11 +253,11 @@
         ]
       },
       {
-        "name": "Deku Palace Monkey Song",
+        "name": "Deku King's Chamber",
         "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
         "sections": [
           {
-            "name": "Deku Palace Monkey Song",
+            "name": "Monkey Song",
               "chest_unopened_img": "images/equipment/song_sonata_no_text.png",
             "access_rules": [
               "easy_logic, ocarina, $baby_can_plant_beans, deku, $baby_has_projectiles",
@@ -268,17 +268,17 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 497,
-            "y": 555
+            "x": 850,
+            "y": 967
           }
         ]
       },
       {
-        "name": "Deku Palace HP",
+        "name": "Left Inner Palace Garden",
         "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
         "sections": [
           {
-            "name": "Deku Palace HP",
+            "name": "Heart Piece",
             "access_rules": ["deku"],
             "chest_unopened_img": "images/equipment/heart_piece.png"
           }
@@ -286,8 +286,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 514,
-            "y": 558
+            "x": 879,
+            "y": 982
           }
         ]
       },
@@ -296,7 +296,7 @@
         "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
         "sections": [
           {
-            "name": "Deku Palace Bean Grotto Chest",
+            "name": "Chest",
             "access_rules": [
               "easy_logic, $baby_can_plant_beans, hookshot",
               "normal_logic, $can_plant_beans",
@@ -304,7 +304,7 @@
             ]
           },
           {
-            "name": "Deku Palace Bean Seller",
+            "name": "Bean Seller",
             "chest_unopened_img": "images/characters/bean_seller.png",
             "access_rules": ["deku"]
           }
@@ -312,8 +312,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 481,
-            "y": 537
+            "x": 831,
+            "y": 943
           }
         ]
       },
@@ -322,7 +322,7 @@
         "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
         "sections": [
           {
-            "name": "Southern Swamp Song Tablet",
+            "name": "Song of Soaring Tablet",
               "chest_unopened_img": "images/equipment/song_soaring_no_text.png",
             "access_rules": ["deku"]
           }
@@ -330,25 +330,25 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 534,
-            "y": 504
+            "x": 953,
+            "y": 858
           }
         ]
       },
       {
-        "name": "Southern Swamp Grotto Chest",
+        "name": "Southern Swamp Grotto",
         "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
         "sections": [
           {
-            "name": "Southern Swamp Grotto Chest",
+            "name": "Chest",
             "access_rules": ["deku"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 482,
-            "y": 506
+            "x": 889,
+            "y": 814
           }
         ]
       },
@@ -357,16 +357,16 @@
         "access_rules": ["easy_logic, $baby_woodfall", "normal_logic, $woodfall"],
         "sections": [
           {
-            "name": "Woodfall Owl Statue Chest"
+            "name": "Owl Statue Chest"
           },
           {
-            "name": "Woodfall Bridge Chest"
+            "name": "Bridge Chest"
           },
           {
-            "name": "Woodfall Entrance Chest"
+            "name": "Entrance Chest"
           },
           {
-            "name": "Woodfall Great Fairy Reward",
+            "name": "Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": ["$checkRequirements|required_stray_fairies|fairy_wf"]
             //"visibility_rules": ["shuffle_great_fairy_rewards"]
@@ -375,8 +375,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 542,
-            "y": 466
+            "x": 1022,
+            "y": 784
           }
         ]
       },
@@ -384,7 +384,7 @@
         "name": "Deku Shrine",
         "sections": [
           {
-            "name": "Deku Palace Butler Race",
+            "name": "Butler Race",
             "chest_unopened_img": "images/characters/butler.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, $baby_has_bottle",
@@ -397,8 +397,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 526,
-            "y": 556
+            "x": 885,
+            "y": 1018
           }
         ]
       }

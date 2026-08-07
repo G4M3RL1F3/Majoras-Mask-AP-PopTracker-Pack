@@ -6,6 +6,7 @@
         "name": "Entrance Room Eye Switch Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Entrance Room Eye Switch Chest"
           }
         ],
@@ -21,6 +22,7 @@
         "name": "Entrance Room Lower Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Entrance Room Lower Chest"
           }
         ],
@@ -36,6 +38,7 @@
         "name": "Armos Room Back Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Armos Room Back Chest"
           }
         ],
@@ -51,6 +54,7 @@
         "name": "Armos Room Upper Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Armos Room Upper Chest"
           }
         ],
@@ -66,6 +70,7 @@
         "name": "Armos Room Lava Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Armos Room Lava Chest"
           }
         ],
@@ -81,6 +86,7 @@
         "name": "Eyegore Room Switch Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Eyegore Room Switch Chest"
           }
         ],
@@ -96,6 +102,7 @@
         "name": "Eyegore Room Dexi Hand Ledge Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest"
           }
         ],
@@ -111,6 +118,7 @@
         "name": "Eastern Water Room Underwater Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Eastern Water Room Underwater Chest"
           }
         ],
@@ -126,6 +134,7 @@
         "name": "Eastern Water Room Sun Block Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Eastern Water Room Sun Block Chest"
           }
         ],
@@ -141,6 +150,7 @@
         "name": "Mirror Room Sun Block Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest"
           }
         ],
@@ -156,6 +166,7 @@
         "name": "Mirror Room Sun Face Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Mirror Room Sun Face Chest"
           }
         ],
@@ -171,6 +182,7 @@
         "name": "Air Gust Room Side Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Air Gust Room Side Chest"
           }
         ],
@@ -186,6 +198,7 @@
         "name": "Air Gust Room Goron Switch Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Air Gust Room Goron Switch Chest"
           }
         ],
@@ -201,6 +214,7 @@
         "name": "Garo Master Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Garo Master Chest"
           }
         ],
@@ -216,6 +230,7 @@
         "name": "After Garo Upside Down Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/After Garo Upside Down Chest"
           }
         ],
@@ -231,6 +246,7 @@
         "name": "Eyegore Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Stone Tower Temple/Eyegore Chest"
           }
         ],
@@ -251,6 +267,7 @@
         "name": "Entrance Room Sun Face Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Entrance Room Sun Face Chest"
           }
         ],
@@ -266,6 +283,7 @@
         "name": "Eastern Air Gust Room Fire Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Fire Chest"
           }
         ],
@@ -281,6 +299,7 @@
         "name": "Eastern Air Gust Room Frozen Switch Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Frozen Switch Chest"
           }
         ],
@@ -296,6 +315,7 @@
         "name": "Eastern Air Gust Room Switch Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Switch Chest"
           }
         ],
@@ -311,6 +331,7 @@
         "name": "Wizzrobe Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest"
           }
         ],
@@ -326,6 +347,7 @@
         "name": "Death Armos Maze Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest"
           }
         ],
@@ -341,6 +363,7 @@
         "name": "Gomess Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Gomess Chest"
           }
         ],
@@ -356,6 +379,7 @@
         "name": "Eyegore Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Inverted Stone Tower Temple/Eyegore Chest"
           }
         ],
@@ -379,6 +403,7 @@
             "ref": "Dungeons/Inverted Stone Tower Temple/Twinmold's Remains"
           },
           {
+            "name": "Oath to Order",
             "ref": "Dungeons/Inverted Stone Tower Temple/Oath to Order"
           }
         ],

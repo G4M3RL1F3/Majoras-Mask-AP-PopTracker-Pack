@@ -6,6 +6,7 @@
         "name": "Bridge Room Freezard Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Bridge Room Freezard Chest"
           }
         ],
@@ -21,6 +22,7 @@
         "name": "Bridge Room Under Platform Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Bridge Room Under Platform Bubble SF"
           }
         ],
@@ -36,6 +38,7 @@
         "name": "Bridge Room Pillar Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Bridge Room Pillar Bubble SF"
           }
         ],
@@ -51,6 +54,7 @@
         "name": "Frozen Block Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Frozen Block Chest"
           }
         ],
@@ -66,6 +70,7 @@
         "name": "Frozen Block Upper Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Frozen Block Upper Chest SF"
           }
         ],
@@ -81,6 +86,7 @@
         "name": "Bombable Stairs Crate SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Bombable Stairs Crate SF"
           }
         ],
@@ -96,6 +102,7 @@
         "name": "Stacked Block Upper Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Stacked Block Upper Chest SF"
           }
         ],
@@ -111,6 +118,7 @@
         "name": "Behind Stacked Block Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Behind Stacked Block Chest"
           }
         ],
@@ -126,6 +134,7 @@
         "name": "Freezard Torch Room Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Freezard Torch Room Chest SF"
           }
         ],
@@ -141,6 +150,7 @@
         "name": "Basement Switch Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Basement Switch Chest SF"
           }
         ],
@@ -156,6 +166,7 @@
         "name": "Main Room Wall Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Main Room Wall Chest SF"
           }
         ],
@@ -171,6 +182,7 @@
         "name": "Elevator Room Lower Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Elevator Room Lower Chest"
           }
         ],
@@ -186,6 +198,7 @@
         "name": "Elevator Room Invisible Platform Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Elevator Room Invisible Platform Chest SF"
           }
         ],
@@ -201,6 +214,7 @@
         "name": "Elevator Freestanding SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Elevator Freestanding SF"
           }
         ],
@@ -216,6 +230,7 @@
         "name": "Icicle Room Snowball Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Icicle Room Snowball Chest"
           }
         ],
@@ -231,6 +246,7 @@
         "name": "Icicle Room Hidden Chest SF",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Icicle Room Hidden Chest SF"
           }
         ],
@@ -246,6 +262,7 @@
         "name": "Timed Switch Room Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Timed Switch Room Bubble SF"
           }
         ],
@@ -261,6 +278,7 @@
         "name": "Lower Wizzrobe Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Lower Wizzrobe Chest"
           }
         ],
@@ -276,6 +294,7 @@
         "name": "Snowmen Bubble SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Snowmen Bubble SF"
           }
         ],
@@ -291,6 +310,7 @@
         "name": "Dinolfos Room First SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Dinolfos Room First SF"
           }
         ],
@@ -306,6 +326,7 @@
         "name": "Dinolfos Room Second SF",
         "sections": [
           {
+            "name": "Stray Fairy",
             "ref": "Dungeons/Snowhead Temple/Dinolfos Room Second SF"
           }
         ],
@@ -321,6 +342,7 @@
         "name": "Upper Wizzrobe Chest",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Snowhead Temple/Upper Wizzrobe Chest"
           }
         ],
@@ -344,6 +366,7 @@
             "ref": "Dungeons/Snowhead Temple/Goht's Remains"
           },
           {
+            "name": "Oath to Order",
             "ref": "Dungeons/Snowhead Temple/Oath to Order"
           }
         ],

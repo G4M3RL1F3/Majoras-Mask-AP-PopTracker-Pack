@@ -12,6 +12,7 @@
         //],
         "sections": [
           {
+            "name": "Romani Ranch Map Purchase",
             "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase"
           },
           {
@@ -22,8 +23,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 450,
-            "y": 371
+            "x": 818,
+            "y": 670
           }
         ]
       },
@@ -47,8 +48,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 470,
-            "y": 376
+            "x": 832,
+            "y": 695
           }
         ]
       },
@@ -64,8 +65,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 349,
-            "y": 352
+            "x": 677,
+            "y": 638
           }
         ]
       },
@@ -93,8 +94,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 329,
-            "y": 369
+            "x": 669,
+            "y": 664
           }
         ]
       },
@@ -123,8 +124,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 397,
-            "y": 342
+            "x": 747,
+            "y": 625
           }
         ]
       },
@@ -150,8 +151,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 391,
-            "y": 350
+            "x": 753,
+            "y": 649
           }
         ]
       }

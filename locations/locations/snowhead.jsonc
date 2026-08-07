@@ -7,35 +7,35 @@
     "access_rules": ["$path_mountain"],
     "children": [
       {
-        "name": "Mountain Village",
+        "name": "Darmani Graveyard",
         "access_rules": [
           "easy_logic, $baby_mountain_village",
           "normal_logic, $mountain_village"
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 528,
-            "y": 159
-          }
         ],
         "sections": [
           {
             "name": "Healing Darmani",
             "chest_unopened_img": "images/masks/goron.png",
             "access_rules": ["$can_use_lens, $can_play_healing"]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Hungry Goron",
-            "chest_unopened_img": "images/masks/don_gero.png",
-            "access_rules": [
-              "easy_logic, $can_play_lullaby, $can_use_fire_arrows",
-              "normal_logic, goron, magic, $can_play_lullaby",
-              "normal_logic, goron, $can_use_fire_arrows"
-            ]
-          },
+            "map": "overworld",
+            "x": 991,
+            "y": 256
+          }
+        ]
+      },
+      {
+        "name": "Mountain Village Smithy",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
           {
-            "name": "Smithy Upgrade",
+            "name": "Upgrade",
             "chest_unopened_img": "images/equipment/sword2.png",
             "access_rules": [
               "easy_logic, adultswallet, $baby_clear_snowhead, $baby_has_bottle, @Mountain Village/Invisible Ladder Cave Healing Invisible Goron, $can_use_fire_arrows",
@@ -45,13 +45,54 @@
             ]
           },
           {
-            "name": "Smithy Gold Dust Upgrade",
+            "name": "Gold Dust Upgrade",
             "chest_unopened_img": "images/equipment/sword3.png",
             "access_rules": [
               "easy_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize",
               "normal_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize, $has|bottles|1"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 983,
+            "y": 332
+          }
+        ]
+      },
+      {
+        "name": "Hungry Goron",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
+          {
+            "name": "Hungry Goron",
+            "chest_unopened_img": "images/masks/don_gero.png",
+            "access_rules": [
+              "easy_logic, $can_play_lullaby, $can_use_fire_arrows",
+              "normal_logic, goron, magic, $can_play_lullaby",
+              "normal_logic, goron, $can_use_fire_arrows"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 934,
+            "y": 326
+          }
+        ]
+      },
+      {
+        "name": "Mountain Village",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
           {
             "name": "Spring Waterfall Chest",
             "access_rules": [
@@ -71,32 +112,49 @@
             "chest_unopened_img": "images/masks/don_gero.png",
             "access_rules": [
               "easy_logic, dongeromask, $baby_clear_snowhead, $baby_woodfall_temple, $baby_can_smack_hard, $baby_has_explosives, deku, goron, $baby_great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows",
-              "normal_logic, dongeromask, $clear_snowhead, @Dungeons/Woodfall Temple/Woodfall Temple Gekko Chest, $great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows"
+              "normal_logic, dongeromask, $clear_snowhead, @Dungeons/Woodfall Temple/Gekko Chest, $great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows"
             ]
           }
-        ]
-      },
-      {
-        "name": "Twin Islands",
-        "access_rules": [
-          "easy_logic, $baby_mountain_village",
-          "normal_logic, $mountain_village"
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 587,
-            "y": 148
+            "x": 962,
+            "y": 344
           }
+        ]
+      },
+      {
+        "name": "Tingle Twin Islands",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
         ],
         "sections": [
           {
+            "name": "Snowhead Map Purchase",
             "ref": "Groups/Snowhead Map Purchase/Snowhead Map Purchase"
           },
           {
             "name": "Romani Ranch Map Purchase",
             "ref": "Groups/Romani Ranch Map Purchase/Romani Ranch Map Purchase "
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1206,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "Twin Islands Ramp",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
           {
             "name": "Ramp Grotto Chest",
             "access_rules": [
@@ -104,7 +162,49 @@
               "normal_logic, $has_explosives, goron",
               "normal_logic, $has_explosives, hookshot"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1181,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Twin Islands Hot Spring Water Grotto",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": [
+              "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_clear_snowhead",
+              "normal_logic, $has_explosives, $can_use_fire_arrows",
+              "normal_logic, $can_use_lens, goron, $has|bottles|1, $has_explosives",
+              "normal_logic, $clear_snowhead",
+              "normal_logic, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, $can_play_soaring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1228,
+            "y": 246
+          }
+        ]
+      },
+      {
+        "name": "Twin Islands Hot Spring Water Grotto",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
           {
             "name": "Goron Elder Request",
             "chest_unopened_img": "images/characters/elder_goron.png",
@@ -113,16 +213,6 @@
               "normal_logic, goron, $can_use_fire_arrows",
               "normal_logic, goron, $has|bottles|1, $can_use_lens",
               "normal_logic, goron, $has|bottles|1, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring"
-            ]
-          },
-          {
-            "name": "Hot Water Grotto Chest",
-            "access_rules": [
-              "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_clear_snowhead",
-              "normal_logic, $has_explosives, $can_use_fire_arrows",
-              "normal_logic, $can_use_lens, goron, $has|bottles|1, $has_explosives",
-              "normal_logic, $clear_snowhead",
-              "normal_logic, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, $can_play_soaring"
             ]
           },
           {
@@ -138,15 +228,38 @@
               "easy_logic, $baby_clear_snowhead, zora",
               "normal_logic, $clear_snowhead, zora"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Goron Racetrack Prize",
+            "map": "overworld",
+            "x": 1212,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "Goron Racetrack",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
+          {
+            "name": "Race Prize",
             "chest_unopened_img": "images/items/gold_dust.png",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead, powderkeg",
               "normal_logic, $clear_snowhead, powderkeg",
               "normal_logic, $clear_snowhead, @Snowhead/Goron Village/Powder Keg Goron Reward"
             ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1157,
+            "y": 215
           }
         ]
       },
@@ -155,13 +268,6 @@
         "access_rules": [
           "easy_logic, $baby_mountain_village",
           "normal_logic, $mountain_village"
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 677,
-            "y": 59
-          }
         ],
         "sections": [
           {
@@ -179,6 +285,13 @@
               "normal_logic, $has_explosives"
             ]
           }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1511,
+            "y": 169
+          }
         ]
       },
       {
@@ -187,12 +300,74 @@
           "easy_logic, $baby_mountain_village",
           "normal_logic, $mountain_village"
         ],
+        "sections": [
+          {
+            "name": "Scrub Purchase",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "visibility_rules": ["scrubsanity"],
+            "access_rules": [
+              "easy_logic, goron, adultswallet",
+              "normal_logic, goron, adultswallet",
+              "normal_logic, @Snowhead/Goron Village/Freestanding HP, @Southern Swamp/Swamp Business Scrub/Southern Swamp Freestanding HP, moontear, adultswallet"
+            ]
+          },
+          {
+            "name": "Deed Trade (as Deku)",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "access_rules": ["deku, swampdeed"]
+          },
+          {
+            "name": "Freestanding Heart Piece",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": ["@Goron Village/Deku Trade"]
+          //},
+          //{
+          //  "name": "Freestanding Heart Piece (Spring)",
+          //  "visibility_rules": ["shopsanity_advanced"],
+          //  "access_rules": [
+          //    "easy_logic, $baby_clear_snowhead, deku, swampdeed",
+          //    "normal_logic, $clear_snowhead, deku, swampdeed"
+          //  ]
+          }
+        ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 641,
+            "x": 1390,
+            "y": 161
+          }
+        ]
+      },
+      {
+        "name": "Keg Goron",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
+        ],
+        "sections": [
+          {
+            "name": "Powder Keg Goron Reward",
+            "chest_unopened_img": "images/items/keg.png",
+            "access_rules": [
+              "easy_logic, powderkeg, $baby_clear_snowhead, $can_use_fire_arrows",
+              "normal_logic, $clear_snowhead",
+              "normal_logic, goron, $can_use_fire_arrows"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1342,
             "y": 121
           }
+        ]
+      },
+      {
+        "name": "Goron Shrine",
+        "access_rules": [
+          "easy_logic, $baby_mountain_village",
+          "normal_logic, $mountain_village"
         ],
         "sections": [
           {
@@ -244,43 +419,13 @@
             "chest_unopened_img": "images/characters/goron_shop.png",
             "visibility_rules": ["shopsanity_advanced"],
             "access_rules": ["$clear_snowhead, $can_afford|Snowhead/Goron Village/Shop (Spring) Item 3"]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Scrub Purchase",
-            "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "visibility_rules": ["scrubsanity"],
-            "access_rules": [
-              "easy_logic, goron, adultswallet",
-              "normal_logic, goron, adultswallet",
-              "normal_logic, @Snowhead/Goron Village/Freestanding HP, @Southern Swamp/Swamp Business Scrub/Southern Swamp Freestanding HP, moontear, adultswallet"
-            ]
-          },
-          {
-            "name": "Deku Trade",
-            "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": ["deku, swampdeed"]
-          },
-          {
-            "name": "Freestanding HP",
-            "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["@Goron Village/Deku Trade"]
-          },
-          {
-            "name": "Powder Keg Goron Reward",
-            "chest_unopened_img": "images/items/keg.png",
-            "access_rules": [
-              "easy_logic, powderkeg, $baby_clear_snowhead, $can_use_fire_arrows",
-              "normal_logic, $clear_snowhead",
-              "normal_logic, goron, $can_use_fire_arrows"
-            ]
-          //},
-          //{
-          //  "name": "Freestanding HP (Spring)",
-          //  "visibility_rules": ["shopsanity_advanced"],
-          //  "access_rules": [
-          //    "easy_logic, $baby_clear_snowhead, deku, swampdeed",
-          //    "normal_logic, $clear_snowhead, deku, swampdeed"
-          //  ]
+            "map": "overworld",
+            "x": 1333,
+            "y": 164
           }
         ]
       },
@@ -289,13 +434,6 @@
         "access_rules": [
           "easy_logic, $baby_mountain_village",
           "normal_logic, $mountain_village"
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 499,
-            "y": 149
-          }
         ],
         "sections": [
           {
@@ -310,6 +448,13 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["goron, $can_use_lens, hookshot"]
           }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 931,
+            "y": 259
+          }
         ]
       },
       {
@@ -317,13 +462,6 @@
         "access_rules": [
           "easy_logic, $baby_mountain_village, goron, magic",
           "normal_logic, $mountain_village, goron, magic"
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 491,
-            "y": 73
-          }
         ],
         "sections": [
           {
@@ -334,6 +472,13 @@
               "easy_logic, $baby_snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh",
               "normal_logic, $snowhead_temple, $checkRequirements|required_stray_fairies|fairy_sh"
             ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 956,
+            "y": 167
           }
         ]
       }

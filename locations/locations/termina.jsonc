@@ -5,64 +5,88 @@
     "chest_opened_img": "images/icons/check_32.png",
     "children": [
       {
-        "name": "South East Termina Field",
+        "name": "Termina Field Grass Chest",
         "sections": [
           {
-            "name": "Termina Grass Chest"
-          },
+            "name": "Grass Chest"
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Termina Stump Chest",
+            "map": "overworld",
+            "x": 1065,
+            "y": 653
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Stump",
+        "sections": [
+          {
+            "name": "Stump Chest",
             "access_rules": [
               "easy_logic, $baby_can_plant_beans, hookshot",
               "normal_logic, $can_plant_beans",
               "normal_logic, hookshot"
             ]
-          },
-          {
-            "name": "Termina Grass Grotto Chest"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 563,
-            "y": 352
+            "x": 988,
+            "y": 639
           }
         ]
       },
       {
-        "name": "Termina Ikana Pillar Grotto Chest",
+        "name": "Grass Grotto",
         "sections": [
           {
-            "name": "Termina Ikana Pillar Grotto Chest"
+            "name": "Chest"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 582,
-            "y": 302
+            "x": 1025,
+            "y": 635
           }
         ]
       },
       {
-        "name": "Termina Underwater Chest",
+        "name": "Pillar Grotto",
         "sections": [
           {
-            "name": "Termina Underwater Chest",
+            "name": "Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1052,
+            "y": 548
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Pond",
+        "sections": [
+          {
+            "name": "Underwater Chest",
             "access_rules": ["zora"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 478,
-            "y": 329
+            "x": 808,
+            "y": 606
           }
         ]
       },
       {
-        "name": "Termina Field Peahat Grotto",
+        "name": "Peahat Grotto",
         "sections": [
           {
             "name": "Defeat Peahat (Daytime Only)",
@@ -72,32 +96,32 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 513,
-            "y": 332
+            "x": 857,
+            "y": 629
           }
         ]
       },
       {
-        "name": "Termina Dodongo Grotto Chest",
+        "name": "Dodongo Grotto",
         "sections": [
           {
-            "name": "Termina Dodongo Grotto Chest",
+            "name": "Dodongo Chest",
             "access_rules": ["$baby_can_smack_hard", "normal_logic"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 525,
-            "y": 260
+            "x": 879,
+            "y": 509
           }
         ]
       },
       {
-        "name": "Termina Healing Kamaro",
+        "name": "Kamaro",
         "sections": [
           {
-            "name": "Termina Healing Kamaro (Midnight - 6 AM)",
+            "name": "Healing Kamaro (Midnight - 6 AM)",
             "chest_unopened_img": "images/characters/kamaro.png",
             "access_rules": ["$can_play_healing"]
           }
@@ -105,17 +129,17 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 513,
-            "y": 260
+            "x": 892,
+            "y": 497
           }
         ]
       },
       {
-        "name": "Termina Bio Baba Grotto HP",
+        "name": "Bio Baba Grotto",
         "chest_unopened_img": "images/equipment/heart_piece.png",
         "sections": [
           {
-            "name": "Termina Bio Baba Grotto HP",
+            "name": "Right Beehive Heart Piece",
             "access_rules": [
               "easy_logic, $baby_has_explosives, goron, zora, $baby_has_projectiles",
               "normal_logic, $has_explosives, zora",
@@ -126,16 +150,16 @@
         "map_locations":[
           {
             "map": "overworld",
-            "x": 475,
-            "y": 309
+            "x": 800,
+            "y": 553
           }
         ]
       },
       {
-        "name": "East Clock Town Astral Observatory",
+        "name": "Astral Observatory",
         "sections": [
           {
-            "name": "East Clock Town Astral Observatory",
+            "name": "Moon's Tear",
             "chest_unopened_img": "images/items/moon_tear.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
@@ -147,16 +171,16 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 590,
-            "y": 347
+            "x": 1117,
+            "y": 594
           }
         ]
       },
       {
-        "name": "Termina Business Scrub Grotto",
+        "name": "Business Scrub Grotto",
         "sections": [
           {
-            "name": "Termina Business Scrub Grotto HP",
+            "name": "Purchase Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, wallet",
@@ -167,17 +191,17 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 583,
-            "y": 328
+            "x": 1080,
+            "y": 590
           }
         ]
       },
       {
-        "name": "Termina Gossip Stones HP",
+        "name": "Termina Gossip Stones",
         "chest_unopened_img": "images/icons/gossip_stone.png",
         "sections": [
           {
-            "name": "Termina Gossip Stones HP",
+            "name": "Reward",
             "access_rules": [
               "easy_logic, deku, $can_play_sonata, goron, $can_play_lullaby, zora, $can_play_bossa_nova",
               "normal_logic, deku, $can_play_sonata, $has_explosives",
@@ -190,35 +214,35 @@
         ],
         "map_locations": [
           {
-            "map": "overworld",
-            "x": 548,
-            "y": 273
+            "map": "overworld", // North
+            "x": 982,
+            "y": 494
           },
           {
-            "map": "overworld",
-            "x": 599,
-            "y": 320
+            "map": "overworld", // South
+            "x": 904,
+            "y": 647
           },
           {
-            "map": "overworld",
-            "x": 498,
-            "y": 299
+            "map": "overworld", // East
+            "x": 1121,
+            "y": 578
           },
           {
-            "map": "overworld",
-            "x": 515,
-            "y": 345
+            "map": "overworld", // West
+            "x": 866,
+            "y": 529
           }
         ]
       },
       {
-        "name": "Termina Log Bombable Grotto",
+        "name": "Hollowed Log Bombable Grotto",
         "access_rules": ["easy_logic, $baby_has_explosives", "normal_logic, $has_explosives"],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 539,
-            "y": 348
+            "x": 956,
+            "y": 655
           }
         ],
         "sections": [

@@ -12,25 +12,25 @@
         ],
         "sections": [
           {
-            "name": "Woodfall Temple Entrance Chest SF",
+            "name": "Entrance Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": [""]
           },
           {
-            "name": "Woodfall Temple Switch Chest SF",
+            "name": "Switch Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": ["bow"]
           },
           {
-            "name": "Woodfall Temple Ledge Chest",
+            "name": "Ledge Chest",
             "access_rules": [""]
           },
           {
-            "name": "Woodfall Temple Turtle Chest",
+            "name": "Turtle Chestt",
             "access_rules": [""]
           },
           {
-            "name": "Woodfall Temple Dinolfos Chest",
+            "name": "Dinolfos Chest",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard",
               "normal_logic, smallkey_wf, $can_smack",
@@ -39,14 +39,14 @@
             ]
           },
           {
-            "name": "Woodfall Temple Gekko Chest",
+            "name": "Gekko Chest",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, $baby_has_explosives, deku, goron",
               "normal_logic, bow, $can_smack"
             ]
           },
           {
-            "name": "Woodfall Temple Dragonfly Chest",
+            "name": "Dragonfly Chest",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles",
               "normal_logic, smallkey_wf",
@@ -55,7 +55,7 @@
             ]
           },
           {
-            "name": "Woodfall Temple Dark Room Chest SF",
+            "name": "Dark Room Chest SF",
             "chest_unopened_img": "images/icons/chest_fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_can_smack",
@@ -65,19 +65,19 @@
             ]
           },
           {
-            "name": "Woodfall Temple Entrance Freestanding SF",
+            "name": "Entrance Freestanding SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [""]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Deku Baba SF",
+            "name": "Deku Baba SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [""]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Main Room Bubble SF",
+            "name": "Main Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, fairymask",
@@ -86,13 +86,13 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pot SF",
+            "name": "Pot SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [""]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Platform Hive SF",
+            "name": "Platform Hive SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, fairymask",
@@ -104,7 +104,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Skulltula SF",
+            "name": "Skulltula SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_can_smack_hard, $baby_has_projectiles",
@@ -115,7 +115,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Bridge Room Bubble SF",
+            "name": "Bridge Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
@@ -127,7 +127,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Bridge Room Hive SF",
+            "name": "Bridge Room Hive SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
@@ -138,13 +138,13 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Upper Right Bubble SF",
+            "name": "Pre-Boss Upper Right Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": ["bow"]
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Lower Right Bubble SF",
+            "name": "Pre-Boss Lower Right Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, $can_use_fire_arrows",
@@ -154,7 +154,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Upper Left Bubble SF",
+            "name": "Pre-Boss Upper Left Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, $can_use_fire_arrows",
@@ -164,7 +164,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Pre-Boss Pillar Bubble SF",
+            "name": "Pre-Boss Pillar Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
             "access_rules": [
               "easy_logic, bow, fairymask, $can_use_fire_arrows",
@@ -174,7 +174,7 @@
             //"visibility_rules": ["fairysanity"]
           },
           {
-            "name": "Woodfall Temple Heart Container",
+            "name": "Heart Container",
             "chest_unopened_img": "images/equipment/heart_container.png",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
@@ -184,7 +184,7 @@
             ]
           },
           {
-            "name": "Woodfall Temple Odolwa's Remains",
+            "name": "Odolwa's Remains",
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
               "normal_logic, bow, $can_smack, bosskey_wf",
@@ -207,8 +207,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 542,
-            "y": 478
+            "x": 1052,
+            "y": 784
           }
         ]
       },
@@ -448,8 +448,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 489,
-            "y": 38
+            "x": 959,
+            "y": 136
           }
         ]
       },
@@ -665,8 +665,66 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 58,
-            "y": 350
+            "x": 162,
+            "y": 639
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Moat",
+        "access_rules": ["$pirates_fortress"],
+        "sections": [
+          {
+            "name": "Underwater Log Chest",
+            "access_rules": ["zora"]
+          },
+          {
+            "name": "Underwater Near Entrance Chest",
+            "access_rules": ["zora"]
+          },
+          {
+            "name": "Underwater Corner Chest",
+            "access_rules": ["zora"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 484,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Fortress Sewers",
+        "access_rules": ["$pirates_fortress"],
+        "sections": [
+          {
+            "name": "Maze Chest",
+            "access_rules": ["goron"]
+          },
+          {
+            "name": "Cage HP",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": [
+              "easy_logic, goron, bow",
+              "normal_logic, goron"
+            ]
+          },
+          {
+            "name": "Underwater Lower Chest",
+            "access_rules": ["goron"]
+          },
+          {
+            "name": "Underwater Upper Chest",
+            "access_rules": ["goron"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 521,
+            "y": 423
           }
         ]
       },
@@ -675,67 +733,35 @@
         "access_rules": ["$pirates_fortress"],
         "sections": [
           {
-            "name": "Pirates' Fortress Exterior Underwater Log Chest",
-            "access_rules": ["zora"]
-          },
-          {
-            "name": "Pirates' Fortress Exterior Underwater Near Entrance Chest",
-            "access_rules": ["zora"]
-          },
-          {
-            "name": "Pirates' Fortress Exterior Underwater Corner Chest",
-            "access_rules": ["zora"]
-          },
-          {
-            "name": "Pirates' Fortress Sewers Cage HP",
-            "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "easy_logic, goron, bow",
-              "normal_logic, goron"
-            ]
-          },
-          {
-            "name": "Pirates' Fortress Sewers Maze Chest",
-            "access_rules": ["goron"]
-          },
-          {
-            "name": "Pirates' Fortress Sewers Underwater Lower Chest",
-            "access_rules": ["goron"]
-          },
-          {
-            "name": "Pirates' Fortress Sewers Underwater Upper Chest",
-            "access_rules": ["goron"]
-          },
-          {
-            "name": "Pirates' Fortress Interior Tank Chest",
+            "name": "Tank Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, hookshot, $baby_can_smack_hard, magic, stonemask",
               "normal_logic, $pirates_fortress_interior, hookshot, $can_smack_hard"
             ]
           },
           {
-            "name": "Pirates' Fortress Interior Guarded Chest",
+            "name": "Guarded Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
               "normal_logic, $pirates_fortress_interior, hookshot"
             ]
           },
           {
-            "name": "Pirates' Fortress Hub Lower Chest",
+            "name": "Hub Lower Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, goron, hookshot, stonemask",
               "normal_logic, $pirates_fortress_interior"
             ]
           },
           {
-            "name": "Pirates' Fortress Hub Upper Chest",
+            "name": "Hub Upper Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, hookshot, stonemask",
               "normal_logic, $pirates_fortress_interior, hookshot"
             ]
           },
           {
-            "name": "Pirates' Fortress Leader's Room Chest",
+            "name": "Leader's Room Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
               "normal_logic, $pirates_fortress_interior, hookshot, bow",
@@ -748,8 +774,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 310,
-            "y": 242
+            "x": 522,
+            "y": 376
           }
         ]
       },
@@ -766,13 +792,13 @@
             "chest_unopened_img": "images/masks/truth.png",
             "access_rules": [
               "$checkRequirements|required_skull_tokens|skull_ss",
-              "skullsanity_0, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token",
-              "skullsanity_2, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token"
+              "skullsanity_0, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Golden Room Against Far Wall Token",
+              "skullsanity_2, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Golden Room Against Far Wall Token"
             ]
             //"visibility_rules": ["shuffle_swamphouse_reward"]
           },
           {
-            "name": "Swamphouse First Room Pot Near Entrance Token",
+            "name": "First Room Pot Near Entrance Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
               "normal_logic, $can_smack"
@@ -780,7 +806,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Crawling In Water Token",
+            "name": "First Room Crawling In Water Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
               "normal_logic, $can_smack"
@@ -788,7 +814,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Crawling Right Column Token",
+            "name": "First Room Crawling Right Column Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_has_projectiles",
               "normal_logic, $can_smack"
@@ -796,7 +822,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Crawling Left Column Token",
+            "name": "First Room Crawling Left Column Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_has_projectiles",
               "normal_logic, $can_smack"
@@ -804,7 +830,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Against Far Wall Token",
+            "name": "First Room Against Far Wall Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_has_projectiles, $baby_can_plant_beans",
               "normal_logic, $can_bring_to_player, $has_projectiles",
@@ -814,7 +840,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Left Bugpatch Token",
+            "name": "First Room Left Bugpatch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_bottle",
               "normal_logic, $can_smack, $has|bottles|1"
@@ -822,7 +848,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Right Bugpatch Token",
+            "name": "First Room Right Bugpatch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_bottle",
               "normal_logic, $can_smack, $has|bottles|1"
@@ -830,7 +856,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse First Room Upper Right Bugpatch Token",
+            "name": "First Room Upper Right Bugpatch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_bottle",
               "normal_logic, $can_smack, $has|bottles|1"
@@ -838,7 +864,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Monument Room Left Crate Token",
+            "name": "Monument Room Left Crate Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
               "normal_logic, $can_smack"
@@ -846,7 +872,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Monument Room Right Crate Token",
+            "name": "Monument Room Right Crate Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
               "normal_logic, $can_smack"
@@ -854,7 +880,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Monument Room Crawling Wall Token",
+            "name": "Monument Room Crawling Wall Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_can_plant_beans, $baby_has_projectiles",
               "normal_logic, $can_bring_to_player",
@@ -864,7 +890,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Monument Room Crawling On Monument Token",
+            "name": "Monument Room Crawling On Monument Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_can_plant_beans, $baby_has_projectiles",
               "normal_logic, $can_smack",
@@ -873,7 +899,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Monument Room Behind Torch Token",
+            "name": "Monument Room Behind Torch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
               "normal_logic, $can_smack"
@@ -881,7 +907,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Beehive #1 Token",
+            "name": "Pottery Room Beehive #1 Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_projectiles",
               "normal_logic, $can_smack, $has_projectiles"
@@ -889,7 +915,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Beehive #2 Token",
+            "name": "Pottery Room Beehive #2 Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_projectiles",
               "normal_logic, $can_smack, $has_projectiles"
@@ -897,7 +923,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Small Pot Token",
+            "name": "Pottery Room Small Pot Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
               "normal_logic, $can_smack"
@@ -905,7 +931,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Left Large Pot Token",
+            "name": "Pottery Room Left Large Pot Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
               "normal_logic, $can_smack"
@@ -913,7 +939,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Right Large Pot Token",
+            "name": "Pottery Room Right Large Pot Token",
             "access_rules": [
               "easy_logic, $baby_can_smack",
               "normal_logic, $can_smack"
@@ -921,7 +947,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Behind Vines Token",
+            "name": "Pottery Room Behind Vines Token",
             "access_rules": [
               "easy_logic, $baby_can_smack_hard",
               "normal_logic, sword",
@@ -931,7 +957,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Pottery Room Upper Wall Token",
+            "name": "Pottery Room Upper Wall Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $can_play_sonata, deku, $baby_can_bring_to_player",
               "normal_logic, $can_smack" //need to revisit
@@ -939,7 +965,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Golden Room Crawling Left Wall Token",
+            "name": "Golden Room Crawling Left Wall Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $can_play_sonata, deku, $can_bring_to_player",
               "normal_logic, $can_smack" //need to revisit
@@ -947,7 +973,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Golden Room Crawling Right Column Token",
+            "name": "Golden Room Crawling Right Column Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player",
               "normal_logic, $can_smack"
@@ -955,7 +981,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Golden Room Against Far Wall Token",
+            "name": "Golden Room Against Far Wall Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_can_plant_beans",
               "normal_logic, $can_smack, $can_bring_to_player",
@@ -964,7 +990,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Golden Room Beehive Token",
+            "name": "Golden Room Beehive Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_projectiles",
               "normal_logic, $can_smack, $has_projectiles"
@@ -972,7 +998,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Tree Room Tall Grass #1 Token",
+            "name": "Tree Room Tall Grass #1 Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $can_play_sonata, deku",
               "normal_logic, $can_smack"
@@ -980,7 +1006,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Tree Room Tall Grass #2 Token",
+            "name": "Tree Room Tall Grass #2 Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $can_play_sonata, deku",
               "normal_logic, $can_smack"
@@ -988,7 +1014,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Tree Room Tree #1 Token",
+            "name": "Tree Room Tree #1 Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $can_play_sonata, deku",
               "normal_logic, $can_smack"
@@ -996,7 +1022,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Tree Room Tree #2 Token",
+            "name": "Tree Room Tree #2 Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $can_play_sonata, deku",
               "normal_logic, $can_smack"
@@ -1004,7 +1030,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Tree Room Tree #3 Token",
+            "name": "Tree Room Tree #3 Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $can_play_sonata, deku",
               "normal_logic, $can_smack"
@@ -1012,7 +1038,7 @@
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
           {
-            "name": "Swamphouse Tree Room Beehive Token",
+            "name": "Tree Room Beehive Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_projectiles, $can_play_sonata, deku",
               "normal_logic, $can_smack, $has_projectiles"
@@ -1023,8 +1049,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 498,
-            "y": 502
+            "x": 921,
+            "y": 827
           }
         ]
       },
@@ -1249,8 +1275,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 307,
-            "y": 347
+            "x": 554,
+            "y": 599
           }
         ]
       },
@@ -1300,8 +1326,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 787,
-            "y": 223
+            "x": 1387,
+            "y": 473
           }
         ]
       },
@@ -1360,8 +1386,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 816,
-            "y": 245
+            "x": 1443,
+            "y": 471
           }
         ]
       },
@@ -1390,8 +1416,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 829,
-            "y": 296
+            "x": 1472,
+            "y": 564
           }
         ]
       },
@@ -1538,8 +1564,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 965,
-            "y": 216
+            "x": 1680,
+            "y": 500
           }
         ]
       },
@@ -1656,8 +1682,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 965,
-            "y": 230
+            "x": 1680,
+            "y": 525
           }
         ]
       }

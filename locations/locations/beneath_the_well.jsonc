@@ -6,6 +6,7 @@
         "name": "Cow Room",
         "sections": [
           {
+            "name": "Cow",
             "ref": "Dungeons/Beneath the Well/Cow"
           }
         ],
@@ -21,6 +22,7 @@
         "name": "Invisible Chest Room",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Beneath the Well/Invisible Chest"
           }
         ],
@@ -36,6 +38,7 @@
         "name": "Rightside Torch Room",
         "sections": [
           {
+            "name": "Chest",
             "ref": "Dungeons/Beneath the Well/Rightside Torch Chest"
           }
         ],

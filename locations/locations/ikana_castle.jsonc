@@ -5,9 +5,10 @@
     "chest_opened_img": "images/icons/check_32.png",
     "children": [
       {
-        "name": "Pillar Freestanding HP",
+        "name": "Pillar Freestanding Heart Piece",
         "sections": [
           {
+            "name": "Heart Piece",
             "ref": "Dungeons/Ikana Castle/Pillar Freestanding HP"
           }
         ],

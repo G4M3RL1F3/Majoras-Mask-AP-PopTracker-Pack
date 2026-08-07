@@ -8,31 +8,31 @@
         "name": "Road to Ikana Pillar Chest",
         "sections": [
           {
-            "name": "Road to Ikana Pillar Chest",
+            "name": "Chest",
             "access_rules": ["hookshot"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 620,
-            "y": 300
+            "x": 1161,
+            "y": 537
           }
         ]
       },
       {
-        "name": "Road to Ikana Rock Grotto Chest",
+        "name": "Road to Ikana Rock Grotto",
         "sections": [
           {
-            "name": "Road to Ikana Rock Grotto Chest",
+            "name": "Chest",
             "access_rules": ["goron"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 647,
-            "y": 300
+            "x": 1196,
+            "y": 549
           }
         ]
       },
@@ -40,7 +40,7 @@
         "name": "Road to Ikana Stone Soldier",
         "sections": [
           {
-            "name": "Road to Ikana Stone Soldier",
+            "name": "Stone Soldier",
             "chest_unopened_img": "images/characters/shiro.png",
             "access_rules": [
               "easy_logic, $can_play_eponas, $baby_has_bottle, $can_use_lens",
@@ -51,13 +51,13 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 681,
-            "y": 312
+            "x": 1220,
+            "y": 556
           }
         ]
       },
       {
-        "name": "Graveyard",
+        "name": "Upper Graveyard",
         "access_rules": ["$graveyard"],
         "sections": [
           {
@@ -67,6 +67,27 @@
               "normal_logic, $has_explosives"
             ]
           },
+          {
+            "name": "Captain Keeta Chest",
+            "chest_unopened_img": "images/masks/captains.png",
+            "access_rules": [
+              "easy_logic, $can_play_sonata, $baby_can_smack_hard, bow",
+              "normal_logic, $can_play_sonata, $can_smack_hard"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1264,
+            "y": 433
+          }
+        ]
+      },
+      {
+        "name": "Lower Graveyard",
+        "access_rules": ["$graveyard"],
+        "sections": [
           {
             "name": "Day 1 Bats Chest",
             "access_rules": [
@@ -104,21 +125,13 @@
               "normal_logic, captainhat, bow",
               "normal_logic, captainhat, zora"
             ]
-          },
-          {
-            "name": "Captain Keeta Chest",
-            "chest_unopened_img": "images/masks/captains.png",
-            "access_rules": [
-              "easy_logic, $can_play_sonata, $baby_can_smack_hard, bow",
-              "normal_logic, $can_play_sonata, $can_smack_hard"
-            ]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 685,
-            "y": 257
+            "x": 1239,
+            "y": 479
           }
         ]
       },
@@ -130,15 +143,14 @@
         ],
         "sections": [
           {
-            "name": "Grotto Chest",
-            "access_rules": [""]
+            "name": "Grotto Chest"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 790,
-            "y": 246
+            "x": 1388,
+            "y": 485
           }
         ]
       },
@@ -150,7 +162,7 @@
         ],
         "sections": [
           {
-            "name": "Zora Scrub Trade",
+            "name": "Deed Trade (as Zora)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, hookshot, gibdo, garo, zora, oceandeed",
@@ -167,7 +179,7 @@
             ]
           },
           {
-            "name": "Zora Trade Freestanding HP",
+            "name": "Scrub Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["deku, zora, oceandeed"]
           }
@@ -175,59 +187,66 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 791,
-            "y": 312
+            "x": 1405,
+            "y": 637
           }
         ]
       },
       {
-        "name": "Ikana Canyon",
+        "name": "Tingle Ikana Canyon",
         "access_rules": [
           "easy_logic, $baby_ikana_canyon",
           "normal_logic, $ikana_canyon"
         ],
         "sections": [
-          //{
-          //  "name": "Grotto Chest",
-          //  "access_rules": [""]
-          //},
-          //{
-          //  "name": "Zora Scrub Trade",
-          //  "chest_unopened_img": "images/characters/scrub_merchant.png",
-          //  "access_rules": [
-          //    "easy_logic, $can_use_ice_arrows, hookshot, gibdo, garo, zora, oceandeed",
-          //    "normal_logic, zora, oceandeed"
-          //  ]
-          //},
-          //{
-          //  "name": "Scrub Purchase",
-          //  "chest_unopened_img": "images/characters/scrub_merchant.png",
-          //  "visibility_rules": ["scrubsanity"],
-          //  "access_rules": [
-          //    "easy_logic, zora, $baby_has_bottle, adultswallet",
-          //    "normal_logic, zora, $has|bottles|1, adultswallet"
-          //  ]
-          //},
-          //{
-          //  "name": "Zora Trade Freestanding HP",
-          //  "chest_unopened_img": "images/equipment/heart_piece.png",
-          //  "access_rules": ["deku, zora, oceandeed"]
-          //},
-          //{
-          //  "name": "Clock Town Map Purchase",
-          //  "chest_unopened_img": "images/equipment/rmap_clocktown.png",
-          //  "access_rules": [
-          //    "easy_logic, $baby_has_projectiles, $baby_ikana_canyon, $can_use_ice_arrows",
-          //    "normal_logic, $ikana_canyon, $can_use_ice_arrows"
-          //  ]
-          //},
           {
             "name": "Clock Town Map Purchase",
             "ref": "Groups/Clock Town Map Purchase/Clock Town Map Purchase "
           },
           {
             "ref": "Groups/Stone Tower Map Purchase/Stone Tower Map Purchase"
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1429,
+            "y": 495
+          }
+        ]
+      },
+      {
+        "name": "Spirit House",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $ikana_canyon"
+        ],
+        "sections": [
+          {
+            "name": "Poe Sisters",
+            "chest_unopened_img": "images/characters/soulkeeper.png",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, shield, $baby_can_smack",
+              "normal_logic, $can_use_ice_arrows, bow",
+              "normal_logic, $can_use_ice_arrows, hookshot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1504,
+            "y": 484
+          }
+        ]
+      },
+      {
+        "name": "Music Box",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $ikana_canyon"
+        ],
+        "sections": [
           {
             "name": "Healing Pamela's Father",
             "chest_unopened_img": "images/masks/gibdo.png",
@@ -235,18 +254,25 @@
               "easy_logic, $can_use_ice_arrows, $can_play_healing, $can_play_storms, $baby_has_explosives, stonemask",
               "normal_logic, $can_use_ice_arrows, $can_play_healing, $can_play_storms"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Spirit House",
-            "chest_unopened_img": "images/characters/soulkeeper.png",
-            "access_rules": [
-              "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, shield, $baby_can_smack",
-              "normal_logic, $can_use_ice_arrows, bow",
-              "normal_logic, $can_use_ice_arrows, hookshot"
-            ]
-          },
+            "map": "overworld",
+            "x": 1488,
+            "y": 511
+          }
+        ]
+      },
+      {
+        "name": "Great Fairy House",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $ikana_canyon"
+        ],
+        "sections": [
           {
-            "name": "Stone Tower Great Fairy Reward",
+            "name": "Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_st.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": ["$can_use_ice_arrows, $checkRequirements|required_stray_fairies|fairy_st"]
@@ -255,8 +281,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 847,
-            "y": 251
+            "x": 1515,
+            "y": 531
           }
         ]
       },
@@ -292,8 +318,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 946,
-            "y": 216
+            "x": 1630,
+            "y": 525
           }
         ]
       }

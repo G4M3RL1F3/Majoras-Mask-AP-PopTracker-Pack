@@ -7,25 +7,43 @@
     "access_rules": ["$great_bay"],
     "children": [
       {
-        "name": "Great Bay Coast",
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 236,
-            "y": 323
-          }
-        ],
+        "name": "Great Bay Coast Beach",
         "sections": [
           {
             "name": "Healing Zora",
             "chest_unopened_img": "images/masks/zora.png",
             "access_rules": ["$can_play_healing"]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 501,
+            "y": 594
+          }
+        ]
+      },
+      {
+        "name": "Fisherman's Hut",
+        "sections": [
           {
             "name": "Fisherman's Grotto Chest",
             "access_rules": [""]
-          },
+          }
+        ],
+        "map_locations": [
           {
+            "map": "overworld",
+            "x": 544,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Research Lab",
+        "sections": [
+          {
+            "name": "Great Bay Map Purchase",
             "ref": "Groups/Great Bay Map Purchase/Great Bay Map Purchase"
           },
           {
@@ -36,9 +54,9 @@
             "name": "Baby Zora Song",
             "chest_unopened_img": "images/equipment/song_bossa_nova_no_text.png",
             "access_rules": [
-              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest",
+              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, @Dungeons/Pirates' Fortress/Leader's Room Chest",
               "normal_logic, $has|bottles|1, $can_reach_seahorse",
-              "normal_logic, $has|bottles|1, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest, hookshot"
+              "normal_logic, $has|bottles|1, @Dungeons/Pirates' Fortress/Leader's Room Chest, hookshot"
             ]
           },
           {
@@ -48,27 +66,19 @@
               "easy_logic, $baby_has_bottle, zora",
               "normal_logic, $has|bottles|1"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Ledge Grotto Left Cow",
-            "chest_unopened_img": "images/icons/cow.png",
-            "visibility_rules": ["cowsanity"],
-            "access_rules": ["hookshot, $can_play_eponas"]
-          },
-          {
-            "name": "Ledge Grotto Right Cow",
-            "chest_unopened_img": "images/icons/cow.png",
-            "visibility_rules": ["cowsanity"],
-            "access_rules": ["hookshot, $can_play_eponas"]
-          },
-          {
-            "name": "Scarecrow Ledge HP",
-            "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "easy_logic, hookshot, $baby_can_plant_beans",
-              "normal_logic, hookshot, $can_plant_beans"
-            ]
-          },
+            "map": "overworld",
+            "x": 362,
+            "y": 587
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Island",
+        "sections": [
           {
             "name": "Great Bay Fisherman Game",
             "chest_unopened_img": "images/icons/torch.png",
@@ -77,57 +87,173 @@
               "normal_logic, $clear_greatbay"
             ]
           }
-        ]
-      },
-      {
-        "name": "Zora Cape",
+        ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 294,
-            "y": 393
+            "x": 467,
+            "y": 491
           }
-        ],
+        ]
+      },
+      {
+        "name": "Great Bay Coast Rock Wall",
         "sections": [
           {
-            "name": "Underwater Like-Like HP",
+            "name": "Cow Grotto Left Cow",
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
+            "access_rules": ["hookshot, $can_play_eponas"]
+          },
+          {
+            "name": "Cow Grotto Right Cow",
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
+            "access_rules": ["hookshot, $can_play_eponas"]
+          },
+          {
+            "name": "Scarecrow Ledge Heart Piece",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": [
+              "easy_logic, hookshot, $baby_can_plant_beans",
+              "normal_logic, hookshot, $can_plant_beans"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 559,
+            "y": 491
+          }
+        ]
+      },
+      {
+        "name": "Like Like Pool",
+        "sections": [
+          {
+            "name": "Underwater Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, zora, magic, bow",
               "normal_logic, zora"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Underwater Chest",
+            "map": "overworld",
+            "x": 715,
+            "y": 740
+          }
+        ]
+      },
+      {
+        "name": "Underwater Chest",
+        "sections": [
+          {
+            "name": "Chest",
             "access_rules": ["zora"]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Pot Game",
+            "map": "overworld",
+            "x": 450,
+            "y": 835
+          }
+        ]
+      },
+      {
+        "name": "Zora Pot Game",
+        "sections": [
+          {
+            "name": "Game Reward",
             "chest_unopened_img": "images/characters/zora.png",
             "access_rules": ["zora"]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Deku Flower Chest",
+            "map": "overworld",
+            "x": 549,
+            "y": 697
+          }
+        ]
+      },
+      {
+        "name": "Deku Flower Chest",
+        "sections": [
+          {
+            "name": "Chest",
             "access_rules": ["hookshot"]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Scarecrow Chest",
+            "map": "overworld",
+            "x": 657,
+            "y": 694
+          }
+        ]
+      },
+      {
+        "name": "Scarecrow Chest",
+        "sections": [
+          {
+            "name": "Chest",
             "access_rules": ["hookshot, deku"]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Grotto Chest",
+            "map": "overworld",
+            "x": 654,
+            "y": 741
+          }
+        ]
+      },
+      {
+        "name": "Zora Cape Grotto",
+        "sections": [
+          {
+            "name": "Chest",
             "access_rules": [
               "easy_logic, goron, $baby_has_explosives",
               "normal_logic, goron",
               "normal_logic, $has_explosives"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Great Bay Great Fairy Reward",
+            "map": "overworld",
+            "x": 513,
+            "y": 759
+          }
+        ]
+      },
+      {
+        "name": "Great Bay Great Fairy Cave",
+        "sections": [
+          {
+            "name": "Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": ["$checkRequirements|required_stray_fairies|fairy_gb, hookshot"]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 480,
+            "y": 833
+          }
+        ]
+      },
+      {
+        "name": "Waterfall Rapids",
+        "sections": [
           {
             "name": "Beaver Bros. Race 1",
             "chest_unopened_img": "images/icons/beaver_ring.png",
@@ -138,18 +264,18 @@
             "chest_unopened_img": "images/icons/beaver_ring.png",
             "access_rules": ["hookshot, zora"]
           }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 732,
+            "y": 768
+          }
         ]
       },
       {
         "name": "Zora Hall",
         "access_rules": ["zora"],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 215,
-            "y": 394
-          }
-        ],
         "sections": [
           {
             "name": "Shop 1",
@@ -182,12 +308,12 @@
             ]
           },
           {
-            "name": "Goron Scrub Trade",
+            "name": "Deed Trade (as Goron)",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["zora, mountaindeed, goron"]
           },
           {
-            "name": "Goron Scrub Trade Freestanding HP",
+            "name": "Scrub Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["deku, zora, mountaindeed, goron"]
           },
@@ -214,17 +340,17 @@
             "chest_unopened_img": "images/characters/zora.png",
             "access_rules": ["zora, pictobox"]
           }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 362,
+            "y": 762
+          }
         ]
       },
       {
         "name": "Pinnacle Rock",
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 145,
-            "y": 300
-          }
-        ],
         "sections": [
           {
             "name": "Seahorse Heart Piece",
@@ -247,6 +373,13 @@
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
               "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
             ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 204,
+            "y": 487
           }
         ]
       }

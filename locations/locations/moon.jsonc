@@ -17,8 +17,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 111,
-            "y": 572
+            "x": 260,
+            "y": 240
           },
           {
             "map": "moon",
@@ -39,8 +39,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 111,
-            "y": 532
+            "x": 260,
+            "y": 180
           },
           {
             "map": "moon",
@@ -61,8 +61,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 91,
-            "y": 552
+            "x": 230,
+            "y": 210
           },
           {
             "map": "moon",
@@ -97,8 +97,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 131,
-            "y": 552
+            "x": 290,
+            "y": 210
           }
         ]
       },
@@ -159,8 +159,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 111,
-            "y": 552
+            "x": 260,
+            "y": 210
           },
           {
             "map": "moon",

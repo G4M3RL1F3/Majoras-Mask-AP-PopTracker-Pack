@@ -18,9 +18,9 @@ SHOP_NAMES = {
     {"Clock Town/Trading Post/Shop (Night) Item 5"},                                        -- SI_STICK_2
     {"Clock Town/Trading Post/Shop (Night) Item 3"},                                        -- SI_SHIELD_HERO_2
     {"Clock Town/Trading Post/Shop (Night) Item 1"},                                        -- SI_POTION_RED_3
-    {"Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)"},       -- SI_MASK_ALL_NIGHT
+    {"Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 (Stop Thief)"},       -- SI_MASK_ALL_NIGHT
     {"SI_BOMB_BAG_20_1"},                                                                   -- Unused
-    {"Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 Thief Stolen Item"},  -- SI_BOMB_BAG_30_1
+    {"Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 Thief Stolen Item"},  -- SI_BOMB_BAG_30_1
     {"SI_BOMB_BAG_40"},                                                                     -- Unused
     {"Clock Town/Bomb Shop/Item 3"},                                                        -- SI_BOMB_BAG_20_2
     {"Clock Town/Bomb Shop/Item 3 (Stop Thief)"},                                           -- SI_BOMB_BAG_30_2
@@ -62,9 +62,9 @@ DEFAULT_SHOP_PRICES = {
     {10, "Clock Town/Trading Post/Shop (Night) Item 5"},                                        -- SI_STICK_2
     {80, "Clock Town/Trading Post/Shop (Night) Item 3"},                                        -- SI_SHIELD_HERO_2
     {30, "Clock Town/Trading Post/Shop (Night) Item 1"},                                        -- SI_POTION_RED_3
-    {500, "Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 (Stop Thief)"},      -- SI_MASK_ALL_NIGHT
+    {500, "Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 (Stop Thief)"},      -- SI_MASK_ALL_NIGHT
     {100, "SI_BOMB_BAG_20_1"},                                                                  -- Unused
-    {100, "Clock Town/Curiosity Shop (10 PM - 6 AM)/Curiosity Shop Night 3 Thief Stolen Item"}, -- SI_BOMB_BAG_30_1
+    {100, "Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 Thief Stolen Item"}, -- SI_BOMB_BAG_30_1
     {100, "SI_BOMB_BAG_40"},                                                                    -- Unused
     {50, "Clock Town/Bomb Shop/Item 3"},                                                        -- SI_BOMB_BAG_20_2
     {90, "Clock Town/Bomb Shop/Item 3 (Stop Thief)"},                                           -- SI_BOMB_BAG_30_2

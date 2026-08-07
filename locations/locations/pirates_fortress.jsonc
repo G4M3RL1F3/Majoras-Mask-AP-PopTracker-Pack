@@ -1,12 +1,13 @@
 [
   {
-    "name": "Pirates' Fortress",
+    "name": "Pirates' Fortress Moat",
     "children": [
       {
-        "name": "Pirates' Fortress Exterior Underwater Log Chest",
+        "name": "Underwater Log Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Log Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress/Underwater Log Chest"
           }
         ],
         "map_locations": [
@@ -18,10 +19,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Exterior Underwater Near Entrance Chest",
+        "name": "Underwater Near Entrance Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Near Entrance Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress/Underwater Near Entrance Chest"
           }
         ],
         "map_locations": [
@@ -33,10 +35,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Exterior Underwater Corner Chest",
+        "name": "Underwater Corner Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Corner Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress/Underwater Corner Chest"
           }
         ],
         "map_locations": [
@@ -48,10 +51,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Sewers Cage HP",
+        "name": "Cage HP",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Cage HP"
+            "name": "Heart Piece",
+            "ref": "Dungeons/Pirates' Fortress/Cage HP"
           }
         ],
         "map_locations": [
@@ -63,10 +67,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Sewers Maze Chest",
+        "name": "Maze Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Maze Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress/Maze Chest"
           }
         ],
         "map_locations": [
@@ -78,10 +83,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Sewers Underwater Lower Chest",
+        "name": "Underwater Lower Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Underwater Lower Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress/Underwater Lower Chest"
           }
         ],
         "map_locations": [
@@ -93,10 +99,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Sewers Underwater Upper Chest",
+        "name": "Underwater Upper Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Underwater Upper Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress/Underwater Upper Chest"
           }
         ],
         "map_locations": [
@@ -108,10 +115,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Interior Tank Chest",
+        "name": "Tank Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Tank Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress/Tank Chest"
           }
         ],
         "map_locations": [
@@ -123,10 +131,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Interior Guarded Chest",
+        "name": "Guarded Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Interior Guarded Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress/Guarded Chest"
           }
         ],
         "map_locations": [
@@ -138,10 +147,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Hub Lower Chest",
+        "name": "Hub Lower Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Hub Lower Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress/Hub Lower Chest"
           }
         ],
         "map_locations": [
@@ -153,10 +163,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Hub Upper Chest",
+        "name": "Hub Upper Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Hub Upper Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress/Hub Upper Chest"
           }
         ],
         "map_locations": [
@@ -168,10 +179,11 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Leader's Room Chest",
+        "name": "Leader's Room Chest",
         "sections": [
           {
-            "ref": "Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Pirates' Fortress/Leader's Room Chest"
           }
         ],
         "map_locations": [

@@ -6,7 +6,8 @@
         "name": "Entrance Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Chest SF"
+            "name": "Chest",
+            "ref": "Dungeons/Woodfall Temple/Entrance Chest SF"
           }
     
         ],
@@ -22,7 +23,8 @@
         "name": "Switch Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Switch Chest SF"
+            "name": "Chest",
+            "ref": "Dungeons/Woodfall Temple/Switch Chest SF"
           }
     
         ],
@@ -38,7 +40,8 @@
         "name": "Ledge Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Ledge Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Woodfall Temple/Ledge Chest"
           }
     
         ],
@@ -54,7 +57,8 @@
         "name": "Turtle Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Turtle Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Woodfall Temple/Turtle Chestt"
           }
     
         ],
@@ -70,7 +74,8 @@
         "name": "Dinolfos Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dinolfos Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Woodfall Temple/Dinolfos Chest"
           }
     
         ],
@@ -86,7 +91,8 @@
         "name": "Boss Key Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Gekko Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Woodfall Temple/Gekko Chest"
           }
     
         ],
@@ -102,7 +108,8 @@
         "name": "Dragonfly Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dragonfly Chest"
+            "name": "Chest",
+            "ref": "Dungeons/Woodfall Temple/Dragonfly Chest"
           }
     
         ],
@@ -118,7 +125,8 @@
         "name": "Black Boe Room Chest",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dark Room Chest SF"
+            "name": "Chest",
+            "ref": "Dungeons/Woodfall Temple/Dark Room Chest SF"
           }
     
         ],
@@ -134,7 +142,8 @@
         "name": "Entrance Freestanding SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Freestanding SF"
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Entrance Freestanding SF"
           }
     
         ],
@@ -150,7 +159,8 @@
         "name": "Wooden Flower Deku Baba SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Deku Baba SF"
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Deku Baba SF"
           }
     
         ],
@@ -166,7 +176,8 @@
         "name": "Wooden Flower Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Main Room Bubble SF"
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Main Room Bubble SF"
           }
     
         ],
@@ -182,7 +193,8 @@
         "name": "Wooden Flower Pot SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pot SF"
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Pot SF"
           }
     
         ],
@@ -195,10 +207,11 @@
         ]
       },
       {
-        "name": "Woodfall Temple Platform Hive SF",
+        "name": "Platform Hive SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Platform Hive SF"
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Platform Hive SF"
           }
     
         ],
@@ -211,10 +224,11 @@
         ]
       },
       {
-        "name": "Woodfall Temple Skulltula SF",
+        "name": "Skulltula SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Skulltula SF"
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Skulltula SF"
           }
     
         ],
@@ -230,7 +244,8 @@
         "name": "Bridge Room Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Bridge Room Bubble SF"
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Bridge Room Bubble SF"
           }
     
         ],
@@ -246,7 +261,8 @@
         "name": "Bridge Room Hive SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Bridge Room Hive SF"
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Bridge Room Hive SF"
           }
     
         ],
@@ -262,7 +278,8 @@
         "name": "Pre-Boss Upper Right Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Upper Right Bubble SF"
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Upper Right Bubble SF"
           }
     
         ],
@@ -278,7 +295,8 @@
         "name": "Pre-Boss Lower Right Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Lower Right Bubble SF"
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Lower Right Bubble SF"
           }
     
         ],
@@ -294,7 +312,8 @@
         "name": "Pre-Boss Upper Left Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Upper Left Bubble SF"
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Upper Left Bubble SF"
           }
     
         ],
@@ -310,7 +329,8 @@
         "name": "Pre-Boss Pillar Bubble SF",
         "sections": [
           {
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Pre-Boss Pillar Bubble SF"
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Pre-Boss Pillar Bubble SF"
           }
     
         ],
@@ -327,13 +347,14 @@
         "sections": [
           {
             "name": "Heart Container",
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Heart Container"
+            "ref": "Dungeons/Woodfall Temple/Heart Container"
           },
           {
             "name": "Odolwa's Remains",
-            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Remains"
+            "ref": "Dungeons/Woodfall Temple/Odolwa's Remains"
           },
           {
+            "name": "Oath to Order",
             "ref": "Dungeons/Woodfall Temple/Oath to Order"
           }
     

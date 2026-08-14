@@ -130,6 +130,7 @@
       },
       {
         "name": "Like Like Pool",
+        "access_rules": ["$zora_cape"],
         "sections": [
           {
             "name": "Underwater Heart Piece",
@@ -150,6 +151,7 @@
       },
       {
         "name": "Underwater Chest",
+        "access_rules": ["$zora_cape"],
         "sections": [
           {
             "name": "Chest",
@@ -166,6 +168,7 @@
       },
       {
         "name": "Zora Pot Game",
+        "access_rules": ["$zora_cape"],
         "sections": [
           {
             "name": "Game Reward",
@@ -183,6 +186,7 @@
       },
       {
         "name": "Deku Flower Chest",
+        "access_rules": ["$zora_cape"],
         "sections": [
           {
             "name": "Chest",
@@ -199,6 +203,7 @@
       },
       {
         "name": "Scarecrow Chest",
+        "access_rules": ["$zora_cape"],
         "sections": [
           {
             "name": "Chest",
@@ -215,6 +220,7 @@
       },
       {
         "name": "Zora Cape Grotto",
+        "access_rules": ["$zora_cape"],
         "sections": [
           {
             "name": "Chest",
@@ -235,6 +241,7 @@
       },
       {
         "name": "Great Bay Great Fairy Cave",
+        "access_rules": ["$zora_cape"],
         "sections": [
           {
             "name": "Great Fairy Reward",
@@ -253,6 +260,7 @@
       },
       {
         "name": "Waterfall Rapids",
+        "access_rules": ["$zora_cape"],
         "sections": [
           {
             "name": "Beaver Bros. Race 1",
@@ -275,7 +283,7 @@
       },
       {
         "name": "Zora Hall",
-        "access_rules": ["zora"],
+        "access_rules": ["$zora_hall"],
         "sections": [
           {
             "name": "Shop 1",

@@ -242,7 +242,7 @@
         "name": "Goron Racetrack",
         "access_rules": [
           "easy_logic, $baby_mountain_village",
-          "normal_logic, $mountain_village"
+          "normal_logic, $goron_racetrack"
         ],
         "sections": [
           {
@@ -298,7 +298,7 @@
         "name": "Goron Village",
         "access_rules": [
           "easy_logic, $baby_mountain_village",
-          "normal_logic, $mountain_village"
+          "normal_logic, $goron_village"
         ],
         "sections": [
           {
@@ -367,7 +367,7 @@
         "name": "Goron Shrine",
         "access_rules": [
           "easy_logic, $baby_mountain_village",
-          "normal_logic, $mountain_village"
+          "normal_logic, $goron_shrine"
         ],
         "sections": [
           {

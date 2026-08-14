@@ -697,7 +697,7 @@
       },
       {
         "name": "Pirates' Fortress Sewers",
-        "access_rules": ["$pirates_fortress"],
+        "access_rules": ["$pirates_fortress_sewers"],
         "sections": [
           {
             "name": "Maze Chest",
@@ -730,7 +730,7 @@
       },
       {
         "name": "Pirates' Fortress",
-        "access_rules": ["$pirates_fortress"],
+        "access_rules": ["$pirates_fortress_interior"],
         "sections": [
           {
             "name": "Tank Chest",
@@ -1335,8 +1335,7 @@
         "name": "Beneath the Well",
         "access_rules": [
           "easy_logic, $baby_well",
-          "normal_logic, $well_front",
-          "normal_logic, $well_back"
+          "normal_logic, $well"
         ],
         "sections": [
           {

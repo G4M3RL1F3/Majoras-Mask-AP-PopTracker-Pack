@@ -49,13 +49,12 @@ function baby_clear_woodfall()
     return baby_woodfall_temple() and has("bow") and baby_can_smack_hard() and has("bosskey_wf") and has("odolwa")
 end
 function clear_woodfall()
-    return woodfall_temple() and has("bow") and can_smack() and (has("bosskey_wf") or (has("odolwa") and has("boss_warps_with_remains")))
+    return woodfall_temple() and has("bow") and (can_smack() or has("fiercedeity")) and (has("bosskey_wf") or (has("odolwa") and has("boss_warps_with_remains")))
 end
 
 
 --- MOUNTAIN REGION ---
 -- Termina Field -> Path to Mountain Village
--- Easy and normal
 function path_mountain()
     return has("bow")
 end
@@ -66,6 +65,21 @@ function baby_mountain_village()
 end
 function mountain_village()
     return path_mountain() and (has("goron") or has_explosives() or can_use_fire_arrows())
+end
+
+-- Twin Islands -> Goron Village
+function goron_village()
+    return mountain_village()
+end
+
+-- Goron Village -> Goron Shrine
+function goron_shrine()
+    return goron_village() and has("goron")
+end
+
+-- Twin Islands -> Goron Racetrack
+function goron_racetrack()
+    return mountain_village() and (has("goron") and (has("powderkeg") or can_use_fire_arrows()))
 end
 
 -- Path to Snowhead -> Snowhead
@@ -95,7 +109,6 @@ end
 
 --- GREAT BAY REGION ---
 -- Termina Field -> Great Bay
--- Easy and normal
 function great_bay()
     return can_play_eponas()
 end
@@ -109,7 +122,6 @@ function ocean_spider_house()
 end
 
 -- Great Bay -> Pirates' Fortress
--- Easy and normal
 function pirates_fortress()
     return great_bay() and has("zora")
 end
@@ -119,15 +131,30 @@ function baby_pirates_fortress_interior()
     return pirates_fortress() and has("goron") and has("hookshot")
 end
 function pirates_fortress_interior()
-    return pirates_fortress() and (has("goron") or has("hookshot"))
+    return (pirates_fortress() and has("hookshot")) or (pirates_fortress_sewers() and has("zora"))
+end
+
+-- Pirates' Fortress -> Pirates' Fortress Sewers
+function pirates_fortress_sewers()
+    return pirates_fortress() and has("goron")
+end
+
+-- Great Bay -> Zora Cape
+function zora_cape()
+    return great_bay()
+return
+
+-- Zora Cape -> Zora Hall
+function zora_hall()
+    return zora_cape() and has("zora")
 end
 
 -- Zora Cape -> Great Bay Temple
 function baby_great_bay_temple()
-    return great_bay() and can_play_bossa_nova() and has("hookshot") and has("zora") and has("bosskey_gb") and has("smallkey_gb")
+    return zora_cape() and can_play_bossa_nova() and has("hookshot") and has("zora") and has("bosskey_gb") and has("smallkey_gb")
 end
 function great_bay_temple()
-    return great_bay() and can_play_bossa_nova() and has("hookshot") and has("zora")
+    return zora_cape() and can_play_bossa_nova() and has("hookshot") and has("zora")
 end
 
 -- What's needed to defeat Gyorg
@@ -142,46 +169,45 @@ end
 
 --- IKANA REGION ---
 -- Road to Ikana -> Ikana Graveyard
--- Easy and normal
 function graveyard()
     return can_play_eponas()
 end
 
---Road to Ikana -> Ikana Canyon
+-- Road to Ikana -> Lower Ikana Canyon
 function baby_ikana_canyon()
     return can_play_eponas() and has("hookshot") and has("garo") and has("gibdo")
 end
-function ikana_canyon()
+function lower_ikana_canyon()
     return can_play_eponas() and has("hookshot") and (has("garo") or has("gibdo"))
 end
 
--- Ikana Canyon -> Secret Shrine
+-- Lower Ikana Canyon -> Secret Shrine
 function baby_secret_shrine()
     return baby_ikana_canyon() and can_use_light_arrows()
 end
 function secret_shrine()
-    return ikana_canyon()
+    return lower_ikana_canyon()
 end
 
--- Ikana Canyon -> Beneath the Well
+-- Lower Ikana Canyon -> Upper Ikana Canyon
+function upper_ikana_canyon()
+    return lower_ikana_canyon() and can_use_ice_arrows() and has("hookshot")
+end
+
+-- Upper Ikana Canyon -> Beneath the Well
 function baby_well()
     return baby_ikana_canyon() and can_use_ice_arrows() and has("gibdo") and baby_has_bottle()
 end
-function well_front()
-    return ikana_canyon() and can_use_ice_arrows() and has("hookshot") and has("gibdo") and has("bottles", 1)
+function well()
+    return (upper_ikana_canyon() has("gibdo") and has("bottles", 1)) or (ikana_castle() and can_use_light_arrows())
 end
 
--- Ikana Canyon -> Ikana Castle
+-- Upper Ikana Canyon -> Ikana Castle
 function baby_ikana_castle()
     return baby_ikana_canyon() and can_use_ice_arrows() and can_use_light_arrows() and has("garo") and has("gibdo") and has("captainhat") and has("mirrorshield") and baby_has_bottle() and has("hookshot")
 end
 function ikana_castle()
-    return ikana_canyon() and can_use_ice_arrows() and has("hookshot") and (can_use_light_arrows() or has("mirrorshield"))
-end
-
--- Ikana Castle -> Beneath the Well
-function well_back()
-    return ikana_castle() and can_use_light_arrows()
+    return (upper_ikana_canyon() and (can_use_light_arrows() or has("mirrorshield"))) or (well() and has("gibdo") and has("bottles", 1) and can_plant_beans() and has("bow") and (has("bombs") or has("captainhat")) and (can_use_light_arrows() or has("mirrorshield")))
 end
 
 -- Stone Tower -> Stone Tower Temple
@@ -189,7 +215,7 @@ function baby_stone_tower_temple()
     return baby_ikana_canyon() and can_use_ice_arrows() and can_play_elegy() and has("goron") and has("zora") and has("smallkey_st", 4) and has("bosskey_st")
 end
 function stone_tower_temple()
-    return ikana_canyon() and can_use_ice_arrows() and can_play_elegy() and has("goron") and has("zora")
+    return upper_ikana_canyon() and can_play_elegy() and has("hookshot") and has("goron") and has("zora")
 end
 
 -- Stone Tower -> Stone Tower (Inverted)
@@ -197,5 +223,5 @@ function baby_inverted_stone_tower()
     return baby_stone_tower_temple() and can_use_light_arrows() and can_play_elegy() and has("smallkey_st", 4) and has("bosskey_st")
 end
 function inverted_stone_tower()
-    return stone_tower_temple() and can_use_light_arrows() and can_play_elegy()
+    return stone_tower_temple() and can_use_light_arrows()
 end

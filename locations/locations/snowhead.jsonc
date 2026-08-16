@@ -199,7 +199,7 @@
         ]
       },
       {
-        "name": "Twin Islands Hot Spring Water Grotto",
+        "name": "Twin Islands",
         "access_rules": [
           "easy_logic, $baby_mountain_village",
           "normal_logic, $mountain_village"

@@ -1,7 +1,7 @@
 SHOP_NAMES = {
-    {"Southern Swamp/Southern Swamp Witch Shop/Item 3"},                                    -- SI_POTION_RED_1
-    {"Southern Swamp/Southern Swamp Witch Shop/Item 2"},                                    -- SI_POTION_GREEN_1
-    {"Southern Swamp/Southern Swamp Witch Shop/Item 1"},                                    -- SI_POTION_BLUE
+    {"Southern Swamp/Witch Shop/Item 3"},                                    -- SI_POTION_RED_1
+    {"Southern Swamp/Witch Shop/Item 2"},                                    -- SI_POTION_GREEN_1
+    {"Southern Swamp/Witch Shop/Item 1"},                                    -- SI_POTION_BLUE
     {"Clock Town/Trading Post/Shop Item 4"},                                                -- SI_FAIRY_1
     {"Clock Town/Trading Post/Shop Item 8"},                                                -- SI_ARROWS_LARGE_1
     {"Clock Town/Trading Post/Shop Item 2"},                                                -- SI_POTION_GREEN_2
@@ -29,12 +29,12 @@ SHOP_NAMES = {
     {"Great Bay/Zora Hall/Shop 1"},                                                         -- SI_SHIELD_HERO_3
     {"Great Bay/Zora Hall/Shop 2"},                                                         -- SI_ARROWS_SMALL_1
     {"Great Bay/Zora Hall/Shop 3"},                                                         -- SI_POTION_RED_4
-    {"Snowhead/Goron Village/Shop Item 1"},                                                 -- SI_BOMB_2
-    {"Snowhead/Goron Village/Shop Item 2"},                                                 -- SI_ARROWS_SMALL_2
-    {"Snowhead/Goron Village/Shop Item 3"},                                                 -- SI_POTION_RED_5
-    {"Snowhead/Goron Village/Shop (Spring) Item 1"},                                        -- SI_BOMB_3
-    {"Snowhead/Goron Village/Shop (Spring) Item 2"},                                        -- SI_ARROWS_SMALL_3
-    {"Snowhead/Goron Village/Shop (Spring) Item 3"},                                        -- SI_POTION_RED_6
+    {"Snowhead/Goron Shrine/Shop Item 1"},                                                 -- SI_BOMB_2
+    {"Snowhead/Goron Shrine/Shop Item 2"},                                                 -- SI_ARROWS_SMALL_2
+    {"Snowhead/Goron Shrine/Shop Item 3"},                                                 -- SI_POTION_RED_5
+    {"Snowhead/Goron Shrine/Shop (Spring) Item 1"},                                        -- SI_BOMB_3
+    {"Snowhead/Goron Shrine/Shop (Spring) Item 2"},                                        -- SI_ARROWS_SMALL_3
+    {"Snowhead/Goron Shrine/Shop (Spring) Item 3"},                                        -- SI_POTION_RED_6
     --{"SI_BOTTLE", "Dummy/Curiosity Shop/Curiosity Shop Stolen Bottle"},
     --{"SI_SWORD_GREAT_FAIRY", "Dummy/Curiosity Shop/Curiosity Shop Stolen GFS"},
     --{"SI_SWORD_KOKIRI", "Dummy/Curiosity Shop/Curiosity Shop Stolen Kokiri"},
@@ -43,9 +43,9 @@ SHOP_NAMES = {
 }
 
 DEFAULT_SHOP_PRICES = {
-    {20, "Southern Swamp/Southern Swamp Witch Shop/Item 3"},                                    -- SI_POTION_RED_1
-    {10, "Southern Swamp/Southern Swamp Witch Shop/Item 2"},                                    -- SI_POTION_GREEN_1
-    {60, "Southern Swamp/Southern Swamp Witch Shop/Item 1"},                                    -- SI_POTION_BLUE
+    {20, "Southern Swamp/Witch Shop/Item 3"},                                    -- SI_POTION_RED_1
+    {10, "Southern Swamp/Witch Shop/Item 2"},                                    -- SI_POTION_GREEN_1
+    {60, "Southern Swamp/Witch Shop/Item 1"},                                    -- SI_POTION_BLUE
     {50, "Clock Town/Trading Post/Shop Item 4"},                                                -- SI_FAIRY_1
     {40, "Clock Town/Trading Post/Shop Item 8"},                                                -- SI_ARROWS_LARGE_1
     {30, "Clock Town/Trading Post/Shop Item 2"},                                                -- SI_POTION_GREEN_2
@@ -73,12 +73,12 @@ DEFAULT_SHOP_PRICES = {
     {90, "Great Bay/Zora Hall/Shop 1"},                                                         -- SI_SHIELD_HERO_3
     {20, "Great Bay/Zora Hall/Shop 2"},                                                         -- SI_ARROWS_SMALL_1
     {60, "Great Bay/Zora Hall/Shop 3"},                                                         -- SI_POTION_RED_4
-    {40, "Snowhead/Goron Village/Shop Item 1"},                                                 -- SI_BOMB_2
-    {40, "Snowhead/Goron Village/Shop Item 2"},                                                 -- SI_ARROWS_SMALL_2
-    {80, "Snowhead/Goron Village/Shop Item 3"},                                                 -- SI_POTION_RED_5
-    {10, "Snowhead/Goron Village/Shop (Spring) Item 1"},                                        -- SI_BOMB_3
-    {20, "Snowhead/Goron Village/Shop (Spring) Item 2"},                                        -- SI_ARROWS_SMALL_3
-    {50, "Snowhead/Goron Village/Shop (Spring) Item 3"},                                        -- SI_POTION_RED_6
+    {40, "Snowhead/Goron Shrine/Shop Item 1"},                                                 -- SI_BOMB_2
+    {40, "Snowhead/Goron Shrine/Shop Item 2"},                                                 -- SI_ARROWS_SMALL_2
+    {80, "Snowhead/Goron Shrine/Shop Item 3"},                                                 -- SI_POTION_RED_5
+    {10, "Snowhead/Goron Shrine/Shop (Spring) Item 1"},                                        -- SI_BOMB_3
+    {20, "Snowhead/Goron Shrine/Shop (Spring) Item 2"},                                        -- SI_ARROWS_SMALL_3
+    {50, "Snowhead/Goron Shrine/Shop (Spring) Item 3"},                                        -- SI_POTION_RED_6
     --{20, "Dummy/Curiosity Shop/Curiosity Shop Stolen Bottle"},                                  -- SI_BOTTLE (curiosity shop)
     --{100, "Dummy/Curiosity Shop/Curiosity Shop Stolen GFS"},                                    -- SI_SWORD_GREAT_FAIRY (curiosity shop)
     --{50, "Dummy/Curiosity Shop/Curiosity Shop Stolen Kokiri"},                                  -- SI_SWORD_KOKIRI (curiosity shop)

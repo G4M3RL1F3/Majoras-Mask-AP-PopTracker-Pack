@@ -142,7 +142,7 @@ end
 -- Great Bay -> Zora Cape
 function zora_cape()
     return great_bay()
-return
+end
 
 -- Zora Cape -> Zora Hall
 function zora_hall()
@@ -199,7 +199,7 @@ function baby_well()
     return baby_ikana_canyon() and can_use_ice_arrows() and has("gibdo") and baby_has_bottle()
 end
 function well()
-    return (upper_ikana_canyon() has("gibdo") and has("bottles", 1)) or (ikana_castle() and can_use_light_arrows())
+    return (upper_ikana_canyon() and has("gibdo") and has("bottles", 1)) or (ikana_castle() and can_use_light_arrows())
 end
 
 -- Upper Ikana Canyon -> Ikana Castle

@@ -27,8 +27,7 @@
         "name": "Fisherman's Hut",
         "sections": [
           {
-            "name": "Fisherman's Grotto Chest",
-            "access_rules": [""]
+            "name": "Fisherman's Grotto Chest"
           }
         ],
         "map_locations": [

@@ -1,13 +1,41 @@
-//Used to enable the pack settings button and to add tabs if necessary for future apworld updates.
+// Used to enable the pack settings button and to add tabs if necessary for future apworld updates.
 {
   "settings_popup": {
     "type": "tabbed",
     "tabs": [
       {
-        "title": "Settings",
+        "title": "Main",
         "content": {
           "type": "layout",
-          "key": "settings_tab"
+          "key": "settings_main"
+        }
+      },
+      {
+        "title": "Shuffles",
+        "content": {
+          "type": "layout",
+          "key": "settings_shuffles"
+        }
+      },
+      {
+        "title": "Sanities",
+        "content": {
+          "type": "layout",
+          "key": "settings_sanities"
+        }
+      },
+      {
+        "title": "Inventory",
+        "content": {
+          "type": "layout",
+          "key": "settings_inventory"
+        }
+      },
+      {
+        "title": "Miscellaneous",
+        "content": {
+          "type": "layout",
+          "key": "settings_misc"
         }
       //},
       //{
@@ -15,7 +43,6 @@
       //  "content": {
       //    "type": "layout",
       //    "key": "logic_tricks_tab"
-      //  }
       }
     ]
   }

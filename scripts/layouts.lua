@@ -6,8 +6,12 @@ Tracker:AddLayouts("layouts/horizontal_masks.jsonc")
 --Tracker:AddLayouts("layouts/horizontal_remnants.jsonc")
 Tracker:AddLayouts("layouts/horizontal_trades.jsonc")
 --Tracker:AddLayouts("layouts/logic_tricks_tab.jsonc")
+Tracker:AddLayouts("layouts/settings_inventory.jsonc")
+Tracker:AddLayouts("layouts/settings_main.jsonc")
+Tracker:AddLayouts("layouts/settings_misc.jsonc")
 Tracker:AddLayouts("layouts/settings_popup.jsonc")
-Tracker:AddLayouts("layouts/settings.jsonc")
+Tracker:AddLayouts("layouts/settings_sanities.jsonc")
+Tracker:AddLayouts("layouts/settings_shuffles.jsonc")
 
 if IS_ITEMS_ONLY then
     Tracker:AddLayouts("layouts/items_only.jsonc")

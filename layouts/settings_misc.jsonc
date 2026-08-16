@@ -1,0 +1,59 @@
+//Use item codes from items/settings.jsonc and use them to decide how and in which order they're displayed.
+{
+  "settings_misc": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": 5,
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "group",
+                "header": "Miscellaneous",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "damage_multiplier"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "death_behavior"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "header": "",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "camc"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "magic_is_a_trap"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "boss_warps_with_remains"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

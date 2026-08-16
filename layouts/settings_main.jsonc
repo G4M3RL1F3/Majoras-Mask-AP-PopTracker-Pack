@@ -1,0 +1,44 @@
+//Use item codes from items/settings.jsonc and use them to decide how and in which order they're displayed.
+{
+  "settings_main": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": 5,
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "group",
+                "header": "Miscellaneous",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "moon_remains_required"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "header": "",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "majora_remains_required"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

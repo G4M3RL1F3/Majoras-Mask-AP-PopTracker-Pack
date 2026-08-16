@@ -78,7 +78,9 @@
             "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, fiercedeity, magic, fairysword, gildedsword, bow, hookshot",
-              "normal_logic, $can_smack_hard, hookshot"
+              "normal_logic, hookshot, sword",
+              "normal_logic, hookshot, fairysword",
+              "normal_logic, hookshot, goron"
             ]
           },
           {
@@ -89,8 +91,8 @@
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
-              "easy_logic, @Link Trial/Garo Master Chest, $baby_has_explosives, $can_play_healing, $can_play_eponas",
-              "normal_logic, @Link Trial/Garo Master Chest, bombchu_bag, bow"
+              "easy_logic, @Link Trial/Iron Knuckle Chest, $baby_has_explosives, $can_play_healing, $can_play_eponas",
+              "normal_logic, @Link Trial/Iron Knuckle Chest, bombchu_bag, bow"
             ]
           }
         ],

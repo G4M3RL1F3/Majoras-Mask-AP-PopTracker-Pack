@@ -72,7 +72,8 @@
             "chest_unopened_img": "images/masks/captains.png",
             "access_rules": [
               "easy_logic, $can_play_sonata, $baby_can_smack_hard, bow",
-              "normal_logic, $can_play_sonata, $can_smack_hard"
+              "normal_logic, $can_play_sonata, goron",
+              "normal_logic, $can_play_sonata, $can_smack_hard, bow"
             ]
           }
         ],
@@ -100,7 +101,9 @@
             "chest_unopened_img": "images/equipment/song_storms_no_text.png",
             "access_rules": [
               "easy_logic, captainhat, $baby_can_smack_hard, $can_use_fire_arrows",
-              "normal_logic, captainhat, $can_smack_hard"
+              "normal_logic, captainhat, sword",
+              "normal_logic, captainhat, fairysword",
+              "normal_logic, captainhat, goron"
             ]
           },
           {
@@ -115,7 +118,9 @@
             "name": "Day 2 Iron Knuckle Chest",
             "access_rules": [
               "easy_logic, captainhat, $baby_can_smack_hard, $baby_has_explosives, $can_use_lens",
-              "normal_logic, captainhat, $can_smack_hard, $has_explosives, $can_use_lens"
+              "normal_logic, captainhat, $has_explosives, $can_use_lens, sword",
+              "normal_logic, captainhat, $has_explosives, $can_use_lens, fairysword",
+              "normal_logic, captainhat, $has_explosives, $can_use_lens, goron"
             ]
           },
           {
@@ -227,8 +232,7 @@
             "chest_unopened_img": "images/characters/soulkeeper.png",
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, shield, $baby_can_smack",
-              "normal_logic, $can_use_ice_arrows, bow",
-              "normal_logic, $can_use_ice_arrows, hookshot"
+              "normal_logic"
             ]
           }
         ],
@@ -251,8 +255,8 @@
             "name": "Healing Pamela's Father",
             "chest_unopened_img": "images/masks/gibdo.png",
             "access_rules": [
-              "easy_logic, $can_use_ice_arrows, $can_play_healing, $can_play_storms, $baby_has_explosives, stonemask",
-              "normal_logic, $can_use_ice_arrows, $can_play_healing, $can_play_storms"
+              "easy_logic, $can_play_healing, $can_play_storms, $baby_has_explosives, stonemask",
+              "normal_logic, $can_play_healing, $can_play_storms"
             ]
           }
         ],
@@ -275,7 +279,7 @@
             "name": "Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_st.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
-            "access_rules": ["$can_use_ice_arrows, $checkRequirements|required_stray_fairies|fairy_st"]
+            "access_rules": ["$checkRequirements|required_stray_fairies|fairy_st"]
           }
         ],
         "map_locations": [

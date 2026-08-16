@@ -180,7 +180,10 @@
               "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
               "normal_logic, bow, $can_smack, bosskey_wf",
               "normal_logic, bow, $can_smack, $boss_key_sanity_off",
-              "normal_logic, bow, $can_smack, odolwa, boss_warps_with_remains"
+              "normal_logic, bow, $can_smack, odolwa, boss_warps_with_remains",
+              "normal_logic, bow, fiercedeity, bosskey_wf",
+              "normal_logic, bow, fiercedeity, $boss_key_sanity_off",
+              "normal_logic, bow, fiercedeity, odolwa, boss_warps_with_remains"
             ]
           },
           {
@@ -266,9 +269,9 @@
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [
               "easy_logic, fairymask, $baby_has_explosives",
-              "normal_logic, $has|smallkey_sh|1, fairymask, $has_explosives",
-              "normal_logic, $small_key_sanity_off, fairymask, $has_explosives",
-              "normal_logic, hookshot, @Dungeons/Snowhead Temple/Bridge Room Under Platform Bubble SF"
+              "normal_logic, $has_explosives, hookshot",
+              "normal_logic, $has_explosives, $has|smallkey_sh|1, fairymask",
+              "normal_logic, $has_explosives, $small_key_sanity_off, fairymask"
             ]
             //"visibility_rules": ["fairysanity"]
           },
@@ -401,10 +404,10 @@
             "name": "Upper Wizzrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $baby_can_smack_hard",
-              "normal_logic, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, $small_key_sanity_off, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows, deku",
-              "normal_logic, $small_key_sanity_off, $can_use_fire_arrows, deku"
+              "normal_logic, $can_use_fire_arrows, $has|smallkey_sh|3, $has_explosives",
+              "normal_logic, $can_use_fire_arrows, $small_key_sanity_off, $has_explosives",
+              "normal_logic, $can_use_fire_arrows, $has|smallkey_sh|1, deku",
+              "normal_logic, $can_use_fire_arrows, $small_key_sanity_off, deku"
             ]
           },
           {
@@ -910,7 +913,7 @@
             "name": "Pottery Room Beehive #1 Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_projectiles",
-              "normal_logic, $can_smack, $has_projectiles"
+              "normal_logic, $has_projectiles"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -918,7 +921,7 @@
             "name": "Pottery Room Beehive #2 Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_projectiles",
-              "normal_logic, $can_smack, $has_projectiles"
+              "normal_logic, $has_projectiles"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -951,8 +954,7 @@
             "access_rules": [
               "easy_logic, $baby_can_smack_hard",
               "normal_logic, sword",
-              "normal_logic, fairysword",
-              "normal_logic, fiercedeity"
+              "normal_logic, fairysword"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1267,8 +1269,8 @@
             "chest_unopened_img": "images/equipment/wallet2.png",
             "access_rules": [
               "$checkRequirements|required_skull_tokens|skull_gb",
-              "skullsanity_0, hookshot, $can_use_fire_arrows",
-              "skullsanity_2, hookshot, $can_use_fire_arrows"
+              "skullsanity_0, $has_explosives, hookshot, $can_use_fire_arrows",
+              "skullsanity_2, $has_explosives, hookshot, $can_use_fire_arrows"
             ]
           }
         ],
@@ -1522,10 +1524,10 @@
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Mirror Room Sun Face Chest, deku",
-              "normal_logic, $has|smallkey_st|2, mirrorshield, deku",
-              "normal_logic, $small_key_sanity_off, mirrorshield, deku, $has_explosives",
-              "normal_logic, $has|smallkey_st|1, deku, $can_use_light_arrows",
-              "normal_logic, $small_key_sanity_off, deku, $can_use_light_arrows"
+              "normal_logic, deku, $has|smallkey_st|2, mirrorshield,",
+              "normal_logic, deku, $small_key_sanity_off, mirrorshield",
+              "normal_logic, deku, $has|smallkey_st|1, $can_use_light_arrows",
+              "normal_logic, deku, $small_key_sanity_off, $can_use_light_arrows"
             ]
           },
           {
@@ -1533,17 +1535,18 @@
             "chest_unopened_img": "images/icons/chest_fairy_st.png",
             "access_rules": [
               "easy_logic, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest, goron",
-              "normal_logic, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest, goron"
+              "normal_logic, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest, goron, deku",
+              "normal_logic, @Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest, goron, $can_use_light_arrows"
             ]
           },
           {
             "name": "Garo Master Chest",
             "access_rules": [
               "easy_logic, $baby_can_smack, @Dungeons/Stone Tower Temple/Air Gust Room Side Chest",
-              "normal_logic, $has|smallkey_st|2, mirrorshield, deku, $can_smack_hard",
-              "normal_logic, $small_key_sanity_off, mirrorshield, deku, $can_smack_hard",
-              "normal_logic, $can_use_light_arrows, $has|smallkey_st|1, $can_smack_hard",
-              "normal_logic, $can_use_light_arrows, $small_key_sanity_off, $can_smack_hard"
+              "normal_logic, $can_smack_hard, $has|smallkey_st|2, mirrorshield, deku",
+              "normal_logic, $can_smack_hard, $small_key_sanity_off, mirrorshield, deku",
+              "normal_logic, $can_smack_hard, $can_use_light_arrows, $has|smallkey_st|1",
+              "normal_logic, $can_smack_hard, $can_use_light_arrows, $small_key_sanity_off"
             ]
           },
           {
@@ -1631,12 +1634,12 @@
             "access_rules": [
               "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, bosskey_st, $baby_can_smack_hard, fiercedeity",
               "easy_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, giantmask, $boss_key_sanity_off, $baby_can_smack_hard, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, magic, sword",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, bow",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, fiercedeity",
-              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, giantmask, sword",
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, $has|smallkey_st|4, bow",
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, $has|smallkey_st|4, fiercedeity",
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, $has|smallkey_st|4, giantmask, magic, sword",
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, $small_key_sanity_off, bow",
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, $small_key_sanity_off, fiercedeity",
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Eyegore Chest, $boss_key_sanity_off, $small_key_sanity_off, giantmask, sword",
               "normal_logic, twinmold, boss_warps_with_remains, bow",
               "normal_logic, twinmold, boss_warps_with_remains, fiercedeity",
               "normal_logic, twinmold, boss_warps_with_remains, giantmask, magic, sword"

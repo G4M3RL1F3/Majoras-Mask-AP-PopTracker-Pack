@@ -7,11 +7,11 @@
     "children": [
       {
         "name": "Before Clock Town",
-        "access_rules": ["deku"],
         "visibility_rules": ["intro_checks"],
         "sections": [
           {
-            "name": "Chest"
+            "name": "Chest",
+            "access_rules": ["deku"]
           }
         ],
         "map_locations": [
@@ -819,8 +819,8 @@
             "name": "Top of Clock Tower (Song of Time)",
             "chest_unopened_img": "images/equipment/song_time_no_text.png",
             "access_rules": [
-              "easy_logic,$baby_has_projectiles",
-              "normal_logic,$has_projectiles"
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
             ]
           },
           {
@@ -1120,8 +1120,8 @@
             "chest_unopened_img": "images/items/poe.png",
             "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
-              "easy_logic, $baby_has_bottle, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest",
-              "normal_logic, $has|bottles|1, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest"
+              "easy_logic, $baby_has_bottle, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest",
+              "normal_logic, $has|bottles|1, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest"
             ]
           },
           {

@@ -184,7 +184,7 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles, wallet",
-              "normal_logic, $has_projectiles, wallet"
+              "normal_logic, $has_projectiles, ocarina, wallet"
             ]
           }
         ],

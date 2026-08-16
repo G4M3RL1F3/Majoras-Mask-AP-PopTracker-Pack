@@ -42,14 +42,15 @@
       },
       {
         "name": "Swamp Shooting Gallery",
-        "access_rules": ["bow"],
         "chest_unopened_img": "images/icons/archery.png",
         "sections": [
           {
-            "name": "Score 2120 Points"
+            "name": "Score 2120 Points",
+            "access_rules": ["bow"]
           },
           {
-            "name": "Score 2180 Points"
+            "name": "Score 2180 Points",
+            "access_rules": ["bow"]
           }
         ],
         "map_locations": [
@@ -102,8 +103,8 @@
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, deku, $can_plant_beans",
-              "normal_logic, deku, $can_plant_beans",
-              "normal_logic, landdeed, moontear, can_plant_beans"
+              "normal_logic, deku, magicbeans",
+              "normal_logic, landdeed, moontear, magicbeans"
             ]
           },
           {
@@ -389,8 +390,7 @@
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, $baby_has_bottle",
               "normal_logic, $clear_woodfall, $has|bottles|1, sword",
-              "normal_logic, $clear_woodfall, $has|bottles|1, fairysword",
-              "normal_logic, $clear_woodfall, $has|bottles|1, fiercedeity"
+              "normal_logic, $clear_woodfall, $has|bottles|1, fairysword"
             ]
           }
         ],

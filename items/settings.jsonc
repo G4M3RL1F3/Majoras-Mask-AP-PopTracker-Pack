@@ -109,40 +109,59 @@
     "disabled_img": "images/pack_settings/shuffles/intro_checks_off.png",
     "codes": "intro_checks"
   },
+  //{
+  //  "name": "Shuffle Boss Remains",
+  //  "type": "progressive",
+  //  "loop": true,
+  //  "allow_disabled": false,
+  //  "initial_stage_idx": 0,
+  //  "stages": [
+  //    {
+  //      "name": "Vanilla",
+  //      "img": "images/pack_settings/shuffles/shuffle_boss_remains_vanilla.png",
+  //      "codes": "shuffle_boss_remains, shuffle_boss_remains_vanilla",
+  //      "inherit_codes": false
+  //    },
+  //    {
+  //      "name": "Anywhere",
+  //      "img": "images/pack_settings/shuffles/shuffle_boss_remains_anywhere.png",
+  //      "codes": "shuffle_boss_remains_anywhere",
+  //      "inherit_codes": false
+  //    },
+  //    {
+  //      "name": "Bosses",
+  //      "img": "images/pack_settings/shuffles/shuffle_boss_remains_bosses.png",
+  //      "codes": "shuffle_boss_remains_bosses",
+  //      "inherit_codes": false
+  //    }
+  //  ]
+  //},
   {
-    "name": "Shuffle Boss Remains",
+    "name": "Shuffle Spiderhouse Rewards",
     "type": "progressive",
-    "loop": true,
     "allow_disabled": false,
     "initial_stage_idx": 0,
-    "codes": "shuffle_boss_remains",
     "stages": [
       {
+        "name": "Disabled",
+        "img": "images/pack_settings/shuffles/shuffle_spiderhouse_reward_disabled.png",
+        "img_mods": "@disabled",
+        "codes": "shuffle_spiderhouse_reward, shuffle_spiderhouse_reward_disabled",
+        "inherit_codes": false
+      },
+      {
         "name": "Vanilla",
-        "img": "images/pack_settings/shuffles/shuffle_boss_remains_vanilla.png",
-        "codes": "shuffle_boss_remains_vanilla",
+        "img": "images/pack_settings/shuffles/shuffle_spiderhouse_reward_vanilla.png",
+        "codes": "shuffle_spiderhouse_reward_vanilla",
         "inherit_codes": false
       },
       {
-        "name": "Anywhere",
-        "img": "images/pack_settings/shuffles/shuffle_boss_remains_anywhere.png",
-        "codes": "shuffle_boss_remains_anywhere",
-        "inherit_codes": false
-      },
-      {
-        "name": "Bosses",
-        "img": "images/pack_settings/shuffles/shuffle_boss_remains_bosses.png",
-        "codes": "shuffle_boss_remains_bosses",
+        "name": "Enabled",
+        "img": "images/pack_settings/shuffles/shuffle_spiderhouse_reward_enabled.png",
+        "codes": "shuffle_spiderhouse_reward_enabled",
         "inherit_codes": false
       }
-    ]
-  },
-  {
-    "name": "Shuffle Spiderhouse Reward",
-    "type": "toggle",
-    "img": "images/pack_settings/shuffles/shuffle_spiderhouse_reward_on.png",
-    "disabled_img": "images/pack_settings/shuffles/shuffle_spiderhouse_reward_off.png",
-    "codes": "shuffle_spiderhouse_reward"
+    ],
   },
   {
     "name": "Shuffle Great Fairy Rewards",

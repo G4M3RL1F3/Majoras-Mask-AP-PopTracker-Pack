@@ -797,8 +797,11 @@
               "$checkRequirements|required_skull_tokens|skull_ss",
               "skullsanity_0, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Golden Room Against Far Wall Token",
               "skullsanity_2, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Golden Room Against Far Wall Token"
+            ],
+            "visibility_rules": [
+              "shuffle_spiderhouse_reward_vanilla",
+              "shuffle_spiderhouse_reward_enabled"
             ]
-            //"visibility_rules": ["shuffle_swamphouse_reward"]
           },
           {
             "name": "First Room Pot Near Entrance Token",
@@ -1271,6 +1274,10 @@
               "$checkRequirements|required_skull_tokens|skull_gb",
               "skullsanity_0, $has_explosives, hookshot, $can_use_fire_arrows",
               "skullsanity_2, $has_explosives, hookshot, $can_use_fire_arrows"
+            ],
+            "visibility_rules": [
+              "shuffle_spiderhouse_reward_vanilla",
+              "shuffle_spiderhouse_reward_enabled"
             ]
           }
         ],

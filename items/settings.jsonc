@@ -161,14 +161,34 @@
         "codes": "shuffle_spiderhouse_reward_enabled",
         "inherit_codes": false
       }
-    ],
+    ]
   },
   {
     "name": "Shuffle Great Fairy Rewards",
-    "type": "toggle",
-    "img": "images/pack_settings/shuffles/shuffle_great_fairy_rewards_on.png",
-    "disabled_img": "images/pack_settings/shuffles/shuffle_great_fairy_rewards_off.png",
-    "codes": "shuffle_great_fairy_rewards"
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Disabled",
+        "img": "images/pack_settings/shuffles/shuffle_great_fairy_rewards_disabled.png",
+        "img_mods": "@disabled",
+        "codes": "shuffle_great_fairy_rewards, shuffle_great_fairy_rewards_disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Vanilla",
+        "img": "images/pack_settings/shuffles/shuffle_great_fairy_rewards_vanilla.png",
+        "codes": "shuffle_great_fairy_rewards_vanilla",
+        "inherit_codes": false
+      },
+      {
+        "name": "Enabled",
+        "img": "images/pack_settings/shuffles/shuffle_great_fairy_rewards_enabled.png",
+        "codes": "shuffle_great_fairy_rewards_enabled",
+        "inherit_codes": false
+      }
+    ]
   },
 
   //Sanities

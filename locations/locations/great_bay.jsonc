@@ -245,7 +245,10 @@
           {
             "name": "Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            //"visibility_rules": ["shuffle_great_fairy_rewards"],
+            "visibility_rules": [
+              "shuffle_great_fairy_rewards_vanilla",
+              "shuffle_great_fairy_rewards_enabled"
+            ],
             "access_rules": ["$checkRequirements|required_stray_fairies|fairy_gb, hookshot, $has_explosives"]
           }
         ],

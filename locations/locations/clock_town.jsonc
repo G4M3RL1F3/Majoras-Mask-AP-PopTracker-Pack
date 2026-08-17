@@ -256,7 +256,10 @@
       {
         "name": "Clock Town Great Fairy",
         "access_rules": ["fairy_ct"],
-        //"visibility_rules": ["shuffle_great_fairy_rewards"],
+        "visibility_rules": [
+          "shuffle_great_fairy_rewards_vanilla",
+          "shuffle_great_fairy_rewards_enabled"
+        ],
         "chest_unopened_img": "images/equipment/fairy_ct.png",
         "sections": [
           {

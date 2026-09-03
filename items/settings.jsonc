@@ -4,15 +4,13 @@
   {
     "name": "Logic Difficulty",
     "type": "progressive",
-    "loop": false,
     "allow_disabled": false,
     "initial_stage_idx": 1,
-    "codes": "logic_difficulty",
     "stages": [
       {
         "name": "Easy Logic",
         "img": "images/pack_settings/easy.png",
-        "codes": "easy_logic",
+        "codes": "easy_logic, logic_difficulty",
         "inherit_codes": false
       },
       {
@@ -53,32 +51,30 @@
   },
 
   //Shuffles
-  {
-    "name": "Swordless",
-    "type": "toggle",
-    "img": "images/pack_settings/shuffles/shuffle_kokiri_sword_on.png",
-    "disabled_img": "images/pack_settings/shuffles/shuffle_kokiri_sword_off.png",
-    "codes": "swordless"
-  },
-  {
-    "name": "Shieldless",
-    "type": "toggle",
-    "img": "images/pack_settings/shuffles/shuffle_hero_shield_on.png",
-    "disabled_img": "images/pack_settings/shuffles/shuffle_hero_shield_off.png",
-    "codes": "shieldless"
-  },
+  //{
+  //  "name": "Swordless",
+  //  "type": "toggle",
+  //  "img": "images/pack_settings/shuffles/shuffle_kokiri_sword_on.png",
+  //  "disabled_img": "images/pack_settings/shuffles/shuffle_kokiri_sword_off.png",
+  //  "codes": "swordless"
+  //},
+  //{
+  //  "name": "Shieldless",
+  //  "type": "toggle",
+  //  "img": "images/pack_settings/shuffles/shuffle_hero_shield_on.png",
+  //  "disabled_img": "images/pack_settings/shuffles/shuffle_hero_shield_off.png",
+  //  "codes": "shieldless"
+  //},
   {
     "name": "Shuffle Regional Maps",
     "type": "progressive",
-    "loop": true,
     "allow_disabled": false,
     "initial_stage_idx": 1,
-    "codes": "shuffle_regional_maps",
     "stages": [
       {
         "name": "Vanilla",
         "img": "images/pack_settings/shuffles/shuffle_regional_maps_vanilla.png",
-        "codes": "shuffle_regional_maps_vanilla",
+        "codes": "shuffle_regional_maps_vanilla, shuffle_regional_maps",
         "inherit_codes": false
       },
       {
@@ -112,7 +108,6 @@
   //{
   //  "name": "Shuffle Boss Remains",
   //  "type": "progressive",
-  //  "loop": true,
   //  "allow_disabled": false,
   //  "initial_stage_idx": 0,
   //  "stages": [
@@ -209,7 +204,6 @@
   {
     "name": "Skullsanity",
     "type": "progressive",
-    "loop": true,
     "allow_disabled": false,
     "initial_stage_idx": 0,
     "codes": "skullsanity",
@@ -239,7 +233,6 @@
     "name": "Required Skull Tokens",
     "type": "consumable",
     "img": "images/pack_settings/sanities/required_skull_tokens.png",
-    "allow_disabled": false,
     "codes": "required_skull_tokens",
     "min_quantity": 0,
     "max_quantity": 30,
@@ -249,15 +242,13 @@
   {
     "name": "Shopsanity",
     "type": "progressive",
-    "loop": true,
     "allow_disabled": false,
     "initial_stage_idx": 0,
-    "codes": "shopsanity",
     "stages": [
       {
         "name": "Vanilla",
         "img": "images/pack_settings/sanities/shopsanity_vanilla.png",
-        "codes": "shopsanity_vanilla",
+        "codes": "shopsanity_vanilla, shopsanity",
         "inherit_codes": false
       },
       {
@@ -337,7 +328,6 @@
     "name": "Required Stray Fairies",
     "type": "consumable",
     "img": "images/pack_settings/sanities/required_stray_fairies.png",
-    "allow_disabled": false,
     "codes": "required_stray_fairies",
     "min_quantity": 0,
     "max_quantity": 15,
@@ -346,46 +336,44 @@
   },
 
   //Inventory
-  {
-    "name": "Start with Song of Soaring",
-    "type": "toggle",
-    "img": "images/pack_settings/inventory/start_with_soaring_on.png",
-    "disabled_img": "images/pack_settings/inventory/start_with_soaring_off.png",
-    "codes": "start_with_soaring"
-  },
-  {
-    "name": "Starting heart quarters",
-    "type": "consumable",
-    "img": "images/pack_settings/inventory/starting_heart_quarters.png",
-    "allow_disabled": false,
-    "codes": "starting_hearts",
-    "min_quantity": 4,
-    "max_quantity": 12,
-    "initial_quantity": 12,
-    "overlay_font_size": 40
-  },
-  {
-    "name": "Starting hearts are containers or pieces",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "initial_stage_idx": 0,
-    "codes": "starting_hearts_containers_or_pieces",
-    "stages": [
-      {
-        "name": "Containers",
-        "img": "images/pack_settings/shuffles/starting_heart_containers_or_pieces_containers.png",
-        "codes": "starting_hearts_containers_or_pieces_containers",
-        "inherit_codes": false
-      },
-      {
-        "name": "Pieces",
-        "img": "images/pack_settings/shuffles/starting_heart_containers_or_pieces_pieces.png",
-        "codes": "starting_hearts_containers_or_pieces_pieces",
-        "inherit_codes": false
-      }
-    ]
-  },
+  //{
+  //  "name": "Start with Song of Soaring",
+  //  "type": "toggle",
+  //  "img": "images/pack_settings/inventory/start_with_soaring_on.png",
+  //  "disabled_img": "images/pack_settings/inventory/start_with_soaring_off.png",
+  //  "codes": "start_with_soaring"
+  //},
+  //{
+  //  "name": "Starting heart quarters",
+  //  "type": "consumable",
+  //  "img": "images/pack_settings/inventory/starting_heart_quarters.png",
+  //  "codes": "starting_hearts",
+  //  "min_quantity": 4,
+  //  "max_quantity": 12,
+  //  "initial_quantity": 12,
+  //  "overlay_font_size": 40
+  //},
+  //{
+  //  "name": "Starting hearts are containers or pieces",
+  //  "type": "progressive",
+  //  "allow_disabled": false,
+  //  "initial_stage_idx": 0,
+  //  "codes": "starting_hearts_containers_or_pieces",
+  //  "stages": [
+  //    {
+  //      "name": "Containers",
+  //      "img": "images/pack_settings/shuffles/starting_heart_containers_or_pieces_containers.png",
+  //      "codes": "starting_hearts_containers_or_pieces_containers",
+  //      "inherit_codes": false
+  //    },
+  //    {
+  //      "name": "Pieces",
+  //      "img": "images/pack_settings/shuffles/starting_heart_containers_or_pieces_pieces.png",
+  //      "codes": "starting_hearts_containers_or_pieces_pieces",
+  //      "inherit_codes": false
+  //    }
+  //  ]
+  //},
   {
     "name": "Start with consumables",
     "type": "toggle",
@@ -445,12 +433,11 @@
     "type": "progressive",
     "allow_disabled": false,
     "initial_stage_idx": 1,
-    "codes": "damage_multiplier",
     "stages": [
       {
         "name": "Half",
         "img": "images/pack_settings/miscellaneous/dmg_mult_half.png",
-        "codes": "dmg_mult_half",
+        "codes": "dmg_mult_half, damage_multiplier",
         "inherit_codes": false
       },
       {
@@ -484,12 +471,11 @@
     "type": "progressive",
     "allow_disabled": false,
     "initial_stage_idx": 0,
-    "codes": "death_behavior",
     "stages": [
       {
         "name": "Vanilla",
         "img": "images/pack_settings/miscellaneous/death_behavior_vanilla.png",
-        "codes": "death_behavior_vanilla",
+        "codes": "death_behavior_vanilla, death_behavior",
         "inherit_codes": false
       },
       {

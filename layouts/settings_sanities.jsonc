@@ -20,7 +20,7 @@
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "small_key_sanity"
+                    "item": "shuffle_small_keys"
                   },
                   {
                     "type": "item",

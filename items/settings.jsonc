@@ -188,11 +188,48 @@
 
   //Sanities
   {
-    "name": "Small Key Sanity",
-    "type": "toggle",
-    "img": "images/pack_settings/sanities/small_key_sanity_on.png",
-    "disabled_img": "images/pack_settings/sanities/small_key_sanity_off.png",
-    "codes": "small_key_sanity"
+    "name": "Shuffle Small Keys",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Start With",
+        "img": "images/pack_settings/sanities/shuffle_small_keys_start_with.png",
+        "codes": "shuffle_small_keys, shuffle_small_keys_start_with",
+        "inherit_codes": false
+      },
+      {
+        "name": "Vanilla",
+        "img": "images/pack_settings/sanities/shuffle_small_keys_vanilla.png",
+        "codes": "shuffle_small_keys_vanilla",
+        "inherit_codes": false
+      },
+      {
+        "name": "Own Dungeon",
+        "img": "images/pack_settings/sanities/shuffle_small_keys_own_dungeon.png",
+        "codes": "shuffle_small_keys_own_dungeon",
+        "inherit_codes": false
+      },
+      {
+        "name": "Any Dungeon",
+        "img": "images/pack_settings/sanities/shuffle_small_keys_any_dungeon.png",
+        "codes": "shuffle_small_keys_any_dungeon",
+        "inherit_codes": false
+      },
+      {
+        "name": "Local",
+        "img": "images/pack_settings/sanities/shuffle_small_keys_local.png",
+        "codes": "shuffle_small_keys_local",
+        "inherit_codes": false
+      },
+      {
+        "name": "Keysanity",
+        "img": "images/pack_settings/sanities/shuffle_small_keys_keysanity.png",
+        "codes": "shuffle_small_keys_keysanity",
+        "inherit_codes": false
+      }
+    ]
   },
   {
     "name": "Boss Key Sanity",
@@ -206,12 +243,11 @@
     "type": "progressive",
     "allow_disabled": false,
     "initial_stage_idx": 0,
-    "codes": "skullsanity",
     "stages": [
       {
         "name": "Vanilla",
         "img": "images/pack_settings/sanities/skullsanity_vanilla.png",
-        "codes": "skullsanity_0",
+        "codes": "skullsanity_0, skullsanity",
         "inherit_codes": false
       },
       {

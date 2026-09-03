@@ -50,7 +50,7 @@
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "boss_key_sanity"
+                    "item": "shuffle_boss_keys"
                   },
                   {
                     "type": "item",

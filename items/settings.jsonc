@@ -232,11 +232,48 @@
     ]
   },
   {
-    "name": "Boss Key Sanity",
-    "type": "toggle",
-    "img": "images/pack_settings/sanities/boss_key_sanity_on.png",
-    "disabled_img": "images/pack_settings/sanities/boss_key_sanity_off.png",
-    "codes": "boss_key_sanity"
+    "name": "Shuffle Boss Keys",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Start With",
+        "img": "images/pack_settings/sanities/shuffle_boss_keys_start_with.png",
+        "codes": "shuffle_boss_keys, shuffle_boss_keys_start_with",
+        "inherit_codes": false
+      },
+      {
+        "name": "Vanilla",
+        "img": "images/pack_settings/sanities/shuffle_boss_keys_vanilla.png",
+        "codes": "shuffle_boss_keys_vanilla",
+        "inherit_codes": false
+      },
+      {
+        "name": "Own Dungeon",
+        "img": "images/pack_settings/sanities/shuffle_boss_keys_own_dungeon.png",
+        "codes": "shuffle_boss_keys_own_dungeon",
+        "inherit_codes": false
+      },
+      {
+        "name": "Any Dungeon",
+        "img": "images/pack_settings/sanities/shuffle_boss_keys_any_dungeon.png",
+        "codes": "shuffle_boss_keys_any_dungeon",
+        "inherit_codes": false
+      },
+      {
+        "name": "Local",
+        "img": "images/pack_settings/sanities/shuffle_boss_keys_local.png",
+        "codes": "shuffle_boss_keys_local",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bosskeysanity",
+        "img": "images/pack_settings/sanities/shuffle_boss_keys_bosskeysanity.png",
+        "codes": "shuffle_boss_keys_bosskeysanity",
+        "inherit_codes": false
+      }
+    ]
   },
   {
     "name": "Skullsanity",

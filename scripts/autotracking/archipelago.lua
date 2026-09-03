@@ -178,7 +178,7 @@ function onClear(slot_data)
     setFromSlotData("intro_checks","intro_checks")
     setFromSlotData("curiostity_shop_trades","curiosity_shop_trades") --spelling mistake in apworld
     setFromSlotData("shuffle_great_fairy_rewards","shuffle_great_fairy_rewards")
-    setFromSlotData("fairysanity","fairysanity")
+    setFromSlotData("shuffle_stray_fairies","shuffle_stray_fairies")
     setFromSlotData("required_stray_fairies","required_stray_fairies")
     setFromSlotData("start_with_consumables","start_with_consumables")
     setFromSlotData("permanent_chateau_romani","permanent_chateau_romani")

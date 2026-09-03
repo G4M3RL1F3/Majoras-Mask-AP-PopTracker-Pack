@@ -289,11 +289,49 @@
     "codes": "cowsanity"
   },
   {
-    "name": "Fairysanity",
-    "type": "toggle",
-    "img": "images/pack_settings/sanities/fairysanity_on.png",
-    "disabled_img": "images/pack_settings/sanities/fairysanity_off.png",
-    "codes": "fairysanity"
+    "name": "Shuffle Stray Fairies",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Disabled",
+        "img": "images/pack_settings/sanities/shuffle_stray_fairies_disabled.png",
+        "img_mods": "@disabled",
+        "codes": "shuffle_stray_fairies, shuffle_stray_fairies_disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Vanilla",
+        "img": "images/pack_settings/sanities/shuffle_stray_fairies_vanilla.png",
+        "codes": "shuffle_stray_fairies_vanilla",
+        "inherit_codes": false
+      },
+      {
+        "name": "Own Dungeon",
+        "img": "images/pack_settings/sanities/shuffle_stray_fairies_own_dungeon.png",
+        "codes": "shuffle_stray_fairies_own_dungeon",
+        "inherit_codes": false
+      },
+      {
+        "name": "Any Dungeon",
+        "img": "images/pack_settings/sanities/shuffle_stray_fairies_any_dungeon.png",
+        "codes": "shuffle_stray_fairies_any_dungeon",
+        "inherit_codes": false
+      },
+      {
+        "name": "Local",
+        "img": "images/pack_settings/sanities/shuffle_stray_fairies_local.png",
+        "codes": "shuffle_stray_fairies_local",
+        "inherit_codes": false
+      },
+      {
+        "name": "Fairysanity",
+        "img": "images/pack_settings/sanities/shuffle_stray_fairies_fairysanity.png",
+        "codes": "shuffle_stray_fairies_fairysanity",
+        "inherit_codes": false
+      }
+    ]
   },
   {
     "name": "Required Stray Fairies",

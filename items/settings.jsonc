@@ -456,12 +456,30 @@
     "codes": "start_with_consumables"
   },
   {
-    "name": "Permanent Chateau Romani",
-    "type": "toggle",
-    "img": "images/pack_settings/inventory/permanent_chateau_romani_on.png",
-    "disabled_img": "images/pack_settings/inventory/permanent_chateau_romani_off.png",
-    "initial_active_state": true,
-    "codes": "permanent_chateau_romani"
+    "name": "Infinite Magic Behavior",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Vanilla",
+        "img": "images/pack_settings/inventory/infinite_magic_behavior_vanilla.png",
+        "codes": "infinite_magic_behavior, infinite_magic_behavior_vanilla",
+        "inherit_codes": false
+      },
+      {
+        "name": "Consume",
+        "img": "images/pack_settings/inventory/infinite_magic_behavior_consume.png",
+        "codes": "infinite_magic_behavior, infinite_magic_behavior_consume",
+        "inherit_codes": false
+      },
+      {
+        "name": "Upgrade",
+        "img": "images/pack_settings/inventory/infinite_magic_behavior_upgrade.png",
+        "codes": "infinite_magic_behavior, infinite_magic_behavior_upgrade",
+        "inherit_codes": false
+      }
+    ]
   },
   {
     "name": "Start with inverted time",

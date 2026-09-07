@@ -29,7 +29,8 @@
     "min_quantity": 0,
     "max_quantity": 4,
     "initial_quantity": 4,
-    "overlay_font_size": 40
+    "overlay_font_size": 40,
+    "overlay_align": "center"
   },
   {
     "name": "Remains for Majora",
@@ -39,7 +40,8 @@
     "min_quantity": 0,
     "max_quantity": 4,
     "initial_quantity": 4,
-    "overlay_font_size": 40
+    "overlay_font_size": 40,
+    "overlay_align": "center"
   },
   {
     "name": "Boss Warps With Remains",

@@ -310,7 +310,8 @@
     "min_quantity": 0,
     "max_quantity": 30,
     "initial_quantity": 30,
-    "overlay_font_size": 40
+    "overlay_font_size": 40,
+    "overlay_align": "center"
   },
   {
     "name": "Shopsanity",
@@ -405,7 +406,8 @@
     "min_quantity": 0,
     "max_quantity": 15,
     "initial_quantity": 15,
-    "overlay_font_size": 40
+    "overlay_font_size": 40,
+    "overlay_align": "center"
   },
 
   //Inventory

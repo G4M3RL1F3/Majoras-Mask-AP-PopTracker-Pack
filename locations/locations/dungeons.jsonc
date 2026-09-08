@@ -67,14 +67,26 @@
           {
             "name": "Entrance Freestanding SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
-            "access_rules": [""]
-            //"visibility_rules": ["fairysanity"]
+            "access_rules": [""],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
+            ]
           },
           {
             "name": "Deku Baba SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
-            "access_rules": [""]
-            //"visibility_rules": ["fairysanity"]
+            "access_rules": [""],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
+            ]
           },
           {
             "name": "Main Room Bubble SF",
@@ -82,14 +94,26 @@
             "access_rules": [
               "easy_logic, bow, fairymask",
               "normal_logic, bow"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Pot SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
-            "access_rules": [""]
-            //"visibility_rules": ["fairysanity"]
+            "access_rules": [""],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
+            ]
           },
           {
             "name": "Platform Hive SF",
@@ -100,8 +124,14 @@
               "normal_logic, deku, magic",
               "normal_logic, fairymask, hookshot",
               "normal_logic, fairymask, zora"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Skulltula SF",
@@ -111,8 +141,14 @@
               "normal_logic, smallkey_wf, $can_smack",
               "normal_logic, $small_key_sanity_off, $can_smack",
               "normal_logic, bow"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Bridge Room Bubble SF",
@@ -123,8 +159,14 @@
               "normal_logic, $small_key_sanity_off, $has_projectiles, fairymask",
               "normal_logic, bow, fairymask",
               "normal_logic, bow, zora"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Bridge Room Hive SF",
@@ -134,14 +176,26 @@
               "normal_logic, smallkey_wf, $has_projectiles, fairymask",
               "normal_logic, $small_key_sanity_off, $has_projectiles, fairymask",
               "normal_logic, bow"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Pre-Boss Upper Right Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
-            "access_rules": ["bow"]
-            //"visibility_rules": ["fairysanity"]
+            "access_rules": ["bow"],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
+            ]
           },
           {
             "name": "Pre-Boss Lower Right Bubble SF",
@@ -150,8 +204,14 @@
               "easy_logic, bow, $can_use_fire_arrows",
               "normal_logic,bow",
               "normal_logic, $can_use_fire_arrows"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Pre-Boss Upper Left Bubble SF",
@@ -160,8 +220,14 @@
               "easy_logic, bow, $can_use_fire_arrows",
               "normal_logic,bow",
               "normal_logic, $can_use_fire_arrows"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Pre-Boss Pillar Bubble SF",
@@ -170,8 +236,14 @@
               "easy_logic, bow, fairymask, $can_use_fire_arrows",
               "normal_logic, bow",
               "normal_logic, $can_use_fire_arrows"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Heart Container",
@@ -233,8 +305,14 @@
           {
             "name": "Bridge Room Under Platform Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
-            "access_rules": ["fairymask, bow"]
-            //"visibility_rules": ["fairysanity"]
+            "access_rules": ["fairymask, bow"],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
+            ]
           },
           {
             "name": "Bridge Room Pillar Bubble SF",
@@ -242,8 +320,14 @@
             "access_rules": [
               "easy_logic, fairymask, bow, $can_use_lens",
               "normal_logic, fairymask, bow"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Frozen Block Chest",
@@ -272,8 +356,14 @@
               "normal_logic, $has_explosives, hookshot",
               "normal_logic, $has_explosives, $has|smallkey_sh|1, fairymask",
               "normal_logic, $has_explosives, $small_key_sanity_off, fairymask"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Stacked Block Upper Chest SF",
@@ -327,8 +417,14 @@
           {
             "name": "Elevator Freestanding SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
-            "access_rules": [""]
-            //"visibility_rules": ["fairysanity"]
+            "access_rules": [""],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
+            ]
           },
           {
             "name": "Icicle Room Snowball Chest",
@@ -358,8 +454,14 @@
               "normal_logic, $small_key_sanity_off, fairymask, bow, $can_use_lens, $has_explosives",
               "normal_logic, hookshot, fairymask, bow, $can_use_lens",
               "normal_logic, $can_use_fire_arrows, fairymask, $can_use_lens"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Lower Wizzrobe Chest",
@@ -377,8 +479,14 @@
               "easy_logic, fairymask, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows, fairymask",
               "normal_logic, $small_key_sanity_off, $can_use_fire_arrows, fairymask"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Dinolfos Room First SF",
@@ -387,8 +495,14 @@
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows",
               "normal_logic, $small_key_sanity_off, $can_use_fire_arrows"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Dinolfos Room Second SF",
@@ -397,8 +511,14 @@
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows",
               "normal_logic, $small_key_sanity_off, $can_use_fire_arrows"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
-            //"visibility_rules": ["fairysanity"]
           },
           {
             "name": "Upper Wizzrobe Chest",
@@ -474,38 +594,62 @@
           {
             "name": "Waterwheel Room Skulltula SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, bow, fairymask",
               "normal_logic, $can_smack_hard"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
           },
           {
             "name": "Waterwheel Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
               "normal_logic, zora",
               "normal_logic, $has_projectiles, fairymask"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
           },
           {
             "name": "Blender Room Barrel SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
               "normal_logic"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
           },
           {
             "name": "Blender Pot SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
               "normal_logic"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
           },
           {
@@ -519,12 +663,18 @@
           {
             "name": "Before Red Valve Room Pot SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, zora, bow, fairymask, deku",
               "normal_logic, $can_use_ice_arrows",
               "normal_logic, $has_projectiles, fairymask",
               "normal_logic, deku"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
           },
           {
@@ -559,10 +709,16 @@
           {
             "name": "Caged Chest Room Pot SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
               "normal_logic"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
           },
           {
@@ -604,10 +760,16 @@
           {
             "name": "Seesaw Room Underwater Barrel SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, $can_use_ice_arrows, $can_use_fire_arrows, bombchu_bag",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
           },
           {
@@ -621,17 +783,29 @@
           {
             "name": "Pre-Boss Room Platform Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            //"visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, fairymask, $can_use_ice_arrows, $can_use_fire_arrows",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
+            ],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
             ]
           },
           {
             "name": "Pre-Boss Room Tunnel Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            //"visibility_rules": ["fairysanity"],
-            "access_rules": ["@Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF"]
+            "access_rules": ["@Dungeons/Great Bay Temple/Pre-Boss Room Platform Bubble SF"],
+            "visibility_rules": [
+              "shuffle_stray_fairies_vanilla",
+              "shuffle_stray_fairies_own_dungeon",
+              "shuffle_stray_fairies_any_dungeon",
+              "shuffle_stray_fairies_local",
+              "shuffle_stray_fairies_fairysanity"
+            ]
           },
           {
             "name": "Heart Container",

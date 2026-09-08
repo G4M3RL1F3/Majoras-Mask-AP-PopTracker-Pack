@@ -42,11 +42,6 @@
                     "type": "item",
                     "max_width": 260,
                     "item": "magic_is_a_trap"
-                  },
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "boss_warps_with_remains"
                   }
                 ]
               }

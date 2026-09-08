@@ -25,6 +25,13 @@
         }
       },
       {
+        "title": "Dungeons",
+        "content": {
+          "type": "layout",
+          "key": "settings_dungeons"
+        }
+      },
+      {
         "title": "Inventory",
         "content": {
           "type": "layout",

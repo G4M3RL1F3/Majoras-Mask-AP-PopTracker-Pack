@@ -1,0 +1,62 @@
+{
+    "settings_dungeons": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": 5,
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "group",
+                                "header": "Dungeons",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "max_width": 260,
+                                        "item": "shuffle_small_keys"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "max_width": 260,
+                                        "item": "shuffle_stray_fairies"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "max_width": 260,
+                                        "item": "shuffle_maps_and_compasses"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "group",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "max_width": 260,
+                                        "item": "shuffle_boss_keys"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "max_width": 260,
+                                        "item": "required_stray_fairies"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "max_width": 260,
+                                        "item": "boss_warps_with_remains"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

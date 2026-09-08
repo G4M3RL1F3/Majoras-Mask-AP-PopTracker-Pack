@@ -25,7 +25,12 @@
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "death_behavior"
+                    "item": "camc"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "skip_digging"
                   }
                 ]
               },
@@ -36,7 +41,7 @@
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "camc"
+                    "item": "death_behavior"
                   },
                   {
                     "type": "item",

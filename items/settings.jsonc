@@ -570,6 +570,14 @@
     "codes": "magic_is_a_trap"
   },
   {
+    "name": "Skip Digging",
+    "type": "toggle",
+    "img": "images/pack_settings/miscellaneous/skip_digging_on.png",
+    "disabled_img": "images/pack_settings/miscellaneous/skip_digging_off.png",
+    "initial_active_state": false,
+    "codes": "skip_digging"
+  },
+  {
     "name": "Damage Multiplier",
     "type": "progressive",
     "allow_disabled": false,

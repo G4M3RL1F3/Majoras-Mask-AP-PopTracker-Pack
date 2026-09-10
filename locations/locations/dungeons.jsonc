@@ -969,8 +969,8 @@
             "chest_unopened_img": "images/masks/truth.png",
             "access_rules": [
               "$checkRequirements|required_skull_tokens|skull_ss",
-              "skullsanity_0, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Golden Room Against Far Wall Token",
-              "skullsanity_2, $can_smack, $has|bottles|1, $has_projectiles, @Dungeons/Swamp Spider House/First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Golden Room Against Far Wall Token"
+              "skullsanity_0, $can_smack, $bottles, $has_projectiles, @Dungeons/Swamp Spider House/First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Golden Room Against Far Wall Token",
+              "skullsanity_2, $can_smack, $bottles, $has_projectiles, @Dungeons/Swamp Spider House/First Room Against Far Wall Token, @Dungeons/Swamp Spider House/Monument Room Crawling Wall Token, @Dungeons/Swamp Spider House/Pottery Room Behind Vines Token, @Dungeons/Swamp Spider House/Golden Room Against Far Wall Token"
             ],
             "visibility_rules": [
               "shuffle_spiderhouse_reward_vanilla",
@@ -1023,7 +1023,7 @@
             "name": "First Room Left Bugpatch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_bottle",
-              "normal_logic, $can_smack, $has|bottles|1"
+              "normal_logic, $can_smack, $bottles"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1031,7 +1031,7 @@
             "name": "First Room Right Bugpatch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_bottle",
-              "normal_logic, $can_smack, $has|bottles|1"
+              "normal_logic, $can_smack, $bottles"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1039,7 +1039,7 @@
             "name": "First Room Upper Right Bugpatch Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_has_bottle",
-              "normal_logic, $can_smack, $has|bottles|1"
+              "normal_logic, $can_smack, $bottles"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1527,40 +1527,40 @@
             "visibility_rules": ["cowsanity"],
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, $can_play_eponas, $baby_can_plant_beans, $can_use_light_arrows, maskofscents, adultswallet, zora",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, maskofscents",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, adultswallet",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $can_play_soaring, $can_use_lens, goron",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, maskofscents",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, adultswallet",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, $can_use_lens, goron",
-              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
+              "normal_logic, gibdo, $bottles, $can_play_eponas, $can_plant_beans, maskofscents",
+              "normal_logic, gibdo, $bottles, $can_play_eponas, $can_plant_beans, adultswallet",
+              "normal_logic, gibdo, $bottles, $can_play_eponas, $can_plant_beans, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, gibdo, $bottles, $can_play_eponas, $can_plant_beans, $can_play_soaring, $can_use_lens, goron",
+              "normal_logic, gibdo, $bottles, $can_play_eponas, $can_plant_beans, @Dungeons/Beneath the Well/Invisible Chest",
+              "normal_logic, gibdo, $bottles, $can_play_eponas, $can_use_light_arrows, maskofscents",
+              "normal_logic, gibdo, $bottles, $can_play_eponas, $can_use_light_arrows, adultswallet",
+              "normal_logic, gibdo, $bottles, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, $mountain_village, $can_use_fire_arrows",
+              "normal_logic, gibdo, $bottles, $can_play_eponas, $can_use_light_arrows, $can_play_soaring, $can_use_lens, goron",
+              "normal_logic, gibdo, $bottles, $can_play_eponas, $can_use_light_arrows, @Dungeons/Beneath the Well/Invisible Chest"
             ]
           },
           {
             "name": "Invisible Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, adultswallet, maskofscents, $can_use_fire_arrows, $can_use_lens",
-              "normal_logic, gibdo, $has|bottles|1, adultswallet",
-              "normal_logic, gibdo, $has|bottles|1, maskofscents"
+              "normal_logic, gibdo, $bottles, adultswallet",
+              "normal_logic, gibdo, $bottles, maskofscents"
             ]
           },
           {
             "name": "Rightside Torch Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, $baby_can_plant_beans, $can_use_light_arrows",
-              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans",
-              "normal_logic, gibdo, $has|bottles|1, $can_use_light_arrows"
+              "normal_logic, gibdo, $bottles, $can_plant_beans",
+              "normal_logic, gibdo, $bottles, $can_use_light_arrows"
             ]
           },
           {
             "name": "Final Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, $baby_can_plant_beans, $can_use_light_arrows, bombs, captainhat, bow",
-              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, bombs",
-              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow",
+              "normal_logic, gibdo, $bottles, $can_plant_beans, bombs",
+              "normal_logic, gibdo, $bottles, $can_plant_beans, captainhat, bow",
               "normal_logic, $can_use_light_arrows, $can_use_fire_arrows"
             ]
           }

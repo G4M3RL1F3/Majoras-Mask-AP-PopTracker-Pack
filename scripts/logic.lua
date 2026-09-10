@@ -4,11 +4,11 @@ function canReachHealingInvisibleGoron()
 end
 
 function canReachIkanaWellInvisibleChest()
-    return has("gibdo") and has("bottles", 1) and (has("adultswallet") or has("maskofscents"))
+    return has("gibdo") and bottles() and (has("adultswallet") or has("maskofscents"))
 end
 
 function canReachHotWaterGrottoChest()
-    return (has_explosives() and can_use_fire_arrows()) or (can_use_lens() and has("bottles", 1) and has("goron") and has_explosives) or clear_snowhead() or (canReachIkanaWellInvisibleChest() and can_play_soaring())
+    return (has_explosives() and can_use_fire_arrows()) or (can_use_lens() and bottles() and has("goron") and has_explosives) or clear_snowhead() or (canReachIkanaWellInvisibleChest() and can_play_soaring())
 end
 
 -- Songs
@@ -78,11 +78,11 @@ function has_paper()
 end
 
 function can_get_cow_milk()
-    return has("bottles", 1) and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("gibdo") and has("bottles",1) and can_plant_beans() and canReachHotWaterGrottoChest() or can_use_light_arrows() and (canReachHotWaterGrottoChest() or (has("goron") and can_use_lens()) or canReachIkanaWellInvisibleChest())))
+    return bottles() and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("gibdo") and has("bottles",1) and can_plant_beans() and canReachHotWaterGrottoChest() or can_use_light_arrows() and (canReachHotWaterGrottoChest() or (has("goron") and can_use_lens()) or canReachIkanaWellInvisibleChest())))
 end
 
 function can_plant_beans() -- was "plant_beans"
-    return can_get_magic_beans() and (has("bottles", 1) or can_play_storms())
+    return can_get_magic_beans() and (bottles() or can_play_storms())
 end
 
 function can_use_powder_keg() -- was "use_keg"
@@ -167,50 +167,27 @@ end
 
 -- This function's purpose is for counting how many bottles have been acquired.
 -- Currently used to check if the player has any bottle so that it can be accounted for logic.
-function bottleCount()
-    local bottle_count = Tracker:FindObjectForCode("bottles")
-    bottle_count.AcquiredCount = bottle_count.MinCount
+function bottles()
+    local bottle_count = 0
     if Tracker:FindObjectForCode("milk").Active then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
+        bottle_count = bottle_count + 1
     end
     if Tracker:FindObjectForCode("chateau").Active then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
+        bottle_count = bottle_count + 1
     end
     if Tracker:FindObjectForCode("redpotion").Active then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
+        bottle_count = bottle_count + 1
     end
     if Tracker:FindObjectForCode("gold_dust").Active then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
+        bottle_count = bottle_count + 1
     end
-    if Tracker:FindObjectForCode("empty_bottle").AcquiredCount == 1 then
-        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
-        end
-    elseif Tracker:FindObjectForCode("empty_bottle").AcquiredCount == 2 then
-        if (bottle_count.AcquiredCount + bottle_count.Increment + bottle_count.Increment) >= bottle_count.MaxCount then
-            bottle_count.AcquiredCount = bottle_count.MaxCount
-        else
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment + bottle_count.Increment
-        end
+    if Tracker:FindObjectForCode("empty_bottle").AcquiredCount >= 1 then
+        bottle_count = bottle_count + Tracker:FindObjectForCode("empty_bottle").AcquiredCount
     end
+    if bottle_count > 6 then
+        bottle_count = 6
+    end
+    return bottle_count
 end
 
 function remainCount()
@@ -400,11 +377,11 @@ end
 ScriptHost:AddWatchForCode("Small Key Sanity Off", "small_key_sanity", smallKeySanity)
 ScriptHost:AddWatchForCode("Boss Key Sanity Off", "boss_key_sanity", bossKeySanity)
 ScriptHost:AddWatchForCode("OdolwaDefeated", "boss_odolwa_hosted", clear_wft)
-ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottleCount)
-ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", bottleCount)
-ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", bottleCount)
-ScriptHost:AddWatchForCode("bottlecounter_gold", "gold_dust", bottleCount)
-ScriptHost:AddWatchForCode("bottlecounter_empty_bottle", "empty_bottle", bottleCount)
+ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottles)
+ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", bottles)
+ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", bottles)
+ScriptHost:AddWatchForCode("bottlecounter_gold", "gold_dust", bottles)
+ScriptHost:AddWatchForCode("bottlecounter_empty_bottle", "empty_bottle", bottles)
 ScriptHost:AddWatchForCode("OdolwaObtained", "odolwa", remainCount)
 ScriptHost:AddWatchForCode("GohtObtained", "goht", remainCount)
 ScriptHost:AddWatchForCode("GyorgObtained", "gyorg", remainCount)

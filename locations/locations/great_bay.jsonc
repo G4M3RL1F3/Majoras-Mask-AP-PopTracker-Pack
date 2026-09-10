@@ -54,8 +54,8 @@
             "chest_unopened_img": "images/equipment/song_bossa_nova_no_text.png",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, @Dungeons/Pirates' Fortress/Leader's Room Chest",
-              "normal_logic, $has|bottles|1, $can_reach_seahorse",
-              "normal_logic, $has|bottles|1, @Dungeons/Pirates' Fortress/Leader's Room Chest, hookshot"
+              "normal_logic, $bottles, $can_reach_seahorse",
+              "normal_logic, $bottles, @Dungeons/Pirates' Fortress/Leader's Room Chest, hookshot"
             ]
           },
           {
@@ -63,7 +63,7 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_has_bottle, zora",
-              "normal_logic, $has|bottles|1"
+              "normal_logic, $bottles"
             ]
           }
         ],
@@ -314,7 +314,7 @@
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, zora, $baby_has_bottle",
-              "normal_logic, zora, $has|bottles|1"
+              "normal_logic, zora, $bottles"
             ]
           },
           {
@@ -367,21 +367,21 @@
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle",
-              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $can_reach_seahorse, $bottles, zora"
             ]
           },
           {
             "name": "Upper Eel Chest",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
-              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $can_reach_seahorse, $bottles, zora"
             ]
           },
           {
             "name": "Lower Eel Chest",
             "access_rules": [
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
-              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
+              "normal_logic, $can_reach_seahorse, $bottles, zora"
             ]
           }
         ],

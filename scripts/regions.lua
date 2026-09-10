@@ -9,7 +9,7 @@ function baby_south_swamp()
     return has("redpotion") and baby_has_hard_projectiles() and has("deku") and has("pictobox")
 end
 function south_swamp()
-    return has("bottles", 1) or (has_hard_projectiles() and has("deku")) or (has("pictobox") and has("deku"))
+    return bottles() or (has_hard_projectiles() and has("deku")) or (has("pictobox") and has("deku"))
 end
 
 -- Southern Swamp (Deku Palace) -> Swamp Spider House
@@ -199,7 +199,7 @@ function baby_well()
     return baby_ikana_canyon() and can_use_ice_arrows() and has("gibdo") and baby_has_bottle()
 end
 function well()
-    return (upper_ikana_canyon() and has("gibdo") and has("bottles", 1)) or (ikana_castle() and can_use_light_arrows())
+    return (upper_ikana_canyon() and has("gibdo") and bottles()) or (ikana_castle() and can_use_light_arrows())
 end
 
 -- Upper Ikana Canyon -> Ikana Castle
@@ -207,7 +207,7 @@ function baby_ikana_castle()
     return baby_ikana_canyon() and can_use_ice_arrows() and can_use_light_arrows() and has("garo") and has("gibdo") and has("captainhat") and has("mirrorshield") and baby_has_bottle() and has("hookshot")
 end
 function ikana_castle()
-    return (upper_ikana_canyon() and (can_use_light_arrows() or has("mirrorshield"))) or (well() and has("gibdo") and has("bottles", 1) and can_plant_beans() and has("bow") and (has("bombs") or has("captainhat")) and (can_use_light_arrows() or has("mirrorshield")))
+    return (upper_ikana_canyon() and (can_use_light_arrows() or has("mirrorshield"))) or (well() and has("gibdo") and bottles() and can_plant_beans() and has("bow") and (has("bombs") or has("captainhat")) and (can_use_light_arrows() or has("mirrorshield")))
 end
 
 -- Stone Tower -> Stone Tower Temple

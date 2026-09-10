@@ -255,19 +255,11 @@
 //    "codes": "bottle_6,bottle"
 //  },
   {
-    "name": "Bottle Count",
-    "type": "consumable",
-    "img": "images/items/bottle.png",
-    "codes": "bottles",
-    "min_quantity": 0,
-    "max_quantity": 6
-  },
-  {
     "name": "Empty Bottle",
     "type": "consumable",
     "img": "images/items/bottle.png",
     "codes": "empty_bottle",
-    "max_quantity": 2,
+    "max_quantity": 3,
     "overlay_background": "#000000"
   },
   {

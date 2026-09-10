@@ -1105,8 +1105,8 @@
             "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
               "easy_logic, @Southern Swamp/Southern Swamp Witch Shop/Item 1, $baby_can_get_cow_milk",
-              "normal_logic, $has|bottles|1, maskofscents",
-              "normal_logic, $has|bottles|1, $can_get_cow_milk"
+              "normal_logic, $bottles, maskofscents",
+              "normal_logic, $bottles, $can_get_cow_milk"
             ]
           },
           {
@@ -1115,7 +1115,7 @@
             "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
               "easy_logic, $baby_has_bottle",
-              "normal_logic, $has|bottles|1"
+              "normal_logic, $bottles"
             ]
           },
           {
@@ -1124,7 +1124,7 @@
             "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
               "easy_logic, $baby_has_bottle, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest",
-              "normal_logic, $has|bottles|1, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest"
+              "normal_logic, $bottles, @Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest"
             ]
           },
           {
@@ -1133,10 +1133,10 @@
             "visibility_rules": ["curiosity_shop_trades"],
             "access_rules": [
               "easy_logic, $baby_has_bottle, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
-              "normal_logic, $has|bottles|1, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest",
-              "normal_logic, $has|bottles|1, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
-              "normal_logic, $has|bottles|1, romani, adultswallet",
-              "normal_logic, $has|bottles|1, @Snowhead/Twin Islands/Goron Racetrack Prize"
+              "normal_logic, $bottles, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest",
+              "normal_logic, $bottles, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
+              "normal_logic, $bottles, romani, adultswallet",
+              "normal_logic, $bottles, @Snowhead/Twin Islands/Goron Racetrack Prize"
             ]
           }
         ]

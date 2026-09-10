@@ -44,7 +44,7 @@
             "chest_unopened_img": "images/characters/shiro.png",
             "access_rules": [
               "easy_logic, $can_play_eponas, $baby_has_bottle, $can_use_lens",
-              "normal_logic, $can_play_eponas, $has|bottles|1, $can_use_lens"
+              "normal_logic, $can_play_eponas, $bottles, $can_use_lens"
             ]
           }
         ],
@@ -180,7 +180,7 @@
             "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, $baby_has_bottle, adultswallet",
-              "normal_logic, $has|bottles|1, adultswallet"
+              "normal_logic, $bottles, adultswallet"
             ]
           },
           {

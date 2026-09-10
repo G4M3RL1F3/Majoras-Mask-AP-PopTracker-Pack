@@ -127,14 +127,14 @@
           {
             "name": "Healing Koume",
             "chest_unopened_img": "images/items/pictobox.png",
-            "access_rules": ["normal_logic, $has|bottles|1"]
+            "access_rules": ["normal_logic, $bottles"]
           },
           {
             "name": "Boat Archery",
             "chest_unopened_img": "images/icons/archery.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, redpotion, chateau, bow",
-              "normal_logic, $clear_woodfall, $has|bottles|1, bow"
+              "normal_logic, $clear_woodfall, $bottles, bow"
             ]
           },
           {
@@ -198,7 +198,7 @@
             "name": "Item 1",
             "chest_unopened_img": "images/items/blue_potion.png",
             "item_count": 500,
-            "access_rules": ["maskofscents, $has|bottles|1, $can_afford|$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 1"],
+            "access_rules": ["maskofscents, $bottles, $can_afford|$can_afford|Southern Swamp/Southern Swamp Witch Shop/Item 1"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -392,8 +392,8 @@
             "chest_unopened_img": "images/characters/butler.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, $baby_has_bottle",
-              "normal_logic, $clear_woodfall, $has|bottles|1, sword",
-              "normal_logic, $clear_woodfall, $has|bottles|1, fairysword"
+              "normal_logic, $clear_woodfall, $bottles, sword",
+              "normal_logic, $clear_woodfall, $bottles, fairysword"
             ]
           }
         ],

@@ -118,9 +118,9 @@ function onClear(slot_data)
         end
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print("Printing RANDOMIZED_PRICES table:")
-        end
-        for key, value in pairs(RANDOMIZED_PRICES) do
-            print(key, value[1], value[2])
+            for key, value in pairs(RANDOMIZED_PRICES) do
+                print(key, value[1], value[2])
+            end
         end
     end
     adjust_display_cost()
@@ -254,7 +254,13 @@ function onLocation(location_id, location_name)
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
         if v[1]:sub(1, 1) == "@" then
-            obj.AvailableChestCount = 0
+            for _, value in pairs(SHOP_NAMES) do
+                if location_name == value then
+                    obj.AvailableChestCount = 0
+                else
+                    obj.AvailableChestCount = obj.AvailableChestCount - 1
+                end
+            end
         else
             obj.Active = true
         end

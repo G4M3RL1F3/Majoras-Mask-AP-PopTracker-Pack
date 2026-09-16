@@ -245,15 +245,6 @@ function can_afford(location)
     end
 end
 
-function clear_wft()
-    if Tracker:FindObjectForCode("boss_odolwa_hosted").Active then
-        Tracker:FindObjectForCode("wftreward").Active = true
-    end
-    if Tracker:FindObjectForCode("boss_odolwa_hosted").Active == false then
-        Tracker:FindObjectForCode("wftreward").Active = false
-    end
-end
-
 function clock_town_map_purchased_1()
     if Tracker:FindObjectForCode("clock_town_map_purchase_1").Active == true then
         Tracker:FindObjectForCode("clock_town_map_purchase_2").Active = true
@@ -376,7 +367,6 @@ end
 
 ScriptHost:AddWatchForCode("Small Key Sanity Off", "small_key_sanity", smallKeySanity)
 ScriptHost:AddWatchForCode("Boss Key Sanity Off", "boss_key_sanity", bossKeySanity)
-ScriptHost:AddWatchForCode("OdolwaDefeated", "boss_odolwa_hosted", clear_wft)
 ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottles)
 ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", bottles)
 ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", bottles)

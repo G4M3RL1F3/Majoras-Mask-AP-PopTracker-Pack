@@ -1,13 +1,5 @@
 [
   {
-    "name": "Odolwa Boss Reward",
-    "type": "toggle",
-    "img": "images/equipment/odolwa.png",
-    "img_mods": "@disabled",
-    "disabled_img_mods": "none",
-    "codes": "boss_odolwa_hosted"
-  },
-  {
     "name": "Clock Town Map Purchase 1",
     "type": "toggle",
     "img": "images/icons/check_32.png",

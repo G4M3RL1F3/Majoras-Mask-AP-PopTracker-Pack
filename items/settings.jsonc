@@ -45,20 +45,6 @@
   },
 
   //Shuffles
-  //{
-  //  "name": "Swordless",
-  //  "type": "toggle",
-  //  "img": "images/pack_settings/shuffles/shuffle_kokiri_sword_on.png",
-  //  "disabled_img": "images/pack_settings/shuffles/shuffle_kokiri_sword_off.png",
-  //  "codes": "swordless"
-  //},
-  //{
-  //  "name": "Shieldless",
-  //  "type": "toggle",
-  //  "img": "images/pack_settings/shuffles/shuffle_hero_shield_on.png",
-  //  "disabled_img": "images/pack_settings/shuffles/shuffle_hero_shield_off.png",
-  //  "codes": "shieldless"
-  //},
   {
     "name": "Shuffle Regional Maps",
     "type": "progressive",
@@ -99,32 +85,6 @@
     "disabled_img": "images/pack_settings/shuffles/intro_checks_off.png",
     "codes": "intro_checks"
   },
-  //{
-  //  "name": "Shuffle Boss Remains",
-  //  "type": "progressive",
-  //  "allow_disabled": false,
-  //  "initial_stage_idx": 0,
-  //  "stages": [
-  //    {
-  //      "name": "Vanilla",
-  //      "img": "images/pack_settings/shuffles/shuffle_boss_remains_vanilla.png",
-  //      "codes": "shuffle_boss_remains, shuffle_boss_remains_vanilla",
-  //      "inherit_codes": false
-  //    },
-  //    {
-  //      "name": "Anywhere",
-  //      "img": "images/pack_settings/shuffles/shuffle_boss_remains_anywhere.png",
-  //      "codes": "shuffle_boss_remains_anywhere",
-  //      "inherit_codes": false
-  //    },
-  //    {
-  //      "name": "Bosses",
-  //      "img": "images/pack_settings/shuffles/shuffle_boss_remains_bosses.png",
-  //      "codes": "shuffle_boss_remains_bosses",
-  //      "inherit_codes": false
-  //    }
-  //  ]
-  //},
   {
     "name": "Shuffle Spiderhouse Rewards",
     "type": "progressive",

@@ -1,6 +1,7 @@
 --ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_switching.lua")
 --ScriptHost:LoadScript("scripts/autotracking/mappings.lua")
 ScriptHost:LoadScript("scripts/autotracking/shop.lua")
 ScriptHost:LoadScript("scripts/autotracking/tables.lua")
@@ -77,7 +78,6 @@ function onClear(slot_data)
         end
     end
     Tracker:FindObjectForCode("remains_moon").Active = false
-    Tracker:FindObjectForCode("bottles").CurrentStage = 0
 
     -- reset logic tricks
     --for _, logictrick in pairs(LOGIC_TRICK_MAPPING) do
@@ -191,6 +191,13 @@ function onClear(slot_data)
     --for _, trick in ipairs(slot_data["logic_tricks"]) do
     --    Tracker:FindObjectForCode(LOGIC_TRICK_MAPPING[string.format("%s", trick)]).Active = true
     --end
+
+    map_key = "Majora's_Mask_Recompiled_"..Archipelago.TeamNumber.."_"..Archipelago.PlayerNumber.."_scene"
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("Data storage map key: '%s'", map_key))
+    end
+    Archipelago:SetNotify({map_key})
+    Archipelago:Get({map_key})
 
 	Tracker.BulkUpdate = false
 end
@@ -351,12 +358,25 @@ function updateHint(hint, sections_to_update)
   end
 end
 
+function onChangedRegion(key, current_region, old_region)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("onChangedRegion: New scene ID: '%s'", current_region))
+    end
+    for _, tab in ipairs(TABS_MAPPING[current_region]) do
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+            print(string.format("onChangedRegion: Activating tab: '%s'", tab))
+        end
+        Tracker:UiHint("ActivateTab", tab)
+    end
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
-Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
-Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
+-- Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
+-- Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
+Archipelago:AddSetReplyHandler("map_key", onChangedRegion)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)

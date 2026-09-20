@@ -78,7 +78,7 @@ function has_paper()
 end
 
 function can_get_cow_milk()
-    return bottles() and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("gibdo") and has("bottles",1) and can_plant_beans() and canReachHotWaterGrottoChest() or can_use_light_arrows() and (canReachHotWaterGrottoChest() or (has("goron") and can_use_lens()) or canReachIkanaWellInvisibleChest())))
+    return bottles() and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("gibdo") and bottles() and can_plant_beans() and canReachHotWaterGrottoChest() or can_use_light_arrows() and (canReachHotWaterGrottoChest() or (has("goron") and can_use_lens()) or canReachIkanaWellInvisibleChest())))
 end
 
 function can_plant_beans() -- was "plant_beans"

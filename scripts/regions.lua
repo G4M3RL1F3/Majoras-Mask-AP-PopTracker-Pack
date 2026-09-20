@@ -199,7 +199,7 @@ function baby_well()
     return baby_ikana_canyon() and can_use_ice_arrows() and has("gibdo") and baby_has_bottle()
 end
 function well()
-    return (upper_ikana_canyon() and has("gibdo") and bottles()) or (ikana_castle() and can_use_light_arrows())
+    return (upper_ikana_canyon() and has("gibdo") and bottles())-- or (ikana_castle() and can_use_light_arrows())
 end
 
 -- Upper Ikana Canyon -> Ikana Castle

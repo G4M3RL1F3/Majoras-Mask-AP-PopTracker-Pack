@@ -319,7 +319,7 @@
           {
             "name": "Freestanding Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["@Goron Village/Deku Trade"]
+            "access_rules": ["@Goron Village/Deed Trade (as Deku)"]
           //},
           //{
           //  "name": "Freestanding Heart Piece (Spring)",

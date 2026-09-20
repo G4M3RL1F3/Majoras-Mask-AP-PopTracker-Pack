@@ -38,9 +38,9 @@
             "name": "Upgrade",
             "chest_unopened_img": "images/equipment/sword2.png",
             "access_rules": [
-              "easy_logic, adultswallet, $baby_clear_snowhead, $baby_has_bottle, @Mountain Village/Invisible Ladder Cave Healing Invisible Goron, $can_use_fire_arrows",
+              "easy_logic, adultswallet, $baby_clear_snowhead, $baby_has_bottle, @Snowhead/Darmani Graveyard/Healing Darmani, $can_use_fire_arrows",
               "normal_logic, adultswallet, $can_use_fire_arrows",
-              "normal_logic, adultswallet, @Twin Islands/Hot Water Grotto Chest",
+              "normal_logic, adultswallet, @Snowhead/Twin Islands Hot Spring Water Grotto/Chest",
               "normal_logic, adultswallet, $clear_snowhead"
             ]
           },
@@ -48,8 +48,8 @@
             "name": "Gold Dust Upgrade",
             "chest_unopened_img": "images/equipment/sword3.png",
             "access_rules": [
-              "easy_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize",
-              "normal_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize, $bottles"
+              "easy_logic, @Snowhead/Mountain Village/Upgrade, @Snowhead/Goron Racetrack/Race Prize",
+              "normal_logic, @Snowhead/Mountain Village/Upgrade, @Snowhead/Goron Racetrack/Race Prize, $bottles"
             ]
           }
         ],

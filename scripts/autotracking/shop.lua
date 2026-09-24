@@ -2,22 +2,22 @@ SHOP_NAMES = {
     {"Southern Swamp/Witch Shop/Item 3"},                                    -- SI_POTION_RED_1
     {"Southern Swamp/Witch Shop/Item 2"},                                    -- SI_POTION_GREEN_1
     {"Southern Swamp/Witch Shop/Item 1"},                                    -- SI_POTION_BLUE
-    {"Clock Town/Trading Post/Shop Item 4"},                                                -- SI_FAIRY_1
-    {"Clock Town/Trading Post/Shop Item 8"},                                                -- SI_ARROWS_LARGE_1
-    {"Clock Town/Trading Post/Shop Item 2"},                                                -- SI_POTION_GREEN_2
-    {"Clock Town/Trading Post/Shop Item 3"},                                                -- SI_SHIELD_HERO_1
-    {"Clock Town/Trading Post/Shop Item 5"},                                                -- SI_STICK_1
-    {"Clock Town/Trading Post/Shop Item 6"},                                                -- SI_ARROWS_MEDIUM_1
-    {"Clock Town/Trading Post/Shop Item 7"},                                                -- SI_NUTS_1
-    {"Clock Town/Trading Post/Shop Item 1"},                                                -- SI_POTION_RED_2
-    {"Clock Town/Trading Post/Shop (Night) Item 4"},                                        -- SI_FAIRY_2
-    {"Clock Town/Trading Post/Shop (Night) Item 6"},                                        -- SI_ARROWS_MEDIUM_2
-    {"Clock Town/Trading Post/Shop (Night) Item 8"},                                        -- SI_ARROWS_LARGE_2
-    {"Clock Town/Trading Post/Shop (Night) Item 2"},                                        -- SI_POTION_GREEN_3
-    {"Clock Town/Trading Post/Shop (Night) Item 7"},                                        -- SI_NUTS_2
-    {"Clock Town/Trading Post/Shop (Night) Item 5"},                                        -- SI_STICK_2
-    {"Clock Town/Trading Post/Shop (Night) Item 3"},                                        -- SI_SHIELD_HERO_2
-    {"Clock Town/Trading Post/Shop (Night) Item 1"},                                        -- SI_POTION_RED_3
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop Item 4"},                                                -- SI_FAIRY_1
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop Item 8"},                                                -- SI_ARROWS_LARGE_1
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop Item 2"},                                                -- SI_POTION_GREEN_2
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop Item 3"},                                                -- SI_SHIELD_HERO_1
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop Item 5"},                                                -- SI_STICK_1
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop Item 6"},                                                -- SI_ARROWS_MEDIUM_1
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop Item 7"},                                                -- SI_NUTS_1
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop Item 1"},                                                -- SI_POTION_RED_2
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 4"},                                        -- SI_FAIRY_2
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 6"},                                        -- SI_ARROWS_MEDIUM_2
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 8"},                                        -- SI_ARROWS_LARGE_2
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 2"},                                        -- SI_POTION_GREEN_3
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 7"},                                        -- SI_NUTS_2
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 5"},                                        -- SI_STICK_2
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 3"},                                        -- SI_SHIELD_HERO_2
+    {"Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 1"},                                        -- SI_POTION_RED_3
     {"Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 (Stop Thief)"},       -- SI_MASK_ALL_NIGHT
     {"SI_BOMB_BAG_20_1"},                                                                   -- Unused
     {"Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 Thief Stolen Item"},  -- SI_BOMB_BAG_30_1
@@ -46,22 +46,22 @@ DEFAULT_SHOP_PRICES = {
     {20, "Southern Swamp/Witch Shop/Item 3"},                                    -- SI_POTION_RED_1
     {10, "Southern Swamp/Witch Shop/Item 2"},                                    -- SI_POTION_GREEN_1
     {60, "Southern Swamp/Witch Shop/Item 1"},                                    -- SI_POTION_BLUE
-    {50, "Clock Town/Trading Post/Shop Item 4"},                                                -- SI_FAIRY_1
-    {40, "Clock Town/Trading Post/Shop Item 8"},                                                -- SI_ARROWS_LARGE_1
-    {30, "Clock Town/Trading Post/Shop Item 2"},                                                -- SI_POTION_GREEN_2
-    {80, "Clock Town/Trading Post/Shop Item 3"},                                                -- SI_SHIELD_HERO_1
-    {10, "Clock Town/Trading Post/Shop Item 5"},                                                -- SI_STICK_1
-    {30, "Clock Town/Trading Post/Shop Item 6"},                                                -- SI_ARROWS_MEDIUM_1
-    {30, "Clock Town/Trading Post/Shop Item 7"},                                                -- SI_NUTS_1
-    {30, "Clock Town/Trading Post/Shop Item 1"},                                                -- SI_POTION_RED_2
-    {50, "Clock Town/Trading Post/Shop (Night) Item 4"},                                        -- SI_FAIRY_2
-    {30, "Clock Town/Trading Post/Shop (Night) Item 6"},                                        -- SI_ARROWS_MEDIUM_2
-    {40, "Clock Town/Trading Post/Shop (Night) Item 8"},                                        -- SI_ARROWS_LARGE_2
-    {30, "Clock Town/Trading Post/Shop (Night) Item 2"},                                        -- SI_POTION_GREEN_3
-    {30, "Clock Town/Trading Post/Shop (Night) Item 7"},                                        -- SI_NUTS_2
-    {10, "Clock Town/Trading Post/Shop (Night) Item 5"},                                        -- SI_STICK_2
-    {80, "Clock Town/Trading Post/Shop (Night) Item 3"},                                        -- SI_SHIELD_HERO_2
-    {30, "Clock Town/Trading Post/Shop (Night) Item 1"},                                        -- SI_POTION_RED_3
+    {50, "Clock Town/Trading Post (night shift at 9 PM)/Shop Item 4"},                                                -- SI_FAIRY_1
+    {40, "Clock Town/Trading Post (night shift at 9 PM)/Shop Item 8"},                                                -- SI_ARROWS_LARGE_1
+    {30, "Clock Town/Trading Post (night shift at 9 PM)/Shop Item 2"},                                                -- SI_POTION_GREEN_2
+    {80, "Clock Town/Trading Post (night shift at 9 PM)/Shop Item 3"},                                                -- SI_SHIELD_HERO_1
+    {10, "Clock Town/Trading Post (night shift at 9 PM)/Shop Item 5"},                                                -- SI_STICK_1
+    {30, "Clock Town/Trading Post (night shift at 9 PM)/Shop Item 6"},                                                -- SI_ARROWS_MEDIUM_1
+    {30, "Clock Town/Trading Post (night shift at 9 PM)/Shop Item 7"},                                                -- SI_NUTS_1
+    {30, "Clock Town/Trading Post (night shift at 9 PM)/Shop Item 1"},                                                -- SI_POTION_RED_2
+    {50, "Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 4"},                                        -- SI_FAIRY_2
+    {30, "Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 6"},                                        -- SI_ARROWS_MEDIUM_2
+    {40, "Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 8"},                                        -- SI_ARROWS_LARGE_2
+    {30, "Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 2"},                                        -- SI_POTION_GREEN_3
+    {30, "Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 7"},                                        -- SI_NUTS_2
+    {10, "Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 5"},                                        -- SI_STICK_2
+    {80, "Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 3"},                                        -- SI_SHIELD_HERO_2
+    {30, "Clock Town/Trading Post (night shift at 9 PM)/Shop (Night) Item 1"},                                        -- SI_POTION_RED_3
     {500, "Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 (Stop Thief)"},      -- SI_MASK_ALL_NIGHT
     {100, "SI_BOMB_BAG_20_1"},                                                                  -- Unused
     {100, "Clock Town/Curiosity Shop (10 PM - 6 AM)/Night 3 Thief Stolen Item"}, -- SI_BOMB_BAG_30_1

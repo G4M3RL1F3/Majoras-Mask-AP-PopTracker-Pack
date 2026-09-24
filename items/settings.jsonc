@@ -512,15 +512,6 @@
 
   //Miscellaneous
   {
-    "name": "Chest Appearance Matches Content",
-    "type": "toggle",
-    "img": "images/pack_settings/miscellaneous/camc_on.png",
-    "disabled_img": "images/pack_settings/miscellaneous/camc_off.png",
-    "disabled_img_mods": "none",
-    "initial_active_state": true,
-    "codes": "camc"
-  },
-  {
     "name": "Magic is a Trap",
     "type": "toggle",
     "img": "images/pack_settings/miscellaneous/magic_is_a_trap_on.png",

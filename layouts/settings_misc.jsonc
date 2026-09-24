@@ -25,11 +25,6 @@
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "camc"
-                  },
-                  {
-                    "type": "item",
-                    "max_width": 260,
                     "item": "skip_digging"
                   }
                 ]

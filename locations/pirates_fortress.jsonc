@@ -7,7 +7,7 @@
         "sections": [
           {
             "name": "Chest",
-            "ref": "Dungeons/Pirates' Fortress/Underwater Log Chest"
+            "ref": "Dungeons/Pirates' Fortress Moat/Underwater Log Chest"
           }
         ],
         "map_locations": [
@@ -23,7 +23,7 @@
         "sections": [
           {
             "name": "Chest",
-            "ref": "Dungeons/Pirates' Fortress/Underwater Near Entrance Chest"
+            "ref": "Dungeons/Pirates' Fortress Moat/Underwater Near Entrance Chest"
           }
         ],
         "map_locations": [
@@ -39,7 +39,7 @@
         "sections": [
           {
             "name": "Chest",
-            "ref": "Dungeons/Pirates' Fortress/Underwater Corner Chest"
+            "ref": "Dungeons/Pirates' Fortress Moat/Underwater Corner Chest"
           }
         ],
         "map_locations": [
@@ -55,7 +55,7 @@
         "sections": [
           {
             "name": "Heart Piece",
-            "ref": "Dungeons/Pirates' Fortress/Cage HP"
+            "ref": "Dungeons/Pirates' Fortress Sewers/Cage HP"
           }
         ],
         "map_locations": [
@@ -71,7 +71,7 @@
         "sections": [
           {
             "name": "Chest",
-            "ref": "Dungeons/Pirates' Fortress/Maze Chest"
+            "ref": "Dungeons/Pirates' Fortress Sewers/Maze Chest"
           }
         ],
         "map_locations": [
@@ -87,7 +87,7 @@
         "sections": [
           {
             "name": "Chest",
-            "ref": "Dungeons/Pirates' Fortress/Underwater Lower Chest"
+            "ref": "Dungeons/Pirates' Fortress Sewers/Underwater Lower Chest"
           }
         ],
         "map_locations": [
@@ -103,7 +103,7 @@
         "sections": [
           {
             "name": "Chest",
-            "ref": "Dungeons/Pirates' Fortress/Underwater Upper Chest"
+            "ref": "Dungeons/Pirates' Fortress Sewers/Underwater Upper Chest"
           }
         ],
         "map_locations": [

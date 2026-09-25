@@ -278,9 +278,9 @@ LOCATION_MAPPING = {
     [0x060717] = {"@Great Bay/Fisherman's Hut/Fisherman's Grotto Chest"},
     [0x0000AC] = {"@Great Bay/Research Lab/Baby Zora Song"},
     [0x0701D9] = {"@Great Bay/Research Lab/Feeding Lab Fish"},
-    [0xBEEF16] = {"@Great Bay/Great Bay CoastRock Wall/Cow Grotto Left Cow"},
-    [0xBEEF15] = {"@Great Bay/Great Bay CoastRock Wall/Cow Grotto Right Cow"},
-    [0x053705] = {"@Great Bay/Great Bay CoastRock Wall/Scarecrow Ledge Heart Piece"},
+    [0xBEEF16] = {"@Great Bay/Great Bay Coast Rock Wall/Cow Grotto Left Cow"},
+    [0xBEEF15] = {"@Great Bay/Great Bay Coast Rock Wall/Cow Grotto Right Cow"},
+    [0x053705] = {"@Great Bay/Great Bay Coast Rock Wall/Scarecrow Ledge Heart Piece"},
     [0x070292] = {"@Great Bay/Fisherman Island/Fisherman Game"},
 
     -- Zora Cape

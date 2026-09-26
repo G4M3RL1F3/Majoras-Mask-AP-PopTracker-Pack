@@ -79,7 +79,7 @@
         "name": "Fisherman Island",
         "sections": [
           {
-            "name": "Great Bay Fisherman Game",
+            "name": "Fisherman Game",
             "chest_unopened_img": "images/icons/torch.png",
             "access_rules": [
               "easy_logic, $baby_clear_greatbay",

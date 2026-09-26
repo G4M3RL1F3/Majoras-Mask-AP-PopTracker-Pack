@@ -74,7 +74,7 @@ function can_smack() -- was "smack"
 end
 
 function has_paper()
-    return has("landdeed") or has("swampdeed") or has("mountaindeed") or has("oceandeed") or has("kafeiletter") or has("express")
+    return has("landdeed") or has("swampdeed") or has("mountaindeed") or has("oceandeed") or has("kafeiletter") or has("priority_mail")
 end
 
 function can_get_cow_milk()
@@ -140,7 +140,7 @@ function baby_can_smack()
 end
 
 function baby_has_paper()
-    return has("landdeed") and has("swampdeed") and has("mountaindeed") or has("oceandeed") or has("kafeiletter") or has("express")
+    return has("landdeed") and has("swampdeed") and has("mountaindeed") or has("oceandeed") or has("kafeiletter") or has("priority_mail")
 end
 
 function baby_has_bottle()

@@ -171,10 +171,10 @@
     "codes": "roomkey"
   },
   {
-    "name": "Express Letter",
+    "name": "Priority Mail",
     "type": "toggle",
     "img": "images/items/express.png",
-    "codes": "express,mamaletter"
+    "codes": "priority_mail"
   },
   {
     "name": "Powder Keg",

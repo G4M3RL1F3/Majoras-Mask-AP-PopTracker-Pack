@@ -580,7 +580,7 @@
           {
             "name": "Priority Mail to Aroma (Final Night)",
             "chest_unopened_img": "images/characters/madame_aroma.png",
-            "access_rules": ["romani, kafei, express"]
+            "access_rules": ["romani, kafei, priority_mail"]
           },
           {
             "name": "Milk Purchase",
@@ -705,7 +705,7 @@
           {
             "name": "Priority Mail to Postman (Final Night)",
             "chest_unopened_img": "images/characters/postman.png",
-            "access_rules": ["express"]
+            "access_rules": ["priority_mail"]
           }
         ],
         "map_locations": [

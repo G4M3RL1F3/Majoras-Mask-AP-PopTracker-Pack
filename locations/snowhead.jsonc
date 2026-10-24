@@ -48,8 +48,8 @@
             "name": "Gold Dust Upgrade",
             "chest_unopened_img": "images/equipment/sword3.png",
             "access_rules": [
-              "easy_logic, @Snowhead/Mountain Village/Upgrade, @Snowhead/Goron Racetrack/Race Prize",
-              "normal_logic, @Snowhead/Mountain Village/Upgrade, @Snowhead/Goron Racetrack/Race Prize, $bottles"
+              "easy_logic, @Snowhead/Mountain Village Smithy/Upgrade, @Snowhead/Goron Racetrack/Race Prize",
+              "normal_logic, @Snowhead/Mountain Village Smithy/Upgrade, @Snowhead/Goron Racetrack/Race Prize, $bottles"
             ]
           }
         ],

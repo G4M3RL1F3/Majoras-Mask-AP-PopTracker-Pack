@@ -5,9 +5,21 @@
     //"margin": "0,0,2,0",
     "content": [
       {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "87,7,0,0",
+        "content": [
+          {
+            "type": "item",
+            "item": "broadcast_background"
+          }
+        ]
+      },
+      {
         "type": "itemgrid",
         "h_alignment": "center",
         "v_alignment": "center",
+        "margin": "0,-302,0,0",
         "item_margin": "3,3",
         "rows": [
           ["sticks", "nuts", "bow", "firearrow", "icearrow", "lightarrow", "ocarina", "shield"],
@@ -26,25 +38,26 @@
       {
         "type": "array",
         "orientation": "horizontal",
+        "margin": "0,-6,0,0",
         "content": [
           {
             "type": "item",
-            "margin": "27,0",
+            "margin": "19,0,25,0",
             "item": "wft_header"
           },
           {
             "type": "item",
-            "margin": "16,0",
+            "margin": "19,0,25,0",
             "item": "sht_header"
           },
           {
             "type": "item",
-            "margin": "27,0",
+            "margin": "19,0,25,0",
             "item": "gbt_header"
           },
           {
             "type": "item",
-            "margin": "16,0",
+            "margin": "19,0,25,0",
             "item": "stt_header"
           }
         ]

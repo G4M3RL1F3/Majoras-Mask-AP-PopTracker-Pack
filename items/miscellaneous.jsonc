@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Broadcast Background",
+        "type": "static",
+        "img": "images/broadcast_background.png",
+        "codes": "broadcast_background"
+    }
+]

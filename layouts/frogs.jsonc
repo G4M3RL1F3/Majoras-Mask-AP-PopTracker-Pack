@@ -1,0 +1,20 @@
+{
+  "frogs_layout": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "1,16",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "1,1",
+        "rows": [
+          ["frog_yellow"],
+          ["frog_white", "frog_blue"],
+          ["frog_cyan", "frog_pink"]
+        ]
+      }
+    ]
+  }
+}

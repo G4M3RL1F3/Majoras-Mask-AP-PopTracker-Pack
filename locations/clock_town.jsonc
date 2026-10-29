@@ -730,15 +730,28 @@
           }
         ],
         "map_locations": [
-          //{
-          //  "map": "overworld",
-          //  "x": 50,
-          //  "y": 214
-          //},
           {
             "map": "clock_town",
             "x": 263,
             "y": 894
+          }
+        ]
+      },
+      {
+        "name": "Laundry Pool Frog",
+        "sections": [
+          {
+            "name": "Frog",
+            "chest_unopened_img": "images/frogs/frog_white.png",
+            "visibility_rules": ["frogsanity"],
+            "access_rules": ["dongero"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_town",
+            "x": 235,
+            "y": 807
           }
         ]
       },
@@ -1571,6 +1584,10 @@
           {
             "name": "Musician",
             "ref": "Clock Town/Laundry Pool/Musician (Night 1 - 2)"
+          },
+          {
+            "name": "Frog",
+            "ref": "Clock Town/Laundry Pool Frog/Frog"
           },
           {
             "name": "Kafei's Request",

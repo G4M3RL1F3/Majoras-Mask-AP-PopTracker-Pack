@@ -1,4 +1,5 @@
 Tracker:AddLayouts("layouts/horizontal_collectibles.jsonc")
+Tracker:AddLayouts("layouts/frogs.jsonc")
 Tracker:AddLayouts("layouts/horizontal_dungeons.jsonc")
 Tracker:AddLayouts("layouts/horizontal_equipment.jsonc")
 Tracker:AddLayouts("layouts/horizontal_items.jsonc")

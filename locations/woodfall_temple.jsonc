@@ -343,6 +343,23 @@
         ]
       },
       {
+        "name": "Miniboss Frog",
+        "sections": [
+          {
+            "name": "Stray Fairy",
+            "ref": "Dungeons/Woodfall Temple/Miniboss Frog"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 965,
+            "y": 491
+          }
+        ]
+      },
+      {
         "name": "Odolwa",
         "sections": [
           {

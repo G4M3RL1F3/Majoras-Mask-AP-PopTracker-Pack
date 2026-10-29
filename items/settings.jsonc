@@ -219,6 +219,13 @@
     "disabled_img": "images/pack_settings/sanities/cowsanity_off.png",
     "codes": "cowsanity"
   },
+  {
+    "name": "Frogsanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/frogsanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/frogsanity_off.png",
+    "codes": "frogsanity"
+  },
 
   //Dungeons
   {

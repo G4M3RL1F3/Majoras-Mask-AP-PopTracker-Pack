@@ -246,6 +246,12 @@
             ]
           },
           {
+            "name": "Miniboss Frog",
+            "chest_unopened_img": "images/frogs/frog_cyan.png",
+            "visibility_rules": ["frogsanity"],
+            "access_rules": ["deku, bow, $can_smack, dongero"]
+          },
+          {
             "name": "Heart Container",
             "chest_unopened_img": "images/equipment/heart_container.png",
             "access_rules": [
@@ -698,6 +704,12 @@
               "easy_logic, zora",
               "normal_logic"
             ]
+          },
+          {
+            "name": "Miniboss Frog",
+            "chest_unopened_img": "images/frogs/frog_pink.png",
+            "visibility_rules": ["frogsanity"],
+            "access_rules": ["zora, $can_use_ice_arrows, $can_use_fire_arrows, dongero"]
           },
           {
             "name": "Mad Jellied Gekko Chest",

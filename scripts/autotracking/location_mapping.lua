@@ -469,5 +469,11 @@ LOCATION_MAPPING = {
     [0x00007B] = {"@Inside the Moon/The Moon/Trade All Masks"},
 
     -- Any Boss
-    [0x040065] = {"oath_wft"}
+    [0x040065] = {"oath_wft"},
+
+    -- Frogs
+    [0xFF0004] = {"@Clock Town/Laundry Pool Frog/Frog"},
+    [0xFF0003] = {"@Southern Swamp/Southern Swamp Frog/Frog"},
+    [0xFF0001] = {"@Dungeons/Woodfall Temple/Miniboss Frog"},
+    [0xFF0002] = {"@Dungeons/Great Bay Temple/Miniboss Frog"}
 }

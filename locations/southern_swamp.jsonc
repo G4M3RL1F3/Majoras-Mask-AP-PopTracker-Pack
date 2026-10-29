@@ -254,6 +254,24 @@
         ]
       },
       {
+        "name": "Southern Swamp Frog",
+        "sections": [
+          {
+            "name": "Frog",
+            "chest_unopened_img": "images/frogs/frog_blue.png",
+            "visibility_rules": ["frogsanity"],
+            "access_rules": ["dongero"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1118,
+            "y": 924
+          }
+        ]
+      },
+      {
         "name": "Deku King's Chamber",
         "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
         "sections": [

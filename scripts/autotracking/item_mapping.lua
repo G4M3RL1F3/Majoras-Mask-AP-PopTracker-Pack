@@ -117,5 +117,12 @@ ITEM_MAPPING = {
 [0x090274] = {"bosskey_gb","toggle"},
 [0x090374] = {"bosskey_st","toggle"},
 [0x000075] = {"skull_ss","consumable"},
-[0x000072] = {"skull_gb","consumable"}
+[0x000072] = {"skull_gb","consumable"},
+
+-- Frogs
+[0xFF0000] = {"frog_yellow","toggle"},
+[0xFF0004] = {"frog_white","toggle"},
+[0xFF0003] = {"frog_cyan","toggle"},
+[0xFF0001] = {"frog_blue","toggle"},
+[0xFF0002] = {"frog_pink","toggle"}
 }

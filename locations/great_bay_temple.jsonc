@@ -163,6 +163,22 @@
         ]
       },
       {
+        "name": "Miniboss Frog",
+        "sections": [
+          {
+            "name": "Chest",
+            "ref": "Dungeons/Great Bay Temple/Miniboss Frog"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 582,
+            "y": 77
+          }
+        ]
+      },
+      {
         "name": "Mad Jellied Gekko Chest",
         "sections": [
           {
